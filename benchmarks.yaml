@@ -1,0 +1,115 @@
+# =============================================================================
+# Benchmark Evaluation Configuration
+# =============================================================================
+# limit field can be set to an integer to limit number of examples for faster testing -> set to null to run on full dataset
+
+benchmarks:
+  gsm8k:
+    task: gsm8k
+    enabled: true
+    num_fewshot: 5
+    limit: 2
+
+  asdiv:
+    task: asdiv
+    enabled: true
+    num_fewshot: 5
+    limit: 2
+    cot_overrides:
+      output_type: generate_until
+      doc_to_text: "Given the following problem, reason and give a final answer.\nProblem: {{body}} {{question}}\nSolution:"
+      generation_kwargs:
+        do_sample: false
+        until:
+          - "Problem:"
+          - "</s>"
+      filter_list:
+        - name: "strict-match"
+          filter:
+            - function: regex
+              regex_pattern: "The final answer is\\s*(-?\\d+\\.?\\d*)"
+            - function: take_first
+        - name: "flexible-extract"
+          filter:
+            - function: regex
+              group_select: -1
+              regex_pattern: "(-?[$0-9.,]{2,})|(-?[0-9]+)"
+            - function: take_first
+
+  csqa:
+    task: commonsense_qa
+    enabled: true
+    num_fewshot: 5
+    limit: 2
+    cot_overrides:
+      output_type: generate_until
+      generation_kwargs:
+        do_sample: false
+        until:
+          - "Question:"
+          - "</s>"
+      filter_list:
+        - name: "strict-match"
+          filter:
+            - function: regex
+              regex_pattern: "the answer is ([A-E])"
+            - function: take_first
+        - name: "flexible-extract"
+          filter:
+            - function: regex
+              regex_pattern: "\\b([A-E])\\b"
+            - function: take_first
+
+# here we can add more benchmark defitions, although we need to specify their path / content
+
+# =============================================================================
+# Chain-of-Thought Variants
+# =============================================================================
+
+cots:
+  example-1:
+    fewshot_path: fewshot/example-1.jsonl # TODO remove this one and replace it with the papers COT
+    num_fewshot: 8
+
+# We can add different COT approaches here:
+
+# =============================================================================
+# Models
+# =============================================================================
+
+models:
+  defaults:
+    apply_chat_template: true
+    fewshot_as_multiturn: false
+    batch_size: null
+
+  # Local: Ollama
+  gemma4:e4b:
+    type: local-chat-completions
+    base_url: "http://localhost:11434/v1/chat/completions"
+
+  smollm2:135m:
+    type: local-chat-completions
+    base_url: "http://localhost:11434/v1/chat/completions"
+
+  # Local: HuggingFace
+  # t5-small:
+  #   type: hf
+  #   batch_size: "auto"
+
+  # OpenAI API (set OPENAI_API_KEY env var)
+  # gpt-4o:
+  #   type: openai-chat-completions
+
+  # OpenRouter (set OPENROUTER_API_KEY env var)
+  # llama-3.1-8b:
+  #   type: openai-chat-completions
+  #   base_url: "https://openrouter.ai/api/v1"
+
+  # Anthropic (set ANTHROPIC_API_KEY env var)
+  # claude-3-opus:
+  #   type: anthropic-chat
+
+  # LiteLLM (wraps 100+ providers, set provider API key)
+  # gemini-pro:
+  #   type: litellm-chat-completions

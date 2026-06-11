@@ -1,0 +1,2 @@
+model,benchmark,task,accuracy,error,eval_time_sec
+smollm2:135m,gsm8k_example-1,gsm8k_cot,,'answer' is undefined,1.94
