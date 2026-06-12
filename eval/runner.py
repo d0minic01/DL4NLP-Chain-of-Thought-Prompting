@@ -9,7 +9,12 @@ import torch
 from lm_eval import simple_evaluate
 from lm_eval.tasks import TaskManager
 
-from eval.tasks import build_task_yaml, configure_runs, resolve_models
+from eval.tasks import (
+    build_task_yaml,
+    configure_runs,
+    discover_prompt_sets,
+    resolve_models,
+)
 
 TASKS_DIR = Path(__file__).resolve().parent.parent / "tasks"
 
@@ -96,12 +101,26 @@ def save_result(results_dir, bench_base, model_name, row, cot_name=None, samples
 
 def run_eval(config):
     benchmarks = config.get("benchmarks", {})
-    cots = config.get("cots", {})
+    prompt_sets = discover_prompt_sets()
     models = resolve_models(config.get("models", {}))
     results_dir = Path("results")
     log_samples = config.get("log_samples", False)
 
-    runs = configure_runs(benchmarks, cots)
+    runs = configure_runs(benchmarks, prompt_sets)
+
+    if config.get("cot_only"):
+        runs = [r for r in runs if r["is_cot"]]
+    elif config.get("baseline_only"):
+        runs = [r for r in runs if not r["is_cot"]]
+
+    if prompt_set_override := config.get("prompt_set_override"):
+        for run in runs:
+            run["prompt_cfg"] = prompt_sets[prompt_set_override]
+            run["prompt_set"] = prompt_set_override
+
+    if config.get("limit") is not None:
+        for run in runs:
+            run["limit"] = config["limit"]
 
     device = get_device()
 
@@ -114,7 +133,7 @@ def run_eval(config):
         for run in runs:
             yaml_content, num_fewshot = build_task_yaml(
                 run["task"],
-                run["fewshot_cfg"],
+                run["prompt_cfg"],
                 base_tm,
                 run["bench_name"],
                 is_cot=run["is_cot"],
@@ -131,7 +150,7 @@ def run_eval(config):
             for run in runs:
                 bench_name = run["bench_name"]
                 bench_base = run["bench_base"]
-                cot_name = run.get("cot_name")
+                prompt_set = run.get("prompt_set")
 
                 clear_gpu()
                 start = time.perf_counter()
@@ -183,10 +202,15 @@ def run_eval(config):
                 }
                 all_results.append(row)
                 save_result(
-                    results_dir, bench_base, model_name, row, cot_name, samples=samples
+                    results_dir,
+                    bench_base,
+                    model_name,
+                    row,
+                    prompt_set,
+                    samples=samples,
                 )
 
-                clear_gpu()
+    clear_gpu()
 
     df = pd.DataFrame(all_results)
 

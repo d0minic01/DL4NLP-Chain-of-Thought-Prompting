@@ -3,13 +3,13 @@ import os
 import textwrap
 
 from eval.runner import run_eval
-from eval.tasks import load_config, resolve_models
+from eval.tasks import discover_prompt_sets, load_config, resolve_models
 
 
 def build_help_text():
     config = load_config()
     benchmarks = list(config.get("benchmarks", {}).keys())
-    cots = list(config.get("cots", {}).keys())
+    prompt_sets = list(discover_prompt_sets().keys())
     models = list(resolve_models(config.get("models", {})).keys())
 
     width = os.get_terminal_size().columns
@@ -17,7 +17,7 @@ def build_help_text():
     lines.append("\n")
     for label, items in [
         ("Benchmarks", benchmarks),
-        ("Cots", cots),
+        ("Prompt sets", prompt_sets),
         ("Models", models),
     ]:
         text = f"\033[1m{label}\033[0m: {', '.join(items)}"
@@ -45,13 +45,26 @@ def parse_args():
     parser.add_argument(
         "-c",
         "--cot",
-        help="Run only a specific CoT variant by name",
+        action="store_true",
+        help="Run the CoT variant (default: run the baseline fewshot variant)",
+    )
+    parser.add_argument(
+        "-p",
+        "--prompts",
+        metavar="PROMPT_SET",
+        help="Override the prompt set (default: uses the one defined in benchmarks.yaml)",
+    )
+    parser.add_argument(
+        "-d",
+        "--debug",
+        action="store_true",
+        help="Log model inputs/outputs to JSON files",
     )
     parser.add_argument(
         "-l",
-        "--log_samples",
-        action="store_true",
-        help="Log model inputs/outputs to JSON files",
+        "--limit",
+        type=int,
+        help="Override the number of examples to evaluate per benchmark",
     )
     return parser.parse_args()
 
@@ -70,21 +83,15 @@ def apply_filters(config, args):
         require_key("Benchmark", args.benchmark, benchmarks)
         config["benchmarks"] = {args.benchmark: benchmarks[args.benchmark]}
 
+    if args.prompts:
+        prompt_sets = discover_prompt_sets()
+        require_key("Prompt set", args.prompts, prompt_sets)
+        config["prompt_set_override"] = args.prompts
+
     if args.cot:
-        cots = config.get("cots", {})
-        require_key("CoT", args.cot, cots)
-        config["cots"] = {args.cot: cots[args.cot]}
-
-    if args.benchmark and not args.cot:
-        # Keep the CoT referenced by the benchmark
-        benchmarks = config.get("benchmarks", {})
-        cot_name = benchmarks.get(args.benchmark, {}).get("cot")
-        if cot_name:
-            cots = config.get("cots", {})
-            config["cots"] = {cot_name: cots[cot_name]} if cot_name in cots else {}
-
-    if args.benchmark and args.cot:
-        config["run_base"] = False
+        config["cot_only"] = True
+    elif args.benchmark:
+        config["baseline_only"] = True
 
     if args.model:
         resolved = resolve_models(config.get("models", {}))
@@ -104,13 +111,10 @@ def apply_filters(config, args):
 def main():
     args = parse_args()
 
-    any_flag = args.benchmark or args.model or args.cot
-    if any_flag and not args.model:
-        print("Error: -m/--model is required when using other flags")
-        raise SystemExit(1)
-
     config = load_config()
     config = apply_filters(config, args)
-    if args.log_samples:
+    if args.debug:
         config["log_samples"] = True
+    if args.limit is not None:
+        config["limit"] = args.limit
     run_eval(config)

@@ -6,45 +6,17 @@ benchmarks:
   gsm8k:
     task: gsm8k
     limit: 2
-    cot: math_word_problems
+    prompt_set: math_word_problems
 
   asdiv:
     task: asdiv
     limit: 5
-    cot: math_word_problems
+    prompt_set: math_word_problems
 
   csqa:
     task: commonsense_qa
     limit: 2
-    cot: csqa
-
-# here we can add more benchmark defitions, although we need to specify their path / content
-
-# =============================================================================
-# Chain-of-Thought Variants
-# =============================================================================
-
-cots:
-  math_word_problems:
-    path: cots/math_word_problems.jsonl
-  math_word_problems_aqua:
-    path: cots/math_word_problems_aqua.jsonl
-  last_letter_concatenation:
-    path: cots/last_letter_concatenation.jsonl
-  coin_flip:
-    path: cots/coin_flip.jsonl
-  csqa:
-    path: cots/csqa.jsonl
-  strategy_qa:
-    path: cots/strategy_qa.jsonl
-  date_understanding:
-    path: cots/date_understanding.jsonl
-  sports_understanding:
-    path: cots/sports_understanding.jsonl
-  saycan:
-    path: cots/saycan.jsonl
-
-# We can add different COT approaches here:
+    prompt_set: csqa
 
 # =============================================================================
 # Models

@@ -8,11 +8,18 @@ import yaml
 logger = logging.getLogger(__name__)
 
 
+COTS_DIR = Path(__file__).resolve().parent.parent / "fewshots_and_cots"
+
+
 def load_config(path=None):
     if path is None:
         path = Path(__file__).resolve().parent.parent / "benchmarks.yaml"
     with open(path) as f:
         return yaml.safe_load(f)
+
+
+def discover_prompt_sets():
+    return {p.stem: {"path": str(p)} for p in sorted(COTS_DIR.glob("*.jsonl"))}
 
 
 def resolve_models(models_cfg):
@@ -27,27 +34,25 @@ def resolve_models(models_cfg):
     return resolved
 
 
-def resolve_cot_path(cot_path):
+def resolve_path(cot_path):
     if cot_path.startswith("~"):
         return Path(cot_path).expanduser()
     return Path(cot_path)
 
 
-def load_fewshot_examples(cot_path):
-    cot_path = resolve_cot_path(cot_path)
-    if not cot_path.exists():
-        logger.warning(f"CoT path does not exist: {cot_path}")
+def load_examples(fewshot_path):
+    fewshot_path = resolve_path(fewshot_path)
+    if not fewshot_path.exists():
+        logger.warning(f"CoT path does not exist: {fewshot_path}")
         return []
 
     examples = []
-    with open(cot_path) as f:
+    with open(fewshot_path) as f:
         for line in f:
             line = line.strip()
             if line:
                 doc = json.loads(line)
-                # Normalize field names
-                if "chain-of-thought" in doc:
-                    doc["chain_of_thought"] = doc.pop("chain-of-thought")
+                doc = {k.replace("-", "_"): v for k, v in doc.items()}
                 examples.append(doc)
     return examples
 
@@ -66,18 +71,17 @@ def extract_accuracy(task_results):
     return None, None
 
 
-def configure_runs(benchmarks, cots):
+def configure_runs(benchmarks, prompt_sets):
     runs = []
     for name, cfg in benchmarks.items():
-        cot_name = cfg.get("cot")
-        if cot_name not in cots:
+        prompt_set_name = cfg.get("prompt_set")
+        if prompt_set_name not in prompt_sets:
             raise ValueError(
-                f"Benchmark '{name}' references CoT '{cot_name}' but it's not defined in cots. "
-                f"Available CoTs: {list(cots.keys())}"
+                f"Benchmark '{name}' references prompt set '{prompt_set_name}' but it's not defined in prompt_sets. "
+                f"Available prompt sets: {list(prompt_sets.keys())}"
             )
-        fewshot_cfg = cots[cot_name]
+        prompt_cfg = prompt_sets[prompt_set_name]
 
-        # Add baseline run (without CoT reasoning)
         runs.append(
             {
                 "bench_name": f"{name}_no_cot",
@@ -86,27 +90,27 @@ def configure_runs(benchmarks, cots):
                 "num_fewshot": cfg.get("num_fewshot", 0),
                 "limit": cfg.get("limit"),
                 "is_cot": False,
-                "fewshot_cfg": fewshot_cfg,
+                "prompt_cfg": prompt_cfg,
             }
         )
 
         runs.append(
             {
-                "bench_name": f"{name}_{cot_name}",
+                "bench_name": f"{name}_{prompt_set_name}",
                 "bench_base": name,
                 "task": cfg["task"],
                 "num_fewshot": 0,
                 "limit": cfg.get("limit"),
                 "is_cot": True,
-                "cot_name": cot_name,
-                "fewshot_cfg": fewshot_cfg,
+                "prompt_set": prompt_set_name,
+                "prompt_cfg": prompt_cfg,
             }
         )
 
     return runs
 
 
-def build_task_yaml(base_task, fewshot_cfg, base_tm, task_name, is_cot):
+def build_task_yaml(base_task, prompt_cfg, base_tm, task_name, is_cot):
     entry = base_tm._index[base_task]
     task_def = dict(entry.cfg)
 
@@ -114,7 +118,7 @@ def build_task_yaml(base_task, fewshot_cfg, base_tm, task_name, is_cot):
     task_def.pop("tag", None)
     task_def.pop("tags", None)
 
-    raw_examples = load_fewshot_examples(fewshot_cfg["path"])
+    raw_examples = load_examples(prompt_cfg["path"])
     task_def["num_fewshot"] = len(raw_examples)
     task_def["fewshot_split"] = None
 
