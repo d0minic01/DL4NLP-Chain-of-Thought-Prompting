@@ -45,20 +45,6 @@ When using `-b` or `-c`, `-m` is required. Bare `python run_eval.py` runs everyt
 
 ## Configuration (`benchmarks.yaml`)
 
-### Benchmarks
-
-Each benchmark references an lm_eval task. Every enabled benchmark runs with every CoT variant by default.
-
-```yaml
-benchmarks:
-  gsm8k:
-    task: gsm8k        # lm_eval task name
-    enabled: true
-    num_fewshot: 5
-    limit: null         # null = all samples, integer = cap
-```
-
-`cot_overrides` are needed when the base task type doesn't support generation (e.g. `loglikelihood` → `generate_until` for asdiv, `multiple_choice` → `generate_until` for csqa).
 
 ### CoT Variants
 
@@ -67,7 +53,7 @@ CoT configs define few-shot examples. They're applied to all benchmarks automati
 ```yaml
 cots:
   example-1:
-    fewshot_path: fewshot/example-1.jsonl
+    fewshot_path: cots/example-1.jsonl
     num_fewshot: 8
 ```
 
@@ -126,7 +112,7 @@ results/
 ```
 run_eval.py          # Entry point
 benchmarks.yaml      # Configuration
-fewshot/             # CoT few-shot example files
+cots/                # CoT few-shot example files
 tasks/               # Custom lm_eval task definitions
 eval/
   cli.py             # Argument parsing, config filtering

@@ -1,4 +1,5 @@
 import gc
+import json
 import tempfile
 import time
 from pathlib import Path
@@ -8,9 +9,15 @@ import torch
 from lm_eval import simple_evaluate
 from lm_eval.tasks import TaskManager
 
-from eval.tasks import build_cot_task_yaml, expand_runs, resolve_models
+from eval.tasks import build_task_yaml, configure_runs, resolve_models
 
 TASKS_DIR = Path(__file__).resolve().parent.parent / "tasks"
+
+
+def calculate_max_vram() -> float | None:
+    if torch.cuda.is_available():
+        return round(torch.cuda.max_memory_allocated() / 1024**3, 2)
+    return None
 
 
 def get_device():
@@ -30,39 +37,23 @@ def clear_gpu():
         torch.mps.empty_cache()
 
 
-def is_hf_type(model_type):
-    return model_type.startswith("hf") or model_type == "steered"
-
-
-def build_model_args(model_name, model_cfg):
-    if is_hf_type(model_cfg["type"]):
-        parts = [f"pretrained={model_name}"]
-    else:
-        parts = [f"model={model_name}"]
-        if "base_url" in model_cfg:
-            parts.append(f"base_url={model_cfg['base_url']}")
-    return ",".join(parts)
-
-
-def build_eval_kwargs(model_name, model_cfg, run, task_manager, device) -> dict:
+def build_eval_kwargs(
+    model_name, model_cfg, run, task_manager, device, log_samples=True
+) -> dict:
     kwargs = dict(
-        model=model_cfg["type"],
-        model_args=build_model_args(model_name, model_cfg),
-        tasks=[run["task"]],
+        model="hf",
+        model_args=f"pretrained={model_name}",
+        tasks=[run["bench_name"]],
         num_fewshot=run["num_fewshot"],
-        log_samples=False,
+        log_samples=log_samples,
         task_manager=task_manager,
+        device=device,
     )
     if run["limit"] is not None:
         kwargs["limit"] = run["limit"]
     batch_size = model_cfg.get("batch_size")
     if batch_size is not None:
         kwargs["batch_size"] = batch_size
-    if not is_hf_type(model_cfg["type"]):
-        kwargs["apply_chat_template"] = model_cfg.get("apply_chat_template", True)
-        kwargs["fewshot_as_multiturn"] = model_cfg.get("fewshot_as_multiturn", False)
-    if is_hf_type(model_cfg["type"]):
-        kwargs["device"] = device
     return kwargs
 
 
@@ -82,15 +73,25 @@ def extract_accuracy(task_results):
     return None, None
 
 
-def save_result(results_dir, bench_base, model_name, row, cot_name=None):
+def save_result(results_dir, bench_base, model_name, row, cot_name=None, samples=None):
+
     safe_name = model_name.replace("/", "_").replace(":", "_")
     model_dir = results_dir / bench_base / safe_name
     model_dir.mkdir(parents=True, exist_ok=True)
-    if cot_name:
-        csv_path = model_dir / f"{safe_name}-{cot_name}.csv"
-    else:
-        csv_path = model_dir / f"{safe_name}.csv"
+
+    csv_filename = f"{safe_name}-{cot_name}.csv" if cot_name else f"{safe_name}.csv"
+    csv_path = model_dir / csv_filename
     pd.DataFrame([row]).to_csv(csv_path, index=False)
+
+    if samples is not None:
+        json_filename = (
+            f"{safe_name}-{cot_name}-samples.json"
+            if cot_name
+            else f"{safe_name}-samples.json"
+        )
+        json_path = model_dir / json_filename
+        with open(json_path, "w") as f:
+            json.dump(samples, f, indent=2, default=str)
 
 
 def run_eval(config):
@@ -98,130 +99,95 @@ def run_eval(config):
     cots = config.get("cots", {})
     models = resolve_models(config.get("models", {}))
     results_dir = Path("results")
+    log_samples = config.get("log_samples", False)
 
-    runs = expand_runs(benchmarks, cots, run_base=config.get("run_base", True))
-
-    if not runs:
-        print("No benchmarks enabled. Edit benchmarks.yaml to enable some.")
-        return
-
-    if not models:
-        print("No models defined. Edit benchmarks.yaml to add models.")
-        return
+    runs = configure_runs(benchmarks, cots)
 
     device = get_device()
 
     include_paths = []
-    if TASKS_DIR.exists():
-        include_paths.append(str(TASKS_DIR))
+    include_paths.append(str(TASKS_DIR))
 
     base_tm = TaskManager(include_path=include_paths)
 
     with tempfile.TemporaryDirectory() as tmpdir:
         for run in runs:
-            if run["is_cot"]:
-                yaml_content = build_cot_task_yaml(
-                    run["task"], run["cot_cfg"], run["cot_overrides"], base_tm
-                )
-                tmp_file = Path(tmpdir) / f"{run['bench_name']}.yaml"
-                tmp_file.write_text(yaml_content)
-                run["task"] = f"{run['task']}_cot"
+            yaml_content, num_fewshot = build_task_yaml(
+                run["task"],
+                run["fewshot_cfg"],
+                base_tm,
+                run["bench_name"],
+                is_cot=run["is_cot"],
+            )
+            tmp_file = Path(tmpdir) / f"{run['bench_name']}.yaml"
+            tmp_file.write_text(yaml_content)
+            run["num_fewshot"] = num_fewshot
 
         task_manager = TaskManager(include_path=include_paths + [tmpdir])
-
-        print(f"\nRuns: {[r['bench_name'] for r in runs]}")
-        print(f"Models: {list(models.keys())}")
-        print(f"Device: {device}")
-        print("=" * 80)
 
         all_results = []
 
         for model_name, model_cfg in models.items():
-            print(f"\n{'=' * 80}")
-            print(f"Model: {model_name} ({model_cfg['type']})")
-            print(f"  args: {build_model_args(model_name, model_cfg)}")
-            print(f"{'=' * 80}")
-
             for run in runs:
                 bench_name = run["bench_name"]
                 bench_base = run["bench_base"]
                 cot_name = run.get("cot_name")
 
-                print(f"\n  [{bench_name}]")
-                print(
-                    f"    task={run['task']}, fewshot={run['num_fewshot']}, limit={run['limit']}"
-                )
-
                 clear_gpu()
                 start = time.perf_counter()
+                samples = None
 
                 try:
                     eval_kwargs = build_eval_kwargs(
-                        model_name, model_cfg, run, task_manager, device
+                        model_name,
+                        model_cfg,
+                        run,
+                        task_manager,
+                        device,
+                        log_samples=log_samples,
                     )
                     result = simple_evaluate(**eval_kwargs)
                     elapsed = time.perf_counter() - start
 
                     if result is None:
-                        print("    FAILED: returned None")
-                        row = {
-                            "model": model_name,
-                            "benchmark": bench_name,
-                            "task": run["task"],
-                            "accuracy": None,
-                            "error": "returned None",
-                            "eval_time_sec": round(elapsed, 2),
-                        }
-                        all_results.append(row)
-                        save_result(results_dir, bench_base, model_name, row, cot_name)
-                        continue
+                        raise RuntimeError("lm_eval returned no result")
 
-                    task_results = result.get("results", {}).get(run["task"], {})
-                    accuracy, metric_used = extract_accuracy(task_results)
+                    results = result.get("results", {}).get(bench_name, {})
 
-                    peak_vram_gb = None
-                    if torch.cuda.is_available():
-                        peak_vram_gb = round(
-                            torch.cuda.max_memory_allocated() / 1024**3, 2
-                        )
+                    accuracy, metric_used = extract_accuracy(results)
 
-                    row = {
-                        "model": model_name,
-                        "benchmark": bench_name,
-                        "task": run["task"],
-                        "accuracy": accuracy,
-                        "metric": metric_used if accuracy is not None else None,
-                        "num_fewshot": run["num_fewshot"],
-                        "limit": run["limit"],
-                        "eval_time_sec": round(elapsed, 2),
-                        "peak_vram_gb": peak_vram_gb,
-                        "error": None,
-                    }
-                    all_results.append(row)
-                    save_result(results_dir, bench_base, model_name, row, cot_name)
+                    samples = None
+                    if log_samples:
+                        samples = result.get("samples", {}).get(bench_name, [])
+
+                    peak_vram_gb = calculate_max_vram()
                     print(f"    Result: {accuracy} ({metric_used}) in {elapsed:.1f}s")
 
                 except Exception as e:
                     elapsed = time.perf_counter() - start
+                    accuracy = None
+                    metric_used = None
+                    peak_vram_gb = None
                     print(f"    FAILED: {e}")
-                    row = {
-                        "model": model_name,
-                        "benchmark": bench_name,
-                        "task": run["task"],
-                        "accuracy": None,
-                        "error": str(e),
-                        "eval_time_sec": round(elapsed, 2),
-                    }
-                    all_results.append(row)
-                    save_result(results_dir, bench_base, model_name, row, cot_name)
+
+                row = {
+                    "model": model_name,
+                    "benchmark": bench_name,
+                    "task": run["task"],
+                    "accuracy": accuracy,
+                    "metric": metric_used,
+                    "num_fewshot": run.get("num_fewshot"),
+                    "limit": run.get("limit"),
+                    "eval_time_sec": round(elapsed, 2),
+                    "peak_vram_gb": peak_vram_gb,
+                }
+                all_results.append(row)
+                save_result(
+                    results_dir, bench_base, model_name, row, cot_name, samples=samples
+                )
 
                 clear_gpu()
 
     df = pd.DataFrame(all_results)
-
-    print(f"\n{'=' * 80}")
-    print("Results Summary")
-    print(f"{'=' * 80}")
-    print(df.to_string(index=False))
 
     return df

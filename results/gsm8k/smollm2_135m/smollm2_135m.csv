@@ -1,2 +1,0 @@
-model,benchmark,task,accuracy,metric,num_fewshot,limit,eval_time_sec,peak_vram_gb,error
-smollm2:135m,gsm8k,gsm8k,0.0,"exact_match,strict-match",5,2,3.53,,

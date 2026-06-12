@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "accelerate>=1.14.0",
+    "lm-eval[api]>=0.4.12",
+    "pandas>=3.0.3",
+    "pyyaml>=6.0.3",
+    "torch>=2.12.0",
+    "transformers>=5.11.0",
+]

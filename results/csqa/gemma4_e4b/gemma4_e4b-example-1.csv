@@ -1,2 +1,0 @@
-model,benchmark,task,accuracy,error,eval_time_sec
-gemma4:e4b,csqa_example-1,commonsense_qa_cot,,[Errno 32] Broken pipe,0.82

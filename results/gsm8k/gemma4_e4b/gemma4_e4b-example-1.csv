@@ -1,2 +1,0 @@
-model,benchmark,task,accuracy,error,eval_time_sec
-gemma4:e4b,gsm8k_example-1,gsm8k_cot,,[Errno 32] Broken pipe,0.85
