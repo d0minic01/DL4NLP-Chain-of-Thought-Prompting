@@ -1,0 +1,37 @@
+task: commonsense_qa
+dataset_path: tau/commonsense_qa
+output_type: generate_until
+training_split: train
+validation_split: validation
+doc_to_text: "Question: {{ question.strip() }}\nAnswer Choices: (a) {{choices['text'][0]}} (b) {{choices['text'][1]}} (c) {{choices['text'][2]}} (d) {{choices['text'][3]}} (e) {{choices['text'][4]}}\nAnswer:"
+doc_to_target: "{{answerKey.lower()}}"
+fewshot_config:
+  doc_to_text: "Question: {{question}}\nAnswer:"
+  doc_to_target: "{{chain_of_thought}} The answer is {{target}}."
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+generation_kwargs:
+  until:
+    - "Question:"
+    - "</s>"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+repeats: 1
+num_fewshot: 5
+filter_list:
+  - name: "strict-match"
+    filter:
+      - function: "regex"
+        regex_pattern: "The answer is \\(?([A-Ea-e])\\)?"
+      - function: "take_first"
+  - name: "flexible-extract"
+    filter:
+      - function: "regex"
+        group_select: -1
+        regex_pattern: "\\(?([A-Ea-e])\\)?"
+      - function: "take_first"

@@ -69,7 +69,7 @@ def parse_args():
     return parser.parse_args()
 
 
-def require_key(name, value, collection):
+def get_or_exit(name, value, collection):
     if value not in collection:
         available = ", ".join(collection.keys())
         print(f"{name} '{value}' not found. Available: {available}")
@@ -80,12 +80,12 @@ def require_key(name, value, collection):
 def apply_filters(config, args):
     if args.benchmark:
         benchmarks = config.get("benchmarks", {})
-        require_key("Benchmark", args.benchmark, benchmarks)
+        get_or_exit("Benchmark", args.benchmark, benchmarks)
         config["benchmarks"] = {args.benchmark: benchmarks[args.benchmark]}
 
     if args.prompts:
         prompt_sets = discover_prompt_sets()
-        require_key("Prompt set", args.prompts, prompt_sets)
+        get_or_exit("Prompt set", args.prompts, prompt_sets)
         config["prompt_set_override"] = args.prompts
 
     if args.cot:
@@ -95,7 +95,7 @@ def apply_filters(config, args):
 
     if args.model:
         resolved = resolve_models(config.get("models", {}))
-        require_key("Model", args.model, resolved)
+        get_or_exit("Model", args.model, resolved)
         config["models"] = {
             "defaults": config.get("models", {}).get("defaults", {}),
             args.model: {

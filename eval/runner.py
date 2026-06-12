@@ -16,8 +16,6 @@ from eval.tasks import (
     resolve_models,
 )
 
-TASKS_DIR = Path(__file__).resolve().parent.parent / "tasks"
-
 
 def calculate_max_vram() -> float | None:
     if torch.cuda.is_available():
@@ -124,25 +122,19 @@ def run_eval(config):
 
     device = get_device()
 
-    include_paths = []
-    include_paths.append(str(TASKS_DIR))
-
-    base_tm = TaskManager(include_path=include_paths)
-
     with tempfile.TemporaryDirectory() as tmpdir:
         for run in runs:
             yaml_content, num_fewshot = build_task_yaml(
                 run["task"],
                 run["prompt_cfg"],
-                base_tm,
                 run["bench_name"],
-                is_cot=run["is_cot"],
+                run["is_cot"],
             )
             tmp_file = Path(tmpdir) / f"{run['bench_name']}.yaml"
             tmp_file.write_text(yaml_content)
             run["num_fewshot"] = num_fewshot
 
-        task_manager = TaskManager(include_path=include_paths + [tmpdir])
+        task_manager = TaskManager(include_path=[tmpdir])
 
         all_results = []
 

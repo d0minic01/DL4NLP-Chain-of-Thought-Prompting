@@ -24,8 +24,6 @@ benchmarks:
 
 models:
   defaults:
-    apply_chat_template: true
-    fewshot_as_multiturn: false
     batch_size: null
 
   Qwen/Qwen3-0.6B:
