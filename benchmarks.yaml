@@ -2,6 +2,16 @@
 # Benchmark Evaluation Configuration
 # =============================================================================
 # limit field can be set to an integer to limit number of examples for faster testing -> set to null to run on full dataset
+# the task refers to the filename of the benchmark lm_eval config yaml inside benchmarks/
+# prompt_set refers to the filename of the promptset inside fewshots_and_cots/
+
+# TODO: Some benchmarks here define a test train split. I currently set it in their yaml config to train,
+#       but we should discuss whats the best approach about that.
+
+# TODO: Add BigBench (Date Understanding + Sports) benchmarks. They are included in lm_eval but somehow more intertwined?
+
+# TODO: Add symbolic reasoning benchmarks (coinflip + letter concat)
+
 benchmarks:
   gsm8k:
     task: gsm8k
@@ -10,13 +20,28 @@ benchmarks:
 
   asdiv:
     task: asdiv
-    limit: 5
+    limit: 2
     prompt_set: math_word_problems
 
   csqa:
     task: commonsense_qa
     limit: 2
     prompt_set: csqa
+
+  mawps:
+    task: mawps
+    limit: 2
+    prompt_set: math_word_problems
+
+  svamp:
+    task: svamp
+    limit: 2
+    prompt_set: math_word_problems
+
+  aqua:
+    task: aqua-rat
+    limit: 2
+    prompt_set: math_word_problems_aqua
 
 # =============================================================================
 # Models

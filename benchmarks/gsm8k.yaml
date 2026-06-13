@@ -1,6 +1,5 @@
 tag:
   - math_word_problems
-task: gsm8k
 dataset_path: openai/gsm8k
 dataset_name: main
 output_type: generate_until
@@ -29,7 +28,6 @@ generation_kwargs:
   do_sample: false
   temperature: 0.0
 repeats: 1
-num_fewshot: 5
 filter_list:
   - name: "strict-match"
     filter:
