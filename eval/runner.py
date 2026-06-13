@@ -1,5 +1,6 @@
 import gc
 import json
+import re
 import sys
 import tempfile
 import time
@@ -111,7 +112,15 @@ def _get_extracted_answer(sample: dict) -> str:
     return ""
 
 
-def print_sample(sample: dict, bench_name: str, idx: int, total: int, out) -> None:
+def _extract_test_question(prompt: str) -> str:
+    """Return only the final test question from a prompt, stripping the few-shot context."""
+    parts = prompt.rsplit("\n\nQuestion:", 1)
+    if len(parts) == 2:
+        return "Question:" + parts[1]
+    return prompt
+
+
+def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: int, out) -> None:
     prompt = ""
     if sample.get("arguments"):
         args0 = sample["arguments"][0]
@@ -125,29 +134,37 @@ def print_sample(sample: dict, bench_name: str, idx: int, total: int, out) -> No
     extracted = _get_extracted_answer(sample)
     target = str(sample.get("target", ""))
 
+    # Try metric keys first; fall back to direct string comparison
     correct = None
     for key in ("exact_match,strict-match", "exact_match,flexible-extract", "exact_match,none", "acc,none"):
         if key in sample:
             correct = bool(sample[key])
             break
+    if correct is None and extracted:
+        correct = extracted.strip().lower() == target.strip().lower()
 
-    SEP  = "═" * 64
-    LINE = "─" * 64
-    verdict = ("✓ CORRECT" if correct else "✗ WRONG") if correct is not None else ""
+    variant = "CoT" if is_cot else "Baseline"
+    verdict = (" CORRECT" if correct else " WRONG") if correct is not None else ""
+
+    SEP  = "=" * 64
+    LINE = "-" * 64
+
+    question_text = re.sub(r"\s*\n?\s*Answer:\s*$", "", _extract_test_question(prompt)).rstrip()
+
+    raw_stripped = raw.strip() if raw else ""
+    match = re.search(r"(The answer is\b.*)", raw_stripped, re.IGNORECASE | re.DOTALL) if raw_stripped else None
+    reasoning = raw_stripped[:match.start()].rstrip() if match else raw_stripped or "(empty)"
+    final_answer = match.group(1).strip() if match else None
 
     print(SEP, file=out)
-    print(f"  {bench_name}  |  sample {idx + 1}/{total}  {verdict}", file=out)
+    print(f"  {bench_base}  |  {variant}  |  sample {idx + 1}/{total}  |  {verdict}", file=out)
+    print(SEP, file=out)
+    print(question_text, file=out)
+    print(f"Model Reasoning: {reasoning}", file=out)
+    if final_answer:
+        print(f"Final Answer: {final_answer}", file=out)
     print(LINE, file=out)
-    print("PROMPT", file=out)
-    print(LINE, file=out)
-    print(prompt, file=out)
-    print(LINE, file=out)
-    print("MODEL OUTPUT", file=out)
-    print(LINE, file=out)
-    print(raw.strip() if raw else "(empty)", file=out)
-    print(LINE, file=out)
-    print(f"EXTRACTED  {extracted!r}", file=out)
-    print(f"TARGET     {target!r}", file=out)
+    print(f"  extracted: {extracted!r:<10}  target: {target!r}", file=out)
     print(file=out)
 
 
@@ -240,7 +257,7 @@ def run_eval(config):
                     if verbose and samples:
                         out = out_stream if out_stream else sys.stdout
                         for i, sample in enumerate(samples):
-                            print_sample(sample, bench_name, i, len(samples), out)
+                            print_sample(sample, bench_base, run["is_cot"], i, len(samples), out)
                         if out_stream:
                             out_stream.flush()
 
@@ -254,6 +271,8 @@ def run_eval(config):
                 row = {
                     "model": model_name,
                     "benchmark": bench_name,
+                    "bench_base": bench_base,
+                    "is_cot": run["is_cot"],
                     "task": run["task"],
                     "accuracy": accuracy,
                     "metric": metric_used,
