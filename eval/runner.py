@@ -160,9 +160,12 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
     print(f"  {bench_base}  |  {variant}  |  sample {idx + 1}/{total}  |  {verdict}", file=out)
     print(SEP, file=out)
     print(question_text, file=out)
-    print(f"Model Reasoning: {reasoning}", file=out)
+    if reasoning:
+        print(f"Model Reasoning: {reasoning}", file=out)
     if final_answer:
         print(f"Final Answer: {final_answer}", file=out)
+    if not reasoning and not final_answer:
+        print(f"Model Output: {raw_stripped or '(empty)'}", file=out)
     print(LINE, file=out)
     print(f"  extracted: {extracted!r:<10}  target: {target!r}", file=out)
     print(file=out)
