@@ -34,9 +34,9 @@ benchmarks:
     limit: null
     prompt_set: math_word_problems_aqua
 
-# =============================================================================
-# Commonsense Reasoning
-# =============================================================================
+  # =============================================================================
+  # Commonsense Reasoning
+  # =============================================================================
 
   csqa:
     task: commonsense_qa
@@ -53,9 +53,9 @@ benchmarks:
     limit: null
     prompt_set: sports_understanding
 
-# =============================================================================
-# Symbolic Reasoning  (local synthetic datasets)
-# =============================================================================
+  # =============================================================================
+  # Symbolic Reasoning  (local synthetic datasets)
+  # =============================================================================
 
   coin_flip:
     task: coin_flip
@@ -86,9 +86,10 @@ models:
     batch_size: null
 
   # ── Flan-T5 (encoder-decoder, instruction-tuned) ──────────────────────────
-  google/flan-t5-small:
-    type: hf
-    batch_size: 32
+  # Context Size of 512 is too small for most of our benchmarks
+  # google/flan-t5-small:
+  #   type: hf
+  #   batch_size: 32
 
   google/flan-t5-base:
     type: hf
