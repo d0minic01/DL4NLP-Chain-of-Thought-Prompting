@@ -130,6 +130,32 @@ models:
     type: hf
     batch_size: 2
 
+  # ── Qwen3 (generational comparison with Qwen2.5 above) ───────────────────
+  # Qwen3 unifies thinking/non-thinking in one model; no separate -Instruct variant
+  Qwen/Qwen3-0.6B:
+    type: hf
+    batch_size: 16
+
+  Qwen/Qwen3-1.7B:
+    type: hf
+    batch_size: 8
+
+  Qwen/Qwen3-4B:
+    type: hf
+    batch_size: 4
+
+  # ── Gemma 4 ───────────────────────────────────────────────────────────────
+  # E2B / E4B: "Edge" variants — compact dense models for on-device deployment
+  # -it: instruction-tuned (SFT + RLHF), the chat/assistant variant
+  # 26B MoE excluded; does not fit on 11GB VRAM
+  google/gemma-4-E2B-it:
+    type: hf
+    batch_size: 8
+
+  google/gemma-4-E4B-it:
+    type: hf
+    batch_size: 4
+
   # ── Gemma 3 ───────────────────────────────────────────────────────────────
   google/gemma-3-270m-it:
     type: hf
@@ -169,3 +195,31 @@ models:
   deepseek-ai/DeepSeek-R1-Distill-Qwen-7B:
     type: hf
     batch_size: 2
+
+  # ── Llama 3.2 (Meta, 128K context) ───────────────────────────────────────
+  meta-llama/Llama-3.2-1B-Instruct:
+    type: hf
+    batch_size: 16
+
+  meta-llama/Llama-3.2-3B-Instruct:
+    type: hf
+    batch_size: 4
+
+  # ── Falcon3 (pruned+healed from larger models, math/STEM focus) ──────────
+  tiiuae/Falcon3-1B-Instruct:
+    type: hf
+    batch_size: 16
+
+  tiiuae/Falcon3-3B-Instruct:
+    type: hf
+    batch_size: 4
+
+  # ── OLMo-2 (Allen AI, open-science, RLVR-trained) ────────────────────────
+  allenai/OLMo-2-0425-1B-Instruct:
+    type: hf
+    batch_size: 16
+
+  # ── Ministral (Mistral edge model, 128K context) ──────────────────────────
+  mistralai/Ministral-3B-Instruct-2410:
+    type: hf
+    batch_size: 4
