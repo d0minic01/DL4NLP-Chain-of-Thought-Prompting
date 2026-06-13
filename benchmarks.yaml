@@ -1,47 +1,81 @@
 # =============================================================================
 # Benchmark Evaluation Configuration
 # =============================================================================
-# limit field can be set to an integer to limit number of examples for faster testing -> set to null to run on full dataset
-# the task refers to the filename of the benchmark lm_eval config yaml inside benchmarks/
-# prompt_set refers to the filename of the promptset inside fewshots_and_cots/
+# limit field: integer to cap examples for fast testing, null for full dataset
+# task: filename (without .yaml) of the benchmark config in benchmarks/
+# prompt_set: filename (without .jsonl) of the few-shot examples in fewshots_and_cots/
 
-# TODO: Some benchmarks here define a test train split. I currently set it in their yaml config to train,
-#       but we should discuss whats the best approach about that.
-
-# TODO: Add BigBench (Date Understanding + Sports) benchmarks. They are included in lm_eval but somehow more intertwined?
-
-# TODO: Add symbolic reasoning benchmarks (coinflip + letter concat + strategy qa)
-
+# =============================================================================
+# Arithmetic Reasoning
+# =============================================================================
 benchmarks:
   gsm8k:
     task: gsm8k
-    limit: 2
+    limit: null
     prompt_set: math_word_problems
 
   asdiv:
     task: asdiv
-    limit: 2
+    limit: null
     prompt_set: math_word_problems
-
-  csqa:
-    task: commonsense_qa
-    limit: 2
-    prompt_set: csqa
 
   mawps:
     task: mawps
-    limit: 2
+    limit: null
     prompt_set: math_word_problems
 
   svamp:
     task: svamp
-    limit: 2
+    limit: null
     prompt_set: math_word_problems
 
   aqua:
     task: aqua-rat
-    limit: 2
+    limit: null
     prompt_set: math_word_problems_aqua
+
+# =============================================================================
+# Commonsense Reasoning
+# =============================================================================
+
+  csqa:
+    task: commonsense_qa
+    limit: null
+    prompt_set: csqa
+
+  strategyqa:
+    task: strategyqa
+    limit: null
+    prompt_set: strategy_qa
+
+  sports:
+    task: sports_understanding
+    limit: null
+    prompt_set: sports_understanding
+
+# =============================================================================
+# Symbolic Reasoning  (local synthetic datasets)
+# =============================================================================
+
+  coin_flip:
+    task: coin_flip
+    limit: null
+    prompt_set: coin_flip
+
+  last_letter:
+    task: last_letter_concatenation
+    limit: null
+    prompt_set: last_letter_concatenation
+
+  date:
+    task: date_understanding
+    limit: null
+    prompt_set: date_understanding
+
+  letter_shift:
+    task: letter_shift
+    limit: null
+    prompt_set: letter_shift
 
 # =============================================================================
 # Models
@@ -51,6 +85,85 @@ models:
   defaults:
     batch_size: null
 
-  Qwen/Qwen3-0.6B:
+  # ── Flan-T5 (encoder-decoder, instruction-tuned) ──────────────────────────
+  google/flan-t5-small:
+    type: hf
+    batch_size: 32
+
+  google/flan-t5-base:
+    type: hf
+    batch_size: 16
+
+  google/flan-t5-large:
     type: hf
     batch_size: 8
+
+  # ── SmolLM2 (tiny decoder-only) ───────────────────────────────────────────
+  HuggingFaceTB/SmolLM2-135M-Instruct:
+    type: hf
+    batch_size: 32
+
+  HuggingFaceTB/SmolLM2-360M-Instruct:
+    type: hf
+    batch_size: 16
+
+  HuggingFaceTB/SmolLM2-1.7B-Instruct:
+    type: hf
+    batch_size: 8
+
+  # ── Qwen2.5-Instruct ──────────────────────────────────────────────────────
+  Qwen/Qwen2.5-0.5B-Instruct:
+    type: hf
+    batch_size: 16
+
+  Qwen/Qwen2.5-1.5B-Instruct:
+    type: hf
+    batch_size: 8
+
+  Qwen/Qwen2.5-3B-Instruct:
+    type: hf
+    batch_size: 4
+
+  Qwen/Qwen2.5-7B-Instruct:
+    type: hf
+    batch_size: 2
+
+  # ── Gemma 3 ───────────────────────────────────────────────────────────────
+  google/gemma-3-270m-it:
+    type: hf
+    batch_size: 16
+
+  google/gemma-3-1b-it:
+    type: hf
+    batch_size: 8
+
+  google/gemma-3-4b-it:
+    type: hf
+    batch_size: 4
+
+  # ── Gemma 2 ───────────────────────────────────────────────────────────────
+  google/gemma-2-2b-it:
+    type: hf
+    batch_size: 4
+
+  google/gemma-2-9b-it:
+    type: hf
+    batch_size: 1
+
+  # ── Phi ───────────────────────────────────────────────────────────────────
+  microsoft/Phi-3-mini-4k-instruct:
+    type: hf
+    batch_size: 4
+
+  microsoft/Phi-4-mini-instruct:
+    type: hf
+    batch_size: 4
+
+  # ── DeepSeek-R1-Distill (reasoning-specialized) ───────────────────────────
+  deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B:
+    type: hf
+    batch_size: 8
+
+  deepseek-ai/DeepSeek-R1-Distill-Qwen-7B:
+    type: hf
+    batch_size: 2
