@@ -66,6 +66,17 @@ def parse_args():
         type=int,
         help="Override the number of examples to evaluate per benchmark",
     )
+    parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        help="Print each sample's prompt, model output, and extracted answer during evaluation",
+    )
+    parser.add_argument(
+        "--output-file",
+        metavar="FILE",
+        help="Write verbose sample output to FILE instead of stdout (implies -v)",
+    )
     return parser.parse_args()
 
 
@@ -117,4 +128,8 @@ def main():
         config["log_samples"] = True
     if args.limit is not None:
         config["limit"] = args.limit
+    if args.verbose or args.output_file:
+        config["verbose"] = True
+    if args.output_file:
+        config["output_file"] = args.output_file
     run_eval(config)

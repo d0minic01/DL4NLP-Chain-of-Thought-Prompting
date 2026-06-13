@@ -1,5 +1,6 @@
 import gc
 import json
+import sys
 import tempfile
 import time
 from pathlib import Path
@@ -97,12 +98,64 @@ def save_result(results_dir, bench_base, model_name, row, cot_name=None, samples
             json.dump(samples, f, indent=2, default=str)
 
 
+def _get_extracted_answer(sample: dict) -> str:
+    fr = sample.get("filtered_resps")
+    if isinstance(fr, dict):
+        for key in ("strict-match", next(iter(fr), None)):
+            if key and fr.get(key):
+                val = fr[key]
+                return val[0] if isinstance(val, list) else str(val)
+    elif isinstance(fr, list) and fr:
+        first = fr[0]
+        return first[0] if isinstance(first, list) and first else str(first)
+    return ""
+
+
+def print_sample(sample: dict, bench_name: str, idx: int, total: int, out) -> None:
+    prompt = ""
+    if sample.get("arguments"):
+        args0 = sample["arguments"][0]
+        prompt = args0[0] if args0 else ""
+
+    raw = ""
+    if sample.get("resps"):
+        resps0 = sample["resps"][0]
+        raw = resps0[0] if resps0 else ""
+
+    extracted = _get_extracted_answer(sample)
+    target = str(sample.get("target", ""))
+
+    correct = None
+    for key in ("exact_match,strict-match", "exact_match,flexible-extract", "exact_match,none", "acc,none"):
+        if key in sample:
+            correct = bool(sample[key])
+            break
+
+    SEP  = "═" * 64
+    LINE = "─" * 64
+    verdict = ("✓ CORRECT" if correct else "✗ WRONG") if correct is not None else ""
+
+    print(SEP, file=out)
+    print(f"  {bench_name}  |  sample {idx + 1}/{total}  {verdict}", file=out)
+    print(LINE, file=out)
+    print("PROMPT", file=out)
+    print(LINE, file=out)
+    print(prompt, file=out)
+    print(LINE, file=out)
+    print("MODEL OUTPUT", file=out)
+    print(LINE, file=out)
+    print(raw.strip() if raw else "(empty)", file=out)
+    print(LINE, file=out)
+    print(f"EXTRACTED  {extracted!r}", file=out)
+    print(f"TARGET     {target!r}", file=out)
+    print(file=out)
+
+
 def run_eval(config):
     benchmarks = config.get("benchmarks", {})
     prompt_sets = discover_prompt_sets()
     models = resolve_models(config.get("models", {}))
     results_dir = Path("results")
-    log_samples = config.get("log_samples", False)
 
     runs = configure_runs(benchmarks, prompt_sets)
 
@@ -119,6 +172,16 @@ def run_eval(config):
     if config.get("limit") is not None:
         for run in runs:
             run["limit"] = config["limit"]
+
+    verbose = config.get("verbose", False)
+    if verbose:
+        config["log_samples"] = True
+
+    # read after verbose may have forced it on
+    log_samples = config.get("log_samples", False)
+
+    output_file_path = config.get("output_file")
+    out_stream = open(output_file_path, "w", encoding="utf-8") if output_file_path else None
 
     device = get_device()
 
@@ -174,6 +237,13 @@ def run_eval(config):
                     peak_vram_gb = calculate_max_vram()
                     print(f"    Result: {accuracy} ({metric_used}) in {elapsed:.1f}s")
 
+                    if verbose and samples:
+                        out = out_stream if out_stream else sys.stdout
+                        for i, sample in enumerate(samples):
+                            print_sample(sample, bench_name, i, len(samples), out)
+                        if out_stream:
+                            out_stream.flush()
+
                 except Exception as e:
                     elapsed = time.perf_counter() - start
                     accuracy = None
@@ -203,6 +273,9 @@ def run_eval(config):
                 )
 
     clear_gpu()
+
+    if out_stream:
+        out_stream.close()
 
     df = pd.DataFrame(all_results)
 
