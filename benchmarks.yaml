@@ -10,7 +10,7 @@
 
 # TODO: Add BigBench (Date Understanding + Sports) benchmarks. They are included in lm_eval but somehow more intertwined?
 
-# TODO: Add symbolic reasoning benchmarks (coinflip + letter concat)
+# TODO: Add symbolic reasoning benchmarks (coinflip + letter concat + strategy qa)
 
 benchmarks:
   gsm8k:
