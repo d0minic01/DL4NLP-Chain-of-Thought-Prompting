@@ -1,42 +1,8 @@
-[
-  {
-    "question": "A store has 48 apples. They sell 17 in the morning and 14 in the afternoon. How many apples are left?",
-    "chain-of-thought": "Store have 48 apple. Sell 17. Sell 14. 17 apple left.",
-    "target": "17"
-  },
-  {
-    "question": "Alice is taller than Bob. Bob is taller than Carol. Is Alice taller than Carol?",
-    "chain-of-thought": "Alice tall. Bob short. Carol shorter. Alice tallest. Yes.",
-    "target": "yes"
-  },
-  {
-    "question": "All mammals are warm-blooded. Whales are mammals. Are whales warm-blooded?",
-    "chain-of-thought": "Mammal warm. Whale mammal. Whale warm. Yes.",
-    "target": "yes"
-  },
-  {
-    "question": "A parking lot has 5 rows of 12 spaces. 23 spaces are taken. How many are free?",
-    "chain-of-thought": "Lot have 60 space. 23 taken. 37 free.",
-    "target": "37"
-  },
-  {
-    "question": "A shirt costs $40 and is 25% off. What is the sale price?",
-    "chain-of-thought": "Shirt cost 40. 25 off. Now 30.",
-    "target": "$30"
-  },
-  {
-    "question": "A hunter has 5 arrows. He shoots 2 at a deer. How many arrows left?",
-    "chain-of-thought": "Hunter have 5 arrow. Shoot 2. 3 arrow left.",
-    "target": "3"
-  },
-  {
-    "question": "A basket has 10 eggs. 3 eggs break. How many eggs left?",
-    "chain-of-thought": "Basket have 10 egg. 3 break. 7 egg left.",
-    "target": "7"
-  },
-  {
-    "question": "A dog has 4 legs. A cat has 4 legs. How many legs in total?",
-    "chain-of-thought": "Dog 4 leg. Cat 4 leg. Total 8 leg.",
-    "target": "8"
-  }
-]
+{"question": "A store has 48 apples. They sell 17 in the morning and 14 in the afternoon. How many apples are left?", "chain-of-thought": "Store have 48 apple. Sell 17. Sell 14. 17 apple left.", "target": "17"}
+{"question": "Alice is taller than Bob. Bob is taller than Carol. Is Alice taller than Carol?", "chain-of-thought": "Alice tall. Bob short. Carol shorter. Alice tallest. Yes.", "target": "yes"}
+{"question": "All mammals are warm-blooded. Whales are mammals. Are whales warm-blooded?", "chain-of-thought": "Mammal warm. Whale mammal. Whale warm. Yes.", "target": "yes"}
+{"question": "A parking lot has 5 rows of 12 spaces. 23 spaces are taken. How many are free?", "chain-of-thought": "Lot have 60 space. 23 taken. 37 free.", "target": "37"}
+{"question": "A shirt costs $40 and is 25% off. What is the sale price?", "chain-of-thought": "Shirt cost 40. 25 off. Now 30.", "target": "$30"}
+{"question": "A hunter has 5 arrows. He shoots 2 at a deer. How many arrows left?", "chain-of-thought": "Hunter have 5 arrow. Shoot 2. 3 arrow left.", "target": "3"}
+{"question": "A basket has 10 eggs. 3 eggs break. How many eggs left?", "chain-of-thought": "Basket have 10 egg. 3 break. 7 egg left.", "target": "7"}
+{"question": "A dog has 4 legs. A cat has 4 legs. How many legs in total?", "chain-of-thought": "Dog 4 leg. Cat 4 leg. Total 8 leg.", "target": "8"}
