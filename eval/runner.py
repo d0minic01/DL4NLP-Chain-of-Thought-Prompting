@@ -125,7 +125,7 @@ def _extract_test_question(prompt: str) -> str:
     return prompt
 
 
-def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: int, out) -> None:
+def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: int, out, num_correct: int = 0) -> bool | None:
     prompt = ""
     if sample.get("arguments"):
         args0 = sample["arguments"][0]
@@ -150,6 +150,8 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
 
     variant = "CoT" if is_cot else "Baseline"
     verdict = (" CORRECT" if correct else " WRONG") if correct is not None else ""
+    running_correct = num_correct + (1 if correct else 0)
+    score_tag = f"  |  {running_correct}/{idx + 1} correct" if correct is not None else ""
 
     SEP  = "=" * 64
     LINE = "-" * 64
@@ -162,7 +164,7 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
     final_answer = match.group(1).strip() if match else None
 
     print(SEP, file=out)
-    print(f"  {bench_base}  |  {variant}  |  sample {idx + 1}/{total}  |  {verdict}", file=out)
+    print(f"  {bench_base}  |  {variant}  |  sample {idx + 1}/{total}{score_tag}  |  {verdict}", file=out)
     print(SEP, file=out)
     print(question_text, file=out)
     if reasoning:
@@ -174,6 +176,7 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
     print(LINE, file=out)
     print(f"  extracted: {extracted!r:<10}  target: {target!r}", file=out)
     print(file=out)
+    return correct
 
 
 def run_eval(config):
@@ -264,8 +267,20 @@ def run_eval(config):
 
                     if verbose and samples:
                         out = out_stream if out_stream else sys.stdout
-                        for i, sample in enumerate(samples):
-                            print_sample(sample, bench_base, run["is_cot"], i, len(samples), out)
+                        # lm_eval emits one entry per (doc, filter_key) pair;
+                        # keep only the first entry per doc to avoid duplicates.
+                        seen_ids: set = set()
+                        display_samples = []
+                        for s in samples:
+                            doc_id = s.get("doc_id")
+                            if doc_id not in seen_ids:
+                                seen_ids.add(doc_id)
+                                display_samples.append(s)
+                        num_correct = 0
+                        for i, sample in enumerate(display_samples):
+                            result_correct = print_sample(sample, bench_base, run["is_cot"], i, len(display_samples), out, num_correct)
+                            if result_correct:
+                                num_correct += 1
                         if out_stream:
                             out_stream.flush()
 
