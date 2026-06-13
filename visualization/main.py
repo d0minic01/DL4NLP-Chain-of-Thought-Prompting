@@ -194,10 +194,15 @@ def plot_category_summary(df: pd.DataFrame, out_dir: Path) -> None:
 
     summary = df.groupby("category")["delta"].mean().reindex(list(BENCHMARK_CATEGORIES.keys()))
 
+    valid = summary.dropna()
+    lo = min(valid.min() - 0.03, -0.01) if not valid.empty else -0.1
+    hi = max(valid.max() + 0.05, 0.05) if not valid.empty else 0.1
+
     fig, ax = plt.subplots(figsize=(6, 4))
-    colors = ["#4C72B0", "#DD8452", "#55A868"]
-    bars = ax.bar(summary.index, summary.values, color=colors[: len(summary)])
+    colors = ["#55A868" if (not pd.isna(v) and v >= 0) else "#C44E52" for v in summary.values]
+    bars = ax.bar(summary.index, summary.values, color=colors)
     ax.axhline(0, color="black", linewidth=0.8, linestyle="--")
+    ax.set_ylim(lo, hi)
     ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
     ax.set_ylabel("Average CoT gain")
     ax.set_title("Average CoT Gain by Task Category")
