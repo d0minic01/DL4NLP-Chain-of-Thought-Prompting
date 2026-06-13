@@ -16,6 +16,8 @@ uv sync
 | `-p, --prompts PROMPT_SET` | Override which prompt set to use (independent of `-c`) |
 | `-l, --limit N` | Override the number of examples per benchmark |
 | `-d, --debug` | Save model inputs/outputs to JSON alongside results |
+| `-v, --verbose` | Print each sample's prompt, model output, and extracted answer to stdout |
+| `--output-file FILE` | Write verbose output to FILE instead of stdout (implies `-v`) |
 
 ## Examples
 
@@ -41,6 +43,12 @@ uv sync
 
 # Limit examples and save outputs for inspection
 ./run_eval.py -m Qwen/Qwen3-0.6B -b gsm8k -l 50 -d
+
+# Print each sample's prompt + model output to stdout
+./run_eval.py -m Qwen/Qwen3-0.6B -b gsm8k -l 5 -v
+
+# Write the same output to a file
+./run_eval.py -m Qwen/Qwen3-0.6B -b gsm8k -l 5 --output-file run_log.txt
 ```
 
 ## Adding prompt sets
