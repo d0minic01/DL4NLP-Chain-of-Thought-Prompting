@@ -87,17 +87,18 @@ models:
 
   # ── Flan-T5 (encoder-decoder, instruction-tuned) ──────────────────────────
   # Context Size of 512 is too small for most of our benchmarks
+  # ──────────────────────────────────────────────────────────────────────────
   # google/flan-t5-small:
   #   type: hf
   #   batch_size: 32
 
-  google/flan-t5-base:
-    type: hf
-    batch_size: 16
+  # google/flan-t5-base:
+  #   type: hf
+  #   batch_size: 16
 
-  google/flan-t5-large:
-    type: hf
-    batch_size: 8
+  # google/flan-t5-large:
+  #   type: hf
+  #   batch_size: 8
 
   # ── SmolLM2 (tiny decoder-only) ───────────────────────────────────────────
   HuggingFaceTB/SmolLM2-135M-Instruct:

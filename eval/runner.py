@@ -45,9 +45,14 @@ def clear_gpu():
 def build_eval_kwargs(
     model_name, model_cfg, run, task_manager, device, log_samples=True
 ) -> dict:
+    model_args = {"pretrained": model_name}
+    extra = model_cfg.get("model_args", {})
+    if extra:
+        model_args.update(extra)
+
     kwargs = dict(
         model="hf",
-        model_args=f"pretrained={model_name}",
+        model_args=model_args,
         tasks=[run["bench_name"]],
         num_fewshot=run["num_fewshot"],
         log_samples=log_samples,
