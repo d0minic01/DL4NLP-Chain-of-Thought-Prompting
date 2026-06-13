@@ -1,0 +1,8 @@
+{"question": "A store has 48 apples. They sell 17 in the morning and 14 in the afternoon. How many apples are left?", "chain-of-thought": "Start: 48. Sold morning: 17. Sold afternoon: 14. Total sold: 17+14=31. Remaining: 48-31=17.", "target": "17"}
+{"question": "A train leaves at 9:45 AM and arrives at 1:15 PM. How long is the journey?", "chain-of-thought": "Start: 9:45. End: 13:15. Diff: 13:15 - 9:45 = 3h 30min.", "target": "3 hours 30 minutes"}
+{"question": "Alice is taller than Bob. Bob is taller than Carol. Is Alice taller than Carol?", "chain-of-thought": "Alice > Bob. Bob > Carol. → Alice > Carol. Yes.", "target": "yes"}
+{"question": "A recipe needs 2.5 cups of flour for 12 cookies. How much flour for 36 cookies?", "chain-of-thought": "36 cookies = 3x 12 cookies. Flour: 2.5 × 3 = 7.5 cups.", "target": "7.5 cups"}
+{"question": "All mammals are warm-blooded. Whales are mammals. Are whales warm-blooded?", "chain-of-thought": "Mammals → warm-blooded. Whale = mammal. → Whale warm-blooded. Yes.", "target": "yes"}
+{"question": "A parking lot has 5 rows of 12 spaces. 23 spaces are taken. How many are free?", "chain-of-thought": "Total: 5×12=60. Taken: 23. Free: 60-23=37.", "target": "37"}
+{"question": "It takes 3 workers 8 days to build a wall. How many days for 6 workers at the same rate?", "chain-of-thought": "Workers ×2 → time ÷2. 8 ÷ 2 = 4 days.", "target": "4 days"}
+{"question": "A shirt costs $40 and is 25% off. What is the sale price?", "chain-of-thought": "Discount: 25% of 40 = 10. Sale price: 40-10=30.", "target": "$30"}

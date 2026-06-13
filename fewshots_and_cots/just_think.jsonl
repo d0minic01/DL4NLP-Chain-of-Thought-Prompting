@@ -1,0 +1,8 @@
+{"question": "A store has 48 apples. They sell 17 in the morning and 14 in the afternoon. How many apples are left?", "chain-of-thought": "Let's think step by step.", "target": "17"}
+{"question": "A train leaves at 9:45 AM and arrives at 1:15 PM. How long is the journey?", "chain-of-thought": "Let's think step by step.", "target": "3 hours 30 minutes"}
+{"question": "Alice is taller than Bob. Bob is taller than Carol. Is Alice taller than Carol?", "chain-of-thought": "Let's think step by step.", "target": "yes"}
+{"question": "A recipe needs 2.5 cups of flour for 12 cookies. How much flour for 36 cookies?", "chain-of-thought": "Let's think step by step.", "target": "7.5 cups"}
+{"question": "All mammals are warm-blooded. Whales are mammals. Are whales warm-blooded?", "chain-of-thought": "Let's think step by step.", "target": "yes"}
+{"question": "A parking lot has 5 rows of 12 spaces. 23 spaces are taken. How many are free?", "chain-of-thought": "Let's think step by step.", "target": "37"}
+{"question": "It takes 3 workers 8 days to build a wall. How many days for 6 workers at the same rate?", "chain-of-thought": "Let's think step by step.", "target": "4 days"}
+{"question": "A shirt costs $40 and is 25% off. What is the sale price?", "chain-of-thought": "Let's think step by step.", "target": "$30"}
