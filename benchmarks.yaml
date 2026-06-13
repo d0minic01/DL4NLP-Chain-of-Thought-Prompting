@@ -8,9 +8,9 @@
 # TODO: Some benchmarks here define a test train split. I currently set it in their yaml config to train,
 #       but we should discuss whats the best approach about that.
 
-# TODO: Add BigBench (Date Understanding + Sports) benchmarks. They are included in lm_eval but somehow more intertwined?
+# TODO: Add BigBench (Date Understanding + Sports + strategy qa) benchmarks. They are included in lm_eval but somehow more intertwined?
 
-# TODO: Add symbolic reasoning benchmarks (coinflip + letter concat + strategy qa)
+# TODO: Add symbolic reasoning benchmarks (coinflip + letter concat)
 
 benchmarks:
   gsm8k:
