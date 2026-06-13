@@ -44,6 +44,13 @@ def load_results() -> pd.DataFrame:
     for csv_path in RESULTS_DIR.rglob("*.csv"):
         try:
             df = pd.read_csv(csv_path)
+            # results/{bench_base}/{safe_model}/{safe_model}[-cot_name].csv
+            # Infer missing columns from path structure for CSVs written before these were added.
+            if "bench_base" not in df.columns:
+                df["bench_base"] = csv_path.parts[-3]
+            if "is_cot" not in df.columns:
+                safe_name = csv_path.parent.name
+                df["is_cot"] = csv_path.stem != safe_name
             rows.append(df)
         except Exception:
             continue
@@ -53,12 +60,9 @@ def load_results() -> pd.DataFrame:
 
 
 def label_run_type(df: pd.DataFrame) -> pd.DataFrame:
-    """Add a 'run_type' column: 'baseline' or the prompt-set name."""
-    parts = df["benchmark"].str.rsplit("_", n=1, expand=True)
+    """Add a 'run_type' column: 'baseline' or 'cot'."""
     df = df.copy()
-    df["bench_base"] = parts[0]
-    df["run_type"] = parts[1].fillna("baseline")
-    df["run_type"] = df["run_type"].replace({"no": "baseline"})
+    df["run_type"] = df["is_cot"].map({True: "cot", False: "baseline"})
     return df
 
 
@@ -240,3 +244,7 @@ def main():
     print(f"  cot_delta_heatmap.png")
     print(f"  scaling_curves.png")
     print(f"  category_summary.png")
+
+
+if __name__ == "__main__":
+    main()
