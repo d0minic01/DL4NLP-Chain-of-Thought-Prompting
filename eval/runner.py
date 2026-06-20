@@ -14,7 +14,7 @@ from lm_eval.tasks import TaskManager
 from eval.tasks import (
     build_task_yaml,
     configure_runs,
-    discover_prompt_sets,
+    discover_fewshot_sets,
     resolve_models,
 )
 
@@ -54,10 +54,10 @@ def build_eval_kwargs(
         model="hf",
         model_args=model_args,
         tasks=[run["bench_name"]],
-        num_fewshot=run["num_fewshot"],
         log_samples=log_samples,
         task_manager=task_manager,
         device=device,
+        apply_chat_template=model_cfg.get("apply_chat_template", False),
     )
     if run["limit"] is not None:
         kwargs["limit"] = run["limit"]
@@ -83,20 +83,20 @@ def extract_accuracy(task_results):
     return None, None
 
 
-def save_result(results_dir, bench_base, model_name, row, cot_name=None, samples=None):
+def save_result(results_dir, bench_base, model_name, row, technique=None, samples=None):
 
     safe_name = model_name.replace("/", "_").replace(":", "_")
     model_dir = results_dir / bench_base / safe_name
     model_dir.mkdir(parents=True, exist_ok=True)
 
-    csv_filename = f"{safe_name}-{cot_name}.csv" if cot_name else f"{safe_name}.csv"
+    csv_filename = f"{safe_name}-{technique}.csv" if technique else f"{safe_name}.csv"
     csv_path = model_dir / csv_filename
     pd.DataFrame([row]).to_csv(csv_path, index=False)
 
     if samples is not None:
         json_filename = (
-            f"{safe_name}-{cot_name}-samples.json"
-            if cot_name
+            f"{safe_name}-{technique}-samples.json"
+            if technique
             else f"{safe_name}-samples.json"
         )
         json_path = model_dir / json_filename
@@ -125,7 +125,7 @@ def _extract_test_question(prompt: str) -> str:
     return prompt
 
 
-def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: int, out, num_correct: int = 0) -> bool | None:
+def print_sample(sample: dict, bench_base: str, technique: str, idx: int, total: int, out, num_correct: int = 0) -> bool | None:
     prompt = ""
     if sample.get("arguments"):
         args0 = sample["arguments"][0]
@@ -148,7 +148,6 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
     if correct is None and extracted:
         correct = extracted.strip().lower() == target.strip().lower()
 
-    variant = "CoT" if is_cot else "Baseline"
     verdict = (" CORRECT" if correct else " WRONG") if correct is not None else ""
     running_correct = num_correct + (1 if correct else 0)
     score_tag = f"  |  {running_correct}/{idx + 1} correct" if correct is not None else ""
@@ -164,7 +163,7 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
     final_answer = match.group(1).strip() if match else None
 
     print(SEP, file=out)
-    print(f"  {bench_base}  |  {variant}  |  sample {idx + 1}/{total}{score_tag}  |  {verdict}", file=out)
+    print(f"  {bench_base}  |  {technique}  |  sample {idx + 1}/{total}{score_tag}  |  {verdict}", file=out)
     print(SEP, file=out)
     print(question_text, file=out)
     if reasoning:
@@ -180,22 +179,16 @@ def print_sample(sample: dict, bench_base: str, is_cot: bool, idx: int, total: i
 
 
 def run_eval(config):
-    benchmarks = config.get("benchmarks", {})
-    prompt_sets = discover_prompt_sets()
+    benchmarks_cfg = config.get("benchmarks", {})
+    cot_techniques_cfg = config.get("cot_techniques", {})
+    cot_files = discover_fewshot_sets()
     models = resolve_models(config.get("models", {}))
     results_dir = Path("results")
 
-    runs = configure_runs(benchmarks, prompt_sets)
+    runs = configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files)
 
-    if config.get("cot_only"):
-        runs = [r for r in runs if r["is_cot"]]
-    elif config.get("baseline_only"):
-        runs = [r for r in runs if not r["is_cot"]]
-
-    if prompt_set_override := config.get("prompt_set_override"):
-        for run in runs:
-            run["prompt_cfg"] = prompt_sets[prompt_set_override]
-            run["prompt_set"] = prompt_set_override
+    if technique_override := config.get("technique_override"):
+        runs = [r for r in runs if r["technique"] in technique_override]
 
     if config.get("limit") is not None:
         for run in runs:
@@ -217,9 +210,11 @@ def run_eval(config):
         for run in runs:
             yaml_content, num_fewshot = build_task_yaml(
                 run["task"],
-                run["prompt_cfg"],
                 run["bench_name"],
-                run["is_cot"],
+                run["technique_type"],
+                run["questions_path"],
+                technique_path=run.get("technique_path"),
+                instruction=run.get("instruction"),
             )
             tmp_file = Path(tmpdir) / f"{run['bench_name']}.yaml"
             tmp_file.write_text(yaml_content)
@@ -233,7 +228,7 @@ def run_eval(config):
             for run in runs:
                 bench_name = run["bench_name"]
                 bench_base = run["bench_base"]
-                prompt_set = run.get("prompt_set")
+                technique = run["technique"]
 
                 clear_gpu()
                 start = time.perf_counter()
@@ -278,7 +273,7 @@ def run_eval(config):
                                 display_samples.append(s)
                         num_correct = 0
                         for i, sample in enumerate(display_samples):
-                            result_correct = print_sample(sample, bench_base, run["is_cot"], i, len(display_samples), out, num_correct)
+                            result_correct = print_sample(sample, bench_base, technique, i, len(display_samples), out, num_correct)
                             if result_correct:
                                 num_correct += 1
                         if out_stream:
@@ -295,7 +290,8 @@ def run_eval(config):
                     "model": model_name,
                     "benchmark": bench_name,
                     "bench_base": bench_base,
-                    "is_cot": run["is_cot"],
+                    "technique": technique,
+                    "technique_type": run["technique_type"],
                     "task": run["task"],
                     "accuracy": accuracy,
                     "metric": metric_used,
@@ -310,7 +306,7 @@ def run_eval(config):
                     bench_base,
                     model_name,
                     row,
-                    prompt_set,
+                    technique,
                     samples=samples,
                 )
 

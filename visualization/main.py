@@ -44,13 +44,8 @@ def load_results() -> pd.DataFrame:
     for csv_path in RESULTS_DIR.rglob("*.csv"):
         try:
             df = pd.read_csv(csv_path)
-            # results/{bench_base}/{safe_model}/{safe_model}[-cot_name].csv
-            # Infer missing columns from path structure for CSVs written before these were added.
             if "bench_base" not in df.columns:
                 df["bench_base"] = csv_path.parts[-3]
-            if "is_cot" not in df.columns:
-                safe_name = csv_path.parent.name
-                df["is_cot"] = csv_path.stem != safe_name
             rows.append(df)
         except Exception:
             continue
@@ -62,7 +57,9 @@ def load_results() -> pd.DataFrame:
 def label_run_type(df: pd.DataFrame) -> pd.DataFrame:
     """Add a 'run_type' column: 'baseline' or 'cot'."""
     df = df.copy()
-    df["run_type"] = df["is_cot"].map({True: "cot", False: "baseline"})
+    df["run_type"] = df["technique_type"].map(
+        lambda t: "baseline" if t == "none" else "cot"
+    )
     return df
 
 
@@ -71,8 +68,8 @@ def pivot_baseline_cot(df: pd.DataFrame) -> pd.DataFrame:
     baseline = df[df["run_type"] == "baseline"][["model", "bench_base", "accuracy"]].rename(
         columns={"accuracy": "acc_baseline"}
     )
-    cot = df[df["run_type"] != "baseline"][["model", "bench_base", "run_type", "accuracy"]].rename(
-        columns={"accuracy": "acc_cot", "run_type": "prompt_set"}
+    cot = df[df["run_type"] != "baseline"][["model", "bench_base", "technique", "accuracy"]].rename(
+        columns={"accuracy": "acc_cot"}
     )
     merged = baseline.merge(cot, on=["model", "bench_base"], how="outer")
     return merged

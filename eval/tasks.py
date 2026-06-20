@@ -18,8 +18,26 @@ def load_config(path=None):
         return yaml.safe_load(f)
 
 
-def discover_prompt_sets():
-    return {p.stem: {"path": str(p)} for p in sorted(COTS_DIR.glob("*.jsonl"))}
+def discover_fewshot_sets():
+    """Scan fewshots_and_cots/ for benchmark directories containing questions.jsonl.
+
+    Returns:
+        dict: {benchmark_name: {"questions_path": str, "techniques": {technique_name: path}}}
+    """
+    benchmarks = {}
+    for bench_dir in sorted(COTS_DIR.iterdir()):
+        questions_path = bench_dir / "questions.jsonl"
+
+        techniques = {}
+        for f in sorted(bench_dir.iterdir()):
+            if f.suffix == ".jsonl" and f.name != "questions.jsonl":
+                techniques[f.stem] = str(f)
+
+        benchmarks[bench_dir.name] = {
+            "questions_path": str(questions_path),
+            "techniques": techniques,
+        }
+    return benchmarks
 
 
 def resolve_models(models_cfg):
@@ -34,69 +52,103 @@ def resolve_models(models_cfg):
     return resolved
 
 
-def resolve_path(cot_path):
-    if cot_path.startswith("~"):
-        return Path(cot_path).expanduser()
-    return Path(cot_path)
-
-
-def load_examples(fewshot_path):
-    fewshot_path = resolve_path(fewshot_path)
-    if not fewshot_path.exists():
-        logger.warning(f"CoT path does not exist: {fewshot_path}")
+def load_jsonl(path):
+    path = Path(path)
+    if not path.exists():
+        logger.warning(f"File does not exist: {path}")
         return []
-
-    examples = []
-    with open(fewshot_path) as f:
+    records = []
+    with open(path) as f:
         for line in f:
             line = line.strip()
             if line:
-                doc = json.loads(line)
-                doc = {k.replace("-", "_"): v for k, v in doc.items()}
-                examples.append(doc)
-    return examples
+                records.append(json.loads(line))
+    return records
 
 
-def configure_runs(benchmarks, prompt_sets):
+def configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files):
+    """Build run configurations for each benchmark × technique combination.
+
+    Args:
+        benchmarks_cfg: benchmarks section from config
+        cot_techniques_cfg: cot_techniques section from config
+        cot_files: output from discover_fewshot_sets()
+    """
     runs = []
-    for name, cfg in benchmarks.items():
-        prompt_set_name = cfg.get("prompt_set")
-        if prompt_set_name not in prompt_sets:
-            raise ValueError(
-                f"Benchmark '{name}' references prompt set '{prompt_set_name}' but it's not defined in prompt_sets. "
-                f"Available prompt sets: {list(prompt_sets.keys())}"
+    for bench_name, bench_cfg in benchmarks_cfg.items():
+        bench_cot_key = bench_cfg.get("cot_benchmark", bench_name)
+
+        if bench_cot_key not in cot_files:
+            logger.warning(
+                f"Benchmark '{bench_name}' has no few-shot files in fewshots_and_cots/{bench_cot_key}/"
             )
-        prompt_cfg = prompt_sets[prompt_set_name]
+            continue
 
-        runs.append(
-            {
-                "bench_name": f"{name}_no_cot",
-                "bench_base": name,
-                "task": cfg["task"],
-                "num_fewshot": cfg.get("num_fewshot", 0),
-                "limit": cfg.get("limit"),
-                "is_cot": False,
-                "prompt_cfg": prompt_cfg,
-            }
-        )
+        bench_files = cot_files[bench_cot_key]
+        questions_path = bench_files["questions_path"]
 
-        runs.append(
-            {
-                "bench_name": f"{name}_{prompt_set_name}",
-                "bench_base": name,
-                "task": cfg["task"],
-                "num_fewshot": 0,
-                "limit": cfg.get("limit"),
-                "is_cot": True,
-                "prompt_set": prompt_set_name,
-                "prompt_cfg": prompt_cfg,
+        for technique in bench_cfg.get("cot_techniques", []):
+            if technique not in cot_techniques_cfg:
+                logger.warning(
+                    f"Technique '{technique}' not defined in cot_techniques config, skipping"
+                )
+                continue
+
+            tech_cfg = cot_techniques_cfg[technique]
+            tech_type = tech_cfg["type"]
+
+            run = {
+                "bench_name": f"{bench_name}_{technique}",
+                "bench_base": bench_name,
+                "task": bench_cfg["task"],
+                "limit": bench_cfg.get("limit"),
+                "technique": technique,
+                "technique_type": tech_type,
+                "questions_path": questions_path,
+                "is_cot": tech_type != "none",
             }
-        )
+
+            if tech_type == "none":
+                pass  # no extra info needed
+
+            elif tech_type == "zero_shot":
+                run["instruction"] = tech_cfg.get(
+                    "instruction", "Let's think step by step."
+                )
+
+            elif tech_type == "fewshot":
+                technique_path = bench_files["techniques"].get(technique)
+                if technique_path is None:
+                    logger.warning(
+                        f"Technique '{technique}' requested for '{bench_name}' "
+                        f"but {bench_cot_key}/{technique}.jsonl not found, skipping"
+                    )
+                    continue
+                run["technique_path"] = technique_path
+
+            runs.append(run)
 
     return runs
 
 
-def build_task_yaml(base_task, prompt_cfg, task_name, is_cot):
+def build_task_yaml(
+    base_task,
+    task_name,
+    technique_type,
+    questions_path,
+    technique_path=None,
+    instruction=None,
+):
+    """Build a task YAML for lm_eval.
+
+    Args:
+        base_task: benchmark task name (e.g., 'gsm8k')
+        task_name: full run name (e.g., 'gsm8k_step_by_step')
+        technique_type: 'none', 'zero_shot', or 'fewshot'
+        questions_path: path to questions.jsonl
+        technique_path: path to technique .jsonl (for fewshot type)
+        instruction: zero-shot instruction string
+    """
     yaml_path = BENCHMARKS_DIR / f"{base_task}.yaml"
     if not yaml_path.exists():
         raise FileNotFoundError(f"Benchmark YAML not found: {yaml_path}")
@@ -107,17 +159,49 @@ def build_task_yaml(base_task, prompt_cfg, task_name, is_cot):
     task_def.pop("tag", None)
     task_def.pop("tags", None)
 
-    raw_examples = load_examples(prompt_cfg["path"])
-    task_def["num_fewshot"] = len(raw_examples)
-    task_def["fewshot_split"] = None
+    questions = load_jsonl(questions_path)
+    num_fewshot = 0
 
-    fewshot_cfg = task_def.get("fewshot_config", {})
-    fewshot_cfg["sampler"] = "first_n"
-    fewshot_cfg["samples"] = raw_examples
-    if not is_cot:
+    if technique_type == "none":
+        task_def["num_fewshot"] = len(questions)
+        task_def["fewshot_split"] = None
+        fewshot_cfg = task_def.get("fewshot_config", {})
+        fewshot_cfg["sampler"] = "first_n"
+        fewshot_cfg["samples"] = questions
         fewshot_cfg["doc_to_target"] = "The answer is {{target}}."
-    task_def["fewshot_config"] = fewshot_cfg
+        task_def["fewshot_config"] = fewshot_cfg
+        num_fewshot = len(questions)
 
-    return yaml.dump(task_def, default_flow_style=False, sort_keys=False), len(
-        raw_examples
-    )
+    elif technique_type == "zero_shot":
+        task_def["num_fewshot"] = 0
+        task_def["fewshot_split"] = None
+        existing_text = task_def.get("doc_to_text", "")
+        task_def["doc_to_text"] = f"{existing_text.rstrip()}\n{instruction}\n"
+
+    elif technique_type == "fewshot":
+        cot_records = load_jsonl(technique_path)
+        if len(cot_records) != len(questions):
+            logger.warning(
+                f"Mismatch: {len(questions)} questions but {len(cot_records)} "
+                f"CoT records in {technique_path}. Using min length."
+            )
+        n = min(len(questions), len(cot_records))
+        fewshot_examples = []
+        for i in range(n):
+            fewshot_examples.append(
+                {
+                    "question": questions[i]["question"],
+                    "chain_of_thought": cot_records[i]["chain_of_thought"],
+                    "target": questions[i]["target"],
+                }
+            )
+
+        task_def["num_fewshot"] = n
+        task_def["fewshot_split"] = None
+        fewshot_cfg = task_def.get("fewshot_config", {})
+        fewshot_cfg["sampler"] = "first_n"
+        fewshot_cfg["samples"] = fewshot_examples
+        task_def["fewshot_config"] = fewshot_cfg
+        num_fewshot = n
+
+    return yaml.dump(task_def, default_flow_style=False, sort_keys=False), num_fewshot

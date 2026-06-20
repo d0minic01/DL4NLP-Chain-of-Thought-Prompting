@@ -3,79 +3,118 @@
 # =============================================================================
 # limit field: integer to cap examples for fast testing, null for full dataset
 # task: filename (without .yaml) of the benchmark config in benchmarks/
-# prompt_set: filename (without .jsonl) of the few-shot examples in fewshots_and_cots/
+# cot_techniques: list of techniques to evaluate (must be defined in cot_techniques)
+# cot_benchmark: (optional) override the directory name in fewshots_and_cots/
+
+# TODO: None and ZeroShot dont adhere to benchmark result specifications
 
 # =============================================================================
-# Arithmetic Reasoning
+# CoT Techniques
 # =============================================================================
+# type: none     — baseline, no chain of thought
+# type: zero_shot — no examples, appends instruction to prompt
+# type: fewshot  — few-shot examples with chain of thought from {benchmark}/{technique}.jsonl
+
+cot_techniques:
+  none:
+    type: none
+  zero_shot:
+    type: zero_shot
+    instruction: "Let's think step by step."
+  persona_cot:
+    type: fewshot
+  contrastive_cot:
+    type: fewshot
+  numbered_step_cot:
+    type: fewshot
+  equation_only:
+    type: fewshot
+  caveman_mode:
+    type: fewshot
+
+# =============================================================================
+# Benchmarks
+# =============================================================================
+
 benchmarks:
+  # ── Arithmetic Reasoning ─────────────────────────────────────────────────
   gsm8k:
     task: gsm8k
-    limit: null
-    prompt_set: math_word_problems
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   asdiv:
     task: asdiv
-    limit: null
-    prompt_set: math_word_problems
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   mawps:
     task: mawps
-    limit: null
-    prompt_set: math_word_problems
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   svamp:
     task: svamp
-    limit: null
-    prompt_set: math_word_problems
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   aqua:
     task: aqua-rat
-    limit: null
-    prompt_set: math_word_problems_aqua
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
-  # =============================================================================
-  # Commonsense Reasoning
-  # =============================================================================
-
+  # ── Commonsense Reasoning ────────────────────────────────────────────────
   csqa:
     task: commonsense_qa
-    limit: null
-    prompt_set: csqa
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   strategyqa:
     task: strategyqa
-    limit: null
-    prompt_set: strategy_qa
+    limit: 5
+    cot_benchmark: strategy_qa
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   sports:
     task: sports_understanding
-    limit: null
-    prompt_set: sports_understanding
+    limit: 5
+    cot_benchmark: sports_understanding
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
-  # =============================================================================
-  # Symbolic Reasoning  (local synthetic datasets)
-  # =============================================================================
-
+  # ── Symbolic Reasoning ───────────────────────────────────────────────────
   coin_flip:
     task: coin_flip
-    limit: null
-    prompt_set: coin_flip
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   last_letter:
     task: last_letter_concatenation
-    limit: null
-    prompt_set: last_letter_concatenation
+    limit: 5
+    cot_benchmark: last_letter_concatenation
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   date:
     task: date_understanding
-    limit: null
-    prompt_set: date_understanding
+    limit: 5
+    cot_benchmark: date_understanding
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
   letter_shift:
     task: letter_shift
-    limit: null
-    prompt_set: letter_shift
+    limit: 5
+    cot_techniques:
+      [none, zero_shot, persona_cot, contrastive_cot]
 
 # =============================================================================
 # Models
@@ -84,21 +123,7 @@ benchmarks:
 models:
   defaults:
     batch_size: null
-
-  # ── Flan-T5 (encoder-decoder, instruction-tuned) ──────────────────────────
-  # Context Size of 512 is too small for most of our benchmarks
-  # ──────────────────────────────────────────────────────────────────────────
-  # google/flan-t5-small:
-  #   type: hf
-  #   batch_size: 32
-
-  # google/flan-t5-base:
-  #   type: hf
-  #   batch_size: 16
-
-  # google/flan-t5-large:
-  #   type: hf
-  #   batch_size: 8
+    apply_chat_template: true
 
   # ── SmolLM2 (tiny decoder-only) ───────────────────────────────────────────
   HuggingFaceTB/SmolLM2-135M-Instruct:
@@ -130,24 +155,28 @@ models:
     type: hf
     batch_size: 2
 
-  # ── Qwen3 (generational comparison with Qwen2.5 above) ───────────────────
-  # Qwen3 unifies thinking/non-thinking in one model; no separate -Instruct variant
+  # ── Qwen3 (base models, no instruct tuning) ────────────────────────────
   Qwen/Qwen3-0.6B:
     type: hf
     batch_size: 16
+    apply_chat_template: false
 
   Qwen/Qwen3-1.7B:
     type: hf
     batch_size: 8
+    apply_chat_template: false
 
   Qwen/Qwen3-4B:
     type: hf
     batch_size: 4
+    apply_chat_template: false
+
+  # ── Qwen3-Instruct ──────────────────────────────────────────────────────
+  Qwen/Qwen3-4B-Instruct-2507:
+    type: hf
+    batch_size: 4
 
   # ── Gemma 4 ───────────────────────────────────────────────────────────────
-  # E2B / E4B: "Edge" variants — compact dense models for on-device deployment
-  # -it: instruction-tuned (SFT + RLHF), the chat/assistant variant
-  # 26B MoE excluded; does not fit on 11GB VRAM
   google/gemma-4-E2B-it:
     type: hf
     batch_size: 8

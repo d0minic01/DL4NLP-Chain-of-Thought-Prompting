@@ -3,21 +3,24 @@ import os
 import textwrap
 
 from eval.runner import run_eval
-from eval.tasks import discover_prompt_sets, load_config, resolve_models
+from eval.tasks import load_config, resolve_models
 
 
 def build_help_text():
     config = load_config()
     benchmarks = list(config.get("benchmarks", {}).keys())
-    prompt_sets = list(discover_prompt_sets().keys())
+    techniques = list(config.get("cot_techniques", {}).keys())
     models = list(resolve_models(config.get("models", {})).keys())
 
-    width = os.get_terminal_size().columns
+    try:
+        width = os.get_terminal_size().columns
+    except OSError:
+        width = 80
     lines = ["The following are available:"]
     lines.append("\n")
     for label, items in [
         ("Benchmarks", benchmarks),
-        ("Prompt sets", prompt_sets),
+        ("CoT Techniques", techniques),
         ("Models", models),
     ]:
         text = f"\033[1m{label}\033[0m: {', '.join(items)}"
@@ -43,16 +46,11 @@ def parse_args():
         help="Run a single model by name",
     )
     parser.add_argument(
-        "-c",
-        "--cot",
-        action="store_true",
-        help="Run the CoT variant (default: run the baseline fewshot variant)",
-    )
-    parser.add_argument(
-        "-p",
-        "--prompts",
-        metavar="PROMPT_SET",
-        help="Override the prompt set (default: uses the one defined in benchmarks.yaml)",
+        "-t",
+        "--technique",
+        metavar="TECHNIQUE",
+        default="none",
+        help="CoT technique to run (default: none)",
     )
     parser.add_argument(
         "-d",
@@ -94,15 +92,11 @@ def apply_filters(config, args):
         get_or_exit("Benchmark", args.benchmark, benchmarks)
         config["benchmarks"] = {args.benchmark: benchmarks[args.benchmark]}
 
-    if args.prompts:
-        prompt_sets = discover_prompt_sets()
-        get_or_exit("Prompt set", args.prompts, prompt_sets)
-        config["prompt_set_override"] = args.prompts
-
-    if args.cot:
-        config["cot_only"] = True
-    elif args.benchmark:
-        config["baseline_only"] = True
+    available = config.get("cot_techniques", {})
+    if args.technique not in available:
+        print(f"Technique '{args.technique}' not found. Available: {', '.join(available.keys())}")
+        raise SystemExit(1)
+    config["technique_override"] = [args.technique]
 
     if args.model:
         resolved = resolve_models(config.get("models", {}))

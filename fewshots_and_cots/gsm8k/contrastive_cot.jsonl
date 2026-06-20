@@ -1,0 +1,8 @@
+{"chain_of_thought": "[INCORRECT] The grove workers planted 21 trees because the problem says there will be 21. [CORRECT] The original count was 15 and the final count is 21, so 21 - 15 = 6 were planted."}
+{"chain_of_thought": "[INCORRECT] They ate 35 chocolates so they have 42 - 35 = 7 left. [CORRECT] First add both amounts: 32 + 42 = 74. Then subtract what was eaten: 74 - 35 = 39."}
+{"chain_of_thought": "[INCORRECT] Jason gave Denny 20 + 12 = 32 lollipops because both numbers appear in the problem. [CORRECT] Jason started with 20 and now has 12, so he gave away 20 - 12 = 8."}
+{"chain_of_thought": "[INCORRECT] Shawn got 2 toys so he now has 5 + 2 = 7. [CORRECT] He got 2 from mom and 2 from dad, totaling 4 new toys. 5 + 4 = 9."}
+{"chain_of_thought": "[INCORRECT] Five computers were installed for 3 days (Mon, Tue, Wed), so 9 + 15 = 24. [CORRECT] Monday to Thursday is 4 days, so 5 * 4 = 20 computers were added. 9 + 20 = 29."}
+{"chain_of_thought": "[INCORRECT] He lost 23 golf balls so 58 - 23 = 35 and then plus 2 more, giving 37. [CORRECT] After Tuesday: 58 - 23 = 35. After Wednesday: 35 - 2 = 33."}
+{"chain_of_thought": "[INCORRECT] She spent $3 on bagels so she has 23 - 3 = 20 left. [CORRECT] Five bagels at $3 each cost 5 * 3 = $15. She has 23 - 15 = 8 dollars left."}
+{"chain_of_thought": "[INCORRECT] 2 more cars arrive so there are 2 cars in total. [CORRECT] There were 3 cars originally and 2 more arrived, so there are 3 + 2 = 5 cars now."}
