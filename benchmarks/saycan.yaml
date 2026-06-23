@@ -1,12 +1,9 @@
 tag:
-  - symbolic_reasoning
-dataset_path: json
-dataset_kwargs:
-  data_files:
-    test: data/coin_flip_test.jsonl
+  - planning
+dataset_path: chiayewken/saycan
 test_split: test
-doc_to_text: "{{question}}"
-doc_to_target: "{{target}}"
+doc_to_text: "{{INPUT}}"
+doc_to_target: "{{OUTPUT}}"
 fewshot_config:
   doc_to_text: "{{question}}"
   doc_to_target: "{{chain_of_thought}} The answer is {{target}}."
@@ -27,11 +24,11 @@ filter_list:
   - name: "strict-match"
     filter:
       - function: "regex"
-        regex_pattern: "The answer is (yes|no)"
+        regex_pattern: "The answer is ([\\s\\S]+?)(?:\\.?\\s*$|$)"
       - function: "take_first"
   - name: "flexible-extract"
     filter:
       - function: "regex"
-        group_select: -1
-        regex_pattern: "(?i)\\b(yes|no)\\b"
+        group_select: 0
+        regex_pattern: "(?s)(\\d+\\.\\s.*?(?:done\\.?|$))"
       - function: "take_first"

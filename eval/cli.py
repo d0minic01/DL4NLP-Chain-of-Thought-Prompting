@@ -49,8 +49,8 @@ def parse_args():
         "-t",
         "--technique",
         metavar="TECHNIQUE",
-        default="none",
-        help="CoT technique to run (default: none)",
+        default=None,
+        help="CoT technique to run (default: all from benchmarks.yaml)",
     )
     parser.add_argument(
         "-d",
@@ -93,10 +93,11 @@ def apply_filters(config, args):
         config["benchmarks"] = {args.benchmark: benchmarks[args.benchmark]}
 
     available = config.get("cot_techniques", {})
-    if args.technique not in available:
-        print(f"Technique '{args.technique}' not found. Available: {', '.join(available.keys())}")
-        raise SystemExit(1)
-    config["technique_override"] = [args.technique]
+    if args.technique is not None:
+        if args.technique not in available:
+            print(f"Technique '{args.technique}' not found. Available: {', '.join(available.keys())}")
+            raise SystemExit(1)
+        config["technique_override"] = [args.technique]
 
     if args.model:
         resolved = resolve_models(config.get("models", {}))

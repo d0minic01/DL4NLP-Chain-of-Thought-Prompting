@@ -1,8 +1,7 @@
 tag:
   - math_word_problems
 dataset_path: garrethlee/MAWPS
-output_type: generate_until
-doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_text: "{{question}}"
 doc_to_target: "{{answer.split('### ')[-1].rstrip()}}"
 test_split: train
 fewshot_config:
@@ -25,7 +24,6 @@ generation_kwargs:
     - "<|im_end|>"
   do_sample: false
   temperature: 0.0
-repeats: 1
 filter_list:
   - name: "strict-match"
     filter:

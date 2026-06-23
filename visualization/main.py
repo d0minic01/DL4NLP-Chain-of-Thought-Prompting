@@ -58,7 +58,7 @@ def label_run_type(df: pd.DataFrame) -> pd.DataFrame:
     """Add a 'run_type' column: 'baseline' or 'cot'."""
     df = df.copy()
     df["run_type"] = df["technique_type"].map(
-        lambda t: "baseline" if t == "none" else "cot"
+        lambda t: "baseline" if t == "fewshot_answer_only" else "cot"
     )
     return df
 
@@ -102,6 +102,61 @@ def plot_benchmark_comparison(df: pd.DataFrame, out_dir: Path) -> None:
 
         safe = model.replace("/", "_").replace(":", "_")
         fig.savefig(out_dir / f"{safe}_benchmark_comparison.png", dpi=150)
+        plt.close(fig)
+
+
+def plot_technique_comparison(df: pd.DataFrame, out_dir: Path) -> None:
+    """Grouped bar chart: all techniques side-by-side for each model."""
+    if df.empty:
+        return
+
+    for model, mdf in df.groupby("model"):
+        techniques = sorted(mdf["technique"].unique())
+        n_techniques = len(techniques)
+        technique_colors = dict(zip(techniques, plt.cm.Set2(range(n_techniques))))
+
+        benches = sorted(mdf["bench_base"].unique())
+        n_benches = len(benches)
+        fig, ax = plt.subplots(figsize=(max(8, n_benches * 1.8), 5))
+
+        bar_width = 0.8 / n_techniques
+        x_base = range(n_benches)
+
+        for i, tech in enumerate(techniques):
+            accs = []
+            for b in benches:
+                subset = mdf[(mdf["bench_base"] == b) & (mdf["technique"] == tech)]
+                accs.append(subset["accuracy"].mean() if not subset.empty else None)
+            offset = (i - n_techniques / 2 + 0.5) * bar_width
+            bars = ax.bar(
+                [x + offset for x in x_base],
+                [a if a is not None else 0 for a in accs],
+                bar_width,
+                label=tech,
+                color=technique_colors[tech],
+            )
+            for bar, val in zip(bars, accs):
+                if val is not None and val > 0:
+                    ax.text(
+                        bar.get_x() + bar.get_width() / 2,
+                        bar.get_height() + 0.005,
+                        f"{val:.0%}",
+                        ha="center",
+                        va="bottom",
+                        fontsize=7,
+                    )
+
+        ax.set_xticks(list(x_base))
+        ax.set_xticklabels(benches, rotation=30, ha="right")
+        ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
+        ax.set_ylim(0, 1.15)
+        ax.set_ylabel("Accuracy")
+        ax.set_title(f"Technique Comparison — {model.split('/')[-1]}")
+        ax.legend(loc="upper right", fontsize=8, ncol=2)
+        fig.tight_layout()
+
+        safe = model.replace("/", "_").replace(":", "_")
+        fig.savefig(out_dir / f"{safe}_technique_comparison.png", dpi=150)
         plt.close(fig)
 
 
@@ -237,12 +292,14 @@ def main():
     pivot = pivot_baseline_cot(df)
 
     plot_benchmark_comparison(pivot, out_dir)
+    plot_technique_comparison(raw, out_dir)
     plot_cot_delta_heatmap(pivot, out_dir)
     plot_scaling_curves(pivot, out_dir)
     plot_category_summary(pivot, out_dir)
 
     print(f"Saved plots to {out_dir}/")
     print(f"  benchmark_comparison: one PNG per model")
+    print(f"  technique_comparison: one PNG per model")
     print(f"  cot_delta_heatmap.png")
     print(f"  scaling_curves.png")
     print(f"  category_summary.png")

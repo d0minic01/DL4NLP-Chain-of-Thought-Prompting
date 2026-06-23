@@ -3,24 +3,29 @@
 # =============================================================================
 # limit field: integer to cap examples for fast testing, null for full dataset
 # task: filename (without .yaml) of the benchmark config in benchmarks/
-# cot_techniques: list of techniques to evaluate (must be defined in cot_techniques)
 # cot_benchmark: (optional) override the directory name in fewshots_and_cots/
-
-# TODO: None and ZeroShot dont adhere to benchmark result specifications
+#
+# All benchmarks automatically use all techniques defined in cot_techniques below.
+# Techniques whose .jsonl files are missing are skipped with a warning.
 
 # =============================================================================
-# CoT Techniques
+# Prompting Techniques
 # =============================================================================
-# type: none     — baseline, no chain of thought
-# type: zero_shot — no examples, appends instruction to prompt
-# type: fewshot  — few-shot examples with chain of thought from {benchmark}/{technique}.jsonl
+# type: fewshot_answer_only — few-shot with answer-only examples (may append instruction)
+# type: zero_shot — no examples, appends instruction to prompt if non-empty
+# type: fewshot  — few-shot examples with full chain-of-thought reasoning
 
 cot_techniques:
-  none:
-    type: none
-  zero_shot:
+  true_baseline:
     type: zero_shot
-    instruction: "Let's think step by step."
+  think_step_by_step:
+    type: zero_shot
+    instruction: "Think step by step."
+  fewshot_baseline:
+    type: fewshot_answer_only
+  fewshot_think_step_by_step:
+    type: fewshot_answer_only
+    instruction: "Think step by step."
   persona_cot:
     type: fewshot
   contrastive_cot:
@@ -41,80 +46,61 @@ benchmarks:
   gsm8k:
     task: gsm8k
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   asdiv:
     task: asdiv
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   mawps:
     task: mawps
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   svamp:
     task: svamp
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   aqua:
     task: aqua-rat
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   # ── Commonsense Reasoning ────────────────────────────────────────────────
   csqa:
     task: commonsense_qa
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   strategyqa:
     task: strategyqa
     limit: 5
     cot_benchmark: strategy_qa
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   sports:
     task: sports_understanding
     limit: 5
     cot_benchmark: sports_understanding
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
-
-  # ── Symbolic Reasoning ───────────────────────────────────────────────────
-  coin_flip:
-    task: coin_flip
-    limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
-
-  last_letter:
-    task: last_letter_concatenation
-    limit: 5
-    cot_benchmark: last_letter_concatenation
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
 
   date:
     task: date_understanding
     limit: 5
     cot_benchmark: date_understanding
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
+
+  # ── Symbolic Reasoning ───────────────────────────────────────────────────
+  coin_flip:
+    task: coin_flip
+    limit: 5
+
+  last_letter:
+    task: last_letter_concatenation
+    limit: 5
+    cot_benchmark: last_letter_concatenation
 
   letter_shift:
     task: letter_shift
     limit: 5
-    cot_techniques:
-      [none, zero_shot, persona_cot, contrastive_cot]
+
+  # ── Planning (SayCan) ─────────────────────────────────────────────────────
+  saycan:
+    task: saycan
+    limit: 5
 
 # =============================================================================
 # Models
@@ -124,131 +110,111 @@ models:
   defaults:
     batch_size: null
     apply_chat_template: true
+    system_instruction: "Always end your response with: The answer is <your answer>."
 
-  # ── SmolLM2 (tiny decoder-only) ───────────────────────────────────────────
+  # ── SmolLM2  ───────────────────────────────────────────
   HuggingFaceTB/SmolLM2-135M-Instruct:
     type: hf
     batch_size: 32
 
-  HuggingFaceTB/SmolLM2-360M-Instruct:
-    type: hf
-    batch_size: 16
+  # HuggingFaceTB/SmolLM2-360M-Instruct:
+  #   type: hf
+  #   batch_size: 16
 
-  HuggingFaceTB/SmolLM2-1.7B-Instruct:
-    type: hf
-    batch_size: 8
+  # HuggingFaceTB/SmolLM2-1.7B-Instruct:
+  #   type: hf
+  #   batch_size: 8
 
   # ── Qwen2.5-Instruct ──────────────────────────────────────────────────────
-  Qwen/Qwen2.5-0.5B-Instruct:
-    type: hf
-    batch_size: 16
+  # Qwen/Qwen2.5-0.5B-Instruct:
+  #   type: hf
+  #   batch_size: 16
 
-  Qwen/Qwen2.5-1.5B-Instruct:
-    type: hf
-    batch_size: 8
+  # Qwen/Qwen2.5-1.5B-Instruct:
+  #   type: hf
+  #   batch_size: 8
 
-  Qwen/Qwen2.5-3B-Instruct:
-    type: hf
-    batch_size: 4
+  # Qwen/Qwen2.5-3B-Instruct:
+  #   type: hf
+  #   batch_size: 4
 
-  Qwen/Qwen2.5-7B-Instruct:
-    type: hf
-    batch_size: 2
-
-  # ── Qwen3 (base models, no instruct tuning) ────────────────────────────
-  Qwen/Qwen3-0.6B:
-    type: hf
-    batch_size: 16
-    apply_chat_template: false
-
-  Qwen/Qwen3-1.7B:
-    type: hf
-    batch_size: 8
-    apply_chat_template: false
-
-  Qwen/Qwen3-4B:
-    type: hf
-    batch_size: 4
-    apply_chat_template: false
+  # Qwen/Qwen2.5-7B-Instruct:
+  #   type: hf
+  #   batch_size: 2
 
   # ── Qwen3-Instruct ──────────────────────────────────────────────────────
-  Qwen/Qwen3-4B-Instruct-2507:
-    type: hf
-    batch_size: 4
+  # Qwen/Qwen3-4B-Instruct-2507:
+  #   type: hf
+  #   batch_size: 4
 
   # ── Gemma 4 ───────────────────────────────────────────────────────────────
-  google/gemma-4-E2B-it:
-    type: hf
-    batch_size: 8
+  # google/gemma-4-E2B-it:
+  #   type: hf
+  #   batch_size: 8
 
-  google/gemma-4-E4B-it:
-    type: hf
-    batch_size: 4
+  # google/gemma-4-E4B-it:
+  #   type: hf
+  #   batch_size: 4
 
   # ── Gemma 3 ───────────────────────────────────────────────────────────────
-  google/gemma-3-270m-it:
-    type: hf
-    batch_size: 16
+  # google/gemma-3-270m-it:
+  #   type: hf
+  #   batch_size: 16
 
-  google/gemma-3-1b-it:
-    type: hf
-    batch_size: 8
+  # google/gemma-3-1b-it:
+  #   type: hf
+  #   batch_size: 8
 
-  google/gemma-3-4b-it:
-    type: hf
-    batch_size: 4
+  # google/gemma-3-4b-it:
+  #   type: hf
+  #   batch_size: 4
 
   # ── Gemma 2 ───────────────────────────────────────────────────────────────
-  google/gemma-2-2b-it:
-    type: hf
-    batch_size: 4
+  # google/gemma-2-2b-it:
+  #   type: hf
+  #   batch_size: 4
 
-  google/gemma-2-9b-it:
-    type: hf
-    batch_size: 1
+  # google/gemma-2-9b-it:
+  #   type: hf
+  #   batch_size: 1
 
   # ── Phi ───────────────────────────────────────────────────────────────────
-  microsoft/Phi-3-mini-4k-instruct:
-    type: hf
-    batch_size: 4
+  # microsoft/Phi-3-mini-4k-instruct:
+  #   type: hf
+  #   batch_size: 4
 
-  microsoft/Phi-4-mini-instruct:
-    type: hf
-    batch_size: 4
+  # microsoft/Phi-4-mini-instruct:
+  #   type: hf
+  #   batch_size: 4
 
   # ── DeepSeek-R1-Distill (reasoning-specialized) ───────────────────────────
-  deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B:
-    type: hf
-    batch_size: 8
+  # deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B:
+  #   type: hf
+  #   batch_size: 8
 
-  deepseek-ai/DeepSeek-R1-Distill-Qwen-7B:
-    type: hf
-    batch_size: 2
+  # deepseek-ai/DeepSeek-R1-Distill-Qwen-7B:
+  #   type: hf
+  #   batch_size: 2
 
   # ── Llama 3.2 (Meta, 128K context) ───────────────────────────────────────
-  meta-llama/Llama-3.2-1B-Instruct:
-    type: hf
-    batch_size: 16
+  # meta-llama/Llama-3.2-1B-Instruct:
+  #   type: hf
+  #   batch_size: 4
 
-  meta-llama/Llama-3.2-3B-Instruct:
-    type: hf
-    batch_size: 4
+  # meta-llama/Llama-3.2-3B-Instruct:
+  #   type: hf
+  #   batch_size: 1
 
   # ── Falcon3 (pruned+healed from larger models, math/STEM focus) ──────────
-  tiiuae/Falcon3-1B-Instruct:
-    type: hf
-    batch_size: 16
+  # tiiuae/Falcon3-1B-Instruct:
+  #   type: hf
+  #   batch_size: 16
 
-  tiiuae/Falcon3-3B-Instruct:
-    type: hf
-    batch_size: 4
+  # tiiuae/Falcon3-3B-Instruct:
+  #   type: hf
+  #   batch_size: 4
 
   # ── OLMo-2 (Allen AI, open-science, RLVR-trained) ────────────────────────
-  allenai/OLMo-2-0425-1B-Instruct:
-    type: hf
-    batch_size: 16
-
-  # ── Ministral (Mistral edge model, 128K context) ──────────────────────────
-  mistralai/Ministral-3B-Instruct-2410:
-    type: hf
-    batch_size: 4
+  # allenai/OLMo-2-0425-1B-Instruct:
+  #   type: hf
+  #   batch_size: 4

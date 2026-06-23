@@ -6,6 +6,7 @@ import tempfile
 import time
 from pathlib import Path
 
+import lm_eval.api.registry
 import pandas as pd
 import torch
 from lm_eval import simple_evaluate
@@ -43,21 +44,16 @@ def clear_gpu():
 
 
 def build_eval_kwargs(
-    model_name, model_cfg, run, task_manager, device, log_samples=True
+    lm, model_cfg, run, task_manager, device, log_samples=True
 ) -> dict:
-    model_args = {"pretrained": model_name}
-    extra = model_cfg.get("model_args", {})
-    if extra:
-        model_args.update(extra)
-
     kwargs = dict(
-        model="hf",
-        model_args=model_args,
+        model=lm,
         tasks=[run["bench_name"]],
         log_samples=log_samples,
         task_manager=task_manager,
         device=device,
-        apply_chat_template=model_cfg.get("apply_chat_template", False),
+        apply_chat_template=True,
+        system_instruction=model_cfg.get("system_instruction"),
     )
     if run["limit"] is not None:
         kwargs["limit"] = run["limit"]
@@ -125,7 +121,15 @@ def _extract_test_question(prompt: str) -> str:
     return prompt
 
 
-def print_sample(sample: dict, bench_base: str, technique: str, idx: int, total: int, out, num_correct: int = 0) -> bool | None:
+def print_sample(
+    sample: dict,
+    bench_base: str,
+    technique: str,
+    idx: int,
+    total: int,
+    out,
+    num_correct: int = 0,
+) -> bool | None:
     prompt = ""
     if sample.get("arguments"):
         args0 = sample["arguments"][0]
@@ -141,7 +145,12 @@ def print_sample(sample: dict, bench_base: str, technique: str, idx: int, total:
 
     # Try metric keys first; fall back to direct string comparison
     correct = None
-    for key in ("exact_match,strict-match", "exact_match,flexible-extract", "exact_match,none", "acc,none"):
+    for key in (
+        "exact_match,strict-match",
+        "exact_match,flexible-extract",
+        "exact_match,none",
+        "acc,none",
+    ):
         if key in sample:
             correct = bool(sample[key])
             break
@@ -150,20 +159,33 @@ def print_sample(sample: dict, bench_base: str, technique: str, idx: int, total:
 
     verdict = (" CORRECT" if correct else " WRONG") if correct is not None else ""
     running_correct = num_correct + (1 if correct else 0)
-    score_tag = f"  |  {running_correct}/{idx + 1} correct" if correct is not None else ""
+    score_tag = (
+        f"  |  {running_correct}/{idx + 1} correct" if correct is not None else ""
+    )
 
-    SEP  = "=" * 64
+    SEP = "=" * 64
     LINE = "-" * 64
 
-    question_text = re.sub(r"\s*\n?\s*Answer:\s*$", "", _extract_test_question(prompt)).rstrip()
+    question_text = re.sub(
+        r"\s*\n?\s*Answer:\s*$", "", _extract_test_question(prompt)
+    ).rstrip()
 
     raw_stripped = raw.strip() if raw else ""
-    match = re.search(r"(The answer is\b.*)", raw_stripped, re.IGNORECASE | re.DOTALL) if raw_stripped else None
-    reasoning = raw_stripped[:match.start()].rstrip() if match else raw_stripped or "(empty)"
+    match = (
+        re.search(r"(The answer is\b.*)", raw_stripped, re.IGNORECASE | re.DOTALL)
+        if raw_stripped
+        else None
+    )
+    reasoning = (
+        raw_stripped[: match.start()].rstrip() if match else raw_stripped or "(empty)"
+    )
     final_answer = match.group(1).strip() if match else None
 
     print(SEP, file=out)
-    print(f"  {bench_base}  |  {technique}  |  sample {idx + 1}/{total}{score_tag}  |  {verdict}", file=out)
+    print(
+        f"  {bench_base}  |  {technique}  |  sample {idx + 1}/{total}{score_tag}  |  {verdict}",
+        file=out,
+    )
     print(SEP, file=out)
     print(question_text, file=out)
     if reasoning:
@@ -202,41 +224,64 @@ def run_eval(config):
     log_samples = config.get("log_samples", False)
 
     output_file_path = config.get("output_file")
-    out_stream = open(output_file_path, "w", encoding="utf-8") if output_file_path else None
+    out_stream = (
+        open(output_file_path, "w", encoding="utf-8") if output_file_path else None
+    )
 
     device = get_device()
 
-    with tempfile.TemporaryDirectory() as tmpdir:
-        for run in runs:
-            yaml_content, num_fewshot = build_task_yaml(
-                run["task"],
-                run["bench_name"],
-                run["technique_type"],
-                run["questions_path"],
-                technique_path=run.get("technique_path"),
-                instruction=run.get("instruction"),
-            )
-            tmp_file = Path(tmpdir) / f"{run['bench_name']}.yaml"
-            tmp_file.write_text(yaml_content)
-            run["num_fewshot"] = num_fewshot
+    all_results = []
 
-        task_manager = TaskManager(include_path=[tmpdir])
+    for model_name, model_cfg in models.items():
+        clear_gpu()
 
-        all_results = []
+        model_args = {"pretrained": model_name}
+        extra = model_cfg.get("model_args", {})
+        if extra:
+            model_args.update(extra)
 
-        for model_name, model_cfg in models.items():
+        lm = lm_eval.api.registry.get_model("hf").create_from_arg_obj(
+            model_args,
+            {
+                "batch_size": model_cfg.get("batch_size"),
+                "max_batch_size": model_cfg.get("max_batch_size"),
+                "device": device,
+            },
+        )
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            for run in runs:
+                yaml_content, num_fewshot = build_task_yaml(
+                    run["task"],
+                    run["bench_name"],
+                    run["technique_type"],
+                    run["questions_path"],
+                    technique_path=run.get("technique_path"),
+                    instruction=run.get("instruction"),
+                )
+                tmp_file = Path(tmpdir) / f"{run['bench_name']}.yaml"
+                tmp_file.write_text(yaml_content)
+                run["num_fewshot"] = num_fewshot
+
+            task_manager = TaskManager(include_path=[tmpdir])
+
             for run in runs:
                 bench_name = run["bench_name"]
                 bench_base = run["bench_base"]
                 technique = run["technique"]
 
-                clear_gpu()
                 start = time.perf_counter()
                 samples = None
 
+                print(f"\n{'=' * 64}")
+                print(f"  Model:      {model_name}")
+                print(f"  Benchmark:  {bench_base}")
+                print(f"  Technique:  {technique}")
+                print(f"{'=' * 64}")
+
                 try:
                     eval_kwargs = build_eval_kwargs(
-                        model_name,
+                        lm,
                         model_cfg,
                         run,
                         task_manager,
@@ -273,7 +318,15 @@ def run_eval(config):
                                 display_samples.append(s)
                         num_correct = 0
                         for i, sample in enumerate(display_samples):
-                            result_correct = print_sample(sample, bench_base, technique, i, len(display_samples), out, num_correct)
+                            result_correct = print_sample(
+                                sample,
+                                bench_base,
+                                technique,
+                                i,
+                                len(display_samples),
+                                out,
+                                num_correct,
+                            )
                             if result_correct:
                                 num_correct += 1
                         if out_stream:

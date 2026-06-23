@@ -6,14 +6,14 @@ import yaml
 
 logger = logging.getLogger(__name__)
 
-
-BENCHMARKS_DIR = Path(__file__).resolve().parent.parent / "benchmarks"
-COTS_DIR = Path(__file__).resolve().parent.parent / "fewshots_and_cots"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+BENCHMARKS_DIR = PROJECT_ROOT / "benchmarks"
+COTS_DIR = PROJECT_ROOT / "fewshots_and_cots"
 
 
 def load_config(path=None):
     if path is None:
-        path = Path(__file__).resolve().parent.parent / "benchmarks.yaml"
+        path = PROJECT_ROOT / "benchmarks.yaml"
     with open(path) as f:
         return yaml.safe_load(f)
 
@@ -26,6 +26,8 @@ def discover_fewshot_sets():
     """
     benchmarks = {}
     for bench_dir in sorted(COTS_DIR.iterdir()):
+        if not bench_dir.is_dir():
+            continue
         questions_path = bench_dir / "questions.jsonl"
 
         techniques = {}
@@ -87,7 +89,7 @@ def configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files):
         bench_files = cot_files[bench_cot_key]
         questions_path = bench_files["questions_path"]
 
-        for technique in bench_cfg.get("cot_techniques", []):
+        for technique in cot_techniques_cfg:
             if technique not in cot_techniques_cfg:
                 logger.warning(
                     f"Technique '{technique}' not defined in cot_techniques config, skipping"
@@ -96,6 +98,7 @@ def configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files):
 
             tech_cfg = cot_techniques_cfg[technique]
             tech_type = tech_cfg["type"]
+            instruction = tech_cfg.get("instruction")
 
             run = {
                 "bench_name": f"{bench_name}_{technique}",
@@ -105,18 +108,10 @@ def configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files):
                 "technique": technique,
                 "technique_type": tech_type,
                 "questions_path": questions_path,
-                "is_cot": tech_type != "none",
+                "instruction": instruction,
             }
 
-            if tech_type == "none":
-                pass  # no extra info needed
-
-            elif tech_type == "zero_shot":
-                run["instruction"] = tech_cfg.get(
-                    "instruction", "Let's think step by step."
-                )
-
-            elif tech_type == "fewshot":
+            if tech_type == "fewshot":
                 technique_path = bench_files["techniques"].get(technique)
                 if technique_path is None:
                     logger.warning(
@@ -129,6 +124,7 @@ def configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files):
             runs.append(run)
 
     return runs
+
 
 
 def build_task_yaml(
@@ -144,7 +140,7 @@ def build_task_yaml(
     Args:
         base_task: benchmark task name (e.g., 'gsm8k')
         task_name: full run name (e.g., 'gsm8k_step_by_step')
-        technique_type: 'none', 'zero_shot', or 'fewshot'
+        technique_type: 'fewshot_answer_only', 'zero_shot', or 'fewshot'
         questions_path: path to questions.jsonl
         technique_path: path to technique .jsonl (for fewshot type)
         instruction: zero-shot instruction string
@@ -159,10 +155,12 @@ def build_task_yaml(
     task_def.pop("tag", None)
     task_def.pop("tags", None)
 
+    task_def["doc_to_text"] = task_def.get("doc_to_text", "")
+
     questions = load_jsonl(questions_path)
     num_fewshot = 0
 
-    if technique_type == "none":
+    if technique_type == "fewshot_answer_only":
         task_def["num_fewshot"] = len(questions)
         task_def["fewshot_split"] = None
         fewshot_cfg = task_def.get("fewshot_config", {})
@@ -170,13 +168,16 @@ def build_task_yaml(
         fewshot_cfg["samples"] = questions
         fewshot_cfg["doc_to_target"] = "The answer is {{target}}."
         task_def["fewshot_config"] = fewshot_cfg
+        if instruction:
+            task_def["doc_to_text"] = f"{task_def['doc_to_text'].rstrip()}\n{instruction}\n"
         num_fewshot = len(questions)
 
     elif technique_type == "zero_shot":
         task_def["num_fewshot"] = 0
         task_def["fewshot_split"] = None
-        existing_text = task_def.get("doc_to_text", "")
-        task_def["doc_to_text"] = f"{existing_text.rstrip()}\n{instruction}\n"
+        if instruction:
+            existing_text = task_def.get("doc_to_text", "")
+            task_def["doc_to_text"] = f"{existing_text.rstrip()}\n{instruction}\n"
 
     elif technique_type == "fewshot":
         cot_records = load_jsonl(technique_path)
