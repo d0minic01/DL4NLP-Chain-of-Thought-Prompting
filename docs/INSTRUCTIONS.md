@@ -15,10 +15,9 @@ A GPU is **not required**. All models listed for laptop testing run fine on CPU,
 ## 1. Install dependencies
 
 ```bash
+uv venv
 uv sync
 ```
-
-This creates `.venv/` and installs everything from `uv.lock` (lm-eval, transformers, torch, matplotlib, etc.).
 
 ---
 
@@ -28,10 +27,10 @@ Run one tiny model on one benchmark with 5 examples to confirm the pipeline work
 
 ```bash
 # Baseline (standard few-shot, no chain-of-thought)
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5
 
 # CoT variant of the same
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -c
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -t think_step_by_step
 ```
 
 Results are saved to `results/gsm8k/HuggingFaceTB_SmolLM2-135M-Instruct/`.
@@ -61,7 +60,7 @@ For a laptop with 8 GB RAM and no GPU, stick to the first four. The 1.5 B+ model
 All commands follow this pattern:
 
 ```
-uv run python run_eval.py [options]
+uv run eval [options]
 ```
 
 ### Flags
@@ -70,8 +69,7 @@ uv run python run_eval.py [options]
 |---|---|
 | `-m MODEL` | Run only this model (HuggingFace ID, must be in `benchmarks.yaml`) |
 | `-b BENCHMARK` | Run only this benchmark (name from `benchmarks.yaml`) |
-| `-c` | Use CoT prompts instead of baseline few-shot |
-| `-p PROMPT_SET` | Override the prompt set (file name in `fewshots_and_cots/`, without `.jsonl`) |
+| `-t TECHNIQUE` | Run only this CoT technique (name from `benchmarks.yaml`, default: all) |
 | `-l N` | Limit to N examples (use 20–50 on a laptop for speed) |
 | `-d` | Debug: save full model inputs/outputs alongside CSVs |
 | `-v` | Print each sample's prompt, model output, and extracted answer to stdout |
@@ -81,29 +79,29 @@ uv run python run_eval.py [options]
 
 ```bash
 # One model, one benchmark, both variants (baseline then CoT)
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -c
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -t think_step_by_step
 
 # Try a symbolic benchmark (coin flip)
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b coin_flip -l 20
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b coin_flip -l 20 -c
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b coin_flip -l 20
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b coin_flip -l 20 -t think_step_by_step
 
 # Try an extended prompting technique on GSM8K
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -p equation_only
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -p numbered_step_cot
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -p contrastive_cot
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -t equation_only
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -t numbered_step_cot
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 -t contrastive_cot
 
 # Inspect prompts and outputs live in the terminal
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -v
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -v
 
 # Same but write to a file (useful for longer runs or sharing)
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 --output-file gsm8k_log.txt
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 20 --output-file gsm8k_log.txt
 
 # Combine with CoT to see the reasoning chains the model produces
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -c -v
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -t think_step_by_step -v
 
 # Save raw JSON for later analysis (separate from -v)
-uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -c -d
+uv run eval -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -d
 ```
 
 ### Available benchmarks
@@ -123,23 +121,19 @@ uv run python run_eval.py -m HuggingFaceTB/SmolLM2-135M-Instruct -b gsm8k -l 5 -
 | `last_letter` | symbolic | Concatenate last letters of words in a name |
 | `letter_shift` | symbolic | Track letter position through shift operations |
 
-### Available prompt sets (`-p`)
+### Available techniques (`-t`)
 
-| Name | Description |
-|---|---|
-| `math_word_problems` | Original paper few-shot CoT (arithmetic) |
-| `math_word_problems_aqua` | Original paper few-shot CoT (AQuA multiple-choice) |
-| `csqa` | Original paper few-shot CoT (CommonsenseQA) |
-| `strategy_qa` | Original paper few-shot CoT (StrategyQA) |
-| `sports_understanding` | Original paper few-shot CoT (sports plausibility) |
-| `date_understanding` | Original paper few-shot CoT (date arithmetic) |
-| `coin_flip` | Original paper few-shot CoT (coin flip) |
-| `last_letter_concatenation` | Original paper few-shot CoT (letter concat) |
-| `letter_shift` | Custom benchmark few-shot CoT |
-| `equation_only` | Ablation: reasoning = bare equation, no language |
-| `numbered_step_cot` | Variant: explicit Step 1 / Step 2 / … numbering |
-| `persona_cot` | Variant: "As a mathematician: …" role framing |
-| `contrastive_cot` | Variant: [INCORRECT] + [CORRECT] chain per exemplar |
+| Name | Type | Description |
+|---|---|---|
+| `true_baseline` | zero_shot | No examples, no instruction |
+| `think_step_by_step` | zero_shot | Instruction: "Think step by step." |
+| `fewshot_baseline` | fewshot_base | Few-shot with answer-only targets |
+| `paper_cot` | fewshot_cot | Original Wei et al. CoT from questions.jsonl |
+| `persona_cot` | fewshot_cot | "As a mathematician: ..." role framing |
+| `contrastive_cot` | fewshot_cot | [INCORRECT] + [CORRECT] chain per exemplar |
+| `numbered_step_cot` | fewshot_cot | Explicit Step 1 / Step 2 / ... numbering |
+| `equation_only` | fewshot_cot | Bare equation only, no natural language |
+| `caveman_mode` | fewshot_cot | Simplified/novel CoT style |
 
 ---
 
@@ -155,7 +149,11 @@ results/
       HuggingFaceTB_SmolLM2-135M-Instruct-math_word_problems.csv  ← CoT run
 ```
 
-Each CSV has one row with columns: `model`, `benchmark`, `accuracy`, `metric`, `num_fewshot`, `limit`, `eval_time_sec`, `peak_vram_gb`.
+Each CSV has one row with columns: `model`, `benchmark`, `bench_base`, `technique`, `technique_type`, `task`, `accuracy`, `invalid_rate`, `avg_output_chars`, `num_fewshot`, `limit`, `eval_time_sec`, `peak_vram_gb`.
+
+- `accuracy` — proportion of exact matches
+- `invalid_rate` — proportion of samples where the model failed to produce a parseable answer (0.0–1.0)
+- `avg_output_chars` — mean character count of raw model outputs (proxy for verbosity across tokenizers)
 
 The key comparison is `accuracy` between the baseline CSV and the CoT CSV for the same model and benchmark.
 
@@ -166,8 +164,8 @@ The key comparison is `accuracy` between the baseline CSV and the CoT CSV for th
 After collecting some results, generate plots:
 
 ```bash
-uv run python visualize.py           # saves to plots/
-uv run python visualize.py -o my_plots  # custom output folder
+uv run visualize           # saves to plots/
+uv run visualize -o my_plots  # custom output folder
 ```
 
 Four plots are produced:
@@ -197,12 +195,12 @@ uv run python scripts/generate_letter_shift_data.py  # letter_shift
 Once the pipeline is validated on a laptop, run all models and benchmarks on the workstation:
 
 ```bash
-# Full run — all models, all benchmarks, baseline + CoT
-uv run python run_eval.py
+# Full run — all models, all benchmarks, all techniques
+uv run eval
 
-# Or selectively by category
-uv run python run_eval.py -b gsm8k    # all models, one benchmark, baseline + CoT
-uv run python run_eval.py -b gsm8k -c # CoT only
+# Or selectively
+uv run eval -b gsm8k                        # all models, one benchmark, all techniques
+uv run eval -b gsm8k -t think_step_by_step  # all models, one benchmark, one technique
 ```
 
 Expected runtimes per model (rough estimates, 1080 Ti, full dataset):
@@ -213,7 +211,7 @@ Expected runtimes per model (rough estimates, 1080 Ti, full dataset):
 Run benchmarks with limited examples first to catch any model-specific issues:
 
 ```bash
-uv run python run_eval.py -l 50
+uv run eval -l 50
 ```
 
 Models that may need special attention:

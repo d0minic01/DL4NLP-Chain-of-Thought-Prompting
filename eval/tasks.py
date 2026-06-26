@@ -111,7 +111,7 @@ def configure_runs(benchmarks_cfg, cot_techniques_cfg, cot_files):
                 "instruction": instruction,
             }
 
-            if tech_type == "fewshot":
+            if tech_type == "fewshot_cot":
                 technique_path = bench_files["techniques"].get(technique)
                 if technique_path is None:
                     logger.warning(
@@ -140,7 +140,7 @@ def build_task_yaml(
     Args:
         base_task: benchmark task name (e.g., 'gsm8k')
         task_name: full run name (e.g., 'gsm8k_step_by_step')
-        technique_type: 'fewshot_answer_only', 'zero_shot', or 'fewshot'
+        technique_type: 'fewshot_base', 'zero_shot', or 'fewshot_cot'
         questions_path: path to questions.jsonl
         technique_path: path to technique .jsonl (for fewshot type)
         instruction: zero-shot instruction string
@@ -160,7 +160,7 @@ def build_task_yaml(
     questions = load_jsonl(questions_path)
     num_fewshot = 0
 
-    if technique_type == "fewshot_answer_only":
+    if technique_type == "fewshot_base":
         task_def["num_fewshot"] = len(questions)
         task_def["fewshot_split"] = None
         fewshot_cfg = task_def.get("fewshot_config", {})
@@ -179,7 +179,7 @@ def build_task_yaml(
             existing_text = task_def.get("doc_to_text", "")
             task_def["doc_to_text"] = f"{existing_text.rstrip()}\n{instruction}\n"
 
-    elif technique_type == "fewshot":
+    elif technique_type == "fewshot_cot":
         cot_records = load_jsonl(technique_path)
         if len(cot_records) != len(questions):
             logger.warning(

@@ -11,9 +11,11 @@
 # =============================================================================
 # Prompting Techniques
 # =============================================================================
-# type: fewshot_answer_only — few-shot with answer-only examples (may append instruction)
-# type: zero_shot — no examples, appends instruction to prompt if non-empty
-# type: fewshot  — few-shot examples with full chain-of-thought reasoning
+# type: zero_shot   — no examples, appends instruction to prompt if non-empty
+# type: fewshot_base — few-shot with answer-only targets (no chain-of-thought)
+# type: fewshot_cot  — few-shot with chain-of-thought reasoning in targets
+#                      (requires a <technique>.jsonl file per benchmark;
+#                       skipped with a warning if the file is missing)
 
 cot_techniques:
   true_baseline:
@@ -22,20 +24,19 @@ cot_techniques:
     type: zero_shot
     instruction: "Think step by step."
   fewshot_baseline:
-    type: fewshot_answer_only
-  fewshot_think_step_by_step:
-    type: fewshot_answer_only
-    instruction: "Think step by step."
+    type: fewshot_base
+  paper_cot:
+    type: fewshot_cot
   persona_cot:
-    type: fewshot
+    type: fewshot_cot
   contrastive_cot:
-    type: fewshot
+    type: fewshot_cot
   numbered_step_cot:
-    type: fewshot
+    type: fewshot_cot
   equation_only:
-    type: fewshot
+    type: fewshot_cot
   caveman_mode:
-    type: fewshot
+    type: fewshot_cot
 
 # =============================================================================
 # Benchmarks

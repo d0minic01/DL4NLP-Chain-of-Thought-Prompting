@@ -1,0 +1,4 @@
+{"chain_of_thought": "If 10 is added to each number, then the mean of the numbers also increases by 10. So the new mean would be 50."}
+{"chain_of_thought": "If a / b = 3/4, then b = 4a / 3. So 8a + 5(4a / 3) = 22. This simplifies to 8a + 20a / 3 = 22, which means 44a / 3 = 22. So a is equal to 3/2."}
+{"chain_of_thought": "The distance that the person traveled would have been 20 km/hr * 2.5 hrs = 50 km."}
+{"chain_of_thought": "There are 9 one-digit numbers from 1 to 9. There are 90 two-digit numbers from 10 to 99. There are 401 three-digit numbers from 100 to 500. 9 + 90(2) + 401(3) = 1392."}
