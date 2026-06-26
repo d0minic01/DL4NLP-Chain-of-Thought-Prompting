@@ -67,16 +67,12 @@ def extract_accuracy(task_results):
     for key in [
         "exact_match,strict-match",
         "exact_match,flexible-extract",
-        "exact_match,none",
-        "acc,none",
-        "acc_norm,none",
     ]:
         if key in task_results:
-            return task_results[key], key
+            return task_results[key]
     if task_results:
-        first_key = next(iter(task_results))
-        return task_results[first_key], first_key
-    return None, None
+        return next(iter(task_results.values()))
+    return None
 
 
 def save_result(results_dir, bench_base, model_name, row, technique=None, samples=None):
@@ -111,6 +107,38 @@ def _get_extracted_answer(sample: dict) -> str:
         first = fr[0]
         return first[0] if isinstance(first, list) and first else str(first)
     return ""
+
+
+def _compute_sample_aggregates(samples: list) -> dict:
+    if not samples:
+        return {"invalid_rate": None, "avg_output_chars": None}
+
+    seen_ids: set = set()
+    unique_samples = []
+    for s in samples:
+        doc_id = s.get("doc_id")
+        if doc_id not in seen_ids:
+            seen_ids.add(doc_id)
+            unique_samples.append(s)
+
+    invalid_count = 0
+    total_chars = 0
+    for s in unique_samples:
+        raw = ""
+        if s.get("resps"):
+            resps0 = s["resps"][0]
+            raw = resps0[0] if resps0 else ""
+        total_chars += len(raw)
+
+        extracted = _get_extracted_answer(s)
+        if extracted == "[invalid]" or extracted == "":
+            invalid_count += 1
+
+    n = len(unique_samples)
+    return {
+        "invalid_rate": round(invalid_count / n, 4),
+        "avg_output_chars": round(total_chars / n, 1),
+    }
 
 
 def _extract_test_question(prompt: str) -> str:
@@ -286,7 +314,7 @@ def run_eval(config):
                         run,
                         task_manager,
                         device,
-                        log_samples=log_samples,
+                        log_samples=True,
                     )
                     result = simple_evaluate(**eval_kwargs)
                     elapsed = time.perf_counter() - start
@@ -296,14 +324,12 @@ def run_eval(config):
 
                     results = result.get("results", {}).get(bench_name, {})
 
-                    accuracy, metric_used = extract_accuracy(results)
+                    accuracy = extract_accuracy(results)
 
-                    samples = None
-                    if log_samples:
-                        samples = result.get("samples", {}).get(bench_name, [])
+                    samples = result.get("samples", {}).get(bench_name, [])
 
                     peak_vram_gb = calculate_max_vram()
-                    print(f"    Result: {accuracy} ({metric_used}) in {elapsed:.1f}s")
+                    print(f"    Result: {accuracy} in {elapsed:.1f}s")
 
                     if verbose and samples:
                         out = out_stream if out_stream else sys.stdout
@@ -335,9 +361,15 @@ def run_eval(config):
                 except Exception as e:
                     elapsed = time.perf_counter() - start
                     accuracy = None
-                    metric_used = None
                     peak_vram_gb = None
+                    samples = None
                     print(f"    FAILED: {e}")
+
+                aggregates = (
+                    _compute_sample_aggregates(samples)
+                    if samples
+                    else {"invalid_rate": 1.0, "avg_output_chars": 0.0}
+                )
 
                 row = {
                     "model": model_name,
@@ -347,7 +379,8 @@ def run_eval(config):
                     "technique_type": run["technique_type"],
                     "task": run["task"],
                     "accuracy": accuracy,
-                    "metric": metric_used,
+                    "invalid_rate": aggregates["invalid_rate"],
+                    "avg_output_chars": aggregates["avg_output_chars"],
                     "num_fewshot": run.get("num_fewshot"),
                     "limit": run.get("limit"),
                     "eval_time_sec": round(elapsed, 2),
@@ -360,7 +393,7 @@ def run_eval(config):
                     model_name,
                     row,
                     technique,
-                    samples=samples,
+                    samples=samples if log_samples else None,
                 )
 
     clear_gpu()

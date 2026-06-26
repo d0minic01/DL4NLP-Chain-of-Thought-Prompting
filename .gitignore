@@ -17,3 +17,5 @@ plots/
 
 # environment variables
 .env
+
+.DS_STORE
