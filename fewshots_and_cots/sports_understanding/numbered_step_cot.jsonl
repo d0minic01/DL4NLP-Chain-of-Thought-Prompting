@@ -1,0 +1,10 @@
+{"chain_of_thought": "Step 1: Identify sport. Hockey. Step 2: Match action. Slashing is a hockey penalty. Step 3: Conclusion. Sentence is plausible."}
+{"chain_of_thought": "Step 1: Identify player sport. Soccer. Step 2: Identify event. NFL championship. Step 3: Mismatch sports. Conclusion: not plausible."}
+{"chain_of_thought": "Step 1: Identify athlete sport. Football. Step 2: Identify move. Basketball pick and roll. Step 3: Sports mismatch. Conclusion: not plausible."}
+{"chain_of_thought": "Step 1: Identify sport. Basketball. Step 2: Identify action. Buzzer-beating shot. Step 3: Match context. Conclusion: plausible."}
+{"chain_of_thought": "Step 1: Identify sport. Basketball. Step 2: Identify phrase. Free throws. Step 3: Conclusion. Plausible statement."}
+{"chain_of_thought": "Step 1: Identify athlete sport. Football. Step 2: Identify object. Hockey puck. Step 3: Mismatch. Conclusion: not plausible."}
+{"chain_of_thought": "Step 1: Identify sport. Basketball. Step 2: Identify scoring type. Football touchdown. Step 3: Conclusion. Not plausible."}
+{"chain_of_thought": "Step 1: Identify sport. Basketball. Step 2: Identify action. Bank shot off backboard. Step 3: Conclusion. Plausible."}
+
+

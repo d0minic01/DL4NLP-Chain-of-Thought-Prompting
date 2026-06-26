@@ -1,0 +1,4 @@
+{"chain_of_thought": "All number get +10. Mean get +10 too. Old mean 40. New mean 50."}
+{"chain_of_thought": "a / b = 3 / 4. So b = 4a / 3. Put in: 8a + 5(4a / 3) = 22. That 44a / 3 = 22. So a = 3 / 2."}
+{"chain_of_thought": "Go 20 km each hour. Go 2.5 hour. 20 km * 2.5 = 50 km."}
+{"chain_of_thought": "1 to 9 have 9 one-digit. 10 to 99 have 90 two-digit. 100 to 500 have 401 three-digit. 9 + 90 * 2 + 401 * 3 = 1392."}

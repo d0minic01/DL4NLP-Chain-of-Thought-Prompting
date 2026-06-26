@@ -1,0 +1,6 @@
+{"chain_of_thought":"[INCORRECT] Letter start a. Alice shift to a. Bob no shift. 1 shift. letter a. [CORRECT] Letter start a. Alice shift to b. Bob no shift. 1 shift. letter b."}
+{"chain_of_thought":"[INCORRECT] Letter start m. Carol shift to o. Dan shift to o. 2 shift but double counted. letter p. [CORRECT] Letter start m. Carol shift to n. Dan shift to o. 2 shift. letter o."}
+{"chain_of_thought":"[INCORRECT] Letter start z. Eve shift to b. Frank no shift. letter b. [CORRECT] Letter start z. Eve shift wraps to a. Frank no shift. letter a."}
+{"chain_of_thought":"[INCORRECT] Letter start g. Grace shifts it to h. Henry shifts to i. letter i. [CORRECT] Letter start g. Grace no shift. Henry no shift. 0 shift. letter g."}
+{"chain_of_thought":"[INCORRECT] Letter start c. Iris shifts once to d and stops. Jack and Kate ignored. letter d. [CORRECT] Letter start c. Iris shift to d. Jack shift to e. Kate shift to f. letter f."}
+{"chain_of_thought":"[INCORRECT] Letter start y. Liam shifts to z. Mia shifts to b. Noah no shift. letter b. [CORRECT] Letter start y. Liam shift to z. Mia shift to a. Noah no shift. letter a."}

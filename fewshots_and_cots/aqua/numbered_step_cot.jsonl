@@ -1,0 +1,4 @@
+{"chain_of_thought": "Step 1: Calculate change in mean. 15 * 10 / 15 = 15. Step 2: Add to given mean. 40 + 10 = 50."}
+{"chain_of_thought": "Step 1: Write b as function of a. b = 4a / 3. Step 2: Input into equation. 8a + 5(4a / 3) = 22. Step 3: Simplify  8a + 20a / 3 = 44a / 3 = 22 ==> a = 3/2."}
+{"chain_of_thought": "Step 1: Check units. Speed is in km/hr, time is in hr. Step 2: Calculate distance. 20 km/hr * 2.5 hr = 50 km."}
+{"chain_of_thought": "Step 1: Split into cases. 1-9 has only one digt, 10-99 has two digits, 100-500 has three digits. Step 2: Calculate keystrokes: 9*1 + 90*2 + 401*3 = 1392."}

@@ -1,0 +1,7 @@
+{"chain_of_thought": "[INCORRECT] Just grab any chips and give to user. [CORRECT] Find kettle chips, pick them, and deliver to the user."}
+{"chain_of_thought": "[INCORRECT] Move any drink without identifying it. [CORRECT] Find the grapefruit soda, pick it up, and place it on the counter."}
+{"chain_of_thought": "[INCORRECT] Bring only one snack. [CORRECT] Select two snacks and deliver both to the user."}
+{"chain_of_thought": "[INCORRECT] Choose a random food item including fruit. [CORRECT] Select an energy bar since the user requested a non-fruit food."}
+{"chain_of_thought": "[INCORRECT] Skip one task. [CORRECT] First move rice chips to the bowl, then move tea to the table."}
+{"chain_of_thought": "[INCORRECT] Throw away item without handling it. [CORRECT] Find the redbull, pick it up, and place it in the trash."}
+{"chain_of_thought": "[INCORRECT] Bring any drink. [CORRECT] Select water, pick it up, and deliver it."}

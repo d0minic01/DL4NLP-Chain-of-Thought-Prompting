@@ -1,0 +1,6 @@
+{"chain_of_thought": "Step 1: Convert hours to days. 36 hours = 2 days. Step 2: Calculate date. 01/01/2015 - 2 days = 12/30/2014. Step 3: Calculate date. 12/30/2014 + 7 days = 01/05/2015."}
+{"chain_of_thought": "Step 1: 01/01/2019 is Tuesday. Step 2: Find amount of needed days. First Monday is +6 days. Step 3: 01/07/2019."}
+{"chain_of_thought": "Step 1: 06/01/1943 + 1 day = 06/02/1943. Step 2: 06/02/1943 - 10 days = 05/23/1943."}
+{"chain_of_thought": "Step 1: Calculate date. 04/19/1969 + 1 day = 04/20/1969."}
+{"chain_of_thought": "Step 1: Correct date. 03/12/2002. Step 2: Calculate date. 03/12/2002 + 1 day = 03/13/2002."}
+{"chain_of_thought": "Step 1: Birthdate 02/28/2001. Step 2: Calculate date. 02/28/2001 + 16 years = 02/28/2017. Step 3: Yesterday = -1 day. 02/28/2001 - 1 day = 02/27/2017."}

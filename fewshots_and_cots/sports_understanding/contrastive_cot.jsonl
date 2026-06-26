@@ -1,0 +1,10 @@
+{"chain_of_thought": "[INCORRECT] Slashing is football penalty and Palmieri is football player. [CORRECT] Kyle Palmieri is a hockey player, and slashing is a hockey penalty, so the sentence is plausible."}
+{"chain_of_thought": "[INCORRECT] Soccer players play in NFL games. [CORRECT] Joao Moutinho is a soccer player, while the NFC championship is an American football event, so the sentence is not plausible."}
+{"chain_of_thought": "[INCORRECT] Pick and roll is football tactic used by quarterbacks. [CORRECT] Carson Wentz is an American football player, while pick and roll is a basketball play, so the sentence is not plausible."}
+{"chain_of_thought": "[INCORRECT] Beating the buzzer is baseball rule. [CORRECT] Jonas Valanciunas is a basketball player, and beating the buzzer refers to scoring before time expires in basketball, so it is plausible."}
+{"chain_of_thought": "[INCORRECT] 'Perfect from the line' means perfect soccer passing. [CORRECT] Jamal Murray is a basketball player, and being perfect from the free-throw line refers to making all free throws, so the sentence is plausible."}
+{"chain_of_thought": "[INCORRECT] Football players pass pucks in NFL games. [CORRECT] Sam Darnold is an American football player, while passing a puck is a hockey action, so the sentence is not plausible."}
+{"chain_of_thought": "[INCORRECT] Basketball players score touchdowns. [CORRECT] Draymond Green is a basketball player, while a touchdown is scored in American football, so the sentence is not plausible."}
+{"chain_of_thought": "[INCORRECT] Banking a shot is baseball pitching style. [CORRECT] Malcolm Brogdon is a basketball player, and banking a shot refers to using the backboard in basketball, so the sentence is plausible."}
+
+

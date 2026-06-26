@@ -1,0 +1,8 @@
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 0. heads"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 0. heads"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 1 + 0 mod 2 = 1. tails"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 0 + 1 mod 2 = 1. tails"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 1 + 0 mod 2 = 1. tails"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 1 + 0 mod 2 = 1. tails"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 0 + 0 mod 2 = 0. heads"}
+{"chain_of_thought": "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 0. heads"}

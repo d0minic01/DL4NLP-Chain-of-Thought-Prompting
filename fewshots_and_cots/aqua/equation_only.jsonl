@@ -1,0 +1,4 @@
+{"chain_of_thought": "40 + \\Delta = 40 + (15 * 10 / 15) = 50"}
+{"chain_of_thought": "a / b = 3/4  ==>  b = 4a / 3 ==> 8a + 5(4a / 3) = 44a / 3 = 22  ==>  a = 3/2"}
+{"chain_of_thought": "20 km/hr * 2.5 hrs = 50 km"}
+{"chain_of_thought": "9 * 1 + 90 * 2 + 401 * 3 = 1392"}

@@ -1,0 +1,6 @@
+{"chain_of_thought": "[INCORRECT] Hamsters are pets so nothing eats them. [CORRECT] Hamsters are prey animals, so predators can eat them and they serve as food."}
+{"chain_of_thought": "[INCORRECT] She went to Princeton so she cannot handle other universities. [CORRECT] Princeton and UPenn have similar difficulty, so she could succeed at UPenn as well."}
+{"chain_of_thought": "[INCORRECT] 1 squared is bigger than 5 because squaring makes numbers large. [CORRECT] Hydrogen has atomic number 1, and 1^2 = 1, which is less than 5."}
+{"chain_of_thought": "[INCORRECT] Commencements are only in the summer. [CORRECT] Some commencements occur in winter months like December, so frost can happen."}
+{"chain_of_thought": "[INCORRECT] 6 months is enough for many llama births. [CORRECT] A llama gestation is about 11 months, longer than 6 months, so two births are impossible."}
+{"chain_of_thought": "[INCORRECT] Pears are dense and sink. [CORRECT] Pears are less dense than water, so they float instead of sink."}

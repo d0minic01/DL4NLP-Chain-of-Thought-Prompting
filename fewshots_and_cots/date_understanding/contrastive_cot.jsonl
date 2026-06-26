@@ -1,0 +1,6 @@
+{"chain_of_thought": "[INCORRECT] 36 hours = 36 days, so 2015 starts far later. [CORRECT] 36 hours = 2 days before 01/01/2015 → 12/30/2014, then +7 days = 01/05/2015."}
+{"chain_of_thought": "[INCORRECT] First Monday is same day as year start Tuesday. [CORRECT] If 01/01/2019 is Tuesday, first Monday is 6 days later → 01/07/2019."}
+{"chain_of_thought": "[INCORRECT] One-day delay does not affect date difference. [CORRECT] 06/01/1943 → 06/02/1943, then 10 days earlier = 05/23/1943."}
+{"chain_of_thought": "[INCORRECT] 24 hours means same date. [CORRECT] 04/19/1969 + 1 day = 04/20/1969."}
+{"chain_of_thought": "[INCORRECT] Mar 11 is correct original date. [CORRECT] Actual date is 03/12/2002, so +1 day = 03/13/2002."}
+{"chain_of_thought": "[INCORRECT] Birthday shifts randomly in leap logic. [CORRECT] 02/28/2001 → 02/28/2017, so yesterday = 02/27/2017."}

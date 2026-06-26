@@ -1,0 +1,4 @@
+{"chain_of_thought": "As a mathematician: the equation of the mean is value / number, so (15*40 + 15*10) / 15 = 50."}
+{"chain_of_thought": "As a mathematician: b = 4a / 3. Plugging that in: 8a + 5(4a / 3) = 22, so a = 3/2"}
+{"chain_of_thought": "As a mathematician: total before eating is 32 + 42 = 74. After eating 35, there are 74 - 35 = 39 pieces left."}
+{"chain_of_thought": "As a mathematician: the number given away is 20 - 12 = 8."}

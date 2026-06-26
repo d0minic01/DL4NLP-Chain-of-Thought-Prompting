@@ -1,0 +1,8 @@
+{"chain_of_thought": "[INCORRECT] Coin start head. Ka flip. Sherrie flip. Ka flip. 3 flip. Odd flip. Coin tail. [CORRECT] Coin start head. Ka flip. Sherrie flip. 2 flip. Even flip. Coin still head."}
+{"chain_of_thought": "[INCORRECT] Two flips always change the coin to tails. [CORRECT] Coin start head. Jamey flip. Teressa flip. 2 flip. Even flip. Coin still head."}
+{"chain_of_thought": "[INCORRECT] Coin start tails. Maybelle flip. Shalonda no flip. 1 flip. Odd flip. Coin heads. [CORRECT] Coin start head. Maybelle flip. Shalonda no flip. 1 flip. Odd flip. Coin tail."}
+{"chain_of_thought": "[INCORRECT] Coin start head. Millicent no flip. Conception flip. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Millicent no flip. Conception flip. 1 flip. Odd flip. Coin tail."}
+{"chain_of_thought": "[INCORRECT] Coin start head. Sal flip. Raymond no flip. 0 flip. Even flip. Coin head. [CORRECT] Coin start head. Sal flip. Raymond no flip. 1 flip. Odd flip. Coin tail."}
+{"chain_of_thought": "[INCORRECT] Coin start head. Nobody flip. Coin is head. [CORRECT] Coin start head. Conception flip. Kristian no flip. 1 flip. Odd flip. Coin tail."}
+{"chain_of_thought": "[INCORRECT] Coin start head. Nobody flip. Coin is tail. [CORRECT] Coin start head. Nobody flip. 0 flip. Coin still head."}
+{"chain_of_thought": "[INCORRECT] Coin start head. Ryan flip. Coin is tail. [CORRECT] Coin start head. Ryan flip. Shaunda flip. 2 flip. Even flip. Coin still head."}

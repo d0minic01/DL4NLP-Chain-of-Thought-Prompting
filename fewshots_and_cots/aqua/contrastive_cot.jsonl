@@ -1,0 +1,4 @@
+{"chain_of_thought": "[INCORRECT] Add 15 * 10 = 150. The mean is 40 + 150 = 190. [CORRECT] Each number increased by 10, thus the mean also increased by ten. The new mean is 40 + 10 = 50."}
+{"chain_of_thought": "[INCORRECT] a / b = 3 / 4, so a = 3 and b = 4. [CORRECT] If a / b = 3/4, then b = 4a / 3. So 8a + 5(4a / 3) = 22. So 8a + 20a / 3 = 22, which is 44a / 3 = 22. So a = 3/2."}
+{"chain_of_thought": "[INCORRECT] 20 * 2.5 = 40.100. [CORRECT] The person would have traveld 20 km/hr * 2.5 hr = 50 km."}
+{"chain_of_thought": "[INCORRECT] One needs one keystroke per number, so one needs 500 keystrokes. [CORRECT] There are 9 one-digit numbers from 1 to 9. There are 90 two-digit numbers from 10 to 99. There are 401 three-digit numbers from 100 to 500. 9 + 90*2 + 401*3 = 1392."}
