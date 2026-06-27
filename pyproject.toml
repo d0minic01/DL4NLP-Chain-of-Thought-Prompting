@@ -5,6 +5,14 @@ build-backend = "hatchling.build"
 [tool.uv]
 package = true
 
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+
 [tool.hatch.build.targets.wheel]
 packages = ["eval", "visualization"]
 
@@ -19,7 +27,7 @@ dependencies = [
     "lm-eval[api]>=0.4.12",
     "pandas>=3.0.3",
     "pyyaml>=6.0.3",
-    "torch>=2.12.0",
+    "torch>=2.0.0",
     "transformers>=5.12.1",
     "matplotlib>=3.9.0",
 ]
