@@ -128,7 +128,6 @@ models:
     apply_chat_template: true
     system_instruction: "Always end your response with: The answer is <your answer>."
     model_args:
-      attn_implementation: flash_attention_2
       dtype: bfloat16
 
   # ── SmolLM2 (135M → 1.7B) — DONE, results saved, skipping ─────────────────
