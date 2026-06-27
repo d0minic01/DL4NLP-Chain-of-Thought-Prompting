@@ -36,6 +36,12 @@ def parse_args():
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
+        "-c",
+        "--config",
+        metavar="FILE",
+        help="Path to benchmarks config YAML (default: benchmarks.yaml)",
+    )
+    parser.add_argument(
         "-b",
         "--benchmark",
         help="Run a single benchmark by name",
@@ -149,7 +155,7 @@ def apply_smoke(config: dict) -> dict:
 def main():
     args = parse_args()
 
-    config = load_config()
+    config = load_config(args.config)
     config = apply_filters(config, args)
 
     if args.smoke:
