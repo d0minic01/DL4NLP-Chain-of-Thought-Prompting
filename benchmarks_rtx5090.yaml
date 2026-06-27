@@ -128,64 +128,66 @@ models:
     apply_chat_template: true
     system_instruction: "Always end your response with: The answer is <your answer>."
 
-  # ── SmolLM2 (135M → 1.7B) ────────────────────────────────────────────────
-  HuggingFaceTB/SmolLM2-135M-Instruct:
+  # ── SmolLM2 (135M → 1.7B) — DONE, results saved, skipping ─────────────────
+  # HuggingFaceTB/SmolLM2-135M-Instruct:
+  #   type: hf
+  #   batch_size: 32
+
+  # HuggingFaceTB/SmolLM2-360M-Instruct:
+  #   type: hf
+  #   batch_size: 16
+
+  # HuggingFaceTB/SmolLM2-1.7B-Instruct:
+  #   type: hf
+  #   batch_size: 8
+
+  # ── Qwen2.5 (0.5B → 7B) ──────────────────────────────────────────────────
+  # Qwen/Qwen2.5-0.5B-Instruct — DONE, results saved, skipping
+  # Qwen/Qwen2.5-0.5B-Instruct:
+  #   type: hf
+  #   batch_size: 16
+
+  # Qwen1.5B was partially done — rerunning from scratch with bigger batch
+  Qwen/Qwen2.5-1.5B-Instruct:
     type: hf
     batch_size: 32
 
-  HuggingFaceTB/SmolLM2-360M-Instruct:
-    type: hf
-    batch_size: 16
-
-  HuggingFaceTB/SmolLM2-1.7B-Instruct:
-    type: hf
-    batch_size: 8
-
-  # ── Qwen2.5 (0.5B → 7B) ──────────────────────────────────────────────────
-  Qwen/Qwen2.5-0.5B-Instruct:
-    type: hf
-    batch_size: 16
-
-  Qwen/Qwen2.5-1.5B-Instruct:
-    type: hf
-    batch_size: 8
-
   Qwen/Qwen2.5-3B-Instruct:
     type: hf
-    batch_size: 4
+    batch_size: 16
 
   Qwen/Qwen2.5-7B-Instruct:
     type: hf
-    batch_size: 2
+    batch_size: 8
 
   # ── Gemma 4 (2B, 4B) — compare directly against Gemma 3 at same sizes ───
   google/gemma-4-E2B-it:
     type: hf
-    batch_size: 8
+    batch_size: 16
 
   google/gemma-4-E4B-it:
     type: hf
-    batch_size: 4
+    batch_size: 8
 
   # ── Gemma 3 (270M → 4B) ──────────────────────────────────────────────────
   google/gemma-3-270m-it:
     type: hf
-    batch_size: 16
+    batch_size: 64
 
   google/gemma-3-1b-it:
     type: hf
-    batch_size: 8
+    batch_size: 32
 
   google/gemma-3-4b-it:
     type: hf
-    batch_size: 4
+    batch_size: 8
 
   # ── Falcon3 (pruned+healed, math/STEM focus) ─────────────────────────────
   tiiuae/Falcon3-1B-Instruct:
     type: hf
-    batch_size: 16
+    batch_size: 32
 
   # ── OLMo-2 (Allen AI, open-science, RLVR-trained) ────────────────────────
   allenai/OLMo-2-0425-1B-Instruct:
     type: hf
-    batch_size: 4
+    batch_size: 16
