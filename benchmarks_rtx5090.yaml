@@ -180,11 +180,6 @@ models:
     type: hf
     batch_size: 4
 
-  # ── Gemma 2 (9B — largest model in this run) ─────────────────────────────
-  google/gemma-2-9b-it:
-    type: hf
-    batch_size: 1
-
   # ── Falcon3 (pruned+healed, math/STEM focus) ─────────────────────────────
   tiiuae/Falcon3-1B-Instruct:
     type: hf
