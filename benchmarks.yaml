@@ -46,62 +46,62 @@ benchmarks:
   # ── Arithmetic Reasoning ─────────────────────────────────────────────────
   gsm8k:
     task: gsm8k
-    limit: 5
+    limit: null
 
   asdiv:
     task: asdiv
-    limit: 5
+    limit: null
 
   mawps:
     task: mawps
-    limit: 5
+    limit: null
 
   svamp:
     task: svamp
-    limit: 5
+    limit: null
 
   aqua:
     task: aqua-rat
-    limit: 5
+    limit: null
 
   # ── Commonsense Reasoning ────────────────────────────────────────────────
   csqa:
     task: commonsense_qa
-    limit: 5
+    limit: null
 
   strategyqa:
     task: strategyqa
-    limit: 5
+    limit: null
     cot_benchmark: strategy_qa
 
   sports:
     task: sports_understanding
-    limit: 5
+    limit: null
     cot_benchmark: sports_understanding
 
   date:
     task: date_understanding
-    limit: 5
+    limit: null
     cot_benchmark: date_understanding
 
   # ── Symbolic Reasoning ───────────────────────────────────────────────────
   coin_flip:
     task: coin_flip
-    limit: 5
+    limit: null
 
   last_letter:
     task: last_letter_concatenation
-    limit: 5
+    limit: null
     cot_benchmark: last_letter_concatenation
 
   letter_shift:
     task: letter_shift
-    limit: 5
+    limit: null
 
   # ── Planning (SayCan) ─────────────────────────────────────────────────────
   saycan:
     task: saycan
-    limit: 5
+    limit: null
 
 # =============================================================================
 # Models
@@ -118,22 +118,22 @@ models:
     type: hf
     batch_size: 32
 
-  # HuggingFaceTB/SmolLM2-360M-Instruct:
-  #   type: hf
-  #   batch_size: 16
+  HuggingFaceTB/SmolLM2-360M-Instruct:
+    type: hf
+    batch_size: 16
 
-  # HuggingFaceTB/SmolLM2-1.7B-Instruct:
-  #   type: hf
-  #   batch_size: 8
+  HuggingFaceTB/SmolLM2-1.7B-Instruct:
+    type: hf
+    batch_size: 8
 
   # ── Qwen2.5-Instruct ──────────────────────────────────────────────────────
-  # Qwen/Qwen2.5-0.5B-Instruct:
-  #   type: hf
-  #   batch_size: 16
+  Qwen/Qwen2.5-0.5B-Instruct:
+    type: hf
+    batch_size: 16
 
-  # Qwen/Qwen2.5-1.5B-Instruct:
-  #   type: hf
-  #   batch_size: 8
+  Qwen/Qwen2.5-1.5B-Instruct:
+    type: hf
+    batch_size: 8
 
   # Qwen/Qwen2.5-3B-Instruct:
   #   type: hf
