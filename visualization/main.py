@@ -13,7 +13,36 @@ BENCHMARK_CATEGORIES = {
     "arithmetic": ["gsm8k", "asdiv", "mawps", "svamp", "aqua"],
     "commonsense": ["csqa", "strategyqa", "sports", "date"],
     "symbolic": ["coin_flip", "last_letter", "letter_shift"],
+    "planning": ["saycan"],
 }
+
+# Human-readable technique labels
+TECHNIQUE_DISPLAY = {
+    "true_baseline": "No prompt",
+    "think_step_by_step": "Think step-by-step",
+    "fewshot_baseline": "Few-shot (answers only)",
+    "paper_cot": "CoT (paper)",
+    "contrastive_cot": "Contrastive CoT",
+    "numbered_step_cot": "Numbered steps",
+    "equation_only": "Equation only",
+    "persona_cot": "Persona CoT",
+    "caveman_mode": "Caveman",
+}
+
+# Consistent display order across all plots: simple baselines → CoT variants
+TECHNIQUE_ORDER = [
+    "true_baseline",
+    "think_step_by_step",
+    "fewshot_baseline",
+    "paper_cot",
+    "contrastive_cot",
+    "numbered_step_cot",
+    "equation_only",
+    "persona_cot",
+    "caveman_mode",
+]
+
+SIMPLE_TECHNIQUES = {"true_baseline", "think_step_by_step", "fewshot_baseline"}
 
 # Approximate parameter counts (millions) for sorting and scatter plots
 MODEL_PARAMS_M = {
@@ -58,7 +87,7 @@ def label_run_type(df: pd.DataFrame) -> pd.DataFrame:
     """Add a 'run_type' column: 'baseline' or 'cot'."""
     df = df.copy()
     df["run_type"] = df["technique_type"].map(
-        lambda t: "baseline" if t == "fewshot_answer_only" else "cot"
+        lambda t: "baseline" if t == "fewshot_base" else "cot"
     )
     return df
 
@@ -143,7 +172,8 @@ def plot_technique_comparison(df: pd.DataFrame, out_dir: Path) -> None:
                         f"{val:.0%}",
                         ha="center",
                         va="bottom",
-                        fontsize=7,
+                        fontsize=max(5, min(7, bar_width * 40)),
+                        rotation=90 if bar_width < 0.05 else 0,
                     )
 
         ax.set_xticks(list(x_base))
@@ -273,6 +303,267 @@ def plot_category_summary(df: pd.DataFrame, out_dir: Path) -> None:
     plt.close(fig)
 
 
+def _technique_colors(techniques: list[str]) -> dict[str, tuple]:
+    """Assign consistent colors across plots, ordered by TECHNIQUE_ORDER."""
+    palette = plt.cm.tab10.colors
+    return {t: palette[i % len(palette)] for i, t in enumerate(TECHNIQUE_ORDER) if t in techniques}
+
+
+def plot_technique_scaling_curves(df: pd.DataFrame, out_dir: Path) -> None:
+    """Per-technique accuracy vs. model scale (reproduces paper Figs 2/3/4).
+
+    Each line is one prompting technique; subplots split by task category.
+    """
+    if df.empty:
+        return
+    df = df.copy()
+    df["params_m"] = df["model"].map(MODEL_PARAMS_M)
+    df = df.dropna(subset=["params_m", "accuracy"])
+    if df.empty:
+        return
+
+    present = [t for t in TECHNIQUE_ORDER if t in df["technique"].unique()]
+    colors = _technique_colors(present)
+
+    all_categories = list(BENCHMARK_CATEGORIES.keys())
+    fig, axes = plt.subplots(1, len(all_categories), figsize=(6 * len(all_categories), 5), sharey=True)
+    if len(all_categories) == 1:
+        axes = [axes]
+
+    for ax, category in zip(axes, all_categories):
+        benches = BENCHMARK_CATEGORIES[category]
+        cat_df = df[df["bench_base"].isin(benches)]
+        if cat_df.empty:
+            ax.set_title(category.capitalize())
+            continue
+
+        for tech in present:
+            grp = (
+                cat_df[cat_df["technique"] == tech]
+                .groupby("params_m")["accuracy"]
+                .mean()
+                .dropna()
+                .sort_index()
+            )
+            if grp.empty:
+                continue
+            linestyle = "-" if tech in SIMPLE_TECHNIQUES else "--"
+            ax.scatter(grp.index, grp.values, color=colors[tech], zorder=5, s=40)
+            ax.plot(
+                grp.index,
+                grp.values,
+                color=colors[tech],
+                label=TECHNIQUE_DISPLAY.get(tech, tech),
+                linewidth=1.5,
+                linestyle=linestyle,
+            )
+
+        ax.set_xscale("log")
+        ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{int(v)}M"))
+        ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
+        ax.set_ylim(0, 1.05)
+        ax.set_xlabel("Parameters")
+        ax.set_title(category.capitalize())
+
+    axes[0].set_ylabel("Average Accuracy")
+    handles, labels = axes[-1].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="center right", bbox_to_anchor=(1.14, 0.5), fontsize=8)
+    fig.suptitle("Accuracy vs. Model Scale by Prompting Technique\n(solid = simple baselines, dashed = CoT)", fontsize=12)
+    fig.tight_layout(rect=[0, 0, 0.87, 1])
+    fig.savefig(out_dir / "technique_scaling_curves.png", dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+
+def plot_baseline_sufficiency(df: pd.DataFrame, out_dir: Path) -> None:
+    """Compare simple baselines vs CoT techniques by task category.
+
+    Answers the question: 'Is think-step-by-step or few-shot already enough?'
+    (Inspired by the ablation study in Wei et al. 2022, Figure 5.)
+    """
+    if df.empty:
+        return
+
+    category_map = {b: cat for cat, benches in BENCHMARK_CATEGORIES.items() for b in benches}
+    df = df.copy()
+    df["category"] = df["bench_base"].map(category_map)
+    df = df.dropna(subset=["category", "accuracy"])
+    if df.empty:
+        return
+
+    present = [t for t in TECHNIQUE_ORDER if t in df["technique"].unique()]
+    grouped = (
+        df.groupby(["category", "technique"])["accuracy"]
+        .mean()
+        .unstack("technique")
+        .reindex(list(BENCHMARK_CATEGORIES.keys()))
+    )
+    grouped = grouped[[t for t in present if t in grouped.columns]]
+
+    if grouped.empty:
+        return
+
+    # Color: grey shades for simple baselines, orange palette for CoT
+    simple_colors = ["#95A5A6", "#5DADE2", "#2ECC71"]
+    cot_colors = plt.cm.Oranges([0.45 + 0.45 * i / max(len(present) - len(SIMPLE_TECHNIQUES) - 1, 1)
+                                  for i in range(len(present) - len(SIMPLE_TECHNIQUES))])
+    colors = []
+    simple_idx = 0
+    cot_idx = 0
+    for t in grouped.columns:
+        if t in SIMPLE_TECHNIQUES:
+            colors.append(simple_colors[simple_idx % len(simple_colors)])
+            simple_idx += 1
+        else:
+            colors.append(cot_colors[cot_idx])
+            cot_idx += 1
+
+    n_cats = len(grouped)
+    n_techs = len(grouped.columns)
+    bar_width = 0.8 / n_techs
+
+    fig, ax = plt.subplots(figsize=(max(10, n_cats * n_techs * 0.55), 5))
+    x = range(n_cats)
+
+    for i, (tech, color) in enumerate(zip(grouped.columns, colors)):
+        offset = (i - n_techs / 2 + 0.5) * bar_width
+        vals = grouped[tech].values
+        ax.bar(
+            [xi + offset for xi in x],
+            [v if not pd.isna(v) else 0 for v in vals],
+            bar_width,
+            label=TECHNIQUE_DISPLAY.get(tech, tech),
+            color=color,
+            edgecolor="white",
+            linewidth=0.4,
+        )
+
+    ax.set_xticks(list(x))
+    ax.set_xticklabels([c.capitalize() for c in grouped.index])
+    ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
+    ax.set_ylim(0, 1.1)
+    ax.set_ylabel("Average Accuracy")
+    ax.set_title("Is a Simple Baseline Already Enough?\n(grey/blue = simple baselines, orange = CoT techniques)")
+    ax.legend(loc="upper right", fontsize=8, ncol=2)
+    fig.tight_layout()
+    fig.savefig(out_dir / "baseline_sufficiency.png", dpi=150)
+    plt.close(fig)
+
+
+def plot_output_efficiency(df: pd.DataFrame, out_dir: Path) -> None:
+    """Scatter: average output length vs. accuracy per (model, technique).
+
+    Shows which techniques spend more tokens and whether that investment pays off.
+    """
+    if df.empty:
+        return
+    df = df.copy().dropna(subset=["avg_output_chars", "accuracy"])
+    if df.empty:
+        return
+
+    # Average across benchmarks so each point = one (model, technique) combo
+    grouped = (
+        df.groupby(["model", "technique"])[["avg_output_chars", "accuracy"]]
+        .mean()
+        .reset_index()
+    )
+
+    present = [t for t in TECHNIQUE_ORDER if t in grouped["technique"].unique()]
+    colors = _technique_colors(present)
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    for tech in present:
+        sub = grouped[grouped["technique"] == tech]
+        ax.scatter(
+            sub["avg_output_chars"],
+            sub["accuracy"],
+            label=TECHNIQUE_DISPLAY.get(tech, tech),
+            color=colors[tech],
+            s=70,
+            alpha=0.85,
+            edgecolors="white",
+            linewidths=0.5,
+        )
+
+    ax.set_xlabel("Average Output Characters (proxy for token usage)")
+    ax.set_ylabel("Accuracy")
+    ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
+    ax.set_title("Output Length vs. Accuracy by Technique\n(each point = one model)")
+    ax.legend(fontsize=8, ncol=2)
+    fig.tight_layout()
+    fig.savefig(out_dir / "output_efficiency.png", dpi=150)
+    plt.close(fig)
+
+
+def plot_invalid_rate_by_model(df: pd.DataFrame, out_dir: Path) -> None:
+    """Malformed / unparseable response rate per model, grouped by technique.
+
+    Illustrates that small models often fail at format before they can reason.
+    Models are ordered left-to-right by parameter count (small → large).
+    """
+    if df.empty:
+        return
+    df = df.copy().dropna(subset=["invalid_rate"])
+    if df.empty:
+        return
+
+    # Sort models small → large
+    df["params_m"] = df["model"].map(MODEL_PARAMS_M)
+    models_sorted = (
+        df.groupby("model")["params_m"]
+        .first()
+        .sort_values()
+        .index.tolist()
+    )
+    unknown = sorted(m for m in df["model"].unique() if m not in models_sorted)
+    models_sorted = models_sorted + unknown
+
+    present = [t for t in TECHNIQUE_ORDER if t in df["technique"].unique()]
+    colors = _technique_colors(present)
+
+    n_models = len(models_sorted)
+    n_techs = len(present)
+    if n_models == 0 or n_techs == 0:
+        return
+
+    bar_width = 0.8 / n_techs
+    fig, ax = plt.subplots(figsize=(max(10, n_models * n_techs * 0.45), 5))
+    x = range(n_models)
+
+    for i, tech in enumerate(present):
+        tech_df = df[df["technique"] == tech]
+        rates = [
+            tech_df[tech_df["model"] == m]["invalid_rate"].mean()
+            if not tech_df[tech_df["model"] == m].empty
+            else None
+            for m in models_sorted
+        ]
+        offset = (i - n_techs / 2 + 0.5) * bar_width
+        ax.bar(
+            [xi + offset for xi in x],
+            [r if r is not None else 0 for r in rates],
+            bar_width,
+            label=TECHNIQUE_DISPLAY.get(tech, tech),
+            color=colors[tech],
+        )
+
+    def _model_label(m: str) -> str:
+        params = MODEL_PARAMS_M.get(m)
+        suffix = f"\n({params}M)" if params else ""
+        return m.split("/")[-1] + suffix
+
+    ax.set_xticks(list(x))
+    ax.set_xticklabels([_model_label(m) for m in models_sorted], rotation=30, ha="right", fontsize=8)
+    ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
+    ax.set_ylim(0, 1.05)
+    ax.set_ylabel("Invalid Response Rate")
+    ax.set_title("Malformed Answer Rate by Model & Technique\n(higher = model fails to follow the answer format)")
+    ax.legend(loc="upper right", fontsize=8, ncol=2)
+    fig.tight_layout()
+    fig.savefig(out_dir / "invalid_rate_by_model.png", dpi=150)
+    plt.close(fig)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Visualize CoT evaluation results")
     parser.add_argument(
@@ -296,13 +587,21 @@ def main():
     plot_cot_delta_heatmap(pivot, out_dir)
     plot_scaling_curves(pivot, out_dir)
     plot_category_summary(pivot, out_dir)
+    plot_technique_scaling_curves(raw, out_dir)
+    plot_baseline_sufficiency(raw, out_dir)
+    plot_output_efficiency(raw, out_dir)
+    plot_invalid_rate_by_model(raw, out_dir)
 
     print(f"Saved plots to {out_dir}/")
-    print(f"  benchmark_comparison: one PNG per model")
-    print(f"  technique_comparison: one PNG per model")
+    print(f"  benchmark_comparison:      one PNG per model")
+    print(f"  technique_comparison:      one PNG per model")
     print(f"  cot_delta_heatmap.png")
     print(f"  scaling_curves.png")
     print(f"  category_summary.png")
+    print(f"  technique_scaling_curves.png  (paper Fig 2/3/4 — per-technique lines)")
+    print(f"  baseline_sufficiency.png      (is step-by-step / few-shot already enough?)")
+    print(f"  output_efficiency.png         (output length vs. accuracy trade-off)")
+    print(f"  invalid_rate_by_model.png     (malformed answer rates, small-model formatting failures)")
 
 
 if __name__ == "__main__":
