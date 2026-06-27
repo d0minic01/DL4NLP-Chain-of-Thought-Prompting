@@ -1,0 +1,196 @@
+# =============================================================================
+# Benchmark Evaluation Configuration — RTX 5090 / ~$5 run
+# =============================================================================
+# 13 models selected across 4 families, covering 135M → 9B parameter range.
+# Run with: uv run eval -c benchmarks_rtx5090.yaml -l 100
+# Estimated time: ~8.5 hours | Estimated cost: ~$5.00
+#
+# limit field: integer to cap examples for fast testing, null for full dataset
+# task: filename (without .yaml) of the benchmark config in benchmarks/
+# cot_benchmark: (optional) override the directory name in fewshots_and_cots/
+#
+# All benchmarks automatically use all techniques defined in cot_techniques below.
+# Techniques whose .jsonl files are missing are skipped with a warning.
+
+# =============================================================================
+# Prompting Techniques
+# =============================================================================
+# type: zero_shot   — no examples, appends instruction to prompt if non-empty
+# type: fewshot_base — few-shot with answer-only targets (no chain-of-thought)
+# type: fewshot_cot  — few-shot with chain-of-thought reasoning in targets
+#                      (requires a <technique>.jsonl file per benchmark;
+#                       skipped with a warning if the file is missing)
+
+cot_techniques:
+  true_baseline:
+    type: zero_shot
+  think_step_by_step:
+    type: zero_shot
+    instruction: "Think step by step."
+  fewshot_baseline:
+    type: fewshot_base
+  paper_cot:
+    type: fewshot_cot
+  persona_cot:
+    type: fewshot_cot
+  contrastive_cot:
+    type: fewshot_cot
+  numbered_step_cot:
+    type: fewshot_cot
+  equation_only:
+    type: fewshot_cot
+  caveman_mode:
+    type: fewshot_cot
+
+# =============================================================================
+# Benchmarks
+# =============================================================================
+
+benchmarks:
+  # ── Arithmetic Reasoning ─────────────────────────────────────────────────
+  gsm8k:
+    task: gsm8k
+    limit: null
+
+  asdiv:
+    task: asdiv
+    limit: null
+
+  mawps:
+    task: mawps
+    limit: null
+
+  svamp:
+    task: svamp
+    limit: null
+
+  aqua:
+    task: aqua-rat
+    limit: null
+
+  # ── Commonsense Reasoning ────────────────────────────────────────────────
+  csqa:
+    task: commonsense_qa
+    limit: null
+
+  strategyqa:
+    task: strategyqa
+    limit: null
+    cot_benchmark: strategy_qa
+
+  sports:
+    task: sports_understanding
+    limit: null
+    cot_benchmark: sports_understanding
+
+  date:
+    task: date_understanding
+    limit: null
+    cot_benchmark: date_understanding
+
+  # ── Symbolic Reasoning ───────────────────────────────────────────────────
+  coin_flip:
+    task: coin_flip
+    limit: null
+
+  last_letter:
+    task: last_letter_concatenation
+    limit: null
+    cot_benchmark: last_letter_concatenation
+
+  letter_shift:
+    task: letter_shift
+    limit: null
+
+  # ── Planning (SayCan) ─────────────────────────────────────────────────────
+  saycan:
+    task: saycan
+    limit: null
+
+# =============================================================================
+# Models — 13 selected, ~$5 on RTX 5090 at -l 100
+# =============================================================================
+# Family         | Models               | Size range  | Cost
+# ─────────────────────────────────────────────────────────
+# SmolLM2        | 135M, 360M, 1.7B     | tiny→small  | $0.52
+# Qwen2.5        | 0.5B, 1.5B, 3B, 7B   | tiny→large  | $1.32
+# Gemma-4        | E2B, E4B             | small→medium| $0.69
+# Gemma-3        | 270m, 1b, 4b         | tiny→medium | $0.75
+# Gemma-2        | 9b                   | large       | $0.84
+# Falcon3        | 1B                   | small       | $0.16
+# OLMo-2         | 1B                   | small       | $0.19
+# ─────────────────────────────────────────────────────────
+#                                         TOTAL        ~$4.47
+
+models:
+  defaults:
+    batch_size: null
+    apply_chat_template: true
+    system_instruction: "Always end your response with: The answer is <your answer>."
+
+  # ── SmolLM2 (135M → 1.7B) ────────────────────────────────────────────────
+  HuggingFaceTB/SmolLM2-135M-Instruct:
+    type: hf
+    batch_size: 32
+
+  HuggingFaceTB/SmolLM2-360M-Instruct:
+    type: hf
+    batch_size: 16
+
+  HuggingFaceTB/SmolLM2-1.7B-Instruct:
+    type: hf
+    batch_size: 8
+
+  # ── Qwen2.5 (0.5B → 7B) ──────────────────────────────────────────────────
+  Qwen/Qwen2.5-0.5B-Instruct:
+    type: hf
+    batch_size: 16
+
+  Qwen/Qwen2.5-1.5B-Instruct:
+    type: hf
+    batch_size: 8
+
+  Qwen/Qwen2.5-3B-Instruct:
+    type: hf
+    batch_size: 4
+
+  Qwen/Qwen2.5-7B-Instruct:
+    type: hf
+    batch_size: 2
+
+  # ── Gemma 4 (2B, 4B) — compare directly against Gemma 3 at same sizes ───
+  google/gemma-4-E2B-it:
+    type: hf
+    batch_size: 8
+
+  google/gemma-4-E4B-it:
+    type: hf
+    batch_size: 4
+
+  # ── Gemma 3 (270M → 4B) ──────────────────────────────────────────────────
+  google/gemma-3-270m-it:
+    type: hf
+    batch_size: 16
+
+  google/gemma-3-1b-it:
+    type: hf
+    batch_size: 8
+
+  google/gemma-3-4b-it:
+    type: hf
+    batch_size: 4
+
+  # ── Gemma 2 (9B — largest model in this run) ─────────────────────────────
+  google/gemma-2-9b-it:
+    type: hf
+    batch_size: 1
+
+  # ── Falcon3 (pruned+healed, math/STEM focus) ─────────────────────────────
+  tiiuae/Falcon3-1B-Instruct:
+    type: hf
+    batch_size: 16
+
+  # ── OLMo-2 (Allen AI, open-science, RLVR-trained) ────────────────────────
+  allenai/OLMo-2-0425-1B-Instruct:
+    type: hf
+    batch_size: 4
