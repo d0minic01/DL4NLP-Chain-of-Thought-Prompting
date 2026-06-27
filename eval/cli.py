@@ -75,6 +75,15 @@ def parse_args():
         metavar="FILE",
         help="Write verbose sample output to FILE instead of stdout (implies -v)",
     )
+    parser.add_argument(
+        "--smoke",
+        action="store_true",
+        help=(
+            "Quick smoke test: 2 examples, one benchmark per category "
+            "(gsm8k / csqa / coin_flip / saycan), all techniques, smallest active model, "
+            "debug output enabled. Completes in ~2–5 minutes."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -114,11 +123,38 @@ def apply_filters(config, args):
     return config
 
 
+def apply_smoke(config: dict) -> dict:
+    """Restrict config to a minimal subset for quick end-to-end validation."""
+    # One benchmark per category to exercise every task type
+    SMOKE_BENCHMARKS = {"gsm8k", "csqa", "coin_flip", "saycan"}
+    config["benchmarks"] = {
+        k: v
+        for k, v in config.get("benchmarks", {}).items()
+        if k in SMOKE_BENCHMARKS
+    }
+
+    # Use only the first (smallest) active model
+    models = config.get("models", {})
+    defaults = models.get("defaults", {})
+    active = [k for k in models if k != "defaults"]
+    if active:
+        first = active[0]
+        config["models"] = {"defaults": defaults, first: models[first]}
+
+    config["limit"] = 2
+    config["log_samples"] = True
+    return config
+
+
 def main():
     args = parse_args()
 
     config = load_config()
     config = apply_filters(config, args)
+
+    if args.smoke:
+        config = apply_smoke(config)
+
     if args.debug:
         config["log_samples"] = True
     if args.limit is not None:
