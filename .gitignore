@@ -6,12 +6,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# evaluation results (generated at runtime)
-results/
-
-# visualization output (generated at runtime)
-plots/
-
 # verbose run logs from --output-file
 *.run.txt
 
