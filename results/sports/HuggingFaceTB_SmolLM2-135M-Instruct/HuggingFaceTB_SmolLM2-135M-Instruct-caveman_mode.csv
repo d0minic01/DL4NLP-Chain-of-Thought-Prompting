@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,sports_caveman_mode,sports,caveman_mode,fewshot_cot,sports_understanding,0.59,0.0,97.5,8,100,11.94,4.39

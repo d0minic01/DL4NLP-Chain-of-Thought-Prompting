@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,date_caveman_mode,date,caveman_mode,fewshot_cot,date_understanding,0.09,0.02,69.6,6,100,22.72,4.39

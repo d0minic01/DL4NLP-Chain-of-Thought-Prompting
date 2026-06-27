@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,aqua_caveman_mode,aqua,caveman_mode,fewshot_cot,aqua-rat,0.08,0.35,244.1,4,100,70.15,4.39

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,aqua_contrastive_cot,aqua,contrastive_cot,fewshot_cot,aqua-rat,0.23,0.14,257.2,4,100,168.62,4.12

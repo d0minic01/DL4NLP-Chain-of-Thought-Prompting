@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,gsm8k_equation_only,gsm8k,equation_only,fewshot_cot,gsm8k,0.03,0.15,75.7,8,100,59.11,4.39

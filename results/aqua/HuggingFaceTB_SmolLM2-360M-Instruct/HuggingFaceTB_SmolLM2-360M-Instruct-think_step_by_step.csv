@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,aqua_think_step_by_step,aqua,think_step_by_step,zero_shot,aqua-rat,0.03,0.84,689.0,0,100,106.5,4.12

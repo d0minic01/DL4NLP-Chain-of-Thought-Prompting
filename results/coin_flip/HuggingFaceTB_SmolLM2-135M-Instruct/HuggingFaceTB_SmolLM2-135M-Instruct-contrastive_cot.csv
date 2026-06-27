@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,coin_flip_contrastive_cot,coin_flip,contrastive_cot,fewshot_cot,coin_flip,0.52,0.02,157.7,8,100,57.55,4.39
