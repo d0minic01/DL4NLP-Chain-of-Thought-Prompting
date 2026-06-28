@@ -3788,7 +3788,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the fridge and pull out the list of all the snacks.\n2. Pick up the first item on the list.\n3. Put it on the table.\n4. Repeat the process for the remaining snacks.\n5. Once all the snacks are on the table, you can add them to the fridge.\n6. Open the fridge and pull out the list of all the snacks.\n7. Pick up the first item on the list.\n8. Put it on the table.\n9. Repeat the process for the remaining snacks.\n10. Once all the snacks are on the table, you can add them to the fridge.\n11. Open the fridge and pull out the list of all the snacks.\n12. Pick up the first item on the list.\n13. Put it on the table.\n14. Repeat the process for the remaining snacks.\n15. Once all the snacks are on the table, you can add them to the fridge.\n16. Open the fridge and pull out the list of all the snacks.\n17. Pick up the first item on the list."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3826,7 +3826,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the fridge and pour the drinks into the glasses.\n2. Pour the drinks into the glasses.\n3. Pour the drinks into the glasses.\n4. Pour the drinks into the glasses.\n5. Pour the drinks into the glasses.\n6. Pour the drinks into the glasses.\n7. Pour the drinks into the glasses.\n8. Pour the drinks into the glasses.\n9. Pour the drinks into the glasses.\n10. Pour the drinks into the glasses.\n11. Pour the drinks into the glasses.\n12. Pour the drinks into the glasses.\n13. Pour the drinks into the glasses.\n14. Pour the drinks into the glasses.\n15. Pour the drinks into the glasses.\n16. Pour the drinks into the glasses.\n17. Pour the drinks into the glasses.\n18. Pour the drinks into the glasses.\n19. Pour the drinks into the glasses.\n20. Pour the drinks into the glasses.\n21. Pour the drinks into the glasses.\n22. Pour the drinks into the glasses"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3864,7 +3864,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the SQL Server Management Studio (SSMS) and navigate to the table you want to clear off.\n2. Click on the \"Clear\" button.\n3. A new window will appear with the table details.\n4. Click on the \"Clear\" button again.\n5. A new window will appear with the table details.\n6. Click on the \"Clear\" button again.\n7. A new window will appear with the table details.\n8. Click on the \"Clear\" button again.\n9. A new window will appear with the table details.\n10. Click on the \"Clear\" button again.\n11. A new window will appear with the table details.\n12. Click on the \"Clear\" button again.\n13. A new window will appear with the table details.\n14. Click on the \"Clear\" button again.\n15. A new window will appear with the table details.\n16. Click on the \"Clear\" button again.\n17. A new window will appear with the table details."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3940,7 +3940,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a Snack**\n\nSelect a salty snack that you like. This could be a peanut butter and jelly sandwich, a peanut butter and banana, or a peanut butter and cheese sandwich.\n\n2. **Step 2: Prepare the Snack**\n\nPrepare the snack by mixing the peanut butter and jelly, peanut butter, and banana, or peanut butter and cheese.\n\n3. **Step 3: Pack the Snack**\n\nPack the snack in a airtight container or bag.\n\n4. **Step 4: Store the Snack**\n\nStore the snack in a cool, dry place to keep it fresh.\n\n5. **Step 5: Enjoy Your Snack**\n\nEnjoy your salty snack!\n\nRemember, the key to a good snack is to choose something you enjoy and to keep it fresh."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3978,7 +3978,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the dish:** Start by preparing the spicy dish you want to bring. This could be a spicy chicken or vegetable stir-fry, a spicy tuna salad, or a spicy chili-based chili soup.\n\n2. **Prepare the ingredients:** Gather the ingredients you need to make the spicy dish. This could be a variety of vegetables, such as bell peppers, onions, garlic, ginger, and chili peppers.\n\n3. **Prepare the spicy ingredients:** Heat the spicy ingredients in a pan or on a griddle until they're hot. This will help to release the heat and make the dish more flavorful.\n\n4. **Add the spicy ingredients:** Once the spicy ingredients are hot, add the spicy dish to the pan or griddle. Stir everything together to ensure that all the ingredients are coated in the spicy sauce.\n\n5. **Serve the dish:** Serve the spicy dish on a plate or bowl. You can add a side of your choice, such as a side of rice or noodles, to add a nice texture to the dish.\n\n6. **Enjoy:** Serve the spicy dish with your favorite side of rice or noodles. This"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4016,7 +4016,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the snack:** Start by preparing the spicy snack. You can use a variety of ingredients like chili peppers, cumin, coriander, garlic, ginger, and chili flakes.\n\n2. **Prepare the chili:** Heat up a few tablespoons of chili flakes in a pan over medium heat. Add the chili peppers and cook until they're soft and fragrant.\n\n3. **Add the cumin:** Add a pinch of cumin powder to the chili flakes. This will give the snack a kick.\n\n4. **Add the coriander:** Add a pinch of coriander powder to the chili flakes. This will add a bright, aromatic flavor to the snack.\n\n5. **Add the garlic:** Add a pinch of garlic powder to the chili flakes. This will give the snack a garlicky flavor.\n\n6. **Add the ginger:** Add a pinch of ginger powder to the chili flakes. This will give the snack a gingerly, spicy flavor.\n\n7. **Combine all the ingredients:** Once everything is ready, combine the chili, cumin, coriander, garlic, and ginger in a bowl.\n\n8. **Serve:** Pour the mixture over the spicy snack. You"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4054,7 +4054,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a spice**\n2. **Step 2: Prepare the spice**\n3. **Step 3: Serve the spice**\n4. **Step 4: Enjoy your spice**\n\nRemember, the key to a successful spice is to choose a spice that complements your meal and is easy to prepare. Don't be afraid to experiment and try new spices to find the perfect combination."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4092,7 +4092,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Start with a positive tone:** Begin with a positive and enthusiastic tone.\n2. **Be specific about what you need:** Clearly state what you need, such as a drink, a snack, or a meal.\n3. **Use a clear and concise phrase:** Use a simple and clear phrase to describe what you need, such as \"drink, snack, or meal.\"\n4. **Be specific about what you need:** Be specific about what you need, such as \"a drink, a snack, or a meal.\"\n5. **Be concise:** Keep your response short and to the point.\n6. **Use a positive tone:** Use a positive and enthusiastic tone.\n7. **Be specific about what you need:** Be specific about what you need, such as \"a drink, a snack, or a meal.\"\n8. **Be concise:** Keep your response short and to the point.\n9. **Use a clear and concise phrase:** Use a simple and clear phrase to describe what you need, such as \"drink, snack, or meal.\"\n10. **Be specific about what you need:** Be specific"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4130,7 +4130,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Start with a positive tone**: Begin with a positive and encouraging message.\n2. **Use a clear and concise sentence**: Use a sentence that is easy to understand and conveys your message.\n3. **Provide a brief description**: Give a brief description of what you are looking for.\n4. **Provide a clear and concise answer**: Provide a clear and concise answer to the question.\n5. **End with a positive and encouraging message**: End with a positive and encouraging message that encourages the user to continue.\n\nHere's a sample response:\n\n\"I'm looking for a refreshing drink to help me unwind after a long day. I've been feeling a bit sluggish lately, and I was hoping you could recommend something that would help me feel more energized and refreshed. I'm also looking for a drink that's not too sweet, so it won't overpower my taste buds. I'm hoping you can help me find something that will make me feel like I'm in the best of moods.\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4168,7 +4168,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a drink**\n\nYou can choose a drink that suits your taste and preferences. For example, if you're a coffee lover, you might want to try a cappuccino. If you're a fan of tea, you might want to try a matcha or green tea.\n\n2. **Step 2: Select a drink**\n\nOnce you've chosen a drink, you can start selecting the ingredients. For a cappuccino, you'll need milk, sugar, and a shot of espresso. For a matcha or green tea, you'll need matcha powder, sugar, and a shot of espresso.\n\n3. **Step 3: Prepare the drink**\n\nNow it's time to prepare the drink. You can use a coffee maker, a blender, or a coffee grinder. Make sure to measure out the ingredients accurately.\n\n4. **Step 4: Pour the drink**\n\nOnce you've prepared the drink, you can pour it into a glass. You can add a scoop of ice or a small amount of milk to keep the drink cold."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4206,7 +4206,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a caffeinated beverage**\n\nYou can choose a caffeinated beverage like coffee, tea, or soda. Make sure it's caffeinated.\n\n2. **Step 2: Prepare the caffeinated beverage**\n\nYou'll need to prepare the caffeinated beverage. This can be a cup of coffee, a glass of soda, or a caffeinated tea.\n\n3. **Step 3: Pour the caffeinated beverage**\n\nPut the prepared caffeinated beverage into a cup or glass.\n\n4. **Step 4: Add the caffeinated beverage**\n\nAdd the caffeinated beverage to the cup or glass.\n\n5. **Step 5: Pour the caffeinated beverage**\n\nPour the caffeinated beverage into the cup or glass.\n\n6. **Step 6: Stir the caffeinated beverage**\n\nStir the caffeinated beverage to ensure it's evenly distributed.\n\n7. **Step 7: Serve the caffeinated beverage**\n\nServe the caffeinated beverage to you. Enjoy!\n\nRemember, the key to a good cup of coffee is to choose a caffe"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4244,7 +4244,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a caffeinated beverage**\n\nYou can choose a caffeinated beverage like coffee, tea, or soda. Make sure it's caffeinated.\n\n2. **Step 2: Prepare the caffeinated beverage**\n\nYou'll need to prepare the caffeinated beverage. This can be a cup of coffee, a glass of soda, or a caffeinated tea.\n\n3. **Step 3: Pour the caffeinated beverage**\n\nPut the prepared caffeinated beverage into a cup or glass.\n\n4. **Step 4: Add the caffeinated beverage**\n\nAdd the caffeinated beverage to the cup or glass.\n\n5. **Step 5: Pour the caffeinated beverage**\n\nPour the caffeinated beverage into the cup or glass.\n\n6. **Step 6: Stir the caffeinated beverage**\n\nStir the caffeinated beverage to ensure it's evenly distributed.\n\n7. **Step 7: Serve the caffeinated beverage**\n\nServe the caffeinated beverage to you. Enjoy!\n\nRemember, the key to a good cup of coffee is to choose a caffe"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4282,7 +4282,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a caffeinated beverage**\n\nYou can choose a caffeinated beverage like coffee, tea, or soda. Make sure it's caffeinated.\n\n2. **Step 2: Prepare the caffeinated beverage**\n\nYou'll need to prepare the caffeinated beverage. This can be a cup of coffee, a glass of soda, or a caffeinated tea.\n\n3. **Step 3: Pour the caffeinated beverage**\n\nPut the prepared caffeinated beverage into a cup or glass.\n\n4. **Step 4: Add the caffeinated beverage**\n\nAdd the caffeinated beverage to the cup or glass.\n\n5. **Step 5: Pour the caffeinated beverage**\n\nPour the caffeinated beverage into the cup or glass.\n\n6. **Step 6: Stir the caffeinated beverage**\n\nStir the caffeinated beverage to ensure it's evenly distributed.\n\n7. **Step 7: Serve the caffeinated beverage**\n\nServe the caffeinated beverage to you. Enjoy!\n\nRemember, the key to a good cup of coffee is to choose a caffe"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4320,7 +4320,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the ingredients in the soda.\n2. Determine the type of soda.\n3. Choose a soda that is not caffeinated.\n\nStep 1: Identify the ingredients in the soda.\n- Caffeine: Contains caffeine, which is a stimulant that can affect the user's mood and energy levels.\n- Sugar: Added to the soda for flavor and texture.\n- Water: A natural and essential component for hydration.\n\nStep 2: Determine the type of soda.\n- Caffeinated: Contains caffeine, which can affect the user's mood and energy levels.\n- Herbal: Contains a natural ingredient that may have a slightly different taste and flavor profile.\n\nStep 3: Choose a soda that is not caffeinated.\n- Caffeinated: This soda is not caffeinated, so it won't affect the user's mood or energy levels.\n- Herbal: This soda is not herbal, so it won't affect the user's mood or energy levels.\n\nStep 4: Choose the soda.\n- Caffeinated: This soda is not caffeinated, so it won't affect the user's mood or energy levels.\n- Herbal: This soda is not herbal, so it won't"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4510,7 +4510,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a bottle of soda.\n2. Fill the bottle with water.\n3. Add a splash of soda.\n4. Add a dash of sugar.\n5. Add a dash of salt.\n6. Add a dash of lemon juice.\n7. Add a dash of vanilla extract.\n8. Add a dash of sugar.\n9. Add a dash of salt.\n10. Add a dash of lemon juice.\n11. Add a dash of sugar.\n12. Add a dash of salt.\n13. Add a dash of lemon juice.\n14. Add a dash of sugar.\n15. Add a dash of salt.\n16. Add a dash of lemon juice.\n17. Add a dash of sugar.\n18. Add a dash of salt.\n19. Add a dash of lemon juice.\n20. Add a dash of sugar.\n21. Add a dash of salt.\n22. Add a dash of lemon juice.\n23. Add a dash of sugar.\n24. Add a dash of salt.\n25. Add a dash of"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4586,7 +4586,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the key words: \"red bull\", \"close counter\", \"close\", \"red\", \"bull\", \"to\", \"close\", \"counter\".\n2. Break down the key words: \"red bull\", \"close\", \"red\", \"bull\", \"to\", \"close\", \"counter\".\n3. Identify the main actions: \"deliver the red bull to the close counter\"\n4. Identify the main actions: \"think step by step\"\n5. Identify the main actions: \"think step by step\"\n6. Identify the main actions: \"think step by step\"\n7. Identify the main actions: \"think step by step\"\n8. Identify the main actions: \"think step by step\"\n9. Identify the main actions: \"think step by step\"\n10. Identify the main actions: \"think step by step\"\n11. Identify the main actions: \"think step by step\"\n12. Identify the main actions: \"think step by step\"\n13. Identify the main actions: \"think step by step\"\n14. Identify the main actions: \"think step by step\"\n15. Identify the main actions: \"think step by step"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4624,7 +4624,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by removing the jalapeno chips from the close counter.\n2. Place the jalapeno chips on a clean surface, such as a table or countertop, and gently place them on top of the chips.\n3. Use a spatula or a spoon to gently spread the jalapeno chips across the surface of the counter.\n4. Be careful not to touch the chips with your hands, as this can cause them to become soggy.\n5. Once the chips are evenly distributed, you can continue to work on the counter, using your hands to gently spread the chips and apply a thin layer of sauce.\n6. Continue to work on the counter, using your hands to spread the sauce and apply a thin layer of sauce to the chips.\n7. Continue to work on the counter, using your hands to spread the sauce and apply a thin layer of sauce to the chips.\n8. Continue to work on the counter, using your hands to spread the sauce and apply a thin layer of sauce to the chips.\n9. Continue to work on the counter, using your hands to spread the sauce and apply a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4662,7 +4662,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1**: First, lift the coke can by its handle, using the handle to lift it up.\n\n2. **Step 2**: Next, hold the handle of the coke can in your hand, and then lift it up by using the handle to lift it up.\n\n3. **Step 3**: Finally, lift the coke can by using the handle to lift it up, and then hold it in your hand.\n\n4. **Step 4**: Finally, lift the coke can by using the handle to lift it up, and then hold it in your hand.\n\n5. **Step 5**: Finally, lift the coke can by using the handle to lift it up, and then hold it in your hand.\n\nThe answer is: Lift and hold the coke can up."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4738,7 +4738,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, place the coke in the cup.\n2. Next, lift the coke up by pulling it towards you.\n3. Once the coke is lifted, place it in the cup again.\n4. Finally, lift the coke again by pulling it towards you.\n\nRemember, the key to lifting the coke is to carefully lift it up and then place it in the cup."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4814,7 +4814,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a Snack**\n\nSelect a salty snack that you like. This could be a peanut butter and jelly sandwich, a peanut butter and banana, or a peanut butter and cheese sandwich.\n\n2. **Step 2: Prepare the Snack**\n\nPrepare the snack by mixing the peanut butter and jelly, peanut butter, and banana, or peanut butter and cheese.\n\n3. **Step 3: Pack the Snack**\n\nPack the snack in a airtight container or bag.\n\n4. **Step 4: Store the Snack**\n\nStore the snack in a cool, dry place to keep it fresh.\n\n5. **Step 5: Enjoy Your Snack**\n\nEnjoy your salty snack!\n\nRemember, the key to a good snack is to choose something you enjoy and to keep it fresh."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4852,7 +4852,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the dish:** Start by preparing the spicy dish you want to bring. This could be a spicy chicken or vegetable stir-fry, a spicy tuna salad, or a spicy chili-based chili soup.\n\n2. **Prepare the ingredients:** Gather the ingredients you need to make the spicy dish. This could be a variety of vegetables, such as bell peppers, onions, garlic, ginger, and chili peppers.\n\n3. **Prepare the spicy ingredients:** Heat the spicy ingredients in a pan or on a griddle until they're hot. This will help to release the heat and make the dish more flavorful.\n\n4. **Add the spicy ingredients:** Once the spicy ingredients are hot, add the spicy dish to the pan or griddle. Stir everything together to ensure that all the ingredients are coated in the spicy sauce.\n\n5. **Serve the dish:** Serve the spicy dish on a plate or bowl. You can add a side of your choice, such as a side of rice or noodles, to add a nice texture to the dish.\n\n6. **Enjoy:** Serve the spicy dish with your favorite side of rice or noodles. This"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4890,7 +4890,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the snack:** Start by preparing the spicy snack. You can use a variety of ingredients like chili peppers, cumin, coriander, garlic, ginger, and chili flakes.\n\n2. **Prepare the chili:** Heat up a few tablespoons of chili flakes in a pan over medium heat. Add the chili peppers and cook until they're soft and fragrant.\n\n3. **Add the cumin:** Add a pinch of cumin powder to the chili flakes. This will give the snack a kick.\n\n4. **Add the coriander:** Add a pinch of coriander powder to the chili flakes. This will add a bright, aromatic flavor to the snack.\n\n5. **Add the garlic:** Add a pinch of garlic powder to the chili flakes. This will give the snack a garlicky flavor.\n\n6. **Add the ginger:** Add a pinch of ginger powder to the chili flakes. This will give the snack a gingerly, spicy flavor.\n\n7. **Combine all the ingredients:** Once everything is ready, combine the chili, cumin, coriander, garlic, and ginger in a bowl.\n\n8. **Serve:** Pour the mixture over the spicy snack. You"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4928,7 +4928,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a spice**\n2. **Step 2: Prepare the spice**\n3. **Step 3: Serve the spice**\n4. **Step 4: Enjoy your spice**\n\nRemember, the key to a successful spice is to choose a spice that complements your meal and is easy to prepare. Don't be afraid to experiment and try new spices to find the perfect combination."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4966,7 +4966,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Start with a positive tone:** Begin with a positive and enthusiastic tone.\n2. **Be specific about what you need:** Clearly state what you need, such as a drink, a snack, or a meal.\n3. **Use a clear and concise phrase:** Use a simple and clear phrase to describe what you need, such as \"drink, snack, or meal.\"\n4. **Be specific about what you need:** Be specific about what you need, such as \"a drink, a snack, or a meal.\"\n5. **Be concise:** Keep your response short and to the point.\n6. **Use a positive tone:** Use a positive and enthusiastic tone.\n7. **Be specific about what you need:** Be specific about what you need, such as \"a drink, a snack, or a meal.\"\n8. **Be concise:** Keep your response short and to the point.\n9. **Use a clear and concise phrase:** Use a simple and clear phrase to describe what you need, such as \"drink, snack, or meal.\"\n10. **Be specific about what you need:** Be specific"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5004,7 +5004,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Start with a positive tone**: Begin with a positive and encouraging message.\n2. **Use a clear and concise sentence**: Use a sentence that is easy to understand and conveys your message.\n3. **Provide a brief description**: Give a brief description of what you are looking for.\n4. **Provide a clear and concise answer**: Provide a clear and concise answer to the question.\n5. **End with a positive and encouraging message**: End with a positive and encouraging message that encourages the user to continue.\n\nHere's a sample response:\n\n\"I'm looking for a refreshing drink to help me unwind after a long day. I've been feeling a bit sluggish lately, and I was hoping you could recommend something that would help me feel more energized and refreshed. I'm also looking for a drink that's not too sweet, so it won't overpower my taste buds. I'm hoping you can help me find something that will make me feel like I'm in the best of moods.\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5042,7 +5042,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a drink**\n\nYou can choose a drink that suits your taste and preferences. For example, if you're a coffee lover, you might want to try a cappuccino. If you're a fan of tea, you might want to try a matcha or green tea.\n\n2. **Step 2: Select a drink**\n\nOnce you've chosen a drink, you can start selecting the ingredients. For a cappuccino, you'll need milk, sugar, and a shot of espresso. For a matcha or green tea, you'll need matcha powder, sugar, and a shot of espresso.\n\n3. **Step 3: Prepare the drink**\n\nNow it's time to prepare the drink. You can use a coffee maker, a blender, or a coffee grinder. Make sure to measure out the ingredients accurately.\n\n4. **Step 4: Pour the drink**\n\nOnce you've prepared the drink, you can pour it into a glass. You can add a scoop of ice or a small amount of milk to keep the drink cold."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5080,7 +5080,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Choose a caffeinated beverage**\n\nYou can choose a caffeinated beverage like coffee, tea, or soda. Make sure it's caffeinated.\n\n2. **Step 2: Prepare the caffeinated beverage**\n\nYou'll need to prepare the caffeinated beverage. This can be a cup of coffee, a glass of soda, or a caffeinated tea.\n\n3. **Step 3: Pour the caffeinated beverage**\n\nPut the prepared caffeinated beverage into a cup or glass.\n\n4. **Step 4: Add the caffeinated beverage**\n\nAdd the caffeinated beverage to the cup or glass.\n\n5. **Step 5: Pour the caffeinated beverage**\n\nPour the caffeinated beverage into the cup or glass.\n\n6. **Step 6: Stir the caffeinated beverage**\n\nStir the caffeinated beverage to ensure it's evenly distributed.\n\n7. **Step 7: Serve the caffeinated beverage**\n\nServe the caffeinated beverage to you. Enjoy!\n\nRemember, the key to a good cup of coffee is to choose a caffe"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5118,7 +5118,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the ingredients in the soda.\n2. Determine the type of soda.\n3. Choose a soda that is not caffeinated.\n\nStep 1: Identify the ingredients in the soda.\n- Caffeine: Contains caffeine, which is a stimulant that can affect the user's mood and energy levels.\n- Sugar: Added to the soda for flavor and texture.\n- Water: A natural and essential component for hydration.\n\nStep 2: Determine the type of soda.\n- Caffeinated: Contains caffeine, which can affect the user's mood and energy levels.\n- Herbal: Contains a natural ingredient that may have a slightly different taste and flavor profile.\n\nStep 3: Choose a soda that is not caffeinated.\n- Caffeinated: This soda is not caffeinated, so it won't affect the user's mood or energy levels.\n- Herbal: This soda is not herbal, so it won't affect the user's mood or energy levels.\n\nStep 4: Choose the soda.\n- Caffeinated: This soda is not caffeinated, so it won't affect the user's mood or energy levels.\n- Herbal: This soda is not herbal, so it won't"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5156,7 +5156,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the problem: The problem is throwing away three oranges.\n2. Understand the situation: The problem is that three oranges are being thrown away.\n3. Determine the cause: The cause of the problem is that three oranges are being thrown away.\n\nSo, the answer is:\n\nYes, you can throw away three oranges."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5346,7 +5346,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a bottle of soda.\n2. Fill the bottle with water.\n3. Add a splash of soda.\n4. Add a dash of sugar.\n5. Add a dash of salt.\n6. Add a dash of lemon juice.\n7. Add a dash of vanilla extract.\n8. Add a dash of sugar.\n9. Add a dash of salt.\n10. Add a dash of lemon juice.\n11. Add a dash of sugar.\n12. Add a dash of salt.\n13. Add a dash of lemon juice.\n14. Add a dash of sugar.\n15. Add a dash of salt.\n16. Add a dash of lemon juice.\n17. Add a dash of sugar.\n18. Add a dash of salt.\n19. Add a dash of lemon juice.\n20. Add a dash of sugar.\n21. Add a dash of salt.\n22. Add a dash of lemon juice.\n23. Add a dash of sugar.\n24. Add a dash of salt.\n25. Add a dash of"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5498,7 +5498,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the apple tree: Look for an apple tree in your area. It's usually a tall, slender tree with a thick trunk and a wide, flat canopy.\n\n2. Choose the right fruit: Apples are a type of fruit that belongs to the Rosaceae family. They are commonly found in the United States, Canada, and Europe.\n\n3. Choose the right fruit: There are several types of apples, including Granny Smith, Fuji, and Fuji-Cherry. Each type has its own unique characteristics and flavor profiles.\n\n4. Prepare the fruit: Peel the apple and cut it into small pieces. You can also use a knife to cut the apple into smaller pieces.\n\n5. Store the fruit: Once you've prepared the apple, store it in a cool, dark place. Apples are sensitive to light, so keep them in a cool, dry place.\n\n6. Enjoy the fruit: Once you've finished preparing the apple, enjoy it fresh or use it in recipes. Apples are a versatile fruit that can be enjoyed in a variety of ways.\n\nRemember, apples"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A glass of red wine\n2. A glass of blue wine\n3. A glass of green wine\n\nStep 1: Choose three different drinks\n\nStep 2: Choose three different colors of wine\n\nStep 3: Choose three different colors of blue wine\n\nStep 4: Choose three different colors of green wine\n\nStep 5: Choose three different colors of red wine"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Open the can**: Open the can by twisting the lid counterclockwise. This will allow the contents to flow out.\n\n2. **Remove the can**: Carefully remove the can from the can opener. Be careful not to touch the can or any other metal object.\n\n3. **Remove the can lid**: Carefully remove the lid from the can. Make sure to remove the lid completely to prevent spills.\n\n4. **Remove the can from the can opener**: Carefully remove the can from the can opener. Be careful not to touch the can or any other metal object.\n\n5. **Remove the can from the can opener**: Carefully remove the can from the can opener. Be careful not to touch the can or any other metal object.\n\n6. **Remove the can from the can opener**: Carefully remove the can from the can opener. Be careful not to touch the can or any other metal object.\n\n7. **Remove the can from the can opener**: Carefully remove the can from the can opener. Be careful not to touch the can or any other metal object.\n\n8. **Remove the can from the can opener**: Carefully remove"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Place the banana on the table**: Place the banana on the table, making sure it's facing upwards.\n\n2. **Position the banana**: Position the banana in front of the table, so it's facing upwards.\n\n3. **Move the banana**: Move the banana to the table by placing it on the table and positioning it in front of the table.\n\n4. **Place the banana on the table**: Place the banana on the table, making sure it's facing upwards.\n\n5. **Move the banana**: Move the banana to the table by placing it on the table and positioning it in front of the table.\n\n6. **Place the banana on the table**: Place the banana on the table, making sure it's facing upwards.\n\n7. **Move the banana**: Move the banana to the table by placing it on the table and positioning it in front of the table.\n\n8. **Place the banana on the table**: Place the banana on the table, making sure it's facing upwards.\n\n9. **Move the banana**: Move the banana to the table by placing it on the table and positioning it in front of the table.\n\n10. **"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5916,7 +5916,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Understand the Product**: Find out what redbull is. Redbull is a brand of spirits, specifically a brand of spirits that are made from the fermented and distilled spirits of the red wine grape.\n\n2. **Step 2: Research the Product**: Look up the redbull brand on the official redbull website or on the official redbull website. This will give you a detailed description of the product, including its ingredients, production process, and any notable features.\n\n3. **Step 3: Check the Ingredients**: Read the product description carefully and look for the ingredients mentioned. Redbull typically uses red wine as its base, but it can also use other spirits, such as vodka, gin, or whiskey.\n\n4. **Step 4: Check the Production Process**: Redbull is a brand that produces its spirits through a combination of fermentation, distillation, and aging. The production process involves several steps, including the fermentation of the red wine, the distillation of the wine, and the aging of the spirits.\n\n5. **Step 5: Check the Quality**: Redbull is known for its high quality and consistency. The"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I would carefully place the chips bag on the counter, making sure it is in a clear and easily accessible position.\n\n2. Next, I would carefully remove the chips bag from the table, taking care not to touch the bag with any of the chips or other items on the counter.\n\n3. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n4. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n5. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n6. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n7. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n8. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n9. I would then carefully place the bag back on the counter, making sure it is in a clear and easily accessible position.\n\n10. I"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Start by walking into the kitchen**: I would begin by walking into the kitchen, which is usually located in the living room or kitchen area.\n\n2. **Enter the kitchen**: I would take a deep breath, and then slowly open the door to the kitchen.\n\n3. **Find the counter**: I would look for a counter or a table in the kitchen, which is usually located in the living room or kitchen area.\n\n4. **Find the table**: I would look for a table or a chair in the kitchen, which is usually located in the living room or kitchen area.\n\n5. **Find the counter**: I would look for a counter or a table in the kitchen, which is usually located in the living room or kitchen area.\n\n6. **Find the sink**: I would look for a sink or a basin in the kitchen, which is usually located in the living room or kitchen area.\n\n7. **Find the stove**: I would look for a stove or a cooking appliance in the kitchen, which is usually located in the living room or kitchen area.\n\n8. **Find the oven**: I would look for an oven or a cooking"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer.\n2. Locate the chips.\n3. Place the chips in the drawer.\n4. Close the drawer.\n5. Open the drawer again.\n6. Locate the chips.\n7. Place the chips in the drawer.\n8. Close the drawer.\n9. Open the drawer again.\n10. Locate the chips.\n11. Place the chips in the drawer.\n12. Close the drawer.\n13. Open the drawer again.\n14. Locate the chips.\n15. Place the chips in the drawer.\n16. Close the drawer.\n17. Open the drawer again.\n18. Locate the chips.\n19. Place the chips in the drawer.\n20. Close the drawer.\n21. Open the drawer again.\n22. Locate the chips.\n23. Place the chips in the drawer.\n24. Close the drawer.\n25. Open the drawer again.\n26. Locate the chips.\n27. Place the chips in the drawer.\n28. Close the drawer.\n29. Open the drawer again.\n30. Locate the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the coke can by twisting the lid counterclockwise.\n2. Remove the lid by pulling it out of the can.\n3. Place the coke can on the gripper, making sure it's facing the right direction.\n4. Place the coke can on the gripper, making sure it's facing the right direction.\n5. Press the coke can firmly into the gripper, making sure it's secure.\n6. Close the coke can by twisting the lid clockwise.\n7. Place the coke can back on the gripper, making sure it's facing the right direction.\n8. Press the coke can firmly into the gripper, making sure it's secure.\n9. Close the coke can by twisting the lid counterclockwise.\n10. Place the coke can back on the gripper, making sure it's facing the right direction.\n11. Press the coke can firmly into the gripper, making sure it's secure.\n12. Close the coke can by twisting the lid clockwise.\n13. Place the coke can back on the gripper, making sure it"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the can**: First, you need to prepare the can by removing the lid and removing the cap. This is important to prevent the can from leaking.\n\n2. **Place the can on a flat surface**: Place the can on a flat surface, such as a table or countertop, to prevent it from shifting.\n\n3. **Position the can**: Position the can on the flat surface, making sure it is level and not too high or too low.\n\n4. **Place the can on the can rack**: Next, place the can on the rack, which is usually a metal or wooden structure that holds the can in place.\n\n5. **Position the can on the rack**: Position the can on the rack, making sure it is level and not too high or too low.\n\n6. **Place the can on the rack**: Place the can on the rack, making sure it is level and not too high or too low.\n\n7. **Position the can on the rack**: Position the can on the rack, making sure it is level and not too high or too low.\n\n8. **Place the can on the rack**: Place the can on the rack,"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the table that needs to be found.\n2. Look for the table in the document or the database.\n3. Check the table's name, description, and any relevant information.\n4. If the table is not found, I would search for the table in the database or look for it in a specific location.\n\nIn this case, the table is \"Employee Information\" in the \"Employee\" section of the \"Employee\" table. I would start by searching for the table in the \"Employee\" table, which is located in the \"Employee\" section of the \"Employee\" table.\n\nOnce I have the table, I would search for it in the \"Employee\" table, which is located in the \"Employee\" section of the \"Employee\" table.\n\nAfter searching, I would find the table \"Employee Information\" and look for its name, description, and any relevant information. If I find the table, I would search for it in the \"Employee\" table, which is located in the \"Employee\" section of the \"Employee\" table.\n\nFinally, I would find the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer by opening the drawer lid or sliding the drawer open.\n2. Locate the drawer and pull it open.\n3. Locate the drawer drawer.\n4. Locate the drawer drawer handle.\n5. Locate the drawer drawer handle.\n6. Locate the drawer drawer.\n7. Locate the drawer drawer.\n8. Locate the drawer drawer handle.\n9. Locate the drawer drawer handle.\n10. Locate the drawer drawer.\n11. Locate the drawer drawer.\n12. Locate the drawer drawer.\n13. Locate the drawer drawer.\n14. Locate the drawer drawer.\n15. Locate the drawer drawer.\n16. Locate the drawer drawer.\n17. Locate the drawer drawer.\n18. Locate the drawer drawer.\n19. Locate the drawer drawer.\n20. Locate the drawer drawer.\n21. Locate the drawer drawer.\n22. Locate the drawer drawer.\n23. Locate the drawer drawer.\n24. Locate the drawer drawer.\n25. Locate the drawer drawer.\n26. Locate the drawer drawer.\n27"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to identify the type of coke that is being thrown. Coke is typically made from a mixture of coal and water.\n\n2. Next, you need to determine the weight of the coke. Coke is typically made from 100% coal, so you need to know the weight of the coal.\n\n3. You can then determine the weight of the coke by dividing the weight of coal by the weight of coke.\n\n4. Finally, you can determine the weight of the coke by multiplying the weight of coal by the weight of coke.\n\n5. The result will be the weight of the coke that is being thrown.\n\nSo, the answer is: 100% coal."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6524,7 +6524,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the can.\n2. Remove the can lid.\n3. Remove the can from the can opener.\n4. Remove the can from the can.\n5. Remove the can from the can opener.\n6. Remove the can from the can.\n7. Remove the can from the can.\n8. Remove the can from the can.\n9. Remove the can from the can.\n10. Remove the can from the can.\n11. Remove the can from the can.\n12. Remove the can from the can.\n13. Remove the can from the can.\n14. Remove the can from the can.\n15. Remove the can from the can.\n16. Remove the can from the can.\n17. Remove the can from the can.\n18. Remove the can from"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6638,7 +6638,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose a sprite**: Select a sprite from your computer's library or a game library.\n2. **Open the sprite**: Once you've chosen a sprite, open the sprite in your computer's operating system.\n3. **Open the sprite's settings**: In the sprite's settings, you'll find a dropdown menu that allows you to select the sprite's type (e.g., \"Sprite\", \"Sprite\", \"Sprite\", etc.).\n4. **Select the sprite type**: In the sprite's settings, you'll see a dropdown menu that allows you to select the sprite's type. Choose the sprite you want to bring.\n5. **Select the sprite**: Once you've selected the sprite, you can select the sprite's type.\n6. **Save the sprite**: After selecting the sprite, you can save it by clicking \"Save\" or \"Save as\" in the sprite's settings.\n7. **Close the sprite**: Finally, you can close the sprite by clicking \"Close\" or \"Close\" in the sprite's settings."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6714,7 +6714,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, take the banana and place it on the table.\n2. Next, place the banana on the table and then the other side of the table.\n3. Finally, place the banana on the table and then the other side of the table.\n\nThe answer is: 1. Take the banana and place it on the table.\n2. Next, place the banana on the table and then the other side of the table.\n3. Finally, place the banana on the table and then the other side of the table.\n\nThe answer is: 1. Take the banana and place it on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6752,7 +6752,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the can.\n2. Take the can out of the can.\n3. Put the can back in the can.\n4. Take the can out of the can.\n5. Put the can back in the can.\n6. Take the can out of the can.\n7. Put the can back in the can.\n8. Take the can out of the can.\n9. Put the can back in the can.\n10. Take the can out of the can.\n11. Put the can back in the can.\n12. Take the can out of the can.\n13. Put the can back in the can.\n14. Take the can out of the can.\n15. Put the can back in the can.\n16. Take the can out of the can.\n17. Put the can back in the can.\n18. Take the can out of the can.\n19. Put the can back in the can.\n20. Take the can out of the can.\n21. Put the can back in the can.\n22. Take the can out of the can.\n23. Put the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6790,7 +6790,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Step 1: Understand the Product**: Find out what redbull is and what it is used for.\n2. **Step 2: Find the Product**: Look for redbull in your local grocery store, pharmacy, or online.\n3. **Step 3: Check the Product Details**: Read the product description, look for the ingredients, and check the price.\n4. **Step 4: Compare Prices**: Compare the prices of redbull with other similar products.\n5. **Step 5: Decide on the Price**: If you're unsure, consider the cost of the product and the quality of the redbull.\n6. **Step 6: Contact the Product**: If you're still unsure, contact the manufacturer or the retailer to ask about the price and quality of the redbull.\n7. **Step 7: Review the Product**: Review the product details and the price to ensure you're getting the best deal.\n8. **Step 8: Contact the Manufacturer**: If you're still unsure, contact the manufacturer to ask about the price and quality of the redbull.\n9. **Step 9:"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6828,7 +6828,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a fruit that is ripe and has a sweet taste.\n2. Peel the fruit and remove the skin.\n3. Cut the fruit into small pieces.\n4. Place the fruit into a bowl.\n5. Add a small amount of honey or sugar to the fruit.\n6. Cover the fruit with a cloth or paper towel to keep it moist.\n7. Leave the fruit in the bowl for a few hours or overnight.\n8. After the fruit has been in the bowl for a few hours, remove it from the bowl and let it sit for a few minutes.\n9. If the fruit is still warm, you can place it in the refrigerator for a few hours before eating.\n10. If the fruit is cold, you can leave it in the refrigerator for a few hours before eating.\n\nRemember to always check the temperature of the fruit before eating it."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6904,7 +6904,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a fruit: A banana is a great choice because it's easy to eat and it's sweet.\n2. Choose a soda: A can of soda is a good choice because it's a good source of sugar and it's also a good source of water.\n3. Choose a bag of chips: A bag of chips is a good choice because it's a good source of protein and it's also a good source of healthy fats.\n\nThe answer is banana, soda, and bag of chips."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6942,7 +6942,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the bag and remove the chips.\n2. Place the bag on the counter.\n3. Remove the bag from the counter and place it on the table.\n4. Remove the bag from the table and place it on the counter.\n5. Remove the bag from the table and place it on the counter.\n6. Remove the bag from the table and place it on the counter.\n7. Remove the bag from the table and place it on the counter.\n8. Remove the bag from the table and place it on the counter.\n9. Remove the bag from the table and place it on the counter.\n10. Remove the bag from the table and place it on the counter.\n11. Remove the bag from the table and place it on the counter.\n12. Remove the bag from the table and place it on the counter.\n13. Remove the bag from the table and place it on the counter.\n14. Remove the bag from the table and place it on the counter.\n15. Remove the bag from the table and place it on the counter.\n16. Remove"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7018,7 +7018,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by making a list of all the items you need to stock in the drawer. This could include chips, nuts, dried fruits, and other snacks.\n\n2. Next, sort the items into categories based on their purpose. For example, chips are typically used for snacking, nuts are for snacking, and dried fruits are for snacking.\n\n3. Once you have a list of the items, start making a list of the items you need to stock in the drawer. This could include chips, nuts, dried fruits, and other snacks.\n\n4. Next, sort the items into categories based on their purpose. For example, chips are typically used for snacking, nuts are for snacking, and dried fruits are for snacking.\n\n5. Finally, start making a list of the items you need to stock in the drawer. This could include chips, nuts, dried fruits, and other snacks.\n\n6. Once you have a list of the items, start making a list of the items you need to stock in the drawer. This could include chips, nuts, dried fruits, and other snacks.\n\n7. Next, sort the items into categories based on their purpose. For example, chips are typically used for snacking, nuts are for snacking, and dried fruits"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7132,7 +7132,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the coke can by lifting the lid.\n2. Place the coke can on a flat surface.\n3. Push the coke can over the top of the can, making sure to keep the lid on.\n4. Push the coke can down onto the can, making sure to keep the lid on.\n5. Push the coke can back down onto the can, making sure to keep the lid on.\n6. Push the coke can back down onto the can, making sure to keep the lid on.\n7. Push the coke can back down onto the can, making sure to keep the lid on.\n8. Push the coke can back down onto the can, making sure to keep the lid on.\n9. Push the coke can back down onto the can, making sure to keep the lid on.\n10. Push the coke can back down onto the can, making sure to keep the lid on.\n11. Push the coke can back down onto the can, making sure to keep the lid on.\n12. Push the coke can back down onto the can, making sure to keep"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7322,7 +7322,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. I will bring an apple from the drawer.\n2. I will bring an apple from the drawer.\n3. I will bring an apple from the drawer.\n4. I will bring an apple from the drawer.\n5. I will bring an apple from the drawer.\n6. I will bring an apple from the drawer.\n7. I will bring an apple from the drawer.\n8. I will bring an apple from the drawer.\n9. I will bring an apple from the drawer.\n10. I will bring an apple from the drawer.\n11. I will bring an apple from the drawer.\n12. I will bring an apple from the drawer.\n13. I will bring an apple from the drawer.\n14. I will bring an apple from the drawer.\n15. I will bring an apple from the drawer.\n16. I will bring an apple from the drawer.\n17. I will bring an apple from the drawer.\n18. I will bring an apple from the drawer.\n19. I will bring an apple from the drawer.\n20. I will bring an apple from the drawer.\n21. I will"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, remove the coke can from the trash can.\n2. Next, place the coke can in the trash can.\n3. Next, place the coke can in the trash can.\n4. Finally, place the coke can in the trash can.\n\nThe answer is:"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Start by saying \"Good morning\" or \"Good afternoon\" to greet the person who will be taking your order.\n2. **Ask the person to show you to the table or counter. You can say \"Excuse me, can I help you?\" or \"May I help you?\"\n3. **Follow the person to the table or counter, and take your order.\n4. **Wait for the person to finish their order and then ask if you can help them.\n5. **If the person is still waiting, you can say \"Thank you for your order, I'll be right back.\"\n6. **If the person is already at the table or counter, you can say \"Good luck, and please do not hesitate to ask for help.\"\n7. **If you're still waiting, you can say \"I'm sorry, I'm not able to assist you right now.\"\n8. **If you're still waiting, you can say \"I'm sorry, I'm not able to assist you right now.\"\n9. **If you're still waiting, you can say \"I'm sorry, I'm not able to assist"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

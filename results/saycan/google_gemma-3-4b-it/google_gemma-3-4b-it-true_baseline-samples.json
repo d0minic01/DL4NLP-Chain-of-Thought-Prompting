@@ -4168,7 +4168,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **What kind of flavor do you usually enjoy?** (e.g., sweet, bitter, fruity, etc.)\n2.  **How much caffeine are you looking for?** (e.g., a gentle pick-me-up, or something to really get you going?)\n3.  **Do you have any dietary restrictions or preferences?** (e.g., sugar-free, dairy-free, etc.)\n\nThe answer is a caffeine-containing beverage of your choice."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4586,7 +4586,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Assess the Situation:** Quickly observe the close counter's position and movement. Are they actively engaging in combat? Are they predictable in their movements?\n\n2. **Create an Opening:** The key is to disrupt the close counter's focus. This could involve a quick, distracting attack \u2013 a flash of light, a short burst of sound, or a brief, non-damaging projectile (if available).  The goal isn't to defeat them, just to momentarily pull their attention away.\n\n3. **Utilize Movement:** While the close counter is distracted, swiftly maneuver towards them.  Don't telegraph your intentions. A sudden dash or a change in direction can throw them off balance.\n\n4. **Deliver the Red Bull:** Once within range, quickly hand over the Red Bull.  A simple, efficient exchange is best. Don't linger.\n\n5. **Retreat:** Immediately after delivering the Red Bull, disengage and move to a safer position.  Don't get caught in a follow-up attack.\n\nThe answer is delivered. The answer is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4738,7 +4738,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Grip:** Use your fingertips to firmly grasp the can near the top, just below the label. Avoid gripping the sides, as this can crush the can.\n2.  **Lift:** Keeping your wrist straight, lift the can upwards using your forearm and upper arm muscles.  Don't bend your wrist \u2013 this can cause strain.\n3.  **Maintain Stability:**  Hold the can close to your body for better balance.\n\nThe answer is lift it with your hand."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5042,7 +5042,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **What kind of flavor do you usually enjoy?** (e.g., sweet, bitter, fruity, etc.)\n2.  **How much caffeine are you looking for?** (e.g., a gentle pick-me-up, or something to really get you going?)\n3.  **Do you have any dietary restrictions or preferences?** (e.g., sugar-free, dairy-free, etc.)\n\nThe answer is a caffeine-containing beverage of your choice."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Iced Lavender Lemonade:** A refreshing blend of freshly squeezed lemon juice, lavender simple syrup (made with lavender buds and sugar), and sparkling water. It\u2019s subtly floral and incredibly bright.\n\n2.  **Spiced Hot Chocolate with Cinnamon Stick:** A comforting classic! Rich, dark hot chocolate infused with warming spices like cinnamon, nutmeg, and a touch of vanilla. Served with a beautiful cinnamon stick for stirring and aroma.\n\n3.  **Cucumber Mint Refresher:**  Muddled cucumber and fresh mint leaves combined with lime juice, a little agave nectar, and topped with club soda. It\u2019s light, hydrating, and perfect for a warm day.\n\nThe answer is all three drinks."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The Standard Reach (Most Common):**\n\n*   **Assess the Distance:** I\u2019d first visually assess how far away the can is.\n*   **Extend Arm:** I\u2019d extend my arm towards the can, keeping my elbow relatively close to my body for stability.\n*   **Hand Position:** I\u2019d bring my hand up, palm facing the can, fingers slightly curled.\n*   **Grip:** I\u2019d use my fingertips to gently grasp the top of the can, applying just enough pressure to secure it without crushing it.  I\u2019d aim for a firm but controlled grip.\n\n**2. If the Can is Close (Within Easy Reach):**\n\n*   **Quick Grab:**  I could simply reach out and grasp the can with my fingertips, as described above.  This is the fastest and most efficient method.\n\n**3. If the Can is Slightly Further Away (Requires a Bit More Effort):**\n\n*   **Slightly Wider Reach:** I\u2019d extend my arm a bit further, perhaps"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5726,7 +5726,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **The Quick Toss:** If the apple is just past its prime and not rotten, a simple toss into a trash can is perfectly acceptable.\n\n2. **The Compost Drop:** If you compost, this is a great option! Cut the apple into smaller pieces and add it to your compost bin.\n\n3. **The Bag It:** If the apple has blemishes or is starting to rot, place it in a plastic bag before tossing it in the trash. This helps contain any mess.\n\n4. **The Core Disposal (if applicable):** If you\u2019ve already eaten the apple and are just discarding the core, you can compost it or, if it's significantly rotten, put it in a trash bag.\n\n5. **The \"Don't Waste\" Option (if possible):** Could you use the apple for apple sauce, pie filling, or jerky?  If so, that\u2019s a better option than simply throwing it away.\n\nThe answer is toss it in the trash."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5764,7 +5764,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The Quick & Easy (Assuming you have a Sprite readily available):**\n\n* **Direct Delivery:** If a sprite is already within reach (on a shelf, in a container, etc.), I would simply extend my arm and carefully bring it to you.  I\u2019d make sure to hold it securely and present it politely.\n\n**2.  A More Elaborate (Simulated) Approach \u2013 Let's pretend I'm a helpful robot!**\n\n* **Scanning & Retrieval:** I would first use my sensors (imagine a sophisticated scanner) to locate all sprites within a defined area.  I\u2019d analyze their characteristics (color, size, shape) to identify the correct sprite.\n* **Navigation:**  I\u2019d then calculate the most efficient route to your location, avoiding obstacles.\n* **Manipulation:** Using my robotic arm and gripper, I\u2019d carefully pick up the sprite.\n* **Delivery:** I\u2019d move towards you, maintaining a stable grip, and present the sprite to you.  I might even say something"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5878,7 +5878,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **What kind of can is it?** (e.g., soda, soup, beans, paint, etc.) This will determine the tools we might need.\n2.  **What tools do you have available?** (e.g., a can opener, a hammer and nail, pliers, a screwdriver, etc.)\n3.  **What is your physical ability?** (e.g., are you able to reach the can easily, do you have any limitations that would affect how you can manipulate it?)\n\nOnce I have this information, I can give you specific, step-by-step instructions.\n\nThe answer is I need more information to help you."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5954,7 +5954,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The Direct Request (Simplest):**\n\n*   I could ask a helpful assistant (like a human or a robot) to fetch you a fruit. I\u2019d need to specify *which* fruit you\u2019d like \u2013 \u201cCould you please ask someone to bring me an apple?\u201d or \u201cCould you get me a banana?\u201d\n\n**2. Simulated Delivery (My Way):**\n\n*   I can *describe* the process of getting you a fruit. I could narrate a story about someone picking a ripe peach, carefully washing it, and bringing it to you with a smile. I could even generate an image (if the platform allows) of a beautiful fruit being delivered.\n\n**3.  Interactive Scenario (More Engaging):**\n\n*   I could create a little \"choose your own adventure\" scenario.  For example: \"You're feeling a bit peckish. You decide you want a fruit. Do you: A) Ask a neighbor for a plum? B) Go to the store and"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6030,7 +6030,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Assessment & Ordering (Simulated):** I\u2019d first need to understand your preferences. I\u2019d ask you:\n   * \u201cWhat kind of fruit would you like?\u201d (e.g., apple, banana, orange, berries)\n   * \u201cWhat kind of soda do you prefer?\u201d (e.g., Coke, Sprite, Dr. Pepper, sparkling water)\n   * \u201cWhat kind of chips are you in the mood for?\u201d (e.g., potato chips, tortilla chips, veggie chips, flavored chips)\n\n2. **Locating a Store (Simulated):** Based on your answers, I\u2019d use my access to information to identify nearby stores that sell those items. I\u2019d prioritize stores that are likely to have a good selection and reasonable prices.  Let's say I find a local grocery store called \"Fresh Foods Market.\"\n\n3. **Ordering (Simulated):** I would then \u201cplace\u201d an order through the store\u2019s online ordering system (if available) or"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Assess the Distance:** Quickly look at the distance between the table and the counter.\n2. **Pick Up:** Grip the chip bag firmly near the top (usually the folded part or a handle if it has one).\n3. **Carry:** Walk to the counter, keeping the bag upright and stable.\n4. **Place:** Carefully set the bag down on the counter.\n\n**More Detailed Approach (Considering Potential Obstacles):**\n\n1. **Clear a Path:**  If there are any items on the floor between the table and the counter, quickly move them out of the way.\n2. **Assess Stability:** Check if the bag is easily held without tipping. If it's awkwardly shaped or heavy, consider a slightly different grip.\n3. **Lift Carefully:** Lift the bag with a smooth motion, keeping your back straight to avoid strain.\n4. **Maintain Balance:** While walking, keep your eyes focused on the counter and maintain a steady pace.\n5. **Controlled Placement:** As you approach the counter,"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Orient Yourself:** First, you need to figure out where the counter and table are located within the kitchen. Kitchens can vary greatly in layout, so you\u2019ll need to visually scan the space. Look for the counter \u2013 it\u2019s usually a long, flat surface, often made of stone, laminate, or stainless steel. The table is typically a smaller, usually wooden or laminate surface, often used for eating or food preparation.\n\n2. **Navigate to the Counter:**  From your current position, you\u2019ll need to move towards the counter. This might involve:\n   * **Walking:** The most common method.  You\u2019ll likely walk across the floor, potentially around cabinets, appliances (like the refrigerator or stove), and possibly other furniture.\n   * **Turning:** You\u2019ll probably need to turn to face the counter.\n   * **Stepping:** You\u2019ll take steps to move closer to the counter.\n\n3. **Navigate to the Table:** Once you\u2019re near the counter, you\u2019ll then move towards the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Clear the Drawer:** First, completely empty the drawer. Take out *all* the chips, even the ones that are almost empty. This gives you a clean slate.\n\n2. **Assess and Organize:** Look at the remaining chips. Are there different types? Are they organized by brand, flavor, or size? Decide on a system that makes sense for you.\n\n3. **Sort and Group:** Group similar chips together. For example, all the Doritos, all the Lays, etc.\n\n4. **Arrange Neatly:**  Now, start putting the chips back in the drawer.  Here are a few ways to do this:\n   * **By Type:**  Put all the tortilla chips together, all the potato chips together, etc.\n   * **By Brand:** Arrange by brand name.\n   * **By Flavor:**  If you have a lot of variety, you might arrange by flavor (e.g., Cool Ranch, BBQ, Cheddar & Sour Cream).\n   * **Size (if applicable):** If you have different sizes of the same chip, put the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Clarification (If Needed):** First, I\u2019d ask a clarifying question: \"Which drawer are you referring to?\"  Knowing the specific drawer is crucial.\n\n2. **Instructional Steps (Assuming a Standard Drawer):**  Assuming it's a typical drawer, I'd give you a sequence of instructions:\n   * \"Open the drawer.\"\n   * \"Look inside the drawer.\"\n   * \"Locate the bag of chips.\"\n   * \"Carefully remove the bag of chips from the drawer.\"\n   * \"Close the drawer.\"\n\n3. **Confirmation (Optional):**  I could then ask, \"Do you need me to describe any specific steps, or are you comfortable doing this yourself?\"\n\n4. **Offer Assistance (If Requested):** If you said you needed help, I could offer more detailed instructions, like \"Okay, let's start by opening the drawer.  Can you tell me when you've done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Can Detection & Positioning:** The gripper needs to *know* where the can is. This is usually done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **What is the table about?** What topic does it cover? (e.g., sales figures, population data, historical events, scientific measurements, etc.)\n2.  **Where have you looked for it?** Have you searched online? In a book? In a specific database?  If online, what websites have you checked?\n3.  **What keywords are you using?** What terms are you searching for related to the table\u2019s content?\n4.  **Do you have any other details?**  Any specific data points you're looking for, the source of the table, or any other clues would be extremely helpful.\n\nOnce you provide me with these details, I can give you much more targeted and effective advice on how to find the table you're looking for.\n\nThe answer is I need more information."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The Basic \u201cPark\u201d (Most Common & Generally Appropriate):**\n\n* **Distance:** Aim for about 12-18 inches (30-45 cm) from the table edge. This gives you enough room to comfortably reach for drinks, bread, or other items without bumping into the table or anyone else.\n* **Angle:**  Angle your body slightly *towards* the table.  Don't face the table head-on. A 45-degree angle is a good starting point. This allows you to easily reach across and participate in the meal.\n* **Legs:**  Your legs should be bent and relaxed.  Don\u2019t extend them out rigidly.  A slight bend in your knees is key for comfort and balance.\n* **Posture:** Sit upright, but not stiffly.  Maintain a natural curve in your lower back.\n\n**2. Formal Settings (e.g., Fine Dining, Business Meals):**\n\n* **More Distance:**  Increase the distance to 1"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Request Clarification (If Needed):**  First, I\u2019d ask a clarifying question: \"Could you please tell me which drawer you'd like me to retrieve the apple from?\"  (This is important because you likely have multiple drawers!)\n\n2. **Simulated Action:**  I would then \"virtually\" open the specified drawer.  I\u2019d imagine the drawer and its contents.\n\n3. **Search for the Apple:** I would then \"virtually\" search through the drawer's contents, looking for an apple.  I\u2019d consider the possibility of other items being in the drawer (e.g., silverware, napkins, etc.).\n\n4. **Identification:** Once I \"find\" an apple, I would confirm: \"I've located an apple.\"\n\n5. **Delivery (Virtually):** Finally, I would \"virtually\" hand you the apple.  I would describe it: \"Here is an apple for you.\"\n\nThe answer is I would virtually retrieve an apple from the drawer you specify and then"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Empty the can:** Make sure there\u2019s no liquid left inside.\n2. **Roll it:** Roll the can firmly to crush it. This reduces its volume and makes it take up less space in the trash.\n3. **Dispose of it in a trash receptacle:** Place the crushed can into a designated trash bin or container.\n\nThe answer is crushed and thrown in the trash."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Locate the trash can:** Identify where the trash can is in your immediate surroundings.\n2. **Reach for the can:** Extend your arm and grasp the Coke can.\n3. **Lift and carry:** Carefully lift the can and walk to the trash can.\n4. **Dispose:** Place the can into the trash can.\n\n**More Complex Scenario (Can is further away, or there are obstacles):**\n\n1. **Assess the distance and obstacles:**  Look around to see how far the can is and if there are any furniture, people, or other objects in the way.\n2. **Plan your route:** Determine the best path to the trash can, avoiding obstacles.\n3. **Move around obstacles:** Carefully step over or around anything in your path.\n4. **Reach for the can:** Extend your arm and grasp the can.\n5. **Lift and carry:** Carefully lift the can and walk to the trash can.\n6. **Dispose:** Place the can into the trash can.\n\n**If the can is on a table:**"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Assess the Situation:** Before you move, look at the table. Is it occupied? Is it a formal dining table or a casual coffee table? This will influence your approach.\n\n2. **Approach with Awareness:**  If the table is occupied, politely acknowledge the people already seated. A simple \"Excuse me\" or a nod is usually sufficient. If it\u2019s clear, you can proceed.\n\n3. **Step Gently:**  Take a measured step towards the table. Avoid rushing or bumping into anything.\n\n4. **Position Yourself:**  Once you\u2019re close, decide where you want to be in relation to the table. Do you want to sit down? Do you need to place something on it?\n\n5. **If Sitting:**  If you're sitting, pull out your chair (if there is one) and pull it out smoothly.  Sit down gracefully.\n\n**Going to a Counter:**\n\n1. **Observe the Queue (if any):**  Most counters have a line.  If there is one, wait your turn.\n\n2. **Approach"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

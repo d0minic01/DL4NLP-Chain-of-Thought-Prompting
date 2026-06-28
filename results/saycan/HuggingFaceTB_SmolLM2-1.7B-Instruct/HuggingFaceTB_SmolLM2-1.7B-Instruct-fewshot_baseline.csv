@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-1.7B-Instruct,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.0,118.9,7,100,28.52,5.3
+HuggingFaceTB/SmolLM2-1.7B-Instruct,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.0606,66.3,7,100,29.17,4.32

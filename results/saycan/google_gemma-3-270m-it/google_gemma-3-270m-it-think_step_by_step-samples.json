@@ -4434,7 +4434,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Choose a soda:** Look for a soda with a fizzy, bubbly, or slightly sweet flavor.\n2.  **Add a sugar:** Add a sugar cube, a small piece of fruit, or a small amount of ice to your chosen soda.\n3.  **Add a flavor:** Add a flavor like a lime, lemon, or orange.\n4.  **Add a fizz:** Add a small amount of sparkling water or a splash of soda water.\n5.  **Enjoy!**"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5270,7 +5270,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Choose a soda:** Look for a soda with a fizzy, bubbly, or slightly sweet flavor.\n2.  **Add a sugar:** Add a sugar cube, a small piece of fruit, or a small amount of ice to your chosen soda.\n3.  **Add a flavor:** Add a flavor like a lime, lemon, or orange.\n4.  **Add a fizz:** Add a small amount of sparkling water or a splash of soda water.\n5.  **Enjoy!**"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Sparkling Water with Lemon and Honey:** A refreshing and subtly sweet drink.\n2.  **Iced Tea:** A classic and comforting beverage.\n3.  **Sparkling Cider:** A festive and flavorful drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5802,7 +5802,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Choose a location:** Select a spot where you can easily see the banana.\n2.  **Place the banana:** Place the banana on the chosen spot.\n3.  **Add a small amount of water:** Add a small amount of water to the banana.\n4.  **Place the banana:** Place the banana on top of the water.\n5.  **Optional: Add a small amount of sugar:** Add a small amount of sugar to the banana.\n6.  **Optional: Add a small amount of salt:** Add a small amount of salt to the banana.\n7.  **Optional: Add a small amount of cream or milk:** Add a small amount of cream or milk to the banana.\n8.  **Optional: Add a small amount of lemon or lime juice:** Add a small amount of lemon or lime juice to the banana.\n9.  **Optional: Add a small amount of a sweetener:** Add a small amount of sweetener to the banana.\n10. **Optional: Add a small amount of a garnish:** Add a small amount of a garnish, such as a sprinkle of cinnamon or a small piece"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Place the bag of chips on the table.**\n2.  **Place the water bottle on the table.**"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6030,7 +6030,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Gather your supplies:** You'll need a fruit, a soda, and a bag of chips.\n2.  **Prepare the fruit:** Wash and chop the fruit into bite-sized pieces.\n3.  **Prepare the soda:** Pour the soda into a small container.\n4.  **Assemble the lunch:** Place the fruit, soda, and chips in the bag.\n5.  **Enjoy!**"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Position the can:** Place the can on a flat, stable surface.\n2.  **Secure the can:** Secure the can to the surface with a secure latch or clamp.\n3.  **Position the gripper:** Place the gripper on the can, ensuring it's positioned so that the can is not touching the gripper's surface.\n4.  **Secure the gripper:** Secure the gripper to the can using a latch or clamp.\n5.  **Position the can:** Place the can on the gripper, ensuring it's not touching the gripper's surface.\n6.  **Secure the can:** Secure the can to the surface with a secure latch or clamp.\n7.  **Position the gripper:** Place the gripper on the can, ensuring it's positioned so that the can is not touching the gripper's surface.\n8.  **Secure the gripper:** Secure the gripper to the can using a latch or clamp.\n9.  **Position the can:** Place the can on the gripper, ensuring it's not touching the gripper's surface.\n10. **Secure the can:** Secure the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Locate the can:** Find the can that contains the Coke.\n2.  **Remove the can:** Carefully remove the can from the can holder.\n3.  **Place the can:** Place the can in the trash can.\n4.  **Dispose of the can:** Dispose of the can in the trash."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

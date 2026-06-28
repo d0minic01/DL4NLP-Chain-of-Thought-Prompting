@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-1.7B-Instruct,saycan_paper_cot,saycan,paper_cot,fewshot_cot,saycan,0.0,0.0,195.0,7,100,34.59,5.3
+HuggingFaceTB/SmolLM2-1.7B-Instruct,saycan_paper_cot,saycan,paper_cot,fewshot_cot,saycan,0.0,0.3838,219.2,7,100,35.7,4.67

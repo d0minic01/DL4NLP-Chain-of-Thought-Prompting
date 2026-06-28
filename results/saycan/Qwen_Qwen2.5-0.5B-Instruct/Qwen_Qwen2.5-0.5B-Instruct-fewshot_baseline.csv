@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-Qwen/Qwen2.5-0.5B-Instruct,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.0,101.4,7,100,15.14,4.12
+Qwen/Qwen2.5-0.5B-Instruct,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.697,109.6,7,100,5.94,4.12

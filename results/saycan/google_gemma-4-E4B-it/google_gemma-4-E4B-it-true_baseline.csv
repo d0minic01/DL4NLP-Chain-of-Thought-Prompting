@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-google/gemma-4-E4B-it,saycan_true_baseline,saycan,true_baseline,zero_shot,saycan,0.0,0.2525,621.3,0,100,112.63,24.31
+google/gemma-4-E4B-it,saycan_true_baseline,saycan,true_baseline,zero_shot,saycan,0.0,0.2525,621.3,0,100,43.08,24.32

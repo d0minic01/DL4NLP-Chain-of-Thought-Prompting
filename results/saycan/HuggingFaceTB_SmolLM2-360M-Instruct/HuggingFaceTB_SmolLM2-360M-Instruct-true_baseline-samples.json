@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Cappuccino**: A rich, creamy coffee drink with steamed milk and foam.\n2. **Coconut Water**: A refreshing, coconut-flavored drink made from coconut water and other ingredients.\n3. **Lemonade**: A sweet, citrusy drink made from fresh lemons and sugar."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Using your hands: You can use your hands to pick up the coke can by grasping it firmly and lifting it up.\n\n2. Using a tool: You can use a coke can pick or a coke can opener to pick up the coke can.\n\n3. Using a can opener: You can use a coke can opener to pick up the coke can.\n\nThe answer is using a coke can pick or a coke can opener."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A can opener: This is a common tool used to open cans.\n2. A screwdriver: A screwdriver can be used to turn the can's lid or remove the can from its container.\n3. A wrench: A wrench is a tool that can be used to turn the can's lid or remove the can from its container.\n4. A can opener with a hook: Some can openers have a hook on the end that can be used to lift the can off its container.\n5. A can opener with a flat head: Some can openers have a flat head on the end that can be used to lift the can off its container.\n\nThe choice of tool will depend on the type of can and the location where you are working."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Place the chips bag on the table.\n2. Move the table to the counter.\n3. Place the counter on the table.\n4. Move the counter to the table.\n\nThe answer is: 1. Place the table on the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Enter the kitchen through the main door.\n2. Walk to the counter area and look for the countertops, sink, and refrigerator.\n3. Look for the table in the center of the kitchen, which is usually located near the counter.\n4. Walk to the table and look for the tablecloth, chairs, and any other furniture.\n5. If you see the counter and table, you can proceed to the table.\n\nThe answer is: The counter and the table in the kitchen."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and remove the chips.\n2. Check the expiration date and replace the chips if they are past their expiration date.\n3. Replace the chips in the drawer.\n\nThe answer is: 1. Open the drawer and remove the chips."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the gripper door by turning the handle clockwise.\n2. Locate the coke can and gently lift it out of the gripper.\n3. Place the coke can in the gripper, ensuring it is securely in place.\n4. Close the gripper door by turning the handle clockwise.\n\nThe answer is: 1. Open the gripper door by turning the handle clockwise."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Using a wrench**: If you have a wrench, you can use it to turn the can upside down and lift it off the ground.\n\n2. **Using a screwdriver**: If you have a screwdriver, you can use it to turn the can upside down and lift it off the ground.\n\n3. **Using a crowbar**: If you have a crowbar, you can use it to lift the can off the ground.\n\n4. **Using a jack**: If you have a jack, you can use it to lift the can off the ground.\n\n5. **Using a hammer**: If you have a hammer, you can use it to lift the can off the ground.\n\n6. **Using a wrench with a long handle**: If you have a wrench with a long handle, you can use it to turn the can upside down and lift it off the ground.\n\nRemember, the key to lifting a Coke can is to use the right tool and technique."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The name of the table.\n2. The table's column names.\n3. The table's row names.\n\nOnce you have this information, you can use the following steps to find the table:\n\n1. Identify the column names.\n2. Identify the row names.\n3. Use the column names and row names to create a table.\n\nFor example, if you have a table with the following column names:\n\n| Column Name |\n| --- |\n| Column 1 |\n| Column 2 |\n| Column 3 |\n\nAnd a row name of \"John\", you can create a table like this:\n\n| Column Name | John |\n| --- | --- |\n| Column 1 | 1 |\n| Column 2 | 2 |\n| Column 3 | 3 |\n\nSo, the table would be:\n\n| Column Name | John |\n| --- | --- |\n| Column 1 | 1 |\n| Column 2 | 2 |\n| Column 3 | 3 |\n\nThis table would be the table you are looking for"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6334,7 +6334,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you would need to find the table in the room. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the website or app where you want to access the table.\n2. Look for a navigation bar at the top of the screen.\n3. Click on the \"Home\", \"Main\", or \"Content\" tab.\n4. In the search bar at the top, type \"Table\" and press Enter.\n5. The table will be displayed.\n\nThe answer is \"Home\"."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Stand at the edge of the table, facing the other side.\n2. Place your right foot on the edge of the table, with your right foot facing the other side.\n3. Place your left foot on the edge of the table, with your left foot facing the other side.\n4. Place your right hand on the table, with your right hand facing the other side.\n5. Place your left hand on the table, with your left hand facing the other side.\n6. Place your right leg on the table, with your right leg facing the other side.\n7. Place your left leg on the table, with your left leg facing the other side.\n8. Place your right hand on the table, with your right hand facing the other side.\n9. Place your left hand on the table, with your left hand facing the other side.\n10. Place your right leg on the table, with your right leg facing the other side.\n11. Place your left leg on the table, with your left leg facing the other side.\n12. Place your right hand on the table, with your right hand facing the other"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Locate the nearest recycling bin.\n2. Open the can and remove the top.\n3. Place the can in the recycling bin.\n4. Turn on the lights and make sure the recycling bin is fully closed.\n5. Wait for the recycling bin to be processed.\n\nThe answer is: The answer is: 1. Locate the nearest recycling bin."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6676,7 +6676,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The banana is on the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6714,7 +6714,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The banana should be placed on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7246,7 +7246,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. The table is located in the main office."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the trash can: Locate the trash can in your home or office.\n2. Identify the Coke can: Find the Coke can you want to move.\n3. Position the Coke can: Place the Coke can on the ground, making sure it's level and centered.\n4. Use a broom or a long stick: Use a broom or a long stick to gently push the Coke can towards the trash can.\n5. Move the Coke can: Continue to push the Coke can towards the trash can, making sure to keep it moving smoothly.\n6. Stop when the Coke can is in the trash can: Once the Coke can is in the trash can, stop pushing it and let it settle.\n\nThe answer is: The Coke can is now in the trash can."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Walk towards the entrance of the restaurant.\n2. Look for the door that leads to the dining area.\n3. Open the door and step inside.\n4. Look for the counter, which is usually located near the entrance.\n5. Stand in front of the counter and wait for someone to come to assist you.\n\nThe answer is: The answer is: The counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

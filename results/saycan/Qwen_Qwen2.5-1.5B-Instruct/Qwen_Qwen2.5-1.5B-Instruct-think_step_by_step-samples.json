@@ -3788,7 +3788,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Number of Snacks**: First, count how many snacks are currently on the table. This will give us an idea of whether there are enough or not.\n\n2. **Storage Space**: Check if there is sufficient storage space in the kitchen or dining area where these snacks can be brought from. If there isn't enough room, bringing them might require additional effort or time.\n\n3. **Accessibility**: Ensure that everyone involved (including those who need to carry the snacks) has access to the snack location and knows how to get there safely.\n\n4. **Time Constraints**: Consider any time constraints related to when the snacks should be available for consumption. If they need to be ready immediately, this could affect the feasibility of bringing them.\n\n5. **Safety Concerns**: Evaluate any safety concerns associated with carrying heavy items or moving around the house. For example, if some people have mobility issues, they may need assistance.\n\n6. **Preparation Time**: Calculate how much preparation time is needed before the snacks can be brought out. This includes cleaning up after eating and possibly packing away leftovers.\n\n7. **Environmental Impact**: Think about the environmental impact of transporting food."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3826,7 +3826,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Number of Drinks**: How many different types or quantities of drinks are there? If there are only two types (e.g., water and juice) and each type has an equal number of servings, then theoretically, one person could carry them.\n\n2. **Size of Drinks**: Are the drinks in containers that can be easily carried, such as bottles or cups? If they are small enough for one person to handle comfortably, this would make it easier.\n\n3. **Accessibility**: Is the table located where the drinker can reach the drinks without too much effort? If the table is at eye level or within easy reach, carrying multiple items might not be challenging.\n\n4. **Physical Condition**: Does the drinker have any physical limitations that might affect their ability to carry multiple items?\n\n5. **Time Constraints**: How long do you have before needing to use these drinks? If time is limited, carrying multiple items quickly becomes more feasible.\n\n6. **Storage Space**: Do you have space to store the drinks after using them? If so, bringing them back later might be simpler than trying to carry them immediately.\n\nGiven these considerations, if the table contains a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3864,7 +3864,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Location**: A \"close\" counter typically refers to a small, compact area in a store or restaurant where items are often displayed and sold quickly.\n\n2. **Table**: This could be a physical table used for transactions or display purposes.\n\n3. **Clearing**: To clear means to remove all items from an area.\n\nGiven these definitions:\n- If we're talking about a physical table at a store or restaurant, clearing it would involve removing all items from that specific surface.\n- If this is referring to a transactional area (like a cashier), clearing might mean closing out the transaction process.\n\nWithout more context about what exactly needs to be cleared (\"closed\"), I can't provide a definitive yes or no. However, based on common usage of terms like \"close,\" it seems likely that clearing a close counter table involves removing all items from that particular area.\n\nThe answer is: Yes, assuming \"close\" refers to a physical table rather than a transactional closure."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4168,7 +4168,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Type of Drink**: You haven't specified what kind of drink it is. Common drinks that contain caffeine include coffee, tea (like black or green), energy drinks, and some sodas.\n\n2. **Check Availability**: Depending on where you are located, there might be different options available. For example:\n   - In many places in North America, you could easily find a caf\u00e9 serving coffee or espresso.\n   - If you're at home, you might have access to various beverages like tea or soda.\n   - Some workplaces offer coffee breaks or vending machines for energy drinks.\n\n3. **Consider Personal Preferences**: What type of drink do you prefer? Is there a specific brand or flavor you enjoy?\n\n4. **Safety Concerns**: Ensure that any caffeinated beverage is safe for consumption. Caffeine can cause side effects such as anxiety, insomnia, or heart palpitations in some individuals.\n\n5. **Health Considerations**: While moderate amounts of caffeine are generally considered safe, excessive intake can lead to health issues. It's important to monitor how much you consume.\n\nGiven these considerations, here\u2019s an example of how I might respond based on"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4510,7 +4510,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose the Right Soda**: Start by selecting a clear soda from the beverage aisle in your local store or supermarket. Popular choices include Sprite, 7-Up, and Mountain Dew.\n\n2. **Select Your Size**: Decide whether you want a small, medium, large, or extra-large size. This will depend on how much you plan to drink at once.\n\n3. **Check for Clear Options**: Look for bottles that are labeled as \"clear\" or have no colorant added. Some sodas may be naturally clear due to their ingredients.\n\n4. **Purchase**: Purchase the selected bottle of clear soda. Make sure it's securely closed before taking it home.\n\n5. **Enjoy**: Once back home, open the bottle carefully and enjoy your clear soda!\n\nThe answer is: A clear soda!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4548,7 +4548,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Supplies**: Ensure you have a clean container or bag to hold the new bags of rice chips. You might also need some measuring cups and spoons for portion control.\n\n2. **Check Inventory**: Look at what's currently on the counter to see how many bags are left. This will help you determine if you need to buy more.\n\n3. **Choose Quantity**: Decide how many bags you want to restock. A good rule of thumb is to keep about 5-7 days' worth of consumption in stock.\n\n4. **Purchase New Bags**: Go to the store and purchase the necessary number of bags of rice chips. Make sure they are fresh and not expired.\n\n5. **Return to Counter**: Bring the new bags back to the counter.\n\n6. **Organize Storage**: Place the new bags in an easily accessible spot on the counter where customers can see them. Consider using clear containers or bins so that customers know exactly what they're getting.\n\n7. **Label Clearly**: If possible, label each bag clearly with its contents and date of manufacture. This helps prevent confusion and ensures freshness.\n\n8. **Promote Restocking**: Inform customers about the new arrival through signage"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4586,7 +4586,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Close Counter**: First, locate the specific location where the delivery needs to be made. This could be an office building, a store entrance, or any other designated area.\n\n2. **Prepare the Package**: Ensure that the Red Bull is properly packed and labeled if necessary. Make sure it's in a way that makes it easy for the recipient to open and enjoy upon arrival.\n\n3. **Choose the Delivery Method**: Depending on the distance from your current location to the close counter, choose the most efficient method of delivery:\n   - **Walk**: If the close counter is within walking distance, simply walk there with the package.\n   - **Bike/Ride**: Use a bicycle or motorbike if the route allows it.\n   - **Car/Drive**: Drive directly to the close counter using public transportation (like buses) if possible.\n\n4. **Arrive at the Close Counter**: When you reach the close counter, park safely and exit the vehicle. Approach the door or window carefully, ensuring no one is inside.\n\n5. **Present the Package**: Carefully present the package to the person responsible for receiving deliveries. Be"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4624,7 +4624,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Supplies**: Ensure you have a clean cloth or paper towel to wipe down the counter and any spills.\n\n2. **Turn Off Lights**: Turn off all lights in the area to avoid distractions while cleaning.\n\n3. **Remove Items from Counter**: Carefully remove any items that might be on the counter, such as utensils, plates, or other food items, to prevent them from being damaged during cleaning.\n\n4. **Wipe Down the Counter**: Use the cloth or paper towel to wipe down the entire surface of the counter, paying special attention to areas where the chips are likely to accumulate, like crevices between the edges and corners.\n\n5. **Scrub Spills**: If there are any spills or stains, use a gentle cleaner specifically designed for kitchen surfaces. Apply it with a soft sponge or cloth and scrub gently until the stain is removed.\n\n6. **Rinse and Dry**: Rinse the counter thoroughly under running water and dry it completely with another clean cloth or paper towel.\n\n7. **Reposition Items**: Once the counter is clean, reposition any items back onto the counter, ensuring they are securely placed without causing further damage.\n\n8."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4662,7 +4662,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Grip the Can**: Hold the can firmly in both hands, ensuring that you have a good grip to prevent it from slipping.\n\n2. **Position Your Hands**: Place one hand on top of the other, palms facing each other slightly. This helps distribute the weight evenly and makes it easier to lift.\n\n3. **Stand Steady**: Stand straight and steady to maintain balance while lifting the can.\n\n4. **Push Upward**: Use your upper body strength to push upward against gravity. Keep your back straight and avoid bending at the waist or hips.\n\n5. **Maintain Balance**: As you lift, keep your feet planted firmly on the ground for stability.\n\n6. **Release When Needed**: If you need to place the can down, release your grip gradually until you're ready to set it down safely.\n\nThe answer is to use your upper body strength to lift the can and stand steadily while doing so."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4700,7 +4700,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Position the Can**: Ensure that the can is upright and stable on its side or flat surface.\n\n2. **Grip Carefully**: Use both hands to grasp the can firmly but gently. Hold it close to the top of the can so you can easily see the label.\n\n3. **Align the Gripper**: Position the gripper over the can's opening. Make sure the gripper is aligned correctly for easy insertion.\n\n4. **Insert the Can**: Slowly push the can into the gripper until it is fully inserted. Be careful not to apply too much force as this could damage the can.\n\n5. **Check Fit**: Once the can is inside the gripper, check if it fits snugly without any gaps between the sides of the can and the gripper walls.\n\n6. **Secure (if necessary)**: If the can doesn't fit perfectly, you might need to adjust the position slightly before securing it properly.\n\nThe answer is: Put the Coke can in your gripper."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4738,7 +4738,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Hold the can firmly in one hand.\n2. Use the other hand to support it on the side or bottom.\n3. Stand up straight and use both hands to lift the can upwards.\n4. Keep your back straight and avoid bending at the waist.\n5. If possible, try to keep the can close to your body for stability.\n\nThe answer is to hold the can firmly in one hand and use the other hand to support it on the side or bottom while standing up straight and lifting with both hands."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5042,7 +5042,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Type of Drink**: You haven't specified what kind of drink it is. Common drinks that contain caffeine include coffee, tea (like black or green), energy drinks, and some sodas.\n\n2. **Check Availability**: Depending on where you are located, there might be different options available. For example:\n   - In many places in North America, you could easily find a caf\u00e9 serving coffee or espresso.\n   - If you're at home, you might have access to various beverages like tea or soda.\n   - Some workplaces offer coffee breaks or vending machines for energy drinks.\n\n3. **Consider Personal Preferences**: What type of drink do you prefer? Is there a specific brand or flavor you enjoy?\n\n4. **Safety Concerns**: Ensure that any caffeinated beverage is safe for consumption. Caffeine can cause side effects such as anxiety, insomnia, or heart palpitations in some individuals.\n\n5. **Health Considerations**: While moderate amounts of caffeine are generally considered safe, excessive intake can lead to health issues. It's important to monitor how much you consume.\n\nGiven these considerations, here\u2019s an example of how I might respond based on"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5346,7 +5346,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose the Right Soda**: Start by selecting a clear soda from the beverage aisle in your local store or supermarket. Popular choices include Sprite, 7-Up, and Mountain Dew.\n\n2. **Select Your Size**: Decide whether you want a small, medium, large, or extra-large size. This will depend on how much you plan to drink at once.\n\n3. **Check for Clear Options**: Look for bottles that are labeled as \"clear\" or have no colorant added. Some sodas may be naturally clear due to their ingredients.\n\n4. **Purchase**: Purchase the selected bottle of clear soda. Make sure it's securely closed before taking it home.\n\n5. **Enjoy**: Once back home, open the bottle carefully and enjoy your clear soda!\n\nThe answer is: A clear soda!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5384,7 +5384,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Remove Loose Items**: Start by picking up any loose items on the table, such as papers or small objects that could be scattered around.\n\n2. **Wipe Down Surfaces**: Use a damp cloth to wipe down all surfaces of the table, including the top and sides. Pay special attention to corners where dust might accumulate more easily.\n\n3. **Vacuum Underneath**: If there are crumbs or debris under the table, use a vacuum cleaner to remove them.\n\n4. **Mop the Floor**: Wipe down the floor underneath the table using a mop and water solution (if necessary) to ensure it's clean and free from dirt.\n\n5. **Check for Hidden Dust**: Look behind the legs of the table and in other hard-to-reach areas for any dust or debris that may have accumulated.\n\n6. **Final Inspection**: Once everything has been cleaned, give the table one last sweep to make sure no spots remain uncleaned.\n\nThe answer is to clean off the table following these steps."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5422,7 +5422,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify Items**: First, I need to identify all items on the table. This could include books, cups, plates, utensils, and any other objects.\n\n2. **Gather Items**: Once identified, gather each item one by one. For example, if there are several books, I would pick up each book individually.\n\n3. **Place in Order**: Arrange the gathered items in an orderly manner. If they were scattered around, I might place them back into their original places or neatly stack them.\n\n4. **Return to Table**: Finally, return to the table where you started gathering the items. Ensure that no items are left behind and that the table is now empty of what was previously on it.\n\nThe answer is: Gather and arrange all items from the table as described above."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5460,7 +5460,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Are we at home?\n2. Is there a specific restaurant in mind?\n3. Do you have any preferences (e.g., type of drink, food)?\n\nOnce I have this information, I can help you find the perfect drink and snack for your lunchtime needs!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A glass of freshly squeezed orange juice - This drink is refreshing and perfect for a hot day or anytime you need a quick pick-me-up.\n\n2. A cup of iced tea - Whether it's black, green, or herbal, iced tea offers a soothing alternative to coffee on those chilly mornings.\n\n3. A tall glass of sparkling water with lemon slices - This simple yet delightful option provides hydration without the sugar found in many sodas. It also adds a touch of freshness that can be enjoyed any time of day."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: First, gather all necessary materials such as a cup or container to hold the can and some tools like tongs or a pair of pliers.\n\n2. **Position Yourself**: Stand in front of the can, facing it. Make sure there are no obstacles nearby that could interfere with your movement.\n\n3. **Use Tools Wisely**: If available, use tongs or pliers to grip the can gently. This will help prevent damage to the can while picking it up.\n\n4. **Approach Carefully**: Move slowly towards the can, keeping an eye on any potential hazards around you.\n\n5. **Pick Up Gently**: Once close enough, grasp the can firmly but not too tightly. Use your fingers to support the sides of the can rather than trying to lift it directly from the top.\n\n6. **Transfer to Container**: Place the can into the cup or other designated container carefully, ensuring it doesn\u2019t spill.\n\n7. **Dispose Properly**: After using the can, dispose of it properly according to local regulations and environmental guidelines.\n\nThe answer is to approach the can carefully, use appropriate tools if needed, and handle it gently to avoid damaging it."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Can**: First, locate the coke can in its container or on a table.\n\n2. **Choose Your Grip**: Hold the can firmly but gently to avoid breaking it.\n\n3. **Position Yourself**: Stand up straight and keep one foot slightly forward for balance.\n\n4. **Approach Safely**: Move slowly towards the can, keeping an eye on where you're going.\n\n5. **Grab Carefully**: Use both hands to grasp the can securely from the top or side, depending on how it's positioned.\n\n6. **Release When Needed**: If you need to move quickly, release the grip briefly before re-grabbing if necessary.\n\n7. **Handle Responsibly**: Be careful not to drop the can once you've grabbed it.\n\nThe answer is to use both hands to safely grasp the coke can."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5726,7 +5726,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Remove Seeds and Core**: First, remove any seeds or core from the apple using a spoon or knife.\n\n2. **Wash the Apple**: Rinse the cleaned apple under running water to ensure it's clean before disposal.\n\n3. **Choose Appropriate Container**: Select a container that can safely hold the apple without breaking or leaking. This could be a plastic bag, a paper bag, or a compost bin if you have one set up for food waste.\n\n4. **Close the Container**: Seal the container securely so that no fruit flies or other pests can enter.\n\n5. **Dispose Properly**: Place the apple in the chosen container and seal it tightly. If disposing of it in a compost bin, make sure the bin is large enough to accommodate the apple and has proper ventilation.\n\n6. **Check for Odor**: Ensure there are no unpleasant odors coming from the apple as this might indicate spoilage.\n\n7. **Label (Optional)**: If possible, label the container with the date of disposal to keep track of when the apple was consumed.\n\nThe answer is to properly wash, remove seeds, choose a suitable container, close it securely, and dispose of it either in a compost bin or"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5764,7 +5764,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Sprite**: First, I need to know which specific Sprite you are referring to. Sprites can be found in various places like video games, movies, or online platforms.\n\n2. **Locate the Sprite**: Depending on where it's located (e.g., a game console, an app store), I would find its current position.\n\n3. **Prepare the Delivery Method**: If the Sprite is digital, I might use a USB drive or a memory card reader to transfer it from one device to another. For physical copies, I could use a box or a bag to transport it safely.\n\n4. **Transport the Sprite**: Once prepared, I would carefully place the Sprite into the chosen container and ensure it remains secure during transit.\n\n5. **Handover**: Finally, I would hand over the Sprite to you at the agreed-upon location.\n\nThe answer is: To bring you a Sprite, first identify it, locate it, prepare for delivery, transport it securely, and then hand it over."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5802,7 +5802,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose the Banana**: First, select a ripe banana that looks fresh and ready to eat.\n\n2. **Prepare the Counter**: Ensure there's enough space on the countertop for the banana without it touching any other items or being too heavy.\n\n3. **Hold the Banana**: Use one hand to hold the banana at its stem end, making sure not to bend the stem.\n\n4. **Place the Banana**: Carefully place the banana onto the countertop, ensuring it doesn't fall off when you move around.\n\n5. **Adjust if Necessary**: If the banana is too high, gently lower it using your free hand. If it\u2019s too low, lift it up slightly.\n\n6. **Enjoy Your Fruit**: Once placed, enjoy your new addition to the fruit basket!\n\nThe answer is: Place the banana on the countertop carefully, adjusting as needed until it's in an accessible position."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: Ensure you have a small container or basket handy for carrying the banana.\n\n2. **Position Yourself**: Find a spot where you can easily reach the banana and the table without bumping into anything else.\n\n3. **Pick Up the Banana**: Carefully grasp the banana in one hand, making sure not to drop it as you lift it up.\n\n4. **Place on Table**: Hold the banana steady while placing it on the table. If there's any chance of slipping, use a bit more force than necessary to ensure stability.\n\n5. **Return the Container**: Once the banana is safely placed on the table, return the container to its original position.\n\nThe answer is to carefully pick up the banana using one hand and place it gently on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5878,7 +5878,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Can**: First, locate the open can in your hand or on a table.\n\n2. **Pick Up the Can**: Carefully grasp the handle of the can if it has one, or use your fingers to pick up the can from its surface.\n\n3. **Hold the Can**: Hold the can securely so that it doesn't slip out of your hands as you move towards where you want to place it.\n\n4. **Choose a Location**: Decide where you want to put the can. This could be on a countertop, in a cup holder, or anywhere else convenient for you.\n\n5. **Move to the Destination**: With the can held firmly, move it to the chosen location using appropriate body movements and gestures (e.g., reaching forward, lifting).\n\n6. **Place the Can**: Once at the destination, gently set down the can. If necessary, adjust your position slightly to ensure stability before placing it.\n\n7. **Check the Openness**: Ensure that the can remains open when placed, which might require some gentle pressure or support depending on how tightly closed it was originally.\n\nThe answer is: To bring an open can, first identify it, then pick it up"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5954,7 +5954,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose the Fruit**: First, decide which type of fruit you want to bring. Common choices include apples, oranges, bananas, grapes, or strawberries.\n\n2. **Select the Appropriate Container**: Choose an appropriate container for carrying the fruit safely and hygienically. A plastic bag, paper bag, or a small basket are suitable options.\n\n3. **Prepare the Fruit**: If necessary, wash the fruit if it's not already clean. This ensures that the fruit will be fresh when you bring it to me.\n\n4. **Wrap the Fruit**: Wrap the fruit in the chosen container to protect it from damage during transportation. You can use newspaper, tissue paper, or even a cloth to cover the fruit.\n\n5. **Pack the Container**: Place the wrapped fruit into the selected container. Ensure there\u2019s enough space inside so that the fruit doesn\u2019t touch each other, which could cause bruising.\n\n6. **Transport Safely**: Use a secure method to transport the container. This might involve using a cart, trolley, or even a bicycle rack depending on where you plan to deliver the fruit.\n\n7. **Deliver the Fruit**: Once at my location, carefully remove the fruit from the container"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose a Table**: First, select an appropriate table where both items can be safely placed without any risk of tipping over.\n\n2. **Position the Bag of Chips**: Place the bag of chips in front of or to one side of the table. Ensure it's not too close to the edge so that it doesn't fall off when someone tries to reach for it.\n\n3. **Place the Water Bottle**: Next, place the water bottle next to or behind the bag of chips. Make sure there\u2019s enough space between them to avoid accidental collisions.\n\n4. **Ensure Stability**: Check if the items are stable on the table. If they wobble or seem unstable, consider rearranging their positions slightly until they're secure.\n\n5. **Safety First**: Always ensure that no sharp edges or parts of the bags/bottles could cause injury if knocked over.\n\n6. **Accessibility**: Position the items in such a way that they\u2019re easily accessible but not within easy reach of children or pets who might accidentally knock them over.\n\nBy following these steps, you should be able to safely place both items on the table without any issues."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6030,7 +6030,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the items**: First, make sure you have all three items ready - one piece of fruit (like an apple or banana), a can of soda, and a bag of chips.\n\n2. **Choose a location**: Decide where to get the items. You could go to a grocery store, convenience store, or even order them online if it's convenient.\n\n3. **Select the fruits**: Pick out fresh fruits like apples, bananas, grapes, or oranges. If you prefer something more substantial, consider choosing a whole fruit like a watermelon or a large orange.\n\n4. **Pick up the soda**: Look for canned sodas in various flavors such as cola, lemon-lime, root beer, or any other favorite drink type.\n\n5. **Choose the chips**: Select from different types of chips like potato chips, tortilla chips, or corn chips. Consider their texture and flavor preferences.\n\n6. **Pack the items**: Once you've chosen the items, pack them into a reusable container or bag. Make sure they are not too heavy so that you can carry them easily.\n\n7. **Prepare for delivery**: If you're ordering online,"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: Ensure you have all necessary items ready, including the chips bag and any tools or containers needed for transport.\n\n2. **Position Yourself**: Stand in front of the table where the chips are located. Make sure you're facing the direction you want to move towards (the counter).\n\n3. **Pick Up the Chips Bag**: Carefully grasp the top edge of the chips bag with one hand, being careful not to let go of it while moving.\n\n4. **Transfer the Bag**: Slowly lift the bag up and over your shoulder, keeping an eye on the contents as you do so. This will help prevent spills.\n\n5. **Move to the Counter**: Once the bag is lifted, walk steadily toward the counter. Keep your balance and use your arms to steady yourself if needed.\n\n6. **Place the Bag**: As you approach the counter, gently set the bag down onto the surface. If there's enough space, place it directly on the counter; otherwise, find a suitable spot within reach.\n\n7. **Check Contents**: Before placing the bag, check that no chips spill out. You can also take this opportunity to inspect the chips' condition before putting"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Location**: First, determine where the counter and table are located within the kitchen. Common locations include the island countertop or the main dining area countertop.\n\n2. **Approach from an Open Space**: If possible, approach the kitchen from an open space like the living room or another common area to avoid blocking pathways.\n\n3. **Choose a Direction**: Decide on which direction you want to go towards the counter and table. Typically, this could be towards the front of the kitchen for accessibility.\n\n4. **Move Safely**: Use caution when moving through the kitchen, especially if there are appliances or other obstacles that might trip you up.\n\n5. **Reach Your Destination**: Once you have chosen your path, move steadily towards the counter and table. Keep your movements deliberate to ensure safety.\n\n6. **Use Handrails (if available)**: If handrails are present around the perimeter of the kitchen, use them as they can provide additional support and stability.\n\n7. **Be Mindful of Appliances**: Be aware of any appliances near the counter and table, such as stoves or refrigerators, and proceed carefully to avoid accidents.\n\n8. **Check for Safety Hazards"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Supplies**: First, gather all necessary supplies such as new bags or containers for storing the chips, measuring cups, and any other tools needed to ensure proper storage.\n\n2. **Empty Drawer**: Open the drawer where the chips are stored and remove all existing contents. This ensures that there's no leftover material from previous restocks.\n\n3. **Measure Space**: Determine how much space is available in the drawer for additional chips. Measure this space carefully to avoid overcrowding.\n\n4. **Choose Storage Method**: Decide on the best way to store the chips. Options include using clear plastic bags, opaque bags, or even small boxes if the drawer has enough depth.\n\n5. **Pack Chips**: Place the chips into the chosen storage method. If using bags, fill them about three-quarters full to allow room for expansion due to moisture absorption over time.\n\n6. **Label Containers**: Label each container clearly so you can easily identify which bag belongs to what type of chip (e.g., potato chips, pretzels).\n\n7. **Close Drawer**: Once everything is packed, close the drawer securely to prevent dust and pests from entering.\n\n8. **Check Consistency**: After packing, check the drawer to"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Locate the Drawer**: First, find where the chips are stored in the drawer. This could be under a cabinet or on a shelf.\n\n2. **Open the Drawer**: Once you've located it, open the drawer to access the contents inside.\n\n3. **Select the Chips**: Carefully remove the desired number of chips from the drawer. Be sure not to damage any other items in the drawer.\n\n4. **Transfer to Your Hand**: If needed, use a small container or another utensil to transfer the chips directly into your hand for easier handling.\n\n5. **Place in Your Hand**: Finally, place the chips in your hand and enjoy them!\n\nThe answer is: Open the drawer, select the chips, transfer them to your hand, and enjoy!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the Gripper**: Ensure that the gripper is clean and free of any debris or contaminants.\n\n2. **Position the Can**: Place the empty Coke can on a flat surface so it's stable and easy to handle.\n\n3. **Align the Grippers**: Make sure both grippers are aligned properly. This means they should be facing each other and positioned at an angle where they can easily grasp the can without interference from each other.\n\n4. **Approach Carefully**: Move slowly towards the can, keeping one hand steady while using the other to guide the can between the two grippers.\n\n5. **Insert the Can**: Once the grippers are lined up correctly, gently push the can through them until it\u2019s fully inserted. Be careful not to apply too much force as this could damage the can or the grippers.\n\n6. **Check for Proper Fit**: After inserting the can, check if it fits snugly within the grippers. If there\u2019s any movement, adjust the position of the grippers slightly to ensure a secure fit.\n\n7. **Secure the Can**: Use additional support if necessary, such as placing the can against another object to prevent it from falling out"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Grip the Can**: Hold the can firmly in both hands, ensuring that your fingers are not touching the sides of the can to avoid slipping.\n\n2. **Stand Steady**: Stand on a stable surface or use something like a chair for support if necessary.\n\n3. **Use Your Legs and Core Strength**: Engage your core muscles to stabilize yourself and help lift the can without straining your back.\n\n4. **Push Upwards**: With your legs straight and your arms fully extended, push upwards towards your chest while keeping your elbows close to your body.\n\n5. **Lift the Can**: As you push up, slowly raise the can until it's at shoulder height. Keep your back straight throughout this process.\n\n6. **Maintain Balance**: If possible, keep your feet flat on the ground to maintain balance as you lift the can.\n\n7. **Lower Slowly**: Once you've lifted the can high enough, lower it down slowly to ensure safety and prevent any accidents.\n\nBy following these steps, you should be able to safely lift the Coke can without putting undue strain on your body."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Table**: Look for an object that resembles a rectangular grid of rows and columns, typically used to organize information or data.\n\n2. **Look Around**: Scan the area where you are looking for the table. Tables can be found in various places such as on desks, tables themselves, computer screens, or even digital documents like spreadsheets.\n\n3. **Check for Clues**: Pay attention to any labels or headings that might indicate what kind of information the table contains. This could help you identify if it's relevant to your search.\n\n4. **Use Your Environment**: If you're at home or in a familiar environment, look around for common places where tables are usually found, such as dining rooms, living rooms, or office spaces.\n\n5. **Search Digitally**: If you're using a device, check its screen for any visible tables. You can also use tools like Google Images or other online databases to search for images of tables.\n\n6. **Ask for Help**: If you're still unable to locate the table, ask someone nearby for assistance. They may have seen it before or know where it is located.\n\nThe answer is to systematically scan your surroundings and use available resources to locate the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Table**: Look for an HTML element that has a `table` tag in its structure. This could be within a `<div>`, `<section>`, or another container.\n\n2. **Locate the Table Header**: Tables typically have headers (or captions) at the top that list column names. These are usually bolded and may include numbers if it's a numbered list of columns.\n\n3. **Use Browser Navigation Tools**:\n   - **Keyboard Navigation**: Use arrow keys on your keyboard to move through the rows and cells of the table.\n   - **Mouse Navigation**: Click on the header cell to sort the data alphabetically or numerically based on the column. You can also use the mouse wheel to scroll through the rows.\n\n4. **Inspect Element**: Right-click anywhere inside the table and select \"Inspect\" or \"Inspect Element\". This will open the browser\u2019s developer tools where you can see the actual HTML code of the table, including any classes or IDs used for styling or functionality.\n\n5. **Copy and Paste**: If you need to copy specific parts of the table into another document, right-click on the desired section and choose \"Copy\", then paste it wherever needed.\n\n6"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Table**: First, locate the specific table where you want to park or sit down. Tables are typically marked with numbers or names.\n\n2. **Choose Your Seat**: Decide whether you prefer sitting at an individual table (seating 1-4 people) or a group table (seating 5+ people). Group tables often have more space and seating options.\n\n3. **Approach the Table**: Walk towards the table using the designated path or entrance area. This usually involves walking around the perimeter of the restaurant if it's open-plan.\n\n4. **Find an Available Spot**: Look for an empty seat on the table. If there\u2019s no available spot, ask politely if someone can move their chair out of the way.\n\n5. **Sit Down**: Once you find an available seat, gently push your chair back from the edge of the table. Sit down comfortably and enjoy your meal or conversation.\n\n6. **Stay in Place**: After sitting down, stay seated until you're ready to leave. Some restaurants may require you to remain seated during certain times.\n\nThe answer is to identify the table, choose your seat, approach the table, find an available spot, sit down, and stay in"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Locate the Drawer**: First, find where the apple is stored in the drawer. It could be a fruit basket or a separate compartment.\n\n2. **Open the Drawer**: Once you've located it, open the drawer to access the apples inside.\n\n3. **Select the Apple**: Carefully pick out the desired apple from the drawer. Be sure not to damage any other fruits or vegetables that might be present.\n\n4. **Remove the Apple**: If necessary, use your fingers to gently remove the apple from its container if it's enclosed within one.\n\n5. **Bring the Apple to You**: With the apple safely in hand, move towards where you need to place it (e.g., on a table, counter, etc.).\n\n6. **Present the Apple**: Place the apple in front of you so you can easily reach and take it when needed.\n\nThe answer is: Open the drawer, select the apple, remove it carefully, bring it to you, and present it."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Check for Recycling**: First, check if the can is recyclable in your area. In many places, aluminum cans are typically accepted at recycling centers.\n\n2. **Sort Properly**: If it's recyclable, sort the can into the appropriate bin or container marked for recycling. This helps ensure that the can gets to the right place where it can be processed efficiently.\n\n3. **Avoid Burying**: Do not bury the can in soil as this can lead to contamination and make it difficult for future recyclers to separate the materials.\n\n4. **Do Not Throw Away**: Never throw the can directly into regular trash bins. This could contaminate other waste and may require additional processing before being recycled.\n\n5. **Use a Can Disposal Facility**: Some communities have designated facilities specifically for disposing of empty beverage containers. These often accept various types of plastic bottles and cans.\n\nBy following these steps, you help protect the environment and support recycling efforts. The answer is to recycle the can properly according to local guidelines."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6524,7 +6524,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: Ensure you have a hand to hold the can and another to support it if needed.\n\n2. **Position Your Hand**: Place one hand on top of the can or under its base for stability.\n\n3. **Grasp the Can**: Use your other hand to grasp the handle or lid of the can firmly but gently.\n\n4. **Pull Upwards**: Pull upwards slightly to lift the can off the surface it's resting on.\n\n5. **Place in Container**: If there's a container nearby, place the can inside it carefully.\n\n6. **Release Support**: Once the can is safely placed, release any grip on the can to avoid dropping it.\n\nThe answer is to use both hands to grasp the can and pull it upwards from the surface it rests on."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6562,7 +6562,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the object**: You need to grab a coke can.\n\n2. **Locate the object**: Find where you have access to a coke can. This could be in your pantry, refrigerator, or any other place where such items are stored.\n\n3. **Prepare for handling**: Make sure you're holding the can securely so that you don't drop it while grabbing it.\n\n4. **Take the can**: Carefully pick up the can and bring it to whatever task or location you need it for.\n\nThe answer is: A coke can."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6714,7 +6714,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: You will need a banana and a surface where you want to put it (e.g., a table).\n\n2. **Hold the Banana**: Hold the banana firmly in your hand or between two fingers.\n\n3. **Choose Your Destination**: Decide on where you want to place the banana. It could be on a table, countertop, or any other flat surface.\n\n4. **Place the Banana**: Carefully place the banana onto the chosen surface. If there are any wrinkles or spots on the banana that might make it difficult to grip, gently smooth them out before placing it down.\n\n5. **Verify Placement**: Check if the banana is stable and secure on its new location. Ensure it won't roll off or fall over when touched.\n\n6. **Enjoy Your Fruit**: Once everything is set up correctly, enjoy your newly placed banana!\n\nThe answer is: Place the banana on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6752,7 +6752,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Can**: First, identify where the can is located. It could be on a table, in a cabinet, or even inside a refrigerator if it's cold.\n\n2. **Open the Can**: Once you've found the can, use a can opener to carefully cut around the top edge of the can. Be gentle so as not to damage the can.\n\n3. **Pour the Contents**: After opening the can, pour its contents into a glass or cup.\n\n4. **Enjoy Your Beverage**: Take a sip and enjoy your drink!\n\nIf you have any specific details about what kind of can (e.g., soft drink, beer) or where it is located, please provide more information so I can give you a more accurate response."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6866,7 +6866,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, find an appropriate table where you can safely place both items without causing any damage or inconvenience.\n\n2. Next, ensure that the table surface is stable and level to prevent tipping over either item.\n\n3. Carefully place the bag of chips on one side of the table, making sure it's not too close to the edge to avoid spills.\n\n4. Then, carefully place the water bottle on top of the bag of chips, ensuring they are securely in place.\n\n5. Finally, make sure there's enough space around each item for easy access while using them.\n\nThe answer is: Put the bag of chips and water bottle on the table as described above."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6904,7 +6904,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A piece of fresh fruit such as an apple or an orange to satisfy the sweet tooth.\n2. A cold soda like Coca-Cola or Sprite to quench your thirst.\n3. A bag of potato chips (or any other snack) to enjoy after the meal.\n\nEnjoy your healthy yet satisfying lunch!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6942,7 +6942,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: Ensure you have a chip bag and a flat surface (like a table or countertop) where the bag will be moved.\n\n2. **Position the Bag**: Place the chip bag on the table in an accessible location for easy handling.\n\n3. **Choose Your Tool**: Use a small hand tool like a spatula or a plastic spoon to help lift the bag off the table.\n\n4. **Lift the Bag**: Carefully lift the chip bag using the tool until it's lifted off the table.\n\n5. **Transfer to Counter**: Slide the lifted chip bag onto the countertop, ensuring it stays steady while moving.\n\n6. **Place Chip Bag**: Once safely on the countertop, place the chip bag in its designated spot or position as needed.\n\nThe answer is: Move the chips bag from the table to the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6980,7 +6980,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Kitchen**: First, locate the kitchen area of the house or apartment where you are staying.\n\n2. **Find the Counter**: Look for an elevated surface typically used for serving food, preparing meals, or storing items. This could be a countertop made of materials like granite, marble, wood, or stainless steel.\n\n3. **Locate the Table**: Next, find a flat piece of furniture that can be placed on the floor to serve as a dining or seating area. Tables come in various sizes and styles, such as wooden tables, glass-top tables, or even folding tables.\n\n4. **Approach Carefully**: Once you have identified both the counter and the table, approach them slowly and carefully to avoid any potential hazards or obstacles.\n\n5. **Use Proper Grooming Practices**: If you need to clean either the counter or the table, make sure to do so using appropriate cleaning products and techniques to maintain their appearance and functionality.\n\nBy following these steps, you should be able to effectively navigate and interact with the counter and table in your kitchen."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7018,7 +7018,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Determine the Quantity Needed**: First, count how many bags of chips you currently have or estimate based on usage.\n\n2. **Choose the Right Chips**: Decide which type of chips to restock (e.g., potato chips, corn chips, etc.).\n\n3. **Select Packaging**: Choose appropriate packaging for storage, such as small containers or resealable bags.\n\n4. **Prepare Storage Area**: Ensure there's enough space and that the drawer is clean before placing new chips.\n\n5. **Organize New Chips**: Place the new chips in their designated areas within the drawer, ensuring they are easily accessible.\n\n6. **Label if Necessary**: If possible, label each bag or container with its contents and date of purchase.\n\n7. **Monitor Usage**: Keep an eye on how quickly the chips are being used so you can replenish them promptly.\n\nThe answer is to restock chips in the drawer following these steps."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7056,7 +7056,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Locate the Drawer**: First, I would need to find where the drawer containing the chips is located in your kitchen or dining area.\n\n2. **Open the Drawer**: Once I locate it, I would open the drawer so that all contents are visible inside.\n\n3. **Identify Chips**: After opening the drawer, I would carefully examine each item within to ensure they match what you're looking for (e.g., potato chips, corn chips, etc.).\n\n4. **Select Chips**: Based on your preference, I would choose the type of chip you want to get.\n\n5. **Remove Chips**: With a gentle hand, I would remove the chosen chips from the drawer and place them into an accessible container like a bowl or bag.\n\n6. **Return to You**: Finally, I would return the selected chips to you, either directly if possible or through another container as needed.\n\nThe answer is: Bring me chips from the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7094,7 +7094,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Position the Can**: Ensure that the can is upright and stable on its side or flat surface.\n\n2. **Grip Carefully**: Use both hands to grasp the can firmly but gently. Hold it close to the top of the can so you can easily see the label.\n\n3. **Align the Gripper**: Position the gripper over the can's opening. Make sure the gripper is aligned correctly for easy insertion.\n\n4. **Insert the Can**: Slowly push the can into the gripper until it is fully inserted. Be careful not to apply too much force as this could damage the can.\n\n5. **Check Fit**: Once the can is inside the gripper, check if it fits snugly without any gaps between the sides of the can and the gripper walls.\n\n6. **Secure (if necessary)**: If the can doesn't fit perfectly, you might need to adjust the position slightly before securing it properly.\n\nThe answer is: Put the Coke can in your gripper."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7132,7 +7132,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Hold the Can**: Grasp the top of the can firmly but gently in one hand.\n\n2. **Position Your Arm**: Place your arm straight out to the side or slightly above your head, depending on how much space you have available and what kind of surface you're working on (e.g., countertop, table).\n\n3. **Use Your Shoulder Strength**: Use the strength from your shoulder muscles to lift the can upwards. Keep your elbow close to your body for stability.\n\n4. **Maintain Balance**: Ensure that your balance is steady as you lift the can. If possible, use another object like a book or a small stool to support yourself if standing up.\n\n5. **Control the Lift**: Control the speed and direction of the lift to avoid any sudden movements that could cause the can to slip or tip over.\n\n6. **Lower Carefully**: Once you've lifted the can high enough, lower it slowly back down to the starting position without letting go entirely.\n\nThe answer is to hold the can firmly in one hand and use shoulder strength to lift it upwards while maintaining balance and control throughout the process."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7170,7 +7170,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify Where Tables Are Usually Found**: Tables are commonly found in various places such as databases, spreadsheets, websites, or printed documents.\n\n2. **Look for Headers and Data Columns**: In most tables, there will be headers that indicate what each column represents (e.g., \"Name\", \"Age\", \"City\"). This helps in understanding the data structure.\n\n3. **Check for Row Labels**: Sometimes, rows may have labels indicating their position within the dataset (e.g., \"Row 1\", \"Row 2\").\n\n4. **Inspect Cell Content**: Each cell typically contains one piece of information related to the row and column it belongs to.\n\n5. **Use Search Functions**: If available, use search functions on digital platforms like web browsers or spreadsheet software to locate specific parts of the table.\n\n6. **Consult Documentation or Help Sections**: If unsure about where to find a particular table, consult documentation or help sections provided by the source of the content.\n\n7. **Ask for Assistance**: If still unable to locate the table, consider asking someone who might know where it's stored or providing more context about its purpose.\n\nThe answer is to look for a structured collection of data presented in rows and"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7284,7 +7284,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the context**: You mentioned \"Park at the table.\" This phrase seems to be a play on words or an unusual instruction.\n\n2. **Understand the meaning**:\n   - \"Park\" typically means to park a vehicle in a designated area for parking.\n   - \"At the table\" could mean several things depending on the context:\n     - It might refer to a specific location within a room where tables are present (e.g., dining room).\n     - It could also imply that you should park near a table but not necessarily directly at one.\n\n3. **Consider possible interpretations**:\n   - If this is meant literally, it would likely be used humorously or as part of a game or prank.\n   - In a more literal sense, if there were multiple tables and vehicles available, it could suggest finding a spot close to a particular table.\n\n4. **Conclusion**: Given the playful nature of the instruction, the most fitting interpretation is that you should find a place to park near a table, possibly implying a humorous or imaginative scenario rather than a literal parking situation.\n\nThe answer is: Park near a table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: You will need a small plastic bag or container to carry the can.\n\n2. **Locate Trash Can**: Find the nearest trash can and ensure it's not occupied by other items.\n\n3. **Pick Up Coke Can**: Carefully pick up the empty coke can using both hands. Hold the can firmly but gently so as not to damage it.\n\n4. **Place in Bag**: Place the can into the plastic bag or container you have prepared. Make sure the can is securely inside to prevent any spills.\n\n5. **Move to Trash Can**: Carry the filled bag/container to the trash can. If possible, use one hand to hold onto the bag while moving to avoid dropping the can.\n\n6. **Close Trash Can Door**: Once at the trash can, close the door if necessary to keep out pests.\n\n7. **Dispose of Waste**: Dispose of the contents of the bag properly according to local waste management guidelines.\n\nBy following these steps, you should be able to safely transport the coke can to the designated trash bin without causing any harm or inconvenience."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify Your Destination**: Determine which specific table or counter you need to reach. Tables are typically marked with numbers (e.g., Table 1), while counters might be labeled as \"Counter A\" or similar.\n\n2. **Choose the Right Path**: If there's more than one path leading to the destination, choose the one that seems most direct or easiest to navigate.\n\n3. **Approach the Area**: Move towards the area where tables and/or counters are located. This could involve walking along aisles, following signs, or using stairs if necessary.\n\n4. **Locate the Specific Item**: Once in the vicinity of the desired table or counter, look for it among other items or people. Tables often have clear markings like numbers or names on them, making identification easier.\n\n5. **Reach the Destination**: Use appropriate gestures or verbal cues to signal someone else at the table or counter about your intention to sit down or use their service. For example, nodding, gesturing toward the seat, or saying something like \"I'd like to sit here.\"\n\n6. **Sit Down or Begin Service**: Follow any instructions given by staff members who may assist you in finding a seat or starting"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7474,7 +7474,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify Your Destination**: Determine which specific table or counter you need to reach. Tables are usually found in dining areas, while counters can be found in various settings like kitchens, offices, or retail stores.\n\n2. **Choose an Exit Point**: Find an exit point from where you can easily move towards your destination without blocking others' paths.\n\n3. **Move Safely**: Approach the area slowly and carefully, ensuring that you don't bump into anyone or trip over anything.\n\n4. **Approach the Table/Counter**: Once you're close enough, approach the designated table or counter using the chosen path. Be mindful of any obstacles or people around you.\n\n5. **Enter if Necessary**: If entering through a door or opening, do so smoothly and quietly to avoid disturbing others.\n\n6. **Find Your Seat/Clearance**: Locate your seat on the table or find a clear space on the counter as needed for your needs.\n\n7. **Proceed**: With everything set up, proceed to use the table or counter according to its intended purpose.\n\nThe answer is to go to the table and counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-google/gemma-4-E2B-it,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.0,99.4,7,100,30.87,23.71
+google/gemma-4-E2B-it,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.3131,288.1,7,100,28.03,23.71

@@ -3788,7 +3788,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, find a place where all the snacks are on the table. This could be in a corner of the room or near a window.\n\n2. Once you've found them, take out one snack at a time and give it to someone else who needs it. You don't need to eat any of the snacks yourself because they're already there.\n\n3. Continue giving snacks to others until everyone has had their share.\n\n4. When you're done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3826,7 +3826,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, we need to identify where the drinks are currently being served from. This could be a specific table or a general area.\n\n2. Next, we need to consider if there are any other areas that might have drinks available, such as a bar or a separate dining area.\n\n3. If there are no other areas with drinks, then it would be impossible for us to bring all the drinks on the table.\n\n4. However, if there are other areas with drinks, we can check those locations and see if they have enough space to accommodate all the drinks.\n\n5. If there are spaces available in these areas, we can then proceed to bring all the drinks to them.\n\n6. If not, we may need to find another location to serve the drinks or perhaps ask someone else to bring them over.\n\nThe answer is No, we cannot bring all the drinks on the table because there are no other areas with drinks available."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3864,7 +3864,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Safety First**: Before starting, ensure that you are in a safe area and have all necessary tools ready.\n\n2. **Locate the Close Counter Table**: Find the close counter table where the tableware will be placed after use. It might look like this:\n   - A closed cabinet or box\n   - A small table with legs\n\n3. **Remove the Tableware**: Carefully remove any items from the close counter table. This could include plates, cups, utensils, etc.\n\n4. **Clean Up**: If there are dishes on the table, carefully pick them up and place them in a clean container. If not, dispose of them properly.\n\n5. **Dispose of Waste**: Dispose of any remaining food scraps, paper, or other waste into the trash.\n\n6. **Check for Damage**: Look around to make sure no damage has been done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3902,7 +3902,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by choosing a savory ingredient that pairs well with salt, such as anchovies or dried shrimp.\n2. Mix the ingredients together in a bowl until they are evenly distributed.\n3. Serve the mixture immediately to ensure it stays fresh and flavorful.\n\nThe answer is anchovies."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3940,7 +3940,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Fresh Baked Cookies** - These are delicious and easy to make at home or in the store.\n\n2. **Tuna Salad Sandwiches** - A classic option that pairs well with crackers or bread.\n\n3. **Peanut Butter and Jelly Sandwiches** - Another great choice, especially if you're looking for something sweet.\n\n4. **Crispy Chips** - They're not only crunchy but also very satisfying!\n\n5. **Fruit Loops** - A fun twist on traditional cookies, they're perfect for snacking on.\n\n6. **Popcorn** - If you have access to popcorn, it's a simple and healthy snack.\n\n7. **Energy Balls** - Made with nuts, seeds, and honey, these are a quick and nutritious snack.\n\n8. **Trail Mix** - A mix of nuts, dried fruits, and dark chocolate chips, this is a versatile and tasty snack.\n\nChoose one that fits your taste preferences and dietary needs!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3978,7 +3978,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. In a large skillet over medium heat, add the olive oil and cook the ground meat until browned.\n\n2. Add the chopped onion and minced garlic to the skillet and saut\u00e9 until softened.\n\n3. Add the thyme, oregano, salt, and black pepper to the skillet. Cook for about 5 minutes until fragrant.\n\n4. Pour in the white wine and stir well to combine with the other ingredients.\n\n5. Add the diced tomatoes, crushed tomatoes, frozen corn, and shredded cheddar cheese to the skillet. Stir everything together.\n\n6."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4016,7 +4016,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by choosing a spicy snack that you enjoy, such as hot dogs or burritos.\n\n2. Add some spices to the hot dog or burrito. You can use chili powder, cayenne pepper, or any other spice blend you like.\n\n3. Mix in some hot sauce or ketchup for extra heat and flavor.\n\n4. Serve the hot dog or burrito immediately after adding the spices.\n\n5. Enjoy your spicy snack!\n\nThe answer is a hot dog or burrito."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4092,7 +4092,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I'll need some information about the type of drink you're looking for. Can you tell me what kind of beverage you'd like?\n\n2. Once I have that information, I can find a suitable option in my inventory.\n\n3. If there are multiple options available, I will select one based on your preferences and availability.\n\n4. Finally, I'll ensure that it's ready to serve when you arrive at your location.\n\nPlease let me know what kind of drink you would like so we can proceed."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4130,7 +4130,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. In a glass, add the water and stir until it's fully dissolved.\n2. Add the lemon juice and honey/syrup if using, stirring well to combine.\n3. Stir in the salt if desired.\n4. If you prefer a sweeter taste, you can add more sugar to taste.\n5. Pour the mixture into glasses and garnish with a lemon twist or a sprig of mint.\n\nEnjoy your refreshing drink!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4168,7 +4168,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the type of drink**: Caffeinated drinks come in various forms such as coffee, tea, soda, and energy drinks.\n\n2. **Choose a specific brand or type**: Select a brand that offers high-quality, caffeinated beverages. Popular options include Starbucks, Dunkin' Donuts, and Coca-Cola.\n\n3. **Check for availability**: Ensure there's an available cup of coffee or tea within reach. Some stores may have limited stock or require a reservation.\n\n4. **Order online or at the store**: If you prefer convenience, order from a website like Amazon or a local grocery store. Alternatively, visit a nearby caf\u00e9 or convenience store.\n\n5. **Bring a reusable mug**: To avoid spills, bring a reusable mug when ordering.\n\n6. **Enjoy your beverage**: Once ordered, enjoy your caffeine-rich drink!\n\nRemember, it's always best to check with the store directly if you're unsure about what they offer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4206,7 +4206,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Coffee (Espresso, Black, Latte)\n2. Tea (Black, Green, White)\n3. Caffeinated soda or energy drinks\n\nPlease specify which one you'd like and any other details about the drink if possible."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4244,7 +4244,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Coffee (Espresso, Black, Latte)\n2. Tea (Black, Green, White)\n3. Caffeinated soda or energy drinks\n\nPlease specify which one you'd like and any other details about the drink if possible."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4282,7 +4282,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Coffee (Espresso, Black, Latte)\n2. Tea (Black, Green, White)\n3. Caffeinated soda or energy drinks\n\nPlease specify which one you'd like and any other details about the drink if possible."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4320,7 +4320,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Water** - A refreshing and healthy choice without caffeine.\n2. **Sprite** - Often made with natural flavors like lemon or cucumber.\n3. **Coca-Cola** - Known for its carbonated beverage.\n4. **Mountain Dew** - Another popular option with a strong taste.\n5. **Fanta** - A classic brand known for its fruity flavor.\n\nPlease let me know which one you'd like to try!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4396,7 +4396,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Strawberry**: Strawberries are a type of berry and are not part of the apple family. They have a red skin and small white berries.\n\n2. **Blueberry**: Blueberries are also a type of berry and belong to the blueberry family. They are round in shape and have a sweet, slightly tart flavor.\n\n3. **Pear**: Pears are a type of fruit and belong to the pear family. They are typically yellow or green in color and have a firm texture.\n\n4. **Grapefruit**: Grapefruits are citrus fruits and belong to the grape family. They are often used as a substitute for apples in recipes but are not considered apples themselves.\n\n5. **Pineapple**: Pineapples are tropical fruits and belong to the pineapple family. They are large, soft, and have a sweet, tangy taste.\n\n6. **Watermelon**: Watermelons are a type of fruit and belong to the melon family. They are juicy, sweet, and have a high water content.\n\n7. **Avocado**: Avocados are a type of fruit and belong to the avocado family. They are creamy and have a mild"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4434,7 +4434,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose a Soda Brand**: Select a brand of soda that doesn't have the same name as Coca-Cola. Popular brands include Sprite, Mountain Dew, and Fanta.\n\n2. **Check for Variations**: Look for variations in flavor or ingredients to find one that has a different taste without being exactly like Coke.\n\n3. **Consider Other Brands**: If you're looking for something unique, consider brands like Pepsi, Dr Pepper, or Froot Loops, which are often associated with other drinks but can be found in stores.\n\n4. **Ask for Specific Flavor Options**: Some brands offer specific flavors that might not be as widely known as others, such as \"Coke Zero\" or \"Coca-Cola Zero Sugar.\"\n\n5. **Look for Special Offers**: Sometimes, stores may offer discounts on soda if you ask nicely. Check their website or call them directly to see what they have available.\n\n6. **Try Different Sides**: If you prefer a different type of soda, try a variety of sodas to find one that suits your taste better.\n\nBy following these steps, you should be able to find a soda that\u2019s not a Coke while still enjoying a refreshing drink!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4472,7 +4472,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A glass of milk tea - This is a classic combination of milk and tea served in a cup.\n2. A glass of iced coffee - It's refreshing and can be enjoyed cold.\n3. A glass of iced lemonade - Perfect for a cool summer evening.\n4. A glass of iced tea - A light choice that doesn't overpower the other drinks.\n5. A glass of iced orange juice - A refreshing option that pairs well with citrus flavors.\n\nThese options are all non-alcoholic and don't contain any of the ingredients commonly found in water or carbonated beverages. Enjoy!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4510,7 +4510,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. 2 cups of water\n2. 1/4 cup of sugar (optional)\n3. 1/4 cup of lemon juice or orange juice (optional)\n\nHere's how to make it clear:\n\n1. In a large pot, combine the water and sugar if using. Stir until dissolved.\n\n2. Add the lemon juice or orange juice if using, stirring well.\n\n3. Bring the mixture to a boil over medium heat.\n\n4. Reduce the heat to low and let it simmer for about 5 minutes, or until the sugar has completely dissolved and the liquid has thickened slightly.\n\n5. Remove from heat and let it cool down slightly before pouring into glasses.\n\n6. If desired, strain the soda through a fine-mesh sieve to remove any solids.\n\n7. Serve immediately and enjoy your clear soda!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4548,7 +4548,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the counter and locate the rice chips you want to restock.\n2. Remove any damaged or expired rice chips from the counter.\n3. Check for any leftover rice chips that may have been accidentally dropped or forgotten about.\n4. If there are no remaining rice chips, consider purchasing new ones from a store.\n5. Place the restocked rice chips back into their original containers.\n6. Close the counter lid securely to protect the contents.\n\nThe answer is to open the counter, remove damaged/expired chips, check for leftovers, purchase new ones if needed, place them back in their containers, and close the lid securely."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4624,7 +4624,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the close counter where you want to clear the chips.\n2. Use a clean cloth or paper towel to wipe down the counter and any nearby surfaces.\n3. Next, use a sharp knife or scissors to carefully remove the jalapeno chips from the counter.\n4. If there are any remaining chips on the countertop, gently scrub them away with a damp cloth.\n5. Once all the chips have been removed, rinse the area under running water to remove any residue.\n6. Finally, dust the surface of the counter with a microfiber cloth to prevent streaks.\n\nThe answer is to use a clean cloth or paper towel to wipe down the counter and any nearby surfaces before removing the chips."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4662,7 +4662,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Hold the coke can in a stable position, ensuring it's not tilted or unstable.\n\n2. Use both hands to lift the coke can from the ground, making sure you're holding it firmly but not too tight.\n\n3. Keep your eyes on the coke can as you lift it, allowing you to maintain control throughout the process.\n\n4. Once the coke can is lifted off the ground, slowly lower it back down to its original position.\n\n5. Repeat this process for each coke can you need to lift.\n\n6. Ensure that all cans are lifted and lowered at the same time to avoid any accidents.\n\n7. If necessary, use additional support if needed to prevent tipping over during the lifting process.\n\n8. After completing the task, carefully place the coke cans back into their designated locations.\n\nThe answer is Step 1 - Hold the coke can in a stable position, ensuring it's not tilted or unstable."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4700,7 +4700,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the lid of the coke can to release any remaining air.\n2. Place the coke can on a stable surface, such as a table or countertop.\n3. Use your gripper to lift and place the coke can onto the desired surface. Make sure it's level and secure.\n4. Adjust the position if necessary to ensure the coke can fits comfortably on the surface without tipping over.\n\nThe answer is you have successfully placed the coke can on the surface using your gripper."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4738,7 +4738,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open a fire door or vent to release any remaining smoke and heat.\n2. Use a wet towel or cloth to cover the area around the fire, as this can help smother the flames.\n3. If possible, move away from the source of the fire to avoid inhaling smoke or dust.\n4. Do not attempt to extinguish the fire yourself; call for professional help if necessary.\n5. After the fire has been put out, clean up the site thoroughly to prevent any potential hazards."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4776,7 +4776,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by choosing a savory ingredient that pairs well with salt, such as anchovies or dried shrimp.\n2. Mix the ingredients together in a bowl until they are evenly distributed.\n3. Serve the mixture immediately to ensure it stays fresh and flavorful.\n\nThe answer is anchovies."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4814,7 +4814,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Fresh Baked Cookies** - These are delicious and easy to make at home or in the store.\n\n2. **Tuna Salad Sandwiches** - A classic option that pairs well with crackers or bread.\n\n3. **Peanut Butter and Jelly Sandwiches** - Another great choice, especially if you're looking for something sweet.\n\n4. **Crispy Chips** - They're not only crunchy but also very satisfying!\n\n5. **Fruit Loops** - A fun twist on traditional cookies, they're perfect for snacking on.\n\n6. **Popcorn** - If you have access to popcorn, it's a simple and healthy snack.\n\n7. **Energy Balls** - Made with nuts, seeds, and honey, these are a quick and nutritious snack.\n\n8. **Trail Mix** - A mix of nuts, dried fruits, and dark chocolate chips, this is a versatile and tasty snack.\n\nChoose one that fits your taste preferences and dietary needs!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4852,7 +4852,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. In a large skillet over medium heat, add the olive oil and cook the ground meat until browned.\n\n2. Add the chopped onion and minced garlic to the skillet and saut\u00e9 until softened.\n\n3. Add the thyme, oregano, salt, and black pepper to the skillet. Cook for about 5 minutes until fragrant.\n\n4. Pour in the white wine and stir well to combine with the other ingredients.\n\n5. Add the diced tomatoes, crushed tomatoes, frozen corn, and shredded cheddar cheese to the skillet. Stir everything together.\n\n6."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4890,7 +4890,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by choosing a spicy snack that you enjoy, such as hot dogs or burritos.\n\n2. Add some spices to the hot dog or burrito. You can use chili powder, cayenne pepper, or any other spice blend you like.\n\n3. Mix in some hot sauce or ketchup for extra heat and flavor.\n\n4. Serve the hot dog or burrito immediately after adding the spices.\n\n5. Enjoy your spicy snack!\n\nThe answer is a hot dog or burrito."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4966,7 +4966,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I'll need some information about the type of drink you're looking for. Can you tell me what kind of beverage you'd like?\n\n2. Once I have that information, I can find a suitable option in my inventory.\n\n3. If there are multiple options available, I will select one based on your preferences and availability.\n\n4. Finally, I'll ensure that it's ready to serve when you arrive at your location.\n\nPlease let me know what kind of drink you would like so we can proceed."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5004,7 +5004,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. In a glass, add the water and stir until it's fully dissolved.\n2. Add the lemon juice and honey/syrup if using, stirring well to combine.\n3. Stir in the salt if desired.\n4. If you prefer a sweeter taste, you can add more sugar to taste.\n5. Pour the mixture into glasses and garnish with a lemon twist or a sprig of mint.\n\nEnjoy your refreshing drink!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5042,7 +5042,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the type of drink**: Caffeinated drinks come in various forms such as coffee, tea, soda, and energy drinks.\n\n2. **Choose a specific brand or type**: Select a brand that offers high-quality, caffeinated beverages. Popular options include Starbucks, Dunkin' Donuts, and Coca-Cola.\n\n3. **Check for availability**: Ensure there's an available cup of coffee or tea within reach. Some stores may have limited stock or require a reservation.\n\n4. **Order online or at the store**: If you prefer convenience, order from a website like Amazon or a local grocery store. Alternatively, visit a nearby caf\u00e9 or convenience store.\n\n5. **Bring a reusable mug**: To avoid spills, bring a reusable mug when ordering.\n\n6. **Enjoy your beverage**: Once ordered, enjoy your caffeine-rich drink!\n\nRemember, it's always best to check with the store directly if you're unsure about what they offer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5080,7 +5080,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Coffee (Espresso, Black, Latte)\n2. Tea (Black, Green, White)\n3. Caffeinated soda or energy drinks\n\nPlease specify which one you'd like and any other details about the drink if possible."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5118,7 +5118,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Water** - A refreshing and healthy choice without caffeine.\n2. **Sprite** - Often made with natural flavors like lemon or cucumber.\n3. **Coca-Cola** - Known for its carbonated beverage.\n4. **Mountain Dew** - Another popular option with a strong taste.\n5. **Fanta** - A classic brand known for its fruity flavor.\n\nPlease let me know which one you'd like to try!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5232,7 +5232,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Strawberry**: Strawberries are a type of berry and are not part of the apple family. They have a red skin and small white berries.\n\n2. **Blueberry**: Blueberries are also a type of berry and belong to the blueberry family. They are round in shape and have a sweet, slightly tart flavor.\n\n3. **Pear**: Pears are a type of fruit and belong to the pear family. They are typically yellow or green in color and have a firm texture.\n\n4. **Grapefruit**: Grapefruits are citrus fruits and belong to the grape family. They are often used as a substitute for apples in recipes but are not considered apples themselves.\n\n5. **Pineapple**: Pineapples are tropical fruits and belong to the pineapple family. They are large, soft, and have a sweet, tangy taste.\n\n6. **Watermelon**: Watermelons are a type of fruit and belong to the melon family. They are juicy, sweet, and have a high water content.\n\n7. **Avocado**: Avocados are a type of fruit and belong to the avocado family. They are creamy and have a mild"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5270,7 +5270,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose a Soda Brand**: Select a brand of soda that doesn't have the same name as Coca-Cola. Popular brands include Sprite, Mountain Dew, and Fanta.\n\n2. **Check for Variations**: Look for variations in flavor or ingredients to find one that has a different taste without being exactly like Coke.\n\n3. **Consider Other Brands**: If you're looking for something unique, consider brands like Pepsi, Dr Pepper, or Froot Loops, which are often associated with other drinks but can be found in stores.\n\n4. **Ask for Specific Flavor Options**: Some brands offer specific flavors that might not be as widely known as others, such as \"Coke Zero\" or \"Coca-Cola Zero Sugar.\"\n\n5. **Look for Special Offers**: Sometimes, stores may offer discounts on soda if you ask nicely. Check their website or call them directly to see what they have available.\n\n6. **Try Different Sides**: If you prefer a different type of soda, try a variety of sodas to find one that suits your taste better.\n\nBy following these steps, you should be able to find a soda that\u2019s not a Coke while still enjoying a refreshing drink!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5308,7 +5308,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A glass of milk tea - This is a classic combination of milk and tea served in a cup.\n2. A glass of iced coffee - It's refreshing and can be enjoyed cold.\n3. A glass of iced lemonade - Perfect for a cool summer evening.\n4. A glass of iced tea - A light choice that doesn't overpower the other drinks.\n5. A glass of iced orange juice - A refreshing option that pairs well with citrus flavors.\n\nThese options are all non-alcoholic and don't contain any of the ingredients commonly found in water or carbonated beverages. Enjoy!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5346,7 +5346,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. 2 cups of water\n2. 1/4 cup of sugar (optional)\n3. 1/4 cup of lemon juice or orange juice (optional)\n\nHere's how to make it clear:\n\n1. In a large pot, combine the water and sugar if using. Stir until dissolved.\n\n2. Add the lemon juice or orange juice if desired. Stir well.\n\n3. Bring the mixture to a boil over medium heat.\n\n4. Reduce the heat to low and let it simmer for about 5 minutes, stirring occasionally.\n\n5. Remove from heat and let it cool slightly before pouring into glasses.\n\n6. If you want a clearer soda, you can add more ice cubes to the top of the glass.\n\n7. Serve immediately and enjoy your clear soda!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5384,7 +5384,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, turn off any power sources if they are on.\n2. Use a vacuum cleaner to remove dust and debris from the surface of the table.\n3. If there's a lot of dirt or grime, you can use a soft-bristled brush to scrub away stubborn stains.\n4. Rinse the area under running water to remove excess cleaning fluid.\n5. Wipe down the entire surface with a clean cloth to dry it completely.\n6. Finally, wipe down the edges and corners to prevent streaks and ensure a smooth finish. The answer is Step 1: Turn off any power sources if they are on."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5422,7 +5422,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Take a seat at the table.\n2. Look around to see what's on it.\n3. Identify all items you want to bring, such as food, drinks, or other personal belongings.\n4. Place each item in its designated place on the table.\n5. If necessary, ask for help if needed, like offering assistance to someone who might be unable to reach an item easily.\n\nThe answer is You have brought everything from the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5460,7 +5460,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by choosing a cold beverage, such as water or an iced tea.\n2. Next, consider a light sandwich made from whole grain bread, lettuce, tomato, and cheese.\n3. For a healthy option, opt for a fruit salad that includes fresh fruits like berries, bananas, and apples.\n4. Finally, add some protein to your meal, such as grilled chicken or tofu, which can be paired with a side of steamed vegetables.\n\nThe answer is a cold beverage and a fruit salad."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5498,7 +5498,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose the Right Apples**: Look for apples that are firm and have no bruises or blemishes on them.\n\n2. **Prepare the Apples**: Wash the apples thoroughly under cold running water to remove any dirt or debris. You can also use a vegetable peeler if necessary to avoid damaging the skin of the apple.\n\n3. **Cut the Apples**: Use a sharp knife to cut the apples into bite-sized pieces. This will make it easier to eat and less likely to cause choking.\n\n4. **Serve the Apples**: Place the prepared apples in a bowl and serve immediately. If you prefer, you can also slice them thinly and serve them as a snack.\n\n5. **Enjoy Your Meal**: Enjoy your delicious apple!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5536,7 +5536,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Go to the store and look for a variety of sodas.\n2. Choose a non-Coke soda from the list.\n3. Check if it's still in its original packaging or if you can find a new one.\n4. If possible, ask the store staff about any special promotions or discounts on this particular soda.\n5. Try the soda yourself to ensure it meets your needs before purchasing it."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Cucumber and Lime Margarita** - This drink combines the refreshing taste of lime juice with the tangy flavor of cucumber in a classic margarita recipe.\n\n2. **Strawberry Basil Margarola** - A twist on the traditional margarita, this drink features fresh strawberries and basil for a unique blend of flavors.\n\n3. **Cherry and Orange Cognac** - A fruity and slightly sweet cocktail that pairs well with both cherry and orange fruits, making it a delightful choice for any occasion."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5612,7 +5612,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, gather all the fruits from the table.\n2. Next, carefully separate any seeds or parts that are not edible.\n3. Then, dispose of any remaining fruit scraps in a trash bin.\n4. Finally, wash and dry the fruits to remove dirt and excess water.\n\nThe answer is to throw away all the fruits on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Hold the Can**: Place one hand on top of the can and hold it steady.\n\n2. **Open the Cap**: Use your other hand to open the cap. If the can has a metal cap, use your fingers to gently press down on the handle or lever to open it. If the can is plastic, use your thumb and index finger to push the cap off.\n\n3. **Pull the Handle**: Once the cap is opened, pull the handle towards you. This will help you grip the can more firmly.\n\n4. **Place the Can**: Hold the can in front of you so that its bottom edge is facing upwards. You can also place it on a flat surface if possible.\n\n5. **Use the Handle**: With your other hand, grasp the handle at the base of the can. Pull the handle towards you until you feel resistance. This should be enough force to lift the can but not too much to cause any damage.\n\n6. **Lift the Can**: Lift the can from the ground using your other hand. Be careful not to drop it!\n\n7. **Care for the Can**: After picking up the can, clean it thoroughly to prevent any residue from sticking to the handle or"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Find the Can**: Look for a Coke can on the shelf or in the aisle of the store where you are shopping.\n\n2. **Locate the Handle**: Find the handle on the can. It's usually located at the bottom center of the can.\n\n3. **Pull the Handle**: Use your fingers to pull the handle towards you. This will help you grip the can more securely.\n\n4. **Grab the Can**: Once you have the handle in place, grasp the can firmly with both hands. You may need to use your other hand to steady yourself as you hold onto the can.\n\n5. **Use the Handle**: With the handle in your palm, gently press down on the can to open it. If the can is wide enough, you might be able to lift it up and open it without using the handle directly.\n\n6. **Open the Can**: Once the can is open, remove it from the shelf or take it out of the carton if applicable.\n\n7. **Enjoy Your Coke!** Enjoy your freshly opened Coke can!\n\nRemember, practice makes perfect when it comes to opening cans safely."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5726,7 +5726,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Check for Damage**: Look at the apple to see if it has any visible signs of damage such as bruises, blemishes, or rot.\n\n2. **Inspect the Skin**: If there are any cuts or tears in the skin, discard the apple immediately. This is a sign that the fruit may be infected with harmful bacteria like botulism.\n\n3. **Remove the Apple**: Carefully remove the apple from its container. Be careful not to break any stems or leaves.\n\n4. **Clean the Container**: Rinse the container where the apple was placed. Use warm water and mild soap to clean the inside of the container thoroughly.\n\n5. **Discard the Container**: Place the cleaned container back into the refrigerator. This will help prevent the spread of disease to other fruits and vegetables.\n\n6. **Store Properly**: Store the cleaned container in the refrigerator. Keep it covered to protect the apples from dust and moisture.\n\nBy following these steps, you can safely dispose of an apple without risking illness."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5764,7 +5764,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the internet to find a sprite that matches your preferences or download one from an online store.\n\n2. Once you have the sprite, place it on a computer screen or tablet where you can view it clearly.\n\n3. If you want to share the sprite, you can either print it out and attach it to your website, blog, or social media post, or upload it directly to a website like Imgur or Pinterest.\n\n4. Alternatively, if you prefer not to use any external storage, you can save the sprite as a file on your device using a cloud service like Google Drive or Dropbox.\n\n5. Share the link to the saved sprite with others who may be interested in it.\n\n6. If you need to keep the sprite for future reference, consider creating a digital version of it, such as a PDF or image file, which you can then share or embed on your website or blog."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5802,7 +5802,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Take the banana from its container or peel it off if it's inside a bag.\n\n2. Use a knife to cut the banana in half, making sure both halves are equal size.\n\n3. Place one half of the banana flat on the countertop.\n\n4. If using a peel, carefully remove the outer layer and place it aside.\n\n5. Carefully slide the other half over the first half, ensuring they touch each other.\n\n6. Press down gently to secure them together.\n\n7. You can now use the banana as needed, such as for slicing, peeling, or serving."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Find a stable surface on which to place the banana, such as a countertop or a table.\n2. Carefully lift the banana from its original position and place it on the stable surface.\n3. Once the banana is in place, use your hands to gently support it so that it doesn't fall over.\n4. If necessary, use a towel or cloth to cover the banana to prevent it from getting dirty while you're moving it.\n5. Finally, take the banana out of the stable surface and put it back where it belongs."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5878,7 +5878,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the can lid carefully to avoid any damage.\n\n2. Use a spoon or tongs to gently lift the lid off the can.\n\n3. Carefully remove the can from its container, ensuring it's not damaged during this process.\n\n4. If using a spoon, scoop out the contents of the can and place them in a clean container.\n\n5. If using a tongs, hold the can tightly and use the tongs to lift it up and away from the container.\n\n6. Place the can on a flat surface and secure it with a strap if necessary.\n\n7. Check that all the contents have been removed and that there are no leaks before closing the can lid securely again."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5916,7 +5916,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Check the Availability**: Look for a Red Bull store or online retailer that offers Red Bull products. You can check their website or app to see what they are selling.\n\n2. **Contact Customer Service**: If you find a Red Bull store, contact them directly to inquire about availability and any special promotions or discounts.\n\n3. **Online Search**: Use search engines like Google to look up \"Red Bull\" and see if there's an available product in your area.\n\n4. **Ask About Special Offers**: Many stores offer special deals or limited-time offers on Red Bull products. Ask about these when you visit.\n\n5. **Look for Discounts**: Check if there are any discounts or promotions available during certain times of the year (e.g., holiday seasons).\n\n6. **Consider Other Brands**: Sometimes other brands also sell Red Bull products. Research different options to find one that suits your needs.\n\n7. **Ask for Recommendations**: If possible, ask friends or family members who might know someone who uses Red Bull to recommend it to you.\n\nBy following these steps, you should be able to find out if you can get a Red Bull at your local store or online."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5954,7 +5954,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose the type of fruit you want to bring - for example, an apple or a banana.\n2. Look up the name and image of the fruit on a search engine or in a dictionary.\n3. If you don't have a specific image, try searching for \"fruit picture\" to find one that matches your description.\n4. Once you find the image, click on it to view it.\n5. Take a photo using your smartphone or camera app.\n6. Share the photo on social media platforms like Instagram, Facebook, or Pinterest.\n7. Alternatively, if you're comfortable sharing text-based content, you can write out a short description of the fruit and attach it as a file.\n8. Optionally, add a caption explaining what the fruit looks like and where you found it.\n\nThe answer is take a photo or upload a file containing the image of the fruit."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, find a stable surface to place the bag of chips and water bottle on, such as a table or countertop.\n\n2. Next, carefully stack the bag of chips on top of the water bottle. Make sure they are securely fastened so that they don't fall over.\n\n3. If necessary, adjust the position of the bag of chips and water bottle to ensure they are level and not leaning towards each other.\n\n4. Once the bags are in place, gently shake them together to mix any air bubbles and make them more stable.\n\n5. Finally, secure the bags with tape or clips if needed, making sure everything is properly tied up for safety."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6030,7 +6030,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Bring the fruit to the table.\n2. Pour the soda into a cup or glass.\n3. Take the bag of chips from the pantry or fridge.\n\nThe answer is Bring the fruit to the table, pour the soda into a cup or glass, take the bag of chips from the pantry or fridge."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Carefully lift the chip bag off the table using a sturdy object like a book or a chair.\n2. Place the chip bag on the counter, ensuring it's level and secure.\n3. Use your hands to gently push the chip bag down onto the counter until it comes to rest.\n4. Once in place, use your fingers to guide the chip bag into the slot at the bottom of the counter.\n5. If necessary, adjust the position of the chip bag to ensure it fits properly.\n\nThe answer is to carefully lift, place, and guide the chip bag onto the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start at the entrance of the kitchen, usually located on the left side of the building or on a staircase leading up to it.\n\n2. Walk straight ahead for about 5-6 steps until you reach the first door that leads to the kitchen.\n\n3. Turn right into the kitchen and follow the path until you come to the counter area.\n\n4. Continue walking down the path until you reach the table where you can sit down.\n\n5. You should be able to find the counter and table easily once you have reached them. If not, you may need to backtrack slightly or use stairs if necessary.\n\n6. Once you are seated, take a seat and enjoy your meal!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate all the chips.\n2. Remove any damaged or expired chips.\n3. Sort the remaining chips into different containers based on their type (e.g., regular, spicy, sour).\n4. Place the chips in a designated area of the refrigerator to keep them fresh for longer periods.\n5. Check the refrigerator regularly to ensure freshness and adjust as needed.\n\nThe answer is to open the drawer, remove chips, sort them, place them in containers, and store them in the refrigerator."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate the chips.\n2. Use a knife or spoon to carefully remove each chip, making sure not to damage them.\n3. Place the removed chips in a clean container for storage.\n4. If using multiple drawers, ensure all chips are removed before opening them again.\n\nThe answer is to use a knife or spoon to carefully remove each chip from the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Prepare the Gripper**: Ensure that the gripper is clean and free of any debris or residue.\n\n2. **Remove the Can from the Bottle**: Carefully remove the bottle cap from the bottle to expose the bottom of the bottle. This will help you see inside the bottle.\n\n3. **Open the Bottle Cap**: Use a screwdriver or a small hammer to gently pry open the bottle cap. Be careful not to damage the bottle or the can.\n\n4. **Insert the Can into the Gripper**: Place the can directly into the opening of the gripper. Make sure it fits snugly without touching the sides of the gripper.\n\n5. **Secure the Can**: Once the can is securely inserted, use the screwdriver or hammer to tighten the grip on the can. This should be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Safety First**: Always ensure that the area around the can is safe before attempting to lift it.\n\n2. **Positioning**: Stand behind or in front of the can, depending on its height and weight. If possible, use a ladder if available.\n\n3. **Grip the Can**: Use both hands to grip the handle firmly but not too tight. This will help maintain control as you lift.\n\n4. **Lift Method**: Hold onto one side of the can with one hand while using the other hand to support the weight of the can. Keep your arms straight and your body upright.\n\n5. **Adjust Position**: As you lift, adjust your position slightly to keep the can stable. You may need to lean slightly forward or backward to balance the load.\n\n6. **Control the Lift**: Maintain steady control throughout the lifting process. Avoid sudden movements that could cause the can to tip over.\n\n7. **Safety Check**: After completing the lift, check for any signs of damage or wear on the can. Ensure there are no sharp edges or cracks that could pose a risk.\n\n8. **Dispose of Properly**: Once the can has been lifted safely, dispose of it properly according to local regulations.\n\nBy"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Question**: First, clearly state what information you need to find in the table.\n\n2. **Understand the Context**: Consider the context or purpose of the question. Is it related to data analysis, research, or some other task?\n\n3. **Use Search Tools**: Depending on where you are located and what kind of search tool you have available (e.g., Google, Microsoft Office), use those tools to look for the table.\n\n4. **Check Online Resources**: If you're using an online platform like Wikipedia, Google Scholar, or academic databases, check if there's a specific table that matches your query.\n\n5. **Ask Someone**: Sometimes asking someone else can help you find the right table. They might know about the table or be able to direct you to the correct location.\n\n6. **Consult Documentation**: If you're working with a document, consult the instructions or notes provided within the document. This often includes tables that were created specifically for that purpose.\n\n7. **Look Up Information**: If you're not sure how to find the table, try searching for \"table name\" or \"data source\" to see if any relevant information is available.\n\n8. **Use a Table Generator Tool"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6334,7 +6334,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Find a comfortable chair or stool that provides good support for your back and legs.\n2. Sit down on the chair or stool, ensuring it's level and stable.\n3. Cross your legs if they are not already crossed, keeping them straight and relaxed.\n4. Adjust the height of the chair so that your feet are flat on the floor and your knees are slightly bent at the hips.\n5. If necessary, adjust the seat or armrests to provide better support for your posture.\n6. Keep your shoulders relaxed and your head up, allowing your neck to be in a neutral position.\n7. Take small steps forward while maintaining good posture, making sure your weight is evenly distributed between both feet.\n8. Once you have reached the desired position, sit back into the chair or stool and relax.\n\nThe answer is to find a comfortable chair or stool that provides good support for your back and legs."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open a web browser on your device.\n2. Type \"www.example.com\" into the address bar at the top of the screen.\n3. Press enter or click the \"Go\" button to load the website.\n4. Once the page loads, look for the table element in the navigation menu that appears below the search box.\n5. Click on the table element to open it in a new tab.\n\nThe answer is to type \"www.example.com\" into the address bar and press enter or click the \"Go\" button to load the website. Then, look for the table element in the navigation menu and click on it to open it in a new tab."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Find a secure spot on the table: Look for an area that is stable and won't move around easily.\n\n2. Use a parking mat or rubber mat: This will help prevent any spills or accidents while you're waiting to park.\n\n3. Check if there are any barriers or obstacles: If there are furniture, chairs, or other objects blocking the path, consider moving them away from the table.\n\n4. Ensure the table is level: A flat surface helps in parking safely and prevents tipping over.\n\n5. Position yourself correctly: Stand up straight and face the direction of the car's entry. This makes it easier to get into the vehicle when needed.\n\n6. Wait for the car to enter: Once the car has entered the driveway, wait until it stops before attempting to park again.\n\n7. Securely park: Make sure all loose items are securely tied down or placed in a safe location.\n\n8. Move quickly: Park as quickly as possible after entering the driveway, so you can exit without delay.\n\n9. Check the parking space: Verify that the parking spot is clear and free of hazards before leaving.\n\n10. Enjoy your new home: Now you have a comfortable place to park your belongings!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate the apple.\n2. Use a spoon or fork to carefully lift the apple out of the drawer.\n3. Place the apple on a clean surface, such as a cutting board or a plate.\n4. Cut the apple into two pieces if desired.\n5. Serve immediately or store in the refrigerator for later use."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Safety First**: Always ensure that the Coke can is securely placed on a flat surface or in a safe container before attempting to throw it.\n\n2. **Use a Safe Container**: Choose a sturdy container like a garbage bag, a plastic bucket, or even a large cardboard box. This will help prevent any accidental damage to the can during the throwing process.\n\n3. **Throwing Technique**: Use a steady hand and aim for the ground where there are no obstacles. Aim slightly above the ground to avoid hitting anything nearby.\n\n4. **Throwing Direction**: Throw the can at an angle so that it lands as far away from you as possible. This helps distribute the force of impact more evenly.\n\n5. **Avoid Direct Impact**: If possible, try to land on a soft surface such as grass or sand to minimize damage to the can.\n\n6. **Clean Up**: After throwing, clean up the used container to dispose of it properly.\n\n7. **Dispose of Used Containers**: Dispose of all used containers responsibly. They should be recycled or disposed of according to local regulations.\n\nBy following these steps, you can safely and effectively throw a Coke can away without causing any harm."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6524,7 +6524,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the coke can lid carefully to avoid any spills or damage.\n2. Hold the can upright and gently place it on a stable surface, such as a table or countertop.\n3. Use your hand to support the can's weight while you lift it slightly off the ground.\n4. Once the can is in the air, slowly lower it to the desired height.\n5. If necessary, use a towel or cloth to catch any spilled liquid from the can.\n6. Carefully remove the can from the surface and store it properly for future use."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6562,7 +6562,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the Coke Can: Start by opening the Coke can, ensuring it's securely closed.\n\n2. Place the Coke Can on a Stable Surface: Once open, place the Coke can on a stable surface like a table or countertop to prevent any accidental drops.\n\n3. Hold the Coke Can Vertically: With one hand gripping the handle and the other supporting the weight of the Coke can, hold it vertically upright.\n\n4. Ensure Stability: Keep the Coke can steady by holding it in place with both hands while you continue to hold it at an angle.\n\n5. Use the Handle for Balance: If necessary, use the Coke can's handle to help maintain balance as you lift it up.\n\n6. Lift the Coke Can: With the Coke can held upright, slowly lift it off the ground using the handle.\n\n7. Carefully Lower the Coke Can: As you lower the Coke can back down, make sure not to drop it again.\n\n8. Secure the Coke Can: After lowering the Coke can, secure it back into its original position by gently pressing down on the handle.\n\n9. Check for Damage: Finally, check the Coke can for any damage or wear before continuing with the next task.\n\nThe process of lifting and placing the Coke can safely involves careful handling and"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6600,7 +6600,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object to be thrown away - an apple.\n2. Consider the consequences of throwing it away - waste and potential environmental impact.\n3. Reflect on personal values or beliefs about what is important in life.\n4. Make a decision based on these considerations, possibly seeking advice from others if needed.\n5. Take action to dispose of the apple according to local regulations or guidelines for responsible disposal."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6638,7 +6638,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open your preferred online store or app for purchasing sprites.\n2. Search for \"sprite\" in the search bar to find various options available.\n3. Look through different categories and brands to find one that suits your needs, such as cartoon characters, animals, or abstract designs.\n4. Once you've found a suitable sprite, click on it to purchase it from your chosen platform.\n5. If prompted, enter any additional details about the sprite, such as its size, color scheme, or any specific features you're interested in.\n6. After placing your order, wait for the delivery notification to confirm your shipment has arrived.\n7. Enjoy your new sprite!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6676,7 +6676,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object you want to put on the counter - in this case, a banana.\n\n2. Determine where you want to place the banana - typically, it would be placed on the countertop or directly above it if you're using a table.\n\n3. Ensure that the banana is not damaged or broken before placing it. If possible, use a knife or other tool to cut the banana into smaller pieces for easier handling and storage.\n\n4. Carefully position the banana on the countertop or table, making sure it's level and secure.\n\n5. Once the banana is in place, gently tap it against the edge of the surface to ensure it doesn't fall off.\n\n6. Place the banana back onto its original spot, making sure it's securely fastened.\n\n7. Check that the banana is clean and free from any dirt or debris before putting it away.\n\nThe answer is the banana is now on the countertop."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6714,7 +6714,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Find the banana on the ground or in a container.\n2. Carefully lift the banana off the ground using both hands.\n3. Place the banana directly on the table, making sure it's not damaged.\n4. If necessary, use a towel or cloth to protect the banana from any spills or bumps during the move.\n\nThe answer is to carefully lift and place the banana on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6752,7 +6752,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the door of the box containing the sprite.\n2. Take out the opening that holds the sprite inside.\n3. Use the key or any other tool to open the box and access the sprite.\n\nThe answer is you have successfully opened the box containing the sprite."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6790,7 +6790,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Check Your Eligibility**: Ensure that you are eligible to purchase a Red Bull. This typically requires being a member of the Red Bull Club or having a valid membership card.\n\n2. **Visit the Store**: Go to any Red Bull store in your area and check their inventory. Look for a Red Bull product that matches what you're looking for.\n\n3. **Ask About Availability**: If available, ask the salesperson about the availability of the product. They may be able to provide more information on when it will be available or how to order it.\n\n4. **Contact Customer Service**: If you need further assistance, contact the customer service department at Red Bull. They can help guide you through the process and ensure you receive the correct product.\n\n5. **Order Online**: If you prefer to place an order online, visit their website and select the product you want. You'll then need to enter your shipping address and payment details.\n\n6. **Wait for Delivery**: Once you've placed your order, wait for it to arrive. If you haven't received your Red Bull yet, check your delivery status on their website.\n\nBy following these steps, you should be able to find the Red Bull you"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6828,7 +6828,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Look around the room to find some fruits you like, such as apples, bananas, oranges, or grapes.\n\n2. Choose one of these fruits and bring it to the person asking for help.\n\n3. If you don't have any of these fruits, suggest other options that are similar in taste or color.\n\n4. Once you've chosen your fruit, start packing it into a container or bag.\n\n5. Take care of the fruit while you're away so it doesn't spoil too quickly.\n\n6. When you return, enjoy your new fruit!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6866,7 +6866,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Take out a bag of chips from the pantry or kitchen drawer.\n2. Carefully place the bag of chips in front of you, ensuring it's not touching anything else.\n3. Take out a water bottle from the fridge or cabinet.\n4. Place the water bottle in front of the bag of chips, making sure it doesn't touch any other items.\n5. Close the lid tightly to prevent spills.\n6. Enjoy your snack while keeping an eye on the water bottle to avoid accidental spillage.\n\nThe answer is done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6904,7 +6904,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Fruit**: Choose a variety of fruits such as apples, bananas, oranges, or grapes. You can also add some berries like strawberries or blueberries.\n\n2. **Soda**: Select a refreshing soda that suits your taste preferences. Popular options include lemon-lime soda, orange soda, or even sparkling water if you prefer it more fizzy.\n\n3. **Bag of Chips**: Opt for a crisp bag of chips made from corn or wheat. You can choose different flavors like onion, jalapeno, or garlic to suit your preference.\n\nNow, put all these items in your lunchbox and enjoy your delicious meal!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6942,7 +6942,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the chips bag on the table.\n2. Move it to the counter.\n\nThe answer is move the chips bag from the table to the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6980,7 +6980,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start at the counter, which is usually located near the entrance of a restaurant or cafe.\n2. Walk towards the table where you will be sitting down for dinner or lunch.\n3. Continue walking until you reach the table, which should be positioned to face the door leading out of the building.\n4. Sit on the table, facing the direction indicated by the door.\n5. Enjoy your meal while taking note of any special requests or preferences from the server.\n\nThe answer is You are now seated at the table in the kitchen."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7018,7 +7018,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate all the chips you want to restock.\n2. Remove any chips that are damaged, broken, or not fresh.\n3. Sort through the remaining chips based on their color (white, red, green) and size.\n4. Place the chips of each color and size into a designated container for easy access.\n5. Label each container clearly with the date and name of the chip.\n6. Store the containers in a secure location out of reach of children or pets.\n7. Check back regularly to ensure you have enough chips for your needs.\n\nThe answer is You need to restock chips in the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7056,7 +7056,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate the chips you want to bring out.\n2. Take one chip at a time, ensuring it's not damaged or missing any pieces.\n3. Place each chip in a clean container for storage.\n4. Once all chips are taken out, return them to their original place in the drawer.\n5. If there are any chips that were accidentally dropped or lost, gently pick them up and put them back into the drawer.\n6. Keep the drawer tidy and organized to avoid losing any important items.\n\nThe answer is You should always keep the drawer tidy and organized to ensure easy access to your chips when needed."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7094,7 +7094,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the lid of the coke can to release any remaining air.\n2. Place the coke can on a stable surface, such as a table or countertop.\n3. Use your gripper to lift the coke can off the ground and onto the surface you placed it on.\n4. Ensure that the coke can is securely held in place before continuing with the process.\n\nThe answer is You need to use a gripper to lift the coke can from its original position."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7132,7 +7132,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Hold the Coke Can**: Start by holding the coke can firmly in one hand.\n\n2. **Place Your Hand on the Handle**: Place your thumb and index finger on the handle of the coke can.\n\n3. **Use Your Other Hand to Lift the Handle**: Use your other hand to gently lift the handle of the coke can from its bottom position.\n\n4. **Push Down on the Handle**: With your palm facing down, use your fingers to push down on the handle until it lifts off the ground.\n\n5. **Release the Handle**: Release the handle as you feel a gentle tug or pull on the coke can.\n\n6. **Tighten the Handle**: Once the coke can is lifted, tighten the handle back into place.\n\n7. **Check the Position**: Ensure that the coke can is now securely held in your hands without any loose parts.\n\nThe coke can should be ready for use!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7170,7 +7170,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Are you asking about a spreadsheet or a database?\n2. Do you have specific columns or rows that you want to see?\n3. Is there any particular format (e.g., HTML, PDF) you prefer?\n\nOnce I have this information, I can help you identify which table might be most relevant to your needs."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7208,7 +7208,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open your browser and navigate to a website that provides tables, such as Wikipedia or Google.\n2. Click on the \"Table\" tab in the top menu bar of your web browser.\n3. Look for a section labeled \"Tables\" or similar, which will contain various types of tables you can view.\n4. Select the type of table you want to explore, whether it's a simple list, a chart, a graph, or any other specific format.\n5. Once you've selected the desired table, click on the \"View\" button to open the table in a new window or tab.\n6. Use the mouse to navigate through the rows and columns of the table, looking for patterns, data, or information you're interested in.\n7. If needed, use the keyboard shortcuts provided by your browser to quickly move between different sections of the table or select specific cells.\n\nThe answer is that you have successfully opened a table from a webpage."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7246,7 +7246,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open your web browser and go to the website or application you want to navigate to.\n2. Locate the section of the page that contains a table, usually at the top or bottom of the page.\n3. Click on the table icon in the navigation bar or menu bar to open it.\n4. If the table is not already visible, click on the \"Table\" button (or similar) located at the top right corner of the screen.\n5. You should now be able to see all the rows and columns of data within the table.\n\nThe answer is the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7284,7 +7284,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the location of the park: Park is typically located in a public area, such as a park or a recreational facility.\n\n2. Determine the specific location within the park: Look for signs indicating where the park is situated, such as benches, paths, or entrance markers.\n\n3. Find the nearest table: Once you have identified the park's location and its proximity to the table, look for tables that are easily accessible from the park's entrance.\n\n4. Approach the table: If there are no tables nearby, approach the park's entrance and find an open space where you can sit comfortably without disturbing others.\n\n5. Sit down: Once you've found a suitable spot, sit down on the table.\n\n6. Enjoy your time: Take advantage of the park's amenities and enjoy your leisurely stroll around the beautiful surroundings."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7322,7 +7322,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate the apple you want to bring home.\n\n2. Carefully remove the apple from its original place in the drawer.\n\n3. Place the apple on a clean, flat surface where it can be easily handled.\n\n4. Take a moment to admire the beautiful fruit before placing it back into the drawer.\n\n5. If needed, use a paper towel or cloth to gently wipe away any dirt or dust from the apple.\n\n6. Once the apple is clean and ready for storage, return it to its original spot in the drawer.\n\n7. Close the drawer securely to protect the fruit from damage during transportation.\n\n8. Enjoy your new apple!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7360,7 +7360,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the can lid carefully to avoid any accidental drops or spills.\n2. Carefully remove the top of the can, ensuring you don't drop it on the ground.\n3. Use a clean cloth or paper towel to gently wipe down the inside and outside of the can.\n4. If there are any remaining parts that need cleaning, use a soft brush or sponge to scrub them thoroughly.\n5. Once everything is dry, store the can in a secure place out of reach of children and pets.\n\nThe answer is to open the can lid carefully and use a clean cloth to wipe it down."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Safety First**: Ensure that you are in a safe area where there are no people or animals around.\n\n2. **Locate the Trash Can**: Find the nearest trash can. This could be on the ground floor of your home, near a door, or in an open space if it's not inside a building.\n\n3. **Open the Trash Can**: Use a sturdy object like a broomstick or a small shovel to gently lift the lid off the trash can. Be careful not to push too hard as this might damage the lid.\n\n4. **Move the Coke Can**: Carefully place the coke can into the trash can. Make sure it\u2019s level and secure before closing the lid.\n\n5. **Close the Lid**: Once the coke can is securely placed, close the lid tightly. If the lid is loose, use a screwdriver or other tool to tighten it again.\n\n6. **Dispose of the Coke Can**: Dispose of the coke can properly according to local regulations. Some areas may have specific guidelines for disposing of used items.\n\n7. **Clean Up**: After moving the coke can, clean up any spills or messes from the coke can and the trash can.\n\nBy following"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Find the Table**: Look for a table in the room where you are located. It's usually found near the entrance or on one of the walls.\n\n2. **Find the Counter**: Once you have found the table, look for a counter nearby. This could be a small piece of wood or metal that has holes cut into it. The hole should point towards the door or window.\n\n3. **Enter the Room**: Walk towards the door or window until you reach the counter. If there is no door, you may need to use stairs to get to the floor above.\n\n4. **Access the Door**: Use the key or the lock to open the door. Make sure the door is locked so you can't enter without permission.\n\n5. **Enter the Room**: Once inside, you will find yourself at the table. You can sit down if you want to eat or drink something.\n\n6. **Access the Counter**: After sitting down, you can access the counter. There might be a drawer or a shelf behind the counter where you can put your food or drinks.\n\n7. **Enjoy Your Meal**: Now that you're seated, enjoy your meal!"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7474,7 +7474,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Go to the table:\n   - Start at the entrance of the building or room where you want to go.\n\n2. Look for a counter:\n   - In most buildings, there will be a counter near the entrance. This is usually located on one side of the table.\n\n3. Find the item you need:\n   - Once you have found the counter, look around it carefully to find what you are looking for. If you don't see anything specific, try searching in different areas of the table.\n\n4. Take the item:\n   - Once you've found the item you need, take it to the designated area on the counter.\n\n5. Enjoy your new item!\n\nThe answer is that you can go to the table and the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7512,7 +7512,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify what you want to throw away: In this case, it's a sprite.\n\n2. Determine how much of the sprite you need to throw away: Since we don't have any information about the size or weight of the sprite, we can assume that throwing away the entire sprite would be more than just a few pieces.\n\n3. Consider alternative disposal options: If possible, consider disposing of the sprite in an environmentally friendly manner, such as recycling it or donating it to someone else who needs it.\n\n4. Make a plan for disposal: Decide on a method for disposing of the sprite, whether it should be recycled, donated, or thrown away separately.\n\n5. Execute the plan: Once you've made a decision, follow through with the chosen disposal method and dispose of the sprite accordingly.\n\n6. Check if the sprite has been properly disposed of: After disposing of the sprite, check to ensure it has not been misplaced or damaged during the process.\n\n7. Learn from the experience: This exercise helps you understand the importance of proper disposal and the potential consequences of improperly handling items like sprites."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

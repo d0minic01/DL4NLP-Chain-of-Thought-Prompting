@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-tiiuae/Falcon3-1B-Instruct,saycan_numbered_step_cot,saycan,numbered_step_cot,fewshot_cot,saycan,0.0,0.0,219.4,7,100,16.57,11.13
+tiiuae/Falcon3-1B-Instruct,saycan_numbered_step_cot,saycan,numbered_step_cot,fewshot_cot,saycan,0.0,0.5152,332.8,7,100,16.22,11.13

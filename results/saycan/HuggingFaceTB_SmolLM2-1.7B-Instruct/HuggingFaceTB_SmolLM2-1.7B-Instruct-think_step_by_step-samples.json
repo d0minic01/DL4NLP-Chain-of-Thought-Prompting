@@ -3788,7 +3788,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the snacks on the table: Start by looking around the table and identifying all the snacks that are currently present. This could include chips, cookies, crackers, fruit, or any other type of snack.\n\n2. Check the availability of each snack: Next, check if each snack is available and if there are any that are not. This could be due to a lack of ingredients, a lack of storage space, or other factors.\n\n3. Determine the number of people: Consider how many people will be eating the snacks. This will help you decide how many snacks to bring.\n\n4. Choose the snacks: Based on the number of people and the availability of snacks, choose the snacks that you think will be the most appealing and satisfying for everyone.\n\n5. Prepare the snacks: Once you have decided on the snacks, prepare them according to the instructions on the packaging or your own preference.\n\n6. Place the snacks on the table: Finally, place the prepared snacks on the table in an appealing and accessible manner. This could be in a bowl, on a tray, or in a designated snack area.\n\nThe answer is all the snacks on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3826,7 +3826,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the table: First, locate the table where the drinks are placed. This could be a dining table, a coffee table, or any other table where drinks are being served.\n\n2. Check the table's surface: Before you start, ensure that the table's surface is clean and dry. This will help prevent any spills or messes.\n\n3. Retrieve the drinks: Now, carefully reach out to the table and pick up each drink. Be careful not to drop them or spill any of the contents.\n\n4. Place the drinks in a container: Once you have all the drinks, place them in a container or a box. This will help keep them organized and prevent any spills.\n\n5. Return to the original location: Finally, return the container to its original location, such as a cabinet or a shelf.\n\nThe answer is: I have successfully brought all the drinks on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3864,7 +3864,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Log into your account on the website or application.\n2. Navigate to the settings or administration section.\n3. Look for a section related to tables or databases.\n4. Find the table or database named \"close_counter\" and click on it.\n5. There should be an option to delete or clear the table. Click on it.\n6. Confirm your decision to delete the table.\n7. The close counter table should now be cleared.\n\nThe answer is: The close counter table has been cleared."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3902,7 +3902,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the type of salty food you want: Consider whether you prefer chips, pretzels, popcorn, or something else.\n2. Check if you have the necessary ingredients: Make sure you have the ingredients to make the chosen salty food.\n3. Prepare the ingredients: If you're making chips or pretzels, you'll need to wash and cut the potatoes or pretzels. If you're making popcorn, you'll need to heat the oil and add the popcorn kernels.\n4. Cook the food: Follow the instructions for cooking the food you've chosen. For chips, you'll need to heat the oil in a pan and add the cut potatoes. For pretzels, you'll need to shape the pretzels and bake them in the oven.\n5. Season the food: Once the food is cooked, season it with salt or your preferred seasoning.\n6. Serve: Serve the salty food immediately for the best taste.\n\nThe answer is a variety of salty foods, such as chips, pretzels, popcorn, or other snacks."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3940,7 +3940,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to locate a snack machine. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3978,7 +3978,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the type of spice you want: Consider what kind of spice you prefer in your food. Do you like chili peppers, cayenne pepper, or something else?\n\n2. Determine the quantity: Decide how much of the spice you need. If you're making a dish, you might need a small amount for a single serving, while a larger amount for a family meal.\n\n3. Choose a spice store: Look for a local spice store or online retailer that sells the type of spice you want. You can also check if your grocery store carries it.\n\n4. Purchase the spice: Once you've identified the spice you want, purchase it from the store. Make sure to buy the correct amount for your needs.\n\n5. Store the spice properly: Keep the spice in a cool, dry place away from direct sunlight. This will help preserve its flavor and freshness.\n\n6. Use the spice: When you're ready to cook, add the spice to your dish according to your recipe.\n\n7. Enjoy the flavor: The spice should add a nice kick to your food. Enjoy the flavor and the unique taste it brings to your dish.\n\nThe answer is a small amount of your preferred spice."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4016,7 +4016,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a spicy snack: Decide on the type of snack you want to have. This could be anything from a hot sauce, a spicy dip, or even a spicy snack food like chips or popcorn.\n\n2. Purchase the snack: Visit your local grocery store or supermarket and look for the spicy snack you've chosen. If you're at home, you can also make your own spicy snack.\n\n3. Prepare the snack: If you're making your own snack, follow the recipe or instructions carefully. If you're buying a pre-made snack, simply open the package and enjoy.\n\n4. Add the spice: If your snack is not spicy enough, add some extra spice. This could be in the form of hot sauce, chili powder, or any other spice you like.\n\n5. Enjoy: Take a bite of your spicy snack and enjoy the heat. Remember, the level of spice can vary, so you can always add more or less to your liking.\n\nThe answer is a spicy snack."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4054,7 +4054,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the restaurant: The restaurant you are looking for is a place that serves spicy food.\n2. Check the menu: Look at the menu of the restaurant to see if they have any spicy dishes.\n3. Choose a dish: If there are spicy dishes on the menu, choose one that you like.\n4. Order the dish: Tell the waiter or waitress that you would like to order the spicy dish.\n5. Pay for the food: After you have ordered, you will need to pay for the food.\n6. Enjoy your meal: Once you have paid, you can enjoy your spicy meal.\nThe answer is yes, you can get something to eat."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4092,7 +4092,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the task: The task is to bring a drink to the user.\n2. Determine the type of drink: Since the user is exhausted, a warm and comforting drink would be appropriate.\n3. Choose a suitable drink: A hot chocolate or a cup of coffee would be a good choice.\n4. Find a suitable location: The user should be in a place where they can easily access a cup or mug.\n5. Prepare the drink: Boil water, mix the hot chocolate or coffee with the water, and add any additional ingredients if desired.\n6. Pour the drink: Carefully pour the hot chocolate or coffee into the cup or mug.\n7. Serve the drink: Present the drink to the user and let them enjoy it.\n8. Clean up: Clean the cup or mug and any utensils used to prepare the drink.\n9. Confirm the task: The task of bringing a drink to the user has been completed.\nThe answer is: The task of bringing a drink to the user has been completed."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4130,7 +4130,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Determine your preferred beverage: Consider whether you prefer a cold drink, a hot drink, or a beverage that's both cold and hot.\n\n2. Choose a beverage: Based on your preference, select a beverage such as water, iced tea, lemonade, or a cold brew coffee.\n\n3. Add ice: If you're making a cold drink, add ice cubes to your chosen beverage.\n\n4. Add flavor: If you're making a hot drink, add your preferred sweetener and milk or cream. If you're making a cold drink, add your preferred sweetener and flavorings.\n\n5. Serve: Pour your beverage into a glass and serve immediately.\n\n6. Enjoy: Take a sip and enjoy your refreshing beverage.\n\nThe answer is a refreshing beverage."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4168,7 +4168,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Determine the type of drink you want: You can choose from coffee, tea, energy drinks, or any other caffeinated beverage.\n2. Check the caffeine content: Make sure the drink you choose has a sufficient amount of caffeine to provide the desired effect.\n3. Purchase the drink: Visit a store or order the drink online, depending on your preference.\n4. Prepare the drink: Follow the instructions on the packaging or the recipe if you're making it yourself.\n5. Consume the drink: Drink the caffeinated beverage while it's still fresh.\n6. Monitor your caffeine intake: Be aware of your body's response to caffeine and adjust your intake accordingly.\n7. Clean up: Dispose of any waste and clean the area where you prepared the drink.\n8. Enjoy your caffeinated beverage: Savor the taste and feel the effects of the caffeine.\nThe answer is a caffeinated beverage."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4206,7 +4206,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a coffee shop or caf\u00e9: Look for a place that serves coffee. You can check online reviews or ask for recommendations.\n\n2. Make a reservation: If you're planning to visit during a busy time, make a reservation in advance. This will ensure that you get a table.\n\n3. Arrive early: Arrive at the coffee shop a bit early to avoid long wait times.\n\n4. Order your drink: Once you're seated, order your caffeinated drink. You can ask for a variety of options such as a latte, cappuccino, or espresso.\n\n5. Pay: After you've ordered, pay for your drink. You can use cash or a credit card.\n\n6. Enjoy your drink: Once your drink is ready, take a moment to enjoy it. You can sit back, relax, and enjoy the atmosphere.\n\nThe answer is a caffeinated drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4244,7 +4244,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a coffee shop or caf\u00e9: Look for a place that serves coffee. You can check online reviews or ask for recommendations.\n\n2. Make a reservation: If you're planning to visit during a busy time, make a reservation in advance. This will ensure that you get a table.\n\n3. Arrive early: Arrive at the coffee shop a bit early to avoid long wait times.\n\n4. Order your drink: Once you're seated, order your caffeinated drink. You can ask for a variety of options such as a latte, cappuccino, or espresso.\n\n5. Pay: After you've ordered, pay for your drink. You can use cash or a credit card.\n\n6. Enjoy your drink: Once your drink is ready, take a moment to enjoy it. You can sit back, relax, and enjoy the atmosphere.\n\nThe answer is a caffeinated drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4282,7 +4282,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a coffee shop or caf\u00e9: Look for a place that serves coffee. You can check online reviews or ask for recommendations.\n\n2. Make a reservation: If you're planning to visit during a busy time, make a reservation in advance. This will ensure that you get a table.\n\n3. Arrive early: Arrive at the coffee shop a bit early to avoid long wait times.\n\n4. Order your drink: Once you're seated, order your caffeinated drink. You can ask for a variety of options such as a latte, cappuccino, or espresso.\n\n5. Pay: After you've ordered, pay for your drink. You can use cash or a credit card.\n\n6. Enjoy your drink: Once your drink is ready, take a moment to enjoy it. You can sit back, relax, and enjoy the atmosphere.\n\nThe answer is a caffeinated drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4320,7 +4320,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the type of soda you want: There are many types of sodas available, such as cola, root beer, ginger ale, and lemon-lime soda. Choose the one you prefer.\n\n2. Visit a store: Go to a local grocery store or a convenience store.\n\n3. Find the soda section: Look for the soda section in the store. It's usually located near the beverages.\n\n4. Select the non-caffeinated soda: Choose the soda that you want from the shelf. Make sure it's not a caffeinated soda.\n\n5. Pay for the soda: Pay for the soda using your preferred payment method.\n\n6. Take the soda home: Take the soda home and enjoy it.\n\nThe answer is: You can get a non-caffeinated soda by following these steps."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4358,7 +4358,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object: The object in question is not an apple.\n2. Determine the characteristics of the object: The object should not be edible, round, and typically red or green.\n3. Find a suitable object: A suitable object that does not fit the characteristics of an apple is a banana.\n4. Confirm the object: A banana is not an apple, and it meets the criteria of not being edible, round, and typically red or green.\n5. Provide the object: I will provide a banana as the object that is not an apple.\nThe answer is a banana."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4396,7 +4396,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the common characteristics of apples.\n2. Determine the characteristics of a fruit that is not an apple.\n3. Research and find a fruit that matches the characteristics of the fruit that is not an apple.\n4. Present the fruit that is not an apple.\n5. Confirm that the fruit is not an apple.\n6. Provide the answer.\n\nThe answer is a banana."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4434,7 +4434,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the available options: You have a variety of sodas to choose from, including but not limited to Pepsi, Sprite, 7-Up, and Dr Pepper.\n\n2. Determine the preference: You specifically want a soda that isn't a coke.\n\n3. Choose the soda: Since you have multiple options, you can select the one that best suits your taste. For example, if you prefer a non-cola soda, you might choose Pepsi or Sprite.\n\n4. Purchase the soda: Once you've selected your preferred soda, you can purchase it from a vending machine, a store, or any other place where soda is sold.\n\n5. Enjoy the soda: After purchasing the soda, you can enjoy it on its own or use it as a base for a refreshing drink, such as a soda float.\n\nThe answer is Pepsi or Sprite."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4472,7 +4472,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the available options: You have water and coke as the only non-alcoholic beverages.\n2. Determine the preference: You want a drink that is not water or coke.\n3. Choose a non-alcoholic beverage: Since you have water and coke as the only options, you can choose either one.\n4. Make the selection: You decide to choose coke as your non-alcoholic beverage.\n5. Prepare the drink: Pour the coke into a glass.\n6. Add a garnish (optional): If you want to add a garnish, you can use a slice of lemon or lime.\n7. Serve the drink: Present the coke with a garnish to your friend.\n8. Enjoy the drink: Take a sip of the coke and enjoy the refreshing taste.\n\nThe answer is coke."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4510,7 +4510,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to locate a place that sells clear sodas. This could be a grocery store, a restaurant, or a convenience store.\n\n2. Once you have found a place that sells clear sodas, you need to look for the clear soda options. This could be a variety of flavors like lemon-lime, orange, or cola.\n\n3. After selecting a clear soda, you need to purchase it. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4548,7 +4548,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the location of the rice chips on the counter.\n2. Check if the rice chips are still in their original packaging.\n3. If the rice chips are still in their original packaging, simply restock them by placing them back on the counter.\n4. If the rice chips are out of their original packaging, ensure that the new packaging is airtight and secure.\n5. Label the new packaging with the date and the quantity of rice chips to be restocked.\n6. Place the new packaging on the counter, making sure it is easily accessible.\n7. Remove the old packaging and dispose of it properly.\n8. Check the rice chips for any damage or expiration dates.\n9. If the rice chips are still in good condition, restock them.\n10. Repeat the process if the rice chips are running low.\n11. The answer is restocked."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4586,7 +4586,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the location of the red bull.\n2. Ensure the red bull is in a secure and safe location.\n3. Confirm the red bull is in the correct packaging.\n4. Prepare the red bull for delivery.\n5. Contact the close counter to inform them of the delivery.\n6. Provide the close counter with the red bull's location and any specific instructions.\n7. Deliver the red bull to the close counter.\n8. Confirm the delivery with the close counter.\n9. Ensure the close counter has received the red bull.\n10. Return to the location of the red bull to ensure it is secure and safe.\n11. Document the delivery and any issues that may have occurred.\n12. Follow up with the close counter if there are any issues with the delivery.\n13. Keep the red bull in a cool, dry place until it is consumed.\n14. Dispose of any packaging materials responsibly.\n15. The answer is successful delivery of the red bull to the close counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4662,7 +4662,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the coke can on your desk or table.\n2. Ensure the coke can is in a stable position, not falling over.\n3. Now, use your hand to lift the coke can up.\n4. Make sure to hold the coke can at a comfortable height, not too high or too low.\n5. Once the coke can is in a stable position, you can now hold it up.\n6. Remember to keep your grip firm but not too tight, as you want to be able to hold the coke can comfortably.\n7. Now, you can hold the coke can up for as long as you need to.\n8. When you're ready to set the coke can down, gently lower it to the table or desk.\n9. Make sure the coke can is stable and won't fall over.\n10. Finally, you can set the coke can down and continue with your work.\n\nThe answer is: You have successfully lifted and held the coke can up."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4700,7 +4700,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the coke can.\n2. Determine the location of the coke can.\n3. Open your hand to create a space for the coke can.\n4. Place the coke can in the open space of your hand.\n5. Close your hand around the coke can.\n6. Ensure the coke can is secure in your hand.\n7. Remove the coke can from the table or surface.\n8. Carry the coke can to your desired location.\n9. Open your hand to release the coke can.\n10. Enjoy your coke can.\n\nThe answer is secure."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4776,7 +4776,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the type of salty food you want: Consider whether you prefer chips, pretzels, popcorn, or something else.\n2. Check if you have the necessary ingredients: Make sure you have the ingredients to make the chosen salty food.\n3. Prepare the ingredients: If you're making chips or pretzels, you'll need to wash and cut the potatoes or pretzels. If you're making popcorn, you'll need to heat the oil and add the popcorn kernels.\n4. Cook the food: Follow the instructions for cooking the food you've chosen. For chips, you'll need to heat the oil in a pan and add the cut potatoes. For pretzels, you'll need to shape the pretzels and bake them in the oven.\n5. Season the food: Once the food is cooked, season it with salt or your preferred seasoning.\n6. Serve: Serve the salty food immediately for the best taste.\n\nThe answer is a variety of salty foods, such as chips, pretzels, popcorn, or other snacks."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4814,7 +4814,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to locate a snack machine. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4852,7 +4852,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the type of spice you want: Consider what kind of spice you prefer in your food. Do you like chili peppers, cayenne pepper, or something else?\n\n2. Determine the quantity: Decide how much of the spice you need. If you're making a dish, you might need a small amount for a single serving, while a larger amount for a family meal.\n\n3. Choose a spice store: Look for a local spice store or online retailer that sells the type of spice you want. You can also check if your grocery store carries it.\n\n4. Purchase the spice: Once you've identified the spice you want, purchase it from the store. Make sure to buy the correct amount for your needs.\n\n5. Store the spice properly: Keep the spice in a cool, dry place away from direct sunlight. This will help preserve its flavor and freshness.\n\n6. Use the spice: When you're ready to cook, add the spice to your dish according to your recipe.\n\n7. Enjoy the flavor: The spice should add a nice kick to your food. Enjoy the flavor and the unique taste it brings to your dish.\n\nThe answer is a small amount of your preferred spice."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4890,7 +4890,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a spicy snack: Decide on the type of snack you want to have. This could be anything from a hot sauce, a spicy dip, or even a spicy snack food like chips or popcorn.\n\n2. Purchase the snack: Visit your local grocery store or supermarket and look for the spicy snack you've chosen. If you're at home, you can also make your own spicy snack.\n\n3. Prepare the snack: If you're making your own snack, follow the recipe or instructions carefully. If you're buying a pre-made snack, simply open the package and enjoy.\n\n4. Add the spice: If your snack is not spicy enough, add some extra spice. This could be in the form of hot sauce, chili powder, or any other spice you like.\n\n5. Enjoy: Take a bite of your spicy snack and enjoy the heat. Remember, the level of spice can vary, so you can always add more or less to your liking.\n\nThe answer is a spicy snack."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4928,7 +4928,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the restaurant: The restaurant you are looking for is a place that serves spicy food.\n2. Check the menu: Look at the menu of the restaurant to see if they have any spicy dishes.\n3. Choose a dish: If there are spicy dishes on the menu, choose one that you like.\n4. Order the dish: Tell the waiter or waitress that you would like to order the spicy dish.\n5. Pay for the food: After you have ordered, you will need to pay for the food.\n6. Enjoy your meal: Once you have paid, you can enjoy your spicy meal.\nThe answer is yes, you can get something to eat."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4966,7 +4966,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the task: The task is to bring a drink to the user.\n2. Determine the type of drink: Since the user is exhausted, a warm and comforting drink would be appropriate.\n3. Choose a suitable drink: A hot chocolate or a cup of coffee would be a good choice.\n4. Find a suitable location: The user should be in a place where they can easily access a cup or mug.\n5. Prepare the drink: Boil water, mix the hot chocolate or coffee with the water, and add any desired toppings.\n6. Pour the drink: Carefully pour the hot chocolate or coffee into the cup or mug.\n7. Serve the drink: Present the drink to the user.\n8. Ask if they need help: If the user is unable to hold the cup or drink, ask if they need assistance.\n9. Provide additional assistance: If needed, assist the user in drinking the drink.\n10. Thank the user: Express gratitude for the user's request and the opportunity to help.\n\nThe answer is a warm and comforting drink, such as hot chocolate or coffee, served in a cup or mug."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5004,7 +5004,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Determine your preferred beverage: Consider whether you prefer a cold drink, a hot drink, or a beverage that's both cold and hot.\n\n2. Choose a beverage: Based on your preference, select a beverage such as water, iced tea, lemonade, or a cold brew coffee.\n\n3. Add ice: If you're making a cold drink, add ice cubes to your chosen beverage.\n\n4. Add flavor: If you're making a hot drink, add your preferred sweetener and milk or cream. If you're making a cold drink, add your preferred sweetener and flavorings.\n\n5. Serve: Pour your beverage into a glass and serve immediately.\n\n6. Enjoy: Take a sip and enjoy your refreshing beverage.\n\nThe answer is a refreshing beverage."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5042,7 +5042,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Determine the type of drink you want: You can choose from coffee, tea, energy drinks, or any other caffeinated beverage.\n2. Check the caffeine content: Make sure the drink you choose has a sufficient amount of caffeine to provide the desired effect.\n3. Purchase the drink: Visit a store or order the drink online, depending on your preference.\n4. Prepare the drink: Follow the instructions on the packaging or the recipe if you're making it yourself.\n5. Consume the drink: Drink the caffeinated beverage while it's still fresh.\n6. Monitor your caffeine intake: Be aware of your body's response to caffeine and adjust your intake accordingly.\n7. Clean up: Dispose of any waste and clean the area where you prepared the drink.\n8. Enjoy your caffeinated beverage: Savor the taste and feel the effects of the caffeine.\nThe answer is a caffeinated beverage."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5080,7 +5080,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Choose a coffee shop or caf\u00e9: Look for a place that serves coffee. You can check online reviews or ask for recommendations.\n\n2. Make a reservation: If you're planning to visit during a busy time, make a reservation in advance. This will ensure that you get a table.\n\n3. Arrive early: Arrive at the coffee shop a bit early to avoid long wait times.\n\n4. Order your drink: Once you're seated, order your caffeinated drink. You can ask for a variety of options such as a latte, cappuccino, or espresso.\n\n5. Pay: After you've ordered, pay for your drink. You can use cash or a credit card.\n\n6. Enjoy your drink: Once your drink is ready, take a moment to enjoy it. You can sit back, relax, and enjoy the atmosphere.\n\nThe answer is a caffeinated drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5118,7 +5118,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the type of soda you want: There are many types of sodas available, such as cola, root beer, ginger ale, and lemon-lime soda. Choose the one you prefer.\n\n2. Visit a store: Go to a local grocery store or a convenience store.\n\n3. Find the soda section: Look for the soda section in the store. It's usually located near the beverages.\n\n4. Select the non-caffeinated soda: Choose the soda that you want from the shelf. Make sure it's not a caffeinated soda.\n\n5. Pay for the soda: Pay for the soda using your preferred payment method.\n\n6. Take the soda home: Take the soda home and enjoy it.\n\nThe answer is: You can get a non-caffeinated soda by following these steps."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5194,7 +5194,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object: The object in question is not an apple.\n2. Determine the characteristics of the object: The object should not be edible, round, and typically red or green.\n3. Find a suitable object: A suitable object that does not fit the characteristics of an apple is a banana.\n4. Confirm the object: A banana is not an apple, and it meets the criteria of not being edible, round, and typically red or green.\n5. Provide the object: I will provide a banana as the object that is not an apple.\nThe answer is a banana."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5232,7 +5232,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the common characteristics of apples.\n2. Determine the characteristics of a fruit that is not an apple.\n3. Research and find a fruit that matches the characteristics of the fruit that is not an apple.\n4. Present the fruit that is not an apple.\n5. Confirm that the fruit is not an apple.\n6. Provide the answer.\n\nThe answer is a banana."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5270,7 +5270,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the available options: You have a variety of sodas to choose from, including but not limited to Pepsi, Sprite, 7-Up, and Dr Pepper.\n\n2. Determine the preference: You specifically want a soda that isn't a coke.\n\n3. Choose the soda: Since you have multiple options, you can select the one that best suits your taste. For example, if you prefer a non-cola soda, you might choose Pepsi or Sprite.\n\n4. Purchase the soda: Once you've selected your preferred soda, you can purchase it from a vending machine, a store, or any other place where soda is sold.\n\n5. Enjoy the soda: After purchasing the soda, you can enjoy it on its own or use it as a base for a refreshing drink, such as a soda float.\n\nThe answer is Pepsi or Sprite."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5308,7 +5308,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the available options: You have water and coke as the only non-alcoholic beverages.\n2. Determine the preference: You want a drink that is not water or coke.\n3. Choose a non-alcoholic beverage: Since you have water and coke as the only options, you can choose either one.\n4. Make the selection: You decide to choose coke as your non-alcoholic beverage.\n5. Prepare the drink: Pour the coke into a glass.\n6. Add a garnish (optional): If you want to add a garnish, you can use a slice of lemon or lime.\n7. Serve the drink: Present the coke with a garnish to your friend.\n8. Enjoy the drink: Take a sip of the coke and enjoy the refreshing taste.\n\nThe answer is coke."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5346,7 +5346,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to locate a place that sells clear sodas. This could be a grocery store, a restaurant, or a convenience store.\n\n2. Once you have found a place that sells clear sodas, you need to look for the clear soda options. This could be a variety of flavors like lemon-lime, orange, or cola.\n\n3. After selecting a clear soda, you need to purchase it. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5422,7 +5422,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the items on the table: The items on the table are a glass of water, a plate of cookies, a bowl of cereal, a can of soda, and a book.\n\n2. Determine the purpose of each item: The glass of water is for drinking, the plate of cookies is for eating, the bowl of cereal is for breakfast, the can of soda is for drinking, and the book is for reading.\n\n3. Prioritize the items based on their importance: The glass of water and the book are the most important items as they are essential for immediate consumption and personal enjoyment.\n\n4. Arrange the items in a logical order: The glass of water should be placed first, followed by the book. The bowl of cereal and the can of soda can be placed next to the glass of water.\n\n5. Execute the steps: Place the glass of water on the table, followed by the book. Then, place the bowl of cereal and the can of soda next to the glass of water.\n\n6. Review the arrangement: The arrangement of the items on the table is now complete. The glass of water and the book are at the top, followed by the bowl of cereal and the can of soda.\n\nThe answer is:"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5460,7 +5460,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the necessary items for the drink and snack: For a drink, you might need a bottle of water, a can of soda, or a juice. For a snack, you might need chips, cookies, or a sandwich.\n\n2. Check the availability of the items: Make sure you have the necessary items at home or in your pantry.\n\n3. Prepare the drink: If you're making a drink, pour the water or juice into a glass. If you're making a soda, open the bottle and pour the soda into a glass.\n\n4. Prepare the snack: If you're making a snack, cut the sandwich into halves or quarters. If you're making chips, lay them out on a plate.\n\n5. Serve the drink and snack: Place the drink and snack in front of you.\n\n6. Enjoy your meal: Take a moment to appreciate your meal and enjoy the taste.\n\n7. Clean up: After finishing your meal, clean the glass and plate to maintain a clean environment.\n\nThe answer is a drink and a snack."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5498,7 +5498,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. You are allergic to apples.\n2. Apples are a type of fruit.\n3. Fruits are a group of sweet, fleshy, and edible, usually juicy, plant products.\n4. Since you are allergic to apples, you cannot eat apples.\n5. Therefore, you cannot get a fruit that is an apple.\n6. However, you can get other types of fruits like bananas, oranges, grapes, etc.\n7. The answer is no, you cannot get a fruit that is an apple."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5536,7 +5536,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the available options: You have a variety of sodas to choose from, including but not limited to Pepsi, Sprite, 7-Up, and Dr Pepper.\n\n2. Determine the criteria: You want a soda that is not a coke.\n\n3. Evaluate the options: Pepsi, Sprite, and Dr Pepper are all non-coke sodas.\n\n4. Choose the best option: Since you have multiple non-coke options, you can choose any of them.\n\n5. Confirm the answer: The answer is Pepsi, Sprite, or Dr Pepper."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Start by turning on the faucet in your kitchen sink.\n2. Turn on the cold water tap and let the water run for a few seconds to clear any debris.\n3. Turn on the hot water tap and let the water run for a few seconds to clear any debris.\n4. Now, fill a glass with cold water from the faucet.\n5. Next, fill a second glass with hot water from the faucet.\n6. Finally, fill a third glass with a mix of cold and hot water from the faucet.\n7. The answer is three different drinks."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the coke can. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the coke can. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5726,7 +5726,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the apple. It should be within reach, preferably on a table or countertop.\n2. Next, pick up the apple using your dominant hand. Make sure to hold it securely to avoid any accidental drops.\n3. Now, find a suitable disposal area. This could be a trash can, recycling bin, or a compost bin, depending on your preference.\n4. Open the disposal area by lifting the lid or removing any other necessary barriers.\n5. Carefully place the apple inside the disposal area. Try to avoid any splashing or spills.\n6. Close the disposal area by closing the lid or reattaching any barriers.\n7. Finally, dispose of the apple responsibly. If it's organic, consider composting it. If it's not, dispose of it in the trash or recycling bin.\n\nThe answer is disposed of responsibly."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5764,7 +5764,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I would need to locate a sprite. Sprites are small, magical creatures that can be found in various fantasy settings. They are often depicted as small, humanoid figures with wings or other magical features.\n\n2. Once I have located a sprite, I would need to communicate with it. Sprites are known for their mischievous nature, so I would need to be careful and respectful in my approach. I might use a magical crystal or a spell to help me communicate with the sprite.\n\n3. After communicating with the sprite, I would need to ask it to bring me a sprite. Sprites are known for their magical abilities, so I would need to specify what I want them to bring. In this case, I would ask the sprite to bring me a sprite.\n\n4. The sprite would then need to transport the sprite to me. Sprites are known for their ability to travel through the air, so they would likely use their magical powers to transport the sprite to me.\n\n5. Once the sprite has arrived, I would need to thank it for its help. Sprites are known for their loyalty and kindness, so I would need to express my gratitude to the sprite for"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5802,7 +5802,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the banana in your fruit bowl or on the counter.\n2. Next, pick up the banana with your fingers, ensuring not to squeeze it too hard to avoid bruising.\n3. Hold the banana firmly but gently, with the stem end facing downwards.\n4. Carefully place the banana on the counter, ensuring it is stable and won't roll off.\n5. Once the banana is on the counter, you can now place any other items you need to store or prepare nearby.\n6. The banana is now safely stored on the counter, ready for use.\nThe answer is the banana is now safely stored on the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the banana. It should be in the fruit bowl or on the counter.\n2. Next, pick up the banana using your fingers or a spoon.\n3. Hold the banana firmly but gently to avoid dropping it.\n4. Move the banana towards the table.\n5. Place the banana on the table, ensuring it is stable and won't roll away.\n6. Once the banana is on the table, you can set it down.\n7. The banana is now on the table.\n\nThe answer is the banana is now on the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5878,7 +5878,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the open can. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5916,7 +5916,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. You are at a coffee shop.\n2. You have a redbull can in front of you.\n3. You are ready to drink your redbull.\n4. You open the can by unscrewing the cap.\n5. You pour the redbull into a glass.\n6. You add ice cubes to your glass.\n7. You take a sip of your redbull.\n8. You enjoy your redbull.\n9. You thank the barista for the drink.\n10. You leave the coffee shop.\n11. You are satisfied with your redbull.\n12. The answer is yes."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5954,7 +5954,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I would need to locate a fruit that you would like to have brought. This could be a specific type of fruit, such as an apple, banana, or orange, or a general type of fruit, such as a mixed fruit basket.\n\n2. Once I have identified the fruit you would like, I would need to go to a grocery store or a market where the fruit is available.\n\n3. I would then select the fruit and place it in a bag or container.\n\n4. Next, I would take the fruit to a checkout counter and pay for it.\n\n5. After paying for the fruit, I would take it home and store it in a cool, dry place to keep it fresh.\n\n6. Finally, I would bring the fruit to you, whether it's a single piece or a basket of fruit, and present it to you.\n\nThe answer is a fruit basket."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Stand up from your chair and walk to the table.\n2. Open the bag of chips by grasping the top of the bag and pulling it apart.\n3. Carefully pour the chips into the bag or a bowl, ensuring not to spill any.\n4. Set the bag of chips on the table.\n5. Remove the cap from the water bottle by unscrewing it.\n6. Hold the water bottle by the neck and pour the water into a glass or a cup.\n7. Place the glass or cup on the table next to the bag of chips.\n8. Sit back down in your chair.\nThe answer is: 1. Stand up from your chair and walk to the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, ensure that you are in a safe and clear area to move the chips bag without any obstacles.\n2. Next, pick up the chips bag using both hands, making sure to grasp it firmly to avoid any accidental drops.\n3. Carefully walk towards the counter, keeping a steady pace to avoid any sudden movements that could cause the bag to fall.\n4. Once you reach the counter, place the bag down on the surface, ensuring it is stable and won't roll away.\n5. Now, you can open the bag and retrieve the chips as needed.\n6. Finally, close the bag and place it back on the table, making sure it is secure and won't get lost.\n\nThe answer is safe and efficient movement of the chips bag from the table to the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the kitchen in your home. This is usually a room with appliances such as a refrigerator, stove, and sink.\n\n2. Once you have identified the kitchen, open the door to enter. \n\n3. Inside the kitchen, you will find various appliances and countertops. Look for the countertops, which are typically made of materials like wood, granite, or Formica.\n\n4. Find the table on the countertops. It is usually a flat surface with legs or supports.\n\n5. Approach the table and examine it for any items that you need to retrieve.\n\n6. If you need to retrieve an item from the table, carefully pick it up using both hands.\n\n7. If the item is on the edge of the table, use your fingers to gently pull it towards you.\n\n8. If the item is on the surface of the table, use your fingers to carefully lift it up.\n\n9. Once you have retrieved the item, place it in a safe location, such as a nearby drawer or on a nearby surface.\n\n10. Repeat these steps until you have visited the counter and the table in the kitchen.\n\nThe answer is: You would visit the counter and the table in the kitchen by"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the drawer where the chips are stored. The drawer is typically found in the kitchen, usually near the countertops or in a cabinet.\n\n2. Open the drawer by grasping the handle and pulling it towards you. Be careful not to push too hard, as you don't want to damage the drawer or its contents.\n\n3. Once the drawer is open, scan the contents to find the chips. They are usually stored in a container or bag, often in a designated chip drawer or on a shelf.\n\n4. If the chips are in a container, carefully remove the lid or open the bag. Be mindful of any sharp edges or points.\n\n5. If the chips are in a bag, gently tear or cut the bag open to release the chips. Be careful not to spill the chips.\n\n6. Once the chips are out, place them in a bowl or on a plate. You can also store them in a resealable bag for later use.\n\n7. The chips are now ready to be enjoyed.\n\nThe answer is: Bring the chips from the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the coke can on the table or any other flat surface.\n2. Open your hand, keeping your fingers spread apart.\n3. Place your thumb on the top of the coke can, ensuring it is centered.\n4. With your index finger, gently press down on the can, keeping it in place.\n5. Use your middle and ring fingers to guide the can into your hand, ensuring it is secure.\n6. Once the can is in your hand, close your fingers around it, making sure it is fully enclosed.\n7. Your hand should now be fully enclosed, with the coke can securely in your grip.\n8. The coke can is now ready to be transported or used.\nThe answer is secure."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the coke can: The first step is to locate the coke can that you want to lift. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6334,7 +6334,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Stand up from your current position.\n2. Take a few steps back to create some distance between you and the table.\n3. Bend your knees slightly to prepare for the movement.\n4. Extend your right arm in front of you, keeping it straight.\n5. Bend your elbow and bring your right hand towards the table.\n6. Open your hand and place it on the table.\n7. Straighten your arm and stand up from the table.\n8. Take a moment to adjust your position and ensure you are comfortable.\n9. Stand up from the table and walk away.\n\nThe answer is 9."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the table. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Position yourself at the table: Before you start parking, ensure you are in a safe and comfortable position at the table. This means being close to the table but not obstructing any other players or the bar.\n\n2. Choose a parking spot: Look for a parking spot that is close to the table and has enough space for you to comfortably park your chair. Avoid parking spots that are too far away or too close to other players.\n\n3. Position your chair: Place your chair in the parking spot, ensuring that it is parallel to the table and not angled. This will help you to easily access the table and maintain a comfortable position.\n\n4. Adjust your chair: Adjust your chair to a comfortable height. You should be able to easily reach the table and the bar without straining your back or neck.\n\n5. Secure your chair: Make sure your chair is securely fastened to the table. This will prevent it from tipping over and will also help to maintain your position at the table.\n\n6. Position your drink: Place your drink on the table, preferably in a spot that is easily accessible. This will help you to stay hydrated and avoid having to stand up to get your drink.\n\n7. Adjust your position: Finally, adjust your position"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the drawer where you keep your apples. The drawer is typically found in a kitchen or pantry.\n\n2. Open the drawer by grasping the handle and pulling it towards you. Be careful not to break the drawer or damage any of the items inside.\n\n3. Once the drawer is open, scan the contents to find an apple. It's usually stored in a container or on a shelf.\n\n4. Carefully remove the apple from the container or shelf. If it's stored in a plastic bag, gently remove it from the bag.\n\n5. Hold the apple in one hand and use your other hand to bring it towards you.\n\n6. Bring the apple towards you by moving your hand towards the apple. Keep your fingers spread wide to avoid dropping the apple.\n\n7. Once the apple is close enough, use your thumb to gently grasp the apple and bring it into your hand.\n\n8. Place the apple in your hand and hold it securely.\n\n9. Now, you have successfully brought an apple from the drawer.\n\nThe answer is: Bring the apple from the drawer by locating it, opening the drawer, finding the apple, removing it, bringing it towards you, and holding it securely."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the location: The first step in throwing a Coke can away is to identify the location where you can dispose of it properly. This could be a recycling bin, a trash can, or a recycling center.\n\n2. Check the recycling rules: Before throwing the can away, check if it is recyclable in your area. Some cities have specific rules about what materials can be recycled.\n\n3. Rinse the can: If the can is not recyclable, rinse it out with water to remove any food residue. This helps prevent contamination of the recycling process.\n\n4. Place the can in the recycling bin: If the can is recyclable, place it in the designated recycling bin. Make sure to flatten the can if possible to save space.\n\n5. If not recyclable: If the can is not recyclable, place it in the trash can.\n\n6. Dispose of the trash: Once the can is in the trash can, dispose of it properly by throwing it away.\n\n7. Clean up: After disposing of the can, clean up the area where you were disposing of the can to prevent any mess or contamination.\n\nThe answer is to properly dispose of the can in a recycling bin if it is recyclable, or in a trash can if it is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6524,7 +6524,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the coke can: Look around the area and locate the coke can.\n2. Pick up the coke can: Carefully grasp the coke can with your hand, ensuring you have a secure grip.\n3. Place the coke can in a recycling bin: Take the coke can to a recycling bin, making sure it is properly disposed of.\n4. Wash your hands: After handling the coke can, wash your hands with soap and water to prevent any potential contamination.\n5. The answer is: The coke can has been properly disposed of and your hands are clean."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6562,7 +6562,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object: The object in question is the coke can.\n2. Determine the location: The coke can is currently located on the kitchen counter.\n3. Assess the situation: The coke can is open and the drink inside is not consumed.\n4. Plan the action: The action to be taken is to grab the coke can.\n5. Execute the action: The coke can is now in the user's possession.\n6. Think step by step: The user has successfully grabbed the coke can.\nThe answer is: The user has successfully grabbed the coke can."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6600,7 +6600,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object: The object in question is the apple.\n2. Determine the action: The action is to throw away the apple.\n3. Consider the context: The context is that the apple is no longer fresh or edible.\n4. Assess the consequences: If the apple is thrown away, it will not cause any harm or damage.\n5. Choose the appropriate method: In this case, the most appropriate method is to throw the apple away in a trash bin.\n6. Execute the action: The apple is thrown away in a trash bin.\n7. Evaluate the outcome: The outcome is that the apple is no longer in use and is being properly disposed of.\n8. Reflect on the decision: The decision to throw away the apple was made because it was no longer fresh or edible.\n9. Consider alternative options: If the apple was still fresh and edible, it could have been eaten or used in a recipe.\n10. Final answer: The answer is to throw away the apple."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6638,7 +6638,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the ingredients needed for the sprite: You will need vodka, lemon-lime soda, and a splash of grenadine.\n2. Measure out the ingredients: Use 1.5 ounces of vodka, 4 ounces of lemon-lime soda, and a splash of grenadine.\n3. Pour the ingredients into a shaker: Add the vodka, lemon-lime soda, and a splash of grenadine into a shaker.\n4. Add ice: Fill the shaker with ice cubes to chill the mixture.\n5. Shake the mixture: Shake the shaker vigorously for about 15-20 seconds to combine the ingredients and chill the mixture.\n6. Strain the mixture: Strain the mixture into a glass filled with ice.\n7. Serve: Garnish the sprite with a lemon wheel or a cherry, and serve immediately.\nThe answer is a sprite."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6676,7 +6676,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the items needed: In this case, we need a banana.\n2. Find a suitable location: The counter is a good place to place the banana.\n3. Pick up the banana: Carefully pick up the banana from its storage place.\n4. Place the banana on the counter: Gently place the banana on the counter.\n5. Check the banana: Make sure the banana is securely placed on the counter.\n6. Repeat if necessary: If there are more bananas to be placed, repeat the process.\n7. Clean the counter: After placing all the bananas, clean the counter to ensure it is hygienic.\n8. Store the counter: Store the counter in a clean and dry place.\n9. Check the counter: After a while, check the counter to ensure the bananas are still there.\n10. Clean the counter: If the counter is dirty, clean it again.\n11. Repeat the process: If there are more bananas to be placed, repeat the process.\n12. Store the counter: Store the counter in a clean and dry place.\n13. Check the counter: After a while, check the counter to ensure the bananas are still there.\n14. Clean the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6752,7 +6752,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the open can: The open can is the item you need to retrieve.\n2. Determine the location: The open can is likely in the kitchen or pantry.\n3. Check the kitchen: Look for the kitchen area in your home.\n4. Search for the open can: Open the cabinets or drawers in the kitchen to find the open can.\n5. Retrieve the open can: Once you find the open can, carefully take it out of the cabinet or drawer.\n6. Return to the original location: Bring the open can back to the original location, which is the room where you opened the sprite earlier.\n7. Place the open can: Set the open can down in the room where you opened the sprite earlier.\n8. Verify the open can: Check if the open can is indeed in the room where you opened the sprite earlier.\n9. Confirm the open can is the correct item: If the open can is in the correct location, you have successfully retrieved the open can.\n10. The answer is the open can."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6790,7 +6790,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. You are at a restaurant and you want to order a Red Bull.\n2. You need to find the menu.\n3. Look for the section that lists the beverages.\n4. Find the Red Bull option on the menu.\n5. Check the price of the Red Bull.\n6. Decide if you want to order the Red Bull.\n7. If you decide to order, proceed to the payment section.\n8. Pay for your order.\n9. Wait for your order to be prepared.\n10. Once your order is ready, take it to the counter.\n11. The server will bring your order to you.\n12. Take your Red Bull and enjoy it.\n13. If you need any more information or assistance, ask the server.\n14. The answer is yes, you can order a Red Bull at a restaurant."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6828,7 +6828,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the available fruits in the house or nearby area.\n2. Choose a fruit that is fresh and ripe.\n3. Wash the fruit thoroughly to remove any dirt or bacteria.\n4. Cut the fruit into slices or pieces, depending on your preference.\n5. Serve the fruit immediately or store it in the refrigerator for later use.\nThe answer is a fresh, ripe fruit."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6866,7 +6866,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the items needed: A bag of chips and a water bottle.\n2. Determine the location: The table.\n3. Prepare the table: Clear any items from the table to ensure it is clean and ready for use.\n4. Place the bag of chips: Position the bag of chips in a convenient location on the table.\n5. Place the water bottle: Position the water bottle in a similar location on the table.\n6. Ensure the items are secure: Check that the bag of chips and water bottle are not going to fall off the table.\n7. Confirm the items are in place: Double-check that the bag of chips and water bottle are on the table.\n8. Final check: Ensure that the table is clean and the items are secure before leaving the area.\nThe answer is the table is now ready with the bag of chips and water bottle."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6980,7 +6980,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Begin by walking towards the kitchen counter.\n2. Observe the countertops, noting any appliances, utensils, or storage containers.\n3. Check the cabinets and drawers for any items that may be stored there.\n4. Examine the sink and faucet for any signs of wear or damage.\n5. Walk towards the table in the kitchen.\n6. Observe the tabletop, noting any scratches, dents, or stains.\n7. Check the drawers and cabinets for any items that may be stored there.\n8. Examine the appliances, such as the refrigerator, stove, or microwave, for any signs of wear or damage.\n9. Walk towards the pantry or storage area to check for any items that may be stored there.\n10. Finally, check the kitchen island or any other surfaces for any signs of wear or damage.\n\nThe answer is complete kitchen inspection."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7094,7 +7094,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the coke can.\n2. Determine the location of the coke can.\n3. Open your hand to create a space for the coke can.\n4. Place the coke can in the open space of your hand.\n5. Close your hand around the coke can.\n6. Ensure the coke can is secure in your hand.\n7. Remove the coke can from the table or surface.\n8. Carry the coke can to your desired location.\n9. Open your hand to release the coke can.\n10. Enjoy your coke can.\n\nThe answer is secure."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7132,7 +7132,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the coke can: The first step is to locate the coke can that needs to be lifted. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7208,7 +7208,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Find a table: Look around your home or office for a table that is suitable for you. Consider the size, material, and comfort of the table.\n\n2. Clear the table: Make sure the table is clear of any clutter or items you don't need. This will help you focus on your work or activity.\n\n3. Set up your workspace: Arrange your items on the table, such as your laptop, books, or other necessary tools. Make sure everything is within easy reach.\n\n4. Use the table: Now that your workspace is set up, you can start working on your project or activity.\n\n5. Clean up: When you're finished, clean up your table by putting away any items you used and wiping down the surface to keep it clean and organized."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7246,7 +7246,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the web browser on your device.\n2. In the address bar, type in the URL of the website where the table is located.\n3. Press the \"Enter\" key to load the webpage.\n4. Once the webpage is loaded, locate the table on the page.\n5. Click on the table to select it.\n6. Look for a \"Edit\" or \"Edit table\" option in the context menu.\n7. Click on the \"Edit table\" option.\n8. You will now be able to edit the table by adding, deleting, or modifying rows and columns.\n9. Once you have made your changes, click \"Save\" to save the changes.\n10. The table should now be updated according to your specifications.\n\nThe answer is: You have successfully navigated to the table and made changes to it."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7360,7 +7360,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object: The object in question is the coke can.\n2. Determine the location: The coke can is currently in your hand.\n3. Decide on the action: The action to be taken is to throw the coke can away.\n4. Choose a suitable location: The location to throw the coke can away is outside, preferably in a trash can.\n5. Ensure safety: Before throwing the coke can, ensure that there are no people or pets in the vicinity.\n6. Perform the action: Hold the coke can in your hand and throw it away in the chosen location.\n7. Verify the action: After throwing the coke can away, check that it has landed in the trash can and that there are no signs of damage or harm.\nThe answer is: Throw the coke can away."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, locate the coke can and the trash can. Ensure the coke can is not in a hazardous or fragile location.\n2. Next, pick up the coke can using both hands, making sure to grasp it securely to avoid any accidental drops.\n3. Carefully move the coke can towards the trash can. Be mindful of any obstacles or other objects that might interfere with the movement.\n4. Once the coke can is close to the trash can, gently place it inside the trash can. Make sure it is fully inside and not jutting out.\n5. Finally, close the trash can's lid to ensure the coke can is properly contained and the trash is secure.\n\nThe answer is: You have successfully moved the coke can to the trash can."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Stand up from your seat.\n2. Take a few steps forward to get closer to the table.\n3. Bend your knees slightly to prepare for a gentle descent.\n4. Place your hands on the edge of the table to steady yourself.\n5. Lower your body by bending your knees and hips, keeping your back straight.\n6. Once you're close enough, place your hands on the table and push up to stand.\n7. Take a few steps forward to reach the counter.\n8. Bend your knees slightly to prepare for a gentle descent.\n9. Place your hands on the edge of the counter to steady yourself.\n10. Lower your body by bending your knees and hips, keeping your back straight.\n11. Once you're close enough, place your hands on the counter and push up to stand.\n12. Take a few steps forward to reach the table.\n13. Bend your knees slightly to prepare for a gentle descent.\n14. Place your hands on the edge of the table to steady yourself.\n15. Lower your body by bending your knees and hips, keeping your back straight.\n16. Once you're close enough, place your hands on the"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7512,7 +7512,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the object: The object in question is the sprite.\n2. Determine the action: The action is to throw away the sprite.\n3. Consider the context: The context is a hypothetical situation where you are in a room and you have a sprite.\n4. Evaluate the consequences: If you throw away the sprite, it will no longer be in the room.\n5. Consider the impact: The impact of throwing away the sprite would be that it is no longer in the room, which could potentially affect the room's environment or the people in it.\n6. Assess the moral implications: Throwing away the sprite could be seen as wasteful or irresponsible, depending on the context and the person's perspective.\n7. Consider alternative actions: Instead of throwing away the sprite, you could consider donating it to a charity, giving it to someone who might appreciate it, or finding a way to reuse it.\n8. Make a decision: Based on the information provided, the most appropriate action would be to find a way to reuse or donate the sprite.\n9. Reflect on the decision: It is important to consider the potential consequences of your actions and to think about how they might affect others."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

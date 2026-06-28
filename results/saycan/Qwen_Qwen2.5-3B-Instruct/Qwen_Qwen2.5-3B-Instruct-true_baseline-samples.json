@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A classic Margarita - made with tequila, lime juice, and triple sec, served over ice.\n2. A refreshing Iced Tea - you can choose between black tea, green tea, or herbal tea, sweetened with sugar or honey, and flavored with lemon or mint.\n3. A smooth and creamy Chocolate Milkshake - blended with milk and a rich chocolate syrup, topped with whipped cream if desired.\n\nThe answer is <the three drink suggestions provided>."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Physical Room**: Look for a piece of furniture that has a flat surface and is typically used for writing, eating, or displaying items. Tables come in various sizes and shapes.\n\n2. **Online**: If you're looking for a table online, use search engines like Google to look up \"table\" along with specific details like size, material, or purpose (e.g., \"wooden dining table\").\n\n3. **Document or Database**: To find a table in a document or database, look for sections labeled \"Table,\" \"Data Table,\" or \"Table of Contents.\" You might also need to use filters or search functions if the table is part of a larger dataset.\n\nThe answer is <the method depends on the context>."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

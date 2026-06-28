@@ -4092,7 +4092,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to know what kind of drink you are looking for.\n2. Then, I need to know how much you are tired.\n3. Finally, I need to know if you are in a hurry or not.\n\nThe answer is: A cold drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4358,7 +4358,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Think about the different types of fruits.\n2. Think about the different types of vegetables.\n3. Think about the different types of nuts.\n4. Think about the different types of grains.\n5. Think about the different types of seeds.\n6. Think about the different types of fruits and vegetables.\n7. Think about the different types of nuts and seeds.\n8. Think about the different types of grains and seeds.\n9. Think about the different types of fruits and vegetables and nuts and seeds.\n10. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n11. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n12. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n13. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n14. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n15. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n16. Think about the different"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4472,7 +4472,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Think about the types of drinks that are commonly associated with water and coke.\n2. Consider the ingredients and flavors of each drink.\n3. Choose a drink that has a unique or unexpected ingredient.\n4. Think about the taste and texture of the drink.\n5. Choose a drink that is not a common pairing with water or coke.\n\nThe answer is a \"Sparkling Water\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4510,7 +4510,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find a clear soda.\n2. Next, you need to find a clear glass.\n3. Now, you need to pour the clear soda into the glass.\n4. Finally, you need to add a clear glass of water to the glass.\n\nThe answer is: 1. Find a clear soda. 2. Find a clear glass. 3. Pour the clear soda into the glass. 4. Add a clear glass of water to the glass."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4586,7 +4586,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to find the red bull.\n2. Next, I need to go to the close counter.\n3. Once I arrive at the close counter, I need to ask the person there for the red bull.\n4. After asking, I need to wait for the person to give me the red bull.\n5. Once I receive the red bull, I need to take it to the customer service desk.\n6. After taking the red bull to the customer service desk, I need to wait for the customer service desk to process the red bull.\n7. Once the customer service desk processes the red bull, I need to give the red bull to the customer service desk.\n8. Finally, I need to thank the customer service desk for the red bull."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4624,7 +4624,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, turn on the oven to 400 degrees Fahrenheit.\n2. While the oven is preheating, take out the jalapeno chips from the counter and place them on a paper towel-lined plate.\n3. Place the paper towel on the counter and let it sit for about 10 minutes.\n4. After the paper towel has sat for 10 minutes, turn the oven on to 400 degrees Fahrenheit and let it preheat for about 10 minutes.\n5. Once the oven is preheated, remove the paper towel from the counter and place the jalapeno chips back on the plate.\n6. Place the plate with the jalapeno chips back on the counter and let it sit for about 10 minutes.\n7. After the 10 minutes have passed, turn the oven off and let the chips cool for about 10 minutes.\n8. Once the chips have cooled, place them on a paper towel-lined plate and let them air dry for about 10 minutes.\n9. Once the chips have dried, you can use them as you normally would."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4966,7 +4966,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to know what kind of drink you are looking for.\n2. Next, I need to know how much you are tired.\n3. Finally, I need to know if you are in a hurry or not.\n\nThe answer is: A cold drink."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5194,7 +5194,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Think about the different types of fruits.\n2. Think about the different types of vegetables.\n3. Think about the different types of nuts.\n4. Think about the different types of grains.\n5. Think about the different types of seeds.\n6. Think about the different types of fruits and vegetables.\n7. Think about the different types of nuts and seeds.\n8. Think about the different types of grains and seeds.\n9. Think about the different types of fruits and vegetables and nuts and seeds.\n10. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n11. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n12. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n13. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n14. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n15. Think about the different types of fruits and vegetables, nuts and seeds, and grains and seeds.\n16. Think about the different"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5308,7 +5308,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Think about the types of drinks that are commonly associated with water and coke.\n2. Consider the ingredients and flavors of each drink.\n3. Choose a drink that has a unique or unexpected ingredient.\n4. Think about the taste and texture of the drink.\n5. Choose a drink that is not a common pairing with water or coke.\n\nThe answer is a \"Sparkling Water\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5346,7 +5346,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find a clear soda.\n2. Next, you need to find a clear glass.\n3. Now, you need to pour the clear soda into the glass.\n4. Finally, you need to add a clear glass of water to the glass.\n\nThe answer is: 1. Find a clear soda. 2. Find a clear glass. 3. Pour the clear soda into the glass. 4. Add a clear glass of water to the glass."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5384,7 +5384,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to clean the table.\n2. Next, I need to remove any dirt or dust from the table.\n3. Then, I need to wipe the table with a damp cloth.\n4. Finally, I need to dry the table with a dry cloth.\n\nThe answer is 4."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Coffee: A classic and refreshing drink that can be made with a variety of ingredients.\n2. Tea: A soothing and calming drink that can be made with a variety of ingredients.\n3. Juice: A refreshing drink that can be made with a variety of ingredients."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find a suitable place to pick up the coke can. This could be a public place like a store, a park, or a street corner.\n\n2. Once you have found a suitable place, you need to get the coke can. This could be by walking to the store, walking to the park, or walking to the street corner.\n\n3. After you have picked up the coke can, you need to take it to the right place. This could be by walking back to the store, walking back to the park, or walking back to the street corner.\n\n4. Finally, you need to take the coke can to the right place and put it away. This could be by putting it in a bag, putting it in a container, or putting it in a bin.\n\nThe answer is: The answer is: The coke can needs to be picked up at a public place like a store, park, or street corner."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5726,7 +5726,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to identify the apple.\n2. Next, you need to find a way to get rid of the apple.\n3. Then, you need to find a way to dispose of the apple.\n4. Finally, you need to dispose of the apple in a way that is safe and environmentally friendly."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5764,7 +5764,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Create a sprite**: Start by creating a sprite using a programming language or a game engine. This will give you a basic shape and structure to work with.\n\n2. **Add movement**: Add movement to your sprite by using code that allows it to move in a specific direction. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5802,7 +5802,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find a suitable surface to place the banana on. This could be a table, a counter, or even a shelf.\n\n2. Next, you need to position the banana on the surface. The ideal position will depend on the size and weight of the banana, as well as the surface's dimensions.\n\n3. Once the banana is placed on the surface, you need to secure it in place. This can be done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, find a suitable place to place the banana.\n2. Place the banana on the table.\n3. Next, make sure the table is level and stable.\n4. If the table is not level, you may need to adjust the position of the banana.\n5. Finally, place the banana on the table, ensuring it is secure and won't fall."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Place the bag of chips on the table.\n2. Place the water bottle on top of the bag of chips.\n3. Place the water bottle on the table.\n\nThe answer is: 1. Place the bag of chips on the table. 2. Place the water bottle on top of the bag of chips."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6030,7 +6030,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I would start by saying, \"I have a few options for you to choose from.\"\n2. Then, I would ask, \"Would you like a fruit, a soda, and a bag of chips for lunch?\"\n3. After that, I would ask, \"What type of lunch do you prefer?\"\n4. Finally, I would ask, \"Would you like to have the fruit, the soda, or the bag of chips?\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, place the table in the center of the room.\n2. Next, move the table to the side of the room, so it's not blocking the counter.\n3. Now, move the table to the corner of the room, so it's not blocking the counter.\n4. Finally, move the table to the edge of the room, so it's not blocking the counter.\n\nThe answer is: 4. Move the table to the edge of the room, so it's not blocking the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find the counter and the table in the kitchen.\n2. Once you have found them, you need to approach them.\n3. When you approach the counter, you need to look at the counter and the table.\n4. When you look at the counter, you need to see the counter top and the counter surface.\n5. When you look at the table, you need to see the table top and the table surface.\n6. When you look at the counter, you need to see the counter top and the counter surface.\n7. When you look at the table, you need to see the table top and the table surface.\n8. When you look at the counter, you need to see the counter top and the counter surface.\n9. When you look at the table, you need to see the table top and the table surface.\n10. When you look at the counter, you need to see the counter top and the counter surface.\n11. When you look at the table, you need to see the table top and the table surface.\n12. When you look at the counter, you need to see the counter top and the counter surface.\n13"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer and locate the chips.\n2. Check the expiration date and shelf life of the chips.\n3. If the chips are still good, add them back to the drawer.\n4. If the chips are past their expiration date, consider replacing them with fresh chips.\n5. If the drawer is empty, consider adding more chips to the drawer.\n\nThe answer is restock chips in the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer.\n2. Locate the chips.\n3. Pick up the chips.\n4. Put the chips back in the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to open the can.\n2. Next, you need to remove the lid.\n3. Now, you need to remove the cap.\n4. Finally, you need to put the can in your gripper."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the key information: Determine the key information that you need to find, such as the name of the table, its purpose, and any relevant details.\n\n2. Research the table: Look up the table in a reliable source, such as a dictionary, encyclopedia, or online database.\n\n3. Verify the information: Double-check the information you've found to ensure it's accurate and up-to-date.\n\n4. Create a table: Based on the information you've gathered, create a table that accurately represents the information you've found.\n\n5. Review and refine: Review your table to ensure it's accurate and complete. Refine it if necessary, and make any necessary adjustments.\n\nThe answer is: The table is a collection of information, such as data, statistics, or facts, that is organized in a specific format, such as a table, chart, or graph."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6334,7 +6334,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the location: Look for the table in the room or area where you are.\n2. Approach the table: Walk towards the table, keeping your eyes fixed on it.\n3. Reach out: Extend your hand towards the table, making sure to keep your palm facing upwards.\n4. Grab the table: If the table is in front of you, grab it with your hand, making sure to hold it firmly.\n5. Pull it towards you: Pull the table towards you, keeping your back straight and your body relaxed.\n6. Sit down: If the table is in front of you, sit down on it, keeping your back straight and your body relaxed.\n\nThe answer is: The answer is: The table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the website or app where you want to access the table.\n2. Look for a navigation bar at the top of the screen.\n3. Click on the navigation bar to open the menu.\n4. In the menu, look for options such as \"Home,\" \"Tables,\" \"Content,\" or \"Tables.\"\n5. Click on the option that says \"Tables\" or \"Content.\"\n6. A dropdown menu will appear. Click on the option that says \"Table\" or \"Table View.\"\n7. A new window will open, displaying the table.\n\nThe answer is \"Table\" or \"Table View.\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find a table that is large enough to accommodate your vehicle.\n2. Next, you need to find a parking spot that is not too close to the door or the entrance of the building.\n3. Once you have found a spot, you need to make sure that the spot is clear of any obstacles or debris.\n4. After that, you need to make sure that the spot is level and that the ground is flat.\n5. Finally, you need to make sure that the spot is not too close to the door or the entrance of the building, so that you don't have to walk through it.\n\nThe answer is: 5."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer.\n2. Locate the apple.\n3. Pick up the apple.\n4. Put the apple in your mouth."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to identify the coke can.\n2. Next, you need to find a safe and accessible place to throw the can.\n3. After that, you need to carefully lift the can off the ground.\n4. Now, you need to make sure the can is completely empty and not leaking any liquid.\n5. Finally, you need to dispose of the coke can in a proper and safe manner."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6524,7 +6524,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Identify the task: Think step by step.\n2. Read and understand the question: \"Pick up the coke can.\"\n3. Analyze the given information: \"Think step by step.\"\n4. Perform the thought process: Think about the steps involved in the task.\n\nStep 6: Choose the correct answer\nBased on the thought process, the correct answer is: \"Think step by step.\""
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6714,7 +6714,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to move the banana from the floor to the table.\n2. Next, I need to place the banana on the table.\n3. Finally, I need to put the table in the room."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6942,7 +6942,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to move the chips bag from the table to the counter.\n2. Next, I need to place the chips bag on the counter.\n3. Finally, I need to put the counter in the room."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6980,7 +6980,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to find the counter and the table.\n2. Next, I need to look at the counter and the table.\n3. I need to see if they are in the kitchen.\n4. Finally, I need to go to the counter and the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7018,7 +7018,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer.\n2. Locate the chips.\n3. Put the chips back in the drawer.\n\nThe answer is: 1. Open the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7056,7 +7056,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer.\n2. Locate the chips.\n3. Pick up the chips.\n4. Put the chips back in the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7170,7 +7170,7 @@
       ]
     ],
     "filtered_resps": [
-      "50.\n\nStep 3: Determine the number of people wearing blue shirts.\nSince there are 50 people in the room, and 50 of them are wearing blue shirts, the number of people wearing blue shirts is 50.\n\nStep 4: Determine the number of people wearing red shirts.\nSince there are 100 people in total, and 100 - 50 = 50 people are wearing blue shirts, the number of people wearing red shirts is 50 - 100 = -50.\n\nStep 5: Determine the number of people wearing green shirts.\nSince there are 100 people in total, and 100 - 5"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7208,7 +7208,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Look at the table.\n2. Identify the table.\n3. Check if the table is in front of you.\n4. If it is, then you are at the table.\n5. If not, then you are not at the table.\n\nThe answer is: 1."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7246,7 +7246,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Navigate to the table by typing the URL into your web browser.\n2. Once you're on the table, you can click on the \"Table\" tab to open the table.\n3. You can then click on the \"Show all\" or \"Show all rows\" option to view all the data in the table.\n\nThe answer is: Show all rows."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7284,7 +7284,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, I need to know what the question is asking.\n2. I will then analyze the given sentence and identify the key elements.\n3. Once I have identified the key elements, I will use them to answer the question.\n4. Finally, I will provide the answer.\n\nIn this case, the question is: \"What is the best place to eat at a restaurant?\"\n\nStep 1: Identify the key elements\n- Park\n- at the table\n- the restaurant\n\nStep 2: Analyze the given sentence\n- Park is a place where people can park their cars\n- at the table is a place where people sit\n- the restaurant is a place where people eat\n\nStep 3: Answer the question\n- The best place to eat at a restaurant is the restaurant.\n\nThe answer is: The answer is: The answer is: The answer is:"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7322,7 +7322,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the drawer.\n2. Locate the apple.\n3. Pick up the apple.\n4. Put the apple back in the drawer."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7360,7 +7360,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, identify the problem: The user is throwing a coke can away.\n2. Next, think about the solution: The user should throw the coke can away.\n3. Now, analyze the situation: The user is throwing away a coke can, which is a waste of a valuable resource.\n4. Finally, act on the solution: The user should throw away the coke can to reduce waste and conserve resources."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, identify the location of the coke can and the trash can.\n2. Take the coke can and place it on the ground, making sure it's not touching any surfaces.\n3. Next, take the trash can and place it on top of the coke can, making sure it's not touching the coke can.\n4. Now, take the trash can and place it on the ground, making sure it's not touching any surfaces.\n5. Finally, take the coke can and place it on top of the trash can, making sure it's not touching the trash can.\n\nThe answer is: 5. The coke can and trash can are now in the correct position."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, you need to find the table and the counter.\n2. Once you have found them, you need to go to the table.\n3. To do this, you need to walk towards the table and then turn around to go towards the counter.\n4. When you reach the table, you need to look for the counter.\n5. Once you have found the counter, you can go to it and start your shopping."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

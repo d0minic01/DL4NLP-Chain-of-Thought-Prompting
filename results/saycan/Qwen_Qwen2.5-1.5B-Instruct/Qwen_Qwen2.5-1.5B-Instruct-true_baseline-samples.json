@@ -5422,7 +5422,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Stand up straight and take a few deep breaths.\n2. Move towards the table slowly and steadily.\n3. Once you reach the table, use both hands to grasp any items that are within easy reach.\n4. Carefully lift each item onto your arms or shoulder level.\n5. Continue this process until all items are safely in your possession.\n\nRemember to be cautious when handling heavy or fragile items to avoid injury."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. A glass of freshly squeezed orange juice.\n2. A cup of hot chocolate made with milk and cocoa powder.\n3. A tall glass of iced tea served over ice.\n\nThe answer is a glass of freshly squeezed orange juice, a cup of hot chocolate, and a tall glass of iced tea."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Choose a Table**: Select an appropriate table that can accommodate both items without being too crowded.\n2. **Position the Bag of Chips**: Place the bag of chips in front of or to one side of the table, depending on where it looks most convenient for you.\n3. **Place the Water Bottle**: Next, place the water bottle next to or above the bag of chips. Ensure there's enough space between them so they don't touch each other.\n4. **Adjust as Needed**: If necessary, adjust their positions slightly to ensure they are easily accessible while maintaining some distance.\n\nThe answer is: Position the bag of chips and water bottle on the table according to personal convenience and ensuring they are not touching."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Your Tools**: Ensure that you have a small container or tray where you can place the chips bag temporarily while moving it.\n\n2. **Position Yourself**: Stand near the table and the counter so that you are in a position to easily reach both areas without straining yourself.\n\n3. **Pick Up the Chips Bag**: Carefully grasp the top of the bag by its handle or opening if there's one. Hold it steady but not too tight to avoid dropping it.\n\n4. **Transfer the Chip Bag**: Slowly slide the bag over to the edge of the table. Use your other hand to support the bag as you lift it up onto the counter.\n\n5. **Place on Counter**: Once the chip bag is on the counter, gently set it down. If necessary, use your hands to stabilize it until it\u2019s secure.\n\n6. **Return to Table**: After placing the bag on the counter, return to the table using the same method to retrieve any items you need from there.\n\nThis approach ensures a smooth transition between the table and the counter without causing undue strain or spills."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Counter**: To reach the counter, walk forward until you see an open space on one side of the kitchen. This usually indicates the countertop. You can identify it by its smooth surface and often by seeing utensils or dishes stored there. Approach this area carefully to avoid tripping over any items.\n\n2. **Table**: Tables in kitchens are often found near the sink or at the back of the room. They might be made from materials like wood, glass, or metal. To locate a table, look for a flat surface with legs supporting it. If you're unsure, ask someone who knows about the layout of the kitchen. Tables are commonly used for preparing food, storing cookware, or as dining areas.\n\nOnce you've identified both the counter and the table, you can proceed to use them according to their intended purposes."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Supplies**: You'll need some chips (usually tortilla or corn), a spatula for spreading, and maybe a small container to store them.\n\n2. **Remove Chips**: Carefully remove any existing chips from the drawer using a spatula or by hand if they are loose.\n\n3. **Clean Drawer**: Clean out the drawer thoroughly to ensure there's no residue that could affect the new chips.\n\n4. **Spread Chips**: Use the spatula to spread the new chips evenly across the surface of the drawer. Make sure they're not overcrowded; this will help prevent them from getting soggy.\n\n5. **Store Properly**: Place the chips back into the drawer, ensuring they're organized and easily accessible.\n\n6. **Label if Necessary**: If you have multiple types of chips, consider labeling each section of the drawer to keep track of what's inside.\n\nThe answer is to carefully remove any existing chips, clean the drawer, spread the new chips evenly, and store them properly."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Position the Can**: Place the empty or partially filled Coke can on a flat surface so that it's stable and easy to handle.\n\n2. **Grip the Can**: Use one hand to grasp the top of the can by its label or lid. This will provide a secure hold while moving the can.\n\n3. **Align the Gripper**: Ensure that the gripper is positioned correctly above the can. You might need to adjust the position slightly if the gripper isn't perfectly aligned.\n\n4. **Insert the Can**: Slowly lower the can into the gripper until it reaches the desired depth. Be careful not to drop the can as you insert it.\n\n5. **Secure the Can**: Once the can is inside the gripper, make sure it\u2019s securely held in place without any wobbling or tilting.\n\n6. **Release the Gripper**: If necessary, release the grip on the can once it\u2019s fully inserted.\n\nRemember, always be cautious when handling objects like cans, especially those that are hot from being opened recently."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Identify the Table**: Look for an HTML element that has a `table` tag or class. This could be within a `<div>`, `<section>`, or another container.\n\n2. **Use Browser Tools**: Open your web browser's developer tools (usually accessible by right-clicking on the page and selecting \"Inspect\" or pressing F12). In the developer tools, go to the \"Elements\" tab.\n\n3. **Locate the Table**: Use the search bar in the developer tools to find the specific table you're interested in. You can also use the navigation pane to browse through different parts of the document.\n\n4. **Click on the Table**: Once you've located the table, click on it to select it. This will allow you to interact with its content directly from the developer tools interface.\n\n5. **Explore the Table**: Now you can see all the rows and columns of the table. You can hover over cells to see their values, and you can inspect elements inside the table using the developer tools' inspection capabilities.\n\n6. **Save or Copy Data**: If needed, you can copy data from the table into other applications like spreadsheets or text editors.\n\nThe answer is to"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Gather Materials**: You will need a small broom or dustpan and some tape.\n2. **Position the Can**: Place the can on top of the broom or dustpan so that it's elevated slightly above the ground.\n3. **Use Tape**: Use the tape to secure the can in place on the broom/dustpan handle. This helps prevent the can from sliding off during movement.\n\nNow, you're ready to carry the can to the trash can using the broom or dustpan as a makeshift cart."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

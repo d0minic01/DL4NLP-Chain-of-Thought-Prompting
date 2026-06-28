@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-tiiuae/Falcon3-1B-Instruct,saycan_caveman_mode,saycan,caveman_mode,fewshot_cot,saycan,0.0,0.0,168.6,7,100,13.01,11.13
+tiiuae/Falcon3-1B-Instruct,saycan_caveman_mode,saycan,caveman_mode,fewshot_cot,saycan,0.0,0.4343,212.4,7,100,14.49,11.13

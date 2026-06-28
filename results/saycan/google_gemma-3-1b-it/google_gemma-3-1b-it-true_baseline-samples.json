@@ -5536,7 +5536,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Sprite:** A classic, widely available, and refreshing option.\n\n**2. 7-Up:**  A tangy and slightly sweet choice.\n\n**3. Ginger Ale:**  A bubbly and flavorful option with a spicy kick.\n\n**4. Root Beer:** A rich and creamy flavor, often with a vanilla note.\n\n**5. Mountain Dew:** A citrusy and slightly sweet soda.\n\n**6. Fanta:** A fruity and vibrant option, often with a tropical twist.\n\nWhich one sounds most appealing to you right now?  Or would you like me to suggest something a little more specific (like a particular flavor profile)? \n\nThe answer is <7-Up>"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Strawberry Basil Lemonade:** A refreshing blend of fresh strawberries, basil, lemonade, and a touch of lime. It\u2019s bright, sweet, and herbaceous.\n\n2.  **Spiced Hot Chocolate:** A rich, creamy hot chocolate infused with cinnamon, nutmeg, and a hint of cayenne pepper for a warming kick. You can add marshmallows for extra indulgence.\n\n3.  **Cucumber Mint Cooler:** A light and hydrating drink featuring cucumber slices, fresh mint leaves, lime juice, and a splash of sparkling water or club soda. It\u2019s incredibly refreshing and subtly flavored.\n\nThe answer is <A strawberry basil lemonade, a spiced hot chocolate, and a cucumber mint cooler.>"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Assess the Situation:** First, I\u2019d look for a clear, stable surface \u2013 like a table or a slightly inclined surface.\n2.  **Reach and Grab:** I\u2019d reach out with my hand, keeping my fingers slightly curled around the can. This gives me a better grip.\n3.  **Controlled Movement:** I\u2019d slowly and deliberately move my hand towards the can, using a gentle, controlled motion.  I wouldn\u2019t just yank it.\n4. **Secure Grip:** Once I\u2019m close enough, I\u2019d firmly grasp the can with my thumb and fingers, ensuring it\u2019s secure.\n\nThe answer is <I\u2019d use a controlled, gentle movement to pick it up, keeping my fingers curled around the can for a secure grip.>"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **The Classic Grab:** Reach under the can and grab it with your fingers. This is the most common and easiest method.\n\n2.  **The Arm Sweep:** Extend your arm out to the side, letting the can fall into your grasp. This works best with a slightly wider can.\n\n3.  **The \"Scoop\" Method:**  Hold the can with one hand and use your other hand to scoop it up, like you're scooping ice cream.\n\n4.  **The Slide:**  Slide your hand along the side of the can, using your fingers to guide it towards you.\n\n5. **The \"Grab and Pull\":**  Reach under the can and pull it towards you with your hand.\n\nWhich method do you think is the most effective? <Your answer>"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Gently cradle the banana:** Hold it securely in your hands, supporting its stem.\n2.  **Slowly and deliberately slide it:** Use your hands to slowly and steadily slide the banana across the surface of the table, keeping it stable. You don\u2019t need to move it quickly.\n3.  **Adjust as needed:** If it starts to wobble, gently adjust your grip to maintain balance.\n\nThe answer is <It\u2019s a surprisingly tricky task, but with a little patience and a gentle approach, you can move a banana to the table!>"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Start with the Water Bottle:** Place the water bottle on a level surface. This provides a stable base.\n2.  **Position the Chips:** Carefully place the bag of chips directly on top of the water bottle.  Try to center it as much as possible.\n3.  **Add a Small Cushion (Optional):** If the table surface is uneven, place a small, flat, cushion-like item (like a folded paper towel or a small piece of cardboard) underneath the chips to prevent them from rolling.\n\nThe answer is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Position the bag:** Carefully place the chip bag on the edge of the table, close to the counter.\n2.  **Lift and Carry:**  Use your non-dominant hand to gently lift the bag.  Keep your elbow bent to protect your shoulder.\n3.  **Carry with Shoulder:**  Carry the bag with your shoulder, keeping your back straight.  Don\u2019t hunch over.\n4.  **Slide & Drop:**  Slide the bag towards the counter, keeping it close to your side.  Let it fall gently onto the counter.\n\n**Option 2: Slightly More Effort (If the bag is heavy or the table is uneven)**\n\n1.  **Support:**  If the table is wobbly, use one hand to support the bag while you lift it.\n2.  **Lift & Angle:**  Lift the bag with your elbow and angle your body slightly to help it slide.\n3.  **Controlled Slide:**  Move the bag slowly and deliberately towards the counter."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Assess the Situation:** First, I\u2019d quickly scan the area to see if anyone is actively working on the counter. If it\u2019s a busy time, I\u2019d wait for a lull.\n2.  **Approach with a Polite Gesture:** I\u2019d approach slowly and calmly, making eye contact with the person working on the counter. A slight nod or a small, friendly wave would be appropriate.\n3.  **Introduce Myself:** \u201cExcuse me, I\u2019m [Your Name]. I was wondering if it would be alright if I could just quickly check on the [specific item \u2013 e.g., ingredients, tools, etc.]?\u201d\n4.  **Be Brief and Respectful:** I\u2019d keep my questions concise and focused.  \u201cIs there a good time for me to take a look?\u201d or \u201cCould you tell me if there\u2019s anything I should be aware of?\u201d\n5.  **Offer to Help (If Appropriate):** If the person seems open to it, I might offer to help with a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Assess the Situation:** First, take a quick look at the drawer. Is it overflowing? Are there chips stuck together? This will help determine the best approach.\n\n2. **Clear the Overhang:** Gently remove any chips that are stuck together or are significantly overlapping. Use a small, flat tool like a butter knife or a plastic spatula to carefully separate them. Don\u2019t force anything \u2013 you don\u2019t want to damage the chips.\n\n3. **Sort and Group:**  This is key!  Sort the chips into categories:\n   * **New Arrivals:** Chips that have recently been purchased.\n   * **Popular/Frequently Used:** Chips that are consistently grabbed.\n   * **Expired/Past-Best:** Chips that are past their prime and should be discarded.  Be honest with yourself \u2013 this is important for preventing waste.\n   * **Leftovers:** Chips that are still in their original packaging.\n\n4. **Replenish Strategically:**\n   * **Start with Popular/Frequently Used:** Place these chips back in the drawer immediately.\n   * **New Arrivals:** Add these"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Positioning:** Hold the gripper firmly, with the jaws positioned slightly *above* the can\u2019s top edge. This gives you a good amount of space to maneuver.\n\n2.  **The \u201cSlide and Angle\u201d Technique:** This is key.  Slowly slide the gripper along the can\u2019s side, angling it slightly downwards.  The goal is to create a small, gentle curve in the can\u2019s surface.  Don\u2019t force it; a slight curve is all you need.\n\n3.  **The \u201cLock\u201d:** As you slide, the curve should naturally \u201clock\u201d into place.  You\u2019ll feel a slight resistance as the can settles into the gripper.  Don\u2019t try to force it; let the curve do the work.\n\n4.  **Gentle Pressure:** Once the can is securely locked, apply a *very* gentle, consistent pressure to the gripper\u2019s jaws.  Too much pressure will crush the can.\n\n5.  **Repeat:** Repeat steps 2-4 until the can is fully seated in the gripper.\n\n**"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. **Find a stable surface:** Start on a flat, level surface like a table or countertop. Avoid anything that could wobble or shift.\n\n2. **Position the can:** Hold the can firmly in your non-dominant hand.  Make sure it\u2019s balanced.\n\n3. **Use your legs:** This is the key!  Bend your knees and lean *slightly* towards the can.  Your body weight should be distributed evenly.  Think of it like a gentle, controlled lean.  Don\u2019t lean too far back, as that\u2019s a recipe for a fall.\n\n4. **Small, controlled movements:**  Don\u2019t try to lift it straight up.  Small, deliberate movements are much safer and more effective.  A slight upward push with your leg is all you need.\n\n5. **Keep your balance:**  Maintain a steady posture.  If you feel yourself starting to tip, immediately adjust your leg position.\n\n6. **Safety first:** Be aware of your surroundings. Make sure there are no obstacles or people nearby.\n\nThe answer is: You need to"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Locate the document:** First, I\u2019d need to know *where* the document is located. Is it in a Word document, a Google Doc, a PDF, a spreadsheet program (like Excel or Google Sheets), or something else?\n2.  **Open the document:** I\u2019d open the document using the appropriate software (e.g., Word, Google Docs, Excel, etc.).\n3.  **Navigate to the table:** I\u2019d use the software\u2019s navigation tools (e.g., the \u201cView\u201d menu in Word, the \u201cTable\u201d button in Excel) to find the table.  I\u2019d look for a label or a specific icon that indicates a table.\n4.  **Select the table:** Once I\u2019ve found the table, I\u2019d click on it to select it.\n\n**If you\u2019re talking about a table in a database or data source:**\n\n1.  **Identify the database/data source:**  I\u2019d need to know *what* database or data source you"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "1.  **Clear the Area:** Quickly clear any obstacles around the can \u2013 people, pets, furniture \u2013 to give yourself a clear path.\n\n2.  **Position the Can:** Carefully position the can so it\u2019s facing the trash can, with the top of the can slightly angled downwards. This helps prevent it from rolling too far.\n\n3.  **Use a Lever (Recommended):** This is the safest and most effective method.  Use a sturdy, flat object like a piece of cardboard, a sturdy box, or a small, stable table to create a lever.  Position the lever so that when you push it, the can will roll smoothly into the trash can.\n\n4.  **Gentle Push:** Gently push the lever.  The can should roll smoothly into the trash can.  Avoid sudden movements.\n\n5.  **Secure the Can:** Once the can is inside, secure it with a cloth or a piece of tape to prevent it from shifting around.\n\nThe answer is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

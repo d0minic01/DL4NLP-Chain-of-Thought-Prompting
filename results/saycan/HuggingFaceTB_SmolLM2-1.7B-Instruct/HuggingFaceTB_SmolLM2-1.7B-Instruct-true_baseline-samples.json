@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. First, place the water bottle on the table. Make sure it's in a stable position and not going to fall over.\n2. Next, take the bag of chips and place it on top of the water bottle. Ensure that the bag is not too heavy for the table and that it's not going to spill over.\n3. Finally, check that both items are secure and not going to fall off the table.\n\nThe answer is secure."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open the bag of chips. If it's sealed, you'll need to cut the bag open using a chip opener or a sharp object.\n2. Remove the chips from the bag. You can do this by tearing the bag open or cutting it along the top edge.\n3. Transfer the chips to a new bag or container. This will help keep the chips fresh and prevent them from getting crushed.\n4. Store the new bag of chips in the drawer. Make sure it's securely closed to keep the chips fresh.\n\nThe answer is restocked."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open your web browser and go to a search engine like Google.\n2. In the search bar, type in the name of the table you're looking for. For example, if you're looking for a table of contents, you could type \"table of contents\" into the search bar.\n3. Press Enter to search.\n4. Browse through the search results. The table you're looking for should be listed in one of the search results.\n5. Click on the link to the table you want to view. This will take you to a webpage where you can see the table.\n\nThe answer is: Follow these steps."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "1. Open your web browser and go to the website where the table is located.\n2. Look for the table on the webpage. It is usually located in the center of the page.\n3. Click on the table to open it.\n4. Once the table is open, you can navigate through it by using the arrows on your keyboard or by clicking on the table headers.\n5. To move to a specific cell, click on the cell's header or the cell itself.\n6. To navigate to the next or previous page, look for the \"Next\" or \"Previous\" button at the bottom of the page.\n7. If you are on a mobile device, you can use the swipe gesture to navigate through the table.\n\nThe answer is: Follow the steps above to navigate to the table."
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
