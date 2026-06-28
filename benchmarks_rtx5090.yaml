@@ -131,25 +131,23 @@ models:
       dtype: bfloat16
 
   # ── SmolLM2 (135M → 1.7B) — DONE, results saved, skipping ─────────────────
-  # HuggingFaceTB/SmolLM2-135M-Instruct:
-  #   type: hf
-  #   batch_size: 32
+  HuggingFaceTB/SmolLM2-135M-Instruct:
+    type: hf
+    batch_size: 32
 
-  # HuggingFaceTB/SmolLM2-360M-Instruct:
-  #   type: hf
-  #   batch_size: 16
+  HuggingFaceTB/SmolLM2-360M-Instruct:
+    type: hf
+    batch_size: 16
 
-  # HuggingFaceTB/SmolLM2-1.7B-Instruct:
-  #   type: hf
-  #   batch_size: 8
+  HuggingFaceTB/SmolLM2-1.7B-Instruct:
+    type: hf
+    batch_size: 8
 
   # ── Qwen2.5 (0.5B → 7B) ──────────────────────────────────────────────────
-  # Qwen/Qwen2.5-0.5B-Instruct — DONE, results saved, skipping
-  # Qwen/Qwen2.5-0.5B-Instruct:
-  #   type: hf
-  #   batch_size: 16
+  Qwen/Qwen2.5-0.5B-Instruct:
+    type: hf
+    batch_size: 16
 
-  # Qwen1.5B was partially done — rerunning from scratch with bigger batch
   Qwen/Qwen2.5-1.5B-Instruct:
     type: hf
     batch_size: 32
