@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,svamp_caveman_mode,svamp,caveman_mode,fewshot_cot,svamp,0.53,0.0,136.6,8,100,13.01,11.13

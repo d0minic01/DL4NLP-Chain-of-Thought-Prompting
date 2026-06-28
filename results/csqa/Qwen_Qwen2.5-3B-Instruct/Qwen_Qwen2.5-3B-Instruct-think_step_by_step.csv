@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,csqa_think_step_by_step,csqa,think_step_by_step,zero_shot,commonsense_qa,0.52,0.33,908.5,0,100,36.53,9.56

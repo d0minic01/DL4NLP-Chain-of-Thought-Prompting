@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-1.5B-Instruct,gsm8k_persona_cot,gsm8k,persona_cot,fewshot_cot,gsm8k,0.46,0.27,312.4,8,100,27.72,5.48

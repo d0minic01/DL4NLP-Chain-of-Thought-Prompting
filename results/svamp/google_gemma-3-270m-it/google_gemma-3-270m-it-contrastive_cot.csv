@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,svamp_contrastive_cot,svamp,contrastive_cot,fewshot_cot,svamp,0.04,0.8,163.3,8,100,18.39,15.3

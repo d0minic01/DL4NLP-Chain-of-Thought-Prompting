@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Janet makes $2 per fresh duck egg. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. She makes $2 per fresh duck egg. She makes $2 per fresh duck egg * 4 = $8 per day. The answer is 8."
+        "[INCORRECT] Janet makes $2 per fresh duck egg. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. So, she makes $2 * 4 = $8 per day. The answer is 8."
       ]
     ],
     "filtered_resps": [
@@ -60,11 +60,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The robe takes 2 bolts of blue fiber and 1 bolt of white fiber. 2 bolts of blue fiber is 2 * 2 = 4 bolts of blue fiber. 1 bolt of white fiber is 1 * 1 = 1 bolt of white fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue"
+        "[INCORRECT] The robe takes 2 bolts of blue fiber and 2 bolts of white fiber. 2 bolts of blue fiber is 2 * 2 = 4 bolts. 2 bolts of white fiber is 2 * 2 = 4 bolts. 2 bolts of blue fiber is 4 * 4 = 16 bolts. 2 bolts of white fiber is 16 * 4 = 64 bolts. 2 bolts of blue fiber is 64 * 4 = 268 bolts. 2 bolts of white fiber is 268 * 4 = 1032 bolts. 2 bolts of blue fiber is 1032 * 4 = 4064 bolts. 2 bolts of white fiber is 4064 * 4 = 16120 bolts. The robe takes 2 * 16120 = 32240 bolts. The answer is 32240."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "32240"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -98,11 +98,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He invested $50,000 in repairs and then sold the house for $80,000. The value of the house increased by 150% so he made $80,000 * 150% = $120,000 in profit. The answer is 120,000."
+        "[INCORRECT] He invested $80,000 in the house and then sold it for $80,000. The house now has $50,000 in value. 150% of $50,000 is $75,000.  The profit is $75,000 - $50,000 = $25,000. The answer is 25,000."
       ]
     ],
     "filtered_resps": [
-      "120,000"
+      "25,000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -250,7 +250,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Seattle has 20 sheep so they have 20 - 4 = 16 sheep. Charleston has 4 times as many sheep as Seattle so they have 4 * 16 = 64 sheep. Seattle has 20 + 64 = 84 sheep. The answer is 84."
+        "[INCORRECT] Seattle has 20 sheep so they have 20 - 4 = 16 sheep. Charleston has 4 times as many sheep as Seattle so they have 16 * 4 = 64 sheep. Seattle has 20 + 64 = 84 sheep. The answer is 84."
       ]
     ],
     "filtered_resps": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The download time is 20 minutes, and the restart time is 20 minutes. The load time is the difference between the two times: 20 minutes - 20 minutes = 0 minutes. The answer is 0. The load time is 0 minutes."
+        "[INCORRECT] The download time is 20 minutes, and the restart time is 20 minutes. The total time to download the file is 20 minutes + 20 minutes = 40 minutes. The load time is the time it takes to download the file from the beginning to the end. 40 minutes / 20 minutes = 2.5 hours. The answer is 2.5."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "2.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,7 +326,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He drove 4 hours at 30mph for 2 hours and then turned around. He drove 2 hours at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for "
+        "[INCORRECT] He drove 4 hours at 30 mph for 2 hours and then turned around. He drove 2 hours at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for "
       ]
     ],
     "filtered_resps": [
@@ -478,7 +478,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Carlos will start earning money on the lemon tree when he plants the tree. Each year, he will plant 7 lemons, so he will have 7 * 7 = 49 lemons. He will then have 49 - 7 = 42 lemons. He will then have 42 - 7 = 39 lemons. He will then have 39 - 7 = 32 lemons. He will then have 32 - 7 = 25 lemons. He will then have 25 - 7 = 22 lemons. He will then have 22 - 7 = 19 lemons. He will then have 19 - 7 = 12 lemons. He will then have 12 - 7 = 6 lemons. He will then have 6 - 7 = 3 lemons. He will then have 3 - 7 = 1 lemon. He will then have 1 - 7 = 2 lemons. He will then have 2 - 7 = 1 lemon. He will then have 1 - 7 = 2 lemons. He will then have 2 - 7 = 1 lemon."
+        "[INCORRECT] Carlos will start earning money on the lemon tree when he plants the tree. Each year, he will plant 7 lemons, so he will have 7 * 7 = 49 lemons. He will then plant 3 * 49 = 149 lemons. He will then water and feed the tree for 1 year, so he will have 149 - 1 = 139 lemons. He will then plant 3 * 139 = 373 lemons. He will then water and feed the tree for 2 years, so he will have 373 - 373 = 0 lemons. He will then plant 3 * 0 = 0 lemons. He will then water and feed the tree for 1 year, so he will have 0 - 0 = 0 lemons. He will then plant 3 * 0 = 0 lemons. He will then water and feed the tree for 2 years, so he will have 0 - 0 = 0 lemons. He will then plant 3 * 0 = 0 lemons. He will then water and feed the tree for 1 year, so he will have "
       ]
     ],
     "filtered_resps": [
@@ -516,11 +516,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She sold 3 * 2 = 6 vacuum cleaners. She started with 5 - 6 = 1 vacuum cleaner. [CORRECT] She sold 1 - 6 = 2. The answer is 2."
+        "[INCORRECT] She sold 3 * 2 = 6 vacuum cleaners. She started with 5 - 6 = 1 vacuum cleaner. [CORRECT] She sold 1 - 6 = 3 more vacuum cleaners. [CORRECT] She sold 3 * 3 = 9 more vacuum cleaners. [CORRECT] She started with 5 - 9 = 1 vacuum cleaner. The answer is 1."
       ]
     ],
     "filtered_resps": [
-      "2"
+      "1"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20% of 20 students is 0.20 * 20 = 4 students. 25% of 20 students is 0.25 * 20 = 5 students. 25% of the remaining students is 4 + 5 = 9 students. The answer is 9."
+        "[INCORRECT] 20% of 20 students is 0.20 * 20 = 4 students. 25% of 20 students is 0.25 * 20 = 5 students. 25% of the remaining students is 4 + 5 = 9 students. 20 - 5 = 15 students. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "9"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The distance covered by the first train is 80 miles, and the distance covered by the second train is 150 miles. The two trains are traveling in opposite directions, so they will meet at a point 150 - 80 = 130 miles apart. The distance between the two trains is 130 miles. The distance covered by the first train is 80 miles, and the distance covered by the second train is 150 miles. The two trains will meet at a point 130 - 150 = 50 miles apart. The answer is 50."
+        "[INCORRECT] The distance covered by the first train is 80 miles, and the distance covered by the second train is 150 miles. The two trains are traveling in the same direction, so they will cover the same distance in the same amount of time. The time it takes for the first train to cover 80 miles is 80 / 8 = 10 miles per hour. The time it takes for the second train to cover 150 miles is 150 / 15 = 10 miles per hour. The total distance covered by both trains is 10 + 150 = 150 miles. The answer is 150."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "150"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 50 weeks * 50 hours/week * 35 hours/week = 2,500 hours/year. 15 hours/week * 35 hours/week = 500 hours/year. 20 hours/week * 30 hours/week = 600 hours/year. 20 * 600 = 12,000. 12,000 / 12,000 = 1.00. The answer is 1.00."
+        "[INCORRECT] 50 weeks * 50 hours/week * 35 hours/week = 15,000 hours/year. 35 hours/week * 15 hours/week = 450 hours/year. 15000 - 450 = 1,20000/year. The answer is 1,20000."
       ]
     ],
     "filtered_resps": [
-      "1.00"
+      "1,20000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She makes 3 eggs per day for breakfast, so she will make 3 eggs * 4 days = 12 eggs. She will eat 12 eggs in 4 weeks, so she will eat 12 / 4 = 3 dozens of eggs. The answer is 3."
+        "[INCORRECT] She makes 3 eggs per day for breakfast, so she will make 3 eggs * 4 days = 12 eggs. She will eat 12 eggs in 4 weeks, so she will eat 12 * 4 = 48 eggs. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "3"
+      "48"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She walked 12 miles in 1 hour, so she walked 12 * 4 = 48 miles. She walked another hour to walk the next two miles, so she walked 48 + 2 = 49 miles. To find her average speed, she divided the total distance by the time: 48 miles / 49 miles per hour = 0.95 miles per hour. She needs to walk the remaining distance at this speed."
+        "[INCORRECT] She walked 12 miles in 1 hour, so she walked 12 * 4 = 48 miles. She walked another hour to walk the next two miles, so she walked 48 + 2 = 49 miles. To find her average speed, she divided the total distance by the time: 48 miles / 49 miles per hour = 0.95 miles per hour. She needs to walk the remaining distance at this speed. The answer is 0.95."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "0.95"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -782,7 +782,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The amount of water in the remaining 24 liters is 10 liters - 24 liters = 48 liters. [CORRECT] The amount of water in the orange drink is 15 liters - 24 liters = 10 liters. The answer is 10."
+        "[INCORRECT] The amount of water in the remaining 24 liters is 10 liters - 24 liters = 48 liters. [CORRECT] The amount of water in the orange drink is 15 liters - 23 liters = 10 liters. The amount of water in the pineapple drink is 3/5 * 15 liters = 10 liters. The answer is 10."
       ]
     ],
     "filtered_resps": [
@@ -858,11 +858,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Billy sold 8 customers * 3 DVDs each = 24 DVDs. He sold 2 customers * 2 DVDs each = 4 DVDs. He sold 3 customers * 2 DVDs each = 6 DVDs. He sold 23 - 6 = 19 DVDs. The answer is 19."
+        "[INCORRECT] Billy sold 8 customers * 3 DVDs each = 24 DVDs. He sold 3 customers * 2 DVDs each = 6 DVDs. He sold 2 customers * 2 DVDs each = 4 DVDs. He sold 3 customers * 2 DVDs each = 6 DVDs. He sold 4 DVDs * 2 DVDs each = 8 DVDs. The answer is 8."
       ]
     ],
     "filtered_resps": [
-      "19"
+      "8"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 1:00 PM is 1 hour and 15 minutes. 5:00 PM is 1 hour and 55 minutes. 2:00 PM is 2 hours and 30 minutes. 2:00 PM + 1 hour and 55 minutes = 3:00 PM. 2:00 PM + 1 hour and 30 minutes = 4:00 PM. 2:00 PM + 55 minutes = 7:00 PM. 7:00 PM + 1 hour and 30 minutes = 8:00 PM. 8:00 PM + 55 minutes = 13:00 PM. 13:00 PM + 30 minutes = 16:00 PM. 16:00 PM + 30 minutes = 19:00 PM. 19:00 PM + 30 minutes = 22:00 PM. 22:00 PM + 30 minutes = 25:00 PM. 25:00 PM + 30"
+        "[INCORRECT] 1:00 PM is 1 hour and 15 minutes. 5:00 PM is 1 hour and 55 minutes. 2:00 PM is 2 hours and 30 minutes. 2:00 PM + 1 hour and 55 minutes = 3:00 PM. 2:00 PM + 55 minutes = 60 minutes. 60 minutes is 20 centimeters. 20 centimeters is 20 centimeters shorter than 1:00 PM. 20 centimeters is 20 centimeters shorter than 5:00 PM. 20 centimeters is 20 centimeters shorter than 1:00 PM. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The original price of the book was $19.50. The discount is 25% of $19.50, which is $3.25. The original price is $19.50 - $3.25 = $18.00. The original price is $18.00 * 0.25 = $4.25. The original price is $18.00 + $19.50 = $37.50. The original price is $37.50 * 0.25 = $10.25. The original price is $10.25 + $19.50 = $39.75. The original price is $39.75 * 0.25 = $10.25. The original price is $10.25 + $19.50 = $39.75. The original price is $39.75 + $19.50 = $59.75. The original price is $59.75 * 0.25 = $1"
+        "[INCORRECT] The original price of the book was $19.50. The discount is 25% of $19.50, which is $3.25. The original price is $19.50 - $3.25 = $18.25. The original price is $18.25 * 1.25 = $24.125. The original price is $18.25 + $19.50 = $20.75. The original price is $20.75 * 1.25 = $32.50. The original price is $32.50 + $19.50 = $52.00. The original price is $52.00 * 1.25 = $75.25. The original price is $75.25 + $19.50 = $104.50. The original price is $104.50 * 1.25 = $127.00. The original price is $127.00 + $19"
       ]
     ],
     "filtered_resps": [
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She ordered 1 box of pizza so she has 1 * 8.50 = 10 dollars. She paid $12 for the chicken meal, so she has 10 - 12 = 2 dollars left. The answer is 2."
+        "[INCORRECT] She ordered 1 box of pizza so she has 1 * 8.5 = 10 dollars. [CORRECT] She ordered 5 boxes of pizza so she has 10 + 5 = 15 dollars. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "2"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -985,7 +985,7 @@
     "doc_hash": "e2ea3ea0dd7dece8ddeb1fcc4edcf51e8f4ecbcd27e410fe39ff9e2653a87eef",
     "prompt_hash": "945976a5967c120d5dfd79805d6424a15f548320852de407274e8494782d701b",
     "target_hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 26,
@@ -1010,11 +1010,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. The total cost of all the clothing items is 3 * 3 = 9. The total cost of all the clothing items is 36.50 + 36.50 + 32.50 = 100. The answer is 100."
+        "[INCORRECT] Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. One pair of shorts costs $16.50, so she spent $16.50 - $3 = $13.50 on shorts. One pair of pants costs $22.50, so she spent $22.50 + $3 = $25.50 on pants. One pair of shoes costs $42, so she spent $42 - $3 = $37.50 on shoes. The total cost of all the clothing items is $13.50 + $37.50 = $50. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "100"
+      "50"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,7 +1086,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He started at 20 miles and traveled 15 miles before the end of the trip. He then stopped at 15 miles before the end of the trip. He then traveled 15 - 20 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15"
+        "[INCORRECT] He started at 20 miles and traveled 15 miles before the end of the trip. He then stopped at 15 miles before the end of the trip. He traveled 15 - 20 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 5 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before"
       ]
     ],
     "filtered_resps": [
@@ -1124,11 +1124,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The boots cost $33 and the heels cost $33 * 2 = $66. The shoes cost $15 and the heels cost $66 * 2 = $132. The total cost of the boots and the shoes is $33 + $132 = $46. The answer is 46."
+        "[INCORRECT] The boots cost $33 and the heels cost $33 * 2 = $66. The shoes cost $5 * 2 = $10. The total cost of the boots and heels is $33 + $10 = $43. The shoes cost $66 - $43 = $23. The answer is 23."
       ]
     ],
     "filtered_resps": [
-      "46"
+      "23"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1238,11 +1238,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each dog takes 1 hour to walk and take care of their business so he takes 10 * 1 = 10 hours. [CORRECT] He spends 10 hours a week. The answer is 10."
+        "[INCORRECT] John takes care of 10 dogs so he takes care of 10 * 5 = 50 dogs. Each dog takes 5 hours a day to walk so he takes 50 * 5 = 250 hours a week. The answer is 250."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "250"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1314,11 +1314,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Siobhan has 2 fewer jewels than half of Raymond's jewels. 2 - 1 = 1. [CORRECT] Half of Raymond's jewels is 1/2 * 40 = 40. Siobhan has 2 - 1 = 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [INCORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [INCORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [INCORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT"
+        "[INCORRECT] Siobhan has 2 fewer jewels than half of Raymond's jewels. 2 - 1 = 1. [CORRECT] Half of Raymond's jewels is 40 - 2 = 36. Siobhan has 36 - 1 = 35 jewels. The answer is 35."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "35"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1352,11 +1352,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] In the first 20 minutes, Mike scored 4 points. In the second 20 minutes, he scored 25% more points.  So, in the first 20 minutes, he scored 4 * 25% = 10 points. In the second 20 minutes, he scored 25% more points.  So, in the first 20 minutes, he scored 10 + 25 = 35 points. The answer is 35."
+        "[INCORRECT] In the first 20 minutes, he scored 4 points. In the second 20 minutes, he scored 25% more points.  So, in 20 minutes, he scored 4 + 25 = 50 points.  The total points he scored is 50 * 40 = 2000. The answer is 2000."
       ]
     ],
     "filtered_resps": [
-      "35"
+      "2000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He runs 60 miles a week for 60 / 3 = 20 hours. He runs 3 days a week for 3 * 2 = 6 hours. He runs 3 hours and 60 - 60 = 0 hours. The answer is 0."
+        "[INCORRECT] He runs 60 miles per week for 60 days.  He runs 3 days a week for 60 weeks.  He runs 3 * 60 = 180 miles per week.  He runs 3 * 180 = 540 miles per week.  He runs 3 * 540 = 1520 miles per week.  He runs 3 * 1520 = 4840 miles per week.  He runs 3 * 4840 = 13280 miles per week.  He runs 3 * 13280 = 40080 miles per week.  He runs 3 * 40080 = 120000 miles per week.  He runs 3 * 120000 = 360000 miles per week.  He runs 3 * 360000 = 1080000 miles per week.  He runs 3 * 1080000 = 3080000 miles per"
       ]
     ],
     "filtered_resps": [
-      "0"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Dancing at 4 times faster than she can run is 4 * 4 = 16 times faster than she can walk. Walking at 1/3 of the speed of running is 1/3 * 4 = 6 times faster than she can run. So, she can walk at 16 * 6 = 96 miles in one-third of the time she can run. The answer is 96."
+        "[INCORRECT] Dancing at 4 times faster than she can run is 4 * 4 = 16 times faster than she can walk. 3 miles per hour is 16 * 3 = 48 miles per hour. 2 times faster than she can run is 48 * 2 = 96 miles per hour. 3 times faster than she can walk is 96 * 3 = 292 miles per hour. 6 hours is 6 * 24 = 132 miles. 1/3 of the time running is 132 * 3 = 388 miles. 2/3 of the time walking is 388 * 2 = 852 miles. 6 hours is 6 * 24 = 128 miles. 1/3 of the time running is 128 * 3 = 392 miles. 2/3 of the time walking is 392 * 2 = 844 miles. 6 hours is 6 * 24 = 128 miles. 1/3 of the time running is 128"
       ]
     ],
     "filtered_resps": [
-      "96"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1542,11 +1542,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Suzy's iPhone is 1 year old so it is 1 year old * 2 = 2 years old. Brandon's iPhone is 2 years old so it is 2 years old * 4 = 8 years old. The answer is 8."
+        "[INCORRECT] Suzy's iPhone is 1 year old so it is 1 year old * 4 = 4 years old. Brandon's iPhone is 2 years old so it is 2 years old * 2 = 4 years old. Brandon's iPhone is 4 years old + 1 year old = 5 years old. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "8"
+      "5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1555,7 +1555,7 @@
     "doc_hash": "5f8289fcab5456e2c6a1d26b34ba9fc78020621cea9888367083d0ef864b88ac",
     "prompt_hash": "7012dd2a5ec6937134b085c57b74107222197f9313f5d09ee24f08c0f617ba01",
     "target_hash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 1000 feet away, so 3 * 1000 = 3000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 1000 feet away, so 3 * 1000 = 3000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 3000 feet away, so 3 * 3000 = 9000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 9000 feet away, so 3 * 9000 = 27000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 27000 feet away, so 3 * 27000 = "
+        "[INCORRECT] Polly could throw the gold javelin three times farther than when not holding the gemstone. 3 * 400 = 1200 feet. 1200 - 1000 = 200 feet. The answer is 200."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "200"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1593,7 +1593,7 @@
     "doc_hash": "a41984e20a80c9e385df17747e5837e8d0677303ddbbd2a85059c2a5e88180f6",
     "prompt_hash": "10f93cdb74e83f0e0817f6791eb58dae6d5f94b5d885b2a1ebd7fc8e3c2a58f8",
     "target_hash": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 42,
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 300g bag of chips = 300g * 250 calories/g = 7500 calories. 1800 calories = 1800 * 200 calories/g = 32000 calories. 350g of chips = 350g * 250 calories/g = 8000 calories. 7500 calories - 8000 calories = 500 calories. 5 servings = 5 * 5 = 250 calories. 2000 calories - 250 calories = 1500 calories. 1800 calories - 1500 calories = 100 calories. 1800 calories - 100 calories = 150 calories. 150 calories / 1500 calories = 1/5. 150 calories / 250 calories = 6/5. 6/5 * 5 = 20. 20 * 20 = 400 calories. 400 calories - "
+        "[INCORRECT] 300g bag of chips = 300g * 250 calories/g = 7500 calories. 1800 calories = 1800 * 200 calories/g = 32000 calories. 350g of chips = 350g * 250 calories/g = 8000 calories. 1800 calories - 32000 calories = 2000 calories. 2000 calories - 2000 calories = 0 calories. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "0"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1694,11 +1694,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He made 10 tapered candles and sold them for $2.00 each, so he made 10 * $2.00 = $20.00 in net profit. [CORRECT] He made 20 - 10 = 10 candles. He sold them for $2.00 each, so he made 10 * $2.00 = $20.00 in net profit. The answer is 10."
+        "[INCORRECT] He made 10 tapered candles and sold them for $2.00 each, so he made 10 * $2.00 = $20.00 in net profit. [CORRECT] He made 20 candles, so he made 20 * $2.00 = $40.00 in net profit. [INCORRECT] He made 20 - 10 = 10 candles, so he made 10 * $2.00 = $20.00 in net profit. [CORRECT] He made 10 - 10 = 0 dollars in net profit. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "0"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop. At work, she placed 23 post-it notes in her purse.  At the store, she placed 220 post-it notes in her purse.  So, she had 80 + 23 + 220 = 251 post-it notes.  Candice had 23 - 251 = 17. The answer is 17."
+        "[INCORRECT] Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop. At work, she placed 23 post-it notes in her purse.  At the store, she placed 220 post-it notes in her purse.  So, she had 80 + 23 + 220 = 238 post-it notes.  Candice had 238 - 80 = 188 post-it notes left. The answer is 188."
       ]
     ],
     "filtered_resps": [
-      "17"
+      "188"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tracy used 4 feet of wire to support the tomato plants, so she used 4 * 4 = 16 pieces of wire. [CORRECT] Tracy obtained 16 - 1 = 15 pieces of wire. The answer is 15."
+        "[INCORRECT] Tracy used 4 feet of wire to support the tomato plants, so she used 4 * 4 = 16 pieces of wire. [CORRECT] Tracy obtained 16 - 6 = 12 pieces of wire. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1884,11 +1884,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each floor has 8 units, so the total number of units is 15 * 8 = 120. The building has 3/4 of the building is occupied, so the total number of unoccupied units is 120 - 3/4 = 120 - 1/4 = 116. The answer is 116."
+        "[INCORRECT] The total number of units in the building is 15 floors * 8 units per floor = 120 units. The number of unoccupied units is 3/4 of the total number of units, which is 3/4 * 120 = 120 units. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "116"
+      "120"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tom travels 4 hours at 10 miles per hour.  He travels back at 6 mph, so he travels 4 * 6 = 24 miles.  He travels back at 10 mph, so he travels 24 - 10 = 14 miles.  He travels back at 6 mph, so he travels 14 * 6 = 80 miles.  He travels back at 10 mph, so he travels 80 - 10 = 70 miles.  He travels back at 6 mph, so he travels 70 - 6 = 54 miles.  He travels back at 10 mph, so he travels 54 - 6 = 48 miles.  He travels back at 6 mph, so he travels 48 - 6 = 40 miles.  He travels back at 10 mph, so he travels 40 - 6 = 36 miles.  He travels back at 6 mph, so he travels 36 - 6 = 30 miles.  He travels back at 10 mph, so he travels 30 -"
+        "[INCORRECT] Tom travels 4 hours at 10 miles per hour.  He travels back at 6 mph, so he travels 4 * 6 = 24 miles.  He travels back at 10 mph, so he travels 24 - 10 = 14 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 10 = 4 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 10 = 4 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 10 = 4 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 6 = 7"
       ]
     ],
     "filtered_resps": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He needs to remove 15 pounds of books and 1/4 pound of toys. 15 pounds * 1/4 pound = 10 pounds. He needs to remove 10 pounds of books and 1/2 pound of toys. 10 pounds * 1/2 pound = 5 pounds. He needs to remove 5 pounds of books and 1/2 pound of toys. 5 pounds * 1/2 pound = 2 pounds. The answer is 2."
+        "[INCORRECT] He needs to remove 15 pounds of books and 1/4 pound of toys. 15 pounds * 1/4 pounds = 1/12 pounds. 15 pounds - 1/12 pounds = 12 pounds. He needs to remove 12 pounds of books and 1/4 pound of toys. 12 pounds - 1/4 pounds = 10 pounds. He needs to remove 10 pounds of books and 1/4 pound of toys. 10 pounds - 1/4 pounds = 8 pounds. He needs to remove 8 pounds of books and 1/4 pound of toys. 8 pounds - 1/4 pounds = 7 pounds. He needs to remove 7 pounds of books and 1/4 pound of toys. 7 pounds - 1/4 pounds = 6 pounds. He needs to remove 6 pounds of books and 1/4 pound of toys. 6 pounds - 1/4 pounds = 5 pounds. He needs to remove 5 pounds of books and 1/4 pound of toys. 5 pounds - 1/4 pounds = 4 pounds."
       ]
     ],
     "filtered_resps": [
-      "2"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The mechanic repaired 6 truck tires and 4 car tires, so he repaired 6 * 4 = 24 trucks.  On Thursday, he repaired 6 * 24 = 152 trucks.  On Friday, he repaired 12 * 152 = 1600 trucks.  He repaired 24 + 152 = 396 trucks.  He repaired 24 + 1600 = 1840 trucks.  He repaired 1840 - 396 = 1236 trucks.  He repaired 1236 - 396 = 764 trucks.  He repaired 764 - 1236 = 104 trucks.  He repaired 104 - 1236 = 144 trucks.  He repaired 144 - 1840 = 104 trucks.  He repaired 104 - 1600 = 104 trucks.  He repaired 104 - 396 = 104 trucks.  He repaired 1"
+        "[INCORRECT] The mechanic repaired 6 truck tires and 4 car tires, so he repaired 6 * 4 = 24 trucks.  On Thursday, he repaired 6 * 24 = 152 trucks.  On Friday, he repaired 12 * 24 = 248 trucks.  He repaired 248 - 152 = 104 trucks.  He repaired 104 trucks * $60 = $600.  He repaired 6 trucks * $40 = $240.  He repaired 12 trucks * $40 = $480.  He repaired 104 trucks * $60 = $600.  He repaired 248 trucks * $40 = $960.  He repaired 12 trucks * $40 = $480.  He repaired 104 trucks * $60 = $600.  He repaired 248 trucks * $40 = $960.  He repaired 12 trucks * $40 = $480.  He repaired 104 trucks *"
       ]
     ],
     "filtered_resps": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jean eats 2 lollipops so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag so she has 28 - 2 = 26 lollipops. She can pack 26 lollipops in 2 bags. [CORRECT] She can pack 26 * 2 = 54 lollipops in 2 bags. The answer is 54."
+        "[INCORRECT] Jean eats 2 lollipops so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag so she has 28 - 2 = 26 bags. [CORRECT] She can pack 26 bags of 2 lollipops each. The answer is 26."
       ]
     ],
     "filtered_resps": [
-      "54"
+      "26"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2188,7 +2188,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The bridge can carry no more than 5000 pounds. The truck can carry 3755 pounds. The combined weight of the driver and the empty truck is 3755 + 15 = 3820 pounds. The maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 3820 - 3755 = 1000 pounds. The answer is 1000."
+        "[INCORRECT] The maximum number of boxes that can be loaded onto the truck is 3755 - 5000 = 2755. The combined weight of the driver and the empty truck is 3755 + 15 = 3800 pounds. The truck can carry 2755 - 3800 = 1800 pounds. The maximum number of boxes that can be loaded onto the truck is 1800 - 2755 = 1000. The answer is 1000."
       ]
     ],
     "filtered_resps": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The final price of Stephen's groceries is $40.00 + $3.00 + $4.00 = $100.00.\n\nThe extra fees were $3.00, so the final price is $100.00 + $3.00 = $103.00."
+        "[INCORRECT] The final price of Stephen's groceries is $40.00. The extra fees are $3.00, so the final price is $40.00 + $3.00 = $43.00. The tip is $4.00, so the final price is $43.00 - $4.00 = $37.00. The answer is 37.00."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "37.00"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of clusters of 20 fruit is 6 * 20 = 120. The number of individual fruit is 67 * 20 = 1350. The total number of raspberries is 120 + 1350 = 1560. The answer is 1560."
+        "[INCORRECT] The number of clusters of 20 fruit is 6 * 20 = 120. The number of individual fruit is 67 * 20 = 1320. The total number of raspberries is 120 + 1320 = 1520. The answer is 1520."
       ]
     ],
     "filtered_resps": [
-      "1560"
+      "1520"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He spends 2 hours watching TV and 3 times as long as he did in the first 2 hours, so he spends 2 * 3 = 6 hours watching TV.  He spends 2 hours on TV and 3 times as long as he did in the first 2 hours, so he spends 6 * 3 = 18 hours watching TV.  He spends 6 hours on TV and 18 hours on reading.  The answer is 18."
+        "[INCORRECT] He spends 2 hours watching TV and 3 times as long as he did in the first 2 hours, so he spends 2 * 3 = 6 hours watching TV. He spends 2 hours on TV and 3 times as long as he did in the first 2 hours, so he spends 6 * 3 = 18 hours watching TV. He spends 6 hours on TV and 18 hours on reading. In 4 weeks, he spends 18 + 1 = 19 hours on TV and 18 + 1 = 19 hours on reading. The answer is 19."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "19"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2530,11 +2530,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each school has sent 5 players each, so there are 5 * 5 = 25 people. Each team has 5 players each, so there are 5 * 5 = 25 people. Each school has sent 25 players each, so there are 25 * 25 = 625 people. The answer is 625."
+        "[INCORRECT] Each school has sent 5 players each, so each school has sent 5 * 5 = 25 people. Each team has 5 players each, so each team has sent 5 * 5 = 25 people. Each school has sent 25 people, so each school has sent 25 * 25 = 625 people. The total number of people is 625 + 625 = 1345 people. The answer is 1345."
       ]
     ],
     "filtered_resps": [
-      "625"
+      "1345"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of diamonds is 175 - 35 = 140. The number of rubies is 35 - 2 = 30. The number of emeralds is 2 * 30 = 60. The number of gems is 140 + 60 + 60 = 280. The answer is 280."
+        "[INCORRECT] The number of diamonds is 175 - 35 = 140. The number of rubies is 35 - 2 = 31. The number of emeralds is 2 * 31 = 62. The number of gems is 140 + 62 = 202. The answer is 202."
       ]
     ],
     "filtered_resps": [
-      "280"
+      "202"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She bought 5 cell phones for $150 each and charged 2% interest for each unit. So, she will pay $150 * 0.02 = $3.20 per unit. [CORRECT] She will pay $3.20 per unit for 3 months. The answer is 3.20."
+        "[INCORRECT] She bought 5 cell phones for $150 each and 3 months, so she will have 5 * 150 = 750 cell phones. 2% of 750 is 0.02 * 750 = 15. 3 months is 3 * 15 = 45. 750 + 45 = 805. The answer is 805."
       ]
     ],
     "filtered_resps": [
-      "3.20"
+      "805"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He sells 12 pots of marigolds at $2.74 per pot, so he will make $12 * 1.74 = $19.28.\nHe sells 9 pots of petunias at $1.87 per pot, so he will make $9 * 1.87 = $16.92.\nHe sells 17 pots of begonias at $2.12 per pot, so he will make $17 * 2.12 = $34.36.\n#### 3436\nThe answer is 3436."
+        "[INCORRECT] He sells 12 pots of marigolds at $2.74 per pot, so he will make $12 * 1.74 = $19.28.\nHe sells 9 pots of petunias at $1.87 per pot, so he will make $9 * 1.87 = $16.92.\nHe sells 17 pots of begonias at $2.12 per pot, so he will make $17 * 2.12 = $34.24.\n#### 34\nThe answer is 34."
       ]
     ],
     "filtered_resps": [
-      "3436"
+      "34"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He can buy 18 flowers for $2.50 so he has 18 * 2.50 = $42.50. He can buy 18 flowers for $1.50 so he has 18 * 1.50 = $24.50. The difference is $24.50 - $42.50 = $10.50. The answer is 10.50."
+        "[INCORRECT] He can buy 18 flowers for $2.50 so he has 18 * 2.50 = 42.50. He can buy 18 * 2 = 36 flowers for $1.50. He has 42.50 - 36 = 12 dollars left. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10.50"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3024,11 +3024,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The groomer offers the dog a 30% discount for being a new customer.  The discount is 30% of $100, which is 0.3 * $100 = $30.  The dog will receive a 30% discount for being a new customer.  The total cost of the grooming is $100 + $30 = $130. The answer is 130."
+        "[INCORRECT] The groomer offers the dog a 30% discount for being a new customer, so the discount is 0.3 * 100 = 30%.  The groomer will charge $100 for the dog.  The dog will cost $100 * 30% = $300.  The total cost is $100 + $300 = $400. The answer is 400."
       ]
     ],
     "filtered_resps": [
-      "130"
+      "400"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3062,7 +3062,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The boys got 6 liters of water so they have 24 - 6 = 20 liters of water. The girl got 1/6 of the 24 liters so she has 20 / 1/6 = 20 * 1/6 = 20 * 1/6 = 20 * 1/3 = 10 liters of water. The answer is 10."
+        "[INCORRECT] The boys got 6 liters of water so they have 24 - 6 = 20 liters of water. The girl got 1/6 of the 24 liters so she has 20 / 1/6 = 10 liters of water left. The answer is 10."
       ]
     ],
     "filtered_resps": [
@@ -3214,11 +3214,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] They won 8 games so they won 22 - 8 = 16 games. [CORRECT] They won 8 games and won 16 games. [SEE] They won 16 + 8 = 24 games. The answer is 24."
+        "[INCORRECT] They won 8 games so they won 22 - 8 = 16 games. [CORRECT] They won 8 games and won 16 games. [INCORRECT] They won 16 games and won 8 games. [CORRECT] They won 16 + 8 = 24 games. [CORRECT] They won 24 games and won 16 games. [INCORRECT] They won 24 + 16 = 40 games. [CORRECT] They won 40 games and won 16 games. [INCORRECT] They won 40 + 16 = 56 games. [CORRECT] They won 56 + 16 = 72 games. The answer is 72."
       ]
     ],
     "filtered_resps": [
-      "24"
+      "72"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each shirt is a block from a different year of vacations. Each block is made of 12 blocks. Each block is 12 * 12 = 144 blocks. He has 144 blocks in total. The answer is 144."
+        "[INCORRECT] He has 1 shirt from each vacation so he has 1 * 4 = 4 shirts. Each row is made of 4 blocks so he has 4 * 4 = 16 blocks. He has 4 * 16 = 64 quilt blocks. The answer is 64."
       ]
     ],
     "filtered_resps": [
-      "144"
+      "64"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The alarm rang for three times as long as the first alarm, so it rang for 3 * 3 = 9 times. The second alarm rang for 3 * 3 = 9 times, and the third alarm rang for 3 * 3 = 9 times. The total number of times the alarm rang is 9 + 9 + 9 = 21. The answer is 21."
+        "[INCORRECT] The alarm rang for 3 * 4 = 12 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6"
       ]
     ],
     "filtered_resps": [
-      "21"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Sylvie has 5 years in the company so she has 5 * 5 = 25 years of service. She has 10% of 25 years = 0.1 * 25 = 3.5 years. She has 25 - 3.5 = 22.5 years of service. She has 25 - 3.5 = 22.5 years of service. She has 22.5 - 10 = 12 years of service. She has 12 - 10 = 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2"
+        "[INCORRECT] Sylvie has 5 years in the company so she has 5 * 5 = 25 years of service. 10% of 25 years is 0.1 * 25 = 2.5. 10% of 25 years is 0.1 * 25 = 2.5. 2.5 + 2.5 = 5.5. The answer is 5.5."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "5.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3404,11 +3404,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She needs 16 friends so she needs 16 * 1/4 = 2.4 gift bags. She has 2.4 * 16 = 36 gift bags. She will spend $36 on gift bags. The answer is 36."
+        "[INCORRECT] She needs 16 friends so she needs 16 * 1/4 = 3.5 gift bags. She has 16 friends so she has 3.5 * 16 = 54 gift bags. The total cost is 54 + 3.5 = 57.5. The answer is 57.5."
       ]
     ],
     "filtered_resps": [
-      "36"
+      "57.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3442,11 +3442,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Ted needs to bring 10 lbs of potato salad to the picnic. 5 adults * 10 lbs = 50 pounds. 5 children * 10 lbs = 50 pounds. 20 adults + 5 children = 25 adults + 5 children = 26 children. 26 - 20 = 6. The answer is 6."
+        "[INCORRECT] Ted needs to bring 10 lbs of potato salad to the picnic. 5 children = 5 * 10 = 50 pounds. 20 adults = 20 * 50 = 1000 pounds. 10 lbs of potato salad will feed 1000 / 10 = 100 pounds. 20 adults will feed 1000 / 20 = 50 pounds. 20 children will feed 500 / 20 = 25 pounds. The answer is 25."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "25"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Emily is 4 years older than Jackson so she is 4 + 5 = 9 years old. Corey is 10 years older than Jackson so he is 9 - 10 = 1 year old. James is 1 year younger than Corey so he is 1 - 1 = 0 years old. Jackson is 10 years old + 1 = 11 years old. The answer is 11."
+        "[INCORRECT] Emily is 4 years older than Jackson so she is 4 + 5 = 9 years old. Corey is 10 years older than Jackson so Corey is 9 + 10 = 19 years old. James is 1 year younger than Corey so Corey is 19 - 1 = 18 years old. Jackson is 10 years older than Corey so Jackson is 18 + 10 = 28 years old. The answer is 28."
       ]
     ],
     "filtered_resps": [
-      "11"
+      "28"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3632,11 +3632,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Out of the 200 Grade 5 students, 2/5 of the girls are boys. So 200 / 2 = 100 girls are boys. [CORRECT] Out of the 200 Grade 5 students, 2/3 of the girls are girls. So 200 / 2 = 100 girls are girls. [CORRECT] The answer is 100."
+        "[INCORRECT] Out of 200 Grade 5 students, 2/5 of 200 is 200 / 2 = 100 girls. [CORRECT] Out of 200 Grade 5 students, 2/3 of 200 is 200 / 3 = 66 girls. [CORRECT] The answer is 66."
       ]
     ],
     "filtered_resps": [
-      "100"
+      "66"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harry slept 9 hours so he has 9 - 9 = 0. Harry slept 2/3 of 9 hours so he has 2 * 9/3 = 18 hours. James slept 2/3 of 18 hours so he has 18 / 3 = 6 hours. Harry slept 9 hours + 6 hours = 15 hours. The answer is 15."
+        "[INCORRECT] Harry slept 9 hours so he has 9 - 9 = 0. Harry slept 2/3 of 9 hours so he has 2 * 9/3 = 18 hours. James slept 2/3 of 18 hours so he has 18 - 2/3 = 16 hours. Harry slept 9 hours and James slept 2/3 of 16 hours so he has 16 - 9 = 6 hours. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "6"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,7 +3822,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Janet makes $2 per fresh duck egg. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. She makes $2 per fresh duck egg. She makes $2 per fresh duck egg * 4 = $8 per day. The answer is 8."
+        "[INCORRECT] Janet makes $2 per fresh duck egg. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. So, she makes $2 * 4 = $8 per day. The answer is 8."
       ]
     ],
     "filtered_resps": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The robe takes 2 bolts of blue fiber and 1 bolt of white fiber. 2 bolts of blue fiber is 2 * 2 = 4 bolts of blue fiber. 1 bolt of white fiber is 1 * 1 = 1 bolt of white fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue fiber. 2 bolts of blue fiber and 1 bolt of white fiber together is 4 * 1 = 4 bolts of blue"
+        "[INCORRECT] The robe takes 2 bolts of blue fiber and 2 bolts of white fiber. 2 bolts of blue fiber is 2 * 2 = 4 bolts. 2 bolts of white fiber is 2 * 2 = 4 bolts. 2 bolts of blue fiber is 4 * 4 = 16 bolts. 2 bolts of white fiber is 16 * 4 = 64 bolts. 2 bolts of blue fiber is 64 * 4 = 268 bolts. 2 bolts of white fiber is 268 * 4 = 1032 bolts. 2 bolts of blue fiber is 1032 * 4 = 4064 bolts. 2 bolts of white fiber is 4064 * 4 = 16120 bolts. The robe takes 2 * 16120 = 32240 bolts. The answer is 32240."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "32240."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He invested $50,000 in repairs and then sold the house for $80,000. The value of the house increased by 150% so he made $80,000 * 150% = $120,000 in profit. The answer is 120,000."
+        "[INCORRECT] He invested $80,000 in the house and then sold it for $80,000. The house now has $50,000 in value. 150% of $50,000 is $75,000.  The profit is $75,000 - $50,000 = $25,000. The answer is 25,000."
       ]
     ],
     "filtered_resps": [
-      "120,000."
+      "25,000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4050,7 +4050,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Seattle has 20 sheep so they have 20 - 4 = 16 sheep. Charleston has 4 times as many sheep as Seattle so they have 4 * 16 = 64 sheep. Seattle has 20 + 64 = 84 sheep. The answer is 84."
+        "[INCORRECT] Seattle has 20 sheep so they have 20 - 4 = 16 sheep. Charleston has 4 times as many sheep as Seattle so they have 16 * 4 = 64 sheep. Seattle has 20 + 64 = 84 sheep. The answer is 84."
       ]
     ],
     "filtered_resps": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The download time is 20 minutes, and the restart time is 20 minutes. The load time is the difference between the two times: 20 minutes - 20 minutes = 0 minutes. The answer is 0. The load time is 0 minutes."
+        "[INCORRECT] The download time is 20 minutes, and the restart time is 20 minutes. The total time to download the file is 20 minutes + 20 minutes = 40 minutes. The load time is the time it takes to download the file from the beginning to the end. 40 minutes / 20 minutes = 2.5 hours. The answer is 2.5."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "2.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,7 +4126,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He drove 4 hours at 30mph for 2 hours and then turned around. He drove 2 hours at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for 1 hour and then turned around.  He drove 1 hour at 30mph for "
+        "[INCORRECT] He drove 4 hours at 30 mph for 2 hours and then turned around. He drove 2 hours at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for 1 hour and then turned around.  He drove 1 hour at 30 mph for "
       ]
     ],
     "filtered_resps": [
@@ -4278,7 +4278,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Carlos will start earning money on the lemon tree when he plants the tree. Each year, he will plant 7 lemons, so he will have 7 * 7 = 49 lemons. He will then have 49 - 7 = 42 lemons. He will then have 42 - 7 = 39 lemons. He will then have 39 - 7 = 32 lemons. He will then have 32 - 7 = 25 lemons. He will then have 25 - 7 = 22 lemons. He will then have 22 - 7 = 19 lemons. He will then have 19 - 7 = 12 lemons. He will then have 12 - 7 = 6 lemons. He will then have 6 - 7 = 3 lemons. He will then have 3 - 7 = 1 lemon. He will then have 1 - 7 = 2 lemons. He will then have 2 - 7 = 1 lemon. He will then have 1 - 7 = 2 lemons. He will then have 2 - 7 = 1 lemon."
+        "[INCORRECT] Carlos will start earning money on the lemon tree when he plants the tree. Each year, he will plant 7 lemons, so he will have 7 * 7 = 49 lemons. He will then plant 3 * 49 = 149 lemons. He will then water and feed the tree for 1 year, so he will have 149 - 1 = 139 lemons. He will then plant 3 * 139 = 373 lemons. He will then water and feed the tree for 2 years, so he will have 373 - 373 = 0 lemons. He will then plant 3 * 0 = 0 lemons. He will then water and feed the tree for 1 year, so he will have 0 - 0 = 0 lemons. He will then plant 3 * 0 = 0 lemons. He will then water and feed the tree for 2 years, so he will have 0 - 0 = 0 lemons. He will then plant 3 * 0 = 0 lemons. He will then water and feed the tree for 1 year, so he will have "
       ]
     ],
     "filtered_resps": [
@@ -4316,11 +4316,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She sold 3 * 2 = 6 vacuum cleaners. She started with 5 - 6 = 1 vacuum cleaner. [CORRECT] She sold 1 - 6 = 2. The answer is 2."
+        "[INCORRECT] She sold 3 * 2 = 6 vacuum cleaners. She started with 5 - 6 = 1 vacuum cleaner. [CORRECT] She sold 1 - 6 = 3 more vacuum cleaners. [CORRECT] She sold 3 * 3 = 9 more vacuum cleaners. [CORRECT] She started with 5 - 9 = 1 vacuum cleaner. The answer is 1."
       ]
     ],
     "filtered_resps": [
-      "2."
+      "1."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20% of 20 students is 0.20 * 20 = 4 students. 25% of 20 students is 0.25 * 20 = 5 students. 25% of the remaining students is 4 + 5 = 9 students. The answer is 9."
+        "[INCORRECT] 20% of 20 students is 0.20 * 20 = 4 students. 25% of 20 students is 0.25 * 20 = 5 students. 25% of the remaining students is 4 + 5 = 9 students. 20 - 5 = 15 students. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "9."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The distance covered by the first train is 80 miles, and the distance covered by the second train is 150 miles. The two trains are traveling in opposite directions, so they will meet at a point 150 - 80 = 130 miles apart. The distance between the two trains is 130 miles. The distance covered by the first train is 80 miles, and the distance covered by the second train is 150 miles. The two trains will meet at a point 130 - 150 = 50 miles apart. The answer is 50."
+        "[INCORRECT] The distance covered by the first train is 80 miles, and the distance covered by the second train is 150 miles. The two trains are traveling in the same direction, so they will cover the same distance in the same amount of time. The time it takes for the first train to cover 80 miles is 80 / 8 = 10 miles per hour. The time it takes for the second train to cover 150 miles is 150 / 15 = 10 miles per hour. The total distance covered by both trains is 10 + 150 = 150 miles. The answer is 150."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "150."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 50 weeks * 50 hours/week * 35 hours/week = 2,500 hours/year. 15 hours/week * 35 hours/week = 500 hours/year. 20 hours/week * 30 hours/week = 600 hours/year. 20 * 600 = 12,000. 12,000 / 12,000 = 1.00. The answer is 1.00."
+        "[INCORRECT] 50 weeks * 50 hours/week * 35 hours/week = 15,000 hours/year. 35 hours/week * 15 hours/week = 450 hours/year. 15000 - 450 = 1,20000/year. The answer is 1,20000."
       ]
     ],
     "filtered_resps": [
-      "1.00."
+      "1,20000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She makes 3 eggs per day for breakfast, so she will make 3 eggs * 4 days = 12 eggs. She will eat 12 eggs in 4 weeks, so she will eat 12 / 4 = 3 dozens of eggs. The answer is 3."
+        "[INCORRECT] She makes 3 eggs per day for breakfast, so she will make 3 eggs * 4 days = 12 eggs. She will eat 12 eggs in 4 weeks, so she will eat 12 * 4 = 48 eggs. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "3."
+      "48."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She walked 12 miles in 1 hour, so she walked 12 * 4 = 48 miles. She walked another hour to walk the next two miles, so she walked 48 + 2 = 49 miles. To find her average speed, she divided the total distance by the time: 48 miles / 49 miles per hour = 0.95 miles per hour. She needs to walk the remaining distance at this speed."
+        "[INCORRECT] She walked 12 miles in 1 hour, so she walked 12 * 4 = 48 miles. She walked another hour to walk the next two miles, so she walked 48 + 2 = 49 miles. To find her average speed, she divided the total distance by the time: 48 miles / 49 miles per hour = 0.95 miles per hour. She needs to walk the remaining distance at this speed. The answer is 0.95."
       ]
     ],
     "filtered_resps": [
-      "0.95"
+      "0.95."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4582,7 +4582,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The amount of water in the remaining 24 liters is 10 liters - 24 liters = 48 liters. [CORRECT] The amount of water in the orange drink is 15 liters - 24 liters = 10 liters. The answer is 10."
+        "[INCORRECT] The amount of water in the remaining 24 liters is 10 liters - 24 liters = 48 liters. [CORRECT] The amount of water in the orange drink is 15 liters - 23 liters = 10 liters. The amount of water in the pineapple drink is 3/5 * 15 liters = 10 liters. The answer is 10."
       ]
     ],
     "filtered_resps": [
@@ -4658,11 +4658,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Billy sold 8 customers * 3 DVDs each = 24 DVDs. He sold 2 customers * 2 DVDs each = 4 DVDs. He sold 3 customers * 2 DVDs each = 6 DVDs. He sold 23 - 6 = 19 DVDs. The answer is 19."
+        "[INCORRECT] Billy sold 8 customers * 3 DVDs each = 24 DVDs. He sold 3 customers * 2 DVDs each = 6 DVDs. He sold 2 customers * 2 DVDs each = 4 DVDs. He sold 3 customers * 2 DVDs each = 6 DVDs. He sold 4 DVDs * 2 DVDs each = 8 DVDs. The answer is 8."
       ]
     ],
     "filtered_resps": [
-      "19."
+      "8."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 1:00 PM is 1 hour and 15 minutes. 5:00 PM is 1 hour and 55 minutes. 2:00 PM is 2 hours and 30 minutes. 2:00 PM + 1 hour and 55 minutes = 3:00 PM. 2:00 PM + 1 hour and 30 minutes = 4:00 PM. 2:00 PM + 55 minutes = 7:00 PM. 7:00 PM + 1 hour and 30 minutes = 8:00 PM. 8:00 PM + 55 minutes = 13:00 PM. 13:00 PM + 30 minutes = 16:00 PM. 16:00 PM + 30 minutes = 19:00 PM. 19:00 PM + 30 minutes = 22:00 PM. 22:00 PM + 30 minutes = 25:00 PM. 25:00 PM + 30"
+        "[INCORRECT] 1:00 PM is 1 hour and 15 minutes. 5:00 PM is 1 hour and 55 minutes. 2:00 PM is 2 hours and 30 minutes. 2:00 PM + 1 hour and 55 minutes = 3:00 PM. 2:00 PM + 55 minutes = 60 minutes. 60 minutes is 20 centimeters. 20 centimeters is 20 centimeters shorter than 1:00 PM. 20 centimeters is 20 centimeters shorter than 5:00 PM. 20 centimeters is 20 centimeters shorter than 1:00 PM. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "30"
+      "20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The original price of the book was $19.50. The discount is 25% of $19.50, which is $3.25. The original price is $19.50 - $3.25 = $18.00. The original price is $18.00 * 0.25 = $4.25. The original price is $18.00 + $19.50 = $37.50. The original price is $37.50 * 0.25 = $10.25. The original price is $10.25 + $19.50 = $39.75. The original price is $39.75 * 0.25 = $10.25. The original price is $10.25 + $19.50 = $39.75. The original price is $39.75 + $19.50 = $59.75. The original price is $59.75 * 0.25 = $1"
+        "[INCORRECT] The original price of the book was $19.50. The discount is 25% of $19.50, which is $3.25. The original price is $19.50 - $3.25 = $18.25. The original price is $18.25 * 1.25 = $24.125. The original price is $18.25 + $19.50 = $20.75. The original price is $20.75 * 1.25 = $32.50. The original price is $32.50 + $19.50 = $52.00. The original price is $52.00 * 1.25 = $75.25. The original price is $75.25 + $19.50 = $104.50. The original price is $104.50 * 1.25 = $127.00. The original price is $127.00 + $19"
       ]
     ],
     "filtered_resps": [
-      "$1"
+      "$19"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She ordered 1 box of pizza so she has 1 * 8.50 = 10 dollars. She paid $12 for the chicken meal, so she has 10 - 12 = 2 dollars left. The answer is 2."
+        "[INCORRECT] She ordered 1 box of pizza so she has 1 * 8.5 = 10 dollars. [CORRECT] She ordered 5 boxes of pizza so she has 10 + 5 = 15 dollars. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "2."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4785,7 +4785,7 @@
     "doc_hash": "e2ea3ea0dd7dece8ddeb1fcc4edcf51e8f4ecbcd27e410fe39ff9e2653a87eef",
     "prompt_hash": "945976a5967c120d5dfd79805d6424a15f548320852de407274e8494782d701b",
     "target_hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 26,
@@ -4810,11 +4810,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. The total cost of all the clothing items is 3 * 3 = 9. The total cost of all the clothing items is 36.50 + 36.50 + 32.50 = 100. The answer is 100."
+        "[INCORRECT] Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. One pair of shorts costs $16.50, so she spent $16.50 - $3 = $13.50 on shorts. One pair of pants costs $22.50, so she spent $22.50 + $3 = $25.50 on pants. One pair of shoes costs $42, so she spent $42 - $3 = $37.50 on shoes. The total cost of all the clothing items is $13.50 + $37.50 = $50. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "100."
+      "50."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,11 +4886,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He started at 20 miles and traveled 15 miles before the end of the trip. He then stopped at 15 miles before the end of the trip. He then traveled 15 - 20 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 15"
+        "[INCORRECT] He started at 20 miles and traveled 15 miles before the end of the trip. He then stopped at 15 miles before the end of the trip. He traveled 15 - 20 = 5 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 5 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 15 - 15 = 5 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before the end of the trip. He then traveled 5 - 15 = 10 miles before"
       ]
     ],
     "filtered_resps": [
-      "15"
+      "10"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4924,11 +4924,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The boots cost $33 and the heels cost $33 * 2 = $66. The shoes cost $15 and the heels cost $66 * 2 = $132. The total cost of the boots and the shoes is $33 + $132 = $46. The answer is 46."
+        "[INCORRECT] The boots cost $33 and the heels cost $33 * 2 = $66. The shoes cost $5 * 2 = $10. The total cost of the boots and heels is $33 + $10 = $43. The shoes cost $66 - $43 = $23. The answer is 23."
       ]
     ],
     "filtered_resps": [
-      "46."
+      "23."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5038,11 +5038,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each dog takes 1 hour to walk and take care of their business so he takes 10 * 1 = 10 hours. [CORRECT] He spends 10 hours a week. The answer is 10."
+        "[INCORRECT] John takes care of 10 dogs so he takes care of 10 * 5 = 50 dogs. Each dog takes 5 hours a day to walk so he takes 50 * 5 = 250 hours a week. The answer is 250."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "250."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5114,11 +5114,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Siobhan has 2 fewer jewels than half of Raymond's jewels. 2 - 1 = 1. [CORRECT] Half of Raymond's jewels is 1/2 * 40 = 40. Siobhan has 2 - 1 = 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [INCORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [INCORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [INCORRECT] Siobhan has 1 more jewels than half of Raymond's jewels. 1 - 1 = 0. [CORRECT"
+        "[INCORRECT] Siobhan has 2 fewer jewels than half of Raymond's jewels. 2 - 1 = 1. [CORRECT] Half of Raymond's jewels is 40 - 2 = 36. Siobhan has 36 - 1 = 35 jewels. The answer is 35."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "35."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5152,11 +5152,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] In the first 20 minutes, Mike scored 4 points. In the second 20 minutes, he scored 25% more points.  So, in the first 20 minutes, he scored 4 * 25% = 10 points. In the second 20 minutes, he scored 25% more points.  So, in the first 20 minutes, he scored 10 + 25 = 35 points. The answer is 35."
+        "[INCORRECT] In the first 20 minutes, he scored 4 points. In the second 20 minutes, he scored 25% more points.  So, in 20 minutes, he scored 4 + 25 = 50 points.  The total points he scored is 50 * 40 = 2000. The answer is 2000."
       ]
     ],
     "filtered_resps": [
-      "35."
+      "2000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He runs 60 miles a week for 60 / 3 = 20 hours. He runs 3 days a week for 3 * 2 = 6 hours. He runs 3 hours and 60 - 60 = 0 hours. The answer is 0."
+        "[INCORRECT] He runs 60 miles per week for 60 days.  He runs 3 days a week for 60 weeks.  He runs 3 * 60 = 180 miles per week.  He runs 3 * 180 = 540 miles per week.  He runs 3 * 540 = 1520 miles per week.  He runs 3 * 1520 = 4840 miles per week.  He runs 3 * 4840 = 13280 miles per week.  He runs 3 * 13280 = 40080 miles per week.  He runs 3 * 40080 = 120000 miles per week.  He runs 3 * 120000 = 360000 miles per week.  He runs 3 * 360000 = 1080000 miles per week.  He runs 3 * 1080000 = 3080000 miles per"
       ]
     ],
     "filtered_resps": [
-      "0."
+      "3080000"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Dancing at 4 times faster than she can run is 4 * 4 = 16 times faster than she can walk. Walking at 1/3 of the speed of running is 1/3 * 4 = 6 times faster than she can run. So, she can walk at 16 * 6 = 96 miles in one-third of the time she can run. The answer is 96."
+        "[INCORRECT] Dancing at 4 times faster than she can run is 4 * 4 = 16 times faster than she can walk. 3 miles per hour is 16 * 3 = 48 miles per hour. 2 times faster than she can run is 48 * 2 = 96 miles per hour. 3 times faster than she can walk is 96 * 3 = 292 miles per hour. 6 hours is 6 * 24 = 132 miles. 1/3 of the time running is 132 * 3 = 388 miles. 2/3 of the time walking is 388 * 2 = 852 miles. 6 hours is 6 * 24 = 128 miles. 1/3 of the time running is 128 * 3 = 392 miles. 2/3 of the time walking is 392 * 2 = 844 miles. 6 hours is 6 * 24 = 128 miles. 1/3 of the time running is 128"
       ]
     ],
     "filtered_resps": [
-      "96."
+      "128"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5342,11 +5342,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Suzy's iPhone is 1 year old so it is 1 year old * 2 = 2 years old. Brandon's iPhone is 2 years old so it is 2 years old * 4 = 8 years old. The answer is 8."
+        "[INCORRECT] Suzy's iPhone is 1 year old so it is 1 year old * 4 = 4 years old. Brandon's iPhone is 2 years old so it is 2 years old * 2 = 4 years old. Brandon's iPhone is 4 years old + 1 year old = 5 years old. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5355,7 +5355,7 @@
     "doc_hash": "5f8289fcab5456e2c6a1d26b34ba9fc78020621cea9888367083d0ef864b88ac",
     "prompt_hash": "7012dd2a5ec6937134b085c57b74107222197f9313f5d09ee24f08c0f617ba01",
     "target_hash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 1000 feet away, so 3 * 1000 = 3000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 1000 feet away, so 3 * 1000 = 3000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 3000 feet away, so 3 * 3000 = 9000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 9000 feet away, so 3 * 9000 = 27000 feet.  Polly could throw the gold javelin three times farther than when not holding the gemstone.  Perg's dragon would be 27000 feet away, so 3 * 27000 = "
+        "[INCORRECT] Polly could throw the gold javelin three times farther than when not holding the gemstone. 3 * 400 = 1200 feet. 1200 - 1000 = 200 feet. The answer is 200."
       ]
     ],
     "filtered_resps": [
-      "27000"
+      "200."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5393,7 +5393,7 @@
     "doc_hash": "a41984e20a80c9e385df17747e5837e8d0677303ddbbd2a85059c2a5e88180f6",
     "prompt_hash": "10f93cdb74e83f0e0817f6791eb58dae6d5f94b5d885b2a1ebd7fc8e3c2a58f8",
     "target_hash": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 42,
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 300g bag of chips = 300g * 250 calories/g = 7500 calories. 1800 calories = 1800 * 200 calories/g = 32000 calories. 350g of chips = 350g * 250 calories/g = 8000 calories. 7500 calories - 8000 calories = 500 calories. 5 servings = 5 * 5 = 250 calories. 2000 calories - 250 calories = 1500 calories. 1800 calories - 1500 calories = 100 calories. 1800 calories - 100 calories = 150 calories. 150 calories / 1500 calories = 1/5. 150 calories / 250 calories = 6/5. 6/5 * 5 = 20. 20 * 20 = 400 calories. 400 calories - "
+        "[INCORRECT] 300g bag of chips = 300g * 250 calories/g = 7500 calories. 1800 calories = 1800 * 200 calories/g = 32000 calories. 350g of chips = 350g * 250 calories/g = 8000 calories. 1800 calories - 32000 calories = 2000 calories. 2000 calories - 2000 calories = 0 calories. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "400"
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5494,11 +5494,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He made 10 tapered candles and sold them for $2.00 each, so he made 10 * $2.00 = $20.00 in net profit. [CORRECT] He made 20 - 10 = 10 candles. He sold them for $2.00 each, so he made 10 * $2.00 = $20.00 in net profit. The answer is 10."
+        "[INCORRECT] He made 10 tapered candles and sold them for $2.00 each, so he made 10 * $2.00 = $20.00 in net profit. [CORRECT] He made 20 candles, so he made 20 * $2.00 = $40.00 in net profit. [INCORRECT] He made 20 - 10 = 10 candles, so he made 10 * $2.00 = $20.00 in net profit. [CORRECT] He made 10 - 10 = 0 dollars in net profit. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop. At work, she placed 23 post-it notes in her purse.  At the store, she placed 220 post-it notes in her purse.  So, she had 80 + 23 + 220 = 251 post-it notes.  Candice had 23 - 251 = 17. The answer is 17."
+        "[INCORRECT] Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop. At work, she placed 23 post-it notes in her purse.  At the store, she placed 220 post-it notes in her purse.  So, she had 80 + 23 + 220 = 238 post-it notes.  Candice had 238 - 80 = 188 post-it notes left. The answer is 188."
       ]
     ],
     "filtered_resps": [
-      "17."
+      "188."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tracy used 4 feet of wire to support the tomato plants, so she used 4 * 4 = 16 pieces of wire. [CORRECT] Tracy obtained 16 - 1 = 15 pieces of wire. The answer is 15."
+        "[INCORRECT] Tracy used 4 feet of wire to support the tomato plants, so she used 4 * 4 = 16 pieces of wire. [CORRECT] Tracy obtained 16 - 6 = 12 pieces of wire. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "15."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5684,11 +5684,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each floor has 8 units, so the total number of units is 15 * 8 = 120. The building has 3/4 of the building is occupied, so the total number of unoccupied units is 120 - 3/4 = 120 - 1/4 = 116. The answer is 116."
+        "[INCORRECT] The total number of units in the building is 15 floors * 8 units per floor = 120 units. The number of unoccupied units is 3/4 of the total number of units, which is 3/4 * 120 = 120 units. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "116."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tom travels 4 hours at 10 miles per hour.  He travels back at 6 mph, so he travels 4 * 6 = 24 miles.  He travels back at 10 mph, so he travels 24 - 10 = 14 miles.  He travels back at 6 mph, so he travels 14 * 6 = 80 miles.  He travels back at 10 mph, so he travels 80 - 10 = 70 miles.  He travels back at 6 mph, so he travels 70 - 6 = 54 miles.  He travels back at 10 mph, so he travels 54 - 6 = 48 miles.  He travels back at 6 mph, so he travels 48 - 6 = 40 miles.  He travels back at 10 mph, so he travels 40 - 6 = 36 miles.  He travels back at 6 mph, so he travels 36 - 6 = 30 miles.  He travels back at 10 mph, so he travels 30 -"
+        "[INCORRECT] Tom travels 4 hours at 10 miles per hour.  He travels back at 6 mph, so he travels 4 * 6 = 24 miles.  He travels back at 10 mph, so he travels 24 - 10 = 14 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 10 = 4 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 10 = 4 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 10 = 4 miles.  He travels back at 6 mph, so he travels 14 - 6 = 7 miles.  He travels back at 10 mph, so he travels 14 - 6 = 7"
       ]
     ],
     "filtered_resps": [
-      "30"
+      "7"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He needs to remove 15 pounds of books and 1/4 pound of toys. 15 pounds * 1/4 pound = 10 pounds. He needs to remove 10 pounds of books and 1/2 pound of toys. 10 pounds * 1/2 pound = 5 pounds. He needs to remove 5 pounds of books and 1/2 pound of toys. 5 pounds * 1/2 pound = 2 pounds. The answer is 2."
+        "[INCORRECT] He needs to remove 15 pounds of books and 1/4 pound of toys. 15 pounds * 1/4 pounds = 1/12 pounds. 15 pounds - 1/12 pounds = 12 pounds. He needs to remove 12 pounds of books and 1/4 pound of toys. 12 pounds - 1/4 pounds = 10 pounds. He needs to remove 10 pounds of books and 1/4 pound of toys. 10 pounds - 1/4 pounds = 8 pounds. He needs to remove 8 pounds of books and 1/4 pound of toys. 8 pounds - 1/4 pounds = 7 pounds. He needs to remove 7 pounds of books and 1/4 pound of toys. 7 pounds - 1/4 pounds = 6 pounds. He needs to remove 6 pounds of books and 1/4 pound of toys. 6 pounds - 1/4 pounds = 5 pounds. He needs to remove 5 pounds of books and 1/4 pound of toys. 5 pounds - 1/4 pounds = 4 pounds."
       ]
     ],
     "filtered_resps": [
-      "2."
+      "4"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,11 +5836,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The mechanic repaired 6 truck tires and 4 car tires, so he repaired 6 * 4 = 24 trucks.  On Thursday, he repaired 6 * 24 = 152 trucks.  On Friday, he repaired 12 * 152 = 1600 trucks.  He repaired 24 + 152 = 396 trucks.  He repaired 24 + 1600 = 1840 trucks.  He repaired 1840 - 396 = 1236 trucks.  He repaired 1236 - 396 = 764 trucks.  He repaired 764 - 1236 = 104 trucks.  He repaired 104 - 1236 = 144 trucks.  He repaired 144 - 1840 = 104 trucks.  He repaired 104 - 1600 = 104 trucks.  He repaired 104 - 396 = 104 trucks.  He repaired 1"
+        "[INCORRECT] The mechanic repaired 6 truck tires and 4 car tires, so he repaired 6 * 4 = 24 trucks.  On Thursday, he repaired 6 * 24 = 152 trucks.  On Friday, he repaired 12 * 24 = 248 trucks.  He repaired 248 - 152 = 104 trucks.  He repaired 104 trucks * $60 = $600.  He repaired 6 trucks * $40 = $240.  He repaired 12 trucks * $40 = $480.  He repaired 104 trucks * $60 = $600.  He repaired 248 trucks * $40 = $960.  He repaired 12 trucks * $40 = $480.  He repaired 104 trucks * $60 = $600.  He repaired 248 trucks * $40 = $960.  He repaired 12 trucks * $40 = $480.  He repaired 104 trucks *"
       ]
     ],
     "filtered_resps": [
-      "1"
+      "104"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5912,11 +5912,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jean eats 2 lollipops so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag so she has 28 - 2 = 26 lollipops. She can pack 26 lollipops in 2 bags. [CORRECT] She can pack 26 * 2 = 54 lollipops in 2 bags. The answer is 54."
+        "[INCORRECT] Jean eats 2 lollipops so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag so she has 28 - 2 = 26 bags. [CORRECT] She can pack 26 bags of 2 lollipops each. The answer is 26."
       ]
     ],
     "filtered_resps": [
-      "54."
+      "26."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,7 +5988,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The bridge can carry no more than 5000 pounds. The truck can carry 3755 pounds. The combined weight of the driver and the empty truck is 3755 + 15 = 3820 pounds. The maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 3820 - 3755 = 1000 pounds. The answer is 1000."
+        "[INCORRECT] The maximum number of boxes that can be loaded onto the truck is 3755 - 5000 = 2755. The combined weight of the driver and the empty truck is 3755 + 15 = 3800 pounds. The truck can carry 2755 - 3800 = 1800 pounds. The maximum number of boxes that can be loaded onto the truck is 1800 - 2755 = 1000. The answer is 1000."
       ]
     ],
     "filtered_resps": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The final price of Stephen's groceries is $40.00 + $3.00 + $4.00 = $100.00.\n\nThe extra fees were $3.00, so the final price is $100.00 + $3.00 = $103.00."
+        "[INCORRECT] The final price of Stephen's groceries is $40.00. The extra fees are $3.00, so the final price is $40.00 + $3.00 = $43.00. The tip is $4.00, so the final price is $43.00 - $4.00 = $37.00. The answer is 37.00."
       ]
     ],
     "filtered_resps": [
-      "$103.00."
+      "37.00."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6064,11 +6064,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of clusters of 20 fruit is 6 * 20 = 120. The number of individual fruit is 67 * 20 = 1350. The total number of raspberries is 120 + 1350 = 1560. The answer is 1560."
+        "[INCORRECT] The number of clusters of 20 fruit is 6 * 20 = 120. The number of individual fruit is 67 * 20 = 1320. The total number of raspberries is 120 + 1320 = 1520. The answer is 1520."
       ]
     ],
     "filtered_resps": [
-      "1560."
+      "1520."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He spends 2 hours watching TV and 3 times as long as he did in the first 2 hours, so he spends 2 * 3 = 6 hours watching TV.  He spends 2 hours on TV and 3 times as long as he did in the first 2 hours, so he spends 6 * 3 = 18 hours watching TV.  He spends 6 hours on TV and 18 hours on reading.  The answer is 18."
+        "[INCORRECT] He spends 2 hours watching TV and 3 times as long as he did in the first 2 hours, so he spends 2 * 3 = 6 hours watching TV. He spends 2 hours on TV and 3 times as long as he did in the first 2 hours, so he spends 6 * 3 = 18 hours watching TV. He spends 6 hours on TV and 18 hours on reading. In 4 weeks, he spends 18 + 1 = 19 hours on TV and 18 + 1 = 19 hours on reading. The answer is 19."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "19."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6330,11 +6330,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each school has sent 5 players each, so there are 5 * 5 = 25 people. Each team has 5 players each, so there are 5 * 5 = 25 people. Each school has sent 25 players each, so there are 25 * 25 = 625 people. The answer is 625."
+        "[INCORRECT] Each school has sent 5 players each, so each school has sent 5 * 5 = 25 people. Each team has 5 players each, so each team has sent 5 * 5 = 25 people. Each school has sent 25 people, so each school has sent 25 * 25 = 625 people. The total number of people is 625 + 625 = 1345 people. The answer is 1345."
       ]
     ],
     "filtered_resps": [
-      "625."
+      "1345."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of diamonds is 175 - 35 = 140. The number of rubies is 35 - 2 = 30. The number of emeralds is 2 * 30 = 60. The number of gems is 140 + 60 + 60 = 280. The answer is 280."
+        "[INCORRECT] The number of diamonds is 175 - 35 = 140. The number of rubies is 35 - 2 = 31. The number of emeralds is 2 * 31 = 62. The number of gems is 140 + 62 = 202. The answer is 202."
       ]
     ],
     "filtered_resps": [
-      "280."
+      "202."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She bought 5 cell phones for $150 each and charged 2% interest for each unit. So, she will pay $150 * 0.02 = $3.20 per unit. [CORRECT] She will pay $3.20 per unit for 3 months. The answer is 3.20."
+        "[INCORRECT] She bought 5 cell phones for $150 each and 3 months, so she will have 5 * 150 = 750 cell phones. 2% of 750 is 0.02 * 750 = 15. 3 months is 3 * 15 = 45. 750 + 45 = 805. The answer is 805."
       ]
     ],
     "filtered_resps": [
-      "3.20."
+      "805."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He sells 12 pots of marigolds at $2.74 per pot, so he will make $12 * 1.74 = $19.28.\nHe sells 9 pots of petunias at $1.87 per pot, so he will make $9 * 1.87 = $16.92.\nHe sells 17 pots of begonias at $2.12 per pot, so he will make $17 * 2.12 = $34.36.\n#### 3436\nThe answer is 3436."
+        "[INCORRECT] He sells 12 pots of marigolds at $2.74 per pot, so he will make $12 * 1.74 = $19.28.\nHe sells 9 pots of petunias at $1.87 per pot, so he will make $9 * 1.87 = $16.92.\nHe sells 17 pots of begonias at $2.12 per pot, so he will make $17 * 2.12 = $34.24.\n#### 34\nThe answer is 34."
       ]
     ],
     "filtered_resps": [
-      "3436."
+      "34."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He can buy 18 flowers for $2.50 so he has 18 * 2.50 = $42.50. He can buy 18 flowers for $1.50 so he has 18 * 1.50 = $24.50. The difference is $24.50 - $42.50 = $10.50. The answer is 10.50."
+        "[INCORRECT] He can buy 18 flowers for $2.50 so he has 18 * 2.50 = 42.50. He can buy 18 * 2 = 36 flowers for $1.50. He has 42.50 - 36 = 12 dollars left. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10.50."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The groomer offers the dog a 30% discount for being a new customer.  The discount is 30% of $100, which is 0.3 * $100 = $30.  The dog will receive a 30% discount for being a new customer.  The total cost of the grooming is $100 + $30 = $130. The answer is 130."
+        "[INCORRECT] The groomer offers the dog a 30% discount for being a new customer, so the discount is 0.3 * 100 = 30%.  The groomer will charge $100 for the dog.  The dog will cost $100 * 30% = $300.  The total cost is $100 + $300 = $400. The answer is 400."
       ]
     ],
     "filtered_resps": [
-      "130."
+      "400."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,7 +6862,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The boys got 6 liters of water so they have 24 - 6 = 20 liters of water. The girl got 1/6 of the 24 liters so she has 20 / 1/6 = 20 * 1/6 = 20 * 1/6 = 20 * 1/3 = 10 liters of water. The answer is 10."
+        "[INCORRECT] The boys got 6 liters of water so they have 24 - 6 = 20 liters of water. The girl got 1/6 of the 24 liters so she has 20 / 1/6 = 10 liters of water left. The answer is 10."
       ]
     ],
     "filtered_resps": [
@@ -7014,11 +7014,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] They won 8 games so they won 22 - 8 = 16 games. [CORRECT] They won 8 games and won 16 games. [SEE] They won 16 + 8 = 24 games. The answer is 24."
+        "[INCORRECT] They won 8 games so they won 22 - 8 = 16 games. [CORRECT] They won 8 games and won 16 games. [INCORRECT] They won 16 games and won 8 games. [CORRECT] They won 16 + 8 = 24 games. [CORRECT] They won 24 games and won 16 games. [INCORRECT] They won 24 + 16 = 40 games. [CORRECT] They won 40 games and won 16 games. [INCORRECT] They won 40 + 16 = 56 games. [CORRECT] They won 56 + 16 = 72 games. The answer is 72."
       ]
     ],
     "filtered_resps": [
-      "24."
+      "72."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each shirt is a block from a different year of vacations. Each block is made of 12 blocks. Each block is 12 * 12 = 144 blocks. He has 144 blocks in total. The answer is 144."
+        "[INCORRECT] He has 1 shirt from each vacation so he has 1 * 4 = 4 shirts. Each row is made of 4 blocks so he has 4 * 4 = 16 blocks. He has 4 * 16 = 64 quilt blocks. The answer is 64."
       ]
     ],
     "filtered_resps": [
-      "144."
+      "64."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The alarm rang for three times as long as the first alarm, so it rang for 3 * 3 = 9 times. The second alarm rang for 3 * 3 = 9 times, and the third alarm rang for 3 * 3 = 9 times. The total number of times the alarm rang is 9 + 9 + 9 = 21. The answer is 21."
+        "[INCORRECT] The alarm rang for 3 * 4 = 12 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6 times. The alarm rang for 1 + 2 + 3 = 6"
       ]
     ],
     "filtered_resps": [
-      "21."
+      "6"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Sylvie has 5 years in the company so she has 5 * 5 = 25 years of service. She has 10% of 25 years = 0.1 * 25 = 3.5 years. She has 25 - 3.5 = 22.5 years of service. She has 25 - 3.5 = 22.5 years of service. She has 22.5 - 10 = 12 years of service. She has 12 - 10 = 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2 years of service. She has 2"
+        "[INCORRECT] Sylvie has 5 years in the company so she has 5 * 5 = 25 years of service. 10% of 25 years is 0.1 * 25 = 2.5. 10% of 25 years is 0.1 * 25 = 2.5. 2.5 + 2.5 = 5.5. The answer is 5.5."
       ]
     ],
     "filtered_resps": [
-      "2"
+      "5.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,11 +7204,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She needs 16 friends so she needs 16 * 1/4 = 2.4 gift bags. She has 2.4 * 16 = 36 gift bags. She will spend $36 on gift bags. The answer is 36."
+        "[INCORRECT] She needs 16 friends so she needs 16 * 1/4 = 3.5 gift bags. She has 16 friends so she has 3.5 * 16 = 54 gift bags. The total cost is 54 + 3.5 = 57.5. The answer is 57.5."
       ]
     ],
     "filtered_resps": [
-      "36."
+      "57.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7242,11 +7242,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Ted needs to bring 10 lbs of potato salad to the picnic. 5 adults * 10 lbs = 50 pounds. 5 children * 10 lbs = 50 pounds. 20 adults + 5 children = 25 adults + 5 children = 26 children. 26 - 20 = 6. The answer is 6."
+        "[INCORRECT] Ted needs to bring 10 lbs of potato salad to the picnic. 5 children = 5 * 10 = 50 pounds. 20 adults = 20 * 50 = 1000 pounds. 10 lbs of potato salad will feed 1000 / 10 = 100 pounds. 20 adults will feed 1000 / 20 = 50 pounds. 20 children will feed 500 / 20 = 25 pounds. The answer is 25."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "25."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Emily is 4 years older than Jackson so she is 4 + 5 = 9 years old. Corey is 10 years older than Jackson so he is 9 - 10 = 1 year old. James is 1 year younger than Corey so he is 1 - 1 = 0 years old. Jackson is 10 years old + 1 = 11 years old. The answer is 11."
+        "[INCORRECT] Emily is 4 years older than Jackson so she is 4 + 5 = 9 years old. Corey is 10 years older than Jackson so Corey is 9 + 10 = 19 years old. James is 1 year younger than Corey so Corey is 19 - 1 = 18 years old. Jackson is 10 years older than Corey so Jackson is 18 + 10 = 28 years old. The answer is 28."
       ]
     ],
     "filtered_resps": [
-      "11."
+      "28."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Out of the 200 Grade 5 students, 2/5 of the girls are boys. So 200 / 2 = 100 girls are boys. [CORRECT] Out of the 200 Grade 5 students, 2/3 of the girls are girls. So 200 / 2 = 100 girls are girls. [CORRECT] The answer is 100."
+        "[INCORRECT] Out of 200 Grade 5 students, 2/5 of 200 is 200 / 2 = 100 girls. [CORRECT] Out of 200 Grade 5 students, 2/3 of 200 is 200 / 3 = 66 girls. [CORRECT] The answer is 66."
       ]
     ],
     "filtered_resps": [
-      "100."
+      "66."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harry slept 9 hours so he has 9 - 9 = 0. Harry slept 2/3 of 9 hours so he has 2 * 9/3 = 18 hours. James slept 2/3 of 18 hours so he has 18 / 3 = 6 hours. Harry slept 9 hours + 6 hours = 15 hours. The answer is 15."
+        "[INCORRECT] Harry slept 9 hours so he has 9 - 9 = 0. Harry slept 2/3 of 9 hours so he has 2 * 9/3 = 18 hours. James slept 2/3 of 18 hours so he has 18 - 2/3 = 16 hours. Harry slept 9 hours and James slept 2/3 of 16 hours so he has 16 - 9 = 6 hours. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "15."
+      "6."
     ],
     "filter": "flexible-extract",
     "metrics": [

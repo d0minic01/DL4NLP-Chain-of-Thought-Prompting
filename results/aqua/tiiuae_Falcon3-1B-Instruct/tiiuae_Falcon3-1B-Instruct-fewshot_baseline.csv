@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,aqua_fewshot_baseline,aqua,fewshot_baseline,fewshot_base,aqua-rat,0.24,0.0,636.9,4,100,22.72,11.13

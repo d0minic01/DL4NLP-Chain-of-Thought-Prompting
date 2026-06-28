@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "Today is 05/17/2008. 14 days from now is 05/18/2008. The answer is 05/18/2008."
+        "The last day of February is the 28th, so today is 05/28/2008. 14 days from now is 05/29/2008. The answer is 05/29/2008."
       ]
     ],
     "filtered_resps": [
-      "05/18/2008"
+      "05/29/2008"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -98,11 +98,11 @@
     ],
     "resps": [
       [
-        "Today is 04/03/2015. 30 days from now is 04/03/2016. The answer is 04/03/2016."
+        "Today is 04/03/2015. 30 days from now is 04/04/2015. The answer is 04/04/2015."
       ]
     ],
     "filtered_resps": [
-      "04/03/2016"
+      "04/04/2015"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -136,11 +136,11 @@
     ],
     "resps": [
       [
-        "10 days ago is 10/15/2016. 10 days before today is 10/16/2016. The answer is 10/16/2016."
+        "10 days ago is 10 days after today, which would be 10/15/2016. The answer is 10/15/2016."
       ]
     ],
     "filtered_resps": [
-      "10/16/2016"
+      "10/15/2016"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -212,11 +212,11 @@
     ],
     "resps": [
       [
-        "Today is 01/15/2016. 10 days from now is 01/16/2016. The answer is 01/16/2016."
+        "10 days from now is 10/15/2016. 10 days after today is 10/16/2016. The answer is 10/16/2016."
       ]
     ],
     "filtered_resps": [
-      "01/16/2016"
+      "10/16/2016"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1314,11 +1314,11 @@
     ],
     "resps": [
       [
-        "14 days from now is 14/1/2016. 14 days after today is 14/20/2016. The answer is 14/20/2016."
+        "The last day of February is the 28th, so today is 01/28/2016. 14 days from now is 01/29/2016. The answer is 01/29/2016."
       ]
     ],
     "filtered_resps": [
-      "14/20/2016"
+      "01/29/2016"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1327,7 +1327,7 @@
     "doc_hash": "06cf7d28b7b386ba6ba156a8843278dd9dec536d082b7a155c174e15c4edc3be",
     "prompt_hash": "1976486af7881b499311e71e327995db5df57ba0a488fbc4392d902a8e6995c4",
     "target_hash": "98395c3f8780a124ac531ede4f3259dc0fadfb08009c0d551236db43cf126376",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 35,
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "Today is 11/28/2018. 3 days ago is 11/28/2018. The answer is 11/28/2018."
+        "Today is 11/28/2018. 3 days ago is one day after today, which would be 11/29/2018. The answer is 11/29/2018."
       ]
     ],
     "filtered_resps": [
-      "11/28/2018"
+      "11/29/2018"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1694,11 +1694,11 @@
     ],
     "resps": [
       [
-        "Today is 02/14/2020. 7 days from now is 02/14/2020. The answer is 02/14/2020."
+        "Today is 02/14/2020. 7 days from now is 02/15/2020. The answer is 02/15/2020."
       ]
     ],
     "filtered_resps": [
-      "02/14/2020"
+      "02/15/2020"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "Today is 01/25/1998. 7 days ago is one day after today, which would be 01/26/1998. The answer is 01/26/1998."
+        "Today is 07/25/1998. 7 days ago is one day after today, which would be 07/26/1998. The answer is 07/26/1998."
       ]
     ],
     "filtered_resps": [
-      "01/26/1998"
+      "07/26/1998"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "Today is 12/25/1998. 30 days from now is 12/25/1998. The answer is 12/25/1998."
+        "Today is 12/25/1998. 30 days from now is 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
-      "12/25/1998"
+      "12/26/1998"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,11 +2036,11 @@
     ],
     "resps": [
       [
-        "Today is 01/15/2016. 30 days from now is 01/16/2016. The answer is 01/16/2016."
+        "The last day of February is the 28th, so today is 01/28/2016. 30 days from now is 01/29/2016. The answer is 01/29/2016."
       ]
     ],
     "filtered_resps": [
-      "01/16/2016"
+      "01/29/2016"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,7 +2226,7 @@
     ],
     "resps": [
       [
-        "Today is 08/19/1963. 10 days ago is 08/19/1963. The answer is 08/19/1963."
+        "Today is 08/19/1963. 10 days ago is one day after today, which would be 08/19/1963. The answer is 08/19/1963."
       ]
     ],
     "filtered_resps": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "The last day of February is the 28th, so today is 02/28/2020. 30 days from now is 02/28/2020. The answer is 02/28/2020."
+        "The last day of February is the 28th, so today is 02/28/2020. 30 days from now is 02/29/2020. The answer is 02/29/2020."
       ]
     ],
     "filtered_resps": [
-      "02/28/2020"
+      "02/29/2020"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2416,11 +2416,11 @@
     ],
     "resps": [
       [
-        "Today is 01/25/1998. 30 days ago is one day after today, which would be 01/26/1998. The answer is 01/26/1998."
+        "Today is 12/25/1998. 30 days ago is one day after today, which would be 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
-      "01/26/1998"
+      "12/26/1998"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2758,11 +2758,11 @@
     ],
     "resps": [
       [
-        "Today is 06/21/2012. 7 days ago is 06/21/2012. The answer is 06/21/2012."
+        "Today is 06/21/2012. 7 days ago is one day after today, which would be 06/22/2012. The answer is 06/22/2012."
       ]
     ],
     "filtered_resps": [
-      "06/21/2012"
+      "06/22/2012"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3024,11 +3024,11 @@
     ],
     "resps": [
       [
-        "Today is 02/14/2020. 1 days ago is 02/13/2020. The answer is 02/13/2020."
+        "Today is 02/14/2020. 1 day ago is 02/14/2020. The answer is 02/14/2020."
       ]
     ],
     "filtered_resps": [
-      "02/13/2020"
+      "02/14/2020"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3037,7 +3037,7 @@
     "doc_hash": "f4119b27889feab3133d8a401345b73bd18e9d7cd985bb13ae65afc105424150",
     "prompt_hash": "712154f375f46e07966ac096b888b01fb82d3238ebb35bbd65a0ced7f27660fb",
     "target_hash": "7d427a2780714d114861b83a7bf451b3e260b782236f453fe2978d1d97d0102d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 80,
@@ -3100,11 +3100,11 @@
     ],
     "resps": [
       [
-        "Today is 07/22/2001. 30 days from now is 07/22/2001. The answer is 07/22/2001."
+        "The last day of February is the 28th, so today is 07/22/2001. 30 days from now is 07/23/2001. The answer is 07/23/2001."
       ]
     ],
     "filtered_resps": [
-      "07/22/2001"
+      "07/23/2001"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3138,11 +3138,11 @@
     ],
     "resps": [
       [
-        "10 days ago is 10 days before today, which would be 10/18/2018. The answer is 10/18/2018."
+        "10 days ago is 10 days before today, which would be 10/10/2018. The answer is 10/10/2018."
       ]
     ],
     "filtered_resps": [
-      "10/18/2018"
+      "10/10/2018"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3746,11 +3746,11 @@
     ],
     "resps": [
       [
-        "The last day of February is the 21st, so today is 06/22/2012. 14 days ago is 06/22/2012. The answer is 06/22/2012."
+        "Today is 06/21/2012. 14 days ago is 06/21/2012. The answer is 06/21/2012."
       ]
     ],
     "filtered_resps": [
-      "06/22/2012"
+      "06/21/2012"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "Today is 05/17/2008. 14 days from now is 05/18/2008. The answer is 05/18/2008."
+        "The last day of February is the 28th, so today is 05/28/2008. 14 days from now is 05/29/2008. The answer is 05/29/2008."
       ]
     ],
     "filtered_resps": [
-      "05/18/2008"
+      "05/29/2008"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "Today is 04/03/2015. 30 days from now is 04/03/2016. The answer is 04/03/2016."
+        "Today is 04/03/2015. 30 days from now is 04/04/2015. The answer is 04/04/2015."
       ]
     ],
     "filtered_resps": [
-      "04/03/2016"
+      "04/04/2015"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3936,11 +3936,11 @@
     ],
     "resps": [
       [
-        "10 days ago is 10/15/2016. 10 days before today is 10/16/2016. The answer is 10/16/2016."
+        "10 days ago is 10 days after today, which would be 10/15/2016. The answer is 10/15/2016."
       ]
     ],
     "filtered_resps": [
-      "10/16/2016"
+      "10/15/2016"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4012,11 +4012,11 @@
     ],
     "resps": [
       [
-        "Today is 01/15/2016. 10 days from now is 01/16/2016. The answer is 01/16/2016."
+        "10 days from now is 10/15/2016. 10 days after today is 10/16/2016. The answer is 10/16/2016."
       ]
     ],
     "filtered_resps": [
-      "01/16/2016"
+      "10/16/2016"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5114,11 +5114,11 @@
     ],
     "resps": [
       [
-        "14 days from now is 14/1/2016. 14 days after today is 14/20/2016. The answer is 14/20/2016."
+        "The last day of February is the 28th, so today is 01/28/2016. 14 days from now is 01/29/2016. The answer is 01/29/2016."
       ]
     ],
     "filtered_resps": [
-      "14/20/2016"
+      "01/29/2016"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5127,7 +5127,7 @@
     "doc_hash": "06cf7d28b7b386ba6ba156a8843278dd9dec536d082b7a155c174e15c4edc3be",
     "prompt_hash": "1976486af7881b499311e71e327995db5df57ba0a488fbc4392d902a8e6995c4",
     "target_hash": "98395c3f8780a124ac531ede4f3259dc0fadfb08009c0d551236db43cf126376",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 35,
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "Today is 11/28/2018. 3 days ago is 11/28/2018. The answer is 11/28/2018."
+        "Today is 11/28/2018. 3 days ago is one day after today, which would be 11/29/2018. The answer is 11/29/2018."
       ]
     ],
     "filtered_resps": [
-      "11/28/2018"
+      "11/29/2018"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5494,11 +5494,11 @@
     ],
     "resps": [
       [
-        "Today is 02/14/2020. 7 days from now is 02/14/2020. The answer is 02/14/2020."
+        "Today is 02/14/2020. 7 days from now is 02/15/2020. The answer is 02/15/2020."
       ]
     ],
     "filtered_resps": [
-      "02/14/2020"
+      "02/15/2020"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Today is 01/25/1998. 7 days ago is one day after today, which would be 01/26/1998. The answer is 01/26/1998."
+        "Today is 07/25/1998. 7 days ago is one day after today, which would be 07/26/1998. The answer is 07/26/1998."
       ]
     ],
     "filtered_resps": [
-      "01/26/1998"
+      "07/26/1998"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "Today is 12/25/1998. 30 days from now is 12/25/1998. The answer is 12/25/1998."
+        "Today is 12/25/1998. 30 days from now is 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
-      "12/25/1998"
+      "12/26/1998"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,11 +5836,11 @@
     ],
     "resps": [
       [
-        "Today is 01/15/2016. 30 days from now is 01/16/2016. The answer is 01/16/2016."
+        "The last day of February is the 28th, so today is 01/28/2016. 30 days from now is 01/29/2016. The answer is 01/29/2016."
       ]
     ],
     "filtered_resps": [
-      "01/16/2016"
+      "01/29/2016"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,7 +6026,7 @@
     ],
     "resps": [
       [
-        "Today is 08/19/1963. 10 days ago is 08/19/1963. The answer is 08/19/1963."
+        "Today is 08/19/1963. 10 days ago is one day after today, which would be 08/19/1963. The answer is 08/19/1963."
       ]
     ],
     "filtered_resps": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "The last day of February is the 28th, so today is 02/28/2020. 30 days from now is 02/28/2020. The answer is 02/28/2020."
+        "The last day of February is the 28th, so today is 02/28/2020. 30 days from now is 02/29/2020. The answer is 02/29/2020."
       ]
     ],
     "filtered_resps": [
-      "02/28/2020"
+      "02/29/2020"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "Today is 01/25/1998. 30 days ago is one day after today, which would be 01/26/1998. The answer is 01/26/1998."
+        "Today is 12/25/1998. 30 days ago is one day after today, which would be 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
-      "01/26/1998"
+      "12/26/1998"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6558,11 +6558,11 @@
     ],
     "resps": [
       [
-        "Today is 06/21/2012. 7 days ago is 06/21/2012. The answer is 06/21/2012."
+        "Today is 06/21/2012. 7 days ago is one day after today, which would be 06/22/2012. The answer is 06/22/2012."
       ]
     ],
     "filtered_resps": [
-      "06/21/2012"
+      "06/22/2012"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "Today is 02/14/2020. 1 days ago is 02/13/2020. The answer is 02/13/2020."
+        "Today is 02/14/2020. 1 day ago is 02/14/2020. The answer is 02/14/2020."
       ]
     ],
     "filtered_resps": [
-      "02/13/2020"
+      "02/14/2020"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6837,7 +6837,7 @@
     "doc_hash": "f4119b27889feab3133d8a401345b73bd18e9d7cd985bb13ae65afc105424150",
     "prompt_hash": "712154f375f46e07966ac096b888b01fb82d3238ebb35bbd65a0ced7f27660fb",
     "target_hash": "7d427a2780714d114861b83a7bf451b3e260b782236f453fe2978d1d97d0102d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 80,
@@ -6900,11 +6900,11 @@
     ],
     "resps": [
       [
-        "Today is 07/22/2001. 30 days from now is 07/22/2001. The answer is 07/22/2001."
+        "The last day of February is the 28th, so today is 07/22/2001. 30 days from now is 07/23/2001. The answer is 07/23/2001."
       ]
     ],
     "filtered_resps": [
-      "07/22/2001"
+      "07/23/2001"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6938,11 +6938,11 @@
     ],
     "resps": [
       [
-        "10 days ago is 10 days before today, which would be 10/18/2018. The answer is 10/18/2018."
+        "10 days ago is 10 days before today, which would be 10/10/2018. The answer is 10/10/2018."
       ]
     ],
     "filtered_resps": [
-      "10/18/2018"
+      "10/10/2018"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "The last day of February is the 21st, so today is 06/22/2012. 14 days ago is 06/22/2012. The answer is 06/22/2012."
+        "Today is 06/21/2012. 14 days ago is 06/21/2012. The answer is 06/21/2012."
       ]
     ],
     "filtered_resps": [
-      "06/22/2012"
+      "06/21/2012"
     ],
     "filter": "flexible-extract",
     "metrics": [

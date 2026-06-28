@@ -30,11 +30,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the difference in time. 43 km - 43 km = 0 km. The answer is (c)."
+        "Step 1: Calculate the difference in time. 43 km - 43 km = 0 km. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -43,7 +43,7 @@
     "doc_hash": "5f40282913e4d55ba41c7592172024e47bf8f2c75c050efc2eb50a8c3c80acbc",
     "prompt_hash": "a0e1b37ad1651969eba6aa70ce4c61a84c0b2e63487152496128562791c73130",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 1,
@@ -122,7 +122,7 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the operation @. @ is defined as p^2 - pq. Step 2: Determine if the given numbers are positive or negative. 1 is positive, 2 is negative, 3 is positive, 4 is negative, 5 is positive, 6 is negative, 7 is positive, 8 is negative, 9 is positive, 10 is negative, 11 is positive, 12 is negative, 13 is positive, 14 is negative, 15 is positive, 16 is negative, 17 is positive, 18 is negative, 19 is positive, 20 is negative. Step 3: Determine if the given numbers are positive or negative. 1 is positive, 2 is negative, 3 is positive, 4 is negative, 5 is positive, 6 is negative, 7 is positive, 8 is negative, 9 is positive, 10 is negative, 11 is positive, 12 is negative, 13 is positive, 14 is negative, 15 is positive, 16 is negative, 17 is positive, 18 is"
+        "Step 1: Understand the problem. The operation @ is defined as p@q = p^2 - pq. If p and q are both non-zero, then x and y must be non-zero. If x and y are both non-zero, then xy must be non-zero.\n\nStep 2: Determine the possible values of x and y. If x and y are non-zero, then xy must be non-zero. If x and y are zero, then xy must be zero.\n\nStep 3: Determine the possible values of x and y. If x and y are non-zero, then x and y must be non-zero. If x and y are zero, then x and y must be zero.\n\nStep 4: Determine the possible values of x and y. If x and y are non-zero, then x and y must be non-zero. If x and y are zero, then x and y must be zero.\n\nStep 5: Determine the possible values of x and y. If x and y are non-zero, then x and y must be non-zero. If x and y are zero, then x and y must be zero.\n"
       ]
     ],
     "filtered_resps": [
@@ -306,7 +306,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the inequality. 5x + 11 \u2264 4. Step 2: Solve for x. 5x = 4. Solving for x, we get x = 4/5. The answer is (c)."
+        "Step 1: Simplify. (x^2 + 4x - 11)/5 \u2264 x + 1. Step 2: Divide by x. (x^2 + 4x - 11)/5 = (x + 1)(x - 11). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -352,7 +352,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of digits. 22,33,66, and 44 are all multiples of 22, 33, and 44, respectively. Step 2: Calculate the number of digits. 22, 33, and 44 are all multiples of 22, 33, and 44, respectively. Step 3: Calculate the number of digits. 22, 33, and 44 are all multiples of 22, 33, and 44, respectively. Step 4: Calculate the smallest number of digits. 22, 33, and 44 are all multiples of 22, 33, and 44, respectively, so the smallest number of digits is 22. The answer is (c)."
+        "Step 1: Determine the number of digits. 22, 33, 44 has 4 digits. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -398,11 +398,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate total amount spent. 6 years old twin brothers = 6 * 3 = 18. 18 + 3 = 21. 21 + 20 = 41. The answer is (c)."
+        "Step 1: Calculate total amount spent. 6 years old twin brothers = 6 * 3 = 18. 18 + 3 = 21. 21 + 20 = 41. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -444,7 +444,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine possible product. 8X + 9Y = 15. 15 = 2*3. The answer is (c)."
+        "Step 1: Determine possible product. 8X + 9Y = 15. 15 + 9Y = 12. 12 + 9Y = 31. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -490,7 +490,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate tip. 20% of $50 is 0.20 * 50 = $10. Step 2: Calculate tip amount. 20% of $50 is $10. 20% of $50 is $10 * 0.20 = $2.00. The answer is (c)."
+        "Step 1: Calculate tip. 20% of $50 = 0.2 * $50 = $10. Step 2: Calculate tip amount. 20% of $50 = 0.2 * $50 = $10. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -582,11 +582,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the remainder when p is divided by 10. 4^q = 4 * 10 = 40. The answer is (b)."
+        "Step 1: Determine the remainder when p is divided by 10. 4^q = 4 * 10 = 40. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -595,7 +595,7 @@
     "doc_hash": "783191b3ad498a67cc36c037553ce9a831b9f1cb0960b34921e0e7c0603d0f39",
     "prompt_hash": "086ed568e25abbdab5b7c54a952d5f8ed06c78474acfd5f285049c500de9bc8b",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 13,
@@ -628,11 +628,11 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the problem. 1 + 1 = 2, 2 + 1 = 3, 3 + 1 = 4, 4 + 1 = 5, 5 + 1 = 6, 6 + 1 = 7, 7 + 1 = 8, 8 + 1 = 9, 9 + 1 = 10, 10 + 1 = 11, 11 + 1 = 12, 12 + 1 = 13, 13 + 1 = 14, 14 + 1 = 15, 15 + 1 = 16, 16 + 1 = 17, 17 + 1 = 18, 18 + 1 = 19, 19 + 1 = 20, 20 + 1 = 21, 21 + 1 = 22, 22 + 1 = 23, 23 + 1 = 24, 24 + 1 = 25, "
+        "Step 1: Understand the problem. The question asks for the square of the next positive integer. The answer must be equal to the square of the next positive integer.\n\nStep 2: Calculate the square of the next positive integer. 100 = 100^2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -720,11 +720,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate keystrokes. 8a + 5b = 22. 3/4 * 8a + 5(3/4)b = 22. The answer is (e)."
+        "Step 1: Calculate keystrokes. 8a + 5b = 3/4. 3/4 = 1/2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -766,11 +766,11 @@
     ],
     "resps": [
       [
-        "Step 1: Check the conditions. k/l < 1, k^2/l < 1. Step 2: Simplify. 1 < 1/2 < 1/3. Step 3: Compare. 1/2 < 1/3. Step 4: Compare. 1/2 < 1/3. Step 5: Compare. 1/2 < 1/3. Step 6: Compare. 1/2 < 1/3. Step 7: Compare. 1/2 < 1/3. Step 8: Compare. 1/2 < 1/3. Step 9: Compare. 1/2 < 1/3. Step 10: Compare. 1/2 < 1/3. The answer is (c)."
+        "Step 1: Check the conditions. k/l < 1, k^2/l < 1, and both k and l are positive integers. Step 2: Calculate k^2/l^2. 1^2/1 = 1, 2^2/2 = 2, 3^2/3 = 3, 4^2/4 = 4, 5^2/5 = 5, 6^2/6 = 6, 7^2/7 = 7, 8^2/8 = 8, 9^2/9 = 9, 10^2/10 = 10, 11^2/11 = 11, 12^2/12 = 12, 13^2/13 = 13, 14^2/14 = 14, 15^2/15 = 15, 16^2/16 = 16, 17^2/17 = 17, 18^2/18 = 18, 19"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1226,7 +1226,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate ratio. 100% of 120 students = 120. The answer is (c)."
+        "Step 1: Calculate ratio. 10 fewer classes = 10 - 1 = 9 classes. Q = 3 * 9 = 27. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1410,7 +1410,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total area of the street. 148 feet * 20 feet = 2960 square feet. The answer is (c)."
+        "Step 1: Calculate the area of the street. 148 feet * 20 feet = 2964 square feet. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1456,11 +1456,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate simple interest. 2000 * 10% = 200. Simple interest is calculated by multiplying the amount by the interest rate. 200 * 10 = 200. The answer is (e)."
+        "Step 1: Calculate simple interest. 2000 * 10% = 200. Simple interest is calculated by multiplying the amount by the interest rate. 200 * 10 = 200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1469,7 +1469,7 @@
     "doc_hash": "69c0e7b70796c2c10a65f5a99938f463850b06baf3ea9be8960f7887115f37b9",
     "prompt_hash": "7516942a64337863fce40557be5780b79e51b15f4a9892037e0b7d363e25cfb2",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 32,
@@ -1548,11 +1548,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. -x2 - (k + 11)x - 8 = -(x - 2)(x - 4). Step 2: Combine like terms. -x2 - 11x - 8 = -x2 - 11x + 8. Step 3: Add and subtract. -11x + 8 = -11x - 8. Step 4: Divide by -11. -11x = -11/11. Step 5: Divide by -11. -x = -11/11. Step 6: Simplify. -x = -11/11. The answer is (c)."
+        "Step 1: Simplify the equation. -x2 - (k + 11)x - 8 = -(x - 2)(x - 4). Step 2: Combine like terms. -x2 - 10x - 12 = -(x - 2)(x - 4). Step 3: Add and subtract. 10x - 12 = -(x - 2)(x - 4). Step 4: Simplify. 10x - 12 = -(x - 2)(x - 4). Step 5: Combine like terms. 10x - 12 = -(x - 2)(x - 4). Step 6: Add and subtract. 10x - 12 = -(x - 2)(x - 4). Step 7: Simplify. 10x - 12 = -(x - 2)(x - 4). Step 8: Combine like terms. 10x - 12 = -(x - 2)(x - 4). Step 9: Add and subtract. 10x - "
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1561,7 +1561,7 @@
     "doc_hash": "c2a00105d73b4ae783dee263fe0033d37d51b4a597fddf271f91b28295fcbb1e",
     "prompt_hash": "833c74ea2f1ee7defce9c5dc8d4a1f919769a102f107e4bd985820abf3cd6707",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 34,
@@ -1594,7 +1594,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine factors. 15 and 30 are factors of 30. 60 is also a factor of 30. The answer is (b)."
+        "Step 1: Determine factors. 15 and 30 are both factors of 30. 60 is also a factor of 30. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate time taken by the pipe. 2*50 = 100 minutes. The answer is (c)."
+        "Step 1: Calculate time taken by the pipe. 2*50/1 = 100/1 = 100 min. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1778,7 +1778,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of days in the week. 22 days * 7 days/week = 157 days. The answer is (e)."
+        "Step 1: Determine the number of days in the week. 22 days * 7 days/week = 156 days. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1824,11 +1824,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Step 2: Add the fractions. 1/a + 1/b + 1/c = 1 + 1 + 1 = 4. The answer is (d)."
+        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Step 2: Add the fractions. 1/a + 1/b + 1/c = 1 + 1 + 1 = 4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1837,7 +1837,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "09de079bf1014078eb2a33220ea3310c5b8394ca73f61bc6d7ee948b5fe44432",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 40,
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the sum of the ages of the two sons. 4 years + 4 years = 8 years. The father's present age is 36 years. The answer is (c)."
+        "Step 1: Determine the sum of the ages of the two sons. 4 years + 4 years = 8 years. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1916,7 +1916,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate gain. 200gm * 10% = 200gm * 0.1 = 20gm. The answer is (c)."
+        "Step 1: Calculate the initial volume of coke. 200gm * 10% = 200gm * 0.01 = 20gm. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. 4-x + 3 = 8-x. Step 2: Subtract 3 from both sides. 4-x = 8. Step 3: Divide both sides by 4. 2x = 2. The answer is (c)."
+        "Step 1: Simplify the equation. 4-x + 3 = 8-x. Step 2: Solve for x. 4-x = 8 - 3. Step 3: Divide both sides by 4. 2 = 1. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2238,11 +2238,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate 70% of 2/7. 2/7 * 1 = 2/7. The answer is (e)."
+        "Step 1: Calculate 70% of 2/7. 2/7 * 1 = 2/7. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2251,7 +2251,7 @@
     "doc_hash": "5a5a392451e6ce4886e44e217726d451f5c4d9cea54509379a6218517521ecc3",
     "prompt_hash": "1aa4397d6c821a80e5f82ae0f5a1eb7bf74cd54af5103f3f560c488077185ffe",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 49,
@@ -2284,7 +2284,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the cost of painting the whole surface area. 13 paise per Sq.cm * 1300 cm = 1660000 paise. The answer is (c)."
+        "Step 1: Calculate the cost of painting the whole surface area. 13 paise per Sq.cm * 1300 cm = 16600 paise. The cost of painting the whole surface area is Rs. 16600 paise. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2376,7 +2376,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the ratio of the amount invested to the amount invested in the stock. 96% * 9% = 0.96 * 0.12 = 0.096. The answer is (c)."
+        "Step 1: Calculate ratio. 96% * 12% = 120%. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2514,7 +2514,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the numbers. 631 is divisible by 6, 630 is divisible by 9, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by "
+        "Step 1: Identify the divisors. 6, 9, 15, 35, 45, 60, 63, 66, 67, 69, 70, 71, 73, 75, 76, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, "
       ]
     ],
     "filtered_resps": [
@@ -2652,11 +2652,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate edge length. 7a = 7 * 1 = 7 cm. The answer is (c)."
+        "Step 1: Calculate edge length. 7a = 7 * 1 = 7 cm. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2665,7 +2665,7 @@
     "doc_hash": "b085486d6da20ac879ff3176ef7044cbc30e764911b13a9ccb4535e2e40710bf",
     "prompt_hash": "aa372b7ede2ec71053ba0e54ce40016b92c5318493e06aac9c370d0cebc3dc28",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 58,
@@ -3250,7 +3250,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate sum of squares. 351 = 3^2 * 3^2. Step 2: Calculate sum of products taken two at a time. 2 * 2 * 2 = 8. The answer is (e)."
+        "Step 1: Calculate sum of squares. 351^2 + 22^2 + 26^2 = 10000 + 4040 + 10000 = 100000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3296,11 +3296,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate area. 16 cm^2 * 16 cm^2 = 256 sq cm. The answer is (e)."
+        "Step 1: Calculate area. 16 cm^2 * 16 cm^2 = 256 cm^2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3342,11 +3342,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of solutions. 2^n = (\u20132)^n. 2^n = 2^(-n). 2^n = 2^(-n) = 2^(-n) * 2^n = 2^n. The answer is (e)."
+        "Step 1: Determine the number of solutions. 2^n = (\u20132)^n. 2^n = 2^(-n) = 2^(-n) * 2^n = 2^n. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3434,7 +3434,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate time. 15 sec * 180 m = 2880 m. The answer is (c)."
+        "Step 1: Calculate time. 15 sec * 18 sec = 320 sec. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate area. 25*sqrt(3) = 25*3 = 75. The answer is (c)."
+        "Step 1: Calculate area. 25*sqrt(3) = 25*sqrt(9) = 25*9 = 272 sq.cm. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate consumption. 60 kmph * 1 litre per hour = 60 litres. 1 litre = 1000 litres. 1000 litres * 1200 litres/litre = 1200000 litres. The answer is (c)."
+        "Step 1: Calculate consumption. 60 kmph * 1 litre per hour = 60 litres. 1 litre = 1000 litres. 1000 litres * 60 kmph = 60000 litres. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3756,7 +3756,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify. |w| = 2. Step 2: Compare with x. 2*w = 2*(-w) = -2w. The answer is (c)."
+        "Step 1: Simplify. |w| = 2. Step 2: Compare with 0. 2*(-w) = -w. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3802,11 +3802,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the percentage of the first number. 30% of 100 is 0.30 * 100 = 30%. The answer is (c)."
+        "Step 1: Calculate the difference. 30% of 20% is 0.3 * 0.2 = 0.06. 37% of 30% is 0.37 * 0.3 = 0.14. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3815,7 +3815,7 @@
     "doc_hash": "92885bddf156b0c047af931c76ee81e490427130036ace7aaa22c7030097a130",
     "prompt_hash": "a5906c24c467ffdbce533789f86e6e23d5c2ca01835cde5dca2ea15db6b22e99",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -3848,7 +3848,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of multiples of 11. 39 is divisible by 11, so 39 is a multiple of 11. Step 2: Calculate the number of multiples of 11. 11*1 = 11. The answer is (c)."
+        "Step 1: Determine the number of multiples of 11. 39 is a multiple of 11, so 39 is a multiple of 11. Step 2: Calculate the number of multiples of 11. 11*1 = 11. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3894,7 +3894,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the surface area of the cube. 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30. The answer is (e)."
+        "Step 1: Determine the surface area of the cube. 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4170,7 +4170,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the speed of train A. Speed = 60kmph. The answer is (c)."
+        "Step 1: Find the speed of train A. Speed = 60 kmph. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4216,11 +4216,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of boys. 1 boy = 1/3. The answer is (b)."
+        "Step 1: Calculate probability. 1 toy is chosen for each boy. 3 toys are chosen for each boy. 1 toy is chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4308,7 +4308,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate ratio. 5 : 4 = 1 : 3. The answer is (c)."
+        "Step 1: Calculate ratio. 5 : 4 = 1 : 2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4446,7 +4446,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate percentage change. 25% of the original area is 0.25 * 100 = 25%. The answer is (c)."
+        "Step 1: Calculate the percentage change. 25% of the original area is 25/100 = 0.25. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4492,11 +4492,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the difference. 20 - 8 = 12. The answer is (e)."
+        "Step 1: Calculate the difference. 20 - 8 = 12. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4505,7 +4505,7 @@
     "doc_hash": "c224f603859f66b837ac8fa2eabf8929ed8cfa1305d9508a787a56e6155a2568",
     "prompt_hash": "8d32e2e17b80ba4481bb92f6b441a416adf0f1c6c509f1212410aa0be1e17e58",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -4538,11 +4538,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate interest rate. 5% * 10 years = 5% of $500. The answer is (c)."
+        "Step 1: Calculate interest rate. 5% * 10 years = 5% of $500. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4630,11 +4630,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the difference in time. 43 km - 43 km = 0 km. The answer is (c)."
+        "Step 1: Calculate the difference in time. 43 km - 43 km = 0 km. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4643,7 +4643,7 @@
     "doc_hash": "5f40282913e4d55ba41c7592172024e47bf8f2c75c050efc2eb50a8c3c80acbc",
     "prompt_hash": "a0e1b37ad1651969eba6aa70ce4c61a84c0b2e63487152496128562791c73130",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 1,
@@ -4722,7 +4722,7 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the operation @. @ is defined as p^2 - pq. Step 2: Determine if the given numbers are positive or negative. 1 is positive, 2 is negative, 3 is positive, 4 is negative, 5 is positive, 6 is negative, 7 is positive, 8 is negative, 9 is positive, 10 is negative, 11 is positive, 12 is negative, 13 is positive, 14 is negative, 15 is positive, 16 is negative, 17 is positive, 18 is negative, 19 is positive, 20 is negative. Step 3: Determine if the given numbers are positive or negative. 1 is positive, 2 is negative, 3 is positive, 4 is negative, 5 is positive, 6 is negative, 7 is positive, 8 is negative, 9 is positive, 10 is negative, 11 is positive, 12 is negative, 13 is positive, 14 is negative, 15 is positive, 16 is negative, 17 is positive, 18 is"
+        "Step 1: Understand the problem. The operation @ is defined as p@q = p^2 - pq. If p and q are both non-zero, then x and y must be non-zero. If x and y are both non-zero, then xy must be non-zero.\n\nStep 2: Determine the possible values of x and y. If x and y are non-zero, then xy must be non-zero. If x and y are zero, then xy must be zero.\n\nStep 3: Determine the possible values of x and y. If x and y are non-zero, then x and y must be non-zero. If x and y are zero, then x and y must be zero.\n\nStep 4: Determine the possible values of x and y. If x and y are non-zero, then x and y must be non-zero. If x and y are zero, then x and y must be zero.\n\nStep 5: Determine the possible values of x and y. If x and y are non-zero, then x and y must be non-zero. If x and y are zero, then x and y must be zero.\n"
       ]
     ],
     "filtered_resps": [
@@ -4906,7 +4906,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the inequality. 5x + 11 \u2264 4. Step 2: Solve for x. 5x = 4. Solving for x, we get x = 4/5. The answer is (c)."
+        "Step 1: Simplify. (x^2 + 4x - 11)/5 \u2264 x + 1. Step 2: Divide by x. (x^2 + 4x - 11)/5 = (x + 1)(x - 11). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4952,7 +4952,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of digits. 22,33,66, and 44 are all multiples of 22, 33, and 44, respectively. Step 2: Calculate the number of digits. 22, 33, and 44 are all multiples of 22, 33, and 44, respectively. Step 3: Calculate the number of digits. 22, 33, and 44 are all multiples of 22, 33, and 44, respectively. Step 4: Calculate the smallest number of digits. 22, 33, and 44 are all multiples of 22, 33, and 44, respectively, so the smallest number of digits is 22. The answer is (c)."
+        "Step 1: Determine the number of digits. 22, 33, 44 has 4 digits. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4998,11 +4998,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate total amount spent. 6 years old twin brothers = 6 * 3 = 18. 18 + 3 = 21. 21 + 20 = 41. The answer is (c)."
+        "Step 1: Calculate total amount spent. 6 years old twin brothers = 6 * 3 = 18. 18 + 3 = 21. 21 + 20 = 41. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5044,7 +5044,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine possible product. 8X + 9Y = 15. 15 = 2*3. The answer is (c)."
+        "Step 1: Determine possible product. 8X + 9Y = 15. 15 + 9Y = 12. 12 + 9Y = 31. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5090,7 +5090,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate tip. 20% of $50 is 0.20 * 50 = $10. Step 2: Calculate tip amount. 20% of $50 is $10. 20% of $50 is $10 * 0.20 = $2.00. The answer is (c)."
+        "Step 1: Calculate tip. 20% of $50 = 0.2 * $50 = $10. Step 2: Calculate tip amount. 20% of $50 = 0.2 * $50 = $10. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5182,11 +5182,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the remainder when p is divided by 10. 4^q = 4 * 10 = 40. The answer is (b)."
+        "Step 1: Determine the remainder when p is divided by 10. 4^q = 4 * 10 = 40. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5195,7 +5195,7 @@
     "doc_hash": "783191b3ad498a67cc36c037553ce9a831b9f1cb0960b34921e0e7c0603d0f39",
     "prompt_hash": "086ed568e25abbdab5b7c54a952d5f8ed06c78474acfd5f285049c500de9bc8b",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 13,
@@ -5228,11 +5228,11 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the problem. 1 + 1 = 2, 2 + 1 = 3, 3 + 1 = 4, 4 + 1 = 5, 5 + 1 = 6, 6 + 1 = 7, 7 + 1 = 8, 8 + 1 = 9, 9 + 1 = 10, 10 + 1 = 11, 11 + 1 = 12, 12 + 1 = 13, 13 + 1 = 14, 14 + 1 = 15, 15 + 1 = 16, 16 + 1 = 17, 17 + 1 = 18, 18 + 1 = 19, 19 + 1 = 20, 20 + 1 = 21, 21 + 1 = 22, 22 + 1 = 23, 23 + 1 = 24, 24 + 1 = 25, "
+        "Step 1: Understand the problem. The question asks for the square of the next positive integer. The answer must be equal to the square of the next positive integer.\n\nStep 2: Calculate the square of the next positive integer. 100 = 100^2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5320,11 +5320,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate keystrokes. 8a + 5b = 22. 3/4 * 8a + 5(3/4)b = 22. The answer is (e)."
+        "Step 1: Calculate keystrokes. 8a + 5b = 3/4. 3/4 = 1/2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5366,11 +5366,11 @@
     ],
     "resps": [
       [
-        "Step 1: Check the conditions. k/l < 1, k^2/l < 1. Step 2: Simplify. 1 < 1/2 < 1/3. Step 3: Compare. 1/2 < 1/3. Step 4: Compare. 1/2 < 1/3. Step 5: Compare. 1/2 < 1/3. Step 6: Compare. 1/2 < 1/3. Step 7: Compare. 1/2 < 1/3. Step 8: Compare. 1/2 < 1/3. Step 9: Compare. 1/2 < 1/3. Step 10: Compare. 1/2 < 1/3. The answer is (c)."
+        "Step 1: Check the conditions. k/l < 1, k^2/l < 1, and both k and l are positive integers. Step 2: Calculate k^2/l^2. 1^2/1 = 1, 2^2/2 = 2, 3^2/3 = 3, 4^2/4 = 4, 5^2/5 = 5, 6^2/6 = 6, 7^2/7 = 7, 8^2/8 = 8, 9^2/9 = 9, 10^2/10 = 10, 11^2/11 = 11, 12^2/12 = 12, 13^2/13 = 13, 14^2/14 = 14, 15^2/15 = 15, 16^2/16 = 16, 17^2/17 = 17, 18^2/18 = 18, 19"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5826,7 +5826,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate ratio. 100% of 120 students = 120. The answer is (c)."
+        "Step 1: Calculate ratio. 10 fewer classes = 10 - 1 = 9 classes. Q = 3 * 9 = 27. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6010,7 +6010,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total area of the street. 148 feet * 20 feet = 2960 square feet. The answer is (c)."
+        "Step 1: Calculate the area of the street. 148 feet * 20 feet = 2964 square feet. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6056,11 +6056,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate simple interest. 2000 * 10% = 200. Simple interest is calculated by multiplying the amount by the interest rate. 200 * 10 = 200. The answer is (e)."
+        "Step 1: Calculate simple interest. 2000 * 10% = 200. Simple interest is calculated by multiplying the amount by the interest rate. 200 * 10 = 200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6069,7 +6069,7 @@
     "doc_hash": "69c0e7b70796c2c10a65f5a99938f463850b06baf3ea9be8960f7887115f37b9",
     "prompt_hash": "7516942a64337863fce40557be5780b79e51b15f4a9892037e0b7d363e25cfb2",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 32,
@@ -6148,11 +6148,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. -x2 - (k + 11)x - 8 = -(x - 2)(x - 4). Step 2: Combine like terms. -x2 - 11x - 8 = -x2 - 11x + 8. Step 3: Add and subtract. -11x + 8 = -11x - 8. Step 4: Divide by -11. -11x = -11/11. Step 5: Divide by -11. -x = -11/11. Step 6: Simplify. -x = -11/11. The answer is (c)."
+        "Step 1: Simplify the equation. -x2 - (k + 11)x - 8 = -(x - 2)(x - 4). Step 2: Combine like terms. -x2 - 10x - 12 = -(x - 2)(x - 4). Step 3: Add and subtract. 10x - 12 = -(x - 2)(x - 4). Step 4: Simplify. 10x - 12 = -(x - 2)(x - 4). Step 5: Combine like terms. 10x - 12 = -(x - 2)(x - 4). Step 6: Add and subtract. 10x - 12 = -(x - 2)(x - 4). Step 7: Simplify. 10x - 12 = -(x - 2)(x - 4). Step 8: Combine like terms. 10x - 12 = -(x - 2)(x - 4). Step 9: Add and subtract. 10x - "
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6161,7 +6161,7 @@
     "doc_hash": "c2a00105d73b4ae783dee263fe0033d37d51b4a597fddf271f91b28295fcbb1e",
     "prompt_hash": "833c74ea2f1ee7defce9c5dc8d4a1f919769a102f107e4bd985820abf3cd6707",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 34,
@@ -6194,7 +6194,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine factors. 15 and 30 are factors of 30. 60 is also a factor of 30. The answer is (b)."
+        "Step 1: Determine factors. 15 and 30 are both factors of 30. 60 is also a factor of 30. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -6332,7 +6332,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate time taken by the pipe. 2*50 = 100 minutes. The answer is (c)."
+        "Step 1: Calculate time taken by the pipe. 2*50/1 = 100/1 = 100 min. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6378,7 +6378,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of days in the week. 22 days * 7 days/week = 157 days. The answer is (e)."
+        "Step 1: Determine the number of days in the week. 22 days * 7 days/week = 156 days. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Step 2: Add the fractions. 1/a + 1/b + 1/c = 1 + 1 + 1 = 4. The answer is (d)."
+        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Step 2: Add the fractions. 1/a + 1/b + 1/c = 1 + 1 + 1 = 4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6437,7 +6437,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "09de079bf1014078eb2a33220ea3310c5b8394ca73f61bc6d7ee948b5fe44432",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 40,
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the sum of the ages of the two sons. 4 years + 4 years = 8 years. The father's present age is 36 years. The answer is (c)."
+        "Step 1: Determine the sum of the ages of the two sons. 4 years + 4 years = 8 years. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6516,7 +6516,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate gain. 200gm * 10% = 200gm * 0.1 = 20gm. The answer is (c)."
+        "Step 1: Calculate the initial volume of coke. 200gm * 10% = 200gm * 0.01 = 20gm. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. 4-x + 3 = 8-x. Step 2: Subtract 3 from both sides. 4-x = 8. Step 3: Divide both sides by 4. 2x = 2. The answer is (c)."
+        "Step 1: Simplify the equation. 4-x + 3 = 8-x. Step 2: Solve for x. 4-x = 8 - 3. Step 3: Divide both sides by 4. 2 = 1. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6838,11 +6838,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate 70% of 2/7. 2/7 * 1 = 2/7. The answer is (e)."
+        "Step 1: Calculate 70% of 2/7. 2/7 * 1 = 2/7. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6851,7 +6851,7 @@
     "doc_hash": "5a5a392451e6ce4886e44e217726d451f5c4d9cea54509379a6218517521ecc3",
     "prompt_hash": "1aa4397d6c821a80e5f82ae0f5a1eb7bf74cd54af5103f3f560c488077185ffe",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 49,
@@ -6884,7 +6884,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the cost of painting the whole surface area. 13 paise per Sq.cm * 1300 cm = 1660000 paise. The answer is (c)."
+        "Step 1: Calculate the cost of painting the whole surface area. 13 paise per Sq.cm * 1300 cm = 16600 paise. The cost of painting the whole surface area is Rs. 16600 paise. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6976,7 +6976,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the ratio of the amount invested to the amount invested in the stock. 96% * 9% = 0.96 * 0.12 = 0.096. The answer is (c)."
+        "Step 1: Calculate ratio. 96% * 12% = 120%. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7114,7 +7114,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the numbers. 631 is divisible by 6, 630 is divisible by 9, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by 15, 630 is divisible by 35, 630 is divisible by 45, 630 is divisible by 99, 630 is divisible by "
+        "Step 1: Identify the divisors. 6, 9, 15, 35, 45, 60, 63, 66, 67, 69, 70, 71, 73, 75, 76, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, "
       ]
     ],
     "filtered_resps": [
@@ -7252,11 +7252,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate edge length. 7a = 7 * 1 = 7 cm. The answer is (c)."
+        "Step 1: Calculate edge length. 7a = 7 * 1 = 7 cm. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7265,7 +7265,7 @@
     "doc_hash": "b085486d6da20ac879ff3176ef7044cbc30e764911b13a9ccb4535e2e40710bf",
     "prompt_hash": "aa372b7ede2ec71053ba0e54ce40016b92c5318493e06aac9c370d0cebc3dc28",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 58,
@@ -7850,7 +7850,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate sum of squares. 351 = 3^2 * 3^2. Step 2: Calculate sum of products taken two at a time. 2 * 2 * 2 = 8. The answer is (e)."
+        "Step 1: Calculate sum of squares. 351^2 + 22^2 + 26^2 = 10000 + 4040 + 10000 = 100000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7896,11 +7896,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate area. 16 cm^2 * 16 cm^2 = 256 sq cm. The answer is (e)."
+        "Step 1: Calculate area. 16 cm^2 * 16 cm^2 = 256 cm^2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7942,11 +7942,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of solutions. 2^n = (\u20132)^n. 2^n = 2^(-n). 2^n = 2^(-n) = 2^(-n) * 2^n = 2^n. The answer is (e)."
+        "Step 1: Determine the number of solutions. 2^n = (\u20132)^n. 2^n = 2^(-n) = 2^(-n) * 2^n = 2^n. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8034,7 +8034,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate time. 15 sec * 180 m = 2880 m. The answer is (c)."
+        "Step 1: Calculate time. 15 sec * 18 sec = 320 sec. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8080,7 +8080,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate area. 25*sqrt(3) = 25*3 = 75. The answer is (c)."
+        "Step 1: Calculate area. 25*sqrt(3) = 25*sqrt(9) = 25*9 = 272 sq.cm. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate consumption. 60 kmph * 1 litre per hour = 60 litres. 1 litre = 1000 litres. 1000 litres * 1200 litres/litre = 1200000 litres. The answer is (c)."
+        "Step 1: Calculate consumption. 60 kmph * 1 litre per hour = 60 litres. 1 litre = 1000 litres. 1000 litres * 60 kmph = 60000 litres. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8356,7 +8356,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify. |w| = 2. Step 2: Compare with x. 2*w = 2*(-w) = -2w. The answer is (c)."
+        "Step 1: Simplify. |w| = 2. Step 2: Compare with 0. 2*(-w) = -w. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8402,11 +8402,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the percentage of the first number. 30% of 100 is 0.30 * 100 = 30%. The answer is (c)."
+        "Step 1: Calculate the difference. 30% of 20% is 0.3 * 0.2 = 0.06. 37% of 30% is 0.37 * 0.3 = 0.14. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8415,7 +8415,7 @@
     "doc_hash": "92885bddf156b0c047af931c76ee81e490427130036ace7aaa22c7030097a130",
     "prompt_hash": "a5906c24c467ffdbce533789f86e6e23d5c2ca01835cde5dca2ea15db6b22e99",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -8448,7 +8448,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of multiples of 11. 39 is divisible by 11, so 39 is a multiple of 11. Step 2: Calculate the number of multiples of 11. 11*1 = 11. The answer is (c)."
+        "Step 1: Determine the number of multiples of 11. 39 is a multiple of 11, so 39 is a multiple of 11. Step 2: Calculate the number of multiples of 11. 11*1 = 11. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8494,7 +8494,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the surface area of the cube. 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30. The answer is (e)."
+        "Step 1: Determine the surface area of the cube. 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8770,7 +8770,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the speed of train A. Speed = 60kmph. The answer is (c)."
+        "Step 1: Find the speed of train A. Speed = 60 kmph. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8816,11 +8816,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of boys. 1 boy = 1/3. The answer is (b)."
+        "Step 1: Calculate probability. 1 toy is chosen for each boy. 3 toys are chosen for each boy. 1 toy is chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for each boy. 3 toys are chosen for"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8908,7 +8908,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate ratio. 5 : 4 = 1 : 3. The answer is (c)."
+        "Step 1: Calculate ratio. 5 : 4 = 1 : 2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -9046,7 +9046,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate percentage change. 25% of the original area is 0.25 * 100 = 25%. The answer is (c)."
+        "Step 1: Calculate the percentage change. 25% of the original area is 25/100 = 0.25. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -9092,11 +9092,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the difference. 20 - 8 = 12. The answer is (e)."
+        "Step 1: Calculate the difference. 20 - 8 = 12. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9105,7 +9105,7 @@
     "doc_hash": "c224f603859f66b837ac8fa2eabf8929ed8cfa1305d9508a787a56e6155a2568",
     "prompt_hash": "8d32e2e17b80ba4481bb92f6b441a416adf0f1c6c509f1212410aa0be1e17e58",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -9138,11 +9138,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate interest rate. 5% * 10 years = 5% of $500. The answer is (c)."
+        "Step 1: Calculate interest rate. 5% * 10 years = 5% of $500. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "The answer is l."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "The answer is l."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "The answer is h."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "h"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -415,7 +415,7 @@
     "doc_hash": "7df7ca745999217faaffb3ec18e85806dcdf3e9a291521ffa762cb8b340dcd99",
     "prompt_hash": "f468647b15d1d85c363fd593956542dfdbad41c5f90080475c868fd5a89448e5",
     "target_hash": "aaa9402664f1a41f40ebbc52c9993eb66aeb366602958fdfaa283b71e64db123",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 11,
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "The answer is k."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "k"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "The answer is a."
+        "The answer is o."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "o"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2416,11 +2416,11 @@
     ],
     "resps": [
       [
-        "The answer is a."
+        "The answer is o."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "o"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "The answer is l."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "The answer is l."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "The answer is h."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "h"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4215,7 +4215,7 @@
     "doc_hash": "7df7ca745999217faaffb3ec18e85806dcdf3e9a291521ffa762cb8b340dcd99",
     "prompt_hash": "f468647b15d1d85c363fd593956542dfdbad41c5f90080475c868fd5a89448e5",
     "target_hash": "aaa9402664f1a41f40ebbc52c9993eb66aeb366602958fdfaa283b71e64db123",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 11,
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "The answer is k."
+        "The answer is a."
       ]
     ],
     "filtered_resps": [
-      "k"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "The answer is a."
+        "The answer is o."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "o"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "The answer is a."
+        "The answer is o."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "o"
     ],
     "filter": "flexible-extract",
     "metrics": [

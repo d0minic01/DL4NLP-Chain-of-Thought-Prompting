@@ -136,11 +136,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"n\". Victor shifts it: n -> n. Rachel shifts it: n -> n. Jack shifts it: n -> n. Noah does not shift it: stays at n. The answer is n."
+        "The letter starts as \"n\". Victor shifts it: n -> z. Rachel shifts it: z wraps around to a. Jack shifts it: z -> a. Noah does not shift it: stays at a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"d\". Jack shifts it: d -> e. Oscar shifts it: e -> f. The answer is f."
+        "The letter starts as \"d\". Jack shifts it: d -> e. Oscar does not shift it: stays at e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -567,7 +567,7 @@
     "doc_hash": "43d3f003d726b2634ad2c48398d4fc48a3051ec050bd89dbf0660fe7cb16e89e",
     "prompt_hash": "253f98b86ff0ca0bc3d7db9266bc1953092e1c9ecc2883442ecedd723670db9a",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 15,
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"h\". Dan shifts it: h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h"
+        "The letter starts as \"h\". Dan shifts it: h -> h. Peter shifts it: h -> h. Kevin does not shift it: stays at h. The answer is h."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "h"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"y\". Ivan shifts it: y -> z. Iris shifts it: z wraps around to a. Noah does not shift it: stays at a. The answer is a."
+        "The letter starts as \"y\". Ivan shifts it: y -> z. Iris does not shift it: stays at z. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "z"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -795,7 +795,7 @@
     "doc_hash": "0d6f0d976e8bdd5fe405de8b32a99ecc8cfcbc2283746da8e5224dbfe8424876",
     "prompt_hash": "0f01275ffd544b02099d4b30bb59b7ad9c9d98ddc1feedc336d60cbc584cc5af",
     "target_hash": "594e519ae499312b29433b7dd8a97ff068defcba9755b6d5d00e84c524d67b06",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 21,
@@ -1010,7 +1010,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"p\". Noah shifts it: p -> p. Ivan shifts it: p -> p. Iris does not shift it: stays at p. Vince does not shift it: stays at p. The answer is p."
+        "The letter starts as \"p\". Noah does not shift it: stays at p. Vince does not shift it: stays at p. The answer is p."
       ]
     ],
     "filtered_resps": [
@@ -1276,11 +1276,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"z\". Diana shifts it: z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z"
+        "The letter starts as \"z\". Diana shifts it: z wraps around to a. Sam shifts it: z stays at z. Beth shifts it: z wraps around to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1352,7 +1352,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"s\". Ethan shifts it: s -> s. George shifts it: s -> s. Noah does not shift it: stays at s. The answer is s."
+        "The letter starts as \"s\". Ethan shifts it: s -> s. George shifts it: s -> s. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"b\". Xander shifts it: b -> d. Tina shifts it: d -> e. Xander does not shift it: stays at e. The answer is e."
+        "The letter starts as \"b\". Xander shifts it: b -> d. Tina shifts it: d -> e. Xander does not shift it: stays at a. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"h\". Mia shifts it: h -> i. Diana shifts it: i -> j. Wendy shifts it: j -> k. The answer is k."
+        "The letter starts as \"h\". Mia shifts it: h -> h. Diana shifts it: h -> h. Wendy shifts it: h -> h. The answer is h."
       ]
     ],
     "filtered_resps": [
-      "k"
+      "h"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"k\". Nina shifts it: k -> k. Ray shifts it: k -> k. Henry does not shift it: stays at k. The answer is k."
+        "The letter starts as \"k\". Nina shifts it: k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k"
       ]
     ],
     "filtered_resps": [
-      "k"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2277,7 +2277,7 @@
     "doc_hash": "8121849017d2e8b01c26d12d2aaa2f9d9f6317dc4151e01d366620448a8b68ab",
     "prompt_hash": "9b2577cca33913cf4485edaf078533c8f5a60e7d17a5d73cc1aa5e26d2e7879b",
     "target_hash": "8254c329a92850f6d539dd376f4816ee2764517da5e0235514af433164480d7a",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 60,
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"x\". Liam shifts it: x -> y. Nina shifts it: y -> z. Kevin shifts it: z wraps around to a. Noah does not shift it: stays at a. The answer is a."
+        "The letter starts as \"x\". Liam shifts it: x -> y. Nina shifts it: y -> z. Kevin shifts it: z wraps around to a. Tina shifts it: a -> b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2530,7 +2530,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"n\". Oscar shifts it: n -> n. Kevin shifts it: n -> n. The answer is n."
+        "The letter starts as \"n\". Oscar shifts it: n -> n. Kevin shifts it: n -> n. Mia does not shift it: stays at n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -2948,7 +2948,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"n\". Fiona shifts it: n -> n. Bob does not shift it: stays at n. Yara shifts it: n -> n. Noah does not shift it: stays at n. The answer is n."
+        "The letter starts as \"n\". Fiona shifts it: n -> n. Bob does not shift it: stays at n. Yara shifts it: n -> n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"k\". Victor shifts it: k -> z. Yara shifts it: z wraps around to a. Rachel shifts it: a -> b. Yara does not shift it: stays at a. The answer is b."
+        "The letter starts as \"k\". Victor shifts it: k -> z. Yara does not shift it: z wraps around to a. Rachel shifts it: z -> a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3556,11 +3556,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"w\". Fiona shifts it: w -> w. Caleb shifts it: w -> w. Bob does not shift it: stays at w. Frank shifts it: w -> w. The answer is w."
+        "The letter starts as \"w\". Fiona shifts it: w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w ->"
       ]
     ],
     "filtered_resps": [
-      "w"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"x\". Laura shifts it: x -> z. Hannah shifts it: z wraps around to a. Marcus shifts it: a -> b. The answer is b."
+        "The letter starts as \"x\". Laura shifts it: x -> y. Hannah shifts it: y -> z. Marcus shifts it: z wraps around to a. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "z"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3721,7 +3721,7 @@
     "doc_hash": "34ebf8f37f78c4e7b76519de3978aa5f540112cbcf271aa98ba6eba7b71a3bb7",
     "prompt_hash": "9644c57453889bb6b6cac5e43d8a50128189c6900c701873bcdfcb7c8fa15a7d",
     "target_hash": "594e519ae499312b29433b7dd8a97ff068defcba9755b6d5d00e84c524d67b06",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -3936,11 +3936,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"n\". Victor shifts it: n -> n. Rachel shifts it: n -> n. Jack shifts it: n -> n. Noah does not shift it: stays at n. The answer is n."
+        "The letter starts as \"n\". Victor shifts it: n -> z. Rachel shifts it: z wraps around to a. Jack shifts it: z -> a. Noah does not shift it: stays at a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"d\". Jack shifts it: d -> e. Oscar shifts it: e -> f. The answer is f."
+        "The letter starts as \"d\". Jack shifts it: d -> e. Oscar does not shift it: stays at e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4367,7 +4367,7 @@
     "doc_hash": "43d3f003d726b2634ad2c48398d4fc48a3051ec050bd89dbf0660fe7cb16e89e",
     "prompt_hash": "253f98b86ff0ca0bc3d7db9266bc1953092e1c9ecc2883442ecedd723670db9a",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 15,
@@ -4544,7 +4544,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"h\". Dan shifts it: h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h -> h"
+        "The letter starts as \"h\". Dan shifts it: h -> h. Peter shifts it: h -> h. Kevin does not shift it: stays at h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"y\". Ivan shifts it: y -> z. Iris shifts it: z wraps around to a. Noah does not shift it: stays at a. The answer is a."
+        "The letter starts as \"y\". Ivan shifts it: y -> z. Iris does not shift it: stays at z. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4595,7 +4595,7 @@
     "doc_hash": "0d6f0d976e8bdd5fe405de8b32a99ecc8cfcbc2283746da8e5224dbfe8424876",
     "prompt_hash": "0f01275ffd544b02099d4b30bb59b7ad9c9d98ddc1feedc336d60cbc584cc5af",
     "target_hash": "594e519ae499312b29433b7dd8a97ff068defcba9755b6d5d00e84c524d67b06",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 21,
@@ -4810,7 +4810,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"p\". Noah shifts it: p -> p. Ivan shifts it: p -> p. Iris does not shift it: stays at p. Vince does not shift it: stays at p. The answer is p."
+        "The letter starts as \"p\". Noah does not shift it: stays at p. Vince does not shift it: stays at p. The answer is p."
       ]
     ],
     "filtered_resps": [
@@ -5076,11 +5076,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"z\". Diana shifts it: z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z -> z"
+        "The letter starts as \"z\". Diana shifts it: z wraps around to a. Sam shifts it: z stays at z. Beth shifts it: z wraps around to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "z"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5152,7 +5152,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"s\". Ethan shifts it: s -> s. George shifts it: s -> s. Noah does not shift it: stays at s. The answer is s."
+        "The letter starts as \"s\". Ethan shifts it: s -> s. George shifts it: s -> s. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -5608,7 +5608,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"b\". Xander shifts it: b -> d. Tina shifts it: d -> e. Xander does not shift it: stays at e. The answer is e."
+        "The letter starts as \"b\". Xander shifts it: b -> d. Tina shifts it: d -> e. Xander does not shift it: stays at a. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"h\". Mia shifts it: h -> i. Diana shifts it: i -> j. Wendy shifts it: j -> k. The answer is k."
+        "The letter starts as \"h\". Mia shifts it: h -> h. Diana shifts it: h -> h. Wendy shifts it: h -> h. The answer is h."
       ]
     ],
     "filtered_resps": [
-      "k"
+      "h"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6064,7 +6064,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"k\". Nina shifts it: k -> k. Ray shifts it: k -> k. Henry does not shift it: stays at k. The answer is k."
+        "The letter starts as \"k\". Nina shifts it: k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k -> k"
       ]
     ],
     "filtered_resps": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"x\". Liam shifts it: x -> y. Nina shifts it: y -> z. Kevin shifts it: z wraps around to a. Noah does not shift it: stays at a. The answer is a."
+        "The letter starts as \"x\". Liam shifts it: x -> y. Nina shifts it: y -> z. Kevin shifts it: z wraps around to a. Tina shifts it: a -> b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6330,7 +6330,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"n\". Oscar shifts it: n -> n. Kevin shifts it: n -> n. The answer is n."
+        "The letter starts as \"n\". Oscar shifts it: n -> n. Kevin shifts it: n -> n. Mia does not shift it: stays at n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -6748,7 +6748,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"n\". Fiona shifts it: n -> n. Bob does not shift it: stays at n. Yara shifts it: n -> n. Noah does not shift it: stays at n. The answer is n."
+        "The letter starts as \"n\". Fiona shifts it: n -> n. Bob does not shift it: stays at n. Yara shifts it: n -> n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"k\". Victor shifts it: k -> z. Yara shifts it: z wraps around to a. Rachel shifts it: a -> b. Yara does not shift it: stays at a. The answer is b."
+        "The letter starts as \"k\". Victor shifts it: k -> z. Yara does not shift it: z wraps around to a. Rachel shifts it: z -> a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7356,7 +7356,7 @@
     ],
     "resps": [
       [
-        "The letter starts as \"w\". Fiona shifts it: w -> w. Caleb shifts it: w -> w. Bob does not shift it: stays at w. Frank shifts it: w -> w. The answer is w."
+        "The letter starts as \"w\". Fiona shifts it: w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w -> w ->"
       ]
     ],
     "filtered_resps": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "The letter starts as \"x\". Laura shifts it: x -> z. Hannah shifts it: z wraps around to a. Marcus shifts it: a -> b. The answer is b."
+        "The letter starts as \"x\". Laura shifts it: x -> y. Hannah shifts it: y -> z. Marcus shifts it: z wraps around to a. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7521,7 +7521,7 @@
     "doc_hash": "34ebf8f37f78c4e7b76519de3978aa5f540112cbcf271aa98ba6eba7b71a3bb7",
     "prompt_hash": "9644c57453889bb6b6cac5e43d8a50128189c6900c701873bcdfcb7c8fa15a7d",
     "target_hash": "594e519ae499312b29433b7dd8a97ff068defcba9755b6d5d00e84c524d67b06",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,

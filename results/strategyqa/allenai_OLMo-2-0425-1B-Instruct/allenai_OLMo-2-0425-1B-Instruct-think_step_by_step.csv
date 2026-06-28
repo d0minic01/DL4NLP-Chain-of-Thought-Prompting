@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,strategyqa_think_step_by_step,strategyqa,think_step_by_step,zero_shot,strategyqa,0.21,0.71,822.6,0,100,23.08,8.84

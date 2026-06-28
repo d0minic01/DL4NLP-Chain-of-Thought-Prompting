@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,letter_shift_numbered_step_cot,letter_shift,numbered_step_cot,fewshot_cot,letter_shift,1.0,0.0,156.6,6,100,29.62,24.31

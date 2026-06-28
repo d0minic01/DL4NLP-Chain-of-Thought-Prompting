@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-360M-Instruct,aqua_persona_cot,aqua,persona_cot,fewshot_cot,aqua-rat,0.25,0.11,194.4,4,100,136.45,4.12
+HuggingFaceTB/SmolLM2-360M-Instruct,aqua_persona_cot,aqua,persona_cot,fewshot_cot,aqua-rat,0.27,0.09,181.2,4,100,39.93,1.73

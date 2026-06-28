@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E2B-it,last_letter_contrastive_cot,last_letter,contrastive_cot,fewshot_cot,last_letter_concatenation,0.95,0.01,191.7,4,100,25.33,23.71

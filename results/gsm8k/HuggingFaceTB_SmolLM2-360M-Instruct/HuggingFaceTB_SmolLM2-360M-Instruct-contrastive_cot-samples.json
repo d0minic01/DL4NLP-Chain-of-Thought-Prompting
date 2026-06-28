@@ -98,11 +98,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He bought the house for $80,000 and then put in $50,000 in repairs, so the new price of the house is $80,000 + $50,000 = $130,000. He increased the value of the house by 150%, so the new value is $130,000 * 1.15 = $150,500. He made a profit of $150,500 - $130,000 = $20,500. The answer is 20,500."
+        "[INCORRECT] He bought the house for $80,000 and then put in $50,000 in repairs, so the new price of the house is $80,000 + $50,000 = $130,000. He increased the value of the house by 150%, so the new value of the house is $130,000 * 1.15 = $150,500. The answer is 150,500."
       ]
     ],
     "filtered_resps": [
-      "20,500"
+      "150,500"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -212,11 +212,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He needs to buy 16 glasses at $5 each, so 16 * 5 = $80. [CORRECT] He needs to buy 16 glasses at 60% of the price, so 16 * 0.6 = $9.60. The answer is $9.60."
+        "[INCORRECT] He needs to buy 16 glasses at 60% of the price, so he needs to buy 16 * 0.60 = 9.6 glasses. He needs to pay 9.6 * 5 = $48. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "48"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] It takes 20 minutes to download 200 GB. [CORRECT] It takes 200 / 1000 = 0.2 hours to download 200 GB. The answer is 0.2 hours."
+        "[INCORRECT] It takes 20 minutes to download 200 GB. [CORRECT] 200 GB / 2 GB/minute = 100 minutes. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "0.2"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -516,7 +516,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She sold 3/3 = 1 vacuum cleaner at the green house. She sold 2 more to the red house, so she sold 1 + 2 = 3 vacuum cleaners. She sold half of what was left at the orange house, so she sold 5/2 = 2.5 vacuum cleaners. She started with 5 vacuum cleaners. The answer is 5."
+        "[INCORRECT] She sold 3/3 = 1 vacuum cleaner at the green house. She sold 2 more to the red house. So she sold 1 + 2 = 3 vacuum cleaners. She sold half of what was left at the orange house. So she sold 5/2 = 2.5 vacuum cleaners. She started with 5 vacuum cleaners. The answer is 5."
       ]
     ],
     "filtered_resps": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20% of the students enrolled in contemporary dance, so 20% of 20 is 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25% of 20 is 0.25 * 20 = 5 students enrolled in hip-hop dance. The rest of the students enrolled in hip-hop dance, so 20 - 4 - 5 = 0 students enrolled in hip-hop dance. The answer is 0."
+        "[INCORRECT] 20% of the students enrolled in contemporary dance, so 20% of 20 is 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25% of 20 is 0.25 * 20 = 5 students enrolled in hip-hop dance. The rest of the students enrolled in hip-hop dance, so 20 - 4 - 5 = 0.2 * 20 = 4 students enrolled in hip-hop dance. The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "4"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The distance covered by each train in the first day is 80 miles. The distance covered by each train in the second day is 150 miles. The answer is 80 + 150 = 230 miles."
+        "[INCORRECT] The distance covered by each train in the two days is 80 miles + 150 miles = 230 miles. [CORRECT] The first train traveled 80 miles in 80/80 = 1 day. The second train traveled 150 miles in 150/150 = 1 day. The answer is 1 day."
       ]
     ],
     "filtered_resps": [
-      "80"
+      "1"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -744,7 +744,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She took 1 hour to walk the first 4 miles, so she has 4 miles / 1 hour = 4 miles per hour. She took another hour to walk the next two miles, so she has 2 miles / 1 hour = 2 miles per hour. Her average speed is the sum of her two speeds divided by 2, so 4 miles per hour + 2 miles per hour = 6 miles per hour. The answer is 6."
+        "[INCORRECT] She took 1 hour to walk the first 4 miles, so she has 4 miles / 1 hour = 4 miles per hour. She took another hour to walk the next two miles, so she has 2 miles / 1 hour = 2 miles per hour. Her average speed is the sum of her two speeds divided by 2, which is 4 miles per hour + 2 miles per hour = 6 miles per hour. The answer is 6."
       ]
     ],
     "filtered_resps": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I have 10 liters of orange drink, and I want to add 15 liters of pineapple drink, so I need 10 + 15 = 25 liters. I have 25 liters of orange drink, and I want to add 15 liters of pineapple drink, so I need 25 - 15 = 10 liters of orange drink. I have 10 liters of orange drink, and I have 10 liters of orange drink, so I have 10 liters of orange drink left. The answer is 10."
+        "[INCORRECT] I have 10 liters of orange drink, and I want to add 15 liters of pineapple drink, so I need 10 + 15 = 25 liters of orange drink. I have 25 - 1 = 24 liters of orange drink. I also have 15 - 1 = 14 liters of pineapple drink. I have 24 + 14 = 38 liters of orange drink. I have 38 - 1 = 37 liters of orange drink. The answer is 37."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "37"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,7 +896,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The candle will melt 2 centimeters every hour, so after 1:00 PM, it will be 1:00 + 2 = 3 centimeters shorter. [CORRECT] The candle will melt 2 centimeters every hour, so after 5:00 PM, it will be 5:00 + 2 = 7 centimeters shorter. The answer is 7."
+        "[INCORRECT] The candle melts by 2 centimeters every hour that it burns so after 1 hour it will be 1 + 2 = 3 centimeters shorter. After 2 hours it will be 3 + 2 = 5 centimeters shorter. After 3 hours it will be 5 + 2 = 7 centimeters shorter. The answer is 7."
       ]
     ],
     "filtered_resps": [
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She ordered 5 packs of milk, 4 apples, and 8.50 boxes of pizza. The total cost is $12 + $5 + $4 + $8.50 = $29.50. She paid $50, so she paid $29.50 - $50 = -$15. She ordered 5 packs of milk, 4 apples, and 8.50 boxes of pizza, so she ordered 5 * $3 + 4 * $1.50 + 8.50 * $1.50 = 15 + 6 + 12.50 = 29.50. The answer is 29.50."
+        "[INCORRECT] She ordered 5 packs of milk, 4 apples, and 4 boxes of pizza. The total cost of the pizza is 4 * $8.50 = $34. The answer is 34."
       ]
     ],
     "filtered_resps": [
-      "29.50"
+      "34"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She eats 1 serving per night so 60 days * 1 serving/day = 60 servings. She buys 60 cartons of ice cream at $4.00 per carton so 60 * 4 = $240. The answer is 240."
+        "[INCORRECT] She eats 1 serving per night so 60 days * 1 serving/day = 60 servings. She buys 60 cartons at $4.00/carton so 60 * 4 = $240. The answer is 240."
       ]
     ],
     "filtered_resps": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of their ages is 7:11, so 7/11 of their total age is 162. To find 7/11 of 162, multiply 162 by 7/11. 162 * 7/11 = 110.8. So Allen's age 10 years from now is 110.8. The answer is 110.8."
+        "[INCORRECT] The ratio of their ages is 7:11. If their total age is 162, then 162 = 7 * 22 + 11 * x, where x is Allen's age 10 years from now. 162 = 142 + 11x. Solving for x, we get x = 10. Allen's age 10 years from now is 10 * 10 = 100. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "110.8"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1238,11 +1238,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He takes care of 10 dogs so he spends 10 * 0.5 = 5 hours a day. [CORRECT] Each dog takes 0.5 hours a day to walk and take care of their business, so he spends 5 * 0.5 = 2.5 hours a day. The answer is 2.5."
+        "[INCORRECT] He takes care of 10 dogs so he spends 10 * 0.5 = 5 hours a day. [CORRECT] Each dog takes 5 hours a day to walk and take care of their business. He spends 5 + 5 = 10 hours a week. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "2.5"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,7 +1276,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 30 more silver coins than gold coins, so there are 110 - 30 = 80 silver coins. [CORRECT] There are 110 - 30 = 80 silver coins. The answer is 80."
+        "[INCORRECT] There are 30 more silver coins than gold coins, so there are 110 - 30 = 80 silver coins. [CORRECT] There are 110 - 30 = 80 gold coins. The answer is 80."
       ]
     ],
     "filtered_resps": [
@@ -1428,11 +1428,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He sells 13 legos for $15 each so he has 13 * 15 = $195. He buys 8 video games for $20 each so he has 8 * 20 = $160. He has $5 left so he has 195 - 160 = 35 legos. The answer is 35."
+        "[INCORRECT] He sells 13 legos for $15 each, so he has 13 * 15 = $195. He buys 8 video games for $20 each, so he has 8 * 20 = $160. He has $5 left. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "35"
+      "160"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He runs 60 miles a week so 60 / 7 = 8.5 miles per day. He runs 3 days a week so 8.5 * 3 = 25.5 miles per week. He runs 3 hours the first day so 25.5 * 3 = 76.5 miles per week. He runs 3 hours the other two days so 76.5 * 2 = 153 miles per week. He runs 153 / 7 = 21.14 miles per day. He runs 21.14 * 7 = 147.96 miles per week. He runs 147.96 / 3 = 49.32 miles per day. He runs 49.32 * 3 = 148.96 miles per week. He runs 148.96 / 2 = 74.48 miles per day. He runs 74.48 * 7 = 514.74 miles per week. He runs 514.74 / 3 ="
+        "[INCORRECT] He runs 60 miles a week so 60 / 7 = 8.5 miles per day. He runs 3 days a week so 8.5 * 3 = 25.5 miles per week. He runs 3 hours the first day so 25.5 * 3 = 76.5 miles per week. He runs 3 hours the other two days so 76.5 * 2 = 153 miles per week. He runs 153 - 8.5 = 144.5 miles per week. He runs 144.5 / 7 = 20.56 miles per day. He runs 20.56 * 7 = 143.32 miles per week. He runs 143.32 / 3 = 47.77 miles per day. He runs 47.77 * 2 = 95.54 miles per week. He runs 95.54 / 7 = 13.44 miles per day. He runs 13.44 * 7 = 9"
       ]
     ],
     "filtered_resps": [
@@ -1580,7 +1580,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The dragon can reach 1000 feet, and Polly can throw the javelin 400 feet, so the dragon can reach 1000 + 400 = 1400 feet. If Polly throws the javelin three times farther than when not holding the gemstone, then she can throw the javelin 3 * 400 = 1200 feet. The dragon can reach 1400 + 1200 = 2600 feet. If Polly throws the javelin three times farther than when not holding the gemstone, then she can throw the javelin 3 * 1200 = 3600 feet. The dragon can reach 2600 + 3600 = 6200 feet. If Polly throws the javelin three times farther than when not holding the gemstone, then she can throw the javelin 3 * 3600 = 10800 feet. The dragon can reach 6200 + 10800 = 17000 feet. If Polly throws the javelin three times"
+        "[INCORRECT] The great dragon, Perg, can throw the gold javelin for a distance of 1000 feet. Polly can throw the javelin for a distance of 400 feet. The dragon can reach the javelin for a distance of 1000 - 400 = 600 feet. The distance the gemstone can be thrown is 600 + 3 = 630 feet. The dragon can reach the gemstone for a distance of 630 - 400 = 230 feet. The dragon can reach the gemstone for a distance of 230 + 3 = 263 feet. The dragon can reach the gemstone for a distance of 263 - 600 = -630 feet. The dragon can reach the gemstone for a distance of 630 - 630 = 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon"
       ]
     ],
     "filtered_resps": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She wrote 5 articles on Monday and 2/5 times more on Tuesday than on Monday, so she wrote 5 + 2/5 * 5 = 5 + 2 = 7 articles on Tuesday. She wrote 2 articles on Tuesday, so she wrote 7 + 2 = 9 articles in total. She wrote 5 articles on Wednesday, so she wrote 9 + 2 = 11 articles in total. The total number of hours she spent writing articles is 7 + 11 = 18 hours. The answer is 18."
+        "[INCORRECT] She wrote 5 articles on Monday and 2/5 times more on Tuesday than on Monday, so she wrote 5 + 2/5 * 5 = 5 + 2 = 7 articles on Tuesday. She wrote 2 articles on Tuesday, so she wrote 7 + 2 = 9 articles in total. She wrote 5 articles on Wednesday, so she wrote 9 + 5 = 14 articles in total. The answer is 14."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "14"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,7 +1770,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She put 80 post-it notes in her purse so she has 23 - 80 = -110. She purchased a package of 220 post-it notes so she has -110 * 220 = -2320. The answer is -2320."
+        "[INCORRECT] She put 80 post-it notes in her purse so she has 23 - 80 = -110. She purchased a package of 220 post-it notes so she has -110 * 220 = -2320 post-it notes. The answer is -2320."
       ]
     ],
     "filtered_resps": [
@@ -1808,11 +1808,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties. He spent 4 * 40 = $160 on blue ties. He spent $200 on blue ties, so he spent 200 - 160 = $40 on red ties. The answer is 40."
+        "[INCORRECT] He bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties. He spent $40 on blue ties, so he spent 4 * 40 = $160 on blue ties. He bought 4 red ties, so he spent $160 + $160 = $320 on red ties. The answer is 320."
       ]
     ],
     "filtered_resps": [
-      "40"
+      "320"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He needs to remove 15 pounds from the book bag so he has 23 - 15 = 8 pounds. He needs to remove 15 * 1/4 = 15/4 pounds from the comic books so he has 15/4 * 1/2 = 15/8 pounds from the toys. He needs to remove 30 * 1/2 = 15 pounds from the toys so he has 15/8 - 15/8 = 0 pounds from the toys. The answer is 0."
+        "[INCORRECT] He needs to remove 15 pounds from the book bag so he has 23 - 15 = 8 pounds. He needs to remove 15 * 1/4 = 15/4 pounds from the comic books so he has 30 - 15/4 = 15/4 = 3.75 pounds. He needs to remove 30 - 3.75 = 26.25 pounds from the toys so he has 15/4 = 3.75 pounds. The answer is 3.75."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "3.75"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Doubtfire sisters have 7 kittens adopted from the animal shelter, so they have 7 + 7 = 14 kittens. [CORRECT] The Doubtfire sisters have 7 + 12 = 19 kittens. The Doubtfire family now has 19 kittens. The answer is 19."
+        "[INCORRECT] The Doubtfire sisters have 7 kittens adopted from the animal shelter, so they have 7 + 7 = 14 kittens. [CORRECT] The Doubtfire sisters have 7 cats, and 7 kittens are adopted from the animal shelter, so they have 7 + 7 = 14 kittens. The answer is 14."
       ]
     ],
     "filtered_resps": [
-      "19"
+      "14"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2112,7 +2112,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jean eats 2 lollipops so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag so she needs 28 / 2 = 14 bags. The answer is 14."
+        "[INCORRECT] Jean eats 2 lollipops, so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag, so she needs 28 / 2 = 14 bags. The answer is 14."
       ]
     ],
     "filtered_resps": [
@@ -2150,11 +2150,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He has 42 dollars and he always gets a ticket for $7 so he can go to the movies 42 / 7 = 6 times. [CORRECT] He has 42 dollars and he always gets a ticket for $7 so he can go to the movies 42 / 7 = 6 times. The answer is 6."
+        "[INCORRECT] He has 42 dollars and he gets 7 dollars for the ticket and 7 dollars for the popcorn so he has 7 + 7 = 14 dollars. He can go to the movies 14 / 7 = 2 times. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 60 girls and 5 students to every teacher, so there are 60 * 5 = 300 teachers. [CORRECT] There are 2 * 60 = 120 boys. There are 300 - 120 = 180 girls. The answer is 180."
+        "[INCORRECT] There are 60 girls and 5 students to every teacher, so there are 60 * 5 = 300 teachers. [CORRECT] There are 60 girls and 5 students to every teacher, so there are 60 * 5 = 300 teachers. The answer is 300."
       ]
     ],
     "filtered_resps": [
-      "180"
+      "300"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,7 +2796,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She bought 5 cell phones for $150 each, so she paid 5 * 150 = $750. She will pay 750 * 0.02 = $15 per month. The answer is 15."
+        "[INCORRECT] She bought 5 phones for $150 each, so she paid 5 * 150 = $750. She will pay 750 * 0.02 = $15 per month. The answer is 15."
       ]
     ],
     "filtered_resps": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He sells 12 pots of marigolds for $2.74 per pot, so he has 12 * 2.74 = $34.44. He sells 9 pots of petunias for $1.87 per pot, so he has 9 * 1.87 = $15.73. He sells 17 pots of begonias for $2.12 per pot, so he has 17 * 2.12 = $33.04. The total amount he has is $34.44 + $15.73 + $33.04 = $73.17. The answer is 73.17."
+        "[INCORRECT] He sells 12 pots of marigolds for $2.74 per pot, so he has 12 * 2.74 = $33.44. He sells 9 pots of petunias for $1.87 per pot, so he has 9 * 1.87 = $15.89. He sells 17 pots of begonias for $2.12 per pot, so he has 17 * 2.12 = $33.44. The total amount he has is $33.44 + $15.89 + $33.44 = $73.17. The answer is 73.17."
       ]
     ],
     "filtered_resps": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He buys 18 flowers at $1 each, so he spends $1 * 18 = $18. He buys 3 packages of 2 flowers at $2.50 each, so he spends $2.50 * 3 = $7.50. He saves $18 - $7.50 = $10.50. The answer is 10.50."
+        "[INCORRECT] He buys 18 flowers at $1 each, so he spends 18 * 1 = $18. He spends $2.50 on the other packages, so he saves $18 - $2.50 = $15.00. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "10.50"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He has 4 vacations a year, so he has 4 * 4 = 16 quilt blocks. He has 23 years old, so he has 23 * 16 = 384 quilt blocks. The answer is 384."
+        "[INCORRECT] He has 1 * 4 = 4 t-shirts from each vacation. Each t-shirt is its own quilt block. So he has 4 * 4 = 16 quilt blocks. He has 1 * 4 = 4 vacation blocks. He has 4 * 4 = 16 quilt blocks. The answer is 16."
       ]
     ],
     "filtered_resps": [
-      "384"
+      "16"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The alarm rang for 4 + 3 = 7 times. [CORRECT] The alarm rang for 7 * 4 = 28 times. The answer is 28."
+        "[INCORRECT] The alarm rang 4 times in the first time. The alarm rang 3 times in the second time. The alarm rang 1/2 as long as the second time, so it rang 3 * 1/2 = 3/2 = 1.5 times in the second time. The alarm rang 4 times in the third time. The alarm rang 4 times in the first time, so it rang 4 * 3 = 12 times in the first time. The alarm rang 1.5 times in the second time, so it rang 12 * 1.5 = 18 times in the second time. The alarm rang 4 times in the third time, so it rang 12 * 4 = 48 times in the third time. The alarm rang 12 times in the first time, so it rang 12 * 12 = 144 times in the first time. The alarm rang 48 times in the second time, so it rang 48 * 48 = 2304 times in the second time. The alarm rang 144 times in the first time, so it rang 1"
       ]
     ],
     "filtered_resps": [
-      "28"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The company increases the salary by 10% of the initial salary every year for those who've stayed in the company for five years. So, for Sylvie, who's been in the company for 5 years, the salary will be 600 * 1.10 = 660. After three more years of service, the salary will be 660 * 1.10 = 696.20. The answer is 696.20."
+        "[INCORRECT] The company increases the salary by 10% of the initial salary every year for those who've stayed in the company for five years. So, for Sylvie, the salary will be 600 * 1.10 = 660. She's just clocked 5 years, so she'll be 660 + 5 * 10 = 715. The answer is 715."
       ]
     ],
     "filtered_resps": [
-      "696.20"
+      "715"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3366,11 +3366,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Marilyn sold 10 times as many copies as Harald so 88,000 * 10 = 880,000. [CORRECT] Marilyn sold 880,000 / 88,000 = 1000 copies. The answer is 1000."
+        "[INCORRECT] Marilyn sold 10 times as many copies as Harald so 88,000 * 10 = 880,000. [CORRECT] Marilyn sold 880,000 / 88,000 = 10 copies. Harald sold 880,000 / 88,000 = 100 copies. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "1000"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3404,7 +3404,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She needs 16 / 4 = 4 gift bags per guest. She will spend 4 * $2 = $8. The answer is $8."
+        "[INCORRECT] She needs 16 / 4 = 4 gift bags per guest. She needs 16 * 4 = 64 gift bags. She needs 64 * 2 = 128 gift bags. She needs 128 * 1 = 128 gift bags. She needs 128 * 1/4 = 32 gift bags. She needs 32 * 2 = 64 gift bags. She needs 64 + 32 = 96 gift bags. She needs 96 * 2 = 192 gift bags. She needs 192 * 1 = 192 gift bags. She needs 192 * 1/4 = 48 gift bags. She needs 48 * 2 = 96 gift bags. She needs 96 * 1/4 = 24 gift bags. She needs 24 * 2 = 48 gift bags. She needs 48 * 1 = 48 gift bags. She needs 48 * 1/4 = 12 gift bags. She needs 12 * 2"
       ]
     ],
     "filtered_resps": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of rabbits is 12 less than the number of pets, so 12 - 1 = 11. The number of pets is 60. The answer is 11."
+        "[INCORRECT] The number of rabbits is 12 less than the number of pets, so 12 rabbits = 20 pets - 12 rabbits. The number of pets is 20 pets. [CORRECT] There are 2 cats for every dog, so there are 2 * 60 = 120 pets in total. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "11"
+      "120"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harry slept 9 hours so 9 / 3 = 3 hours. James slept 2/3 of 9 hours so 2/3 * 9 = 6 hours. The answer is 6."
+        "[INCORRECT] Harry slept 9 hours so 9 / 3 = 3 hours. James slept 2/3 of 9 hours so 2/3 * 9 = 12/3 = 4 hours. Harry slept 9 - 4 = 5 hours. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She used 16 / 2 = 8 cans of tomatoes. Each can contains 16 ounces, so she used 8 * 16 = 128 ounces of tomatoes. She used 32 - 128 = -104 ounces of tomatoes. The answer is -104."
+        "[INCORRECT] She used 16 / 2 = 8 cans of tomatoes. Each can contains 16 / 3 = 5 tomatoes. She used 8 * 5 = 40 tomatoes. The answer is 40."
       ]
     ],
     "filtered_resps": [
-      "-104"
+      "40"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3746,7 +3746,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There were originally 30 cars on the motorway. 5 cars drove through the traffic jam in the first 15 minutes. So there were 30 - 5 = 25 cars on the motorway. [CORRECT] There were originally 30 cars on the motorway, and 5 cars drove through the traffic jam in the first 15 minutes. The answer is 25."
+        "[INCORRECT] There were originally 30 cars on the motorway. 5 cars drove through the traffic jam in the first 15 minutes. So there were 30 - 5 = 25 cars on the motorway in the first 15 minutes. [CORRECT] There were originally 30 cars on the motorway. 5 cars drove through the traffic jam in the first 15 minutes. So there were 30 - 5 = 25 cars on the motorway in the first 15 minutes. The answer is 25."
       ]
     ],
     "filtered_resps": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She received 18 new plants yesterday, so she has 20 - 18 = 2 plants left. [CORRECT] She has 20 - 2 = 18 plants left. The answer is 18."
+        "[INCORRECT] She received 18 new plants yesterday, so she has 20 - 18 = 2 plants left. [CORRECT] She has 2 pots on each ledge, so she has 2 * 40 = 80 pots. She will give 1 pot to each ledge, so she will give 80 * 1 = 80 pots. The answer is 80."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "80"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He bought the house for $80,000 and then put in $50,000 in repairs, so the new price of the house is $80,000 + $50,000 = $130,000. He increased the value of the house by 150%, so the new value is $130,000 * 1.15 = $150,500. He made a profit of $150,500 - $130,000 = $20,500. The answer is 20,500."
+        "[INCORRECT] He bought the house for $80,000 and then put in $50,000 in repairs, so the new price of the house is $80,000 + $50,000 = $130,000. He increased the value of the house by 150%, so the new value of the house is $130,000 * 1.15 = $150,500. The answer is 150,500."
       ]
     ],
     "filtered_resps": [
-      "20,500."
+      "150,500."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4012,11 +4012,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He needs to buy 16 glasses at $5 each, so 16 * 5 = $80. [CORRECT] He needs to buy 16 glasses at 60% of the price, so 16 * 0.6 = $9.60. The answer is $9.60."
+        "[INCORRECT] He needs to buy 16 glasses at 60% of the price, so he needs to buy 16 * 0.60 = 9.6 glasses. He needs to pay 9.6 * 5 = $48. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "$9.60."
+      "48."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] It takes 20 minutes to download 200 GB. [CORRECT] It takes 200 / 1000 = 0.2 hours to download 200 GB. The answer is 0.2 hours."
+        "[INCORRECT] It takes 20 minutes to download 200 GB. [CORRECT] 200 GB / 2 GB/minute = 100 minutes. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "0.2"
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4316,7 +4316,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She sold 3/3 = 1 vacuum cleaner at the green house. She sold 2 more to the red house, so she sold 1 + 2 = 3 vacuum cleaners. She sold half of what was left at the orange house, so she sold 5/2 = 2.5 vacuum cleaners. She started with 5 vacuum cleaners. The answer is 5."
+        "[INCORRECT] She sold 3/3 = 1 vacuum cleaner at the green house. She sold 2 more to the red house. So she sold 1 + 2 = 3 vacuum cleaners. She sold half of what was left at the orange house. So she sold 5/2 = 2.5 vacuum cleaners. She started with 5 vacuum cleaners. The answer is 5."
       ]
     ],
     "filtered_resps": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20% of the students enrolled in contemporary dance, so 20% of 20 is 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25% of 20 is 0.25 * 20 = 5 students enrolled in hip-hop dance. The rest of the students enrolled in hip-hop dance, so 20 - 4 - 5 = 0 students enrolled in hip-hop dance. The answer is 0."
+        "[INCORRECT] 20% of the students enrolled in contemporary dance, so 20% of 20 is 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25% of 20 is 0.25 * 20 = 5 students enrolled in hip-hop dance. The rest of the students enrolled in hip-hop dance, so 20 - 4 - 5 = 0.2 * 20 = 4 students enrolled in hip-hop dance. The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "4."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The distance covered by each train in the first day is 80 miles. The distance covered by each train in the second day is 150 miles. The answer is 80 + 150 = 230 miles."
+        "[INCORRECT] The distance covered by each train in the two days is 80 miles + 150 miles = 230 miles. [CORRECT] The first train traveled 80 miles in 80/80 = 1 day. The second train traveled 150 miles in 150/150 = 1 day. The answer is 1 day."
       ]
     ],
     "filtered_resps": [
-      "230"
+      "1"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4443,7 +4443,7 @@
     "doc_hash": "8d52662ed683404d1c5f225090293bd707c942fb370cf956572bef5e4057b3a6",
     "prompt_hash": "d5f00b922a0260d85a921690efa7f08f3ccfa3519103273b9450bd286cbf94cf",
     "target_hash": "a0eaec5a55dc2f5b2ba523018adc485ff620b9d83509b9f37186a7716e438d21",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 17,
@@ -4544,7 +4544,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She took 1 hour to walk the first 4 miles, so she has 4 miles / 1 hour = 4 miles per hour. She took another hour to walk the next two miles, so she has 2 miles / 1 hour = 2 miles per hour. Her average speed is the sum of her two speeds divided by 2, so 4 miles per hour + 2 miles per hour = 6 miles per hour. The answer is 6."
+        "[INCORRECT] She took 1 hour to walk the first 4 miles, so she has 4 miles / 1 hour = 4 miles per hour. She took another hour to walk the next two miles, so she has 2 miles / 1 hour = 2 miles per hour. Her average speed is the sum of her two speeds divided by 2, which is 4 miles per hour + 2 miles per hour = 6 miles per hour. The answer is 6."
       ]
     ],
     "filtered_resps": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I have 10 liters of orange drink, and I want to add 15 liters of pineapple drink, so I need 10 + 15 = 25 liters. I have 25 liters of orange drink, and I want to add 15 liters of pineapple drink, so I need 25 - 15 = 10 liters of orange drink. I have 10 liters of orange drink, and I have 10 liters of orange drink, so I have 10 liters of orange drink left. The answer is 10."
+        "[INCORRECT] I have 10 liters of orange drink, and I want to add 15 liters of pineapple drink, so I need 10 + 15 = 25 liters of orange drink. I have 25 - 1 = 24 liters of orange drink. I also have 15 - 1 = 14 liters of pineapple drink. I have 24 + 14 = 38 liters of orange drink. I have 38 - 1 = 37 liters of orange drink. The answer is 37."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "37."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,7 +4696,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The candle will melt 2 centimeters every hour, so after 1:00 PM, it will be 1:00 + 2 = 3 centimeters shorter. [CORRECT] The candle will melt 2 centimeters every hour, so after 5:00 PM, it will be 5:00 + 2 = 7 centimeters shorter. The answer is 7."
+        "[INCORRECT] The candle melts by 2 centimeters every hour that it burns so after 1 hour it will be 1 + 2 = 3 centimeters shorter. After 2 hours it will be 3 + 2 = 5 centimeters shorter. After 3 hours it will be 5 + 2 = 7 centimeters shorter. The answer is 7."
       ]
     ],
     "filtered_resps": [
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She ordered 5 packs of milk, 4 apples, and 8.50 boxes of pizza. The total cost is $12 + $5 + $4 + $8.50 = $29.50. She paid $50, so she paid $29.50 - $50 = -$15. She ordered 5 packs of milk, 4 apples, and 8.50 boxes of pizza, so she ordered 5 * $3 + 4 * $1.50 + 8.50 * $1.50 = 15 + 6 + 12.50 = 29.50. The answer is 29.50."
+        "[INCORRECT] She ordered 5 packs of milk, 4 apples, and 4 boxes of pizza. The total cost of the pizza is 4 * $8.50 = $34. The answer is 34."
       ]
     ],
     "filtered_resps": [
-      "29.50."
+      "34."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She eats 1 serving per night so 60 days * 1 serving/day = 60 servings. She buys 60 cartons of ice cream at $4.00 per carton so 60 * 4 = $240. The answer is 240."
+        "[INCORRECT] She eats 1 serving per night so 60 days * 1 serving/day = 60 servings. She buys 60 cartons at $4.00/carton so 60 * 4 = $240. The answer is 240."
       ]
     ],
     "filtered_resps": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of their ages is 7:11, so 7/11 of their total age is 162. To find 7/11 of 162, multiply 162 by 7/11. 162 * 7/11 = 110.8. So Allen's age 10 years from now is 110.8. The answer is 110.8."
+        "[INCORRECT] The ratio of their ages is 7:11. If their total age is 162, then 162 = 7 * 22 + 11 * x, where x is Allen's age 10 years from now. 162 = 142 + 11x. Solving for x, we get x = 10. Allen's age 10 years from now is 10 * 10 = 100. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "110.8."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5038,11 +5038,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He takes care of 10 dogs so he spends 10 * 0.5 = 5 hours a day. [CORRECT] Each dog takes 0.5 hours a day to walk and take care of their business, so he spends 5 * 0.5 = 2.5 hours a day. The answer is 2.5."
+        "[INCORRECT] He takes care of 10 dogs so he spends 10 * 0.5 = 5 hours a day. [CORRECT] Each dog takes 5 hours a day to walk and take care of their business. He spends 5 + 5 = 10 hours a week. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "2.5."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5076,7 +5076,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 30 more silver coins than gold coins, so there are 110 - 30 = 80 silver coins. [CORRECT] There are 110 - 30 = 80 silver coins. The answer is 80."
+        "[INCORRECT] There are 30 more silver coins than gold coins, so there are 110 - 30 = 80 silver coins. [CORRECT] There are 110 - 30 = 80 gold coins. The answer is 80."
       ]
     ],
     "filtered_resps": [
@@ -5228,11 +5228,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He sells 13 legos for $15 each so he has 13 * 15 = $195. He buys 8 video games for $20 each so he has 8 * 20 = $160. He has $5 left so he has 195 - 160 = 35 legos. The answer is 35."
+        "[INCORRECT] He sells 13 legos for $15 each, so he has 13 * 15 = $195. He buys 8 video games for $20 each, so he has 8 * 20 = $160. He has $5 left. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "35."
+      "160."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He runs 60 miles a week so 60 / 7 = 8.5 miles per day. He runs 3 days a week so 8.5 * 3 = 25.5 miles per week. He runs 3 hours the first day so 25.5 * 3 = 76.5 miles per week. He runs 3 hours the other two days so 76.5 * 2 = 153 miles per week. He runs 153 / 7 = 21.14 miles per day. He runs 21.14 * 7 = 147.96 miles per week. He runs 147.96 / 3 = 49.32 miles per day. He runs 49.32 * 3 = 148.96 miles per week. He runs 148.96 / 2 = 74.48 miles per day. He runs 74.48 * 7 = 514.74 miles per week. He runs 514.74 / 3 ="
+        "[INCORRECT] He runs 60 miles a week so 60 / 7 = 8.5 miles per day. He runs 3 days a week so 8.5 * 3 = 25.5 miles per week. He runs 3 hours the first day so 25.5 * 3 = 76.5 miles per week. He runs 3 hours the other two days so 76.5 * 2 = 153 miles per week. He runs 153 - 8.5 = 144.5 miles per week. He runs 144.5 / 7 = 20.56 miles per day. He runs 20.56 * 7 = 143.32 miles per week. He runs 143.32 / 3 = 47.77 miles per day. He runs 47.77 * 2 = 95.54 miles per week. He runs 95.54 / 7 = 13.44 miles per day. He runs 13.44 * 7 = 9"
       ]
     ],
     "filtered_resps": [
-      "3"
+      "9"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The dragon can reach 1000 feet, and Polly can throw the javelin 400 feet, so the dragon can reach 1000 + 400 = 1400 feet. If Polly throws the javelin three times farther than when not holding the gemstone, then she can throw the javelin 3 * 400 = 1200 feet. The dragon can reach 1400 + 1200 = 2600 feet. If Polly throws the javelin three times farther than when not holding the gemstone, then she can throw the javelin 3 * 1200 = 3600 feet. The dragon can reach 2600 + 3600 = 6200 feet. If Polly throws the javelin three times farther than when not holding the gemstone, then she can throw the javelin 3 * 3600 = 10800 feet. The dragon can reach 6200 + 10800 = 17000 feet. If Polly throws the javelin three times"
+        "[INCORRECT] The great dragon, Perg, can throw the gold javelin for a distance of 1000 feet. Polly can throw the javelin for a distance of 400 feet. The dragon can reach the javelin for a distance of 1000 - 400 = 600 feet. The distance the gemstone can be thrown is 600 + 3 = 630 feet. The dragon can reach the gemstone for a distance of 630 - 400 = 230 feet. The dragon can reach the gemstone for a distance of 230 + 3 = 263 feet. The dragon can reach the gemstone for a distance of 263 - 600 = -630 feet. The dragon can reach the gemstone for a distance of 630 - 630 = 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon can reach the gemstone for a distance of 0 feet. The dragon"
       ]
     ],
     "filtered_resps": [
-      "17000"
+      "0"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5532,11 +5532,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She wrote 5 articles on Monday and 2/5 times more on Tuesday than on Monday, so she wrote 5 + 2/5 * 5 = 5 + 2 = 7 articles on Tuesday. She wrote 2 articles on Tuesday, so she wrote 7 + 2 = 9 articles in total. She wrote 5 articles on Wednesday, so she wrote 9 + 2 = 11 articles in total. The total number of hours she spent writing articles is 7 + 11 = 18 hours. The answer is 18."
+        "[INCORRECT] She wrote 5 articles on Monday and 2/5 times more on Tuesday than on Monday, so she wrote 5 + 2/5 * 5 = 5 + 2 = 7 articles on Tuesday. She wrote 2 articles on Tuesday, so she wrote 7 + 2 = 9 articles in total. She wrote 5 articles on Wednesday, so she wrote 9 + 5 = 14 articles in total. The answer is 14."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "14."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,7 +5570,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She put 80 post-it notes in her purse so she has 23 - 80 = -110. She purchased a package of 220 post-it notes so she has -110 * 220 = -2320. The answer is -2320."
+        "[INCORRECT] She put 80 post-it notes in her purse so she has 23 - 80 = -110. She purchased a package of 220 post-it notes so she has -110 * 220 = -2320 post-it notes. The answer is -2320."
       ]
     ],
     "filtered_resps": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties. He spent 4 * 40 = $160 on blue ties. He spent $200 on blue ties, so he spent 200 - 160 = $40 on red ties. The answer is 40."
+        "[INCORRECT] He bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties. He spent $40 on blue ties, so he spent 4 * 40 = $160 on blue ties. He bought 4 red ties, so he spent $160 + $160 = $320 on red ties. The answer is 320."
       ]
     ],
     "filtered_resps": [
-      "40."
+      "320."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He needs to remove 15 pounds from the book bag so he has 23 - 15 = 8 pounds. He needs to remove 15 * 1/4 = 15/4 pounds from the comic books so he has 15/4 * 1/2 = 15/8 pounds from the toys. He needs to remove 30 * 1/2 = 15 pounds from the toys so he has 15/8 - 15/8 = 0 pounds from the toys. The answer is 0."
+        "[INCORRECT] He needs to remove 15 pounds from the book bag so he has 23 - 15 = 8 pounds. He needs to remove 15 * 1/4 = 15/4 pounds from the comic books so he has 30 - 15/4 = 15/4 = 3.75 pounds. He needs to remove 30 - 3.75 = 26.25 pounds from the toys so he has 15/4 = 3.75 pounds. The answer is 3.75."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "3.75."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Doubtfire sisters have 7 kittens adopted from the animal shelter, so they have 7 + 7 = 14 kittens. [CORRECT] The Doubtfire sisters have 7 + 12 = 19 kittens. The Doubtfire family now has 19 kittens. The answer is 19."
+        "[INCORRECT] The Doubtfire sisters have 7 kittens adopted from the animal shelter, so they have 7 + 7 = 14 kittens. [CORRECT] The Doubtfire sisters have 7 cats, and 7 kittens are adopted from the animal shelter, so they have 7 + 7 = 14 kittens. The answer is 14."
       ]
     ],
     "filtered_resps": [
-      "19."
+      "14."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5912,7 +5912,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jean eats 2 lollipops so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag so she needs 28 / 2 = 14 bags. The answer is 14."
+        "[INCORRECT] Jean eats 2 lollipops, so she has 30 - 2 = 28 lollipops left. She wants to package 2 lollipops in one bag, so she needs 28 / 2 = 14 bags. The answer is 14."
       ]
     ],
     "filtered_resps": [
@@ -5950,11 +5950,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He has 42 dollars and he always gets a ticket for $7 so he can go to the movies 42 / 7 = 6 times. [CORRECT] He has 42 dollars and he always gets a ticket for $7 so he can go to the movies 42 / 7 = 6 times. The answer is 6."
+        "[INCORRECT] He has 42 dollars and he gets 7 dollars for the ticket and 7 dollars for the popcorn so he has 7 + 7 = 14 dollars. He can go to the movies 14 / 7 = 2 times. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 60 girls and 5 students to every teacher, so there are 60 * 5 = 300 teachers. [CORRECT] There are 2 * 60 = 120 boys. There are 300 - 120 = 180 girls. The answer is 180."
+        "[INCORRECT] There are 60 girls and 5 students to every teacher, so there are 60 * 5 = 300 teachers. [CORRECT] There are 60 girls and 5 students to every teacher, so there are 60 * 5 = 300 teachers. The answer is 300."
       ]
     ],
     "filtered_resps": [
-      "180."
+      "300."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,7 +6596,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She bought 5 cell phones for $150 each, so she paid 5 * 150 = $750. She will pay 750 * 0.02 = $15 per month. The answer is 15."
+        "[INCORRECT] She bought 5 phones for $150 each, so she paid 5 * 150 = $750. She will pay 750 * 0.02 = $15 per month. The answer is 15."
       ]
     ],
     "filtered_resps": [
@@ -6634,7 +6634,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He sells 12 pots of marigolds for $2.74 per pot, so he has 12 * 2.74 = $34.44. He sells 9 pots of petunias for $1.87 per pot, so he has 9 * 1.87 = $15.73. He sells 17 pots of begonias for $2.12 per pot, so he has 17 * 2.12 = $33.04. The total amount he has is $34.44 + $15.73 + $33.04 = $73.17. The answer is 73.17."
+        "[INCORRECT] He sells 12 pots of marigolds for $2.74 per pot, so he has 12 * 2.74 = $33.44. He sells 9 pots of petunias for $1.87 per pot, so he has 9 * 1.87 = $15.89. He sells 17 pots of begonias for $2.12 per pot, so he has 17 * 2.12 = $33.44. The total amount he has is $33.44 + $15.89 + $33.44 = $73.17. The answer is 73.17."
       ]
     ],
     "filtered_resps": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He buys 18 flowers at $1 each, so he spends $1 * 18 = $18. He buys 3 packages of 2 flowers at $2.50 each, so he spends $2.50 * 3 = $7.50. He saves $18 - $7.50 = $10.50. The answer is 10.50."
+        "[INCORRECT] He buys 18 flowers at $1 each, so he spends 18 * 1 = $18. He spends $2.50 on the other packages, so he saves $18 - $2.50 = $15.00. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "10.50."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He has 4 vacations a year, so he has 4 * 4 = 16 quilt blocks. He has 23 years old, so he has 23 * 16 = 384 quilt blocks. The answer is 384."
+        "[INCORRECT] He has 1 * 4 = 4 t-shirts from each vacation. Each t-shirt is its own quilt block. So he has 4 * 4 = 16 quilt blocks. He has 1 * 4 = 4 vacation blocks. He has 4 * 4 = 16 quilt blocks. The answer is 16."
       ]
     ],
     "filtered_resps": [
-      "384."
+      "16."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The alarm rang for 4 + 3 = 7 times. [CORRECT] The alarm rang for 7 * 4 = 28 times. The answer is 28."
+        "[INCORRECT] The alarm rang 4 times in the first time. The alarm rang 3 times in the second time. The alarm rang 1/2 as long as the second time, so it rang 3 * 1/2 = 3/2 = 1.5 times in the second time. The alarm rang 4 times in the third time. The alarm rang 4 times in the first time, so it rang 4 * 3 = 12 times in the first time. The alarm rang 1.5 times in the second time, so it rang 12 * 1.5 = 18 times in the second time. The alarm rang 4 times in the third time, so it rang 12 * 4 = 48 times in the third time. The alarm rang 12 times in the first time, so it rang 12 * 12 = 144 times in the first time. The alarm rang 48 times in the second time, so it rang 48 * 48 = 2304 times in the second time. The alarm rang 144 times in the first time, so it rang 1"
       ]
     ],
     "filtered_resps": [
-      "28."
+      "1"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The company increases the salary by 10% of the initial salary every year for those who've stayed in the company for five years. So, for Sylvie, who's been in the company for 5 years, the salary will be 600 * 1.10 = 660. After three more years of service, the salary will be 660 * 1.10 = 696.20. The answer is 696.20."
+        "[INCORRECT] The company increases the salary by 10% of the initial salary every year for those who've stayed in the company for five years. So, for Sylvie, the salary will be 600 * 1.10 = 660. She's just clocked 5 years, so she'll be 660 + 5 * 10 = 715. The answer is 715."
       ]
     ],
     "filtered_resps": [
-      "696.20."
+      "715."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7166,11 +7166,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Marilyn sold 10 times as many copies as Harald so 88,000 * 10 = 880,000. [CORRECT] Marilyn sold 880,000 / 88,000 = 1000 copies. The answer is 1000."
+        "[INCORRECT] Marilyn sold 10 times as many copies as Harald so 88,000 * 10 = 880,000. [CORRECT] Marilyn sold 880,000 / 88,000 = 10 copies. Harald sold 880,000 / 88,000 = 100 copies. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "1000."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,11 +7204,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She needs 16 / 4 = 4 gift bags per guest. She will spend 4 * $2 = $8. The answer is $8."
+        "[INCORRECT] She needs 16 / 4 = 4 gift bags per guest. She needs 16 * 4 = 64 gift bags. She needs 64 * 2 = 128 gift bags. She needs 128 * 1 = 128 gift bags. She needs 128 * 1/4 = 32 gift bags. She needs 32 * 2 = 64 gift bags. She needs 64 + 32 = 96 gift bags. She needs 96 * 2 = 192 gift bags. She needs 192 * 1 = 192 gift bags. She needs 192 * 1/4 = 48 gift bags. She needs 48 * 2 = 96 gift bags. She needs 96 * 1/4 = 24 gift bags. She needs 24 * 2 = 48 gift bags. She needs 48 * 1 = 48 gift bags. She needs 48 * 1/4 = 12 gift bags. She needs 12 * 2"
       ]
     ],
     "filtered_resps": [
-      "$8."
+      "2"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of rabbits is 12 less than the number of pets, so 12 - 1 = 11. The number of pets is 60. The answer is 11."
+        "[INCORRECT] The number of rabbits is 12 less than the number of pets, so 12 rabbits = 20 pets - 12 rabbits. The number of pets is 20 pets. [CORRECT] There are 2 cats for every dog, so there are 2 * 60 = 120 pets in total. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "11."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harry slept 9 hours so 9 / 3 = 3 hours. James slept 2/3 of 9 hours so 2/3 * 9 = 6 hours. The answer is 6."
+        "[INCORRECT] Harry slept 9 hours so 9 / 3 = 3 hours. James slept 2/3 of 9 hours so 2/3 * 9 = 12/3 = 4 hours. Harry slept 9 - 4 = 5 hours. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She used 16 / 2 = 8 cans of tomatoes. Each can contains 16 ounces, so she used 8 * 16 = 128 ounces of tomatoes. She used 32 - 128 = -104 ounces of tomatoes. The answer is -104."
+        "[INCORRECT] She used 16 / 2 = 8 cans of tomatoes. Each can contains 16 / 3 = 5 tomatoes. She used 8 * 5 = 40 tomatoes. The answer is 40."
       ]
     ],
     "filtered_resps": [
-      "-104."
+      "40."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7546,7 +7546,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There were originally 30 cars on the motorway. 5 cars drove through the traffic jam in the first 15 minutes. So there were 30 - 5 = 25 cars on the motorway. [CORRECT] There were originally 30 cars on the motorway, and 5 cars drove through the traffic jam in the first 15 minutes. The answer is 25."
+        "[INCORRECT] There were originally 30 cars on the motorway. 5 cars drove through the traffic jam in the first 15 minutes. So there were 30 - 5 = 25 cars on the motorway in the first 15 minutes. [CORRECT] There were originally 30 cars on the motorway. 5 cars drove through the traffic jam in the first 15 minutes. So there were 30 - 5 = 25 cars on the motorway in the first 15 minutes. The answer is 25."
       ]
     ],
     "filtered_resps": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] She received 18 new plants yesterday, so she has 20 - 18 = 2 plants left. [CORRECT] She has 20 - 2 = 18 plants left. The answer is 18."
+        "[INCORRECT] She received 18 new plants yesterday, so she has 20 - 18 = 2 plants left. [CORRECT] She has 2 pots on each ledge, so she has 2 * 40 = 80 pots. She will give 1 pot to each ledge, so she will give 80 * 1 = 80 pots. The answer is 80."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "80."
     ],
     "filter": "flexible-extract",
     "metrics": [

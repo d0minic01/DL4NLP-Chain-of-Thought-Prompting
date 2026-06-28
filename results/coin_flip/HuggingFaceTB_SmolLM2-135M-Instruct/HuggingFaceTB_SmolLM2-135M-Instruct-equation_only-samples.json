@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -301,7 +301,7 @@
     "doc_hash": "3b84320101c36874f367b57eac17c9a3ce4b5dfc4e409949fdb938f2f07e335e",
     "prompt_hash": "aa0ad383ec706adbc9924708d3d2481e0d03f7c4af05849f175e5d26deeaecf0",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 8,
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -681,7 +681,7 @@
     "doc_hash": "7c48dc43f0c51733902355bade7f30ab19e9570881d88de70506c862d6b78d15",
     "prompt_hash": "0a23d81bef27f72946cd441a2125e2a78c1874a35424b758de6766a2b80358d2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 18,
@@ -1086,11 +1086,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1099,7 +1099,7 @@
     "doc_hash": "9cdaeba7895ead3b1d0097780bff531ae100d19bcddcdba84937fe5b358a9e95",
     "prompt_hash": "2c4813ee10ae8935670c6e981cb85013575c94a6eb4e7fdeeeed45ef4c2d7f4a",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 29,
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2505,7 +2505,7 @@
     "doc_hash": "69871415135ee77ee4fc9ec0be16c4abe3c53cee31a963c8f4f0bd0f7824c958",
     "prompt_hash": "86c6610d91cb6ece0035646605c7f6a858716d58124b262261826290111446c1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 66,
@@ -2682,11 +2682,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2695,7 +2695,7 @@
     "doc_hash": "a6047bbc8de3d333d7007567a377f63df2d3ca472e99de7014d928653e7ccb52",
     "prompt_hash": "c9d7706dbaaaf420e5d208600bdae7780b5bf82220002618db5fa5edce48f9e2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 71,
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 0 + 0 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2847,7 +2847,7 @@
     "doc_hash": "e703a0819ae2aad95f981ded4448c967f8b71c13a0b7203bbaab1bcf387d373d",
     "prompt_hash": "94badd565ba78eff2d254a5397bac49c6782d6bb997767ddcfc0aa2171c9ad31",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 75,
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3721,7 +3721,7 @@
     "doc_hash": "677142980475e290f6de75a2866959f0c11feffef6395be2531a41546f962dd3",
     "prompt_hash": "6cddac179deed6e3235e5b3b5da21b06f42459e4958ebc6d3be7e01d97e54656",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 98,
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4101,7 +4101,7 @@
     "doc_hash": "3b84320101c36874f367b57eac17c9a3ce4b5dfc4e409949fdb938f2f07e335e",
     "prompt_hash": "aa0ad383ec706adbc9924708d3d2481e0d03f7c4af05849f175e5d26deeaecf0",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 8,
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4481,7 +4481,7 @@
     "doc_hash": "7c48dc43f0c51733902355bade7f30ab19e9570881d88de70506c862d6b78d15",
     "prompt_hash": "0a23d81bef27f72946cd441a2125e2a78c1874a35424b758de6766a2b80358d2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 18,
@@ -4886,11 +4886,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4899,7 +4899,7 @@
     "doc_hash": "9cdaeba7895ead3b1d0097780bff531ae100d19bcddcdba84937fe5b358a9e95",
     "prompt_hash": "2c4813ee10ae8935670c6e981cb85013575c94a6eb4e7fdeeeed45ef4c2d7f4a",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 29,
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6305,7 +6305,7 @@
     "doc_hash": "69871415135ee77ee4fc9ec0be16c4abe3c53cee31a963c8f4f0bd0f7824c958",
     "prompt_hash": "86c6610d91cb6ece0035646605c7f6a858716d58124b262261826290111446c1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 66,
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6495,7 +6495,7 @@
     "doc_hash": "a6047bbc8de3d333d7007567a377f63df2d3ca472e99de7014d928653e7ccb52",
     "prompt_hash": "c9d7706dbaaaf420e5d208600bdae7780b5bf82220002618db5fa5edce48f9e2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 71,
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 0 + 0 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6647,7 +6647,7 @@
     "doc_hash": "e703a0819ae2aad95f981ded4448c967f8b71c13a0b7203bbaab1bcf387d373d",
     "prompt_hash": "94badd565ba78eff2d254a5397bac49c6782d6bb997767ddcfc0aa2171c9ad31",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 75,
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is yes."
+        "heads = 0, tails = 1: 0 + 1 + 1 mod 2 = 1. tails The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7521,7 +7521,7 @@
     "doc_hash": "677142980475e290f6de75a2866959f0c11feffef6395be2531a41546f962dd3",
     "prompt_hash": "6cddac179deed6e3235e5b3b5da21b06f42459e4958ebc6d3be7e01d97e54656",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 98,

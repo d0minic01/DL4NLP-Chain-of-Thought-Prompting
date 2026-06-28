@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,strategyqa_caveman_mode,strategyqa,caveman_mode,fewshot_cot,strategyqa,0.48,0.09,142.1,6,100,40.64,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,strategyqa_caveman_mode,strategyqa,caveman_mode,fewshot_cot,strategyqa,0.47,0.08,149.7,6,100,21.32,1.48

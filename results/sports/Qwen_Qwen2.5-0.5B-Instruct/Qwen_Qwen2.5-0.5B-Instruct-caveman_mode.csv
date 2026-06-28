@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-0.5B-Instruct,sports_caveman_mode,sports,caveman_mode,fewshot_cot,sports_understanding,0.64,0.0,102.7,8,100,9.76,4.12

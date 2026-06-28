@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Bob flips, coin changes to tail. Step 3: Henry does not flip, coin stays tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Bob flips, coin changes to tail. Step 3: Henry does not flip, coin stays tail. Coin is tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -947,7 +947,7 @@
     "doc_hash": "3f01075c3f9cbc46b1f4b0b8e151836bfaa450e51b21f226a8e9ee7f84bd1911",
     "prompt_hash": "dc55b8cba16fca717f1010540708542c7ead4d897092fc90e98bec25df7c59ab",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 25,
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Yara does not flip, coin stays head. Step 3: Quinn does not flip, coin stays head. Coin is head. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Yara does not flip, coin stays head. Step 3: Quinn does not flip, coin changes to tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1593,7 +1593,7 @@
     "doc_hash": "3c845fc6ee829a64e46cfeea6a7f7478d929fcefa670b006ad6998d341a4fcfe",
     "prompt_hash": "afaf2023e16bd5dcad6bf140ab8467a5f1b5c2b8e626b5b86826691e8dfc83be",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -1770,7 +1770,7 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Eve flips, coin changes to tail. Step 3: Marcus does not flip, coin stays tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Marcus flips, coin changes to tail. Step 3: Eve does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Caleb does not flip, coin stays head. Step 3: Chloe flips, coin changes to tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Chloe flips, coin changes to tail. Step 3: Caleb does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Eve flips, coin changes to tail. Step 3: James does not flip, coin stays tail. Coin is tail. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Eve flips, coin changes to tail. Step 3: James does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2809,7 +2809,7 @@
     "doc_hash": "b7f4da0e5754b198901f79be64db36e775d95d0f84af379bebea356e08fd1e2d",
     "prompt_hash": "9b21d4eceac6c590cd2d68d1e1a6a68a9242f63205ef09d2f6577a4d50356d36",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 74,
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Gina flips, coin changes to tail. Step 3: Tina flips, coin changes to head. Coin is head. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Gina flips, coin changes to tail. Step 3: Tina does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2847,7 +2847,7 @@
     "doc_hash": "e703a0819ae2aad95f981ded4448c967f8b71c13a0b7203bbaab1bcf387d373d",
     "prompt_hash": "9be59079e29379a625ede5f4e962b078bcf7e296ae80c1e1bb7dc2fa94b79848",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 75,
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Nina flips, coin changes to tail. Step 3: Blake does not flip, coin stays tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Nina does not flip, coin stays head. Step 3: Blake does not flip, coin changes to tail. Coin is tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3265,7 +3265,7 @@
     "doc_hash": "835d1beaa9698cd2c6ad1e7b09c2302066e9ae1e5885e275b1a63281d9425a43",
     "prompt_hash": "8fbd31c02e93b40f1cc3a06b65fc4ed52dce69e9e6be6f2431af4f10aa54cdd9",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 86,
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Emma flips, coin changes to tail. Step 3: Ethan does not flip, coin stays tail. Coin is tail. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Emma flips, coin changes to tail. Step 3: Ethan does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3303,7 +3303,7 @@
     "doc_hash": "d70efd4bbbee373335f0394f2cf8b1f0eb5fca1748c2167d36428da75424867b",
     "prompt_hash": "80e84f6395675de1ff3376298ab55316c9d47807a244252f33f80ff29779273e",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -3708,7 +3708,7 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Kevin flips, coin changes to tail. Step 3: Ray flips, coin changes to head. Coin is head. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Kevin does not flip, coin stays head. Step 3: Ray flips, coin changes to tail. Coin is tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Bob flips, coin changes to tail. Step 3: Henry does not flip, coin stays tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Bob flips, coin changes to tail. Step 3: Henry does not flip, coin stays tail. Coin is tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4747,7 +4747,7 @@
     "doc_hash": "3f01075c3f9cbc46b1f4b0b8e151836bfaa450e51b21f226a8e9ee7f84bd1911",
     "prompt_hash": "dc55b8cba16fca717f1010540708542c7ead4d897092fc90e98bec25df7c59ab",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 25,
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Yara does not flip, coin stays head. Step 3: Quinn does not flip, coin stays head. Coin is head. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Yara does not flip, coin stays head. Step 3: Quinn does not flip, coin changes to tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5393,7 +5393,7 @@
     "doc_hash": "3c845fc6ee829a64e46cfeea6a7f7478d929fcefa670b006ad6998d341a4fcfe",
     "prompt_hash": "afaf2023e16bd5dcad6bf140ab8467a5f1b5c2b8e626b5b86826691e8dfc83be",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -5570,7 +5570,7 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Eve flips, coin changes to tail. Step 3: Marcus does not flip, coin stays tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Marcus flips, coin changes to tail. Step 3: Eve does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5836,7 +5836,7 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Caleb does not flip, coin stays head. Step 3: Chloe flips, coin changes to tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Chloe flips, coin changes to tail. Step 3: Caleb does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Eve flips, coin changes to tail. Step 3: James does not flip, coin stays tail. Coin is tail. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Eve flips, coin changes to tail. Step 3: James does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6609,7 +6609,7 @@
     "doc_hash": "b7f4da0e5754b198901f79be64db36e775d95d0f84af379bebea356e08fd1e2d",
     "prompt_hash": "9b21d4eceac6c590cd2d68d1e1a6a68a9242f63205ef09d2f6577a4d50356d36",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 74,
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Gina flips, coin changes to tail. Step 3: Tina flips, coin changes to head. Coin is head. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Gina flips, coin changes to tail. Step 3: Tina does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6647,7 +6647,7 @@
     "doc_hash": "e703a0819ae2aad95f981ded4448c967f8b71c13a0b7203bbaab1bcf387d373d",
     "prompt_hash": "9be59079e29379a625ede5f4e962b078bcf7e296ae80c1e1bb7dc2fa94b79848",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 75,
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Nina flips, coin changes to tail. Step 3: Blake does not flip, coin stays tail. Coin is tail. The answer is no."
+        "Step 1: Coin starts head. Step 2: Nina does not flip, coin stays head. Step 3: Blake does not flip, coin changes to tail. Coin is tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7065,7 +7065,7 @@
     "doc_hash": "835d1beaa9698cd2c6ad1e7b09c2302066e9ae1e5885e275b1a63281d9425a43",
     "prompt_hash": "8fbd31c02e93b40f1cc3a06b65fc4ed52dce69e9e6be6f2431af4f10aa54cdd9",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 86,
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Emma flips, coin changes to tail. Step 3: Ethan does not flip, coin stays tail. Coin is tail. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Emma flips, coin changes to tail. Step 3: Ethan does not flip, coin stays tail. Coin is tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7103,7 +7103,7 @@
     "doc_hash": "d70efd4bbbee373335f0394f2cf8b1f0eb5fca1748c2167d36428da75424867b",
     "prompt_hash": "80e84f6395675de1ff3376298ab55316c9d47807a244252f33f80ff29779273e",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -7508,7 +7508,7 @@
     ],
     "resps": [
       [
-        "Step 1: Coin starts head. Step 2: Kevin flips, coin changes to tail. Step 3: Ray flips, coin changes to head. Coin is head. The answer is yes."
+        "Step 1: Coin starts head. Step 2: Kevin does not flip, coin stays head. Step 3: Ray flips, coin changes to tail. Coin is tail. The answer is yes."
       ]
     ],
     "filtered_resps": [

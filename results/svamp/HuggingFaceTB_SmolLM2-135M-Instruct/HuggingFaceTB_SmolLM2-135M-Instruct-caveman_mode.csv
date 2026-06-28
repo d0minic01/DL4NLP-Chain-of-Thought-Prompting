@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,svamp_caveman_mode,svamp,caveman_mode,fewshot_cot,svamp,0.08,0.03,135.7,8,100,22.35,1.48

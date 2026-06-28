@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-1b-it,saycan_caveman_mode,saycan,caveman_mode,fewshot_cot,saycan,0.0,0.0,144.6,7,100,15.36,4.38

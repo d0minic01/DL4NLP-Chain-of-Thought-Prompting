@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Emma first letter w. jungle cloud first letter l. Together w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w"
+        "[INCORRECT] Emma first letter w. jungle cloud. Together w. Emma. The answer is w. Emma."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "w"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Mary first letter t. Tiger first letter r. Together tt. Mary first letter r. Together rr. The answer is rr."
+        "[INCORRECT] Mary first letter t. Tiger first letter r. Together t. Mary. [CORRECT] Mary last letter t. Tiger last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last"
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "t"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,7 +440,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Orange first letter o. Carol first letter r. Walter first letter o. Together o. The answer is o."
+        "[INCORRECT] Orange first letter o. Carol first letter o. Walter first letter o. Together o. The answer is o."
       ]
     ],
     "filtered_resps": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jack walnut harbor first letter w. Harbor first letter l. Together w. Jack walnut harbor. The answer is w. Jack walnut harbor."
+        "[INCORRECT] Jack walnut harbor first letter w. Harbor first letter l. Together w. [CORRECT] Jack walnut harbor last letter w. Together l. [CORRECT] Jack walnut harbor last letter w. Together l. The answer is lw."
       ]
     ],
     "filtered_resps": [
-      "w"
+      "lw"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quinn valley xenon first letter q. Quinn valley xenon last letter n. Together qn. The answer is qn."
+        "[INCORRECT] Quinn valley xenon first letter q. Valley xenon first letter n. Together vn. The answer is vn."
       ]
     ],
     "filtered_resps": [
-      "qn"
+      "vn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Emma first letter w. W. walnut first letter e. Together w.e.y. The answer is ew."
+        "[INCORRECT] Emma last letter w. walnut last letter l. Together w. [CORRECT] Emma last letter w. walnut last letter l. Together w. The answer is w."
       ]
     ],
     "filtered_resps": [
-      "ew"
+      "w"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1542,11 +1542,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Nathan first letter n. Engine first letter n. Together n. The answer is nn."
+        "[INCORRECT] Nathan first letter n. Engine last letter n. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "n"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Zach first letter z. Bridge first letter s. Silver first letter z. Together sz. The answer is sz."
+        "[INCORRECT] Zach first letter z. Bridge first letter s. Silver first letter b. Together sb. The answer is sb."
       ]
     ],
     "filtered_resps": [
-      "sz"
+      "sb"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Puzzle first letter p. Liam last letter l. Puzzle last letter p. Together lp. The answer is lp."
+        "[INCORRECT] Puzzle last letter P. Liam last letter N. Together N. P. The answer is N."
       ]
     ],
     "filtered_resps": [
-      "lp"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Stone last letter n. Lantern last letter L. Together n. Lan. The answer is n. Lan. The answer is n."
+        "[INCORRECT] Stone last letter n. Lantern last letter L. Together n. Lan. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -1770,7 +1770,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Forest first letter n. Engine first letter g. Together ng. The answer is ng."
+        "[INCORRECT] Forest engine first letter n. Engine first letter g. Together ng. The answer is ng."
       ]
     ],
     "filtered_resps": [
@@ -1808,11 +1808,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X."
+        "[INCORRECT] Elbow xenon Carol knight last letter n. Knights last letter n. Together nk. The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "nk"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Mango first letter r. Iris first letter s. Together r. Iris last letter s. Together r. The answer is r. Iris last letter s."
+        "[INCORRECT] Mango first letter o. Iris first letter r. River Zach first letter s. Together r. O. The answer is r. S. O. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Flame needle last letter n. needle last letter f. Together nf. The answer is nf."
+        "[INCORRECT] Flame needle first letter n. Flame needle last letter m. Together n. Flame needle m. The answer is mn."
       ]
     ],
     "filtered_resps": [
-      "nf"
+      "mn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quilt first letter q. Candle second letter r. Rocket third letter s. Together qs. The answer is ss."
+        "[INCORRECT] Quilt first letter q. Candle second letter r. Rocket third letter s. Together qs. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "ss"
+      "s"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] anchor river first letter a. River first letter r. Together rr. The answer is rr."
+        "[INCORRECT] anchor river first letter a. River first letter n. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "n"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2087,7 +2087,7 @@
     "doc_hash": "293536e703c890f351ddddf5405bacd95d5928b996140b02f9a93d428763e80c",
     "prompt_hash": "9d12d5e514aba72856444bba55798c44269f59317adf7711bcc66ddabd594821",
     "target_hash": "597c28c381ef1feee61f3e9677a628b4cbd41cfb2539c8938062e1df2a882d39",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 55,
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bob first letter t. Valley first letter n. Bob last letter t. Together tn. The answer is tn."
+        "[INCORRECT] Bob first letter t. Valley first letter n. Bob last letter t. Together tt. The answer is tt."
       ]
     ],
     "filtered_resps": [
-      "tn"
+      "tt"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quilt last letter e. Planet last letter l. Together l. The answer is l."
+        "[INCORRECT] Quilt last letter e. Planet last letter l. Together l. [CORRECT] Quilt last letter e. Planet last letter l. Together l. The answer is l."
       ]
     ],
     "filtered_resps": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] violet first letter o. Bob first letter l. Bob last letter o. Together o. The answer is o."
+        "[INCORRECT] violet first letter b. Bob last letter r. Together rb. The answer is rb."
       ]
     ],
     "filtered_resps": [
-      "o"
+      "rb"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Castle first letter r. Rocket first letter c. Together rc. The answer is rc."
+        "[INCORRECT] Castle first letter r. Rocket first letter c. Together rc. [CORRECT] Castle last letter r. Rocket last letter c. Together rc. The answer is rc."
       ]
     ],
     "filtered_resps": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harbor first letter d. Desert first letter s. Together sd. The answer is sd."
+        "[INCORRECT] Harbor first letter h. Desert first letter d. Together hd. The answer is hd."
       ]
     ],
     "filtered_resps": [
-      "sd"
+      "hd"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2644,11 +2644,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Yasmin first letter n. Knight first letter n. Together nk. The answer is nk."
+        "[INCORRECT] Yasmin first letter n. Knight first letter b. Together n. Yasmin last letter n. Knights last letter b. The answer is bn."
       ]
     ],
     "filtered_resps": [
-      "nk"
+      "bn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Forest David first letter f. David first letter g. Together fg. [CORRECT] Forest David last letter f. David last letter g. Together fg. The answer is fg."
+        "[INCORRECT] Forest David first letter d. David last letter f. Together df. The answer is df."
       ]
     ],
     "filtered_resps": [
-      "fg"
+      "df"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,11 +2910,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Glove window violet. Together v. Glove window violet. The answer is violet."
+        "[INCORRECT] Glove window violet. Together v. [CORRECT] Glove window violet. Together v. The answer is v."
       ]
     ],
     "filtered_resps": [
-      "violet"
+      "v"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Yellow first letter L. Lantern first letter N. Together ln. The answer is ln."
+        "[INCORRECT] Yellow last letter L. Lan. [CORRECT] Yellow last letter L. Lan. The answer is L."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Nathan first letter u. Grace umbrella first letter n. Together un. The answer is un."
+        "[INCORRECT] Nathan first letter g. Grace first letter u. Together ug. [CORRECT] Nathan last letter g. Grace last letter u. Together ug. The answer is ug."
       ]
     ],
     "filtered_resps": [
-      "un"
+      "ug"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3404,11 +3404,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Liam first letter V. Scott first letter S. Together v. Scott. The answer is v. Scott."
+        "[INCORRECT] Liam violet Scott last letter s. Scott last letter l. Together s. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "v"
+      "s"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3746,11 +3746,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Vera first letter d. Desert first letter s. Together sd. The answer is sd."
+        "[INCORRECT] Vera first letter d. Desert first letter r. Together r. The answer is r."
       ]
     ],
     "filtered_resps": [
-      "sd"
+      "r"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Liam first letter f. Frank first letter l. Together f. [CORRECT] Liam last letter f. Frank last letter l. Together lf. The answer is lf."
+        "[INCORRECT] Liam first letter f. Frank first letter l. Together l. [CORRECT] Liam last letter f. Frank last letter l. Together l. The answer is ll."
       ]
     ],
     "filtered_resps": [
-      "lf"
+      "ll"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Emma first letter w. jungle cloud first letter l. Together w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w. w"
+        "[INCORRECT] Emma first letter w. jungle cloud. Together w. Emma. The answer is w. Emma."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Mary first letter t. Tiger first letter r. Together tt. Mary first letter r. Together rr. The answer is rr."
+        "[INCORRECT] Mary first letter t. Tiger first letter r. Together t. Mary. [CORRECT] Mary last letter t. Tiger last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last letter r. Together t. Mary. The answer is t. Mary last"
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "last"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,7 +4240,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Orange first letter o. Carol first letter r. Walter first letter o. Together o. The answer is o."
+        "[INCORRECT] Orange first letter o. Carol first letter o. Walter first letter o. Together o. The answer is o."
       ]
     ],
     "filtered_resps": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jack walnut harbor first letter w. Harbor first letter l. Together w. Jack walnut harbor. The answer is w. Jack walnut harbor."
+        "[INCORRECT] Jack walnut harbor first letter w. Harbor first letter l. Together w. [CORRECT] Jack walnut harbor last letter w. Together l. [CORRECT] Jack walnut harbor last letter w. Together l. The answer is lw."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "lw"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quinn valley xenon first letter q. Quinn valley xenon last letter n. Together qn. The answer is qn."
+        "[INCORRECT] Quinn valley xenon first letter q. Valley xenon first letter n. Together vn. The answer is vn."
       ]
     ],
     "filtered_resps": [
-      "qn"
+      "vn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Emma first letter w. W. walnut first letter e. Together w.e.y. The answer is ew."
+        "[INCORRECT] Emma last letter w. walnut last letter l. Together w. [CORRECT] Emma last letter w. walnut last letter l. Together w. The answer is w."
       ]
     ],
     "filtered_resps": [
-      "ew"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5342,11 +5342,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Nathan first letter n. Engine first letter n. Together n. The answer is nn."
+        "[INCORRECT] Nathan first letter n. Engine last letter n. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Zach first letter z. Bridge first letter s. Silver first letter z. Together sz. The answer is sz."
+        "[INCORRECT] Zach first letter z. Bridge first letter s. Silver first letter b. Together sb. The answer is sb."
       ]
     ],
     "filtered_resps": [
-      "sz"
+      "sb"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Puzzle first letter p. Liam last letter l. Puzzle last letter p. Together lp. The answer is lp."
+        "[INCORRECT] Puzzle last letter P. Liam last letter N. Together N. P. The answer is N."
       ]
     ],
     "filtered_resps": [
-      "lp"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5532,7 +5532,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Stone last letter n. Lantern last letter L. Together n. Lan. The answer is n. Lan. The answer is n."
+        "[INCORRECT] Stone last letter n. Lantern last letter L. Together n. Lan. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -5570,7 +5570,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Forest first letter n. Engine first letter g. Together ng. The answer is ng."
+        "[INCORRECT] Forest engine first letter n. Engine first letter g. Together ng. The answer is ng."
       ]
     ],
     "filtered_resps": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X. X. X. Knights first letter N. X. X. X. [CORRECT] Elbow first letter C. X."
+        "[INCORRECT] Elbow xenon Carol knight last letter n. Knights last letter n. Together nk. The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "nk"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Mango first letter r. Iris first letter s. Together r. Iris last letter s. Together r. The answer is r. Iris last letter s."
+        "[INCORRECT] Mango first letter o. Iris first letter r. River Zach first letter s. Together r. O. The answer is r. S. O. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "last"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Flame needle last letter n. needle last letter f. Together nf. The answer is nf."
+        "[INCORRECT] Flame needle first letter n. Flame needle last letter m. Together n. Flame needle m. The answer is mn."
       ]
     ],
     "filtered_resps": [
-      "nf"
+      "mn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quilt first letter q. Candle second letter r. Rocket third letter s. Together qs. The answer is ss."
+        "[INCORRECT] Quilt first letter q. Candle second letter r. Rocket third letter s. Together qs. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "ss"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] anchor river first letter a. River first letter r. Together rr. The answer is rr."
+        "[INCORRECT] anchor river first letter a. River first letter n. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5887,7 +5887,7 @@
     "doc_hash": "293536e703c890f351ddddf5405bacd95d5928b996140b02f9a93d428763e80c",
     "prompt_hash": "9d12d5e514aba72856444bba55798c44269f59317adf7711bcc66ddabd594821",
     "target_hash": "597c28c381ef1feee61f3e9677a628b4cbd41cfb2539c8938062e1df2a882d39",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 55,
@@ -5912,11 +5912,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bob first letter t. Valley first letter n. Bob last letter t. Together tn. The answer is tn."
+        "[INCORRECT] Bob first letter t. Valley first letter n. Bob last letter t. Together tt. The answer is tt."
       ]
     ],
     "filtered_resps": [
-      "tn"
+      "tt"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quilt last letter e. Planet last letter l. Together l. The answer is l."
+        "[INCORRECT] Quilt last letter e. Planet last letter l. Together l. [CORRECT] Quilt last letter e. Planet last letter l. Together l. The answer is l."
       ]
     ],
     "filtered_resps": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] violet first letter o. Bob first letter l. Bob last letter o. Together o. The answer is o."
+        "[INCORRECT] violet first letter b. Bob last letter r. Together rb. The answer is rb."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "rb"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Castle first letter r. Rocket first letter c. Together rc. The answer is rc."
+        "[INCORRECT] Castle first letter r. Rocket first letter c. Together rc. [CORRECT] Castle last letter r. Rocket last letter c. Together rc. The answer is rc."
       ]
     ],
     "filtered_resps": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harbor first letter d. Desert first letter s. Together sd. The answer is sd."
+        "[INCORRECT] Harbor first letter h. Desert first letter d. Together hd. The answer is hd."
       ]
     ],
     "filtered_resps": [
-      "sd"
+      "hd"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6444,11 +6444,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Yasmin first letter n. Knight first letter n. Together nk. The answer is nk."
+        "[INCORRECT] Yasmin first letter n. Knight first letter b. Together n. Yasmin last letter n. Knights last letter b. The answer is bn."
       ]
     ],
     "filtered_resps": [
-      "nk"
+      "bn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Forest David first letter f. David first letter g. Together fg. [CORRECT] Forest David last letter f. David last letter g. Together fg. The answer is fg."
+        "[INCORRECT] Forest David first letter d. David last letter f. Together df. The answer is df."
       ]
     ],
     "filtered_resps": [
-      "fg"
+      "df"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,7 +6710,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Glove window violet. Together v. Glove window violet. The answer is violet."
+        "[INCORRECT] Glove window violet. Together v. [CORRECT] Glove window violet. Together v. The answer is v."
       ]
     ],
     "filtered_resps": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Yellow first letter L. Lantern first letter N. Together ln. The answer is ln."
+        "[INCORRECT] Yellow last letter L. Lan. [CORRECT] Yellow last letter L. Lan. The answer is L."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Nathan first letter u. Grace umbrella first letter n. Together un. The answer is un."
+        "[INCORRECT] Nathan first letter g. Grace first letter u. Together ug. [CORRECT] Nathan last letter g. Grace last letter u. Together ug. The answer is ug."
       ]
     ],
     "filtered_resps": [
-      "un"
+      "ug"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,7 +7204,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Liam first letter V. Scott first letter S. Together v. Scott. The answer is v. Scott."
+        "[INCORRECT] Liam violet Scott last letter s. Scott last letter l. Together s. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Vera first letter d. Desert first letter s. Together sd. The answer is sd."
+        "[INCORRECT] Vera first letter d. Desert first letter r. Together r. The answer is r."
       ]
     ],
     "filtered_resps": [
-      "sd"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Liam first letter f. Frank first letter l. Together f. [CORRECT] Liam last letter f. Frank last letter l. Together lf. The answer is lf."
+        "[INCORRECT] Liam first letter f. Frank first letter l. Together l. [CORRECT] Liam last letter f. Frank last letter l. Together l. The answer is ll."
       ]
     ],
     "filtered_resps": [
-      "lf"
+      "ll"
     ],
     "filter": "flexible-extract",
     "metrics": [

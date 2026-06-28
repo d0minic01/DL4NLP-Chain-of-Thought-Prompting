@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-1.5B-Instruct,coin_flip_paper_cot,coin_flip,paper_cot,fewshot_cot,coin_flip,0.96,0.0,197.4,8,100,11.77,5.92

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,svamp_contrastive_cot,svamp,contrastive_cot,fewshot_cot,svamp,0.63,0.24,475.7,8,100,22.59,8.84

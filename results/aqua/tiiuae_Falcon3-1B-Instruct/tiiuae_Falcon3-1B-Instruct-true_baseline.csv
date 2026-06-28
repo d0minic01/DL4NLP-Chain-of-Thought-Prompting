@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,aqua_true_baseline,aqua,true_baseline,zero_shot,aqua-rat,0.04,0.94,677.8,0,100,24.84,11.13

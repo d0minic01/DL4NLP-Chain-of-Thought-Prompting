@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,letter_shift_think_step_by_step,letter_shift,think_step_by_step,zero_shot,letter_shift,0.76,0.02,331.6,0,100,58.89,11.48

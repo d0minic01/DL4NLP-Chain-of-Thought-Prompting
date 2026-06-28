@@ -30,11 +30,11 @@
     ],
     "resps": [
       [
-        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15/100 * 15 = 2.25 times Friend Q's rate. Friend P's rate is 15/100 * 15 = 2.25 times Friend Q's rate. Friend P's rate is 2.25 * 15 = 33.75 times Friend Q's rate. Friend P's rate is 33.75 * 15 = 506.25 times Friend Q's rate. Friend P's rate is 506.25 * 15 = 768.125 times Friend Q's rate. Friend P's rate is 768.125 * 15 = 1135.5625 times Friend Q's rate. Friend P's rate is 1135.5625 * 15 = 1768.125 times Friend Q's rate. Friend P's rate is 1768.125 * 15 = 2765.6"
+        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15/100 = 0.15 km/h. Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15/100 = 0.15 km/h. Friend P's rate is 0.15 km/h * 15 = 0.225 km/h. Friend P will have walked 0.225 km/h * 43 km = 10.125 km. Friend P will have walked 10.125 km. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -76,7 +76,7 @@
     ],
     "resps": [
       [
-        "The equation of line k is y = 1/5x + 1. To find the values of x and y, we can solve for x in the equation y = 1/5x + 1. Subtracting 1 from both sides gives us y - 1 = 1/5x. Dividing both sides by 1/5 gives us x = (y - 1) / 1/5. Multiplying both sides by 5 gives us x = 5y - 5. Substituting the given values of y and x into this equation, we get 5(1) - 5 = 5(1) - 5, which simplifies to 0 = 0. This is true for all values of x, so the values of x and y are both 0. The answer is (a)."
+        "The equation of line k is y = 1/5x + 1. To find the values of x and y, we can solve for x in the equation y = 1/5x + 1. Subtracting 1 from both sides gives us y - 1 = 1/5x. Dividing both sides by 1/5 gives us y = 1/5x + 1. To find the values of x and y, we can solve for x in the equation 1/5x + 1 = 1. Subtracting 1 from both sides gives us 1/5x = 0. Multiplying both sides by 5 gives us x = 0. So x = 0. To find the value of y, we can substitute x = 0 into the equation y = 1/5x + 1. This gives us y = 1/5(0) + 1 = 1. So y = 1. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -122,11 +122,11 @@
     ],
     "resps": [
       [
-        "If xy \u2260 0, then the product xy is non-zero. The operation @ is defined as p@q = p^2 - pq. If xy \u2260 0, then p^2 - pq \u2260 0. So, the operation @ is defined for non-zero numbers. The answer is (b)."
+        "If xy \u2260 0, then the product xy is non-zero. The operation @ is defined as p@q = p^2 - pq. If xy \u2260 0, then p^2 - pq \u2260 0. So, the operation @ is defined for all non-zero numbers. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -135,7 +135,7 @@
     "doc_hash": "0c97b66b63b8bf69c541392f4bc04c51fe6c8ca6e28abdb5b708d21adc69ff8d",
     "prompt_hash": "e3873bd2a31c4dc91f8ebc5e1b5d7b2d77518a939eaf68bba679976a0513a3a8",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 3,
@@ -168,7 +168,7 @@
     ],
     "resps": [
       [
-        "The interest he pays annually is the interest on the loan divided by the number of times the interest is compounded per year. Since the interest is compounded quarterly, the number of times the interest is compounded per year is 4 (quarterly). The interest is $10,000 * 0.04 = $400. The approximate interest he pays annually is $400. The answer is (b)."
+        "The interest he pays annually is $10,000 * 0.04 = $400. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -214,11 +214,11 @@
     ],
     "resps": [
       [
-        "The speed of the man in still water is 25 kmph. The speed of the current is 11 kmph. The man's speed downstream is 25 + 11 = 36 kmph. The man's speed upstream is 25 - 11 = 14 kmph. The time taken to cover 80 metres downstream is 80 / 36 = 2.1728 seconds. The time taken to cover 80 metres upstream is 80 / 14 = 5.625 seconds. The time taken to cover 80 metres downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The time taken to cover 80 metres downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The answer is (b)."
+        "The speed of the man in still water is 25 kmph. The speed of the current is 11 kmph. The man's speed downstream is 25 + 11 = 36 kmph. The man's speed upstream is 25 - 11 = 14 kmph. The time taken to cover 80 meters downstream is 80 / 36 = 2.1728 seconds. The time taken to cover 80 meters upstream is 80 / 14 = 5.625 seconds. The time taken to cover 80 meters downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The time taken to cover 80 meters downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The time taken to cover 80 meters downstream and upstream is 7.8073 - 2.1728 = 5.6345 seconds. The time taken to cover 80 meters downstream and upstream is 5.6345 - "
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -306,11 +306,11 @@
     ],
     "resps": [
       [
-        "The inequality (x^2 + 4x - 11)/5 \u2264 x + 1 is a quadratic inequality. To solve it, we can first multiply both sides by 5 to get rid of the fraction, which gives us x^2 + 4x - 11 \u2264 5x + 5. Then, we can rearrange the inequality to get x^2 + 4x - 16 \u2264 0. This is a quadratic inequality, and we can solve it by factoring or using the quadratic formula. Factoring gives us (x + 4)(x - 4) \u2264 0, which means x \u2264 -4 or x \u2265 4. The answer is (c)."
+        "The inequality (x^2 + 4x - 11)/5 \u2264 x + 1 is a quadratic inequality. To solve it, we can use the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a. In this case, a = 1, b = 4, and c = -11. Plugging these values into the quadratic formula, we get x = (-(4) \u00b1 \u221a((4)^2 - 4(1)(-11))) / 2(1). Simplifying, we get x = (-4 \u00b1 \u221a(16 + 44)) / 2, which becomes x = (-4 \u00b1 \u221a50) / 2. Since \u221a50 = \u221a(25*2) = 5\u221a2, we have two possible solutions: x = (-4 \u00b1 5\u221a2) / 2. The first solution is x = (-4 + 5\u221a2) / 2, which is approximately 0.54. The second solution is x = (-4 - 5\u221a2) / 2, which is approximately -0.5"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -398,11 +398,11 @@
     ],
     "resps": [
       [
-        "If Joe goes with his 6-year-old twin brothers, each of them took 3 rides, so they took a total of 6 * 3 = 18 rides. The entrance fee for the fair is $5 for persons under 18, and 20% more for persons older. So the entrance fee for the fair is $5 + 0.20 * 18 = $5.20. The total cost for the fair is $5.20 + $0.50 = $5.70. The answer is (c)."
+        "If Joe goes with her 6 years old twin brothers, and they each took 3 rides in total, then Joe and her twin brothers took 6 * 3 = 18 rides. So Joe and his twin brothers took a total of 18 + 6 = 24 rides. Joe spent 20.5 dollars on the entrance fee. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -490,7 +490,7 @@
     ],
     "resps": [
       [
-        "If Tim gave 20% tip, then he gave 20/100 * 50 = $10. So he spent $50 + $10 = $60. The answer is (a)."
+        "If Tim gave 20% tip, then the tip would be 20% of $50, which is $10. So the total amount spent is $50 + $10 = $60. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -536,7 +536,7 @@
     ],
     "resps": [
       [
-        "If the rate of interest is increased by 4%, the new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 825 * 1.08 = 956. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 956 * 1.08 = 1025. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 1025 * 1.08 = 1025. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 1025 * 1.08 = 1025. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 1025 * 1.08 = 1025. The new rate"
+        "If the rate of interest is increased by 4%, the new rate of interest will be 8% (400/1000 * 8 = 32/100 * 8 = 256/1000 * 8 = 20/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 ="
       ]
     ],
     "filtered_resps": [
@@ -582,11 +582,11 @@
     ],
     "resps": [
       [
-        "Since p = 4^q, we know that p is a power of 4. The powers of 4 are 4, 16, 64, 256, and so on. The remainder when p is divided by 10 is 0. The answer is (c)."
+        "Since p = 4^q, we know that p is a power of 4. The powers of 4 are 4, 16, 64, 256, and so on. The remainder when p is divided by 10 is 0. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -674,7 +674,7 @@
     ],
     "resps": [
       [
-        "The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio by 14/7. So, 1/7:1/7:1/14 * 14/7 = 1/14. The ratio of A to C is 1/14:1/14:1/14. The ratio of A to C is 1:1:1. The answer is (a)."
+        "The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio by 14/7. So, 1/7:1/7:1/14 * 14/7 = 1/14. The ratio of A to C is 1/14:1/14:1/14. To find the ratio of A to C, we can multiply the ratio by 14/14. So, 1/14:1/14:1/14 * 14/14 = 1/14. The ratio of A to C is 1/14:1/14:1/14. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -766,11 +766,11 @@
     ],
     "resps": [
       [
-        "Since k/l < 1, we know that k and l are positive integers. The expression k/l^2 is always positive, so it must be greater than 1. The other options are not possible for k and l to be positive integers. The answer is (a)."
+        "Since k/l < 1, we know that k and l are positive integers. The only option that satisfies this condition is (b) k^2/l. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -812,11 +812,11 @@
     ],
     "resps": [
       [
-        "If Mike scored 760 on the GMAT and his average score for the mocks and the GMAT was 716.67, then his total score for the mocks and the GMAT would be 760 + (716.67 * 5) = 760 + 3583.33 = 4243.33. His total score for the 5 mocks would be 4243.33 * 5 = 21116.67. His total score for the 5 mock tests would be 21116.67 + 760 = 21876.67. His total score for the 5 mock tests would be 21876.67 + 760 = 22636.67. His total score for the 5 mock tests would be 22636.67 + 760 = 23396.67. His total score for the 5 mock tests would be 23396.67 + 760 = 24"
+        "If Mike scored 760 on the GMAT and his average score for the mocks and the GMAT was 716.67, then his total score for the mocks and the GMAT would be 760 + 716.67 = 1476.67.\n\nThe difference in the score of his last mock and his GMAT score would be 1476.67 - 760 = 716.67. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -950,7 +950,7 @@
     ],
     "resps": [
       [
-        "The sequence is 4, 10, X, 46, and 94. The difference between the last two numbers and the first two numbers is 46 - 4 = 42. The difference between the last two numbers and the second-to-last number is 46 - 42 = 4. The difference between the second-to-last number and the first number is 46 - 10 = 36. The difference between the second-to-last number and the third number is 46 - 40 = 6. The difference between the second-to-last number and the fourth number is 46 - 44 = 2. The difference between the second-to-last number and the fifth number is 46 - 46 = 0. The difference between the fifth number and the first number is 94 - 4 = 90. The difference between the fifth number and the second-to-last number is 94 - 42 = 52. The difference between the fifth number and the third number is 94 - 40 = 54. The difference between the fifth number and"
+        "The sequence is 4, 10, X, 46, and 94. The difference between the last two numbers and the first two numbers is 46 - 4 = 42. The difference between the last two numbers and the second-to-last number is 46 - 42 = 4. The difference between the second-to-last number and the first number is 46 - 10 = 36. The difference between the second-to-last number and the third number is 46 - 40 = 6. The difference between the second-to-last number and the fourth number is 46 - 44 = 2. The difference between the second-to-last number and the fifth number is 46 - 46 = 0. The difference between the fifth number and the first number is 94 - 4 = 90. The difference between the fifth number and the second-to-last number is 94 - 36 = 58. The difference between the fifth number and the third number is 94 - 42 = 52. The difference between the fifth number and"
       ]
     ],
     "filtered_resps": [
@@ -1042,7 +1042,7 @@
     ],
     "resps": [
       [
-        "To find the least value of x that makes 2x5475 divisible by 9, we need to find the least common multiple (LCM) of 2 and 5475.\n\nThe LCM of 2 and 5475 is 10850.\n\nSo, the least value of x that makes 2x5475 divisible by 9 is 10850. The answer is (c)."
+        "To find the least value of x that makes 2x5475 divisible by 9, we need to find the least common multiple (LCM) of 2 and 5475.\n\nThe LCM of 2 and 5475 is 5475.\n\nSo, the least value of x that makes 2x5475 divisible by 9 is x = 5475. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1088,11 +1088,11 @@
     ],
     "resps": [
       [
-        "The perimeter of P is 40. The area of P is 40 * 40 = 1600. The area of Q is \u03c0 * 40 * 40 = 1600\u03c0. The circumference of Q is 2 * \u03c0 * 40 = 80\u03c0. The answer is (d)."
+        "The perimeter of P is 40. The diameter of Q is 40 / 2 = 20. The radius of Q is 20 / 2 = 10. The circumference of Q is 2 * \u03c0 * 10 = 20\u03c0. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1180,11 +1180,11 @@
     ],
     "resps": [
       [
-        "To determine which statement is true, we need to calculate the total earnings for each week.\n\nWeek 1:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36\n- Total earnings: $180 + $36 = $216\n\nWeek 2:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36\n- Total earnings: $180 + $36 = $216\n\nWeek 3:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36\n- Total earnings: $180 + $36 = $216\n\nWeek 4:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36"
+        "If y<2x, then y is less than 2x. If y>x, then y is greater than x. If y>3, then y is greater than 3.\n\nThe answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1226,11 +1226,11 @@
     ],
     "resps": [
       [
-        "If the ratio of students per class were to be increased by 1, then the new ratio would be Q + 1 = 1 + 1 = 2. So the current ratio Q of students per class would be 2. The answer is (a)."
+        "If the ratio of students per class were to be increased by 1, then the new ratio would be Q + 1 = 1 + 1 = 2. If 10 fewer classes were run, then the total number of students would be Q + 10 = 2 + 10 = 12. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1239,7 +1239,7 @@
     "doc_hash": "2da1bbe5439573b8265b1d8f5a9a6827b238914aa0b133d787608831e8528d5c",
     "prompt_hash": "f5a3dbfebcbe85bdea991aa7a6a59af0b4b5e233f3a664001504ec47ed523430",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 27,
@@ -1272,11 +1272,11 @@
     ],
     "resps": [
       [
-        "To solve this using the weighted average concept, we need to calculate the average income of the 10 wealthiest customers and then multiply it by the number of customers in that group.\n\nThe average income of the 10 wealthiest customers is $95,000. Since there are 50 customers in the group, we multiply the average income by the number of customers:\n\nAverage income of the 10 wealthiest customers = $95,000 * 50 = $47,500\n\nNow, we need to calculate the average income of the other 40 customers. We know that the average income of the wealthiest 10 customers is $95,000. We can use this information to find the average income of the other 40 customers:\n\nAverage income of the other 40 customers = $95,000 - $47,500 = $47,500\n\nSo, the average income of the other 40 customers is $47,500. The answer is (c)."
+        "To solve this using the weighted average concept, we need to calculate the average income of the 10 wealthiest customers and the 10 poorest customers, and then add them together and divide by the total number of customers.\n\nThe average income of the 10 wealthiest customers is $95,000. The average income of the 10 poorest customers is $35,000.\n\nThe total income of the 10 wealthiest customers is $95,000 * 10 = $950,000. The total income of the 10 poorest customers is $35,000 * 10 = $350,000.\n\nThe total income of the 50 customers is $45,000 * 50 = $225,000.\n\nThe average income of the other 40 customers is $225,000 - $950,000 - $350,000 = -$100,000.\n\nSince the average income of the other 40 customers is negative, it cannot be a real number"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1410,11 +1410,11 @@
     ],
     "resps": [
       [
-        "Each tree takes up one square foot of sidewalk space, so 20 feet between trees means that each tree takes up 20 feet / 2 = 10 square feet. Since there are 20 feet between trees, each tree takes up 10 square feet * 20 feet = 200 square feet. The answer is (c)."
+        "If each tree takes up one square foot of sidewalk space, then 20 feet of sidewalk space is needed for each tree. So 20 feet / 1 square foot = 20 trees. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1456,11 +1456,11 @@
     ],
     "resps": [
       [
-        "The difference in simple interest will be 2000 * (10/100) = 200. The difference in compound interest will be 2000 * (10/100) * (1 + 10/100)^3 = 200. The answer is (b)."
+        "The difference in simple interest will be 2000 * (10/100) = 200. The difference in compound interest will be 2000 * (10/100) * (1 + 10/100)^3 = 200. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1594,11 +1594,11 @@
     ],
     "resps": [
       [
-        "A positive whole number must be divisible by 3 and 5. The number must also be divisible by 15, which is a multiple of 3 and 5. The number must be divisible by 30, which is a multiple of 3 and 5. The number must be divisible by 60, which is a multiple of 3 and 5. The answer is (b)."
+        "A positive whole number has factors of 3 and 5. The number must be divisible by 3 and 5. The factors of 3 are 1, 3, and 3. The factors of 5 are 1, 5. The number must be divisible by 3 and 5. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1607,7 +1607,7 @@
     "doc_hash": "e20f6009109cf78a7a4d9aeec3557ded378a33469aef8de3ce7406f2819b4ab9",
     "prompt_hash": "2c4f7ed47cc6855aa92929c5f010f2c0d63ccdf74aa46730e071cd7a43de5276",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 35,
@@ -1640,11 +1640,11 @@
     ],
     "resps": [
       [
-        "If Nandan invested his money for double the time, then his money invested is 6N. If Krishan invested his money for double the time, then his money invested is 2N. The total amount invested is 6N + 2N = 8N. The total amount earned is 6000. The total gain is 6000 * 8N / 100 = 48000. The answer is (b)."
+        "If Nandan invested his money for double the time, then his investment is 6 times Nandan's investment. So Nandan's investment is 6 * 6000 = 36000. The total amount invested is 6000 + 36000 = 42000. The total amount earned is 6000 + 36000 = 42000. The total gain is 42000 - 36000 = 6000. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1778,11 +1778,11 @@
     ],
     "resps": [
       [
-        "If today is 22 days before Mariah's graduation, then she will graduate on a Friday. The answer is (c)."
+        "If today is 22 days before Mariah's graduation, then she will graduate on a Friday. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1791,7 +1791,7 @@
     "doc_hash": "8c964635d347dbf313a17b4a902db43c4c23ca34afb7eeeeaa6d9730d83d7501",
     "prompt_hash": "9ecdc0c52fb84a0d6769e3d970f178705aabaea57735e2b7a6c9f7efa893f8e6",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 39,
@@ -1824,11 +1824,11 @@
     ],
     "resps": [
       [
-        "The given equation is 1/a + 1/b + 1/c = 1. To find a + b + c, we can multiply both sides by the least common multiple of a, b, and c, which is 12. This gives us 12(1/a + 1/b + 1/c) = 12. Now, we can rewrite the equation as 12(1/a + 1/b + 1/c) = 12. Multiplying both sides by 12 gives us 12(1/a + 1/b + 1/c) = 144. Now, we can divide both sides by 12 to get 1/a + 1/b + 1/c = 12/12 = 1. The answer is (a) 1."
+        "The given equation is 1/a + 1/b + 1/c = 1. We can multiply both sides by a, b, and c to get 1 = 1. This is not possible, so there are no integers a, b, and c that satisfy the given equation. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1916,11 +1916,11 @@
     ],
     "resps": [
       [
-        "The actual % difference would be 10% gain on 1000 gms of fluid, which is 1000 * 10% = 100 gms. The actual % difference is 100 gms / 200 gms = 0.5 * 100 = 50%. The answer is (b)."
+        "The actual % difference would be 10% gain on 1000 gms of fluid, which is 1000 * 10% = 100 gms. The actual % difference is 100 gms / 200 gms = 0.50 or 50%. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1929,7 +1929,7 @@
     "doc_hash": "de63dcf2d42bebe2b1326ce65806f692421337a38fd85867cc2649804b96c134",
     "prompt_hash": "24bfa7b67661c3f6f2cc0019e85ac0e5e12d131abe528ba40517ff6c0e96903b",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -1962,7 +1962,7 @@
     ],
     "resps": [
       [
-        "If the person walks at a constant rate of 8mph, then the distance he travels would be 64 miles / 8 hours = 8 miles per hour. To find the distance he would need to walk, we need to multiply the distance he walks at 8mph by the time he spends walking. So, 8 miles per hour * 8 hours = 64 miles. The answer is (c)."
+        "If the person walks at a constant rate of 8mph, then the distance he would travel in 8 hours would be 8 * 8 = 64 miles. If he walks at this rate, then he would require 64 miles / 8mph = 8 hours to travel this distance. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2100,7 +2100,7 @@
     ],
     "resps": [
       [
-        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that no customer bought a coffee and a bagel, and then subtract that from 1.\n\nThe probability that no customer bought a coffee and a bagel is (5/7) * (3/5) = 9/35.\n\nThe probability that at least 1 customer bought a coffee and a bagel is 1 - (9/35) = 27/35.\n\nThe answer is (d)."
+        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that no customer bought a coffee and a bagel, and then subtract this from 1.\n\nThe probability that no customer bought a coffee and a bagel is (5/7) * (3/5) = 9/35.\n\nThe probability that at least 1 customer bought a coffee and a bagel is 1 - (9/35) = 27/35.\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "The equation is |x+3| \u2013 |4-x| = |8+x|. We can simplify it by adding and subtracting |4-x| inside the absolute value. This gives us |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Now, we can factor out |4-x| from the first two terms, which gives us |x+3| = |8+x| \u2013 |4-x|. This simplifies to |x+3| = 8-|4-x|. We can now solve for x by adding |4-x| to both sides, which gives us |x+3| = 8. This means x+3 = 8 or x+3 = -8. Solving for x, we get x = 5 or x = -2. The answer is (a)."
+        "The equation is |x+3| \u2013 |4-x| = |8+x|. We can simplify it by adding and subtracting |4-x| inside the absolute value. This gives us |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Now, we can factor out |4-x| from the first two terms and |8+x| from the last two terms. This gives us |4-x|(|x+3| \u2013 |x+3|) = |8+x|(|x+3| \u2013 |x+3|). Simplifying further, we get |4-x|(|x+3|) = |8+x|(|x+3|). This simplifies to 4-x = 8+x. Solving for x, we get x = 4. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2192,7 +2192,7 @@
     ],
     "resps": [
       [
-        "To find the new output, we need to calculate 10% of the original output and add it to the original output. So, 10% of 500 is 0.1 * 500 = 50. Adding this to the original output, we get 50 + 50 = 100. To find the new output, we need to calculate 20% of the new output and add it to the new output. So, 20% of 100 is 0.2 * 100 = 20. Adding this to the new output, we get 100 + 20 = 120. To find the new output, we need to calculate 30% of the new output and add it to the new output. So, 30% of 120 is 0.3 * 120 = 36. Adding this to the new output, we get 120 + 36 = 156. To find the new output, we need to calculate 79% of the new output and add it to the new output. So, 79%"
+        "To find the new output, we need to calculate 10% of the original output and 20% of the new output. \n\n10% of the original output is 10/100 * 500 = 50. \nThe new output is 50 + 20 = 70.\n\nTo find the new output when the holiday rush is reduced, we need to calculate 10% of the new output and 20% of the original output. \n\n10% of the new output is 10/100 * 70 = 7.\nThe new output is 7 + 20 = 27.\n\nTo find the new output when the holiday rush is reduced by 20%, we need to calculate 10% of the new output and 20% of the original output. \n\n10% of the new output is 10/100 * 27 = 2.7.\nThe new output is 27 + 2.7 = 30.7.\n\nTo find the new output when the holiday rush is reduced by 24%, we need to calculate"
       ]
     ],
     "filtered_resps": [
@@ -2284,11 +2284,11 @@
     ],
     "resps": [
       [
-        "The volume of the cube is given as 8500 cm^3. The rate of painting is 13 paise per Sq.cm, so the cost of painting the cube is 13 * 8500 = 109500 paise. The answer is (b)."
+        "The volume of the cube is given as 9261 cm3. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2422,7 +2422,7 @@
     ],
     "resps": [
       [
-        "The total number of oxen for the 7 months is 10 + 12 + 15 = 37 oxen. The total rent for the 7 months is 175 oxen * 7 months = Rs. 1215. The total rent for the 5 months is 175 oxen * 5 months = Rs. 875. The total rent for the 3 months is 175 oxen * 3 months = Rs. 525. The total rent for the 1 month is 175 oxen * 1 month = Rs. 175. The total rent for the 1 month is 175 oxen * 1 month = Rs. 175. The total rent for the 1 month is 175 oxen * 1 month = Rs. 175. The total rent for the 3 months is 175 oxen * 3 months = Rs. 525. The total rent for the 7 months is 175 oxen * 7 months = Rs. 1215. The total rent for the 5 months is 175 oxen * 5 months"
+        "The total number of oxen for the 7 months is 10 + 12 + 15 = 37 oxen. The total rent for the 7 months is 175 oxen * 7 months = Rs. 1215. The total rent for the 5 months is 175 oxen * 5 months = Rs. 875. The total rent for the 3 months is 175 oxen * 3 months = Rs. 525. The total rent for the 15 months is 175 oxen * 15 months = Rs. 2525. The total rent for the 3 months is 525 oxen * 3 months = Rs. 1575. The total rent for the 7 months is 1215 + 875 + 2525 + 1575 = Rs. 4500. The total rent for the 15 months is 2525 + 1575 = Rs. 4100. The total rent for the 3 months is 1575 + 1575 = Rs."
       ]
     ],
     "filtered_resps": [
@@ -2468,11 +2468,11 @@
     ],
     "resps": [
       [
-        "The train crosses the electric pole in 20 sec. To find the speed of the train, we can use the formula:\n\nSpeed = Distance / Time\n\nSpeed = 500 m / 20 sec\nSpeed = 25 m/sec\n\nThe answer is (a)."
+        "The train crosses the electric pole in 20 sec. To find the speed of the train, we can use the formula:\n\nSpeed = Distance / Time\n\nSpeed = 500 m / 20 sec\nSpeed = 25 m/sec\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "Let the digit in the unit's place be x and the digit in the ten's place be 4x. The sum of the digits is 10, so we have:\n\nx + 4x = 10\n\nCombine like terms:\n\n5x = 10\n\nDivide by 5:\n\nx = 2\n\nThe digit in the unit's place is 2. The digit in the ten's place is 4x = 4(2) = 8. The number is 82. The answer is (a)."
+        "Let the digit in the unit's place be x and the digit in the ten's place be 4x. The sum of the digits is 10, so x + 4x = 10. So 5x = 10, so x = 2. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2698,7 +2698,7 @@
     ],
     "resps": [
       [
-        "If the price was not less than half the original price, then the new price would be 1.5 * 2 = 3.0. The original price was 2.0. So the new price would be 3.0 / 2 = 1.5. The answer is (c)."
+        "If the price was not less than half the original price, then the new price would be 1.5 * 2 = 3. The number of chocolates sold would be 1.9 * 1.5 = 2.75. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2744,7 +2744,7 @@
     ],
     "resps": [
       [
-        "The length of each part is 7ft. 9 inches / 12 inches = 0.75 feet. 0.75 feet / 12 inches = 0.00625 feet. 0.00625 feet / 3 feet = 0.00208333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+        "The board is 7ft 9 inches long, which is 7ft + 9 inches = 7ft + 12 inches = 7ft + 12/12 = 7ft + 1/4 = 7ft + 0.25 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/"
       ]
     ],
     "filtered_resps": [
@@ -2928,11 +2928,11 @@
     ],
     "resps": [
       [
-        "Let's calculate the profit for each person after 4 months:\n\nA's profit: 6000 * 12000 / 100 = Rs.720000\nB's profit: 12000 * 10000 / 100 = Rs.120000\n\nAfter 4 months, A's profit is Rs.720000 - Rs.120000 = Rs.600000.\nAfter 2 months, B's profit is Rs.120000 - Rs.120000 = Rs.0.\n\nNow, let's calculate the profit for each person after 1 month:\n\nA's profit: 6000 * 10000 / 100 = Rs.600000\nB's profit: 12000 * 10000 / 100 = Rs.120000\n\nAfter 1 month, A's profit is Rs.600000 - Rs.120000"
+        "Let's calculate the profit for each person after 4 months:\n\nA's profit: 6000 * 0.5 = 3000\nB's profit: 12000 * 0.5 = 6000\n\nAfter 4 months, A's profit is 3000 - 6000 = -2000. This means A's profit is negative.\n\nB's profit is 6000 - 12000 = -2000. This means B's profit is negative.\n\nSince the profit is negative, the ratio of their profits should be positive. So, the ratio of their profits should be 32:99. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3112,7 +3112,7 @@
     ],
     "resps": [
       [
-        "First, we need to find the total work done by the 10 women and 10 children in 9 days. The total work is 10 women * 9 days * 10 children = 900 work.\n\nNext, we need to find the total work done by the 6 women and 7 children in 12 days. The total work is 6 women * 12 days * 7 children = 432 work.\n\nNow, we need to find the total work done by the 6 women and 7 children in 1 day. The total work is 6 women * 1 day * 7 children = 42 work.\n\nTo find the time it takes to complete the work, we divide the total work by the total number of women and children. So, 42 work / 900 work = 42 / 900 = 0.042 days.\n\nTo convert this to hours, we multiply by 24 (the number of hours in a day). 0.042 days * 24 hours/day = 0.968 hours.\n\nNow, we need"
+        "First, we need to find the total work done by the 10 women and 10 children in 9 days. The work done by 10 women in 9 days is 10 * 9 = 90 women's work. The work done by 10 children in 9 days is 10 * 9 = 90 children's work. The total work done by 10 women and 10 children in 9 days is 90 + 90 = 180 women's work. The total work done by 6 women and 7 children in 9 days is 6 * 9 + 7 * 9 = 54 + 63 = 117 women's work. The work done by 6 women and 7 children in 9 days is 6 * 9 + 7 * 9 = 54 + 63 = 117 women's work. To find the work done by 6 women and 7 children in 1 day, we divide the total work done by 117 by 10. The work done by 6 women and 7 children in 1 day is 1"
       ]
     ],
     "filtered_resps": [
@@ -3296,7 +3296,7 @@
     ],
     "resps": [
       [
-        "The area of an equilateral triangle can be calculated using the formula: Area = (\u221a3 / 4) * s^2, where s is the length of one side. In this case, s = 16 cm. So, Area = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
+        "The area of an equilateral triangle can be calculated using the formula: Area = (\u221a3 / 4) * s^2, where s is the side length of the triangle. In this case, s = 16 cm. So, Area = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3388,7 +3388,7 @@
     ],
     "resps": [
       [
-        "The population increases by 1 person every 40 seconds. So, in 1 hour, the population increases by 1 * 60 = 60 people. The answer is (c)."
+        "The population increases at the rate of one person every 40 seconds. So, in 1 hour, the population increases by 1 hour * 60 seconds/hour * 1 person/person/hour = 60 persons. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3526,11 +3526,11 @@
     ],
     "resps": [
       [
-        "The time it takes for the train to cross the bridge is 110 m / 72 km/hr = 1.43 sec. The answer is (b)."
+        "The time it takes for the train to cross the bridge is equal to the time it takes for the train to cover the length of the bridge. So the time is 132 m / 72 km/hr = 1.875 sec. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3539,7 +3539,7 @@
     "doc_hash": "561a2957625c779f5cd25f3fa5c0ef26fbc7ed7f45f1968e9974e0e23f319cb0",
     "prompt_hash": "cf318d0c2fdf00f75e880c5109a15c938706c5412965dd9eb29545ad44e7891a",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 77,
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "The consumption of diesel per hour of a bus varies directly as square of its speed. So, the consumption of diesel per hour is proportional to the square of the speed. Given that the bus is travelling at 60 kmph, the consumption is 1 litre per hour.\n\nIf each litre costs $60, then the total expenditure is 1 litre * $60 = $60.\n\nThe bus travels at 60 kmph, so its speed is 60 km/h. The square of its speed is 60^2 = 3600.\n\nThe minimum expenditure required to cover a distance of 600 Km is 3600 litre * $60 = $21,600. The answer is (c)."
+        "The consumption of diesel per hour of a bus varies directly as square of its speed. So, the consumption of diesel per hour is proportional to the square of the speed. Given that the consumption is 1 litre per hour, we can set up the equation:\n\nSpeed^2 = 1\n\nSince the bus travels at 60 kmph, we can find the speed:\n\nSpeed^2 = 60^2\nSpeed^2 = 3600\nSpeed = \u221a3600\nSpeed = 60 kmph\n\nNow, we know that the consumption is 1 litre per hour, so we can find the consumption at 60 kmph:\n\nConsumption = Speed^2 * Consumption per litre\nConsumption = 60^2 * 1\nConsumption = 3600\n\nThe minimum expenditure required to cover a distance of 600 Km is 3600 litre. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3618,11 +3618,11 @@
     ],
     "resps": [
       [
-        "To have at least 3 men on the committee, we can have 0, 1, 2, or 3 men. The number of ways to choose 0, 1, 2, or 3 men from 7 men and 6 women is 7C0 * 6C0 * 6C1 * 6C2 * 6C3 * 6C0 * 6C1 * 6C2 * 6C3.\n\nThe number of ways to choose 3 men from 7 men is 7C3 = 35. The number of ways to choose 2 men from 6 men is 6C2 = 15. The number of ways to choose 1 man from 6 women is 6C1 = 6. The number of ways to choose 0 men from 6 women is 6C0 = 1.\n\nThe total number of ways to choose 5 men and 2 women is 35 * 15 * 6C2 * 6C1 * 1 = 1375.\n\nThe probability of having 0 woman in the committee is 1375 /"
+        "To have at least 3 men on the committee, we need to consider the cases where 0, 1, 2, or 3 men are selected.\n\nCase 1: 0 men selected:\n- 7 men and 6 women are selected.\n- 6 men and 5 women are selected.\n- 5 men and 4 women are selected.\n- 4 men and 3 women are selected.\n- 3 men and 2 women are selected.\n- 2 men and 1 woman is selected.\n- 1 man and 0 women is selected.\n\nTotal number of ways to select 5 men from 7 is 7C5 = 35.\nTotal number of ways to select 5 women from 6 is 6C5 = 20.\n\nProbability of having 0 woman in committee = (7C5 * 20) / (7C7) = 35 * 20 / 210 = 70 / 30 = 7/36.\n\nThe answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3664,7 +3664,7 @@
     ],
     "resps": [
       [
-        "The probability of choosing exactly three good bulbs out of four chosen bulbs is the number of ways to choose three good bulbs and four defective bulbs, divided by the total number of ways to choose four bulbs.\n\nThere are 3 ways to choose three good bulbs and 4 ways to choose four defective bulbs. So the probability is 3/4. The answer is (a)."
+        "The probability of choosing exactly three good bulbs out of four chosen bulbs is the number of ways to choose three good bulbs out of four chosen bulbs divided by the total number of ways to choose four bulbs out of nine chosen bulbs.\n\nThere are 3 ways to choose three good bulbs out of four chosen bulbs (1 good, 2 good, or 3 good). There are 9 ways to choose four bulbs out of nine chosen bulbs.\n\nThe probability is 3/9 = 1/3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -3756,7 +3756,7 @@
     ],
     "resps": [
       [
-        "If |w| = -w, then w = -w. This means that w is always equal to its negative. The answer is (a)."
+        "If |w| = -w, then w = -w. This is a contradiction, as w is a real number. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -3894,11 +3894,11 @@
     ],
     "resps": [
       [
-        "Since the volume of the cube is numerically equal to its surface area, the ratio of the volume to the surface area is 1:1. This means that the edge length of the cube is equal to the surface area divided by the volume.\n\nThe surface area of a cube is 6 * edge length^2. The volume of the cube is 6 * edge length^3. So, the ratio of the volume to the surface area is 6 * edge length^3 / 6 * edge length^2 = 1/2.\n\nThe answer is (a)."
+        "Since the volume of the cube is numerically equal to its surface area, the ratio of the volume to the surface area is 1:1. This means that the edge length of the cube is equal to the surface area divided by the volume.\n\nThe surface area of a cube is 6 * (side length)^2, and the volume is 6 * (side length)^3. So, the ratio of the volume to the surface area is 6 * (side length)^3 / 6 * (side length)^2 = 1.\n\nTherefore, the measure of the edge length in meters is 9. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3940,7 +3940,7 @@
     ],
     "resps": [
       [
-        "If a person tastes very little, then the poisned can will be found within 14 hours. So the poisned can will be found within 14 hours. The answer is (a)."
+        "If a person tastes very little, then he will die within 14 hours. So, the poisned can will be tested for 14 hours. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -3986,11 +3986,11 @@
     ],
     "resps": [
       [
-        "The time it takes for the train to cross the bridge is 660 meters / 72 kmph = 9.09 seconds. The answer is (b)."
+        "The time it takes for the train to cross the bridge is 660 meters / 72 kmph = 9.09 seconds. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3999,7 +3999,7 @@
     "doc_hash": "acbbb2486c62825c70a671cd6fc406d275ce2ea37ef6d8c78db08fd8231f26d9",
     "prompt_hash": "8b0b4485d97876ae052ce54bb5a9380425a31548c4f526f896813f7df5e6012f",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -4032,7 +4032,7 @@
     ],
     "resps": [
       [
-        "The original retail price of the turtleneck sweaters was 20% of $100, which is $20. The store marked up the price by 20% to $20 * 1.20 = $24. The store then marked up the price by 25% to $24 * 1.25 = $30. The store sold the items for $24 + $30 = $54. The profit on the items sold in February is $54 - $24 = $30. The answer is (d)."
+        "The original retail price of the turtleneck sweaters was 20% of $100, which is $20. The store marked up the price by 20% to $20 * 1.20 = $24. The store then offered a 25% discount on the original price, which is $24 * 0.25 = $6. The profit on the items sold in February is the difference between the original price and the discounted price, which is $24 - $6 = $18. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4078,7 +4078,7 @@
     ],
     "resps": [
       [
-        "Half of 2% written as decimal is 0.05. The answer is (c)."
+        "Half of 2% written as a decimal is 0.05. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4262,7 +4262,7 @@
     ],
     "resps": [
       [
-        "The job can be completed in 1/4th of a day, which is 1/4 * 60 = 15 minutes. Since the man, woman, and boy can complete the job in 3 days, the total number of days required is 3 * 15 = 45 days.\n\nTo complete the job in 1/4th of a day, the number of boys must be 1/4 * 1 = 1/2. Since there are 2 boys, the number of girls must be 1/2 - 1 = 1/2.\n\nThe answer is (c)."
+        "Since the job can be completed in 1/4th of a day, the total time required is 1/4 * 24 = 6 hours. The total number of boys required is 1/3 + 1/4 + 1/12 = 7/12 of a man and 1/3 of a woman, which is 7/12 * 1/3 = 1/4 of a man and 1/3 of a woman. Since 1/4 of a man and 1/3 of a woman is 1/12 of a man and 1/3 of a woman, the total number of boys required is 1/12 + 1/12 = 1/4 of a man and 1/3 of a woman, which is 1/4 * 1/3 = 1/12 of a man and 1/3 of a woman. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4308,7 +4308,7 @@
     ],
     "resps": [
       [
-        "Let's assume the age of Amit is x and the age of Dhiraj is y. After 6 years, the age of Amit will be x + 6 and the age of Dhiraj will be y + 6. The ratio of their ages will be 5 : 4. So we can set up the equation: (x + 6) / (y + 6) = 5/4. We can simplify this equation by cross-multiplying: x + 6 = 5(y + 6). So x + 6 = 5y + 30. Subtracting 6 from both sides, we get x = 5y + 24. Now we can substitute this expression for x into the equation for y: y = 5(24) + 24 = 110. So the age of Dhiraj at present is 110. The answer is (c)."
+        "Let's assume the age of Amit is x and the age of Dhiraj is y. After 6 years, the age of Amit will be x + 6 and the age of Dhiraj will be y + 6. The ratio of their ages will be 5 : 4, so we can set up the equation:\n\n(x + 6) / (y + 6) = 5/4\n\nWe are given that after 6 years, the age of Amit will be 26 years. So we can substitute 26 for x + 6:\n\n26 / (y + 6) = 5/4\n\nNow, we can cross-multiply to solve for y:\n\ny + 6 = 26 * 4 / 5\ny + 6 = 10.24\ny = 6.24\n\nNow that we have the value of y, we can find the value of x by substituting y into the equation:\n\nx = 26 + 6\nx = 32\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "If A doubles his capital, then his new capital will be 3000 * 2 = 6000. The new profit will be 6000 * 20 = Rs.120000. If A doubles his capital again, then his new capital will be 6000 * 2 = 12000. The new profit will be 12000 * 20 = Rs.240000. The ratio of A's new capital to his original capital is 120000 / 60000 = 2:1. The ratio of A's profit to his original profit is 240000 / 120000 = 2:1. The answer is (a)."
+        "If A doubles his capital, then his new capital will be 3000 * 2 = 6000. The new profit will be 6000 * 20 = Rs.120000. If A doubles his capital again, then his new capital will be 6000 * 2 = 12000. The new profit will be 12000 * 20 = Rs.240000. The new profit will be 120000 + 240000 = Rs.360000. The new ratio of profit will be 360000 / 120000 = 3:2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4400,11 +4400,11 @@
     ],
     "resps": [
       [
-        "If x-y = 10, then x = y + 10. So, the possible values of x and y are 10 and 20. The answer is (b)."
+        "If x-y = 10, then x = y + 10. So, the possible values of x and y are 10 and 20. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4413,7 +4413,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "37df1f9715d52751e50394a2bd21c4dc977ee29bfd6d4cdb125d8c60c8c38c38",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -4446,7 +4446,7 @@
     ],
     "resps": [
       [
-        "If each side of the square is increased by 25%, the area will increase by 25% of the original area. So the new area will be 1.25 * original area. The original area is 1/4 of the square. So the new area is 1/4 * 1.25 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/8 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/8 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/8 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/16 * 1/4 = 1/8. The new area is 1/16 * 1/4 ="
+        "If each side of the square is increased by 25%, the area will increase by 25% of the original area. So the new area will be 1.25 * original area. The original area is 1 * 100 = 100. The new area is 1.25 * 100 = 125. The new area is 125 / 100 = 1.25. The new area is 1.25 * 100 = 125. The new area is 125 / 100 = 1.25. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 1"
       ]
     ],
     "filtered_resps": [
@@ -4630,11 +4630,11 @@
     ],
     "resps": [
       [
-        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15/100 * 15 = 2.25 times Friend Q's rate. Friend P's rate is 15/100 * 15 = 2.25 times Friend Q's rate. Friend P's rate is 2.25 * 15 = 33.75 times Friend Q's rate. Friend P's rate is 33.75 * 15 = 506.25 times Friend Q's rate. Friend P's rate is 506.25 * 15 = 768.125 times Friend Q's rate. Friend P's rate is 768.125 * 15 = 1135.5625 times Friend Q's rate. Friend P's rate is 1135.5625 * 15 = 1768.125 times Friend Q's rate. Friend P's rate is 1768.125 * 15 = 2765.6"
+        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15/100 = 0.15 km/h. Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15/100 = 0.15 km/h. Friend P's rate is 0.15 km/h * 15 = 0.225 km/h. Friend P will have walked 0.225 km/h * 43 km = 10.125 km. Friend P will have walked 10.125 km. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4676,7 +4676,7 @@
     ],
     "resps": [
       [
-        "The equation of line k is y = 1/5x + 1. To find the values of x and y, we can solve for x in the equation y = 1/5x + 1. Subtracting 1 from both sides gives us y - 1 = 1/5x. Dividing both sides by 1/5 gives us x = (y - 1) / 1/5. Multiplying both sides by 5 gives us x = 5y - 5. Substituting the given values of y and x into this equation, we get 5(1) - 5 = 5(1) - 5, which simplifies to 0 = 0. This is true for all values of x, so the values of x and y are both 0. The answer is (a)."
+        "The equation of line k is y = 1/5x + 1. To find the values of x and y, we can solve for x in the equation y = 1/5x + 1. Subtracting 1 from both sides gives us y - 1 = 1/5x. Dividing both sides by 1/5 gives us y = 1/5x + 1. To find the values of x and y, we can solve for x in the equation 1/5x + 1 = 1. Subtracting 1 from both sides gives us 1/5x = 0. Multiplying both sides by 5 gives us x = 0. So x = 0. To find the value of y, we can substitute x = 0 into the equation y = 1/5x + 1. This gives us y = 1/5(0) + 1 = 1. So y = 1. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -4722,11 +4722,11 @@
     ],
     "resps": [
       [
-        "If xy \u2260 0, then the product xy is non-zero. The operation @ is defined as p@q = p^2 - pq. If xy \u2260 0, then p^2 - pq \u2260 0. So, the operation @ is defined for non-zero numbers. The answer is (b)."
+        "If xy \u2260 0, then the product xy is non-zero. The operation @ is defined as p@q = p^2 - pq. If xy \u2260 0, then p^2 - pq \u2260 0. So, the operation @ is defined for all non-zero numbers. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4735,7 +4735,7 @@
     "doc_hash": "0c97b66b63b8bf69c541392f4bc04c51fe6c8ca6e28abdb5b708d21adc69ff8d",
     "prompt_hash": "e3873bd2a31c4dc91f8ebc5e1b5d7b2d77518a939eaf68bba679976a0513a3a8",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 3,
@@ -4768,7 +4768,7 @@
     ],
     "resps": [
       [
-        "The interest he pays annually is the interest on the loan divided by the number of times the interest is compounded per year. Since the interest is compounded quarterly, the number of times the interest is compounded per year is 4 (quarterly). The interest is $10,000 * 0.04 = $400. The approximate interest he pays annually is $400. The answer is (b)."
+        "The interest he pays annually is $10,000 * 0.04 = $400. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -4814,11 +4814,11 @@
     ],
     "resps": [
       [
-        "The speed of the man in still water is 25 kmph. The speed of the current is 11 kmph. The man's speed downstream is 25 + 11 = 36 kmph. The man's speed upstream is 25 - 11 = 14 kmph. The time taken to cover 80 metres downstream is 80 / 36 = 2.1728 seconds. The time taken to cover 80 metres upstream is 80 / 14 = 5.625 seconds. The time taken to cover 80 metres downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The time taken to cover 80 metres downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The answer is (b)."
+        "The speed of the man in still water is 25 kmph. The speed of the current is 11 kmph. The man's speed downstream is 25 + 11 = 36 kmph. The man's speed upstream is 25 - 11 = 14 kmph. The time taken to cover 80 meters downstream is 80 / 36 = 2.1728 seconds. The time taken to cover 80 meters upstream is 80 / 14 = 5.625 seconds. The time taken to cover 80 meters downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The time taken to cover 80 meters downstream and upstream is 2.1728 + 5.625 = 7.8073 seconds. The time taken to cover 80 meters downstream and upstream is 7.8073 - 2.1728 = 5.6345 seconds. The time taken to cover 80 meters downstream and upstream is 5.6345 - "
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4906,11 +4906,11 @@
     ],
     "resps": [
       [
-        "The inequality (x^2 + 4x - 11)/5 \u2264 x + 1 is a quadratic inequality. To solve it, we can first multiply both sides by 5 to get rid of the fraction, which gives us x^2 + 4x - 11 \u2264 5x + 5. Then, we can rearrange the inequality to get x^2 + 4x - 16 \u2264 0. This is a quadratic inequality, and we can solve it by factoring or using the quadratic formula. Factoring gives us (x + 4)(x - 4) \u2264 0, which means x \u2264 -4 or x \u2265 4. The answer is (c)."
+        "The inequality (x^2 + 4x - 11)/5 \u2264 x + 1 is a quadratic inequality. To solve it, we can use the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a. In this case, a = 1, b = 4, and c = -11. Plugging these values into the quadratic formula, we get x = (-(4) \u00b1 \u221a((4)^2 - 4(1)(-11))) / 2(1). Simplifying, we get x = (-4 \u00b1 \u221a(16 + 44)) / 2, which becomes x = (-4 \u00b1 \u221a50) / 2. Since \u221a50 = \u221a(25*2) = 5\u221a2, we have two possible solutions: x = (-4 \u00b1 5\u221a2) / 2. The first solution is x = (-4 + 5\u221a2) / 2, which is approximately 0.54. The second solution is x = (-4 - 5\u221a2) / 2, which is approximately -0.5"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4998,11 +4998,11 @@
     ],
     "resps": [
       [
-        "If Joe goes with his 6-year-old twin brothers, each of them took 3 rides, so they took a total of 6 * 3 = 18 rides. The entrance fee for the fair is $5 for persons under 18, and 20% more for persons older. So the entrance fee for the fair is $5 + 0.20 * 18 = $5.20. The total cost for the fair is $5.20 + $0.50 = $5.70. The answer is (c)."
+        "If Joe goes with her 6 years old twin brothers, and they each took 3 rides in total, then Joe and her twin brothers took 6 * 3 = 18 rides. So Joe and his twin brothers took a total of 18 + 6 = 24 rides. Joe spent 20.5 dollars on the entrance fee. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5090,7 +5090,7 @@
     ],
     "resps": [
       [
-        "If Tim gave 20% tip, then he gave 20/100 * 50 = $10. So he spent $50 + $10 = $60. The answer is (a)."
+        "If Tim gave 20% tip, then the tip would be 20% of $50, which is $10. So the total amount spent is $50 + $10 = $60. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -5136,7 +5136,7 @@
     ],
     "resps": [
       [
-        "If the rate of interest is increased by 4%, the new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 825 * 1.08 = 956. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 956 * 1.08 = 1025. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 1025 * 1.08 = 1025. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 1025 * 1.08 = 1025. The new rate will be 8% (1 + 4/100 = 8/100). The new principal amount will be 1025 * 1.08 = 1025. The new rate"
+        "If the rate of interest is increased by 4%, the new rate of interest will be 8% (400/1000 * 8 = 32/100 * 8 = 256/1000 * 8 = 20/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 = 16/100 * 8 ="
       ]
     ],
     "filtered_resps": [
@@ -5182,11 +5182,11 @@
     ],
     "resps": [
       [
-        "Since p = 4^q, we know that p is a power of 4. The powers of 4 are 4, 16, 64, 256, and so on. The remainder when p is divided by 10 is 0. The answer is (c)."
+        "Since p = 4^q, we know that p is a power of 4. The powers of 4 are 4, 16, 64, 256, and so on. The remainder when p is divided by 10 is 0. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5274,7 +5274,7 @@
     ],
     "resps": [
       [
-        "The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio by 14/7. So, 1/7:1/7:1/14 * 14/7 = 1/14. The ratio of A to C is 1/14:1/14:1/14. The ratio of A to C is 1:1:1. The answer is (a)."
+        "The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio by 14/7. So, 1/7:1/7:1/14 * 14/7 = 1/14. The ratio of A to C is 1/14:1/14:1/14. To find the ratio of A to C, we can multiply the ratio by 14/14. So, 1/14:1/14:1/14 * 14/14 = 1/14. The ratio of A to C is 1/14:1/14:1/14. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -5366,11 +5366,11 @@
     ],
     "resps": [
       [
-        "Since k/l < 1, we know that k and l are positive integers. The expression k/l^2 is always positive, so it must be greater than 1. The other options are not possible for k and l to be positive integers. The answer is (a)."
+        "Since k/l < 1, we know that k and l are positive integers. The only option that satisfies this condition is (b) k^2/l. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5412,11 +5412,11 @@
     ],
     "resps": [
       [
-        "If Mike scored 760 on the GMAT and his average score for the mocks and the GMAT was 716.67, then his total score for the mocks and the GMAT would be 760 + (716.67 * 5) = 760 + 3583.33 = 4243.33. His total score for the 5 mocks would be 4243.33 * 5 = 21116.67. His total score for the 5 mock tests would be 21116.67 + 760 = 21876.67. His total score for the 5 mock tests would be 21876.67 + 760 = 22636.67. His total score for the 5 mock tests would be 22636.67 + 760 = 23396.67. His total score for the 5 mock tests would be 23396.67 + 760 = 24"
+        "If Mike scored 760 on the GMAT and his average score for the mocks and the GMAT was 716.67, then his total score for the mocks and the GMAT would be 760 + 716.67 = 1476.67.\n\nThe difference in the score of his last mock and his GMAT score would be 1476.67 - 760 = 716.67. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5550,7 +5550,7 @@
     ],
     "resps": [
       [
-        "The sequence is 4, 10, X, 46, and 94. The difference between the last two numbers and the first two numbers is 46 - 4 = 42. The difference between the last two numbers and the second-to-last number is 46 - 42 = 4. The difference between the second-to-last number and the first number is 46 - 10 = 36. The difference between the second-to-last number and the third number is 46 - 40 = 6. The difference between the second-to-last number and the fourth number is 46 - 44 = 2. The difference between the second-to-last number and the fifth number is 46 - 46 = 0. The difference between the fifth number and the first number is 94 - 4 = 90. The difference between the fifth number and the second-to-last number is 94 - 42 = 52. The difference between the fifth number and the third number is 94 - 40 = 54. The difference between the fifth number and"
+        "The sequence is 4, 10, X, 46, and 94. The difference between the last two numbers and the first two numbers is 46 - 4 = 42. The difference between the last two numbers and the second-to-last number is 46 - 42 = 4. The difference between the second-to-last number and the first number is 46 - 10 = 36. The difference between the second-to-last number and the third number is 46 - 40 = 6. The difference between the second-to-last number and the fourth number is 46 - 44 = 2. The difference between the second-to-last number and the fifth number is 46 - 46 = 0. The difference between the fifth number and the first number is 94 - 4 = 90. The difference between the fifth number and the second-to-last number is 94 - 36 = 58. The difference between the fifth number and the third number is 94 - 42 = 52. The difference between the fifth number and"
       ]
     ],
     "filtered_resps": [
@@ -5642,7 +5642,7 @@
     ],
     "resps": [
       [
-        "To find the least value of x that makes 2x5475 divisible by 9, we need to find the least common multiple (LCM) of 2 and 5475.\n\nThe LCM of 2 and 5475 is 10850.\n\nSo, the least value of x that makes 2x5475 divisible by 9 is 10850. The answer is (c)."
+        "To find the least value of x that makes 2x5475 divisible by 9, we need to find the least common multiple (LCM) of 2 and 5475.\n\nThe LCM of 2 and 5475 is 5475.\n\nSo, the least value of x that makes 2x5475 divisible by 9 is x = 5475. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5688,11 +5688,11 @@
     ],
     "resps": [
       [
-        "The perimeter of P is 40. The area of P is 40 * 40 = 1600. The area of Q is \u03c0 * 40 * 40 = 1600\u03c0. The circumference of Q is 2 * \u03c0 * 40 = 80\u03c0. The answer is (d)."
+        "The perimeter of P is 40. The diameter of Q is 40 / 2 = 20. The radius of Q is 20 / 2 = 10. The circumference of Q is 2 * \u03c0 * 10 = 20\u03c0. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5780,11 +5780,11 @@
     ],
     "resps": [
       [
-        "To determine which statement is true, we need to calculate the total earnings for each week.\n\nWeek 1:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36\n- Total earnings: $180 + $36 = $216\n\nWeek 2:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36\n- Total earnings: $180 + $36 = $216\n\nWeek 3:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36\n- Total earnings: $180 + $36 = $216\n\nWeek 4:\n- First 6 bicycles: $30/bicycle * 6 = $180\n- Second 6 bicycles: $6/bicycle * 6 = $36"
+        "If y<2x, then y is less than 2x. If y>x, then y is greater than x. If y>3, then y is greater than 3.\n\nThe answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5826,11 +5826,11 @@
     ],
     "resps": [
       [
-        "If the ratio of students per class were to be increased by 1, then the new ratio would be Q + 1 = 1 + 1 = 2. So the current ratio Q of students per class would be 2. The answer is (a)."
+        "If the ratio of students per class were to be increased by 1, then the new ratio would be Q + 1 = 1 + 1 = 2. If 10 fewer classes were run, then the total number of students would be Q + 10 = 2 + 10 = 12. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5839,7 +5839,7 @@
     "doc_hash": "2da1bbe5439573b8265b1d8f5a9a6827b238914aa0b133d787608831e8528d5c",
     "prompt_hash": "f5a3dbfebcbe85bdea991aa7a6a59af0b4b5e233f3a664001504ec47ed523430",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 27,
@@ -5872,11 +5872,11 @@
     ],
     "resps": [
       [
-        "To solve this using the weighted average concept, we need to calculate the average income of the 10 wealthiest customers and then multiply it by the number of customers in that group.\n\nThe average income of the 10 wealthiest customers is $95,000. Since there are 50 customers in the group, we multiply the average income by the number of customers:\n\nAverage income of the 10 wealthiest customers = $95,000 * 50 = $47,500\n\nNow, we need to calculate the average income of the other 40 customers. We know that the average income of the wealthiest 10 customers is $95,000. We can use this information to find the average income of the other 40 customers:\n\nAverage income of the other 40 customers = $95,000 - $47,500 = $47,500\n\nSo, the average income of the other 40 customers is $47,500. The answer is (c)."
+        "To solve this using the weighted average concept, we need to calculate the average income of the 10 wealthiest customers and the 10 poorest customers, and then add them together and divide by the total number of customers.\n\nThe average income of the 10 wealthiest customers is $95,000. The average income of the 10 poorest customers is $35,000.\n\nThe total income of the 10 wealthiest customers is $95,000 * 10 = $950,000. The total income of the 10 poorest customers is $35,000 * 10 = $350,000.\n\nThe total income of the 50 customers is $45,000 * 50 = $225,000.\n\nThe average income of the other 40 customers is $225,000 - $950,000 - $350,000 = -$100,000.\n\nSince the average income of the other 40 customers is negative, it cannot be a real number"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6010,11 +6010,11 @@
     ],
     "resps": [
       [
-        "Each tree takes up one square foot of sidewalk space, so 20 feet between trees means that each tree takes up 20 feet / 2 = 10 square feet. Since there are 20 feet between trees, each tree takes up 10 square feet * 20 feet = 200 square feet. The answer is (c)."
+        "If each tree takes up one square foot of sidewalk space, then 20 feet of sidewalk space is needed for each tree. So 20 feet / 1 square foot = 20 trees. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6056,11 +6056,11 @@
     ],
     "resps": [
       [
-        "The difference in simple interest will be 2000 * (10/100) = 200. The difference in compound interest will be 2000 * (10/100) * (1 + 10/100)^3 = 200. The answer is (b)."
+        "The difference in simple interest will be 2000 * (10/100) = 200. The difference in compound interest will be 2000 * (10/100) * (1 + 10/100)^3 = 200. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6194,11 +6194,11 @@
     ],
     "resps": [
       [
-        "A positive whole number must be divisible by 3 and 5. The number must also be divisible by 15, which is a multiple of 3 and 5. The number must be divisible by 30, which is a multiple of 3 and 5. The number must be divisible by 60, which is a multiple of 3 and 5. The answer is (b)."
+        "A positive whole number has factors of 3 and 5. The number must be divisible by 3 and 5. The factors of 3 are 1, 3, and 3. The factors of 5 are 1, 5. The number must be divisible by 3 and 5. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6207,7 +6207,7 @@
     "doc_hash": "e20f6009109cf78a7a4d9aeec3557ded378a33469aef8de3ce7406f2819b4ab9",
     "prompt_hash": "2c4f7ed47cc6855aa92929c5f010f2c0d63ccdf74aa46730e071cd7a43de5276",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 35,
@@ -6240,11 +6240,11 @@
     ],
     "resps": [
       [
-        "If Nandan invested his money for double the time, then his money invested is 6N. If Krishan invested his money for double the time, then his money invested is 2N. The total amount invested is 6N + 2N = 8N. The total amount earned is 6000. The total gain is 6000 * 8N / 100 = 48000. The answer is (b)."
+        "If Nandan invested his money for double the time, then his investment is 6 times Nandan's investment. So Nandan's investment is 6 * 6000 = 36000. The total amount invested is 6000 + 36000 = 42000. The total amount earned is 6000 + 36000 = 42000. The total gain is 42000 - 36000 = 6000. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6378,11 +6378,11 @@
     ],
     "resps": [
       [
-        "If today is 22 days before Mariah's graduation, then she will graduate on a Friday. The answer is (c)."
+        "If today is 22 days before Mariah's graduation, then she will graduate on a Friday. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6391,7 +6391,7 @@
     "doc_hash": "8c964635d347dbf313a17b4a902db43c4c23ca34afb7eeeeaa6d9730d83d7501",
     "prompt_hash": "9ecdc0c52fb84a0d6769e3d970f178705aabaea57735e2b7a6c9f7efa893f8e6",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 39,
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "The given equation is 1/a + 1/b + 1/c = 1. To find a + b + c, we can multiply both sides by the least common multiple of a, b, and c, which is 12. This gives us 12(1/a + 1/b + 1/c) = 12. Now, we can rewrite the equation as 12(1/a + 1/b + 1/c) = 12. Multiplying both sides by 12 gives us 12(1/a + 1/b + 1/c) = 144. Now, we can divide both sides by 12 to get 1/a + 1/b + 1/c = 12/12 = 1. The answer is (a) 1."
+        "The given equation is 1/a + 1/b + 1/c = 1. We can multiply both sides by a, b, and c to get 1 = 1. This is not possible, so there are no integers a, b, and c that satisfy the given equation. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6516,11 +6516,11 @@
     ],
     "resps": [
       [
-        "The actual % difference would be 10% gain on 1000 gms of fluid, which is 1000 * 10% = 100 gms. The actual % difference is 100 gms / 200 gms = 0.5 * 100 = 50%. The answer is (b)."
+        "The actual % difference would be 10% gain on 1000 gms of fluid, which is 1000 * 10% = 100 gms. The actual % difference is 100 gms / 200 gms = 0.50 or 50%. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6529,7 +6529,7 @@
     "doc_hash": "de63dcf2d42bebe2b1326ce65806f692421337a38fd85867cc2649804b96c134",
     "prompt_hash": "24bfa7b67661c3f6f2cc0019e85ac0e5e12d131abe528ba40517ff6c0e96903b",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -6562,7 +6562,7 @@
     ],
     "resps": [
       [
-        "If the person walks at a constant rate of 8mph, then the distance he travels would be 64 miles / 8 hours = 8 miles per hour. To find the distance he would need to walk, we need to multiply the distance he walks at 8mph by the time he spends walking. So, 8 miles per hour * 8 hours = 64 miles. The answer is (c)."
+        "If the person walks at a constant rate of 8mph, then the distance he would travel in 8 hours would be 8 * 8 = 64 miles. If he walks at this rate, then he would require 64 miles / 8mph = 8 hours to travel this distance. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6700,7 +6700,7 @@
     ],
     "resps": [
       [
-        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that no customer bought a coffee and a bagel, and then subtract that from 1.\n\nThe probability that no customer bought a coffee and a bagel is (5/7) * (3/5) = 9/35.\n\nThe probability that at least 1 customer bought a coffee and a bagel is 1 - (9/35) = 27/35.\n\nThe answer is (d)."
+        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that no customer bought a coffee and a bagel, and then subtract this from 1.\n\nThe probability that no customer bought a coffee and a bagel is (5/7) * (3/5) = 9/35.\n\nThe probability that at least 1 customer bought a coffee and a bagel is 1 - (9/35) = 27/35.\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "The equation is |x+3| \u2013 |4-x| = |8+x|. We can simplify it by adding and subtracting |4-x| inside the absolute value. This gives us |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Now, we can factor out |4-x| from the first two terms, which gives us |x+3| = |8+x| \u2013 |4-x|. This simplifies to |x+3| = 8-|4-x|. We can now solve for x by adding |4-x| to both sides, which gives us |x+3| = 8. This means x+3 = 8 or x+3 = -8. Solving for x, we get x = 5 or x = -2. The answer is (a)."
+        "The equation is |x+3| \u2013 |4-x| = |8+x|. We can simplify it by adding and subtracting |4-x| inside the absolute value. This gives us |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Now, we can factor out |4-x| from the first two terms and |8+x| from the last two terms. This gives us |4-x|(|x+3| \u2013 |x+3|) = |8+x|(|x+3| \u2013 |x+3|). Simplifying further, we get |4-x|(|x+3|) = |8+x|(|x+3|). This simplifies to 4-x = 8+x. Solving for x, we get x = 4. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6792,7 +6792,7 @@
     ],
     "resps": [
       [
-        "To find the new output, we need to calculate 10% of the original output and add it to the original output. So, 10% of 500 is 0.1 * 500 = 50. Adding this to the original output, we get 50 + 50 = 100. To find the new output, we need to calculate 20% of the new output and add it to the new output. So, 20% of 100 is 0.2 * 100 = 20. Adding this to the new output, we get 100 + 20 = 120. To find the new output, we need to calculate 30% of the new output and add it to the new output. So, 30% of 120 is 0.3 * 120 = 36. Adding this to the new output, we get 120 + 36 = 156. To find the new output, we need to calculate 79% of the new output and add it to the new output. So, 79%"
+        "To find the new output, we need to calculate 10% of the original output and 20% of the new output. \n\n10% of the original output is 10/100 * 500 = 50. \nThe new output is 50 + 20 = 70.\n\nTo find the new output when the holiday rush is reduced, we need to calculate 10% of the new output and 20% of the original output. \n\n10% of the new output is 10/100 * 70 = 7.\nThe new output is 7 + 20 = 27.\n\nTo find the new output when the holiday rush is reduced by 20%, we need to calculate 10% of the new output and 20% of the original output. \n\n10% of the new output is 10/100 * 27 = 2.7.\nThe new output is 27 + 2.7 = 30.7.\n\nTo find the new output when the holiday rush is reduced by 24%, we need to calculate"
       ]
     ],
     "filtered_resps": [
@@ -6884,11 +6884,11 @@
     ],
     "resps": [
       [
-        "The volume of the cube is given as 8500 cm^3. The rate of painting is 13 paise per Sq.cm, so the cost of painting the cube is 13 * 8500 = 109500 paise. The answer is (b)."
+        "The volume of the cube is given as 9261 cm3. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7022,7 +7022,7 @@
     ],
     "resps": [
       [
-        "The total number of oxen for the 7 months is 10 + 12 + 15 = 37 oxen. The total rent for the 7 months is 175 oxen * 7 months = Rs. 1215. The total rent for the 5 months is 175 oxen * 5 months = Rs. 875. The total rent for the 3 months is 175 oxen * 3 months = Rs. 525. The total rent for the 1 month is 175 oxen * 1 month = Rs. 175. The total rent for the 1 month is 175 oxen * 1 month = Rs. 175. The total rent for the 1 month is 175 oxen * 1 month = Rs. 175. The total rent for the 3 months is 175 oxen * 3 months = Rs. 525. The total rent for the 7 months is 175 oxen * 7 months = Rs. 1215. The total rent for the 5 months is 175 oxen * 5 months"
+        "The total number of oxen for the 7 months is 10 + 12 + 15 = 37 oxen. The total rent for the 7 months is 175 oxen * 7 months = Rs. 1215. The total rent for the 5 months is 175 oxen * 5 months = Rs. 875. The total rent for the 3 months is 175 oxen * 3 months = Rs. 525. The total rent for the 15 months is 175 oxen * 15 months = Rs. 2525. The total rent for the 3 months is 525 oxen * 3 months = Rs. 1575. The total rent for the 7 months is 1215 + 875 + 2525 + 1575 = Rs. 4500. The total rent for the 15 months is 2525 + 1575 = Rs. 4100. The total rent for the 3 months is 1575 + 1575 = Rs."
       ]
     ],
     "filtered_resps": [
@@ -7068,11 +7068,11 @@
     ],
     "resps": [
       [
-        "The train crosses the electric pole in 20 sec. To find the speed of the train, we can use the formula:\n\nSpeed = Distance / Time\n\nSpeed = 500 m / 20 sec\nSpeed = 25 m/sec\n\nThe answer is (a)."
+        "The train crosses the electric pole in 20 sec. To find the speed of the train, we can use the formula:\n\nSpeed = Distance / Time\n\nSpeed = 500 m / 20 sec\nSpeed = 25 m/sec\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7206,7 +7206,7 @@
     ],
     "resps": [
       [
-        "Let the digit in the unit's place be x and the digit in the ten's place be 4x. The sum of the digits is 10, so we have:\n\nx + 4x = 10\n\nCombine like terms:\n\n5x = 10\n\nDivide by 5:\n\nx = 2\n\nThe digit in the unit's place is 2. The digit in the ten's place is 4x = 4(2) = 8. The number is 82. The answer is (a)."
+        "Let the digit in the unit's place be x and the digit in the ten's place be 4x. The sum of the digits is 10, so x + 4x = 10. So 5x = 10, so x = 2. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -7298,7 +7298,7 @@
     ],
     "resps": [
       [
-        "If the price was not less than half the original price, then the new price would be 1.5 * 2 = 3.0. The original price was 2.0. So the new price would be 3.0 / 2 = 1.5. The answer is (c)."
+        "If the price was not less than half the original price, then the new price would be 1.5 * 2 = 3. The number of chocolates sold would be 1.9 * 1.5 = 2.75. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7344,7 +7344,7 @@
     ],
     "resps": [
       [
-        "The length of each part is 7ft. 9 inches / 12 inches = 0.75 feet. 0.75 feet / 12 inches = 0.00625 feet. 0.00625 feet / 3 feet = 0.00208333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+        "The board is 7ft 9 inches long, which is 7ft + 9 inches = 7ft + 12 inches = 7ft + 12/12 = 7ft + 1/4 = 7ft + 0.25 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/2 = 7ft + 1/"
       ]
     ],
     "filtered_resps": [
@@ -7528,11 +7528,11 @@
     ],
     "resps": [
       [
-        "Let's calculate the profit for each person after 4 months:\n\nA's profit: 6000 * 12000 / 100 = Rs.720000\nB's profit: 12000 * 10000 / 100 = Rs.120000\n\nAfter 4 months, A's profit is Rs.720000 - Rs.120000 = Rs.600000.\nAfter 2 months, B's profit is Rs.120000 - Rs.120000 = Rs.0.\n\nNow, let's calculate the profit for each person after 1 month:\n\nA's profit: 6000 * 10000 / 100 = Rs.600000\nB's profit: 12000 * 10000 / 100 = Rs.120000\n\nAfter 1 month, A's profit is Rs.600000 - Rs.120000"
+        "Let's calculate the profit for each person after 4 months:\n\nA's profit: 6000 * 0.5 = 3000\nB's profit: 12000 * 0.5 = 6000\n\nAfter 4 months, A's profit is 3000 - 6000 = -2000. This means A's profit is negative.\n\nB's profit is 6000 - 12000 = -2000. This means B's profit is negative.\n\nSince the profit is negative, the ratio of their profits should be positive. So, the ratio of their profits should be 32:99. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "First, we need to find the total work done by the 10 women and 10 children in 9 days. The total work is 10 women * 9 days * 10 children = 900 work.\n\nNext, we need to find the total work done by the 6 women and 7 children in 12 days. The total work is 6 women * 12 days * 7 children = 432 work.\n\nNow, we need to find the total work done by the 6 women and 7 children in 1 day. The total work is 6 women * 1 day * 7 children = 42 work.\n\nTo find the time it takes to complete the work, we divide the total work by the total number of women and children. So, 42 work / 900 work = 42 / 900 = 0.042 days.\n\nTo convert this to hours, we multiply by 24 (the number of hours in a day). 0.042 days * 24 hours/day = 0.968 hours.\n\nNow, we need"
+        "First, we need to find the total work done by the 10 women and 10 children in 9 days. The work done by 10 women in 9 days is 10 * 9 = 90 women's work. The work done by 10 children in 9 days is 10 * 9 = 90 children's work. The total work done by 10 women and 10 children in 9 days is 90 + 90 = 180 women's work. The total work done by 6 women and 7 children in 9 days is 6 * 9 + 7 * 9 = 54 + 63 = 117 women's work. The work done by 6 women and 7 children in 9 days is 6 * 9 + 7 * 9 = 54 + 63 = 117 women's work. To find the work done by 6 women and 7 children in 1 day, we divide the total work done by 117 by 10. The work done by 6 women and 7 children in 1 day is 1"
       ]
     ],
     "filtered_resps": [
@@ -7896,7 +7896,7 @@
     ],
     "resps": [
       [
-        "The area of an equilateral triangle can be calculated using the formula: Area = (\u221a3 / 4) * s^2, where s is the length of one side. In this case, s = 16 cm. So, Area = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
+        "The area of an equilateral triangle can be calculated using the formula: Area = (\u221a3 / 4) * s^2, where s is the side length of the triangle. In this case, s = 16 cm. So, Area = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7988,7 +7988,7 @@
     ],
     "resps": [
       [
-        "The population increases by 1 person every 40 seconds. So, in 1 hour, the population increases by 1 * 60 = 60 people. The answer is (c)."
+        "The population increases at the rate of one person every 40 seconds. So, in 1 hour, the population increases by 1 hour * 60 seconds/hour * 1 person/person/hour = 60 persons. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8126,11 +8126,11 @@
     ],
     "resps": [
       [
-        "The time it takes for the train to cross the bridge is 110 m / 72 km/hr = 1.43 sec. The answer is (b)."
+        "The time it takes for the train to cross the bridge is equal to the time it takes for the train to cover the length of the bridge. So the time is 132 m / 72 km/hr = 1.875 sec. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8139,7 +8139,7 @@
     "doc_hash": "561a2957625c779f5cd25f3fa5c0ef26fbc7ed7f45f1968e9974e0e23f319cb0",
     "prompt_hash": "cf318d0c2fdf00f75e880c5109a15c938706c5412965dd9eb29545ad44e7891a",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 77,
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "The consumption of diesel per hour of a bus varies directly as square of its speed. So, the consumption of diesel per hour is proportional to the square of the speed. Given that the bus is travelling at 60 kmph, the consumption is 1 litre per hour.\n\nIf each litre costs $60, then the total expenditure is 1 litre * $60 = $60.\n\nThe bus travels at 60 kmph, so its speed is 60 km/h. The square of its speed is 60^2 = 3600.\n\nThe minimum expenditure required to cover a distance of 600 Km is 3600 litre * $60 = $21,600. The answer is (c)."
+        "The consumption of diesel per hour of a bus varies directly as square of its speed. So, the consumption of diesel per hour is proportional to the square of the speed. Given that the consumption is 1 litre per hour, we can set up the equation:\n\nSpeed^2 = 1\n\nSince the bus travels at 60 kmph, we can find the speed:\n\nSpeed^2 = 60^2\nSpeed^2 = 3600\nSpeed = \u221a3600\nSpeed = 60 kmph\n\nNow, we know that the consumption is 1 litre per hour, so we can find the consumption at 60 kmph:\n\nConsumption = Speed^2 * Consumption per litre\nConsumption = 60^2 * 1\nConsumption = 3600\n\nThe minimum expenditure required to cover a distance of 600 Km is 3600 litre. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8218,11 +8218,11 @@
     ],
     "resps": [
       [
-        "To have at least 3 men on the committee, we can have 0, 1, 2, or 3 men. The number of ways to choose 0, 1, 2, or 3 men from 7 men and 6 women is 7C0 * 6C0 * 6C1 * 6C2 * 6C3 * 6C0 * 6C1 * 6C2 * 6C3.\n\nThe number of ways to choose 3 men from 7 men is 7C3 = 35. The number of ways to choose 2 men from 6 men is 6C2 = 15. The number of ways to choose 1 man from 6 women is 6C1 = 6. The number of ways to choose 0 men from 6 women is 6C0 = 1.\n\nThe total number of ways to choose 5 men and 2 women is 35 * 15 * 6C2 * 6C1 * 1 = 1375.\n\nThe probability of having 0 woman in the committee is 1375 /"
+        "To have at least 3 men on the committee, we need to consider the cases where 0, 1, 2, or 3 men are selected.\n\nCase 1: 0 men selected:\n- 7 men and 6 women are selected.\n- 6 men and 5 women are selected.\n- 5 men and 4 women are selected.\n- 4 men and 3 women are selected.\n- 3 men and 2 women are selected.\n- 2 men and 1 woman is selected.\n- 1 man and 0 women is selected.\n\nTotal number of ways to select 5 men from 7 is 7C5 = 35.\nTotal number of ways to select 5 women from 6 is 6C5 = 20.\n\nProbability of having 0 woman in committee = (7C5 * 20) / (7C7) = 35 * 20 / 210 = 70 / 30 = 7/36.\n\nThe answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8264,7 +8264,7 @@
     ],
     "resps": [
       [
-        "The probability of choosing exactly three good bulbs out of four chosen bulbs is the number of ways to choose three good bulbs and four defective bulbs, divided by the total number of ways to choose four bulbs.\n\nThere are 3 ways to choose three good bulbs and 4 ways to choose four defective bulbs. So the probability is 3/4. The answer is (a)."
+        "The probability of choosing exactly three good bulbs out of four chosen bulbs is the number of ways to choose three good bulbs out of four chosen bulbs divided by the total number of ways to choose four bulbs out of nine chosen bulbs.\n\nThere are 3 ways to choose three good bulbs out of four chosen bulbs (1 good, 2 good, or 3 good). There are 9 ways to choose four bulbs out of nine chosen bulbs.\n\nThe probability is 3/9 = 1/3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -8356,7 +8356,7 @@
     ],
     "resps": [
       [
-        "If |w| = -w, then w = -w. This means that w is always equal to its negative. The answer is (a)."
+        "If |w| = -w, then w = -w. This is a contradiction, as w is a real number. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -8494,11 +8494,11 @@
     ],
     "resps": [
       [
-        "Since the volume of the cube is numerically equal to its surface area, the ratio of the volume to the surface area is 1:1. This means that the edge length of the cube is equal to the surface area divided by the volume.\n\nThe surface area of a cube is 6 * edge length^2. The volume of the cube is 6 * edge length^3. So, the ratio of the volume to the surface area is 6 * edge length^3 / 6 * edge length^2 = 1/2.\n\nThe answer is (a)."
+        "Since the volume of the cube is numerically equal to its surface area, the ratio of the volume to the surface area is 1:1. This means that the edge length of the cube is equal to the surface area divided by the volume.\n\nThe surface area of a cube is 6 * (side length)^2, and the volume is 6 * (side length)^3. So, the ratio of the volume to the surface area is 6 * (side length)^3 / 6 * (side length)^2 = 1.\n\nTherefore, the measure of the edge length in meters is 9. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8540,7 +8540,7 @@
     ],
     "resps": [
       [
-        "If a person tastes very little, then the poisned can will be found within 14 hours. So the poisned can will be found within 14 hours. The answer is (a)."
+        "If a person tastes very little, then he will die within 14 hours. So, the poisned can will be tested for 14 hours. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -8586,11 +8586,11 @@
     ],
     "resps": [
       [
-        "The time it takes for the train to cross the bridge is 660 meters / 72 kmph = 9.09 seconds. The answer is (b)."
+        "The time it takes for the train to cross the bridge is 660 meters / 72 kmph = 9.09 seconds. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8599,7 +8599,7 @@
     "doc_hash": "acbbb2486c62825c70a671cd6fc406d275ce2ea37ef6d8c78db08fd8231f26d9",
     "prompt_hash": "8b0b4485d97876ae052ce54bb5a9380425a31548c4f526f896813f7df5e6012f",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -8632,7 +8632,7 @@
     ],
     "resps": [
       [
-        "The original retail price of the turtleneck sweaters was 20% of $100, which is $20. The store marked up the price by 20% to $20 * 1.20 = $24. The store then marked up the price by 25% to $24 * 1.25 = $30. The store sold the items for $24 + $30 = $54. The profit on the items sold in February is $54 - $24 = $30. The answer is (d)."
+        "The original retail price of the turtleneck sweaters was 20% of $100, which is $20. The store marked up the price by 20% to $20 * 1.20 = $24. The store then offered a 25% discount on the original price, which is $24 * 0.25 = $6. The profit on the items sold in February is the difference between the original price and the discounted price, which is $24 - $6 = $18. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -8678,7 +8678,7 @@
     ],
     "resps": [
       [
-        "Half of 2% written as decimal is 0.05. The answer is (c)."
+        "Half of 2% written as a decimal is 0.05. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8862,7 +8862,7 @@
     ],
     "resps": [
       [
-        "The job can be completed in 1/4th of a day, which is 1/4 * 60 = 15 minutes. Since the man, woman, and boy can complete the job in 3 days, the total number of days required is 3 * 15 = 45 days.\n\nTo complete the job in 1/4th of a day, the number of boys must be 1/4 * 1 = 1/2. Since there are 2 boys, the number of girls must be 1/2 - 1 = 1/2.\n\nThe answer is (c)."
+        "Since the job can be completed in 1/4th of a day, the total time required is 1/4 * 24 = 6 hours. The total number of boys required is 1/3 + 1/4 + 1/12 = 7/12 of a man and 1/3 of a woman, which is 7/12 * 1/3 = 1/4 of a man and 1/3 of a woman. Since 1/4 of a man and 1/3 of a woman is 1/12 of a man and 1/3 of a woman, the total number of boys required is 1/12 + 1/12 = 1/4 of a man and 1/3 of a woman, which is 1/4 * 1/3 = 1/12 of a man and 1/3 of a woman. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8908,7 +8908,7 @@
     ],
     "resps": [
       [
-        "Let's assume the age of Amit is x and the age of Dhiraj is y. After 6 years, the age of Amit will be x + 6 and the age of Dhiraj will be y + 6. The ratio of their ages will be 5 : 4. So we can set up the equation: (x + 6) / (y + 6) = 5/4. We can simplify this equation by cross-multiplying: x + 6 = 5(y + 6). So x + 6 = 5y + 30. Subtracting 6 from both sides, we get x = 5y + 24. Now we can substitute this expression for x into the equation for y: y = 5(24) + 24 = 110. So the age of Dhiraj at present is 110. The answer is (c)."
+        "Let's assume the age of Amit is x and the age of Dhiraj is y. After 6 years, the age of Amit will be x + 6 and the age of Dhiraj will be y + 6. The ratio of their ages will be 5 : 4, so we can set up the equation:\n\n(x + 6) / (y + 6) = 5/4\n\nWe are given that after 6 years, the age of Amit will be 26 years. So we can substitute 26 for x + 6:\n\n26 / (y + 6) = 5/4\n\nNow, we can cross-multiply to solve for y:\n\ny + 6 = 26 * 4 / 5\ny + 6 = 10.24\ny = 6.24\n\nNow that we have the value of y, we can find the value of x by substituting y into the equation:\n\nx = 26 + 6\nx = 32\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8954,11 +8954,11 @@
     ],
     "resps": [
       [
-        "If A doubles his capital, then his new capital will be 3000 * 2 = 6000. The new profit will be 6000 * 20 = Rs.120000. If A doubles his capital again, then his new capital will be 6000 * 2 = 12000. The new profit will be 12000 * 20 = Rs.240000. The ratio of A's new capital to his original capital is 120000 / 60000 = 2:1. The ratio of A's profit to his original profit is 240000 / 120000 = 2:1. The answer is (a)."
+        "If A doubles his capital, then his new capital will be 3000 * 2 = 6000. The new profit will be 6000 * 20 = Rs.120000. If A doubles his capital again, then his new capital will be 6000 * 2 = 12000. The new profit will be 12000 * 20 = Rs.240000. The new profit will be 120000 + 240000 = Rs.360000. The new ratio of profit will be 360000 / 120000 = 3:2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "If x-y = 10, then x = y + 10. So, the possible values of x and y are 10 and 20. The answer is (b)."
+        "If x-y = 10, then x = y + 10. So, the possible values of x and y are 10 and 20. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9013,7 +9013,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "37df1f9715d52751e50394a2bd21c4dc977ee29bfd6d4cdb125d8c60c8c38c38",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -9046,7 +9046,7 @@
     ],
     "resps": [
       [
-        "If each side of the square is increased by 25%, the area will increase by 25% of the original area. So the new area will be 1.25 * original area. The original area is 1/4 of the square. So the new area is 1/4 * 1.25 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/8 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/8 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/8 * 1/4 = 1/16. The new area is 1/16 * 1/4 = 1/8. The new area is 1/16 * 1/4 = 1/8. The new area is 1/16 * 1/4 ="
+        "If each side of the square is increased by 25%, the area will increase by 25% of the original area. So the new area will be 1.25 * original area. The original area is 1 * 100 = 100. The new area is 1.25 * 100 = 125. The new area is 125 / 100 = 1.25. The new area is 1.25 * 100 = 125. The new area is 125 / 100 = 1.25. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 125. The new area is 1.25 * 100 = 1"
       ]
     ],
     "filtered_resps": [

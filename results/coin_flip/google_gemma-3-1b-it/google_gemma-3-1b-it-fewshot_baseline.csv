@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-1b-it,coin_flip_fewshot_baseline,coin_flip,fewshot_baseline,fewshot_base,coin_flip,0.48,0.0,18.0,8,100,7.45,4.38

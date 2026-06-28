@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-0.5B-Instruct,strategyqa_persona_cot,strategyqa,persona_cot,fewshot_cot,strategyqa,0.49,0.09,169.0,6,100,16.2,4.12

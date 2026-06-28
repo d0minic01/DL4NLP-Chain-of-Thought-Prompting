@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,coin_flip_true_baseline,coin_flip,true_baseline,zero_shot,coin_flip,0.32,0.44,177.7,0,100,14.13,9.56

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,letter_shift_caveman_mode,letter_shift,caveman_mode,fewshot_cot,letter_shift,0.59,0.0,102.7,6,100,10.46,9.56

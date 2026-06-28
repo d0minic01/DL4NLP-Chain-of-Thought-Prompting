@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,coin_flip_caveman_mode,coin_flip,caveman_mode,fewshot_cot,coin_flip,0.86,0.0,103.2,8,100,16.89,11.48

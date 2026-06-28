@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,saycan_true_baseline,saycan,true_baseline,zero_shot,saycan,0.0,0.6667,268.2,0,100,15.78,11.13

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-1.5B-Instruct,strategyqa_contrastive_cot,strategyqa,contrastive_cot,fewshot_cot,strategyqa,0.5,0.11,204.7,6,100,14.57,5.92

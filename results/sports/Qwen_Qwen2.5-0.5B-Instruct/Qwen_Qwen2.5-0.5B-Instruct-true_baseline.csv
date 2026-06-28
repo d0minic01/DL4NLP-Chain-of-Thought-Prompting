@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-0.5B-Instruct,sports_true_baseline,sports,true_baseline,zero_shot,sports_understanding,0.0,1.0,326.8,0,100,16.78,4.12

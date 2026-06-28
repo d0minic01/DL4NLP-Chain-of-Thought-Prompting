@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify action. Ice the puck. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify action. Ice puck. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Basketball. Step 2: Identify action. Hats trick. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Basketball. Step 2: Identify action. Hat trick. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -326,7 +326,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Football. Step 2: Identify action. Tossed pass. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Football. Step 2: Identify action. Tackle. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify event. NHL slashing penalty. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify action. Slashing is a penalty. Step 3: Conclusion. Not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -415,7 +415,7 @@
     "doc_hash": "77ac7913ec22703717d2e6b465f2cf1d4241ae4d8cf7b29688d074cf3b6de51c",
     "prompt_hash": "d2b5daa01c178af9c6d72bb59abaff7751704923476c29761291dd606dd3c75c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 11,
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Football. Step 2: Identify action. Field goal. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Football. Step 2: Identify action. Field goal kick. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Ice hockey. Step 2: Identify action. Slashing. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Ice hockey. Step 2: Identify action. Slashing penalty. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify action. Puck being frozen. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify action. Puck. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Baseball. Step 2: Identify action. Triple threat. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Baseball. Step 2: Identify action. Triple-hat trick. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2188,7 +2188,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify move. Free throw. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify move. Free throw. Step 3: Match context. Conclusion: plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Football. Step 2: Identify action. Tackling. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Football. Step 2: Identify action. Running back tackled. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3556,7 +3556,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Basketball. Step 2: Identify action. Basketball screen pass. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Basketball. Step 2: Identify action. Screen pass. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3822,7 +3822,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify action. Ice the puck. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify action. Ice puck. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Basketball. Step 2: Identify action. Hats trick. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Basketball. Step 2: Identify action. Hat trick. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4126,7 +4126,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Football. Step 2: Identify action. Tossed pass. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Football. Step 2: Identify action. Tackle. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify event. NHL slashing penalty. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify action. Slashing is a penalty. Step 3: Conclusion. Not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4215,7 +4215,7 @@
     "doc_hash": "77ac7913ec22703717d2e6b465f2cf1d4241ae4d8cf7b29688d074cf3b6de51c",
     "prompt_hash": "d2b5daa01c178af9c6d72bb59abaff7751704923476c29761291dd606dd3c75c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 11,
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Football. Step 2: Identify action. Field goal. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Football. Step 2: Identify action. Field goal kick. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5494,7 +5494,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Ice hockey. Step 2: Identify action. Slashing. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Ice hockey. Step 2: Identify action. Slashing penalty. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5760,7 +5760,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify action. Puck being frozen. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify action. Puck. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5836,7 +5836,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Baseball. Step 2: Identify action. Triple threat. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Baseball. Step 2: Identify action. Triple-hat trick. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5988,7 +5988,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Hockey. Step 2: Identify move. Free throw. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Hockey. Step 2: Identify move. Free throw. Step 3: Match context. Conclusion: plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Football. Step 2: Identify action. Tackling. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Football. Step 2: Identify action. Running back tackled. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7356,7 +7356,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify sport. Basketball. Step 2: Identify action. Basketball screen pass. Step 3: Conclusion. Plausible. The answer is yes."
+        "Step 1: Identify sport. Basketball. Step 2: Identify action. Screen pass. Step 3: Conclusion. Plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [

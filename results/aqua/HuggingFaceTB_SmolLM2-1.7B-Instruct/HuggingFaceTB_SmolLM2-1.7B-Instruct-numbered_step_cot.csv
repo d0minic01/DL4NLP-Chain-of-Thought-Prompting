@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,aqua_numbered_step_cot,aqua,numbered_step_cot,fewshot_cot,aqua-rat,0.34,0.08,263.0,4,100,61.96,5.3

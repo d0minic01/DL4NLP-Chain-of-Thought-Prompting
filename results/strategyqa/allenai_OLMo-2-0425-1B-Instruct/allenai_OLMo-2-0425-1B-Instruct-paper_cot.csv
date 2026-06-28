@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,strategyqa_paper_cot,strategyqa,paper_cot,fewshot_cot,strategyqa,0.57,0.01,336.7,6,100,18.47,8.84

@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Emma ends with l. Jungle ends with s. Cloud ends with e. So result is e. The answer is e. The answer is e."
+        "As a linguist: Emma ends with l. Jungle ends with s. Cloud ends with e. So result is ee. The answer is ee."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "ee"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -136,11 +136,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Yasmin ends with y. Iris ends with n. So result is yn. The answer is nyn."
+        "As a linguist: Yasmin ends with y. Iris ends with y. So result is yy. The answer is yy."
       ]
     ],
     "filtered_resps": [
-      "nyn"
+      "yy"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Orange ends with c. Carol ends with a. Walter ends with o. So result is oa. The answer is oa."
+        "As a linguist: Orange ends with c. Carol ends with o. Walter ends with r. So result is rr. The answer is rr."
       ]
     ],
     "filtered_resps": [
-      "oa"
+      "rr"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Elliot ends with o. Donna ends with n. So result is nn. The answer is nn."
+        "As a linguist: Elliot ends with o. Donna ends with n. So result is nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "nnn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -630,7 +630,7 @@
     ],
     "resps": [
       [
-        "As a linguist: Kettle ends with l. Planet ends with e. So result is ee. The answer is ee."
+        "As a linguist: Kettle ends with p. Planet ends with e. So result is ee. The answer is ee."
       ]
     ],
     "filtered_resps": [
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Ruth ends with y. Yasmin ends with j. So result is yj. The answer is yj."
+        "As a linguist: Ruth ends with y. Yasmin ends with j. So result is jy. The answer is jy."
       ]
     ],
     "filtered_resps": [
-      "yj"
+      "jy"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Quinn valley xenon ends with n. So result is n. The answer is n."
+        "As a linguist: Quinn ends with x. Xenon ends with n. So result is xn. The answer is xn."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "xn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Bridge ends with g. Guitar ends with r. So result is rg. The answer is rg."
+        "As a linguist: Bridge ends with g. Guitar ends with h. So result is hg. The answer is hg."
       ]
     ],
     "filtered_resps": [
-      "rg"
+      "hg"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Clara ends with e. Feather ends with s. So result is e. S.D.R. The answer is e. S.D.R. The answer is e. S.D.R."
+        "As a linguist: Clara ends with e. Feather ends with s. So result is s. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "s"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,11 +1276,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Mirror ends with r. Puzzle ends with r. So result is rr. The answer is rr."
+        "As a linguist: Mirror ends with r. Puzzle ends with r. Rocket ends with m. So result is mr. The answer is mr."
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "mr"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1314,11 +1314,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Olivia ends with c. Carol ends with o. So result is o. The answer is o."
+        "As a linguist: Olivia ends with c. Carol ends with o. So result is oc. The answer is oc."
       ]
     ],
     "filtered_resps": [
-      "o"
+      "oc"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Puzzle ends with l. Liam ends with n. So result is nn. The answer is nn."
+        "As a linguist: Puzzle ends with l. Novel ends with e. So result is e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1694,11 +1694,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Grace ends with e. So result is e. The answer is e. The answer is e."
+        "As a linguist: Grace ends with f. Feather ends with e. So result is ef. The answer is ef."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "ef"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Flame ends with n. Needles ends with e. So result is nn. The answer is nn."
+        "As a linguist: Flame ends with n. Needles ends with e. So result is nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "nnn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Quilt ends with w. Candle ends with r. Rocket ends with n. So result is nr. The answer is nr."
+        "As a linguist: Quilt ends with w. Candle ends with r. Rocket ends with e. So result is ew. The answer is ew."
       ]
     ],
     "filtered_resps": [
-      "nr"
+      "ew"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Vera ends with e. So result is e. The answer is e. The answer is e."
+        "As a linguist: Vera ends with o. Vega ends with n. So result is o. The answer is o."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "o"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2416,11 +2416,11 @@
     ],
     "resps": [
       [
-        "As a linguist: oven ends with j. jacket ends with w. window ends with d. dragon ends with e. So result is ew. The answer is ew."
+        "As a linguist: oven ends with j. jacket ends with w. window ends with d. dragon ends with o. So result is ow. The answer is ow."
       ]
     ],
     "filtered_resps": [
-      "ew"
+      "ow"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2492,7 +2492,7 @@
     ],
     "resps": [
       [
-        "As a linguist: David ends with m. Mango ends with a. So result is a. The answer is a."
+        "As a linguist: David ends with m. Mango ends with a. So result is a. The answer is a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "As a linguist: HARbor Desert ends with d. So result is d. The answer is d. The answer is d."
+        "As a linguist: Harbor ends with d. Desert ends with e. So result is ed. The answer is ed."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "ed"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2720,7 +2720,7 @@
     ],
     "resps": [
       [
-        "As a linguist: anchor ends with b. Brian ends with n. So result is nn. The answer is nn."
+        "As a linguist: anchor ends with l. Brian ends with n. So result is nn. The answer is nn."
       ]
     ],
     "filtered_resps": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Forest ends with d. David ends with f. So result is f. The answer is f."
+        "As a linguist: Forest ends with d. David ends with a. So result is a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Ruth ends with l. Valley ends with r. So result is rr. The answer is rr."
+        "As a linguist: Ruth ends with l. Valleys end with s. So result is ls. The answer is ls."
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "ls"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Yellow ends with l. Lantern ends with n. So result is n. The answer is n."
+        "As a linguist: Yellow ends with l. Lantern ends with n. So result is nl. The answer is nl."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "nl"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3366,11 +3366,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Desert ends with d. Dragon ends with l. Lanterns ends with a. So result is dld. The answer is dld."
+        "As a linguist: Desert ends with d. Dragon ends with l. Lanterns ends with a. So result is dn. The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "dld"
+      "dn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Eagle ends with l. Lemon ends with e. So result is e.l.h.h. The answer is e.l.h.h. The answer is e.l.h.h."
+        "As a linguist: Eagle ends with l. Lemon ends with s. So result is ls. The answer is ls."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "ls"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Emma ends with l. Jungle ends with s. Cloud ends with e. So result is e. The answer is e. The answer is e."
+        "As a linguist: Emma ends with l. Jungle ends with s. Cloud ends with e. So result is ee. The answer is ee."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "ee"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3936,11 +3936,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Yasmin ends with y. Iris ends with n. So result is yn. The answer is nyn."
+        "As a linguist: Yasmin ends with y. Iris ends with y. So result is yy. The answer is yy."
       ]
     ],
     "filtered_resps": [
-      "nyn"
+      "yy"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Orange ends with c. Carol ends with a. Walter ends with o. So result is oa. The answer is oa."
+        "As a linguist: Orange ends with c. Carol ends with o. Walter ends with r. So result is rr. The answer is rr."
       ]
     ],
     "filtered_resps": [
-      "oa"
+      "rr"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Elliot ends with o. Donna ends with n. So result is nn. The answer is nn."
+        "As a linguist: Elliot ends with o. Donna ends with n. So result is nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "nnn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,7 +4430,7 @@
     ],
     "resps": [
       [
-        "As a linguist: Kettle ends with l. Planet ends with e. So result is ee. The answer is ee."
+        "As a linguist: Kettle ends with p. Planet ends with e. So result is ee. The answer is ee."
       ]
     ],
     "filtered_resps": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Ruth ends with y. Yasmin ends with j. So result is yj. The answer is yj."
+        "As a linguist: Ruth ends with y. Yasmin ends with j. So result is jy. The answer is jy."
       ]
     ],
     "filtered_resps": [
-      "yj"
+      "jy"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Quinn valley xenon ends with n. So result is n. The answer is n."
+        "As a linguist: Quinn ends with x. Xenon ends with n. So result is xn. The answer is xn."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "xn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Bridge ends with g. Guitar ends with r. So result is rg. The answer is rg."
+        "As a linguist: Bridge ends with g. Guitar ends with h. So result is hg. The answer is hg."
       ]
     ],
     "filtered_resps": [
-      "rg"
+      "hg"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "As a linguist: Clara ends with e. Feather ends with s. So result is e. S.D.R. The answer is e. S.D.R. The answer is e. S.D.R."
+        "As a linguist: Clara ends with e. Feather ends with s. So result is s. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -5076,11 +5076,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Mirror ends with r. Puzzle ends with r. So result is rr. The answer is rr."
+        "As a linguist: Mirror ends with r. Puzzle ends with r. Rocket ends with m. So result is mr. The answer is mr."
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "mr"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5114,11 +5114,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Olivia ends with c. Carol ends with o. So result is o. The answer is o."
+        "As a linguist: Olivia ends with c. Carol ends with o. So result is oc. The answer is oc."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "oc"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Puzzle ends with l. Liam ends with n. So result is nn. The answer is nn."
+        "As a linguist: Puzzle ends with l. Novel ends with e. So result is e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5494,11 +5494,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Grace ends with e. So result is e. The answer is e. The answer is e."
+        "As a linguist: Grace ends with f. Feather ends with e. So result is ef. The answer is ef."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "ef"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Flame ends with n. Needles ends with e. So result is nn. The answer is nn."
+        "As a linguist: Flame ends with n. Needles ends with e. So result is nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "nnn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Quilt ends with w. Candle ends with r. Rocket ends with n. So result is nr. The answer is nr."
+        "As a linguist: Quilt ends with w. Candle ends with r. Rocket ends with e. So result is ew. The answer is ew."
       ]
     ],
     "filtered_resps": [
-      "nr"
+      "ew"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6064,7 +6064,7 @@
     ],
     "resps": [
       [
-        "As a linguist: Vera ends with e. So result is e. The answer is e. The answer is e."
+        "As a linguist: Vera ends with o. Vega ends with n. So result is o. The answer is o."
       ]
     ],
     "filtered_resps": [
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "As a linguist: oven ends with j. jacket ends with w. window ends with d. dragon ends with e. So result is ew. The answer is ew."
+        "As a linguist: oven ends with j. jacket ends with w. window ends with d. dragon ends with o. So result is ow. The answer is ow."
       ]
     ],
     "filtered_resps": [
-      "ew"
+      "ow"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,7 +6292,7 @@
     ],
     "resps": [
       [
-        "As a linguist: David ends with m. Mango ends with a. So result is a. The answer is a."
+        "As a linguist: David ends with m. Mango ends with a. So result is a. The answer is a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "As a linguist: HARbor Desert ends with d. So result is d. The answer is d. The answer is d."
+        "As a linguist: Harbor ends with d. Desert ends with e. So result is ed. The answer is ed."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "ed"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6520,7 +6520,7 @@
     ],
     "resps": [
       [
-        "As a linguist: anchor ends with b. Brian ends with n. So result is nn. The answer is nn."
+        "As a linguist: anchor ends with l. Brian ends with n. So result is nn. The answer is nn."
       ]
     ],
     "filtered_resps": [
@@ -6596,7 +6596,7 @@
     ],
     "resps": [
       [
-        "As a linguist: Forest ends with d. David ends with f. So result is f. The answer is f."
+        "As a linguist: Forest ends with d. David ends with a. So result is a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Ruth ends with l. Valley ends with r. So result is rr. The answer is rr."
+        "As a linguist: Ruth ends with l. Valleys end with s. So result is ls. The answer is ls."
       ]
     ],
     "filtered_resps": [
-      "rr"
+      "ls"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Yellow ends with l. Lantern ends with n. So result is n. The answer is n."
+        "As a linguist: Yellow ends with l. Lantern ends with n. So result is nl. The answer is nl."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "nl"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7166,11 +7166,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Desert ends with d. Dragon ends with l. Lanterns ends with a. So result is dld. The answer is dld."
+        "As a linguist: Desert ends with d. Dragon ends with l. Lanterns ends with a. So result is dn. The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "dld"
+      "dn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "As a linguist: Eagle ends with l. Lemon ends with e. So result is e.l.h.h. The answer is e.l.h.h. The answer is e.l.h.h."
+        "As a linguist: Eagle ends with l. Lemon ends with s. So result is ls. The answer is ls."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "ls"
     ],
     "filter": "flexible-extract",
     "metrics": [

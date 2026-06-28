@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,letter_shift_persona_cot,letter_shift,persona_cot,fewshot_cot,letter_shift,0.16,0.0,96.5,6,100,9.46,8.84

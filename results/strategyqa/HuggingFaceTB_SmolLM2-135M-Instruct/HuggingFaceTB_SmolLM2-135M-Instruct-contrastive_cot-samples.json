@@ -68,11 +68,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The tibia is not necessary to win the Stanley Cup. [CORRECT] The Stanley Cup is a professional sports event, and the tibia is not a necessary component. The answer is yes."
+        "[INCORRECT] The tibia is not necessary to win the Stanley Cup. [CORRECT] The Stanley Cup is a professional sports event, and the tibia is not a necessary component. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -81,7 +81,7 @@
     "doc_hash": "5b2d250d1b319aa628ca036fc43014c2b7e42bbc2b18c3e6859692cb15e11fbc",
     "prompt_hash": "3847168d5afb2e5a16cc6a8e987d5e6bc15599352853157ae52469b51829b0b6",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 2,
@@ -194,11 +194,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, an Olympic athlete is not tired out after running a mile. [CORRECT] An Olympic athlete is a professional athlete who competes in the Olympics, and they are not tired out after running a mile. The answer is yes."
+        "[INCORRECT] No, an Olympic athlete is not tired out after running a mile. [CORRECT] An Olympic athlete is a member of the Olympic Games, which are a competition between nations, not a physical activity. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -207,7 +207,7 @@
     "doc_hash": "d69e1da8d3f30e0338980b90994a49aefd586bb3653486b1daba2372a0fdf996",
     "prompt_hash": "fd99f4dfc38da0068c537944610abf6bca35a3ce384bcb90a469b19f819e98b4",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 5,
@@ -446,11 +446,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Asian black bears are not known to be multicolored. [CORRECT] They are primarily brown bears, and their fur is usually a light brown color. The answer is no."
+        "[INCORRECT] Asian black bears are not known to be multicolored. [CORRECT] They are primarily brown bears, and their fur is usually brown. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -459,7 +459,7 @@
     "doc_hash": "a71a16dbf708a034f691f2b3a1f44097907821e68aeb23427d2e4ac5f3a11087",
     "prompt_hash": "d2f2d48859b5d1c95e8159ca077f7d19f435d19c976923065925c47e2f44ea6a",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 11,
@@ -530,7 +530,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] It's not unusual to play Happy hardcore music at a funeral. [CORRECT] It's more common to play other genres of music, like rock or pop, at funerals. The answer is yes."
+        "[INCORRECT] Yes, it is. [CORRECT] Happy hardcore music is a genre that is often associated with funerals, and it is often performed by people who are grieving. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -572,7 +572,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, the answer is no. The JPMorgan Chase employee is a private company, not a public institution. The answer is yes."
+        "[INCORRECT] No, the answer is no. The JPMorgan Chase employee is a private citizen, not a public figure. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -614,7 +614,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Michael J Fox is not eligible for the Army Rangers. [CORRECT] Michael J Fox is a fictional character from the movie \"The Fox and the Hound.\" The answer is no."
+        "[INCORRECT] Michael J Fox is not a member of the Army Rangers. [CORRECT] The Army Rangers are a professional military organization that competes in various military activities, including the Army. Michael J Fox is not a member of the Army Rangers. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -824,7 +824,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] People with mood disorders often need temporary institutionalization. [CORRECT] Temporary institutionalization is a temporary solution, and people with mood disorders may need permanent treatment. The answer is yes."
+        "[INCORRECT] People with mood disorders often need temporary institutionalization. [CORRECT] People with mood disorders are often treated with medication, therapy, and support, and they may be able to live independently for a while. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -866,7 +866,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Stephen King is a writer and not an astronaut. [CORRECT] Stephen King is a science fiction author, not an astronaut. The answer is yes."
+        "[INCORRECT] Stephen King is a writer, not an astronaut. [CORRECT] Stephen King is a science fiction author, not an astronaut. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -950,7 +950,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The MLB World Series was held in New York City. [CORRECT] The MLB World Series is a major professional baseball league that is played in New York City. The answer is yes."
+        "[INCORRECT] The MLB World Series was held in New York City. [CORRECT] The MLB World Series is a major professional baseball league that plays in New York City. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1076,11 +1076,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Greek architects were not essential to creating the Lighthouse of Alexandria. [CORRECT] The Lighthouse of Alexandria was built by the Romans, who were not Greek. The answer is yes."
+        "[INCORRECT] Greek architects were not essential to crafting the Egyptian Lighthouse of Alexandria. [CORRECT] The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1089,7 +1089,7 @@
     "doc_hash": "9a632c86d806925afc4635c175eb89e4251d6fdf02e1933d43297c7d8ba64d92",
     "prompt_hash": "204b819d8a59dc8f788a8d36f4a0a3f3f9aa394d3194a0df9623f867e91ac6a5",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 26,
@@ -1118,7 +1118,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, cancer patients do not get disability. [CORRECT] Cancer patients are people with a disease, not people with disabilities. The answer is yes."
+        "[INCORRECT] No, not all cancer patients get disability. [CORRECT] Some cancer patients may not get disability, and some may not get cancer at all. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1244,7 +1244,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Fairy folklore is more prevalent in world myths than valkyries. [CORRECT] Fairy folklore is a collection of stories and legends about fairies, while valkyries are a specific type of valkyrie, a type of female warrior. The answer is yes."
+        "[INCORRECT] Fairy folklore is more prevalent in world myths than valkyries. [CORRECT] Valkyries are a Norse figure, while fairy folklore is a more modern, modern-day, and often more fantastical, folklore. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1328,11 +1328,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, a curling iron is not necessary in curling. [CORRECT] A curling iron is a tool used to hold a curling ball in place, not a necessary part of the game. The answer is no."
+        "[INCORRECT] No, a curling iron is not necessary in curling. [CORRECT] A curling iron is a tool used to hold a hot metal ball in place during the curling process. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1341,7 +1341,7 @@
     "doc_hash": "082838f7383d08ac4ddf572a601ba677a455ce02b659ac17fe7315a043ef5822",
     "prompt_hash": "a5cd221cf37ec9d2e53cce5dbc638827e2e2b00953f7056caca034c0671670f0",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 32,
@@ -1370,11 +1370,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] King James I was a monarch who was known for his love of fairy tales and folklore. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. The answer is yes."
+        "[INCORRECT] King James I was a monarch who was known for his love of fairy tales and folklore. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1383,7 +1383,7 @@
     "doc_hash": "267dcffe0866925432192e5f19bfd73c9cb9a4fc4fb1e697c6ab6260b066accd",
     "prompt_hash": "41b176e5b5785f24260fafccb237d57ecd14c93ec5b801f6c3bf06d4ee85a02a",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 33,
@@ -1412,7 +1412,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Elementary school students do not typically need graphing calculators. [CORRECT] They use calculators for basic math and science, such as graphing, trigonometry, and calculus. The answer is yes."
+        "[INCORRECT] Elementary school students do not typically need graphing calculators. [CORRECT] They use calculators for basic math and graphing. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1538,7 +1538,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Rosalind Franklin was not a scientist. [CORRECT] She was a chemist. [CORRECT] Franklin's work on DNA was not a part of the whole genome sequencing project. The answer is yes."
+        "[INCORRECT] Rosalind Franklin was not a scientist. [CORRECT] She was a chemist. [CORRECT] Franklin's work on DNA was not a part of the work that led to whole genome sequencing. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1622,11 +1622,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, cast iron skillets are not suitable for use with electric stoves. [CORRECT] Cast iron is a metal that is not suitable for use with electric stoves. The answer is no."
+        "[INCORRECT] No, cast iron skillets are not suitable for use with electric stoves. [CORRECT] Cast iron is a metal that is not suitable for use with electric stoves. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1635,7 +1635,7 @@
     "doc_hash": "286cfda0bf9b9c1cbfb9f32095dcb3fcb63d7246aa9cf29e5fda301ea4e82647",
     "prompt_hash": "cbd729218858469fdfaf05a1e716fb1b78052c5864ca155f6d684e9c2d768d01",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 39,
@@ -1790,7 +1790,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jason is not a person. [CORRECT] Dr. Disrespect is a person. The answer is no."
+        "[INCORRECT] Jason is a man who is not a doctor. [CORRECT] Dr. Disrespect is a person who is not a doctor. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2000,7 +2000,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jackson Pollock was trained by Leonardo da Vinci. [CORRECT] Jackson Pollock was trained by the great painter, Claude Monet. The answer is yes."
+        "[INCORRECT] Jackson Pollock was trained by Leonardo da Vinci. [CORRECT] Pollock was trained by the great painter, Raphael. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2042,7 +2042,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Kurt Cobain's death was caused by a car accident. [CORRECT] Daniel LeFever was involved in the accident, but Kurt Cobain was the one who died. The answer is yes."
+        "[INCORRECT] Kurt Cobain's death was caused by a combination of factors, including his suicide, his death of a suicide attempt, and his death of a drug overdose. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2168,7 +2168,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Portuguese colonial war was a conflict between Portugal and the Kingdom of Portugal, not a conflict between all of the African regions that participated in the war. The answer is no."
+        "[INCORRECT] The Portuguese colonial war was a conflict between Portugal and the Kingdom of Portugal, not a conflict between all of the African regions that participated in the war. [CORRECT] The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2252,11 +2252,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, B's birth order is not the same as Prince Harry's. [CORRECT] B's birth order is 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th, 18th, 19th, 20th, 21st, 22nd, 23rd, 24th, 25th, 26th, 27th, 28th, 29th, 30th, 31st, 32nd, 33rd, 34th, 35th, 36th, 37th, 38th, 39th, 40th, 41st, 42nd, 43rd, 44th, 45th, 46th, 47th, "
+        "[INCORRECT] B's place in the alphabet is the same as Prince Harry's birth order. [CORRECT] B's is the 10th letter of the alphabet. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2265,7 +2265,7 @@
     "doc_hash": "6f432e0925321475552f019a7c4e43be3d6be7a06efea1f1e85071b406dae581",
     "prompt_hash": "2d72137c7759d500f8e374393c6250115b892c2b179d401d52b7c2fa774e20ae",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 54,
@@ -2420,7 +2420,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Carnation Revolution was the deadliest revolution in Europe. [CORRECT] The Carnation Revolution was the last revolution in Spain, and it was the deadliest in Europe. The answer is yes."
+        "[INCORRECT] The Carnation Revolution was the deadliest revolution in Europe. [CORRECT] The Carnation Revolution was the most violent revolution in Europe, with over 100,000 deaths. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2462,11 +2462,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Recep Tayyip Erdo\u011fan is not familiar with b\u00f6rek. [CORRECT] B\u00f6rek is a Turkish word for \"to be\" or \"to be in a state of being,\" and it is used to describe a state of being in a particular state. The answer is yes."
+        "[INCORRECT] Recep Tayyip Erdo\u011fan is not familiar with b\u00f6rek. [CORRECT] B\u00f6rek is a Turkish word for \"to drink,\" so it is not related to b\u00f6rek. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2475,7 +2475,7 @@
     "doc_hash": "d5fed167fba80d5b09038c2c21c3878bec834c09c69eac35f2de6a4bf3608fc9",
     "prompt_hash": "f65a58fa4d241d335ba3f35358a8d9669bd96231699226824fbf2a70e8b54bf2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 59,
@@ -2504,7 +2504,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There is no such musical about a transsexual. [CORRECT] Transsexuals are people who are not the same gender as their biological sex. The answer is no."
+        "[INCORRECT] The answer is no. Transsexuals are not typically featured in musicals. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2588,7 +2588,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Al Capone was a member of the Chicago Mafia. [CORRECT] Harlem Renaissance is a literary movement that emerged in the 1920s and 1930s in the United States. Capone was a member of the Chicago Mafia. The answer is yes."
+        "[INCORRECT] Al Capone was a member of the Chicago Mafia. [CORRECT] Harlem Renaissance is a literary movement that emerged in the 1920s and 1930s in the United States. Capone was a member of the Mafia. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2630,7 +2630,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Dr. Seuss was not a tragedy free life. [CORRECT] He was a poet, not a poet. The answer is no."
+        "[INCORRECT] Dr. Seuss was not a tragedy free life. [CORRECT] He was a poet and a storyteller, but he was not a poet or a storyteller. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2672,11 +2672,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Eid al-Fitr is the end of Ramadan, and the end of Ramadan is the end of the year. [CORRECT] The end of Ramadan is the end of the year, so it is impossible to win the Triple Crown between the two dates. The answer is yes."
+        "[INCORRECT] The Triple Crown is a prestigious honor, not a competition. [CORRECT] The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2685,7 +2685,7 @@
     "doc_hash": "3a738c40d8a299c472d133bf8e01d06341b3e1111fcd57842864cb42d5b597cd",
     "prompt_hash": "5efaa2fe0d0c3c524fe1bed9fac967d040fde408815434ff98a1e3a8149df873",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 64,
@@ -2756,7 +2756,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Nazis used the Nazi flag, not the Hammer and sickle flag. [CORRECT] The Nazi flag is a flag of the Third Reich, which was created by Adolf Hitler and his Nazi Party. The Hammer and sickle flag was a flag used by the Nazi Party during World War II. The answer is yes."
+        "[INCORRECT] The Nazis used the Hammer and sickle flag. [CORRECT] The Nazis used the flag of the United States, which is the flag of the United States. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2798,7 +2798,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The answer is no. The story is about a character who is trying to escape his problems, and the use of tobacco is meant to be a way to distract him from his problems. The use of tobacco is not meant to be enjoyable. The answer is no."
+        "[INCORRECT] The answer is no. The use of tobacco in the story is to make the characters seem more interesting and fun. The use of tobacco is not meant to be enjoyable. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3008,11 +3008,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quartz is a mineral that is used in many industries, including medicine, electronics, and glass. It is also used in some foods, such as quartz-based foods like ice cream and ice-cream. [CORRECT] Quartz is not useful to humans, as it is not a mineral. The answer is yes."
+        "[INCORRECT] Quartz is a mineral that is used in many industries, including medicine, electronics, and glass. It is also used in some foods, such as quartz-based foods like ice cream and ice-cream. [CORRECT] Quartz is not useful to humans, as it is not a mineral. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3021,7 +3021,7 @@
     "doc_hash": "5c6a836bbd41286c966a1cc4cbd9ea231ff5342910acdf0d50b5ec862949b08e",
     "prompt_hash": "a4cf81e26243e31f47a398abb48512db78e98b6bc35025d5d7ae3be0b640e753",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 72,
@@ -3050,7 +3050,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Goofy is a pet, so he would not need heartworm prevention. [CORRECT] Goofy is a human, so he would not need heartworm prevention. The answer is no."
+        "[INCORRECT] Goofy is a pet, not a person. Goofy is a character in a movie, not a real person. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3134,7 +3134,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Judith Sheindlin was a famous American actress. [CORRECT] Sheindlin was a prominent figure in the film industry, and her work included roles in films like \"The Shawshank Redemption\" and \"The Shawshank Redemption II.\" The answer is yes."
+        "[INCORRECT] Judith Sheindlin was a famous actress and singer. [CORRECT] Sheindlin was a philanthropist and a feminist, and she was also a member of the NAACP. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3344,7 +3344,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, the human sacrum has more fused vertebrae than an Alaskan Malamute. [CORRECT] The human sacrum has 14 fused vertebrae, while the Alaskan Malamute has 12 fused vertebrae. The answer is yes."
+        "[INCORRECT] No, the human sacrum has more fused vertebrae than an Alaskan Malamute. [CORRECT] The human sacrum has 12 fused vertebrae, while the Alaskan Malamute has 13 fused vertebrae. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3386,7 +3386,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Statue of Liberty is not a statue of freedom. It is a monument to the people of the United States. The answer is no."
+        "[INCORRECT] The Statue of Liberty is not visible from the Statue of Freedom. [CORRECT] The Statue of Liberty is a monument to the people of the United States, and it is not visible from the Statue of Freedom. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3470,11 +3470,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, the Space Race used a different method of relaying batons. The Space Race used a system of relay relay teams, where teams would send messages to each other, and then relay the messages back to the other team. The relay relay teams would then send messages back to each other, and so on. The answer is no."
+        "[INCORRECT] The Space Race used relay batons, not relay sticks. [CORRECT] The Space Race was a competition between nations, not a competition between teams of relay sticks. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3483,7 +3483,7 @@
     "doc_hash": "621a6b3993234671f75d09fa8584288d4f62d777c7ccc75ed65f186f5cdeb855",
     "prompt_hash": "9e25ced85834fe020f252c9ad6cc64b3624d64210e0939bdea36a15c8a1cb7d0",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -3554,7 +3554,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A body builder prefers an elk burger over a beef burger. [CORRECT] A body builder is a person who builds and trains animals, so they are more likely to prefer an elk burger. The answer is yes."
+        "[INCORRECT] A body builder prefers an elk burger over a beef burger. [CORRECT] A body builder is a person who builds and trains animals, so they prefer an elk burger. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3638,7 +3638,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Some citrus fruits can cause side effects, such as headaches, stomach upset, or diarrhea. [CORRECT] Some citrus fruits are safe for people with depression, but others can be toxic. The answer is no."
+        "[INCORRECT] Some citrus fruits, like oranges and lemons, can cause drowsiness and affect the central nervous system. [CORRECT] Some citrus fruits, like oranges and lemons, are not typically associated with drowsiness. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3722,7 +3722,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The answer is no. The Earth's orbit is not a perfect circle, and it takes 365.25 days to complete one orbit around the Sun. The answer is no."
+        "[INCORRECT] The answer is no. The Earth was in orbit around the Sun for 168 years, from 1645 to 1717."
       ]
     ],
     "filtered_resps": [
@@ -3806,7 +3806,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] T-1000 is a super-intelligent AI, and it has a high level of intelligence. It is not a threat to T-1000. The answer is no."
+        "[INCORRECT] T-1000 is a super-intelligent AI, and it has the ability to adapt to new situations. Snake bites are not a threat to T-1000. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3974,7 +3974,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The answer is no. The landscape architect is a professional who designs and builds landscapes."
+        "[INCORRECT] No, she would not be a good consultant to a landscape architect. [CORRECT] Landscape architects are professionals who design and build landscapes, not landscape consultants. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4058,11 +4058,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The title of her 1971 diamond song is \"The Diamond Song.\" [CORRECT] The song was written by Bassey and was released in 1971. The answer is yes."
+        "[INCORRECT] The title of the song is not a true statement. The song was written by Bassey and was released in 1971. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4071,7 +4071,7 @@
     "doc_hash": "1faf4b07b9943cc9f0a05861d5c2e70dcac306b075ce329b65468d936d5021bd",
     "prompt_hash": "3615552f8f40b0c61875d78ab6caef4a1fb7a51533a23cf0a171e8ae41a5fe87",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 97,
@@ -4268,11 +4268,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The tibia is not necessary to win the Stanley Cup. [CORRECT] The Stanley Cup is a professional sports event, and the tibia is not a necessary component. The answer is yes."
+        "[INCORRECT] The tibia is not necessary to win the Stanley Cup. [CORRECT] The Stanley Cup is a professional sports event, and the tibia is not a necessary component. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4281,7 +4281,7 @@
     "doc_hash": "5b2d250d1b319aa628ca036fc43014c2b7e42bbc2b18c3e6859692cb15e11fbc",
     "prompt_hash": "3847168d5afb2e5a16cc6a8e987d5e6bc15599352853157ae52469b51829b0b6",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 2,
@@ -4394,11 +4394,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, an Olympic athlete is not tired out after running a mile. [CORRECT] An Olympic athlete is a professional athlete who competes in the Olympics, and they are not tired out after running a mile. The answer is yes."
+        "[INCORRECT] No, an Olympic athlete is not tired out after running a mile. [CORRECT] An Olympic athlete is a member of the Olympic Games, which are a competition between nations, not a physical activity. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4407,7 +4407,7 @@
     "doc_hash": "d69e1da8d3f30e0338980b90994a49aefd586bb3653486b1daba2372a0fdf996",
     "prompt_hash": "fd99f4dfc38da0068c537944610abf6bca35a3ce384bcb90a469b19f819e98b4",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 5,
@@ -4646,11 +4646,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Asian black bears are not known to be multicolored. [CORRECT] They are primarily brown bears, and their fur is usually a light brown color. The answer is no."
+        "[INCORRECT] Asian black bears are not known to be multicolored. [CORRECT] They are primarily brown bears, and their fur is usually brown. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4659,7 +4659,7 @@
     "doc_hash": "a71a16dbf708a034f691f2b3a1f44097907821e68aeb23427d2e4ac5f3a11087",
     "prompt_hash": "d2f2d48859b5d1c95e8159ca077f7d19f435d19c976923065925c47e2f44ea6a",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 11,
@@ -4730,7 +4730,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] It's not unusual to play Happy hardcore music at a funeral. [CORRECT] It's more common to play other genres of music, like rock or pop, at funerals. The answer is yes."
+        "[INCORRECT] Yes, it is. [CORRECT] Happy hardcore music is a genre that is often associated with funerals, and it is often performed by people who are grieving. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, the answer is no. The JPMorgan Chase employee is a private company, not a public institution. The answer is yes."
+        "[INCORRECT] No, the answer is no. The JPMorgan Chase employee is a private citizen, not a public figure. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Michael J Fox is not eligible for the Army Rangers. [CORRECT] Michael J Fox is a fictional character from the movie \"The Fox and the Hound.\" The answer is no."
+        "[INCORRECT] Michael J Fox is not a member of the Army Rangers. [CORRECT] The Army Rangers are a professional military organization that competes in various military activities, including the Army. Michael J Fox is not a member of the Army Rangers. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5024,7 +5024,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] People with mood disorders often need temporary institutionalization. [CORRECT] Temporary institutionalization is a temporary solution, and people with mood disorders may need permanent treatment. The answer is yes."
+        "[INCORRECT] People with mood disorders often need temporary institutionalization. [CORRECT] People with mood disorders are often treated with medication, therapy, and support, and they may be able to live independently for a while. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5066,7 +5066,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Stephen King is a writer and not an astronaut. [CORRECT] Stephen King is a science fiction author, not an astronaut. The answer is yes."
+        "[INCORRECT] Stephen King is a writer, not an astronaut. [CORRECT] Stephen King is a science fiction author, not an astronaut. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5150,7 +5150,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The MLB World Series was held in New York City. [CORRECT] The MLB World Series is a major professional baseball league that is played in New York City. The answer is yes."
+        "[INCORRECT] The MLB World Series was held in New York City. [CORRECT] The MLB World Series is a major professional baseball league that plays in New York City. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5276,11 +5276,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Greek architects were not essential to creating the Lighthouse of Alexandria. [CORRECT] The Lighthouse of Alexandria was built by the Romans, who were not Greek. The answer is yes."
+        "[INCORRECT] Greek architects were not essential to crafting the Egyptian Lighthouse of Alexandria. [CORRECT] The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5289,7 +5289,7 @@
     "doc_hash": "9a632c86d806925afc4635c175eb89e4251d6fdf02e1933d43297c7d8ba64d92",
     "prompt_hash": "204b819d8a59dc8f788a8d36f4a0a3f3f9aa394d3194a0df9623f867e91ac6a5",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 26,
@@ -5318,7 +5318,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, cancer patients do not get disability. [CORRECT] Cancer patients are people with a disease, not people with disabilities. The answer is yes."
+        "[INCORRECT] No, not all cancer patients get disability. [CORRECT] Some cancer patients may not get disability, and some may not get cancer at all. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5444,7 +5444,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Fairy folklore is more prevalent in world myths than valkyries. [CORRECT] Fairy folklore is a collection of stories and legends about fairies, while valkyries are a specific type of valkyrie, a type of female warrior. The answer is yes."
+        "[INCORRECT] Fairy folklore is more prevalent in world myths than valkyries. [CORRECT] Valkyries are a Norse figure, while fairy folklore is a more modern, modern-day, and often more fantastical, folklore. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5528,11 +5528,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, a curling iron is not necessary in curling. [CORRECT] A curling iron is a tool used to hold a curling ball in place, not a necessary part of the game. The answer is no."
+        "[INCORRECT] No, a curling iron is not necessary in curling. [CORRECT] A curling iron is a tool used to hold a hot metal ball in place during the curling process. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5541,7 +5541,7 @@
     "doc_hash": "082838f7383d08ac4ddf572a601ba677a455ce02b659ac17fe7315a043ef5822",
     "prompt_hash": "a5cd221cf37ec9d2e53cce5dbc638827e2e2b00953f7056caca034c0671670f0",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 32,
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] King James I was a monarch who was known for his love of fairy tales and folklore. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. The answer is yes."
+        "[INCORRECT] King James I was a monarch who was known for his love of fairy tales and folklore. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom. He was a bit of a fairy tale collector, and he loved to tell stories about the fantastical creatures that lived in his kingdom"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5583,7 +5583,7 @@
     "doc_hash": "267dcffe0866925432192e5f19bfd73c9cb9a4fc4fb1e697c6ab6260b066accd",
     "prompt_hash": "41b176e5b5785f24260fafccb237d57ecd14c93ec5b801f6c3bf06d4ee85a02a",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 33,
@@ -5612,7 +5612,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Elementary school students do not typically need graphing calculators. [CORRECT] They use calculators for basic math and science, such as graphing, trigonometry, and calculus. The answer is yes."
+        "[INCORRECT] Elementary school students do not typically need graphing calculators. [CORRECT] They use calculators for basic math and graphing. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5738,7 +5738,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Rosalind Franklin was not a scientist. [CORRECT] She was a chemist. [CORRECT] Franklin's work on DNA was not a part of the whole genome sequencing project. The answer is yes."
+        "[INCORRECT] Rosalind Franklin was not a scientist. [CORRECT] She was a chemist. [CORRECT] Franklin's work on DNA was not a part of the work that led to whole genome sequencing. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5822,11 +5822,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, cast iron skillets are not suitable for use with electric stoves. [CORRECT] Cast iron is a metal that is not suitable for use with electric stoves. The answer is no."
+        "[INCORRECT] No, cast iron skillets are not suitable for use with electric stoves. [CORRECT] Cast iron is a metal that is not suitable for use with electric stoves. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5835,7 +5835,7 @@
     "doc_hash": "286cfda0bf9b9c1cbfb9f32095dcb3fcb63d7246aa9cf29e5fda301ea4e82647",
     "prompt_hash": "cbd729218858469fdfaf05a1e716fb1b78052c5864ca155f6d684e9c2d768d01",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 39,
@@ -5990,7 +5990,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jason is not a person. [CORRECT] Dr. Disrespect is a person. The answer is no."
+        "[INCORRECT] Jason is a man who is not a doctor. [CORRECT] Dr. Disrespect is a person who is not a doctor. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6200,7 +6200,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Jackson Pollock was trained by Leonardo da Vinci. [CORRECT] Jackson Pollock was trained by the great painter, Claude Monet. The answer is yes."
+        "[INCORRECT] Jackson Pollock was trained by Leonardo da Vinci. [CORRECT] Pollock was trained by the great painter, Raphael. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6242,7 +6242,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Kurt Cobain's death was caused by a car accident. [CORRECT] Daniel LeFever was involved in the accident, but Kurt Cobain was the one who died. The answer is yes."
+        "[INCORRECT] Kurt Cobain's death was caused by a combination of factors, including his suicide, his death of a suicide attempt, and his death of a drug overdose. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6368,7 +6368,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Portuguese colonial war was a conflict between Portugal and the Kingdom of Portugal, not a conflict between all of the African regions that participated in the war. The answer is no."
+        "[INCORRECT] The Portuguese colonial war was a conflict between Portugal and the Kingdom of Portugal, not a conflict between all of the African regions that participated in the war. [CORRECT] The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6452,11 +6452,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, B's birth order is not the same as Prince Harry's. [CORRECT] B's birth order is 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th, 18th, 19th, 20th, 21st, 22nd, 23rd, 24th, 25th, 26th, 27th, 28th, 29th, 30th, 31st, 32nd, 33rd, 34th, 35th, 36th, 37th, 38th, 39th, 40th, 41st, 42nd, 43rd, 44th, 45th, 46th, 47th, "
+        "[INCORRECT] B's place in the alphabet is the same as Prince Harry's birth order. [CORRECT] B's is the 10th letter of the alphabet. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "No"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6465,7 +6465,7 @@
     "doc_hash": "6f432e0925321475552f019a7c4e43be3d6be7a06efea1f1e85071b406dae581",
     "prompt_hash": "2d72137c7759d500f8e374393c6250115b892c2b179d401d52b7c2fa774e20ae",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 54,
@@ -6620,7 +6620,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Carnation Revolution was the deadliest revolution in Europe. [CORRECT] The Carnation Revolution was the last revolution in Spain, and it was the deadliest in Europe. The answer is yes."
+        "[INCORRECT] The Carnation Revolution was the deadliest revolution in Europe. [CORRECT] The Carnation Revolution was the most violent revolution in Europe, with over 100,000 deaths. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6662,11 +6662,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Recep Tayyip Erdo\u011fan is not familiar with b\u00f6rek. [CORRECT] B\u00f6rek is a Turkish word for \"to be\" or \"to be in a state of being,\" and it is used to describe a state of being in a particular state. The answer is yes."
+        "[INCORRECT] Recep Tayyip Erdo\u011fan is not familiar with b\u00f6rek. [CORRECT] B\u00f6rek is a Turkish word for \"to drink,\" so it is not related to b\u00f6rek. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6675,7 +6675,7 @@
     "doc_hash": "d5fed167fba80d5b09038c2c21c3878bec834c09c69eac35f2de6a4bf3608fc9",
     "prompt_hash": "f65a58fa4d241d335ba3f35358a8d9669bd96231699226824fbf2a70e8b54bf2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 59,
@@ -6704,11 +6704,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There is no such musical about a transsexual. [CORRECT] Transsexuals are people who are not the same gender as their biological sex. The answer is no."
+        "[INCORRECT] The answer is no. Transsexuals are not typically featured in musicals. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6717,7 +6717,7 @@
     "doc_hash": "638b1f85752f7b0d2cfe36b37cf53eee81f9c654febabcc2b69fb3ac5c21ddd5",
     "prompt_hash": "2b138f8bcf67a3647e74e409e07c42f6401c4f8cc9249a3ba3407fc7364d5af1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 60,
@@ -6788,7 +6788,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Al Capone was a member of the Chicago Mafia. [CORRECT] Harlem Renaissance is a literary movement that emerged in the 1920s and 1930s in the United States. Capone was a member of the Chicago Mafia. The answer is yes."
+        "[INCORRECT] Al Capone was a member of the Chicago Mafia. [CORRECT] Harlem Renaissance is a literary movement that emerged in the 1920s and 1930s in the United States. Capone was a member of the Mafia. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6830,7 +6830,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Dr. Seuss was not a tragedy free life. [CORRECT] He was a poet, not a poet. The answer is no."
+        "[INCORRECT] Dr. Seuss was not a tragedy free life. [CORRECT] He was a poet and a storyteller, but he was not a poet or a storyteller. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6872,11 +6872,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Eid al-Fitr is the end of Ramadan, and the end of Ramadan is the end of the year. [CORRECT] The end of Ramadan is the end of the year, so it is impossible to win the Triple Crown between the two dates. The answer is yes."
+        "[INCORRECT] The Triple Crown is a prestigious honor, not a competition. [CORRECT] The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6885,7 +6885,7 @@
     "doc_hash": "3a738c40d8a299c472d133bf8e01d06341b3e1111fcd57842864cb42d5b597cd",
     "prompt_hash": "5efaa2fe0d0c3c524fe1bed9fac967d040fde408815434ff98a1e3a8149df873",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 64,
@@ -6956,7 +6956,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Nazis used the Nazi flag, not the Hammer and sickle flag. [CORRECT] The Nazi flag is a flag of the Third Reich, which was created by Adolf Hitler and his Nazi Party. The Hammer and sickle flag was a flag used by the Nazi Party during World War II. The answer is yes."
+        "[INCORRECT] The Nazis used the Hammer and sickle flag. [CORRECT] The Nazis used the flag of the United States, which is the flag of the United States. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6998,7 +6998,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The answer is no. The story is about a character who is trying to escape his problems, and the use of tobacco is meant to be a way to distract him from his problems. The use of tobacco is not meant to be enjoyable. The answer is no."
+        "[INCORRECT] The answer is no. The use of tobacco in the story is to make the characters seem more interesting and fun. The use of tobacco is not meant to be enjoyable. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7208,11 +7208,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quartz is a mineral that is used in many industries, including medicine, electronics, and glass. It is also used in some foods, such as quartz-based foods like ice cream and ice-cream. [CORRECT] Quartz is not useful to humans, as it is not a mineral. The answer is yes."
+        "[INCORRECT] Quartz is a mineral that is used in many industries, including medicine, electronics, and glass. It is also used in some foods, such as quartz-based foods like ice cream and ice-cream. [CORRECT] Quartz is not useful to humans, as it is not a mineral. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7221,7 +7221,7 @@
     "doc_hash": "5c6a836bbd41286c966a1cc4cbd9ea231ff5342910acdf0d50b5ec862949b08e",
     "prompt_hash": "a4cf81e26243e31f47a398abb48512db78e98b6bc35025d5d7ae3be0b640e753",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 72,
@@ -7250,7 +7250,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Goofy is a pet, so he would not need heartworm prevention. [CORRECT] Goofy is a human, so he would not need heartworm prevention. The answer is no."
+        "[INCORRECT] Goofy is a pet, not a person. Goofy is a character in a movie, not a real person. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7334,7 +7334,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Judith Sheindlin was a famous American actress. [CORRECT] Sheindlin was a prominent figure in the film industry, and her work included roles in films like \"The Shawshank Redemption\" and \"The Shawshank Redemption II.\" The answer is yes."
+        "[INCORRECT] Judith Sheindlin was a famous actress and singer. [CORRECT] Sheindlin was a philanthropist and a feminist, and she was also a member of the NAACP. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7544,7 +7544,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, the human sacrum has more fused vertebrae than an Alaskan Malamute. [CORRECT] The human sacrum has 14 fused vertebrae, while the Alaskan Malamute has 12 fused vertebrae. The answer is yes."
+        "[INCORRECT] No, the human sacrum has more fused vertebrae than an Alaskan Malamute. [CORRECT] The human sacrum has 12 fused vertebrae, while the Alaskan Malamute has 13 fused vertebrae. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7586,7 +7586,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The Statue of Liberty is not a statue of freedom. It is a monument to the people of the United States. The answer is no."
+        "[INCORRECT] The Statue of Liberty is not visible from the Statue of Freedom. [CORRECT] The Statue of Liberty is a monument to the people of the United States, and it is not visible from the Statue of Freedom. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7670,11 +7670,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, the Space Race used a different method of relaying batons. The Space Race used a system of relay relay teams, where teams would send messages to each other, and then relay the messages back to the other team. The relay relay teams would then send messages back to each other, and so on. The answer is no."
+        "[INCORRECT] The Space Race used relay batons, not relay sticks. [CORRECT] The Space Race was a competition between nations, not a competition between teams of relay sticks. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7683,7 +7683,7 @@
     "doc_hash": "621a6b3993234671f75d09fa8584288d4f62d777c7ccc75ed65f186f5cdeb855",
     "prompt_hash": "9e25ced85834fe020f252c9ad6cc64b3624d64210e0939bdea36a15c8a1cb7d0",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -7754,7 +7754,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A body builder prefers an elk burger over a beef burger. [CORRECT] A body builder is a person who builds and trains animals, so they are more likely to prefer an elk burger. The answer is yes."
+        "[INCORRECT] A body builder prefers an elk burger over a beef burger. [CORRECT] A body builder is a person who builds and trains animals, so they prefer an elk burger. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7838,7 +7838,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Some citrus fruits can cause side effects, such as headaches, stomach upset, or diarrhea. [CORRECT] Some citrus fruits are safe for people with depression, but others can be toxic. The answer is no."
+        "[INCORRECT] Some citrus fruits, like oranges and lemons, can cause drowsiness and affect the central nervous system. [CORRECT] Some citrus fruits, like oranges and lemons, are not typically associated with drowsiness. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7922,7 +7922,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The answer is no. The Earth's orbit is not a perfect circle, and it takes 365.25 days to complete one orbit around the Sun. The answer is no."
+        "[INCORRECT] The answer is no. The Earth was in orbit around the Sun for 168 years, from 1645 to 1717."
       ]
     ],
     "filtered_resps": [
@@ -8006,7 +8006,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] T-1000 is a super-intelligent AI, and it has a high level of intelligence. It is not a threat to T-1000. The answer is no."
+        "[INCORRECT] T-1000 is a super-intelligent AI, and it has the ability to adapt to new situations. Snake bites are not a threat to T-1000. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -8174,7 +8174,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The answer is no. The landscape architect is a professional who designs and builds landscapes."
+        "[INCORRECT] No, she would not be a good consultant to a landscape architect. [CORRECT] Landscape architects are professionals who design and build landscapes, not landscape consultants. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -8258,11 +8258,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The title of her 1971 diamond song is \"The Diamond Song.\" [CORRECT] The song was written by Bassey and was released in 1971. The answer is yes."
+        "[INCORRECT] The title of the song is not a true statement. The song was written by Bassey and was released in 1971. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8271,7 +8271,7 @@
     "doc_hash": "1faf4b07b9943cc9f0a05861d5c2e70dcac306b075ce329b65468d936d5021bd",
     "prompt_hash": "3615552f8f40b0c61875d78ab6caef4a1fb7a51533a23cf0a171e8ae41a5fe87",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 97,

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-0.5B-Instruct,last_letter_fewshot_baseline,last_letter,fewshot_baseline,fewshot_base,last_letter_concatenation,0.0,0.0,16.2,4,100,5.87,4.12

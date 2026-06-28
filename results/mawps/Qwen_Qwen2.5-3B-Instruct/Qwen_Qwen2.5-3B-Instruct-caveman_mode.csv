@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,mawps_caveman_mode,mawps,caveman_mode,fewshot_cot,mawps,0.89,0.02,178.9,8,100,34.05,9.56

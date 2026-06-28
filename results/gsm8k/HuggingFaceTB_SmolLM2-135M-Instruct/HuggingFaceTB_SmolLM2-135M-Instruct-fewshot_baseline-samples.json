@@ -288,7 +288,7 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 10 minutes."
       ]
     ],
     "filtered_resps": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "The merchant's financial advisor's speculations are correct. The jewelry market will go up 2.5% and the electronic gadgets market will rise 1.2% within the same month, resulting in a 2.5% increase in profit. Therefore, the merchant would make a profit of $1,000 (2.5% x $5,000) + $1,000 (1.2% x $8,000) = $1,1,000."
+        "The merchant's financial advisor's speculations are correct. The jewelry market will go up 2.5% and the electronic gadgets market will rise 1.2% within the same month, resulting in a 2.5% increase in profit. Therefore, the merchant would make a profit of $1,000 (2.5% x 2.5%) from this choice."
       ]
     ],
     "filtered_resps": [
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "The answer is 1500."
+        "The answer is 15000."
       ]
     ],
     "filtered_resps": [
-      "1500"
+      "15000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "The answer is 12."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 23."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "23"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "The answer is 10.50."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "10.50"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2758,11 +2758,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,7 +3594,7 @@
     ],
     "resps": [
       [
-        "The number of pets in the neighborhood is 60 - 2 = 58."
+        "The number of pets in the neighborhood is 200 - 60 = 120."
       ]
     ],
     "filtered_resps": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "The answer is 11."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "11"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 10 minutes."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "10"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "The merchant's financial advisor's speculations are correct. The jewelry market will go up 2.5% and the electronic gadgets market will rise 1.2% within the same month, resulting in a 2.5% increase in profit. Therefore, the merchant would make a profit of $1,000 (2.5% x $5,000) + $1,000 (1.2% x $8,000) = $1,1,000."
+        "The merchant's financial advisor's speculations are correct. The jewelry market will go up 2.5% and the electronic gadgets market will rise 1.2% within the same month, resulting in a 2.5% increase in profit. Therefore, the merchant would make a profit of $1,000 (2.5% x 2.5%) from this choice."
       ]
     ],
     "filtered_resps": [
-      "$1,1,000."
+      "2.5"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "The answer is 1500."
+        "The answer is 15000."
       ]
     ],
     "filtered_resps": [
-      "1500."
+      "15000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "The answer is 12."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 23."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "23."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "The answer is 10.50."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "10.50."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6558,11 +6558,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "The number of pets in the neighborhood is 60 - 2 = 58."
+        "The number of pets in the neighborhood is 200 - 60 = 120."
       ]
     ],
     "filtered_resps": [
-      "58."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "The answer is 11."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "11."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [

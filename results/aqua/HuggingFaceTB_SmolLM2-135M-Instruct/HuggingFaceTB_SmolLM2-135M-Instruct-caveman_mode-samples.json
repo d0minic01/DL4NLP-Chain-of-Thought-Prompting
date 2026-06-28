@@ -30,7 +30,7 @@
     ],
     "resps": [
       [
-        "Friend P's rate is 15% faster than Friend Q's. Friend Q's rate is 15% slower than Friend P's. Friend Q's rate is 15% less than Friend P's rate. Friend P's rate is 15% less than Friend Q's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend P's rate is 15% less than Friend Q's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend P's rate is 15% less than Friend Q's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend"
+        "Friend P's rate is 15% faster than Friend Q's. Friend Q's rate is 15% slower than Friend P's. Friend Q's rate is 15% less than Friend P's rate. So, Friend Q's rate is 15% - 15% = 10%. Friend P's rate is 15% greater than Friend Q's rate. So, Friend P's rate is 15% + 10% = 25%. Friend Q's rate is 15% less than Friend P's rate. So, Friend Q's rate is 15% - 10% = 5%. Friend P's rate is 15% greater than Friend Q's rate. So, Friend P's rate is 15% + 5% = 20%. Friend Q's rate is 15% less than Friend P's rate. So, Friend Q's rate is 15% - 5% = 8%. Friend P's rate is 15% greater than Friend Q's rate. So, Friend P's rate is 15% + 8% = 23%. Friend Q's rate is 15"
       ]
     ],
     "filtered_resps": [
@@ -76,7 +76,7 @@
     ],
     "resps": [
       [
-        "To find the values of x and y, we need to find the slope of line k. The slope is given by the formula: slope = (y2 - y1) / (x2 - x1)\n\nIn this case, y2 - y1 = 1, so slope = (1 - 1) / (1 - 5) = 1 / 4\n\nNow, we need to find the x and y values of the points (x, 1) and (5, y).\n\nx = (5 - 1) = 4\ny = 1\n\nSo, the values of x and y are:\n\nx = 4\ny = 1\n\nSo, the values of x and y are:\n\n(4, 1)\n(4, 1)"
+        "To find the values of x and y, we need to find the slope of line k. The slope is given by the formula: slope = (y2 - y1) / (x2 - x1).\n\nIn this case, y2 - y1 = 12 - 5 = 6. So slope = 6/6 = 1.\n\nNow, we need to find the x and y values of the points (x, 1) and (5, y).\n\nx = (5 - 1) = 4\ny = 6\n\nSo the values of x and y are:\n\nx = 4\ny = 6\n\nSo the values of x and y are:\n\n(4, 6)\n(5, 1)"
       ]
     ],
     "filtered_resps": [
@@ -122,7 +122,7 @@
     ],
     "resps": [
       [
-        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and the equation x^2 - xq = 0 implies that x^2 - xq = 0. Since x is a non-zero number, x^2 - xq = 0 is a quadratic equation. The solutions to this equation are x = \u00b1\u221a(x^2 - xq) = \u00b1\u221a(x^2 - 2qx + 1).\n\nThe only solution to the equation x^2 - xq = 0 is x = \u00b1\u221a(x^2 - 2qx + 1).\n\nTherefore, the answer is (b)."
+        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and the equation x^2 - xq = 0 implies that x^2 - xq = 0. Since x is an integer, x^2 - xq = 0 is a quadratic equation. The solutions to this equation are x = \u00b1\u221a(x^2 - xq) = \u00b1\u221a(x^2 - 2xq + 1).\n\nThe only solution to the equation x^2 - xq = 0 is x = \u00b1\u221a(x^2 - 2xq + 1).\n\nTherefore, the answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -214,7 +214,7 @@
     ],
     "resps": [
       [
-        "Speed downstream = 11 kmph. Speed upstream = 25 kmph. 80m / 11 kmph = 7.25 m/s. 11 kmph * 7.25 m/s = 82.5 m/s. 82.5 m/s / 25 kmph = 3.125 m/s. 3.125 m/s / 11 kmph = 2.66666666666666667 m/s. 2.66666666666666667 m/s / 11 kmph = 1.86666666666666667 m/s. 1.86666666666666667 m/s / 25 kmph = 1.0000000000000000 m/s. 1.0000000000000000 m/s"
+        "Speed downstream = 11 kmph. Speed upstream = 25 kmph. 80m / 11 kmph = 7.25 m. 11 kmph * 7.25 m = 82.5 m. 82.5 m / 11 kmph = 7.25 m. 7.25 m / 25 kmph = 2.75 m. 2.75 m / 11 kmph = 2.75 m. 2.75 m / 11 kmph = 2.75 m. 2.75 m / 25 kmph = 1.25 m. 1.25 m / 11 kmph = 1.25 m. 1.25 m / 25 kmph = 0.45 m. 0.45 m / 25 kmph = 0.15 m. 0.15 m / 25 kmph = 0.05 m. 0.05 m / 25 kmph = 0.005 m"
       ]
     ],
     "filtered_resps": [
@@ -306,11 +306,11 @@
     ],
     "resps": [
       [
-        "(a) \u2212 3 \u2264 x \u2264 4.\n\nThe answer is (b)."
+        "(a) \u2212 3 \u2264 x \u2264 4\n\n(b) \u2212 4 \u2264 x \u2264 3\n\n(c) \u2212 4 \u2264 x \u2264 3\n\n(d) 3 \u2264 x \u2264 4\n\n(e) 3 \u2264 x \u2264 4"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -398,7 +398,7 @@
     ],
     "resps": [
       [
-        "Joe goes with her 6 years old twin brothers. 6 years old twin brothers = 6 * 2 = 12. 12 + 3 = 15. 15 + 20 = 35. 35 + 20 = 55. 55 + 16 = 71. 71 + 20 = 91. 91 + 17.5 = 108. 108 + 20 = 128. 128 + 15.5 = 143. 143 + 20 = 163. 163 + 20 = 183. 183 + 17.5 = 200. 200 + 20 = 202. 202 + 16.5 = 218. 218 + 17.5 = 235. 235 + 20 = 255. 255 + 15.5 = 270. 27"
+        "Joe goes with her 6 years old twin brothers. 6 years old twin brothers = 6 * 2 = 12. 12 + 3 = 15. 15 + 20 = 35. 35 + 20 = 55. 55 + 20 = 75. 75 + 12 = 87. 87 + 15 = 102. 102 + 17.5 = 119. 119 + 20 = 139. 139 + 20 = 159. 159 + 35 = 184. 184 + 20 = 204. 204 + 55 = 259. 259 + 16 = 275. 275 + 17.5 = 302. 302 + 15.5 = 317. 317 + 17.5 = 332. 332 + 2"
       ]
     ],
     "filtered_resps": [
@@ -490,11 +490,11 @@
     ],
     "resps": [
       [
-        "A$60.00 is 100% of the tip. B$35.42 is 100% of the tip. C$60.60 is 100% of the tip. D$21.56 is 100% of the tip. E$78.45 is 100% of the tip. The answer is (c)."
+        "A$60.00 is 20% of $50. So, 20% of $50 is 0.20 * $50 = $10. So, $10 is 20% of $50. So, $10 is 20% of $50. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -536,11 +536,11 @@
     ],
     "resps": [
       [
-        "The rate of interest is 4% per year. 3 years * 4% = 1.25 years. 1.25 years * 3 = 3.75 years. 3.75 years * 4 = 12.5 years. 12.5 years * 4 = 48.5 years. 48.5 years * 4 = 192.5 years. 192.5 years * 4 = 785.5 years. 785.5 years * 4 = 3100.5 years. 3100.5 years * 4 = 12300.5 years. 12300.5 years * 4 = 46600.5 years. 46600.5 years * 4 = 19360.5 years. 19360.5 years * 4 = 78800.5 years. 78800.5 years * 4 = 31040.5 years. 31040.5"
+        "1020.80 * 1.04 = 1055.20. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -549,7 +549,7 @@
     "doc_hash": "2317981bb3db2b299502a643006621cae6118266f3b8183de689bab0890ffeb6",
     "prompt_hash": "efbd7088f28bcaea69acbc69953e0f45034aea35875403efbe2ba90006aaaec7",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 12,
@@ -1042,7 +1042,7 @@
     ],
     "resps": [
       [
-        "To find the least value of x, we need to find the smallest value of x that satisfies the equation 2x5475 = 9.\n\nFirst, we need to find the smallest value of x that satisfies the equation. We can do this by dividing both sides of the equation by 2.\n\nx = 2 * (9)5475 / 2\nx = 2 * 105475 / 2\nx = 105475\n\nSo, the least value of x is 105475."
+        "To find the least value of x, we need to find the smallest value of x that satisfies the equation 2x5475 = 9.\n\nFirst, we need to find the smallest value of x that satisfies the equation. We can do this by dividing both sides of the equation by 9.\n\nx = 9 / 9 = 1\n\nSo, the least value of x that satisfies the equation 2x5475 = 9 is 1."
       ]
     ],
     "filtered_resps": [
@@ -1272,11 +1272,11 @@
     ],
     "resps": [
       [
-        "Weighted average is a way to calculate the average of a set of values where the weights are the same for each value. Weights are the amounts that are given to each value in the calculation.\n\nWeighted average is calculated as:\n\n(100 * $45,000) + (90 * $95,000) + (100 * $37,500) + (90 * $42,500) + (100 * $50,000)\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\n"
+        "Weighted average is a way to calculate the average of a set of values where the weights are the same for each value. Weights are the amounts that are given to each value in the calculation.\n\nWeighted average = (sum of all values) / (sum of all weights)\n\nIn this case, the weights are the same for each value, so we can use the formula:\n\nWeighted average = (sum of all values) / (sum of all weights)\n\nWeighted average = (45,000) / (95,000)\n\nWeighted average = $32,500\n\nSo, the weighted average of the 50 customers is $32,500.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1318,7 +1318,7 @@
     ],
     "resps": [
       [
-        "The slant height of the cone is 35 cm. The radius of the base is 14 cm. The curved surface of the cone is the area of the base times the slant height. The area of the base is 14 * 35 = 490. The curved surface is the area of the base times the slant height. The curved surface is 490 * 35 = 1780. The answer is (e)."
+        "The slant height of the cone is 35 cm. The radius of the base is 14 cm. The curved surface is the area of the base times the slant height. The area of the base is 14 * 35 = 490. The curved surface is the area of the base times the slant height. The curved surface is 490 * 35 = 1780. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1364,7 +1364,7 @@
     ],
     "resps": [
       [
-        "A normal block has a volume of 8 cubic feet. A small block has a volume of 1/2 * 8 = 4 cubic feet. A small block has a width of 1/2 * 4 = 2 cubic feet. A small block has a depth of 1/2 * 2 = 2 cubic feet. A small block has a length of 1/2 * 2 = 1 cubic foot. The volume of cheese in a small block is 1 cubic foot. The answer is (e)."
+        "A normal block has a volume of 8 cubic feet. A small block has a volume of 1/2 * 8 = 4 cubic feet. A small block has a depth of 1/2 * 4 = 2 cubic feet. A small block has a width of 1/2 * 2 = 1.5 cubic feet. A small block has a length of 1/2 * 1.5 = 1.55 cubic feet. The volume of cheese in a small block is 4 cubic feet / 1.55 cubic feet = 2.56 cubic feet. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1502,11 +1502,11 @@
     ],
     "resps": [
       [
-        "The yearly return of the $1,500 investment is 1500 * 0.07 = 10%. The yearly return of the $500 investment is 500 * 0.07 = 33.3%. The answer is (e)."
+        "The yearly return of the $500 investment is 19 percent of the total of the two investments. 19 percent of $500 is 19 * $500 = $9,000. The yearly return of the $1,500 investment is 15 percent of the total of the two investments. 15 percent of $1,500 is 15 * $1,500 = $1,850. The yearly return of the $1,500 investment is 15 percent of $1,850. 15 percent of $1,850 is 15 * $1,850 = $2,300. The yearly return of the $1,500 investment is 15 percent of $2,300. 15 percent of $2,300 is 15 * $2,300 = $3,600. The yearly return of the $1,500 investment is 15 percent of $3,600. 15 percent of $3,600 is 15 * $"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1548,7 +1548,7 @@
     ],
     "resps": [
       [
-        "To solve this equation, we need to isolate the variable k. First, we need to find the value of x.\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can combine like terms:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNext, we need to isolate x. We can do this by subtracting 8 from both sides of the equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) - 8\n\nNow, we can combine like terms:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) - 8\n\nNow, we can combine like terms:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) - 8\n\nNow, we can combine like terms:\n\n-x2 - (k"
+        "To solve this equation, we need to isolate the variable k. First, we need to get rid of the constant k. We can do this by multiplying both sides of the equation by -1.\n\n(-1)(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can simplify the equation by combining the like terms.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x -"
       ]
     ],
     "filtered_resps": [
@@ -1640,7 +1640,7 @@
     ],
     "resps": [
       [
-        "The gain is proportional to the time invested. The gain is Rs. 6000. The time invested is 6000 * 2 = 12000. The gain is Rs. 6000 * 12000 = 78000. The answer is (e)."
+        "The gain is proportional to the money invested and the time for which the money is invested. The gain is Rs. 6000. The time for which the money is invested is 6000 * 2 = 12000. The gain is Rs. 6000 * 12000 = 78000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 hours = 1 hour - 2 = 1 hour - 1 = 0 minutes. The answer is (e)."
+        "2 * 1 = 2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1824,7 +1824,7 @@
     ],
     "resps": [
       [
-        "1/a + 1/b + 1/c = 1.\n\nSince a + b + c = 11, we can substitute this into the equation: 11 = 11 + 1 + 1.\n\nSubtracting 1 from both sides, we get: 11 - 1 = 10.\n\nDividing both sides by 10, we get: 11/10 = 10/10.\n\nMultiplying both sides by 10/10, we get: 11 = 100/10.\n\nDividing both sides by 10/10, we get: 11 = 100/100.\n\nDividing both sides by 100/100, we get: 1 = 100/100.\n\nDividing both sides by 100/100, we get: 1 = 1.\n\nSo, the answer is (e)."
+        "1/a + 1/b + 1/c = 1.\n\nSince a + b + c = 11, we can substitute this into the equation: 11 = 11 + 1 + 1.\n\nSubtracting 1 from both sides, we get: 11 - 1 = 10.\n\nDividing both sides by 10, we get: 11/10 = 10/10.\n\nMultiplying both sides by 10, we get: 11 = 100.\n\nDividing both sides by 100, we get: 1 = 1.\n\nSo, the answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1870,11 +1870,11 @@
     ],
     "resps": [
       [
-        "Four years hence, his present age is 36 years + 45 years = 71 years. The answer is (c)."
+        "Four years hence, his present age is 36 years + 45 years = 71 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2054,11 +2054,11 @@
     ],
     "resps": [
       [
-        "There are 5 people in total. 1 couple and 1 single each have 1 person. So, the probability that the couple does not sit together is 1/5. The answer is (c)."
+        "There are 5 people in total. 1 couple and 1 single each have 1 person. So, the probability that the couple does not sit together is 1/5. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2100,7 +2100,7 @@
     ],
     "resps": [
       [
-        "To find the probability of at least 1 customer buying a coffee and a bagel, we need to find the probability of at least 2 customers buying a coffee and a bagel, and then subtract that from 1.\n\nFirst, we find the probability of at least 1 customer buying a coffee and a bagel:\n\nProbability of at least 1 customer buying a coffee and a bagel = 1 - (probability of at least 2 customers buying a coffee and a bagel)\n= 1 - (probability of at least 2 customers buying a coffee and a bagel)\n= 1 - (0.9999999999999999)\n= 1 - 0.000000001\n= 0.9999999999999999\n\nNow, we find the probability of at least 2 customers buying a coffee and a bagel:\n\nProbability of at least 2 customers buying a coffee and a bagel = 1 - (probability of at least 2 customers buying a coffee and a bagel)\n= 1 - (0."
+        "To find the probability of at least 1 customer buying a coffee and a bagel, we need to find the probability of at least 2 customers buying both and then subtract that from 1.\n\nFirst, we find the probability of at least 1 customer buying a coffee and a bagel: 3 out of 5 customers bought a coffee and a bagel. So the probability of at least 1 customer buying a coffee and a bagel is 3/5.\n\nNext, we find the probability of at least 2 customers buying both: 5 out of 7 customers bought a coffee and a bagel. So the probability of at least 2 customers buying both is 5/7.\n\nNow, we subtract the probability of at least 2 customers buying both from the probability of at least 1 customer buying both to find the probability of at least 1 customer buying both: 1 - 3/5 - 5/7 = 1 - 12/245 = 12/245.\n\nFinally, we divide the total number of customers (5) by the total number of customers (7) to find the probability of at least 1 customer buying both:"
       ]
     ],
     "filtered_resps": [
@@ -2146,11 +2146,11 @@
     ],
     "resps": [
       [
-        "Solve for x. 8 + x = 10. 8 + x = 10 - 3. 8 + x = 10 - 3 - 2. 8 + x = 10 - 2. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x ="
+        "Solve for x. 4x + 3 = 8 + x. Subtract 3 from both sides: 4x = 7. Divide by 4: x = 2.5. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2192,11 +2192,11 @@
     ],
     "resps": [
       [
-        "To restore the original output, the new output must be 20% of the original output. 20% of 100% is 20%. To restore the original output, the new output must be 24% of the original output. 24% of 90% is 24%. To restore the original output, the new output must be 32% of the original output. 32% of 90% is 32%. To restore the original output, the new output must be 79% of the original output. 79% of 90% is 79%. To restore the original output, the new output must be 32% of the original output. 32% of 90% is 32%. To restore the original output, the new output must be 79% of the original output. 79% of 90% is 79%. To restore the original output, the new output must be 32% of the original output. 32% of 90% is 32%. To restore the original output, the new output must be 79% of the"
+        "To restore the original output, the new output must be 20% of the original output. 20% of 100% is 20%. To restore the original output, the new output must be 20% of 100%. 20% of 100% is 20%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2238,7 +2238,7 @@
     ],
     "resps": [
       [
-        "Two-sevenths of the male students are married. 70% of 2/7 = 0.7 * 0.7 = 0.49. 30% of 2/7 = 0.3 * 0.3 = 0.06. 2/7 * 0.06 = 0.02. 2/7 * 0.02 = 0.01. 2/7 * 0.01 = 0.002. 2/7 * 0.002 = 0.00002. 2/7 * 0.00002 = 0.0000002. 2/7 * 0.0000002 = 0.000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "Two-sevenths of the male students are married. 70% of 2/7 = 0.7 * 2/7 = 0.25. So, 0.25 * 2/7 = 0.25 * 1/7 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * "
       ]
     ],
     "filtered_resps": [
@@ -2330,11 +2330,11 @@
     ],
     "resps": [
       [
-        "20 articles * 20% = 40 articles. 20 articles * 0.20 = 4 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0"
+        "20 articles * 20% = 40 articles. 20 - 40 = 10 articles. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2652,7 +2652,7 @@
     ],
     "resps": [
       [
-        "Surface = 24a8. 24a8 = 24 * 8 = 208. The answer is (e)."
+        "Surface area of a cube is 6 * 6 * 6 = 24. The edge of the cube is 7a cm. So, the surface area is 24 * 7a = 180a. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2698,7 +2698,7 @@
     ],
     "resps": [
       [
-        "1.9 * 2 = 3.8\n3.8 * 2 = 7.6\n7.6 * 2 = 15.2\n15.2 * 2 = 31.6\n31.6 * 2 = 64.4\n64.4 * 2 = 138.6\n138.6 * 2 = 315.2\n315.2 * 2 = 660.6\n660.6 * 2 = 1362.4\n1362.4 * 2 = 3114.6\n3114.6 * 2 = 6627.4\n6627.4 * 2 = 1365.6\n1365.6 * 2 = 3100.4\n1300.4 * 2 = 3102.6\n3102.6 * 2 = 6605.4\n6605.4 * 2 = 1365.6\n6"
+        "1.9 * 2 = 3.8\n3.8 * 2 = 7.6\n7.6 * 2 = 15.2\n15.2 * 2 = 31.6\n31.6 * 2 = 64.4\n64.4 * 2 = 138.6\n138.6 * 2 = 315.2\n315.2 * 2 = 660.6\n660.6 * 2 = 1362.4\n1362.4 * 2 = 3114.2\n3114.2 * 2 = 6627.6\n6627.6 * 2 = 13651.4\n13651.4 * 2 = 31106.6\n31106.6 * 2 = 66253.4\n66253.4 * 2 = 13678.8\n66276.8 * 2 = "
       ]
     ],
     "filtered_resps": [
@@ -2836,7 +2836,7 @@
     ],
     "resps": [
       [
-        "The diagonals of a rhombus are equal. 18 cm * 22 cm = 396 cm. The area of a rhombus is 18 * 22 * 2 = 277. The answer is (e)."
+        "18 cm * 22 cm = 360 cm. 360 cm / 2 = 180 cm. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2882,7 +2882,7 @@
     ],
     "resps": [
       [
-        "1 to 9 over 40 years have 9 to 99 two-digit. 100 to 500 have 90 to 99 three-digit. 9 + 90 * 2 + 99 * 3 = 22 1/8 %. The answer is (e)."
+        "1 to 9 over 40 years have 9 one-digit. 10 to 99 have 90 two-digit. 100 to 500 have 401 three-digit. 9 + 90 * 2 + 401 * 3 = 22 1/8 %. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3296,7 +3296,7 @@
     ],
     "resps": [
       [
-        "The area of an equilateral triangle is (\u221a3)^2 * 16 = 36. The area of an equilateral triangle is 64\u221a3 cm2. The answer is (e)."
+        "The area of an equilateral triangle is (\u221a3/4) * side^2. The side length is 16 cm. So the area is (\u221a3/4) * 16^2 = 64\u221a3 cm^2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "The diagonals of a rhombus are equal. 25 cm * 25 cm = 625 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm *"
+        "The diagonals of a rhombus are perpendiculars to each other. 25 cm is the length of the side of the rhombus. 30 cm is the length of the side of the rhombus. 25 cm * 2 = 50 cm. 30 cm * 2 = 60 cm. 25 cm * 2 = 50 cm. 50 cm * 2 = 100 cm. 100 cm * 2 = 200 cm. 200 cm * 2 = 400 cm. 400 cm * 2 = 800 cm. 800 cm * 2 = 1600 cm. 1600 cm * 2 = 3200 cm. 3200 cm * 2 = 6400 cm. 6400 cm * 2 = 12800 cm. 12800 cm * 2 = 25600 cm. 25600 cm * 2 = 51200 cm. 5120"
       ]
     ],
     "filtered_resps": [
@@ -3618,11 +3618,11 @@
     ],
     "resps": [
       [
-        "Since there are 7 men and 6 women, the probability of having 0 woman is 1/7. The probability of having 1 woman is 6/7. The probability of having 2 women is 6/8. The probability of having 3 women is 6/9. The probability of having 4 women is 6/10. The probability of having 5 women is 6/11. The probability of having 6 women is 6/12. The probability of having 7 women is 6/13. The probability of having 8 women is 6/14. The probability of having 9 women is 6/15. The probability of having 10 women is 6/16. The probability of having 11 women is 6/17. The probability of having 12 women is 6/18. The probability of having 13 women is 6/19. The probability of having 14 women is 6/20. The probability of having 15 women is 6/21. The probability of having 16 women is 6/22. The probability of having"
+        "Since there are 7 men and 6 women, the probability of having 0 woman is 1/7.\nSince there are 36 possible committees, the probability of having 0 woman is 36/36 = 1.\nSo the probability of having 0 woman is 1/36.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3664,11 +3664,11 @@
     ],
     "resps": [
       [
-        "To find the probability of exactly three good bulbs, we need to find the probability of choosing exactly three good bulbs out of the four available bulbs.\n\nThere are 9 bulbs out of which 4 are good. So, the probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe answer is (e)."
+        "To find the probability of exactly three good bulbs, we need to find the probability of choosing exactly three good bulbs out of the four available bulbs.\n\nThere are 9 bulbs out of which 4 are good. So, the probability of choosing exactly three good bulbs is 4/9.\n\nTo find the probability of choosing exactly three good bulbs, we multiply the probability of choosing exactly three good bulbs by the probability of choosing any one of the other 30 bulbs.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing any one of the other 30 bulbs is 3"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3756,7 +3756,7 @@
     ],
     "resps": [
       [
-        "If |w| = -w, then x must be greater than 0. If x = 0, then x2 > x, which is not true. If x = 0, then x3 < 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0,"
+        "If |w| = -w, then x must be greater than 0. If x = 0, then x2 > 0, which is not true. If x = 0, then x3 < 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0"
       ]
     ],
     "filtered_resps": [
@@ -3802,7 +3802,7 @@
     ],
     "resps": [
       [
-        "To find the percent of the second number, we need to find the percentage of the first number. 30% of 100 is 30/100 * 100 = 30%. 37% of 90 is 37/100 * 90 = 37%. 10% of 90 is 90/100 * 90 = 90%. 11% of 90 is 91/100 * 90 = 91%. 12% of 90 is 92/100 * 90 = 92%. The answer is (e)."
+        "To find the percent of the second number, we need to find the percentage of the first number. 37% of 30% is 0.37 * 0.37 = 0.112. So the second number is 37% of 30%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3848,7 +3848,7 @@
     ],
     "resps": [
       [
-        "39 to 79 have 79 to 11. 39 to 11 * 11 = 391. The answer is (e)."
+        "39 to 79 have 79 to 79. 39 to 79 is 11. 11 is divisible by 11. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3894,11 +3894,11 @@
     ],
     "resps": [
       [
-        "The cube has 6 faces. The surface area is 6 * 6 * 6 = 216. The measure of the edge is 4 * 6 * 6 = 216. The answer is (e)."
+        "The cube has 6 faces. The surface area is 6 * 6 * 6 = 216. The measure of the edge is 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 ="
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3940,7 +3940,7 @@
     ],
     "resps": [
       [
-        "1 can * 24 hours = 32 can. 24 hours * 32 can = 768 can. The answer is (e)."
+        "24 hours. 24 hours * 3 = 72. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3986,7 +3986,7 @@
     ],
     "resps": [
       [
-        "165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 0.292 hours. 292 hours * 60 minutes = 186400 seconds. 186400 seconds / 28 seconds = 66.25 hours. The answer is (e)."
+        "165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 2.5 hours. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4032,7 +4032,7 @@
     ],
     "resps": [
       [
-        "The original retail price is 150. The discount is 15%. So, the discount is 15 * 150 = 200. The profit is 150 - 200 = 50%. The answer is (e)."
+        "The original retail price is 150. The discount is 15%. So, the discount is 15% of 150. 15% of 150 is 15. So, the discount is 15/150 = 0.06. The profit is 15/150 * 150 = 0.06 * 150 = 9.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4078,7 +4078,7 @@
     ],
     "resps": [
       [
-        "0.05 is 5%. Half of 2% is 0.05 * 2 = 0.025. The answer is (e)."
+        "0.05 is 5%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4124,11 +4124,11 @@
     ],
     "resps": [
       [
-        "The greatest possible profit is the maximum profit made by the seller. The maximum profit is the maximum amount the seller can sell the books for.\n\nThe maximum profit is the maximum amount the seller can sell the books for:\n\nMaximum profit = (13 * 120) + (13 * 215) = 1650 + 3000 = Rs. 4500.\n\nThe answer is (e)."
+        "The greatest possible profit is the maximum profit made by selling 13 books at the highest price. The maximum profit is the maximum profit made by selling 13 books at the highest price.\n\nThe maximum profit is the maximum profit made by selling 13 books at the highest price. The maximum profit is the maximum profit made by selling 13 books at the highest price.\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4137,7 +4137,7 @@
     "doc_hash": "6672f49bfd7a7ff4cb4e01ac0e1fa0cb15903bd71674ab19016e60308e6cf6ef",
     "prompt_hash": "c99dea8131af3138dae3ed8b1efdfcdd360b653c02dad412e4fb885463ede527",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 90,
@@ -4170,7 +4170,7 @@
     ],
     "resps": [
       [
-        "Train A travels at 60kmph. 9 hours * 60kmph = 540kmph. 4 hours * 60kmph = 240kmph. 240kmph / 540kmph = 4.25. The answer is (e)."
+        "Train A travels at 60kmph. 9 hours * 60kmph = 540kmph. 40 hours * 60kmph = 2400kmph. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4216,11 +4216,11 @@
     ],
     "resps": [
       [
-        "There are 3 boys and 3 toys. So the probability of no boy choosing his own toy is 3/3 = 1. The answer is (c)."
+        "There are 3 boys and 3 toys. So the probability of no boy choosing his own toy is 3/3 = 1. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4262,7 +4262,7 @@
     ],
     "resps": [
       [
-        "1 man and 1 woman can complete the job in 1 day. 1 day * 1 man = 1 man. 1 day * 1 woman = 1 woman. 1 day * 12 days = 12 days. 12 days * 1 man = 12 men. 12 men * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1"
+        "1 man and 1 woman can complete the job in 1 day. 1 day * 1 man = 1 man. 1 day * 1 woman = 1 woman. 1 day * 12 = 12 days. 12 days * 1 man = 12 men. 12 men * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day"
       ]
     ],
     "filtered_resps": [
@@ -4308,7 +4308,7 @@
     ],
     "resps": [
       [
-        "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. So, the ratio is 5 : 4 * 26 = 26. The answer is (e)."
+        "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. So, the ratio is 26 : 4. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "A and B invest Rs.3000 and Rs.4000 respectively in a business. 6 months have 6 months. 90% of 6 months is 0.9 * 6 = 5.2. 90% of 5 months is 0.9 * 5 = 4.7. 90% of 4 months is 0.9 * 4 = 3.6. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 1 month is 0.9 * 1 = 9. 90% of 1 month is 0.9 * 1 = 9. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 3 months is "
+        "A and B invest Rs.3000 and Rs.4000 respectively in a business. 6 months have 6 months. 90% of 6 months is 0.9 * 6 = 5.2. 90% of 5 months is 0.9 * 5 = 4.7. 90% of 4 months is 0.9 * 4 = 3.6. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 4 months is 0.9 * 4 = 3.6. 90% of 4 months is 0.9 * 4 = 3.6. 90% of "
       ]
     ],
     "filtered_resps": [
@@ -4400,11 +4400,11 @@
     ],
     "resps": [
       [
-        "I. Both x and y are positive.\nII. If x is negative, y must be negative.\nIII. If x is positive, y must be positive.\n\nSince x and y are both positive, they must be equal.\n\nSo, the only condition that must be true is that both x and y are positive.\n\nThe answer is (b)."
+        "I. Both x and y are positive.\n\nSince x-y = 10, we can substitute x = 10 into the equation. So, x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x ="
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4413,7 +4413,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "5b986ca53df83f7e275f13ca64bfa6494f7d499ffa8d1b05ee058d775e89f12c",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "$750.00 * 12 = $9250.00. After 10 years, the value of the investment is $9250.00."
+        "$750.00 * 12 = $8750.00. After 10 years, the value of the investment is $8750.00."
       ]
     ],
     "filtered_resps": [
@@ -4630,7 +4630,7 @@
     ],
     "resps": [
       [
-        "Friend P's rate is 15% faster than Friend Q's. Friend Q's rate is 15% slower than Friend P's. Friend Q's rate is 15% less than Friend P's rate. Friend P's rate is 15% less than Friend Q's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend P's rate is 15% less than Friend Q's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend P's rate is 15% less than Friend Q's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend Q's rate is 15% less than Friend P's rate. Friend"
+        "Friend P's rate is 15% faster than Friend Q's. Friend Q's rate is 15% slower than Friend P's. Friend Q's rate is 15% less than Friend P's rate. So, Friend Q's rate is 15% - 15% = 10%. Friend P's rate is 15% greater than Friend Q's rate. So, Friend P's rate is 15% + 10% = 25%. Friend Q's rate is 15% less than Friend P's rate. So, Friend Q's rate is 15% - 10% = 5%. Friend P's rate is 15% greater than Friend Q's rate. So, Friend P's rate is 15% + 5% = 20%. Friend Q's rate is 15% less than Friend P's rate. So, Friend Q's rate is 15% - 5% = 8%. Friend P's rate is 15% greater than Friend Q's rate. So, Friend P's rate is 15% + 8% = 23%. Friend Q's rate is 15"
       ]
     ],
     "filtered_resps": [
@@ -4676,7 +4676,7 @@
     ],
     "resps": [
       [
-        "To find the values of x and y, we need to find the slope of line k. The slope is given by the formula: slope = (y2 - y1) / (x2 - x1)\n\nIn this case, y2 - y1 = 1, so slope = (1 - 1) / (1 - 5) = 1 / 4\n\nNow, we need to find the x and y values of the points (x, 1) and (5, y).\n\nx = (5 - 1) = 4\ny = 1\n\nSo, the values of x and y are:\n\nx = 4\ny = 1\n\nSo, the values of x and y are:\n\n(4, 1)\n(4, 1)"
+        "To find the values of x and y, we need to find the slope of line k. The slope is given by the formula: slope = (y2 - y1) / (x2 - x1).\n\nIn this case, y2 - y1 = 12 - 5 = 6. So slope = 6/6 = 1.\n\nNow, we need to find the x and y values of the points (x, 1) and (5, y).\n\nx = (5 - 1) = 4\ny = 6\n\nSo the values of x and y are:\n\nx = 4\ny = 6\n\nSo the values of x and y are:\n\n(4, 6)\n(5, 1)"
       ]
     ],
     "filtered_resps": [
@@ -4722,7 +4722,7 @@
     ],
     "resps": [
       [
-        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and the equation x^2 - xq = 0 implies that x^2 - xq = 0. Since x is a non-zero number, x^2 - xq = 0 is a quadratic equation. The solutions to this equation are x = \u00b1\u221a(x^2 - xq) = \u00b1\u221a(x^2 - 2qx + 1).\n\nThe only solution to the equation x^2 - xq = 0 is x = \u00b1\u221a(x^2 - 2qx + 1).\n\nTherefore, the answer is (b)."
+        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and the equation x^2 - xq = 0 implies that x^2 - xq = 0. Since x is an integer, x^2 - xq = 0 is a quadratic equation. The solutions to this equation are x = \u00b1\u221a(x^2 - xq) = \u00b1\u221a(x^2 - 2xq + 1).\n\nThe only solution to the equation x^2 - xq = 0 is x = \u00b1\u221a(x^2 - 2xq + 1).\n\nTherefore, the answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "Speed downstream = 11 kmph. Speed upstream = 25 kmph. 80m / 11 kmph = 7.25 m/s. 11 kmph * 7.25 m/s = 82.5 m/s. 82.5 m/s / 25 kmph = 3.125 m/s. 3.125 m/s / 11 kmph = 2.66666666666666667 m/s. 2.66666666666666667 m/s / 11 kmph = 1.86666666666666667 m/s. 1.86666666666666667 m/s / 25 kmph = 1.0000000000000000 m/s. 1.0000000000000000 m/s"
+        "Speed downstream = 11 kmph. Speed upstream = 25 kmph. 80m / 11 kmph = 7.25 m. 11 kmph * 7.25 m = 82.5 m. 82.5 m / 11 kmph = 7.25 m. 7.25 m / 25 kmph = 2.75 m. 2.75 m / 11 kmph = 2.75 m. 2.75 m / 11 kmph = 2.75 m. 2.75 m / 25 kmph = 1.25 m. 1.25 m / 11 kmph = 1.25 m. 1.25 m / 25 kmph = 0.45 m. 0.45 m / 25 kmph = 0.15 m. 0.15 m / 25 kmph = 0.05 m. 0.05 m / 25 kmph = 0.005 m"
       ]
     ],
     "filtered_resps": [
@@ -4906,11 +4906,11 @@
     ],
     "resps": [
       [
-        "(a) \u2212 3 \u2264 x \u2264 4.\n\nThe answer is (b)."
+        "(a) \u2212 3 \u2264 x \u2264 4\n\n(b) \u2212 4 \u2264 x \u2264 3\n\n(c) \u2212 4 \u2264 x \u2264 3\n\n(d) 3 \u2264 x \u2264 4\n\n(e) 3 \u2264 x \u2264 4"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4998,7 +4998,7 @@
     ],
     "resps": [
       [
-        "Joe goes with her 6 years old twin brothers. 6 years old twin brothers = 6 * 2 = 12. 12 + 3 = 15. 15 + 20 = 35. 35 + 20 = 55. 55 + 16 = 71. 71 + 20 = 91. 91 + 17.5 = 108. 108 + 20 = 128. 128 + 15.5 = 143. 143 + 20 = 163. 163 + 20 = 183. 183 + 17.5 = 200. 200 + 20 = 202. 202 + 16.5 = 218. 218 + 17.5 = 235. 235 + 20 = 255. 255 + 15.5 = 270. 27"
+        "Joe goes with her 6 years old twin brothers. 6 years old twin brothers = 6 * 2 = 12. 12 + 3 = 15. 15 + 20 = 35. 35 + 20 = 55. 55 + 20 = 75. 75 + 12 = 87. 87 + 15 = 102. 102 + 17.5 = 119. 119 + 20 = 139. 139 + 20 = 159. 159 + 35 = 184. 184 + 20 = 204. 204 + 55 = 259. 259 + 16 = 275. 275 + 17.5 = 302. 302 + 15.5 = 317. 317 + 17.5 = 332. 332 + 2"
       ]
     ],
     "filtered_resps": [
@@ -5090,11 +5090,11 @@
     ],
     "resps": [
       [
-        "A$60.00 is 100% of the tip. B$35.42 is 100% of the tip. C$60.60 is 100% of the tip. D$21.56 is 100% of the tip. E$78.45 is 100% of the tip. The answer is (c)."
+        "A$60.00 is 20% of $50. So, 20% of $50 is 0.20 * $50 = $10. So, $10 is 20% of $50. So, $10 is 20% of $50. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5136,11 +5136,11 @@
     ],
     "resps": [
       [
-        "The rate of interest is 4% per year. 3 years * 4% = 1.25 years. 1.25 years * 3 = 3.75 years. 3.75 years * 4 = 12.5 years. 12.5 years * 4 = 48.5 years. 48.5 years * 4 = 192.5 years. 192.5 years * 4 = 785.5 years. 785.5 years * 4 = 3100.5 years. 3100.5 years * 4 = 12300.5 years. 12300.5 years * 4 = 46600.5 years. 46600.5 years * 4 = 19360.5 years. 19360.5 years * 4 = 78800.5 years. 78800.5 years * 4 = 31040.5 years. 31040.5"
+        "1020.80 * 1.04 = 1055.20. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5149,7 +5149,7 @@
     "doc_hash": "2317981bb3db2b299502a643006621cae6118266f3b8183de689bab0890ffeb6",
     "prompt_hash": "efbd7088f28bcaea69acbc69953e0f45034aea35875403efbe2ba90006aaaec7",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 12,
@@ -5642,7 +5642,7 @@
     ],
     "resps": [
       [
-        "To find the least value of x, we need to find the smallest value of x that satisfies the equation 2x5475 = 9.\n\nFirst, we need to find the smallest value of x that satisfies the equation. We can do this by dividing both sides of the equation by 2.\n\nx = 2 * (9)5475 / 2\nx = 2 * 105475 / 2\nx = 105475\n\nSo, the least value of x is 105475."
+        "To find the least value of x, we need to find the smallest value of x that satisfies the equation 2x5475 = 9.\n\nFirst, we need to find the smallest value of x that satisfies the equation. We can do this by dividing both sides of the equation by 9.\n\nx = 9 / 9 = 1\n\nSo, the least value of x that satisfies the equation 2x5475 = 9 is 1."
       ]
     ],
     "filtered_resps": [
@@ -5872,11 +5872,11 @@
     ],
     "resps": [
       [
-        "Weighted average is a way to calculate the average of a set of values where the weights are the same for each value. Weights are the amounts that are given to each value in the calculation.\n\nWeighted average is calculated as:\n\n(100 * $45,000) + (90 * $95,000) + (100 * $37,500) + (90 * $42,500) + (100 * $50,000)\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\nWeights are the amounts that are given to each value in the calculation.\n\n"
+        "Weighted average is a way to calculate the average of a set of values where the weights are the same for each value. Weights are the amounts that are given to each value in the calculation.\n\nWeighted average = (sum of all values) / (sum of all weights)\n\nIn this case, the weights are the same for each value, so we can use the formula:\n\nWeighted average = (sum of all values) / (sum of all weights)\n\nWeighted average = (45,000) / (95,000)\n\nWeighted average = $32,500\n\nSo, the weighted average of the 50 customers is $32,500.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5918,7 +5918,7 @@
     ],
     "resps": [
       [
-        "The slant height of the cone is 35 cm. The radius of the base is 14 cm. The curved surface of the cone is the area of the base times the slant height. The area of the base is 14 * 35 = 490. The curved surface is the area of the base times the slant height. The curved surface is 490 * 35 = 1780. The answer is (e)."
+        "The slant height of the cone is 35 cm. The radius of the base is 14 cm. The curved surface is the area of the base times the slant height. The area of the base is 14 * 35 = 490. The curved surface is the area of the base times the slant height. The curved surface is 490 * 35 = 1780. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5964,7 +5964,7 @@
     ],
     "resps": [
       [
-        "A normal block has a volume of 8 cubic feet. A small block has a volume of 1/2 * 8 = 4 cubic feet. A small block has a width of 1/2 * 4 = 2 cubic feet. A small block has a depth of 1/2 * 2 = 2 cubic feet. A small block has a length of 1/2 * 2 = 1 cubic foot. The volume of cheese in a small block is 1 cubic foot. The answer is (e)."
+        "A normal block has a volume of 8 cubic feet. A small block has a volume of 1/2 * 8 = 4 cubic feet. A small block has a depth of 1/2 * 4 = 2 cubic feet. A small block has a width of 1/2 * 2 = 1.5 cubic feet. A small block has a length of 1/2 * 1.5 = 1.55 cubic feet. The volume of cheese in a small block is 4 cubic feet / 1.55 cubic feet = 2.56 cubic feet. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "The yearly return of the $1,500 investment is 1500 * 0.07 = 10%. The yearly return of the $500 investment is 500 * 0.07 = 33.3%. The answer is (e)."
+        "The yearly return of the $500 investment is 19 percent of the total of the two investments. 19 percent of $500 is 19 * $500 = $9,000. The yearly return of the $1,500 investment is 15 percent of the total of the two investments. 15 percent of $1,500 is 15 * $1,500 = $1,850. The yearly return of the $1,500 investment is 15 percent of $1,850. 15 percent of $1,850 is 15 * $1,850 = $2,300. The yearly return of the $1,500 investment is 15 percent of $2,300. 15 percent of $2,300 is 15 * $2,300 = $3,600. The yearly return of the $1,500 investment is 15 percent of $3,600. 15 percent of $3,600 is 15 * $"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6148,7 +6148,7 @@
     ],
     "resps": [
       [
-        "To solve this equation, we need to isolate the variable k. First, we need to find the value of x.\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can combine like terms:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNext, we need to isolate x. We can do this by subtracting 8 from both sides of the equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) - 8\n\nNow, we can combine like terms:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) - 8\n\nNow, we can combine like terms:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) - 8\n\nNow, we can combine like terms:\n\n-x2 - (k"
+        "To solve this equation, we need to isolate the variable k. First, we need to get rid of the constant k. We can do this by multiplying both sides of the equation by -1.\n\n(-1)(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can simplify the equation by combining the like terms.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can solve for x by dividing both sides by -1.\n\n(-11)x - 8 = -(x -"
       ]
     ],
     "filtered_resps": [
@@ -6240,7 +6240,7 @@
     ],
     "resps": [
       [
-        "The gain is proportional to the time invested. The gain is Rs. 6000. The time invested is 6000 * 2 = 12000. The gain is Rs. 6000 * 12000 = 78000. The answer is (e)."
+        "The gain is proportional to the money invested and the time for which the money is invested. The gain is Rs. 6000. The time for which the money is invested is 6000 * 2 = 12000. The gain is Rs. 6000 * 12000 = 78000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6332,7 +6332,7 @@
     ],
     "resps": [
       [
-        "The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 hours = 1 hour - 2 = 1 hour - 1 = 0 minutes. The answer is (e)."
+        "2 * 1 = 2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6424,7 +6424,7 @@
     ],
     "resps": [
       [
-        "1/a + 1/b + 1/c = 1.\n\nSince a + b + c = 11, we can substitute this into the equation: 11 = 11 + 1 + 1.\n\nSubtracting 1 from both sides, we get: 11 - 1 = 10.\n\nDividing both sides by 10, we get: 11/10 = 10/10.\n\nMultiplying both sides by 10/10, we get: 11 = 100/10.\n\nDividing both sides by 10/10, we get: 11 = 100/100.\n\nDividing both sides by 100/100, we get: 1 = 100/100.\n\nDividing both sides by 100/100, we get: 1 = 1.\n\nSo, the answer is (e)."
+        "1/a + 1/b + 1/c = 1.\n\nSince a + b + c = 11, we can substitute this into the equation: 11 = 11 + 1 + 1.\n\nSubtracting 1 from both sides, we get: 11 - 1 = 10.\n\nDividing both sides by 10, we get: 11/10 = 10/10.\n\nMultiplying both sides by 10, we get: 11 = 100.\n\nDividing both sides by 100, we get: 1 = 1.\n\nSo, the answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6470,11 +6470,11 @@
     ],
     "resps": [
       [
-        "Four years hence, his present age is 36 years + 45 years = 71 years. The answer is (c)."
+        "Four years hence, his present age is 36 years + 45 years = 71 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6654,11 +6654,11 @@
     ],
     "resps": [
       [
-        "There are 5 people in total. 1 couple and 1 single each have 1 person. So, the probability that the couple does not sit together is 1/5. The answer is (c)."
+        "There are 5 people in total. 1 couple and 1 single each have 1 person. So, the probability that the couple does not sit together is 1/5. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6700,7 +6700,7 @@
     ],
     "resps": [
       [
-        "To find the probability of at least 1 customer buying a coffee and a bagel, we need to find the probability of at least 2 customers buying a coffee and a bagel, and then subtract that from 1.\n\nFirst, we find the probability of at least 1 customer buying a coffee and a bagel:\n\nProbability of at least 1 customer buying a coffee and a bagel = 1 - (probability of at least 2 customers buying a coffee and a bagel)\n= 1 - (probability of at least 2 customers buying a coffee and a bagel)\n= 1 - (0.9999999999999999)\n= 1 - 0.000000001\n= 0.9999999999999999\n\nNow, we find the probability of at least 2 customers buying a coffee and a bagel:\n\nProbability of at least 2 customers buying a coffee and a bagel = 1 - (probability of at least 2 customers buying a coffee and a bagel)\n= 1 - (0."
+        "To find the probability of at least 1 customer buying a coffee and a bagel, we need to find the probability of at least 2 customers buying both and then subtract that from 1.\n\nFirst, we find the probability of at least 1 customer buying a coffee and a bagel: 3 out of 5 customers bought a coffee and a bagel. So the probability of at least 1 customer buying a coffee and a bagel is 3/5.\n\nNext, we find the probability of at least 2 customers buying both: 5 out of 7 customers bought a coffee and a bagel. So the probability of at least 2 customers buying both is 5/7.\n\nNow, we subtract the probability of at least 2 customers buying both from the probability of at least 1 customer buying both to find the probability of at least 1 customer buying both: 1 - 3/5 - 5/7 = 1 - 12/245 = 12/245.\n\nFinally, we divide the total number of customers (5) by the total number of customers (7) to find the probability of at least 1 customer buying both:"
       ]
     ],
     "filtered_resps": [
@@ -6746,11 +6746,11 @@
     ],
     "resps": [
       [
-        "Solve for x. 8 + x = 10. 8 + x = 10 - 3. 8 + x = 10 - 3 - 2. 8 + x = 10 - 2. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x = 10. 8 + x ="
+        "Solve for x. 4x + 3 = 8 + x. Subtract 3 from both sides: 4x = 7. Divide by 4: x = 2.5. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6792,11 +6792,11 @@
     ],
     "resps": [
       [
-        "To restore the original output, the new output must be 20% of the original output. 20% of 100% is 20%. To restore the original output, the new output must be 24% of the original output. 24% of 90% is 24%. To restore the original output, the new output must be 32% of the original output. 32% of 90% is 32%. To restore the original output, the new output must be 79% of the original output. 79% of 90% is 79%. To restore the original output, the new output must be 32% of the original output. 32% of 90% is 32%. To restore the original output, the new output must be 79% of the original output. 79% of 90% is 79%. To restore the original output, the new output must be 32% of the original output. 32% of 90% is 32%. To restore the original output, the new output must be 79% of the"
+        "To restore the original output, the new output must be 20% of the original output. 20% of 100% is 20%. To restore the original output, the new output must be 20% of 100%. 20% of 100% is 20%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6838,7 +6838,7 @@
     ],
     "resps": [
       [
-        "Two-sevenths of the male students are married. 70% of 2/7 = 0.7 * 0.7 = 0.49. 30% of 2/7 = 0.3 * 0.3 = 0.06. 2/7 * 0.06 = 0.02. 2/7 * 0.02 = 0.01. 2/7 * 0.01 = 0.002. 2/7 * 0.002 = 0.00002. 2/7 * 0.00002 = 0.0000002. 2/7 * 0.0000002 = 0.000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "Two-sevenths of the male students are married. 70% of 2/7 = 0.7 * 2/7 = 0.25. So, 0.25 * 2/7 = 0.25 * 1/7 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/2 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * 1/3 = 0.25 * "
       ]
     ],
     "filtered_resps": [
@@ -6930,11 +6930,11 @@
     ],
     "resps": [
       [
-        "20 articles * 20% = 40 articles. 20 articles * 0.20 = 4 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0.20 * 20 = 40 articles. 20 articles * 0"
+        "20 articles * 20% = 40 articles. 20 - 40 = 10 articles. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7252,7 +7252,7 @@
     ],
     "resps": [
       [
-        "Surface = 24a8. 24a8 = 24 * 8 = 208. The answer is (e)."
+        "Surface area of a cube is 6 * 6 * 6 = 24. The edge of the cube is 7a cm. So, the surface area is 24 * 7a = 180a. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7298,7 +7298,7 @@
     ],
     "resps": [
       [
-        "1.9 * 2 = 3.8\n3.8 * 2 = 7.6\n7.6 * 2 = 15.2\n15.2 * 2 = 31.6\n31.6 * 2 = 64.4\n64.4 * 2 = 138.6\n138.6 * 2 = 315.2\n315.2 * 2 = 660.6\n660.6 * 2 = 1362.4\n1362.4 * 2 = 3114.6\n3114.6 * 2 = 6627.4\n6627.4 * 2 = 1365.6\n1365.6 * 2 = 3100.4\n1300.4 * 2 = 3102.6\n3102.6 * 2 = 6605.4\n6605.4 * 2 = 1365.6\n6"
+        "1.9 * 2 = 3.8\n3.8 * 2 = 7.6\n7.6 * 2 = 15.2\n15.2 * 2 = 31.6\n31.6 * 2 = 64.4\n64.4 * 2 = 138.6\n138.6 * 2 = 315.2\n315.2 * 2 = 660.6\n660.6 * 2 = 1362.4\n1362.4 * 2 = 3114.2\n3114.2 * 2 = 6627.6\n6627.6 * 2 = 13651.4\n13651.4 * 2 = 31106.6\n31106.6 * 2 = 66253.4\n66253.4 * 2 = 13678.8\n66276.8 * 2 = "
       ]
     ],
     "filtered_resps": [
@@ -7436,7 +7436,7 @@
     ],
     "resps": [
       [
-        "The diagonals of a rhombus are equal. 18 cm * 22 cm = 396 cm. The area of a rhombus is 18 * 22 * 2 = 277. The answer is (e)."
+        "18 cm * 22 cm = 360 cm. 360 cm / 2 = 180 cm. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7482,7 +7482,7 @@
     ],
     "resps": [
       [
-        "1 to 9 over 40 years have 9 to 99 two-digit. 100 to 500 have 90 to 99 three-digit. 9 + 90 * 2 + 99 * 3 = 22 1/8 %. The answer is (e)."
+        "1 to 9 over 40 years have 9 one-digit. 10 to 99 have 90 two-digit. 100 to 500 have 401 three-digit. 9 + 90 * 2 + 401 * 3 = 22 1/8 %. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7896,7 +7896,7 @@
     ],
     "resps": [
       [
-        "The area of an equilateral triangle is (\u221a3)^2 * 16 = 36. The area of an equilateral triangle is 64\u221a3 cm2. The answer is (e)."
+        "The area of an equilateral triangle is (\u221a3/4) * side^2. The side length is 16 cm. So the area is (\u221a3/4) * 16^2 = 64\u221a3 cm^2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8080,7 +8080,7 @@
     ],
     "resps": [
       [
-        "The diagonals of a rhombus are equal. 25 cm * 25 cm = 625 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm * 30 cm = 750 cm. 25 cm *"
+        "The diagonals of a rhombus are perpendiculars to each other. 25 cm is the length of the side of the rhombus. 30 cm is the length of the side of the rhombus. 25 cm * 2 = 50 cm. 30 cm * 2 = 60 cm. 25 cm * 2 = 50 cm. 50 cm * 2 = 100 cm. 100 cm * 2 = 200 cm. 200 cm * 2 = 400 cm. 400 cm * 2 = 800 cm. 800 cm * 2 = 1600 cm. 1600 cm * 2 = 3200 cm. 3200 cm * 2 = 6400 cm. 6400 cm * 2 = 12800 cm. 12800 cm * 2 = 25600 cm. 25600 cm * 2 = 51200 cm. 5120"
       ]
     ],
     "filtered_resps": [
@@ -8218,11 +8218,11 @@
     ],
     "resps": [
       [
-        "Since there are 7 men and 6 women, the probability of having 0 woman is 1/7. The probability of having 1 woman is 6/7. The probability of having 2 women is 6/8. The probability of having 3 women is 6/9. The probability of having 4 women is 6/10. The probability of having 5 women is 6/11. The probability of having 6 women is 6/12. The probability of having 7 women is 6/13. The probability of having 8 women is 6/14. The probability of having 9 women is 6/15. The probability of having 10 women is 6/16. The probability of having 11 women is 6/17. The probability of having 12 women is 6/18. The probability of having 13 women is 6/19. The probability of having 14 women is 6/20. The probability of having 15 women is 6/21. The probability of having 16 women is 6/22. The probability of having"
+        "Since there are 7 men and 6 women, the probability of having 0 woman is 1/7.\nSince there are 36 possible committees, the probability of having 0 woman is 36/36 = 1.\nSo the probability of having 0 woman is 1/36.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8264,11 +8264,11 @@
     ],
     "resps": [
       [
-        "To find the probability of exactly three good bulbs, we need to find the probability of choosing exactly three good bulbs out of the four available bulbs.\n\nThere are 9 bulbs out of which 4 are good. So, the probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe answer is (e)."
+        "To find the probability of exactly three good bulbs, we need to find the probability of choosing exactly three good bulbs out of the four available bulbs.\n\nThere are 9 bulbs out of which 4 are good. So, the probability of choosing exactly three good bulbs is 4/9.\n\nTo find the probability of choosing exactly three good bulbs, we multiply the probability of choosing exactly three good bulbs by the probability of choosing any one of the other 30 bulbs.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing exactly three good bulbs is 4/9.\n\nThe probability of choosing any one of the other 30 bulbs is 30/90.\n\nThe probability of choosing any one of the other 30 bulbs is 3"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8356,7 +8356,7 @@
     ],
     "resps": [
       [
-        "If |w| = -w, then x must be greater than 0. If x = 0, then x2 > x, which is not true. If x = 0, then x3 < 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0,"
+        "If |w| = -w, then x must be greater than 0. If x = 0, then x2 > 0, which is not true. If x = 0, then x3 < 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0, then x3 > 0, which is not true. If x = 0, then x2 < 0, which is not true. If x = 0"
       ]
     ],
     "filtered_resps": [
@@ -8402,7 +8402,7 @@
     ],
     "resps": [
       [
-        "To find the percent of the second number, we need to find the percentage of the first number. 30% of 100 is 30/100 * 100 = 30%. 37% of 90 is 37/100 * 90 = 37%. 10% of 90 is 90/100 * 90 = 90%. 11% of 90 is 91/100 * 90 = 91%. 12% of 90 is 92/100 * 90 = 92%. The answer is (e)."
+        "To find the percent of the second number, we need to find the percentage of the first number. 37% of 30% is 0.37 * 0.37 = 0.112. So the second number is 37% of 30%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8448,7 +8448,7 @@
     ],
     "resps": [
       [
-        "39 to 79 have 79 to 11. 39 to 11 * 11 = 391. The answer is (e)."
+        "39 to 79 have 79 to 79. 39 to 79 is 11. 11 is divisible by 11. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8494,11 +8494,11 @@
     ],
     "resps": [
       [
-        "The cube has 6 faces. The surface area is 6 * 6 * 6 = 216. The measure of the edge is 4 * 6 * 6 = 216. The answer is (e)."
+        "The cube has 6 faces. The surface area is 6 * 6 * 6 = 216. The measure of the edge is 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 = 6 * 6 * 6 ="
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8540,7 +8540,7 @@
     ],
     "resps": [
       [
-        "1 can * 24 hours = 32 can. 24 hours * 32 can = 768 can. The answer is (e)."
+        "24 hours. 24 hours * 3 = 72. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8586,7 +8586,7 @@
     ],
     "resps": [
       [
-        "165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 0.292 hours. 292 hours * 60 minutes = 186400 seconds. 186400 seconds / 28 seconds = 66.25 hours. The answer is (e)."
+        "165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 2.5 hours. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8632,7 +8632,7 @@
     ],
     "resps": [
       [
-        "The original retail price is 150. The discount is 15%. So, the discount is 15 * 150 = 200. The profit is 150 - 200 = 50%. The answer is (e)."
+        "The original retail price is 150. The discount is 15%. So, the discount is 15% of 150. 15% of 150 is 15. So, the discount is 15/150 = 0.06. The profit is 15/150 * 150 = 0.06 * 150 = 9.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8678,7 +8678,7 @@
     ],
     "resps": [
       [
-        "0.05 is 5%. Half of 2% is 0.05 * 2 = 0.025. The answer is (e)."
+        "0.05 is 5%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8724,11 +8724,11 @@
     ],
     "resps": [
       [
-        "The greatest possible profit is the maximum profit made by the seller. The maximum profit is the maximum amount the seller can sell the books for.\n\nThe maximum profit is the maximum amount the seller can sell the books for:\n\nMaximum profit = (13 * 120) + (13 * 215) = 1650 + 3000 = Rs. 4500.\n\nThe answer is (e)."
+        "The greatest possible profit is the maximum profit made by selling 13 books at the highest price. The maximum profit is the maximum profit made by selling 13 books at the highest price.\n\nThe maximum profit is the maximum profit made by selling 13 books at the highest price. The maximum profit is the maximum profit made by selling 13 books at the highest price.\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8737,7 +8737,7 @@
     "doc_hash": "6672f49bfd7a7ff4cb4e01ac0e1fa0cb15903bd71674ab19016e60308e6cf6ef",
     "prompt_hash": "c99dea8131af3138dae3ed8b1efdfcdd360b653c02dad412e4fb885463ede527",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 90,
@@ -8770,7 +8770,7 @@
     ],
     "resps": [
       [
-        "Train A travels at 60kmph. 9 hours * 60kmph = 540kmph. 4 hours * 60kmph = 240kmph. 240kmph / 540kmph = 4.25. The answer is (e)."
+        "Train A travels at 60kmph. 9 hours * 60kmph = 540kmph. 40 hours * 60kmph = 2400kmph. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8816,11 +8816,11 @@
     ],
     "resps": [
       [
-        "There are 3 boys and 3 toys. So the probability of no boy choosing his own toy is 3/3 = 1. The answer is (c)."
+        "There are 3 boys and 3 toys. So the probability of no boy choosing his own toy is 3/3 = 1. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8862,7 +8862,7 @@
     ],
     "resps": [
       [
-        "1 man and 1 woman can complete the job in 1 day. 1 day * 1 man = 1 man. 1 day * 1 woman = 1 woman. 1 day * 12 days = 12 days. 12 days * 1 man = 12 men. 12 men * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1"
+        "1 man and 1 woman can complete the job in 1 day. 1 day * 1 man = 1 man. 1 day * 1 woman = 1 woman. 1 day * 12 = 12 days. 12 days * 1 man = 12 men. 12 men * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day = 12 boys. 12 boys * 1 day"
       ]
     ],
     "filtered_resps": [
@@ -8908,7 +8908,7 @@
     ],
     "resps": [
       [
-        "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. So, the ratio is 5 : 4 * 26 = 26. The answer is (e)."
+        "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. So, the ratio is 26 : 4. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8954,7 +8954,7 @@
     ],
     "resps": [
       [
-        "A and B invest Rs.3000 and Rs.4000 respectively in a business. 6 months have 6 months. 90% of 6 months is 0.9 * 6 = 5.2. 90% of 5 months is 0.9 * 5 = 4.7. 90% of 4 months is 0.9 * 4 = 3.6. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 1 month is 0.9 * 1 = 9. 90% of 1 month is 0.9 * 1 = 9. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 3 months is "
+        "A and B invest Rs.3000 and Rs.4000 respectively in a business. 6 months have 6 months. 90% of 6 months is 0.9 * 6 = 5.2. 90% of 5 months is 0.9 * 5 = 4.7. 90% of 4 months is 0.9 * 4 = 3.6. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 2 months is 0.9 * 2 = 1.8. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 3 months is 0.9 * 3 = 2.8. 90% of 4 months is 0.9 * 4 = 3.6. 90% of 4 months is 0.9 * 4 = 3.6. 90% of "
       ]
     ],
     "filtered_resps": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "I. Both x and y are positive.\nII. If x is negative, y must be negative.\nIII. If x is positive, y must be positive.\n\nSince x and y are both positive, they must be equal.\n\nSo, the only condition that must be true is that both x and y are positive.\n\nThe answer is (b)."
+        "I. Both x and y are positive.\n\nSince x-y = 10, we can substitute x = 10 into the equation. So, x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x = 10 and y = 10.\n\nNow, we have x = 10 and y = 10.\n\nSince x and y are both positive, we can conclude that x ="
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9013,7 +9013,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "5b986ca53df83f7e275f13ca64bfa6494f7d499ffa8d1b05ee058d775e89f12c",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -9138,7 +9138,7 @@
     ],
     "resps": [
       [
-        "$750.00 * 12 = $9250.00. After 10 years, the value of the investment is $9250.00."
+        "$750.00 * 12 = $8750.00. After 10 years, the value of the investment is $8750.00."
       ]
     ],
     "filtered_resps": [

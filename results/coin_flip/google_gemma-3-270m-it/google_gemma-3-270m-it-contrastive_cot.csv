@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,coin_flip_contrastive_cot,coin_flip,contrastive_cot,fewshot_cot,coin_flip,0.64,0.0,161.6,8,100,8.49,15.3

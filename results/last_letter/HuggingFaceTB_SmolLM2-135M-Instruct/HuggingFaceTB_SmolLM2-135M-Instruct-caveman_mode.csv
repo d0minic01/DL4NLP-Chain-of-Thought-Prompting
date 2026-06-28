@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,last_letter_caveman_mode,last_letter,caveman_mode,fewshot_cot,last_letter_concatenation,0.0,0.02,80.8,4,100,11.02,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,last_letter_caveman_mode,last_letter,caveman_mode,fewshot_cot,last_letter_concatenation,0.0,0.02,80.6,4,100,8.12,1.48

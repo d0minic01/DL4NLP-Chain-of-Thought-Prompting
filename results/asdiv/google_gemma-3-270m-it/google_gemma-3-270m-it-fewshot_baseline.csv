@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,asdiv_fewshot_baseline,asdiv,fewshot_baseline,fewshot_base,asdiv,0.14,0.26,49.1,8,100,13.39,15.3

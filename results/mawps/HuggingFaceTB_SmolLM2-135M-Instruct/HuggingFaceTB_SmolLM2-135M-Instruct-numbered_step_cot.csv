@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,mawps_numbered_step_cot,mawps,numbered_step_cot,fewshot_cot,mawps,0.11,0.1,166.8,8,100,26.13,1.48

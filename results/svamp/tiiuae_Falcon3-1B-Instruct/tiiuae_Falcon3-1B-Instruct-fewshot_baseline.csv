@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,svamp_fewshot_baseline,svamp,fewshot_baseline,fewshot_base,svamp,0.3,0.05,313.0,8,100,21.89,11.13

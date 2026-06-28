@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,sports_fewshot_baseline,sports,fewshot_baseline,fewshot_base,sports_understanding,0.68,0.0,17.9,8,100,7.08,5.3

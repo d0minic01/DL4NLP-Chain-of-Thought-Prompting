@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,aqua_fewshot_baseline,aqua,fewshot_baseline,fewshot_base,aqua-rat,0.21,0.31,175.7,4,100,17.81,15.3

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,letter_shift_numbered_step_cot,letter_shift,numbered_step_cot,fewshot_cot,letter_shift,0.2,0.0,141.3,6,100,7.8,15.3

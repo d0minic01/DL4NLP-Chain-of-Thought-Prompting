@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,gsm8k_fewshot_baseline,gsm8k,fewshot_baseline,fewshot_base,gsm8k,0.42,0.17,332.7,8,100,118.07,24.31

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,date_persona_cot,date,persona_cot,fewshot_cot,date_understanding,0.86,0.0,80.6,6,100,15.36,20.53

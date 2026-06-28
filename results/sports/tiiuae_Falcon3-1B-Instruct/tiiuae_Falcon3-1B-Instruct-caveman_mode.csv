@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,sports_caveman_mode,sports,caveman_mode,fewshot_cot,sports_understanding,0.49,0.0,99.7,8,100,7.75,11.13

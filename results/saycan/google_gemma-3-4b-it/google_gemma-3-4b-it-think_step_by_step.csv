@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,saycan_think_step_by_step,saycan,think_step_by_step,zero_shot,saycan,0.0,0.202,685.5,0,100,77.23,11.48

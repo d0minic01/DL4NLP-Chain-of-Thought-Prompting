@@ -30,7 +30,7 @@
     ],
     "resps": [
       [
-        "(e) 23\n\nExplanation:\nFriend P's rate is 15% faster than Friend Q's rate, which means that Friend P's rate is 15/100 = 0.15 times Friend Q's rate.\n\nTo find out how many kilometers Friend P will have walked when they pass each other, we need to calculate the distance Friend P will have walked in 1 hour. Since Friend P's rate is 0.15 times Friend Q's rate, we can multiply Friend P's rate by 1 hour to find the distance Friend P will have walked in 1 hour.\n\nDistance Friend P will have walked in 1 hour = Friend P's rate * 1 hour = 0.15 * 1 = 0.15 km\n\nNow, we need to find out how many kilometers Friend P will have walked when they pass each other. We can do this by adding the distance Friend P has walked in 1 hour to the distance Friend Q has walked in 1 hour.\n\nDistance Friend P will have walked when they pass each other = Distance Friend P has walked in 1 hour + Distance Friend Q has walked in 1 hour = 0"
+        "(e) 23\n\nExplanation:\nFriend P's rate is 15% faster than Friend Q's rate, which means that Friend P's rate is 1.15 times Friend Q's rate.\n\nTo find out how many kilometers Friend P will have walked when they pass each other, we need to calculate the distance Friend P will have walked at Friend P's rate and then add that distance to the distance Friend Q will have walked at Friend Q's rate.\n\nDistance Friend P will have walked at Friend P's rate = Friend P's rate * Time taken to walk\nDistance Friend P will have walked at Friend P's rate = 1.15 * 43 km\nDistance Friend P will have walked at Friend P's rate = 50.25 km\n\nDistance Friend Q will have walked at Friend Q's rate = Friend Q's rate * Time taken to walk\nDistance Friend Q will have walked at Friend Q's rate = 1.15 * 43 km\nDistance Friend Q will have walked at Friend Q's rate = 50.25 km\n\nNow, we add the distance Friend P will have walked at Friend P's rate to the distance Friend Q"
       ]
     ],
     "filtered_resps": [
@@ -214,7 +214,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) 8 seconds.\n\nExplanation:\nTo find the time it takes for the man to row 80 meters downstream, we need to first find the speed of the current. We know the speed of the current is 11 kmph, and the man is rowing downstream. So, the speed of the current is the sum of the speed of the man and the speed of the current: 25 kmph (man) + 11 kmph (current) = 36 kmph.\n\nNow, we can use the formula for the time it takes to cover a distance: time = distance / speed. We are given the distance (80 meters) and the speed of the current (36 kmph). Plugging in the values, we get: time = 80 meters / 36 kmph = 2.17 seconds.\n\nSince we can't have a fraction of a second, we can round this time to the nearest whole number. The closest option is (e) 8 seconds."
+        "The answer is (e) 8 seconds.\n\nExplanation:\nTo find the time it takes for the man to row 80 meters downstream, we need to first find the speed of the current. We know the speed of the current is 11 kmph, and the man is rowing downstream. So, the speed of the current is 11 kmph.\n\nNow, we can use the formula:\nSpeed downstream = Speed upstream + Speed of current\nSpeed downstream = 25 kmph + 11 kmph\nSpeed downstream = 36 kmph\n\nNext, we need to find the speed of the man in still water. We know the speed of the man in still water is 25 kmph.\n\nNow, we can use the formula:\nSpeed upstream = Speed of man in still water - Speed of current\nSpeed upstream = 25 kmph - 11 kmph\nSpeed upstream = 14 kmph\n\nNow, we can find the time it takes for the man to row 80 meters downstream:\nTime = Distance / Speed downstream\nTime = 80 meters / 36 kmph\nTime = 2.0833"
       ]
     ],
     "filtered_resps": [
@@ -260,11 +260,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) 12."
+        "(e) 12"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -628,11 +628,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) n^2 + 2n + 1"
+        "The answer is (c) n^2 + 1."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -674,11 +674,11 @@
     ],
     "resps": [
       [
-        "To find out how much A is more than C, we need to compare the ratios of A to C. The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio of A to C by 14.\n\nThe ratio of A to C is 1/7:1/7:1/14. Multiplying by 14, we get:\n\n(1/7) * (14) = 2\n\nSo, the ratio of A to C is 2:1.\n\nNow, we can compare the ratios of A to C:\n\n(1/7) < (2/14)\n\nTo find out how much A is more than C, we need to find the difference between the two ratios. The difference is:\n\n(1/7) - (2/14) = (14 - 7) / (7 * 14) = 7 / 99\n\nSo, A is more than C by 7/99."
+        "To find out how much A is more than C, we need to compare the ratios of A to C. The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio of A to C by 14.\n\nThe ratio of A to C is 1/7:1/7:1/14. Multiplying by 14, we get:\n\n(1/7) * (14) = 2\n\nSo, the ratio of A to C is 2:1.\n\nNow, we can compare the ratios of A to C:\n\n(1/7) < (2/14) < (1/14)\n\nSince 1/7 < 1/14 < 1/14, we can see that A is indeed more than C.\n\nThe answer is (e) 312."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -720,11 +720,11 @@
     ],
     "resps": [
       [
-        "To find the value of a, we can use the given equation:\n\na/b = 3/4\n\nWe can multiply both sides of the equation by b to get rid of the fraction:\n\na = 3b/4\n\nNow, we can substitute this expression for a into the equation 8a + 5b = 22:\n\n8a + 5b = 3b/4 + 22\n\nCombine like terms:\n\n8a + 5b = 3b/4 + 24\n\nSubtract 3b/4 from both sides:\n\n8a + 5b - 3b/4 = 24\n\nSimplify:\n\n7a/4 = 24\n\nMultiply both sides by 4 to get rid of the fraction:\n\n7a = 96\n\nDivide both sides by 7:\n\na = 12\n\nThe value of a is 12."
+        "To find the value of a, we can use the given equation:\n\na/b = 3/4\n\nWe can cross-multiply to get:\n\nab = 4(3/4)\nab = 12/4\nab = 3\n\nNow, we can solve for a:\n\na = 3/ab\na = 3/3\na = 1\n\nThe answer is (a) 1."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -812,7 +812,7 @@
     ],
     "resps": [
       [
-        "To solve this problem, we need to calculate the average score of Mike's mock tests and the GMAT score.\n\nLet's start by calculating the average score of Mike's mock tests:\n\nAverage score = (Number of mock tests * Score per mock test) / Number of mock tests\nAverage score = (5 * 10) / 5\nAverage score = 10\n\nNow, let's calculate the average score of Mike's GMAT score:\n\nAverage score = (Number of mock tests * GMAT score) / Number of mock tests\nAverage score = (5 * 760) / 5\nAverage score = 1000\n\nSince the GMAT score is 1000, the average score of Mike's GMAT score is also 1000.\n\nNow, let's calculate the difference in the score of his last mock and his GMAT score:\n\nDifference in score = (Last mock score - GMAT score)\nDifference in score = (760 - 1000)\nDifference in score = -660\n\nThe answer is (e) 60."
+        "To find the difference in the score of his last mock and his GMAT score, we need to calculate the difference in his average score and then subtract it from his final score.\n\nThe average score for the mocks and the GMAT is 716.67. Mike scored 760 on the GMAT, so his average score for the mocks and the GMAT is 716.67 - 760 = -113.67.\n\nThe difference in his average score is -113.67. To find the difference in his final score, we subtract this difference from his final score: 760 - (-113.67) = 760 + 113.67 = 873.67.\n\nThe answer is (e) 60."
       ]
     ],
     "filtered_resps": [
@@ -858,11 +858,11 @@
     ],
     "resps": [
       [
-        "The answer is (b) 45."
+        "The answer is (c) 65."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -904,7 +904,7 @@
     ],
     "resps": [
       [
-        "The answer is (b) 55 km.\n\nExplanation:\nTo find the distance, we need to calculate the time taken by the person to reach his destination. We can do this by using the formula:\n\nDistance = Speed \u00d7 Time\n\nGiven that the person is traveling at 20 km/hr and reaches his destination in 2.5 hr, we can calculate the time as follows:\n\nTime = Distance / Speed\nTime = 55 km / 20 km/hr\nTime = 2.75 hr\n\nNow, we can substitute this value into the formula:\n\nDistance = Speed \u00d7 Time\nDistance = 20 km/hr \u00d7 2.75 hr\nDistance = 55 km\n\nSo, the person's destination is 55 km away."
+        "The answer is (b) 55 km.\n\nExplanation:\nTo find the distance, we need to calculate the time taken by the person to reach his destination. We can do this by using the formula:\n\nDistance = Speed \u00d7 Time\n\nGiven that the person is traveling at 20 km/hr and reaches his destination in 2.5 hr, we can calculate the time as follows:\n\nTime = Distance / Speed\nTime = 55 km / 20 km/hr\nTime = 2.75 hr\n\nNow, we can substitute this value into the formula:\n\nDistance = Speed \u00d7 Time\nDistance = 20 km/hr \u00d7 2.75 hr\nDistance = 55 km\n\nSo, the distance is 55 km."
       ]
     ],
     "filtered_resps": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "(a)  $32,500"
+        "(a)  $32,500\n\nTo solve this using the weighted average concept, we need to calculate the average income of the 50 customers who responded to the survey. We can do this by multiplying the average income of each customer by the number of customers who responded and then summing these values.\n\nWeighted average = (Average income of 50 customers * Number of customers who responded) / (Average income of the wealthiest 10 customers * Number of customers who responded)\n\nWeighted average = ($45,000 * 50) / ($95,000 * 10)\nWeighted average = $22,500 / 9,500\nWeighted average = $2.25\n\nNow, we can find the average income of the other 40 customers by subtracting the weighted average from the average income of the wealthiest 10 customers.\n\nAverage income of other 40 customers = Average income of the wealthiest 10 customers - Weighted average\nAverage income of other 40 customers = $95,000 - $2.25\nAverage income of other 40 customers"
       ]
     ],
     "filtered_resps": [
@@ -1318,7 +1318,7 @@
     ],
     "resps": [
       [
-        "The curved surface of the cone is the area of the circular base, which is given by the formula A = \u03c0r^2. Since the radius of the base is 14 cm, the area of the circular base is A = \u03c0(14)^2 = 196\u03c0 cm^2.\n\nThe slant height of the cone is 35 cm. The curved surface of the cone is the area of the circular base, which is A = \u03c0r^2. Substituting the value of the slant height, we get A = \u03c0(14)^2 = 196\u03c0 cm^2.\n\nNow, we can find the curved surface of the cone by subtracting the area of the circular base from the area of the curved surface:\n\nCurved surface = Area of curved surface - Area of circular base\n= 196\u03c0 - 196\u03c0\n= 0\n\nThe curved surface of the cone is 0, which means the cone has no curved surface. The answer is (c) 1540."
+        "The curved surface of the cone is the area of the circular cross-section of the cone. Since the slant height of the cone is 35 cm, the radius of the base is 14 cm. The curved surface area of the cone can be calculated using the formula:\n\nCurved surface area = \u03c0 * r * slant height\n\nSubstituting the given values, we get:\n\nCurved surface area = \u03c0 * 14 * 35\n\nNow, we can calculate the curved surface area:\n\nCurved surface area = \u03c0 * 490\n\nThe answer is (c) 1540."
       ]
     ],
     "filtered_resps": [
@@ -1548,7 +1548,7 @@
     ],
     "resps": [
       [
-        "To find the constant k, we need to solve the given equation for x.\n\nFirst, let's simplify the equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nExpanding the left side, we get:\n\n-x2 - (k + 11)x - 8 = -x2 - 2x2 - 8\n\nCombine like terms:\n\n-11x - 11 = -2x2 - 8\n\nNow, let's solve for x:\n\n-11x + 2x2 = -8 + 11\n\nx2 = 7\n\nNow, let's solve for k:\n\nk + 11 = 7\n\nk = 8\n\nThe constant k is 8. The answer is (a) 11."
+        "To find the constant k, we need to solve the given equation for x.\n\nFirst, let's simplify the equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nExpanding the left side, we get:\n\n-x2 - (k + 11)x - 8 = -x2 - 2x2 - 8\n\nCombine like terms:\n\n-11x - 11 = -2x2 - 8\n\nNow, let's solve for x:\n\n-11x + 2x2 = -8 + 11\n\nx2 = 7\n\nNow, let's find k:\n\nk + 11 = 7\n\nk = 8\n\nThe constant k is 8. The answer is (a) 11."
       ]
     ],
     "filtered_resps": [
@@ -1594,11 +1594,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) II"
+        "The answer is (a) I & II"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) 120 min.\n\nExplanation:\nThe pipe takes a hour to fill the tank, but because of a leakage, it takes 2 times of its original time to empty the tank. So, the leakage takes 2 * 1 hour = 2 hours to empty the tank.\n\nTherefore, the time taken by the leakage to empty the tank is 2 hours.\n\nThe answer is (e) 120 min."
+        "The answer is (c) 90 min.\n\nExplanation:\nThe pipe takes a hour to fill the tank, but because of a leakage, it takes 2 times of its original time to empty the tank. So, the leakage takes 2 * 1 hour = 2 hours to empty the tank.\n\nTherefore, the time taken by the leakage to empty the tank is 2 hours.\n\nThe answer is (c) 90 min."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1745,7 +1745,7 @@
     "doc_hash": "7d904e23caf03c5bd7b62639ed98b8cc4a6b0a6598681d23fe32bf0ee49a359b",
     "prompt_hash": "b6b29847084f61ca6dfaee16d38eff34ce4361d518d3909017ddf29c0ffbf406",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -1824,7 +1824,7 @@
     ],
     "resps": [
       [
-        "The given equation is a linear equation in three variables, and we can solve it using the method of substitution or elimination. Let's use the elimination method.\n\nFirst, we multiply the equation by necessary multiples to make the denominators of the fractions equal. Multiply the first equation by 2 and the second equation by 3:\n\n(2)(1/a) + (3)(1/b) + (2)(1/c) = 2\n(3)(1/a) + (2)(1/b) + (2)(1/c) = 6\n\nNow, we add the two equations:\n\n(2)(1/a) + (3)(1/b) + (2)(1/c) = 2\n(3)(1/a) + (2)(1/b) + (2)(1/c) = 6\n\nSubtracting the second equation from the first equation, we get:\n\n(1/a) + (1/b) + (1/c) = 0\n\nNow, we can use the fact that a, b, and c are positive integers to find the possible values of a, b, and"
+        "The given equation is a linear equation in three variables, and we can solve it using the method of substitution or elimination. Let's use the elimination method.\n\nFirst, we multiply the equation by 2 to make the denominators of the fractions equal:\n\n2(1/a) + 2(1/b) + 2(1/c) = 2\n\nNow, we can add the two equations:\n\n2/a + 2/b + 2/c = 2\n\nSubtract 2/a from both sides:\n\n2/b + 2/c = 2 - 2/a\n\nNow, we can multiply both sides by a to get rid of the fractions:\n\na(2/b + 2/c) = a\n\nNow, we can multiply both sides by c to get rid of the denominators:\n\nc(2/b + 2/c) = c\n\nNow, we can multiply both sides by b to get rid of the denominators:\n\nb(2/b + 2/c) = b\n\nNow, we can multiply both sides by a to get rid of the denominators:\n"
       ]
     ],
     "filtered_resps": [
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 50 years.\n\nExplanation:\nLet the age of the father be x.\nThe age of the son 1 is 3x - 3.\nThe age of the son 2 is 3x - 6.\nThe sum of the ages of the two sons is 3x - 3 + 3x - 6 = 3x - 9.\nThe sum of the ages of the two sons is 3x - 9 + 3x - 3 = 6x - 6.\nThe sum of the ages of the two sons is 6x - 6.\nFour years hence, the age of the father will be 6x - 6 + 4 = 6x + 2.\nThe age of the father 4 years hence is 6x + 2 + 4 = 6x + 6.\nThe age of the father 4 years hence is 6x + 6 = 6(x + 1).\nThe age of the father 4 years hence is 6(x + 1) = 6x + 6.\nThe father's present age is"
+        "The answer is (c) 50 years.\n\nExplanation:\nLet the age of the father be x.\nThe age of the son 1 is 3x - 3.\nThe age of the son 2 is 3x - 6.\nThe sum of the ages of the two sons is 3x - 3 + 3x - 6 = 3x - 9.\nThe sum of the ages of the two sons is 3x - 9 + 3x - 3 = 6x - 6.\nThe sum of the ages of the two sons is 6x - 6.\nFour years hence, the age of the father will be 6x - 6 + 4 = 6x + 2.\nThe age of the father 4 years hence is 6x + 2 + 4 = 6x + 6.\nThe age of the father 4 years hence is 6x + 6.\nThe father's present age is 6x + 6.\nThe answer is (c) 50 years."
       ]
     ],
     "filtered_resps": [
@@ -2146,11 +2146,11 @@
     ],
     "resps": [
       [
-        "The equation is |x+3| \u2013 |4-x| = |8+x|. To solve this equation, we can start by isolating the absolute value terms.\n\nFirst, we can add 4 to both sides of the equation to get:\n\n|x+3| = |8+x| + 4\n\nNext, we can add 3 to both sides of the equation to get:\n\n|x+3| = |8+x|\n\nNow, we can divide both sides of the equation by |8+x| to get:\n\nx+3 = 8+x\n\nSubtracting x from both sides of the equation gives:\n\n2 = x\n\nSo, the equation has one solution, x = 2.\n\nThe answer is (a) 0."
+        "The equation is |x+3| \u2013 |4-x| = |8+x|. To solve this equation, we can start by isolating the absolute value terms.\n\nFirst, we can add 3 to both sides of the equation to get |x+3| = |4-x| + 3. Then, we can subtract 3 from both sides to get |x+3| = 4-x.\n\nNext, we can add x to both sides to get |x+3| = 4. Now, we can divide both sides by |x+3| to get x = 4/|x+3|.\n\nNow, we need to find the number of solutions for x. We can do this by considering the cases where x is less than 4/|x+3| and where x is greater than 4/|x+3|.\n\nFor x < 4/|x+3|, we have |x+3| = 4-x. This means x = 4-x. So, the solutions are x = 4 and x = 4/|x+3|.\n\nFor x > 4/|"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2159,7 +2159,7 @@
     "doc_hash": "7f813c1b0c5f38849605413bb4912d14b9bc4746eaf5d8a51128cf26cd696093",
     "prompt_hash": "01fb141b382008cbf65436707ff19ff8c0b374931e7271e5b3fea95c2e224761",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 47,
@@ -2284,7 +2284,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 9250 cm3.\n\nExplanation: The cost of painting the surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. To find the volume of the cube, we need to convert the cost from paise to Sq.cm. Since 1 paise = 1000 Sq.cm, the cost in Sq.cm is 343.98 * 1000 = 343980 Sq.cm. The volume of the cube is then 343980 Sq.cm / 1000 Sq.cm/Sq.cm = 343980 cm3.\n\nThe answer is (c) 9250 cm3."
+        "The answer is (c) 9250 cm3.\n\nExplanation: The cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. To find the volume of the cube, we need to convert the cost from paise to Sq.cm. Since 1 paise = 1000 Sq.cm, the cost in Sq.cm is 343.98 * 1000 = 343980 Sq.cm. The volume of the cube is then 343980 Sq.cm / 1000 Sq.cm/Sq.cm = 343980 cm3.\n\nThe answer is (c) 9250 cm3."
       ]
     ],
     "filtered_resps": [
@@ -2422,11 +2422,11 @@
     ],
     "resps": [
       [
-        "C's share of rent = 15 oxen * 175 = Rs. 2525\n\nThe answer is (c) Rs. 55."
+        "The answer is (b) Rs. 50.\n\nExplanation:\nA puts 10 oxen for 7 months, so the total number of oxen is 10 + 7 = 17 oxen.\nB puts 12 oxen for 5 months, so the total number of oxen is 12 + 5 = 17 oxen.\nC puts 15 oxen for 3 months, so the total number of oxen is 15 + 3 = 18 oxen.\nThe total number of oxen is 17 + 17 + 18 = 55 oxen.\nThe rent of the pasture is Rs. 175.\nThe total rent paid by A, B, and C is 175 + 175 + 175 = 550.\nThe share of C in the total rent is 550 / 55 = 10.\nThe answer is (b) Rs. 50."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2928,7 +2928,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 32:45.\n\nExplanation:\n\nA's investment is Rs.6000.\nB's investment is Rs.12000.\n\nAfter 4 months, A withdraws half of his capital, which is Rs.3000.\nAfter 2 months, B withdraws one-third of his capital, which is Rs.8000.\n\nThe total amount after 4 months is Rs.6000 + Rs.3000 = Rs.9000.\nThe total amount after 2 months is Rs.12000 + Rs.8000 = Rs.20000.\n\nThe profit at the end of the year is Rs.9000 - Rs.20000 = Rs.19000.\n\nTo find the ratio of their profits, we divide the profit by the total amount after 4 months and 2 months:\n\n(19000 / 9000) = 2/3\n\nThe answer is (c) 32:45."
+        "The answer is (c) 32:45.\n\nExplanation:\nA and B invested Rs.6000 and Rs.12000 in a business. After 4 months, A withdraws half of his capital, which is Rs.3000. After 2 months, B withdraws one-third of his capital, which is Rs.2000.\n\nNow, let's calculate the profit for each of them:\n\nA's profit: 6000 - 3000 = Rs.3000\nB's profit: 12000 - 2000 = Rs.10000\n\nAfter 4 months, A withdraws Rs.3000 and B withdraws Rs.10000.\n\nNow, let's calculate the profit for each of them:\n\nA's profit after 4 months: 3000 - 3000 = Rs.0\nB's profit after 4 months: 10000 - 10000 = Rs.0\n\nAfter 2 months, A withdraws Rs.20"
       ]
     ],
     "filtered_resps": [
@@ -2974,11 +2974,11 @@
     ],
     "resps": [
       [
-        "(e) m"
+        "The answer is (b) m"
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3020,7 +3020,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) 4.0.\n\nExplanation:\nThe rental charge for the first 1/4 mile is 34 cents, and the charge for every 1/5 mile over this is 6 cents. So, the total charge for the first 1/4 mile is 34 cents + 6 cents = 38 cents.\n\nThe total charge for the first 1/4 mile is 38 cents, and the total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 38 cents + 44 cents = 82 cents.\n\nThe total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 82 cents + 44 cents = 126 cents.\n\nThe total charge for the first 1/5 mile is 44 cents + 6 cents = 50 cents.\n\nThe total charge for the first 1/4 mile is 12"
+        "The answer is (e) 4.0.\n\nExplanation:\nThe rental charge for the first 1/4 mile is 34 cents, and the charge for every 1/5 mile over this is 6 cents. So, the total charge for the first 1/4 mile is 34 cents + 6 cents = 38 cents.\n\nThe total charge for the first 1/4 mile is 38 cents, and the total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 38 cents + 44 cents = 82 cents.\n\nThe total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 82 cents, and the total charge for the first 1/5 mile is 44 cents.\n\nThe total charge for the first 1/4 mile is 82 cents + 44 cents = 126 cents.\n\nThe total charge for the first"
       ]
     ],
     "filtered_resps": [
@@ -3158,11 +3158,11 @@
     ],
     "resps": [
       [
-        "The sum of the longest and shortest numbers equals the sum of the third number and 54.\n\nLet's denote the three numbers as a, b, and c. We know that a + b + c = 5 + 6 + 7 = 18.\n\nWe also know that a + c = 54.\n\nNow, we can set up the equation:\n\na + b + c = 18\na + c = 54\n\nSubtracting the second equation from the first equation, we get:\n\nb + c = 18 - a\n\nNow, we can substitute the value of b + c from the second equation into the first equation:\n\na + (18 - a) = 18\n\nSimplifying the equation, we get:\n\n2a = 18\n\nDividing both sides by 2, we get:\n\na = 9\n\nNow, we can find the value of c:\n\nc = 7 - a\nc = 7 - 9\nc = -2\n\nSo, the third number is -2.\n\nThe answer is (c) -"
+        "The sum of the longest and shortest numbers equals the sum of the third number and 54.\n\nLet's denote the three numbers as a, b, and c. The sum of the longest and shortest numbers is a + b = 5 + 6 = 11. The sum of the third number and 54 is 54 + 54 = 108.\n\nWe can set up the equation: a + b + c = 11 + 108 = 129.\n\nNow, we can substitute the given ratio into the equation: (5/11)a + (6/11)b + (7/11)c = 129.\n\nCross-multiplying, we get: 5a + 6b + 7c = 129 * 11.\n\nSimplifying, we get: 5a + 6b + 7c = 1399.\n\nNow, we can solve for c: 5a + 6b + 7c = 1399.\n\nSubtracting 5a from both sides, we get:"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 1200.\n\nExplanation:\nThe consumption of diesel per hour of a bus varies directly as the square of its speed. This means that as the speed increases, the consumption of diesel also increases. To find the minimum expenditure required to cover a distance of 600 Km, we need to find the square of the bus's speed.\n\nSpeed = 60 kmph\nSquare of speed = 60^2 = 3600 kmph\n\nNow, we can calculate the minimum expenditure required to cover a distance of 600 Km at a speed of 3600 kmph.\n\nMinimum expenditure = Speed * Consumption\n= 3600 kmph * 1 litre/hour\n= 3600 litre/hour\n\nThe answer is (c) 1200."
+        "The answer is (c) 1200.\n\nExplanation:\nThe consumption of diesel per hour of a bus varies directly as the square of its speed. This means that as the speed increases, the consumption of diesel also increases. To find the minimum expenditure required to cover a distance of 600 Km, we need to find the square of the bus's speed.\n\nSpeed = 60 kmph\nSquare of speed = 60^2 = 3600 kmph\n\nNow, we can calculate the minimum expenditure required to cover a distance of 600 Km at a speed of 3600 kmph.\n\nMinimum expenditure = Speed * Consumption\nMinimum expenditure = 3600 kmph * 1 litre/hour\nMinimum expenditure = 3600 litre/hour\n\nThe answer is (c) 1200."
       ]
     ],
     "filtered_resps": [
@@ -3664,7 +3664,7 @@
     ],
     "resps": [
       [
-        "The correct answer is (c) 20/65.\n\nExplanation:\nTo find the probability that exactly three bulbs are good, we need to consider the number of ways to choose three good bulbs out of four and the number of ways to choose three defective bulbs out of four.\n\nThe total number of ways to choose three bulbs out of four is given by the combination formula: 4C3 = 4! / (3! * (4-3)!) = 4.\n\nThe number of ways to choose three good bulbs out of four is given by the combination formula: 4C3 = 4! / (3! * (4-3)!) = 4.\n\nThe number of ways to choose three defective bulbs out of four is given by the combination formula: 4C3 = 4! / (3! * (4-3)!) = 4.\n\nNow, we can calculate the probability by dividing the number of ways to choose three good bulbs by the total number of ways to choose three bulbs:\n\nProbability = (Number of ways to choose three good bulbs) / (Total number of ways to choose three bulbs)\n= 4 / 4"
+        "The correct answer is (c) 20/65.\n\nExplanation:\nTo find the probability that exactly three bulbs are good, we need to consider the number of ways to choose three good bulbs out of four chosen bulbs. This can be calculated using combinations, which is denoted by the formula C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to choose.\n\nIn this case, we have C(9, 3) = 9! / (3!(9-3)!) = 9! / (3!6!) = (9*8*7) / (3*2*1) = 84 ways to choose three good bulbs out of four chosen bulbs.\n\nNow, we need to find the probability that exactly three bulbs are good. This can be calculated by dividing the number of ways to choose three good bulbs by the total number of ways to choose four bulbs.\n\nProbability = Number of ways to choose three good bulbs / Total number of ways to choose four bulbs\n= 84 / 84\n= 1\n\nSo, the probability that exactly"
       ]
     ],
     "filtered_resps": [
@@ -3802,11 +3802,11 @@
     ],
     "resps": [
       [
-        "To find the percent difference between the second and first number, we need to calculate the difference between the two numbers and then divide it by the first number.\n\nLet's denote the first number as x and the second number as y. We are given that the second number is less than the first by 30% and 37% respectively.\n\nThe difference between the two numbers is y - x = (y - x) * (30/100) + (y - x) * (37/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) *"
+        "To find the percent difference between the second and first number, we need to calculate the difference between the two numbers and then divide it by the first number.\n\nLet's denote the first number as x and the second number as y. We are given that the second number is less than the first by 30% and 37% respectively.\n\nThe difference between the two numbers is y - x. We can set up the equation:\n\n(y - x) = 0.30x + 0.37y\n\nNow, we can solve for y:\n\ny - x = 0.30x + 0.37x\ny - x = 0.67x\n\ny = 0.67x + x\ny = 1.67x\n\nNow, we can find the percent difference between the second and first number:\n\nPercent difference = ((1.67x - x) / x) * 100\nPercent difference = (1.67x / x) * 100\nPercent difference = 167%\n\nThe answer is (b) 9%."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4124,7 +4124,7 @@
     ],
     "resps": [
       [
-        "The greatest possible profit that might be made in selling 13 books is (e) Rs. 1560.\n\nExplanation:\nTo find the greatest possible profit, we need to maximize the selling price of the books. We can do this by finding the maximum price at which the books can be sold and then multiplying it by the number of books sold.\n\nLet's calculate the selling price for each option:\n\n(a) Rs. 1650: 13 books * Rs. 120 = Rs. 1560\n(b) Rs. 3000: 13 books * Rs. 150 = Rs. 1850\n(c) Rs. 1521: 13 books * Rs. 185 = Rs. 2595\n(d) Rs. 1400: 13 books * Rs. 200 = Rs. 2600\n(e) Rs. 1560: 13 books * Rs. 220 = Rs. 2680\n\nThe greatest possible profit is (e) Rs."
+        "The greatest possible profit that might be made in selling 13 books is (e) Rs. 1560.\n\nExplanation:\nTo find the greatest possible profit, we need to maximize the selling price of the books. We can do this by finding the maximum price at which the books can be sold and then multiplying it by the number of books sold.\n\nLet's calculate the selling price for each option:\n\n- Option (a) - 120 + 13 * 13 = Rs. 1650\n- Option (b) - 120 + 13 * 13 = Rs. 1521\n- Option (c) - 120 + 13 * 13 = Rs. 1400\n- Option (d) - 120 + 13 * 13 = Rs. 1400\n- Option (e) - 120 + 13 * 13 = Rs. 1560\n\nComparing the selling prices, we can see that the greatest possible profit is (e) Rs. 1560."
       ]
     ],
     "filtered_resps": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "The answer is (a) 9:6.\n\nExplanation:\nA and B initially invested Rs.3000 and Rs.4000 respectively. After 6 months, A doubles his capital, so his new capital becomes Rs.6000.\n\nThe profit for A is Rs.6000 * 2 = Rs.12000.\nThe profit for B is Rs.3000 * 2 = Rs.6000.\n\nTo find the ratio of their profits, we can divide the profit for A by the profit for B:\n(12000 / 6000) = 2:1\n\nSo, the ratio of their profits is 2:1.\n\nThe answer is (a) 9:6."
+        "The answer is (a) 9:6.\n\nExplanation:\nA and B initially invested Rs.3000 and Rs.4000 respectively. After 6 months, A doubles his capital, so his new capital becomes Rs.6000.\n\nThe profit for A is 2/3 of the initial capital, which is 2/3 * 6000 = Rs.12000.\nThe profit for B is 1/3 of the initial capital, which is 1/3 * 6000 = Rs.2000.\n\nThe ratio of the profit for A to the profit for B is 12000:2000 = 6000:1000 = 9:6.\n\nThe answer is (a) 9:6."
       ]
     ],
     "filtered_resps": [
@@ -4400,11 +4400,11 @@
     ],
     "resps": [
       [
-        "I only"
+        "The answer is (e) II and III"
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4446,11 +4446,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) 25"
+        "The answer is (b) 56.25."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4459,7 +4459,7 @@
     "doc_hash": "0e1beb9fff6815b5790776368dcb32c20539788f6d90c46e4049fd5c49c43b35",
     "prompt_hash": "9df2bf39ba260b899697481154b85a0a50343d59665fad9643b9bc00d4b6a67e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 97,
@@ -4584,11 +4584,11 @@
     ],
     "resps": [
       [
-        "The answer is (b) 15 l.\n\nExplanation:\nTo find the volume of milk that should be taken out from the first jar, we need to find the ratio of milk to water in the first jar. The ratio is 5:4, which means for every 5 units of milk, there are 4 units of water.\n\nNow, we need to find the volume of water in the first jar. Since the ratio is 5:4, the volume of water is 4/5 of the volume of milk. To find the volume of water, we multiply the volume of milk by the ratio of water to milk:\n\nVolume of water = 4/5 * Volume of milk\nVolume of water = 4/5 * 5\nVolume of water = 4 * 5/5\nVolume of water = 4 * 1\nVolume of water = 4\n\nNow, we need to find the volume of milk that should be taken out from the first jar. Since the ratio is 5:4, the volume of milk is 5/4 of the volume of water. To find the volume of milk, we multiply the volume of water by the ratio of milk to water"
+        "The answer is (c) 22.5 l.\n\nExplanation:\nTo find the volume of milk that should be taken out from the first jar, we need to find the ratio of milk to water in the first jar. The ratio is 5:4, which means for every 5 units of milk, there are 4 units of water.\n\nNow, we need to find the volume of water in the first jar. Since the ratio is 5:4, the volume of water is 4/5 of the volume of milk. To find the volume of water, we multiply the volume of milk by the ratio of water to milk:\n\nVolume of water = 4/5 * Volume of milk\nVolume of water = 4/5 * 5\nVolume of water = 4 * 5/5\nVolume of water = 4 * 1\nVolume of water = 4\n\nNow, we need to find the volume of milk that should be taken out from the first jar. Since the ratio is 5:4, the volume of milk is 5/4 of the volume of water. To find the volume of milk, we multiply the volume of water by the ratio of milk"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4630,7 +4630,7 @@
     ],
     "resps": [
       [
-        "(e) 23\n\nExplanation:\nFriend P's rate is 15% faster than Friend Q's rate, which means that Friend P's rate is 15/100 = 0.15 times Friend Q's rate.\n\nTo find out how many kilometers Friend P will have walked when they pass each other, we need to calculate the distance Friend P will have walked in 1 hour. Since Friend P's rate is 0.15 times Friend Q's rate, we can multiply Friend P's rate by 1 hour to find the distance Friend P will have walked in 1 hour.\n\nDistance Friend P will have walked in 1 hour = Friend P's rate * 1 hour = 0.15 * 1 = 0.15 km\n\nNow, we need to find out how many kilometers Friend P will have walked when they pass each other. We can do this by adding the distance Friend P has walked in 1 hour to the distance Friend Q has walked in 1 hour.\n\nDistance Friend P will have walked when they pass each other = Distance Friend P has walked in 1 hour + Distance Friend Q has walked in 1 hour = 0"
+        "(e) 23\n\nExplanation:\nFriend P's rate is 15% faster than Friend Q's rate, which means that Friend P's rate is 1.15 times Friend Q's rate.\n\nTo find out how many kilometers Friend P will have walked when they pass each other, we need to calculate the distance Friend P will have walked at Friend P's rate and then add that distance to the distance Friend Q will have walked at Friend Q's rate.\n\nDistance Friend P will have walked at Friend P's rate = Friend P's rate * Time taken to walk\nDistance Friend P will have walked at Friend P's rate = 1.15 * 43 km\nDistance Friend P will have walked at Friend P's rate = 50.25 km\n\nDistance Friend Q will have walked at Friend Q's rate = Friend Q's rate * Time taken to walk\nDistance Friend Q will have walked at Friend Q's rate = 1.15 * 43 km\nDistance Friend Q will have walked at Friend Q's rate = 50.25 km\n\nNow, we add the distance Friend P will have walked at Friend P's rate to the distance Friend Q"
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) 8 seconds.\n\nExplanation:\nTo find the time it takes for the man to row 80 meters downstream, we need to first find the speed of the current. We know the speed of the current is 11 kmph, and the man is rowing downstream. So, the speed of the current is the sum of the speed of the man and the speed of the current: 25 kmph (man) + 11 kmph (current) = 36 kmph.\n\nNow, we can use the formula for the time it takes to cover a distance: time = distance / speed. We are given the distance (80 meters) and the speed of the current (36 kmph). Plugging in the values, we get: time = 80 meters / 36 kmph = 2.17 seconds.\n\nSince we can't have a fraction of a second, we can round this time to the nearest whole number. The closest option is (e) 8 seconds."
+        "The answer is (e) 8 seconds.\n\nExplanation:\nTo find the time it takes for the man to row 80 meters downstream, we need to first find the speed of the current. We know the speed of the current is 11 kmph, and the man is rowing downstream. So, the speed of the current is 11 kmph.\n\nNow, we can use the formula:\nSpeed downstream = Speed upstream + Speed of current\nSpeed downstream = 25 kmph + 11 kmph\nSpeed downstream = 36 kmph\n\nNext, we need to find the speed of the man in still water. We know the speed of the man in still water is 25 kmph.\n\nNow, we can use the formula:\nSpeed upstream = Speed of man in still water - Speed of current\nSpeed upstream = 25 kmph - 11 kmph\nSpeed upstream = 14 kmph\n\nNow, we can find the time it takes for the man to row 80 meters downstream:\nTime = Distance / Speed downstream\nTime = 80 meters / 36 kmph\nTime = 2.0833"
       ]
     ],
     "filtered_resps": [
@@ -4860,7 +4860,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) 12."
+        "(e) 12"
       ]
     ],
     "filtered_resps": [
@@ -5228,11 +5228,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) n^2 + 2n + 1"
+        "The answer is (c) n^2 + 1."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5274,11 +5274,11 @@
     ],
     "resps": [
       [
-        "To find out how much A is more than C, we need to compare the ratios of A to C. The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio of A to C by 14.\n\nThe ratio of A to C is 1/7:1/7:1/14. Multiplying by 14, we get:\n\n(1/7) * (14) = 2\n\nSo, the ratio of A to C is 2:1.\n\nNow, we can compare the ratios of A to C:\n\n(1/7) < (2/14)\n\nTo find out how much A is more than C, we need to find the difference between the two ratios. The difference is:\n\n(1/7) - (2/14) = (14 - 7) / (7 * 14) = 7 / 99\n\nSo, A is more than C by 7/99."
+        "To find out how much A is more than C, we need to compare the ratios of A to C. The ratio of A to C is 1/7:1/7:1/14. To find the ratio of A to C, we can multiply the ratio of A to C by 14.\n\nThe ratio of A to C is 1/7:1/7:1/14. Multiplying by 14, we get:\n\n(1/7) * (14) = 2\n\nSo, the ratio of A to C is 2:1.\n\nNow, we can compare the ratios of A to C:\n\n(1/7) < (2/14) < (1/14)\n\nSince 1/7 < 1/14 < 1/14, we can see that A is indeed more than C.\n\nThe answer is (e) 312."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5320,11 +5320,11 @@
     ],
     "resps": [
       [
-        "To find the value of a, we can use the given equation:\n\na/b = 3/4\n\nWe can multiply both sides of the equation by b to get rid of the fraction:\n\na = 3b/4\n\nNow, we can substitute this expression for a into the equation 8a + 5b = 22:\n\n8a + 5b = 3b/4 + 22\n\nCombine like terms:\n\n8a + 5b = 3b/4 + 24\n\nSubtract 3b/4 from both sides:\n\n8a + 5b - 3b/4 = 24\n\nSimplify:\n\n7a/4 = 24\n\nMultiply both sides by 4 to get rid of the fraction:\n\n7a = 96\n\nDivide both sides by 7:\n\na = 12\n\nThe value of a is 12."
+        "To find the value of a, we can use the given equation:\n\na/b = 3/4\n\nWe can cross-multiply to get:\n\nab = 4(3/4)\nab = 12/4\nab = 3\n\nNow, we can solve for a:\n\na = 3/ab\na = 3/3\na = 1\n\nThe answer is (a) 1."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5412,7 +5412,7 @@
     ],
     "resps": [
       [
-        "To solve this problem, we need to calculate the average score of Mike's mock tests and the GMAT score.\n\nLet's start by calculating the average score of Mike's mock tests:\n\nAverage score = (Number of mock tests * Score per mock test) / Number of mock tests\nAverage score = (5 * 10) / 5\nAverage score = 10\n\nNow, let's calculate the average score of Mike's GMAT score:\n\nAverage score = (Number of mock tests * GMAT score) / Number of mock tests\nAverage score = (5 * 760) / 5\nAverage score = 1000\n\nSince the GMAT score is 1000, the average score of Mike's GMAT score is also 1000.\n\nNow, let's calculate the difference in the score of his last mock and his GMAT score:\n\nDifference in score = (Last mock score - GMAT score)\nDifference in score = (760 - 1000)\nDifference in score = -660\n\nThe answer is (e) 60."
+        "To find the difference in the score of his last mock and his GMAT score, we need to calculate the difference in his average score and then subtract it from his final score.\n\nThe average score for the mocks and the GMAT is 716.67. Mike scored 760 on the GMAT, so his average score for the mocks and the GMAT is 716.67 - 760 = -113.67.\n\nThe difference in his average score is -113.67. To find the difference in his final score, we subtract this difference from his final score: 760 - (-113.67) = 760 + 113.67 = 873.67.\n\nThe answer is (e) 60."
       ]
     ],
     "filtered_resps": [
@@ -5458,11 +5458,11 @@
     ],
     "resps": [
       [
-        "The answer is (b) 45."
+        "The answer is (c) 65."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5504,7 +5504,7 @@
     ],
     "resps": [
       [
-        "The answer is (b) 55 km.\n\nExplanation:\nTo find the distance, we need to calculate the time taken by the person to reach his destination. We can do this by using the formula:\n\nDistance = Speed \u00d7 Time\n\nGiven that the person is traveling at 20 km/hr and reaches his destination in 2.5 hr, we can calculate the time as follows:\n\nTime = Distance / Speed\nTime = 55 km / 20 km/hr\nTime = 2.75 hr\n\nNow, we can substitute this value into the formula:\n\nDistance = Speed \u00d7 Time\nDistance = 20 km/hr \u00d7 2.75 hr\nDistance = 55 km\n\nSo, the person's destination is 55 km away."
+        "The answer is (b) 55 km.\n\nExplanation:\nTo find the distance, we need to calculate the time taken by the person to reach his destination. We can do this by using the formula:\n\nDistance = Speed \u00d7 Time\n\nGiven that the person is traveling at 20 km/hr and reaches his destination in 2.5 hr, we can calculate the time as follows:\n\nTime = Distance / Speed\nTime = 55 km / 20 km/hr\nTime = 2.75 hr\n\nNow, we can substitute this value into the formula:\n\nDistance = Speed \u00d7 Time\nDistance = 20 km/hr \u00d7 2.75 hr\nDistance = 55 km\n\nSo, the distance is 55 km."
       ]
     ],
     "filtered_resps": [
@@ -5872,7 +5872,7 @@
     ],
     "resps": [
       [
-        "(a)  $32,500"
+        "(a)  $32,500\n\nTo solve this using the weighted average concept, we need to calculate the average income of the 50 customers who responded to the survey. We can do this by multiplying the average income of each customer by the number of customers who responded and then summing these values.\n\nWeighted average = (Average income of 50 customers * Number of customers who responded) / (Average income of the wealthiest 10 customers * Number of customers who responded)\n\nWeighted average = ($45,000 * 50) / ($95,000 * 10)\nWeighted average = $22,500 / 9,500\nWeighted average = $2.25\n\nNow, we can find the average income of the other 40 customers by subtracting the weighted average from the average income of the wealthiest 10 customers.\n\nAverage income of other 40 customers = Average income of the wealthiest 10 customers - Weighted average\nAverage income of other 40 customers = $95,000 - $2.25\nAverage income of other 40 customers"
       ]
     ],
     "filtered_resps": [
@@ -5918,7 +5918,7 @@
     ],
     "resps": [
       [
-        "The curved surface of the cone is the area of the circular base, which is given by the formula A = \u03c0r^2. Since the radius of the base is 14 cm, the area of the circular base is A = \u03c0(14)^2 = 196\u03c0 cm^2.\n\nThe slant height of the cone is 35 cm. The curved surface of the cone is the area of the circular base, which is A = \u03c0r^2. Substituting the value of the slant height, we get A = \u03c0(14)^2 = 196\u03c0 cm^2.\n\nNow, we can find the curved surface of the cone by subtracting the area of the circular base from the area of the curved surface:\n\nCurved surface = Area of curved surface - Area of circular base\n= 196\u03c0 - 196\u03c0\n= 0\n\nThe curved surface of the cone is 0, which means the cone has no curved surface. The answer is (c) 1540."
+        "The curved surface of the cone is the area of the circular cross-section of the cone. Since the slant height of the cone is 35 cm, the radius of the base is 14 cm. The curved surface area of the cone can be calculated using the formula:\n\nCurved surface area = \u03c0 * r * slant height\n\nSubstituting the given values, we get:\n\nCurved surface area = \u03c0 * 14 * 35\n\nNow, we can calculate the curved surface area:\n\nCurved surface area = \u03c0 * 490\n\nThe answer is (c) 1540."
       ]
     ],
     "filtered_resps": [
@@ -6148,7 +6148,7 @@
     ],
     "resps": [
       [
-        "To find the constant k, we need to solve the given equation for x.\n\nFirst, let's simplify the equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nExpanding the left side, we get:\n\n-x2 - (k + 11)x - 8 = -x2 - 2x2 - 8\n\nCombine like terms:\n\n-11x - 11 = -2x2 - 8\n\nNow, let's solve for x:\n\n-11x + 2x2 = -8 + 11\n\nx2 = 7\n\nNow, let's solve for k:\n\nk + 11 = 7\n\nk = 8\n\nThe constant k is 8. The answer is (a) 11."
+        "To find the constant k, we need to solve the given equation for x.\n\nFirst, let's simplify the equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nExpanding the left side, we get:\n\n-x2 - (k + 11)x - 8 = -x2 - 2x2 - 8\n\nCombine like terms:\n\n-11x - 11 = -2x2 - 8\n\nNow, let's solve for x:\n\n-11x + 2x2 = -8 + 11\n\nx2 = 7\n\nNow, let's find k:\n\nk + 11 = 7\n\nk = 8\n\nThe constant k is 8. The answer is (a) 11."
       ]
     ],
     "filtered_resps": [
@@ -6194,11 +6194,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) II"
+        "The answer is (a) I & II"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6332,11 +6332,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) 120 min.\n\nExplanation:\nThe pipe takes a hour to fill the tank, but because of a leakage, it takes 2 times of its original time to empty the tank. So, the leakage takes 2 * 1 hour = 2 hours to empty the tank.\n\nTherefore, the time taken by the leakage to empty the tank is 2 hours.\n\nThe answer is (e) 120 min."
+        "The answer is (c) 90 min.\n\nExplanation:\nThe pipe takes a hour to fill the tank, but because of a leakage, it takes 2 times of its original time to empty the tank. So, the leakage takes 2 * 1 hour = 2 hours to empty the tank.\n\nTherefore, the time taken by the leakage to empty the tank is 2 hours.\n\nThe answer is (c) 90 min."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6345,7 +6345,7 @@
     "doc_hash": "7d904e23caf03c5bd7b62639ed98b8cc4a6b0a6598681d23fe32bf0ee49a359b",
     "prompt_hash": "b6b29847084f61ca6dfaee16d38eff34ce4361d518d3909017ddf29c0ffbf406",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -6424,7 +6424,7 @@
     ],
     "resps": [
       [
-        "The given equation is a linear equation in three variables, and we can solve it using the method of substitution or elimination. Let's use the elimination method.\n\nFirst, we multiply the equation by necessary multiples to make the denominators of the fractions equal. Multiply the first equation by 2 and the second equation by 3:\n\n(2)(1/a) + (3)(1/b) + (2)(1/c) = 2\n(3)(1/a) + (2)(1/b) + (2)(1/c) = 6\n\nNow, we add the two equations:\n\n(2)(1/a) + (3)(1/b) + (2)(1/c) = 2\n(3)(1/a) + (2)(1/b) + (2)(1/c) = 6\n\nSubtracting the second equation from the first equation, we get:\n\n(1/a) + (1/b) + (1/c) = 0\n\nNow, we can use the fact that a, b, and c are positive integers to find the possible values of a, b, and"
+        "The given equation is a linear equation in three variables, and we can solve it using the method of substitution or elimination. Let's use the elimination method.\n\nFirst, we multiply the equation by 2 to make the denominators of the fractions equal:\n\n2(1/a) + 2(1/b) + 2(1/c) = 2\n\nNow, we can add the two equations:\n\n2/a + 2/b + 2/c = 2\n\nSubtract 2/a from both sides:\n\n2/b + 2/c = 2 - 2/a\n\nNow, we can multiply both sides by a to get rid of the fractions:\n\na(2/b + 2/c) = a\n\nNow, we can multiply both sides by c to get rid of the denominators:\n\nc(2/b + 2/c) = c\n\nNow, we can multiply both sides by b to get rid of the denominators:\n\nb(2/b + 2/c) = b\n\nNow, we can multiply both sides by a to get rid of the denominators:\n"
       ]
     ],
     "filtered_resps": [
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 50 years.\n\nExplanation:\nLet the age of the father be x.\nThe age of the son 1 is 3x - 3.\nThe age of the son 2 is 3x - 6.\nThe sum of the ages of the two sons is 3x - 3 + 3x - 6 = 3x - 9.\nThe sum of the ages of the two sons is 3x - 9 + 3x - 3 = 6x - 6.\nThe sum of the ages of the two sons is 6x - 6.\nFour years hence, the age of the father will be 6x - 6 + 4 = 6x + 2.\nThe age of the father 4 years hence is 6x + 2 + 4 = 6x + 6.\nThe age of the father 4 years hence is 6x + 6 = 6(x + 1).\nThe age of the father 4 years hence is 6(x + 1) = 6x + 6.\nThe father's present age is"
+        "The answer is (c) 50 years.\n\nExplanation:\nLet the age of the father be x.\nThe age of the son 1 is 3x - 3.\nThe age of the son 2 is 3x - 6.\nThe sum of the ages of the two sons is 3x - 3 + 3x - 6 = 3x - 9.\nThe sum of the ages of the two sons is 3x - 9 + 3x - 3 = 6x - 6.\nThe sum of the ages of the two sons is 6x - 6.\nFour years hence, the age of the father will be 6x - 6 + 4 = 6x + 2.\nThe age of the father 4 years hence is 6x + 2 + 4 = 6x + 6.\nThe age of the father 4 years hence is 6x + 6.\nThe father's present age is 6x + 6.\nThe answer is (c) 50 years."
       ]
     ],
     "filtered_resps": [
@@ -6746,11 +6746,11 @@
     ],
     "resps": [
       [
-        "The equation is |x+3| \u2013 |4-x| = |8+x|. To solve this equation, we can start by isolating the absolute value terms.\n\nFirst, we can add 4 to both sides of the equation to get:\n\n|x+3| = |8+x| + 4\n\nNext, we can add 3 to both sides of the equation to get:\n\n|x+3| = |8+x|\n\nNow, we can divide both sides of the equation by |8+x| to get:\n\nx+3 = 8+x\n\nSubtracting x from both sides of the equation gives:\n\n2 = x\n\nSo, the equation has one solution, x = 2.\n\nThe answer is (a) 0."
+        "The equation is |x+3| \u2013 |4-x| = |8+x|. To solve this equation, we can start by isolating the absolute value terms.\n\nFirst, we can add 3 to both sides of the equation to get |x+3| = |4-x| + 3. Then, we can subtract 3 from both sides to get |x+3| = 4-x.\n\nNext, we can add x to both sides to get |x+3| = 4. Now, we can divide both sides by |x+3| to get x = 4/|x+3|.\n\nNow, we need to find the number of solutions for x. We can do this by considering the cases where x is less than 4/|x+3| and where x is greater than 4/|x+3|.\n\nFor x < 4/|x+3|, we have |x+3| = 4-x. This means x = 4-x. So, the solutions are x = 4 and x = 4/|x+3|.\n\nFor x > 4/|"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6759,7 +6759,7 @@
     "doc_hash": "7f813c1b0c5f38849605413bb4912d14b9bc4746eaf5d8a51128cf26cd696093",
     "prompt_hash": "01fb141b382008cbf65436707ff19ff8c0b374931e7271e5b3fea95c2e224761",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 47,
@@ -6884,7 +6884,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 9250 cm3.\n\nExplanation: The cost of painting the surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. To find the volume of the cube, we need to convert the cost from paise to Sq.cm. Since 1 paise = 1000 Sq.cm, the cost in Sq.cm is 343.98 * 1000 = 343980 Sq.cm. The volume of the cube is then 343980 Sq.cm / 1000 Sq.cm/Sq.cm = 343980 cm3.\n\nThe answer is (c) 9250 cm3."
+        "The answer is (c) 9250 cm3.\n\nExplanation: The cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. To find the volume of the cube, we need to convert the cost from paise to Sq.cm. Since 1 paise = 1000 Sq.cm, the cost in Sq.cm is 343.98 * 1000 = 343980 Sq.cm. The volume of the cube is then 343980 Sq.cm / 1000 Sq.cm/Sq.cm = 343980 cm3.\n\nThe answer is (c) 9250 cm3."
       ]
     ],
     "filtered_resps": [
@@ -7022,11 +7022,11 @@
     ],
     "resps": [
       [
-        "C's share of rent = 15 oxen * 175 = Rs. 2525\n\nThe answer is (c) Rs. 55."
+        "The answer is (b) Rs. 50.\n\nExplanation:\nA puts 10 oxen for 7 months, so the total number of oxen is 10 + 7 = 17 oxen.\nB puts 12 oxen for 5 months, so the total number of oxen is 12 + 5 = 17 oxen.\nC puts 15 oxen for 3 months, so the total number of oxen is 15 + 3 = 18 oxen.\nThe total number of oxen is 17 + 17 + 18 = 55 oxen.\nThe rent of the pasture is Rs. 175.\nThe total rent paid by A, B, and C is 175 + 175 + 175 = 550.\nThe share of C in the total rent is 550 / 55 = 10.\nThe answer is (b) Rs. 50."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7528,7 +7528,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 32:45.\n\nExplanation:\n\nA's investment is Rs.6000.\nB's investment is Rs.12000.\n\nAfter 4 months, A withdraws half of his capital, which is Rs.3000.\nAfter 2 months, B withdraws one-third of his capital, which is Rs.8000.\n\nThe total amount after 4 months is Rs.6000 + Rs.3000 = Rs.9000.\nThe total amount after 2 months is Rs.12000 + Rs.8000 = Rs.20000.\n\nThe profit at the end of the year is Rs.9000 - Rs.20000 = Rs.19000.\n\nTo find the ratio of their profits, we divide the profit by the total amount after 4 months and 2 months:\n\n(19000 / 9000) = 2/3\n\nThe answer is (c) 32:45."
+        "The answer is (c) 32:45.\n\nExplanation:\nA and B invested Rs.6000 and Rs.12000 in a business. After 4 months, A withdraws half of his capital, which is Rs.3000. After 2 months, B withdraws one-third of his capital, which is Rs.2000.\n\nNow, let's calculate the profit for each of them:\n\nA's profit: 6000 - 3000 = Rs.3000\nB's profit: 12000 - 2000 = Rs.10000\n\nAfter 4 months, A withdraws Rs.3000 and B withdraws Rs.10000.\n\nNow, let's calculate the profit for each of them:\n\nA's profit after 4 months: 3000 - 3000 = Rs.0\nB's profit after 4 months: 10000 - 10000 = Rs.0\n\nAfter 2 months, A withdraws Rs.20"
       ]
     ],
     "filtered_resps": [
@@ -7574,11 +7574,11 @@
     ],
     "resps": [
       [
-        "(e) m"
+        "The answer is (b) m"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7620,7 +7620,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) 4.0.\n\nExplanation:\nThe rental charge for the first 1/4 mile is 34 cents, and the charge for every 1/5 mile over this is 6 cents. So, the total charge for the first 1/4 mile is 34 cents + 6 cents = 38 cents.\n\nThe total charge for the first 1/4 mile is 38 cents, and the total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 38 cents + 44 cents = 82 cents.\n\nThe total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 82 cents + 44 cents = 126 cents.\n\nThe total charge for the first 1/5 mile is 44 cents + 6 cents = 50 cents.\n\nThe total charge for the first 1/4 mile is 12"
+        "The answer is (e) 4.0.\n\nExplanation:\nThe rental charge for the first 1/4 mile is 34 cents, and the charge for every 1/5 mile over this is 6 cents. So, the total charge for the first 1/4 mile is 34 cents + 6 cents = 38 cents.\n\nThe total charge for the first 1/4 mile is 38 cents, and the total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 38 cents + 44 cents = 82 cents.\n\nThe total charge for the first 1/5 mile is 38 cents + 6 cents = 44 cents.\n\nThe total charge for the first 1/4 mile is 82 cents, and the total charge for the first 1/5 mile is 44 cents.\n\nThe total charge for the first 1/4 mile is 82 cents + 44 cents = 126 cents.\n\nThe total charge for the first"
       ]
     ],
     "filtered_resps": [
@@ -7758,11 +7758,11 @@
     ],
     "resps": [
       [
-        "The sum of the longest and shortest numbers equals the sum of the third number and 54.\n\nLet's denote the three numbers as a, b, and c. We know that a + b + c = 5 + 6 + 7 = 18.\n\nWe also know that a + c = 54.\n\nNow, we can set up the equation:\n\na + b + c = 18\na + c = 54\n\nSubtracting the second equation from the first equation, we get:\n\nb + c = 18 - a\n\nNow, we can substitute the value of b + c from the second equation into the first equation:\n\na + (18 - a) = 18\n\nSimplifying the equation, we get:\n\n2a = 18\n\nDividing both sides by 2, we get:\n\na = 9\n\nNow, we can find the value of c:\n\nc = 7 - a\nc = 7 - 9\nc = -2\n\nSo, the third number is -2.\n\nThe answer is (c) -"
+        "The sum of the longest and shortest numbers equals the sum of the third number and 54.\n\nLet's denote the three numbers as a, b, and c. The sum of the longest and shortest numbers is a + b = 5 + 6 = 11. The sum of the third number and 54 is 54 + 54 = 108.\n\nWe can set up the equation: a + b + c = 11 + 108 = 129.\n\nNow, we can substitute the given ratio into the equation: (5/11)a + (6/11)b + (7/11)c = 129.\n\nCross-multiplying, we get: 5a + 6b + 7c = 129 * 11.\n\nSimplifying, we get: 5a + 6b + 7c = 1399.\n\nNow, we can solve for c: 5a + 6b + 7c = 1399.\n\nSubtracting 5a from both sides, we get:"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) 1200.\n\nExplanation:\nThe consumption of diesel per hour of a bus varies directly as the square of its speed. This means that as the speed increases, the consumption of diesel also increases. To find the minimum expenditure required to cover a distance of 600 Km, we need to find the square of the bus's speed.\n\nSpeed = 60 kmph\nSquare of speed = 60^2 = 3600 kmph\n\nNow, we can calculate the minimum expenditure required to cover a distance of 600 Km at a speed of 3600 kmph.\n\nMinimum expenditure = Speed * Consumption\n= 3600 kmph * 1 litre/hour\n= 3600 litre/hour\n\nThe answer is (c) 1200."
+        "The answer is (c) 1200.\n\nExplanation:\nThe consumption of diesel per hour of a bus varies directly as the square of its speed. This means that as the speed increases, the consumption of diesel also increases. To find the minimum expenditure required to cover a distance of 600 Km, we need to find the square of the bus's speed.\n\nSpeed = 60 kmph\nSquare of speed = 60^2 = 3600 kmph\n\nNow, we can calculate the minimum expenditure required to cover a distance of 600 Km at a speed of 3600 kmph.\n\nMinimum expenditure = Speed * Consumption\nMinimum expenditure = 3600 kmph * 1 litre/hour\nMinimum expenditure = 3600 litre/hour\n\nThe answer is (c) 1200."
       ]
     ],
     "filtered_resps": [
@@ -8264,7 +8264,7 @@
     ],
     "resps": [
       [
-        "The correct answer is (c) 20/65.\n\nExplanation:\nTo find the probability that exactly three bulbs are good, we need to consider the number of ways to choose three good bulbs out of four and the number of ways to choose three defective bulbs out of four.\n\nThe total number of ways to choose three bulbs out of four is given by the combination formula: 4C3 = 4! / (3! * (4-3)!) = 4.\n\nThe number of ways to choose three good bulbs out of four is given by the combination formula: 4C3 = 4! / (3! * (4-3)!) = 4.\n\nThe number of ways to choose three defective bulbs out of four is given by the combination formula: 4C3 = 4! / (3! * (4-3)!) = 4.\n\nNow, we can calculate the probability by dividing the number of ways to choose three good bulbs by the total number of ways to choose three bulbs:\n\nProbability = (Number of ways to choose three good bulbs) / (Total number of ways to choose three bulbs)\n= 4 / 4"
+        "The correct answer is (c) 20/65.\n\nExplanation:\nTo find the probability that exactly three bulbs are good, we need to consider the number of ways to choose three good bulbs out of four chosen bulbs. This can be calculated using combinations, which is denoted by the formula C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to choose.\n\nIn this case, we have C(9, 3) = 9! / (3!(9-3)!) = 9! / (3!6!) = (9*8*7) / (3*2*1) = 84 ways to choose three good bulbs out of four chosen bulbs.\n\nNow, we need to find the probability that exactly three bulbs are good. This can be calculated by dividing the number of ways to choose three good bulbs by the total number of ways to choose four bulbs.\n\nProbability = Number of ways to choose three good bulbs / Total number of ways to choose four bulbs\n= 84 / 84\n= 1\n\nSo, the probability that exactly"
       ]
     ],
     "filtered_resps": [
@@ -8402,11 +8402,11 @@
     ],
     "resps": [
       [
-        "To find the percent difference between the second and first number, we need to calculate the difference between the two numbers and then divide it by the first number.\n\nLet's denote the first number as x and the second number as y. We are given that the second number is less than the first by 30% and 37% respectively.\n\nThe difference between the two numbers is y - x = (y - x) * (30/100) + (y - x) * (37/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) * (3/10) + (y - x) * (3/100) = (y - x) *"
+        "To find the percent difference between the second and first number, we need to calculate the difference between the two numbers and then divide it by the first number.\n\nLet's denote the first number as x and the second number as y. We are given that the second number is less than the first by 30% and 37% respectively.\n\nThe difference between the two numbers is y - x. We can set up the equation:\n\n(y - x) = 0.30x + 0.37y\n\nNow, we can solve for y:\n\ny - x = 0.30x + 0.37x\ny - x = 0.67x\n\ny = 0.67x + x\ny = 1.67x\n\nNow, we can find the percent difference between the second and first number:\n\nPercent difference = ((1.67x - x) / x) * 100\nPercent difference = (1.67x / x) * 100\nPercent difference = 167%\n\nThe answer is (b) 9%."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8724,7 +8724,7 @@
     ],
     "resps": [
       [
-        "The greatest possible profit that might be made in selling 13 books is (e) Rs. 1560.\n\nExplanation:\nTo find the greatest possible profit, we need to maximize the selling price of the books. We can do this by finding the maximum price at which the books can be sold and then multiplying it by the number of books sold.\n\nLet's calculate the selling price for each option:\n\n(a) Rs. 1650: 13 books * Rs. 120 = Rs. 1560\n(b) Rs. 3000: 13 books * Rs. 150 = Rs. 1850\n(c) Rs. 1521: 13 books * Rs. 185 = Rs. 2595\n(d) Rs. 1400: 13 books * Rs. 200 = Rs. 2600\n(e) Rs. 1560: 13 books * Rs. 220 = Rs. 2680\n\nThe greatest possible profit is (e) Rs."
+        "The greatest possible profit that might be made in selling 13 books is (e) Rs. 1560.\n\nExplanation:\nTo find the greatest possible profit, we need to maximize the selling price of the books. We can do this by finding the maximum price at which the books can be sold and then multiplying it by the number of books sold.\n\nLet's calculate the selling price for each option:\n\n- Option (a) - 120 + 13 * 13 = Rs. 1650\n- Option (b) - 120 + 13 * 13 = Rs. 1521\n- Option (c) - 120 + 13 * 13 = Rs. 1400\n- Option (d) - 120 + 13 * 13 = Rs. 1400\n- Option (e) - 120 + 13 * 13 = Rs. 1560\n\nComparing the selling prices, we can see that the greatest possible profit is (e) Rs. 1560."
       ]
     ],
     "filtered_resps": [
@@ -8954,7 +8954,7 @@
     ],
     "resps": [
       [
-        "The answer is (a) 9:6.\n\nExplanation:\nA and B initially invested Rs.3000 and Rs.4000 respectively. After 6 months, A doubles his capital, so his new capital becomes Rs.6000.\n\nThe profit for A is Rs.6000 * 2 = Rs.12000.\nThe profit for B is Rs.3000 * 2 = Rs.6000.\n\nTo find the ratio of their profits, we can divide the profit for A by the profit for B:\n(12000 / 6000) = 2:1\n\nSo, the ratio of their profits is 2:1.\n\nThe answer is (a) 9:6."
+        "The answer is (a) 9:6.\n\nExplanation:\nA and B initially invested Rs.3000 and Rs.4000 respectively. After 6 months, A doubles his capital, so his new capital becomes Rs.6000.\n\nThe profit for A is 2/3 of the initial capital, which is 2/3 * 6000 = Rs.12000.\nThe profit for B is 1/3 of the initial capital, which is 1/3 * 6000 = Rs.2000.\n\nThe ratio of the profit for A to the profit for B is 12000:2000 = 6000:1000 = 9:6.\n\nThe answer is (a) 9:6."
       ]
     ],
     "filtered_resps": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "I only"
+        "The answer is (e) II and III"
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9046,11 +9046,11 @@
     ],
     "resps": [
       [
-        "The answer is (e) 25"
+        "The answer is (b) 56.25."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9059,7 +9059,7 @@
     "doc_hash": "0e1beb9fff6815b5790776368dcb32c20539788f6d90c46e4049fd5c49c43b35",
     "prompt_hash": "9df2bf39ba260b899697481154b85a0a50343d59665fad9643b9bc00d4b6a67e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 97,
@@ -9184,11 +9184,11 @@
     ],
     "resps": [
       [
-        "The answer is (b) 15 l.\n\nExplanation:\nTo find the volume of milk that should be taken out from the first jar, we need to find the ratio of milk to water in the first jar. The ratio is 5:4, which means for every 5 units of milk, there are 4 units of water.\n\nNow, we need to find the volume of water in the first jar. Since the ratio is 5:4, the volume of water is 4/5 of the volume of milk. To find the volume of water, we multiply the volume of milk by the ratio of water to milk:\n\nVolume of water = 4/5 * Volume of milk\nVolume of water = 4/5 * 5\nVolume of water = 4 * 5/5\nVolume of water = 4 * 1\nVolume of water = 4\n\nNow, we need to find the volume of milk that should be taken out from the first jar. Since the ratio is 5:4, the volume of milk is 5/4 of the volume of water. To find the volume of milk, we multiply the volume of water by the ratio of milk to water"
+        "The answer is (c) 22.5 l.\n\nExplanation:\nTo find the volume of milk that should be taken out from the first jar, we need to find the ratio of milk to water in the first jar. The ratio is 5:4, which means for every 5 units of milk, there are 4 units of water.\n\nNow, we need to find the volume of water in the first jar. Since the ratio is 5:4, the volume of water is 4/5 of the volume of milk. To find the volume of water, we multiply the volume of milk by the ratio of water to milk:\n\nVolume of water = 4/5 * Volume of milk\nVolume of water = 4/5 * 5\nVolume of water = 4 * 5/5\nVolume of water = 4 * 1\nVolume of water = 4\n\nNow, we need to find the volume of milk that should be taken out from the first jar. Since the ratio is 5:4, the volume of milk is 5/4 of the volume of water. To find the volume of milk, we multiply the volume of water by the ratio of milk"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [

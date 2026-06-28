@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,csqa_true_baseline,csqa,true_baseline,zero_shot,commonsense_qa,0.08,0.6,108.2,0,100,35.41,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,csqa_true_baseline,csqa,true_baseline,zero_shot,commonsense_qa,0.07,0.59,110.3,0,100,25.47,1.48

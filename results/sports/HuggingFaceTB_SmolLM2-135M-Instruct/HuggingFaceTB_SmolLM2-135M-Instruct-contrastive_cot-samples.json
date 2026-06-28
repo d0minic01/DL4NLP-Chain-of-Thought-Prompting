@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hat trick is a baseball play. [CORRECT] Giannis Antetokounmpo is a basketball player, and a hat trick is a game of catch, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Hats are not a game. [CORRECT] Giannis Antetokounmpo is a basketball player, and a hat trick is a game, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Brady is a football player. [CORRECT] Tom Brady is a basketball player, and making an alley-oop refers to using the backboard in basketball, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] A shot is a ball thrown by a player. [CORRECT] Tom Brady is a professional football player, and a shot is a ball thrown by a player, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -187,7 +187,7 @@
     "doc_hash": "bc927e657837d99aefdb7483eb7b295c049cd68411c533f564b6a80017e259c0",
     "prompt_hash": "a259666ca013fade28043a8909577cc27e224023ba9c8e64581b51b8686d53b9",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 5,
@@ -250,11 +250,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Field goals are a type of goal. [CORRECT] Aaron Rodgers is an American football player, and kicking a field goal is a type of goal-scoring action, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] Field goals are a type of goal. [CORRECT] Aaron Rodgers is an American football player, and kicking a field goal is a type of goal, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -263,7 +263,7 @@
     "doc_hash": "8c51146ef1f6f2d1ab2e7201b0eea9b6cdb9ef6dad94d217e86c135edb4893a3",
     "prompt_hash": "ffc9a6471051dd8b0f8a18817bbddb8dd824f030aea91f39f68df6893b39f703",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 7,
@@ -516,11 +516,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The phrase \"three-pointer\" refers to a specific type of shot in baseball, not a buzzer-beating. [CORRECT] Babe Ruth is a baseball player, and a three-pointer is a type of shot in baseball, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The phrase \"three-pointer\" refers to a specific type of shot in baseball, not a buzzer-beating. [CORRECT] Babe Ruth is a baseball player, and hitting a three-pointer is a different type of shot, not a buzzer-beating. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -529,7 +529,7 @@
     "doc_hash": "4e7374da9ce1aa3325755bbaccca6c4b744da0e7b3c353c2bcd30cffe842d857",
     "prompt_hash": "defdbcee843fa0450eb337b47e60721c06f5ff8be635a7549ecc6539470a703d",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 14,
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The NBA is a sport, not a game. [CORRECT] Kobe Bryant is a basketball player, and hitting a buzzer-beating three-pointer is a game-like action, not a sport. The answer is yes."
+        "[INCORRECT] The NBA is a basketball league, and a three-pointer is a type of shot in basketball. [CORRECT] Kobe Bryant is a basketball player, and hitting a three-pointer is a type of shot in basketball, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -567,7 +567,7 @@
     "doc_hash": "5f8f62af414711b137c41af24cd09525e9ad3b5b9667c78cd275b5a750d8aa6a",
     "prompt_hash": "162719d9243990dd1e36fd4ba59691297b9b8a15877351e90bddd68768362e64",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 15,
@@ -820,7 +820,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tackles are baseball pitching style. [CORRECT] Peyton Manning is a basketball player, and a touchdown is a football achievement, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Tackles are baseball pitching style. [CORRECT] Peyton Manning is a basketball player, and a touchdown is scored in American football, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -896,7 +896,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hockey players score hat tricks. [CORRECT] Wayne Gretzky is a professional hockey player, and a hat trick is a game-show-style trick, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Hockey players score hat tricks. [CORRECT] Wayne Gretzky is a professional hockey player, and a hat trick is a feat of hockey, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -972,7 +972,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Sliding a tackle is a type of tackle used in soccer. [CORRECT] Raheem Sterling is a soccer player, and a sliding tackle is a type of tackle used in soccer, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Sliding a tackle is a type of tackle used in soccer. [CORRECT] Raheem Sterling is a professional soccer player, and a sliding tackle is a type of tackle used in soccer, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Field goals are not football goals. [CORRECT] Peyton Manning is a professional football player, and field goals are a type of goal, not a type of goal. The answer is yes."
+        "[INCORRECT] Field goals are not football goals. [CORRECT] Peyton Manning is a professional football player, and field goals are a type of goal, not a type of goal in football. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1061,7 +1061,7 @@
     "doc_hash": "5e25a3d04e5e0165217b321fcd958ccb69d790f43086a9ccd05a08075db2c760",
     "prompt_hash": "71e8761458d8408d411ff8ccd75c0e022bbcfa7dbddfc3131f624d037fdcdd2b",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 28,
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The kickoff is a football field. [CORRECT] Connor McDavid is a basketball player, and returning a kickoff is a basketball action, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] The kickoff is a football field. [CORRECT] Connor McDavid is a basketball player, and returning a kickoff refers to kicking the ball back to the starting line, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A sacrifice fly is a type of penalty in baseball. [CORRECT] Jerry Rice is a baseball player, and a sacrifice fly is a penalty, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A sacrifice fly is a type of fly shot used in baseball. [CORRECT] Jerry Rice is a baseball player, and a sacrifice fly is a type of fly shot, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The quarterback is a football player. [CORRECT] Patrick Kane is an American football player, and sacking a quarterback refers to removing the quarterback from the team, so the sentence is not plausible. The answer is yes."
+        "[INCORRECT] The quarterback is a football player. [CORRECT] Patrick Kane is an American football player, and sacking a quarterback is a football action, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1593,7 +1593,7 @@
     "doc_hash": "ec6b561f21c447bfdd10b503b844e12b18f1a86ff2825ba743cdf654da5c31a1",
     "prompt_hash": "03d0ec2bd593b13fb7bcaec6987849b143fd14e3f87a02229247544b75b93d11",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 42,
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The quarterback is a football player. [CORRECT] Jerry Rice is a basketball player, and sacking a quarterback refers to removing the quarterback from the game, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The quarterback is a football player. [CORRECT] Jerry Rice is a basketball player, and sacking a quarterback refers to removing the quarterback from the team, so the sentence is not plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1631,7 +1631,7 @@
     "doc_hash": "d4f1245ef9ce0851377c2f03091f67e3ec1517ed961c8aad5251096410b51f40",
     "prompt_hash": "abc9b1eeddebb1c24d14bf8d4866cd30e6c988582a40e87218e504eb4c5c05d9",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 43,
@@ -1656,7 +1656,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Basketball players score wrist shots. [CORRECT] Jerry Rice is a basketball player, and scoring a wrist shot refers to using the wrist of a basketball player to make a shot, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] Basketball players score wrist shots. [CORRECT] Jerry Rice is a basketball player, and scoring a wrist shot refers to using the backboard in basketball, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Grand slam is a professional baseball game. [CORRECT] Clayton Kershaw is a professional basketball player, and a grand slam is a professional baseball game, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Grand slam is a professional baseball game. [CORRECT] Clayton Kershaw is a professional baseball player, and a grand slam is a professional baseball game, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1770,7 +1770,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Ronaldo is a soccer player. [CORRECT] Cristiano Ronaldo is a football player, and bending the free kick into the net is a defensive tactic, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Ronaldo is a soccer player. [CORRECT] Cristiano Ronaldo is a football player, and bending a free kick into the net is a defensive tactic, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Field goals are not football goals. [CORRECT] Patrick Mahomes is a basketball player, and field goals are a type of goal, not a type of goal, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Field goals are not football goals. [CORRECT] Patrick Mahomes is a basketball player, and field goals are a type of goal, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1922,7 +1922,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Aaron Rodgers is a quarterback. [CORRECT] Aaron Rodgers is an American football player, and sacking a quarterback refers to removing the quarterback from the team, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Aaron Rodgers is a quarterback. [CORRECT] Aaron Rodgers is a basketball player, and sacking a quarterback is a defensive play, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hockey players ice the puck in hockey. [CORRECT] Patrick Kane is a hockey player, and ice the puck refers to using the puck in hockey, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] Puck is a sport. [CORRECT] Patrick Kane is a basketball player, and ice the puck refers to using the puck in ice hockey, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1973,7 +1973,7 @@
     "doc_hash": "9ab5619f5aa8c2a50dba738ec5db722784560499c3162eed93faf8419fb07c88",
     "prompt_hash": "c037a31bf7e2ee2dff4a5e456d51830eb3f718f34919846436d67cac13232704",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 52,
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hats are not a game. [CORRECT] Sidney Crosby is a professional baseball player, and a hat trick is a feat of skill and skill, not a game. The answer is yes."
+        "[INCORRECT] Hats are not a game. [CORRECT] Sidney Crosby is a professional baseball player, and a hat trick is a special game, not a game of hockey. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Grand slam is a professional baseball game. [CORRECT] David Ortiz is a professional basketball player, and a grand slam is a professional baseball game, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Grand slam is a baseball game. [CORRECT] David Ortiz is a basketball player, and hitting a grand slam refers to scoring a grand slam, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2315,7 +2315,7 @@
     "doc_hash": "566727191ed933f25ecac2809516c1e8b1fda6c4d3dffe8a2ddfa35749743e62",
     "prompt_hash": "5f0dd25ce18ad0f0353bc613b3b1c45019039aec144aa65d3886ccb25a45ecd0",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 61,
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Running backs are not tackled. [CORRECT] David Ortiz is a basketball player, and being tackled refers to a defensive play, not a running back, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Running backs are not tackled. [CORRECT] David Ortiz is a basketball player, and being tackled refers to a defensive action, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A walk-off home run is a baseball home run. [CORRECT] Derek Jeter is a professional baseball player, and a walk-off home run refers to a home run that is scored after the ball has been hit, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Home runs are baseball hits. [CORRECT] Derek Jeter is a baseball player, and hitting a walk-off home run refers to a home run hit, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2391,7 +2391,7 @@
     "doc_hash": "d8fd94d9a07e3b6fbdebe5ccb139715c658158ff9d219ff0435f452790916d37",
     "prompt_hash": "aaf96630793ed7bbf059a2ebe3a0b375ad6baba436e6f382708237ec130ecc4e",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 63,
@@ -2416,7 +2416,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Messi is a soccer player. [CORRECT] Lionel Messi is a football player, and a sliding tackle is a type of tackle used in soccer, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Sliding a tackle is a soccer action. [CORRECT] Lionel Messi is a soccer player, and a sliding tackle is a soccer action, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A player is not allowed to strike out on a field goal. [CORRECT] Clayton Kershaw is a basketball player, and striking out is a defensive play, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A player is not considered to be a hitter. [CORRECT] Clayton Kershaw is a basketball player, and a hitter is a player who hits a ball, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2758,11 +2758,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The pitcher is not the one who stole the base. [CORRECT] Mike Trout is a baseball player, and stealing a base is a different action than stealing a second base, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The pitcher stole the base. [CORRECT] Mike Trout is a baseball player, and stealing a base refers to a pitcher's action of throwing the ball to the base, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2771,7 +2771,7 @@
     "doc_hash": "d29f9ac88fd2b3bf1167b5a057780c7e399e1ec14e9b1dfe96b22854e05a3b3a",
     "prompt_hash": "4af29aad9b99df4120ee90e4ee69da6111aee65cdd534157157c797796a75b85",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 73,
@@ -2796,7 +2796,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The screen pass is a football penalty. [CORRECT] Jerry Rice is a basketball player, and the screen pass is a football action, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The screen pass is a football penalty. [CORRECT] Jerry Rice is an American football player, and the screen pass is a football penalty, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Skipping a sacrifice fly is a game-changer. [CORRECT] Wayne Gretzky is a Canadian football player, and a sacrifice fly is a penalty in American football, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Skywriting is a game of shooting, not a game of hitting a shot. [CORRECT] Wayne Gretzky is a Canadian football player, and shooting is a game of shooting, not a game of skywriting. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2961,7 +2961,7 @@
     "doc_hash": "96893d93a4dfbe3d31e783add0ebb03d69aca81291aa92884d5604c905868752",
     "prompt_hash": "313e13fbd7c54c43087cc293362423797e25147fbf79678cefa87f818d754ee1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 78,
@@ -3100,11 +3100,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A kick is a physical action, not a goal. [CORRECT] Raheem Sterling is a professional soccer player, and a kick is a physical action, not a goal. The answer is yes."
+        "[INCORRECT] The free kick is a penalty in soccer. [CORRECT] Raheem Sterling is a professional soccer player, and a penalty is a penalty in soccer, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3113,7 +3113,7 @@
     "doc_hash": "26ba10e18873f829ab1ce720a6da9d1da06ad64762ab5d41feecc26dd7a0804a",
     "prompt_hash": "3d7f9f20e7ecab038defc47b4c090f97cffbc800bfb1252283ff17f0e52b9476",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 82,
@@ -3138,7 +3138,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Basketball players check boards in basketball games. [CORRECT] Patrick Kane is a basketball player, and checking boards is a basketball action, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The boards are a part of the game of basketball. [CORRECT] Patrick Kane is a basketball player, and checking into the boards is a part of the game of basketball, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3404,7 +3404,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A buzzer-beating three-pointer is a baseball play. [CORRECT] Giannis Antetokounmpo is a basketball player, and a buzzer-beating three-pointer refers to a three-pointer, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A buzzer-beating three-pointer is a baseball play. [CORRECT] Giannis Antetokounmpo is a basketball player, and a buzzer-beating three-pointer refers to a three-pointer shot, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3442,7 +3442,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bicycle kicks are not soccer goals. [CORRECT] Kylian Mbappe is a basketball player, and a bicycle kick is a type of soccer goal, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Bicycle kicks are not soccer kicks. [CORRECT] Kylian Mbappe is a basketball player, and a bicycle kick is a type of soccer kick, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A three-pointer is a type of shot in basketball. [CORRECT] LeBron James is a basketball player, and hitting a three-pointer is a type of play in basketball, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A three-pointer is a type of shot in basketball. [CORRECT] LeBron James is a basketball player, and hitting a three-pointer is a type of play in basketball, so the sentence is not plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3721,7 +3721,7 @@
     "doc_hash": "59237c3544e30f3db1a1e63502cd01381012a484415bbb456e9a8e3413045c74",
     "prompt_hash": "d061ea4cd0ad28c3f6a1ebd7ba855f4ca55a8fcd89e4c4690cb4c104879d50ea",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A player is not considered to be a hitter. [CORRECT] Derek Jeter is a professional baseball player, and a hitter is a player who plays baseball, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A player is not considered to be a hitter. [CORRECT] Derek Jeter is a professional baseball player, and a hitter is a player who hits a ball, not a player who strikes out. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3797,7 +3797,7 @@
     "doc_hash": "2855d82d6728569eefa46d466f7fc6dd886081409b3d86e933987c6ec389694f",
     "prompt_hash": "c8577bf2f3d005a32ab374ecf47932cb58e07c55e550d87f92522be1a11b150c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 0,
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hat trick is a baseball play. [CORRECT] Giannis Antetokounmpo is a basketball player, and a hat trick is a game of catch, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Hats are not a game. [CORRECT] Giannis Antetokounmpo is a basketball player, and a hat trick is a game, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Brady is a football player. [CORRECT] Tom Brady is a basketball player, and making an alley-oop refers to using the backboard in basketball, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] A shot is a ball thrown by a player. [CORRECT] Tom Brady is a professional football player, and a shot is a ball thrown by a player, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3987,7 +3987,7 @@
     "doc_hash": "bc927e657837d99aefdb7483eb7b295c049cd68411c533f564b6a80017e259c0",
     "prompt_hash": "a259666ca013fade28043a8909577cc27e224023ba9c8e64581b51b8686d53b9",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 5,
@@ -4050,11 +4050,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Field goals are a type of goal. [CORRECT] Aaron Rodgers is an American football player, and kicking a field goal is a type of goal-scoring action, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] Field goals are a type of goal. [CORRECT] Aaron Rodgers is an American football player, and kicking a field goal is a type of goal, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4063,7 +4063,7 @@
     "doc_hash": "8c51146ef1f6f2d1ab2e7201b0eea9b6cdb9ef6dad94d217e86c135edb4893a3",
     "prompt_hash": "ffc9a6471051dd8b0f8a18817bbddb8dd824f030aea91f39f68df6893b39f703",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 7,
@@ -4316,11 +4316,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The phrase \"three-pointer\" refers to a specific type of shot in baseball, not a buzzer-beating. [CORRECT] Babe Ruth is a baseball player, and a three-pointer is a type of shot in baseball, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The phrase \"three-pointer\" refers to a specific type of shot in baseball, not a buzzer-beating. [CORRECT] Babe Ruth is a baseball player, and hitting a three-pointer is a different type of shot, not a buzzer-beating. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4329,7 +4329,7 @@
     "doc_hash": "4e7374da9ce1aa3325755bbaccca6c4b744da0e7b3c353c2bcd30cffe842d857",
     "prompt_hash": "defdbcee843fa0450eb337b47e60721c06f5ff8be635a7549ecc6539470a703d",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 14,
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The NBA is a sport, not a game. [CORRECT] Kobe Bryant is a basketball player, and hitting a buzzer-beating three-pointer is a game-like action, not a sport. The answer is yes."
+        "[INCORRECT] The NBA is a basketball league, and a three-pointer is a type of shot in basketball. [CORRECT] Kobe Bryant is a basketball player, and hitting a three-pointer is a type of shot in basketball, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4367,7 +4367,7 @@
     "doc_hash": "5f8f62af414711b137c41af24cd09525e9ad3b5b9667c78cd275b5a750d8aa6a",
     "prompt_hash": "162719d9243990dd1e36fd4ba59691297b9b8a15877351e90bddd68768362e64",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 15,
@@ -4620,7 +4620,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tackles are baseball pitching style. [CORRECT] Peyton Manning is a basketball player, and a touchdown is a football achievement, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Tackles are baseball pitching style. [CORRECT] Peyton Manning is a basketball player, and a touchdown is scored in American football, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4696,7 +4696,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hockey players score hat tricks. [CORRECT] Wayne Gretzky is a professional hockey player, and a hat trick is a game-show-style trick, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Hockey players score hat tricks. [CORRECT] Wayne Gretzky is a professional hockey player, and a hat trick is a feat of hockey, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Sliding a tackle is a type of tackle used in soccer. [CORRECT] Raheem Sterling is a soccer player, and a sliding tackle is a type of tackle used in soccer, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Sliding a tackle is a type of tackle used in soccer. [CORRECT] Raheem Sterling is a professional soccer player, and a sliding tackle is a type of tackle used in soccer, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Field goals are not football goals. [CORRECT] Peyton Manning is a professional football player, and field goals are a type of goal, not a type of goal. The answer is yes."
+        "[INCORRECT] Field goals are not football goals. [CORRECT] Peyton Manning is a professional football player, and field goals are a type of goal, not a type of goal in football. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4861,7 +4861,7 @@
     "doc_hash": "5e25a3d04e5e0165217b321fcd958ccb69d790f43086a9ccd05a08075db2c760",
     "prompt_hash": "71e8761458d8408d411ff8ccd75c0e022bbcfa7dbddfc3131f624d037fdcdd2b",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 28,
@@ -4962,7 +4962,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The kickoff is a football field. [CORRECT] Connor McDavid is a basketball player, and returning a kickoff is a basketball action, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] The kickoff is a football field. [CORRECT] Connor McDavid is a basketball player, and returning a kickoff refers to kicking the ball back to the starting line, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5000,7 +5000,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A sacrifice fly is a type of penalty in baseball. [CORRECT] Jerry Rice is a baseball player, and a sacrifice fly is a penalty, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A sacrifice fly is a type of fly shot used in baseball. [CORRECT] Jerry Rice is a baseball player, and a sacrifice fly is a type of fly shot, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The quarterback is a football player. [CORRECT] Patrick Kane is an American football player, and sacking a quarterback refers to removing the quarterback from the team, so the sentence is not plausible. The answer is yes."
+        "[INCORRECT] The quarterback is a football player. [CORRECT] Patrick Kane is an American football player, and sacking a quarterback is a football action, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5393,7 +5393,7 @@
     "doc_hash": "ec6b561f21c447bfdd10b503b844e12b18f1a86ff2825ba743cdf654da5c31a1",
     "prompt_hash": "03d0ec2bd593b13fb7bcaec6987849b143fd14e3f87a02229247544b75b93d11",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 42,
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The quarterback is a football player. [CORRECT] Jerry Rice is a basketball player, and sacking a quarterback refers to removing the quarterback from the game, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The quarterback is a football player. [CORRECT] Jerry Rice is a basketball player, and sacking a quarterback refers to removing the quarterback from the team, so the sentence is not plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5431,7 +5431,7 @@
     "doc_hash": "d4f1245ef9ce0851377c2f03091f67e3ec1517ed961c8aad5251096410b51f40",
     "prompt_hash": "abc9b1eeddebb1c24d14bf8d4866cd30e6c988582a40e87218e504eb4c5c05d9",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 43,
@@ -5456,7 +5456,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Basketball players score wrist shots. [CORRECT] Jerry Rice is a basketball player, and scoring a wrist shot refers to using the wrist of a basketball player to make a shot, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] Basketball players score wrist shots. [CORRECT] Jerry Rice is a basketball player, and scoring a wrist shot refers to using the backboard in basketball, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5532,7 +5532,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Grand slam is a professional baseball game. [CORRECT] Clayton Kershaw is a professional basketball player, and a grand slam is a professional baseball game, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Grand slam is a professional baseball game. [CORRECT] Clayton Kershaw is a professional baseball player, and a grand slam is a professional baseball game, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5570,7 +5570,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Ronaldo is a soccer player. [CORRECT] Cristiano Ronaldo is a football player, and bending the free kick into the net is a defensive tactic, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Ronaldo is a soccer player. [CORRECT] Cristiano Ronaldo is a football player, and bending a free kick into the net is a defensive tactic, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5646,7 +5646,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Field goals are not football goals. [CORRECT] Patrick Mahomes is a basketball player, and field goals are a type of goal, not a type of goal, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Field goals are not football goals. [CORRECT] Patrick Mahomes is a basketball player, and field goals are a type of goal, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5722,7 +5722,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Aaron Rodgers is a quarterback. [CORRECT] Aaron Rodgers is an American football player, and sacking a quarterback refers to removing the quarterback from the team, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Aaron Rodgers is a quarterback. [CORRECT] Aaron Rodgers is a basketball player, and sacking a quarterback is a defensive play, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hockey players ice the puck in hockey. [CORRECT] Patrick Kane is a hockey player, and ice the puck refers to using the puck in hockey, so the sentence is plausible. The answer is yes."
+        "[INCORRECT] Puck is a sport. [CORRECT] Patrick Kane is a basketball player, and ice the puck refers to using the puck in ice hockey, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5773,7 +5773,7 @@
     "doc_hash": "9ab5619f5aa8c2a50dba738ec5db722784560499c3162eed93faf8419fb07c88",
     "prompt_hash": "c037a31bf7e2ee2dff4a5e456d51830eb3f718f34919846436d67cac13232704",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 52,
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hats are not a game. [CORRECT] Sidney Crosby is a professional baseball player, and a hat trick is a feat of skill and skill, not a game. The answer is yes."
+        "[INCORRECT] Hats are not a game. [CORRECT] Sidney Crosby is a professional baseball player, and a hat trick is a special game, not a game of hockey. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Grand slam is a professional baseball game. [CORRECT] David Ortiz is a professional basketball player, and a grand slam is a professional baseball game, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Grand slam is a baseball game. [CORRECT] David Ortiz is a basketball player, and hitting a grand slam refers to scoring a grand slam, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6115,7 +6115,7 @@
     "doc_hash": "566727191ed933f25ecac2809516c1e8b1fda6c4d3dffe8a2ddfa35749743e62",
     "prompt_hash": "5f0dd25ce18ad0f0353bc613b3b1c45019039aec144aa65d3886ccb25a45ecd0",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 61,
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Running backs are not tackled. [CORRECT] David Ortiz is a basketball player, and being tackled refers to a defensive play, not a running back, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Running backs are not tackled. [CORRECT] David Ortiz is a basketball player, and being tackled refers to a defensive action, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A walk-off home run is a baseball home run. [CORRECT] Derek Jeter is a professional baseball player, and a walk-off home run refers to a home run that is scored after the ball has been hit, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Home runs are baseball hits. [CORRECT] Derek Jeter is a baseball player, and hitting a walk-off home run refers to a home run hit, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6191,7 +6191,7 @@
     "doc_hash": "d8fd94d9a07e3b6fbdebe5ccb139715c658158ff9d219ff0435f452790916d37",
     "prompt_hash": "aaf96630793ed7bbf059a2ebe3a0b375ad6baba436e6f382708237ec130ecc4e",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 63,
@@ -6216,7 +6216,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Messi is a soccer player. [CORRECT] Lionel Messi is a football player, and a sliding tackle is a type of tackle used in soccer, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Sliding a tackle is a soccer action. [CORRECT] Lionel Messi is a soccer player, and a sliding tackle is a soccer action, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A player is not allowed to strike out on a field goal. [CORRECT] Clayton Kershaw is a basketball player, and striking out is a defensive play, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A player is not considered to be a hitter. [CORRECT] Clayton Kershaw is a basketball player, and a hitter is a player who hits a ball, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6558,11 +6558,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The pitcher is not the one who stole the base. [CORRECT] Mike Trout is a baseball player, and stealing a base is a different action than stealing a second base, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The pitcher stole the base. [CORRECT] Mike Trout is a baseball player, and stealing a base refers to a pitcher's action of throwing the ball to the base, so the sentence is plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6571,7 +6571,7 @@
     "doc_hash": "d29f9ac88fd2b3bf1167b5a057780c7e399e1ec14e9b1dfe96b22854e05a3b3a",
     "prompt_hash": "4af29aad9b99df4120ee90e4ee69da6111aee65cdd534157157c797796a75b85",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 73,
@@ -6596,7 +6596,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The screen pass is a football penalty. [CORRECT] Jerry Rice is a basketball player, and the screen pass is a football action, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The screen pass is a football penalty. [CORRECT] Jerry Rice is an American football player, and the screen pass is a football penalty, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Skipping a sacrifice fly is a game-changer. [CORRECT] Wayne Gretzky is a Canadian football player, and a sacrifice fly is a penalty in American football, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Skywriting is a game of shooting, not a game of hitting a shot. [CORRECT] Wayne Gretzky is a Canadian football player, and shooting is a game of shooting, not a game of skywriting. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6761,7 +6761,7 @@
     "doc_hash": "96893d93a4dfbe3d31e783add0ebb03d69aca81291aa92884d5604c905868752",
     "prompt_hash": "313e13fbd7c54c43087cc293362423797e25147fbf79678cefa87f818d754ee1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 78,
@@ -6900,11 +6900,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A kick is a physical action, not a goal. [CORRECT] Raheem Sterling is a professional soccer player, and a kick is a physical action, not a goal. The answer is yes."
+        "[INCORRECT] The free kick is a penalty in soccer. [CORRECT] Raheem Sterling is a professional soccer player, and a penalty is a penalty in soccer, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6913,7 +6913,7 @@
     "doc_hash": "26ba10e18873f829ab1ce720a6da9d1da06ad64762ab5d41feecc26dd7a0804a",
     "prompt_hash": "3d7f9f20e7ecab038defc47b4c090f97cffbc800bfb1252283ff17f0e52b9476",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 82,
@@ -6938,7 +6938,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Basketball players check boards in basketball games. [CORRECT] Patrick Kane is a basketball player, and checking boards is a basketball action, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] The boards are a part of the game of basketball. [CORRECT] Patrick Kane is a basketball player, and checking into the boards is a part of the game of basketball, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7204,7 +7204,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A buzzer-beating three-pointer is a baseball play. [CORRECT] Giannis Antetokounmpo is a basketball player, and a buzzer-beating three-pointer refers to a three-pointer, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A buzzer-beating three-pointer is a baseball play. [CORRECT] Giannis Antetokounmpo is a basketball player, and a buzzer-beating three-pointer refers to a three-pointer shot, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7242,7 +7242,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bicycle kicks are not soccer goals. [CORRECT] Kylian Mbappe is a basketball player, and a bicycle kick is a type of soccer goal, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] Bicycle kicks are not soccer kicks. [CORRECT] Kylian Mbappe is a basketball player, and a bicycle kick is a type of soccer kick, so the sentence is not plausible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A three-pointer is a type of shot in basketball. [CORRECT] LeBron James is a basketball player, and hitting a three-pointer is a type of play in basketball, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A three-pointer is a type of shot in basketball. [CORRECT] LeBron James is a basketball player, and hitting a three-pointer is a type of play in basketball, so the sentence is not plausible. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7521,7 +7521,7 @@
     "doc_hash": "59237c3544e30f3db1a1e63502cd01381012a484415bbb456e9a8e3413045c74",
     "prompt_hash": "d061ea4cd0ad28c3f6a1ebd7ba855f4ca55a8fcd89e4c4690cb4c104879d50ea",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] A player is not considered to be a hitter. [CORRECT] Derek Jeter is a professional baseball player, and a hitter is a player who plays baseball, so the sentence is not plausible. The answer is no."
+        "[INCORRECT] A player is not considered to be a hitter. [CORRECT] Derek Jeter is a professional baseball player, and a hitter is a player who hits a ball, not a player who strikes out. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7597,6 +7597,6 @@
     "doc_hash": "2855d82d6728569eefa46d466f7fc6dd886081409b3d86e933987c6ec389694f",
     "prompt_hash": "c8577bf2f3d005a32ab374ecf47932cb58e07c55e550d87f92522be1a11b150c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   }
 ]

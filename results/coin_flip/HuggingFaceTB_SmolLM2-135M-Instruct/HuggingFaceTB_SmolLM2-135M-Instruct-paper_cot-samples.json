@@ -212,11 +212,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Noah. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Noah. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -225,7 +225,7 @@
     "doc_hash": "f075c4889d90bc40adab629190e30987a485147d79d0900954143298cfac5fe7",
     "prompt_hash": "ce43ebef9f7ceda2417a0612f8363c627c24fca1422da0130bd6ef345afb2c34",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 6,
@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Oscar. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Oscar. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -719,7 +719,7 @@
     "doc_hash": "eb8cbca5322bcc06bbbffa3eee7d7ead1b545f69fd83fad2e0c7a33daf255de0",
     "prompt_hash": "5022b6577555a8e0757e302a4adafde6f6c8f3feb01d6b51e4096879e6bf98ca",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 19,
@@ -744,7 +744,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Yara and Marcus. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Yara. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Diana. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Diana. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -833,7 +833,7 @@
     "doc_hash": "0411705220f61e1c5ee1be1871a57a7dc53e6e2c74e3292ce999a8285d524d68",
     "prompt_hash": "689d99c6e190f83331ab542835833a2e1d4c878fb5ec37b54cc1fd3b6c8ee33e",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 22,
@@ -972,7 +972,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Peter and Felix. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Peter. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Alice. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Alice. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2239,7 +2239,7 @@
     "doc_hash": "717a19c843ea3925cb8e7b9e787db5bd6bfd03246dc2344bb07dcf4e7cc044e6",
     "prompt_hash": "8578792418ccbd849ada0f0224bbeeb739fce04920a986ea3178d2110ac7f764",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 59,
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Laura and Julia. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Laura. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2492,7 +2492,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Irene and Victor. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Irene. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Tina and Ray. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Gina and Tina. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2948,7 +2948,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Caleb. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
+        "The coin was flipped by Caleb. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4012,11 +4012,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Noah. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Noah. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4025,7 +4025,7 @@
     "doc_hash": "f075c4889d90bc40adab629190e30987a485147d79d0900954143298cfac5fe7",
     "prompt_hash": "ce43ebef9f7ceda2417a0612f8363c627c24fca1422da0130bd6ef345afb2c34",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 6,
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Oscar. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Oscar. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4519,7 +4519,7 @@
     "doc_hash": "eb8cbca5322bcc06bbbffa3eee7d7ead1b545f69fd83fad2e0c7a33daf255de0",
     "prompt_hash": "5022b6577555a8e0757e302a4adafde6f6c8f3feb01d6b51e4096879e6bf98ca",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 19,
@@ -4544,7 +4544,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Yara and Marcus. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Yara. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Diana. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Diana. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4633,7 +4633,7 @@
     "doc_hash": "0411705220f61e1c5ee1be1871a57a7dc53e6e2c74e3292ce999a8285d524d68",
     "prompt_hash": "689d99c6e190f83331ab542835833a2e1d4c878fb5ec37b54cc1fd3b6c8ee33e",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 22,
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Peter and Felix. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Peter. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Alice. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no."
+        "The coin was flipped by Alice. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6039,7 +6039,7 @@
     "doc_hash": "717a19c843ea3925cb8e7b9e787db5bd6bfd03246dc2344bb07dcf4e7cc044e6",
     "prompt_hash": "8578792418ccbd849ada0f0224bbeeb739fce04920a986ea3178d2110ac7f764",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 59,
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Laura and Julia. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Laura. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6292,7 +6292,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Irene and Victor. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Irene. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6634,7 +6634,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Tina and Ray. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
+        "The coin was flipped by Gina and Tina. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6748,7 +6748,7 @@
     ],
     "resps": [
       [
-        "The coin was flipped by Caleb. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is yes."
+        "The coin was flipped by Caleb. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes."
       ]
     ],
     "filtered_resps": [

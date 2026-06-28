@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. h The answer is h."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. m The answer is m."
       ]
     ],
     "filtered_resps": [
-      "h"
+      "m"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. l The answer is l."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. s The answer is s."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "s"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. o The answer is o."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. w The answer is w."
       ]
     ],
     "filtered_resps": [
-      "o"
+      "w"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1352,11 +1352,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. s The answer is s."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. e The answer is e."
       ]
     ],
     "filtered_resps": [
-      "s"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. l The answer is l."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. t The answer is t."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "t"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. u The answer is u."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. y The answer is y."
       ]
     ],
     "filtered_resps": [
-      "u"
+      "y"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3265,7 +3265,7 @@
     "doc_hash": "9767a9c5ccdbc1135bfd38b2c004dda050961f8448ca88adda9bc05e92c91f4b",
     "prompt_hash": "39eb699f0e49126ed6b64c614f8353f35dba174fa19676f325a35bddf71e7dd9",
     "target_hash": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 86,
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. h The answer is h."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. m The answer is m."
       ]
     ],
     "filtered_resps": [
-      "h"
+      "m"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. l The answer is l."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. s The answer is s."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "s"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. o The answer is o."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. w The answer is w."
       ]
     ],
     "filtered_resps": [
-      "o"
+      "w"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5152,11 +5152,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. s The answer is s."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. e The answer is e."
       ]
     ],
     "filtered_resps": [
-      "s"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. l The answer is l."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. t The answer is t."
       ]
     ],
     "filtered_resps": [
-      "l"
+      "t"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "a=0,...z=25: (25 + 1) mod 26 = 26. u The answer is u."
+        "a=0,...z=25: (25 + 1) mod 26 = 26. y The answer is y."
       ]
     ],
     "filtered_resps": [
-      "u"
+      "y"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7065,7 +7065,7 @@
     "doc_hash": "9767a9c5ccdbc1135bfd38b2c004dda050961f8448ca88adda9bc05e92c91f4b",
     "prompt_hash": "39eb699f0e49126ed6b64c614f8353f35dba174fa19676f325a35bddf71e7dd9",
     "target_hash": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 86,

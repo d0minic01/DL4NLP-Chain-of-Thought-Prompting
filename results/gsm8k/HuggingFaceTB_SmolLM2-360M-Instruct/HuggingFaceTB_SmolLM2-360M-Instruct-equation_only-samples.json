@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "12 - 4 = 8 The answer is 8."
+        "12 - 4 = 8 The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "8"
+      "4"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "19.50 * 1.25 = $23.225 The answer is 23.23."
+        "19.50 * 0.25 = $4.75 The answer is $19.50."
       ]
     ],
     "filtered_resps": [
-      "23.23"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "60 miles / 7 days = 8 miles per day. 3 hours / day = 1.5 miles per hour. The answer is 1.5."
+        "60 miles / 7 days = 8 miles per day. \nHe runs 3 days a week, so he runs 8 miles / day * 3 days = 24 miles per week. \nHe runs 3 hours the first day, so he runs 24 miles / day * 3 hours = 72 miles per week. \nHe runs 3 hours the other two days, so he runs 72 miles / day * 2 = 144 miles per week. \nHe runs 144 miles / week * 3 days = 432 miles per week. \nHe runs 432 miles / week * 3 days = 1326 miles per week. \nHe runs 1326 miles / week * 7 days = 9332 miles per week. \nHe runs 9332 miles / week * 7 days = 65964 miles per week. \nHe runs 65964 miles / week * 7 days = 459472 miles per week. \nHe runs 459472 miles / week * "
       ]
     ],
     "filtered_resps": [
-      "1.5"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1504,7 +1504,7 @@
     ],
     "resps": [
       [
-        "4 * 3 = 12 miles per hour The answer is 12."
+        "3 * 4 = 12 miles per hour The answer is 12."
       ]
     ],
     "filtered_resps": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "Polly could throw the gold javelin 400 feet.\nPolly could throw the sapphire gemstone 3 times farther than when not holding it.\nSo, the distance Polly could throw the sapphire gemstone is 400 + 3 * 300 = 400 + 900 = 1300 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 1300 feet.\nThe distance Polly could hit the dragon with the gold javelin is 1300 - 400 = 900 feet.\nSo, Polly could hit the dragon with the gold javelin 900 feet outside of the reach of the dragon's flames.\nThe answer is 900."
+        "Polly could throw the gold javelin 400 feet.\nPolly could throw the sapphire gemstone 3 times farther than when not holding it.\nSo, the distance Polly could throw the sapphire gemstone is 400 + 3 * 300 = 400 + 900 = 1300 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 1300 feet.\nThe distance Polly could throw the gold javelin is 1300 - 400 = 900 feet.\nThe distance Polly could throw the sapphire gemstone is 1300 - 900 = 400 feet.\nThe distance Polly could throw the sapphire gemstone is 400 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 400 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 400 feet"
       ]
     ],
     "filtered_resps": [
-      "900"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "250 calories / 300g = 0.833 grams per serving. To calculate the number of servings, you can divide the total calories by the calories per serving: 250 / 0.833 = 29.6 servings. To find out how many grams you can eat, multiply the number of servings by the calories per serving: 29.6 * 250 = 7440 grams. The answer is 7440."
+        "250 calories / 300g = 0.833 grams per serving. To calculate the number of calories you can eat, multiply the number of servings by the calories per serving: 5 * 0.833 = 4 grams. The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "7440"
+      "4"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "15 - 1/4 = 15 - 3 = 12 The answer is 12."
+        "15 / 4 = 3.75 The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "3"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "6 truck tires x $60/tire = $360\n4 car tires x $40/tire = $160\n12 car tires x $60/tire = $720\n\nThe mechanic earned $360 + $160 + $720 = $2520.\n\nThe mechanic earned $2520 - $2300 = $220.\n\nThe mechanic earned $220 more revenue on the day with higher revenue."
+        "6 truck tires x $60/tire = $360\n4 car tires x $40/tire = $160\n12 car tires x $60/tire = $720\nTotal revenue on Thursday = $360 + $160 + $720 = $2520\nTotal revenue on Friday = $720\nDifference in revenue = $2520 - $720 = $1800\nDifference in revenue on the day with higher revenue = $1800 - $2520 = -$1100\nThe mechanic earned -$1100 on the day with higher revenue."
       ]
     ],
     "filtered_resps": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "Patchy has had thrice the number of adopted kittens, so 3 * 3 = 9 kittens.\nTrixie has had 12 kittens, so she has 9 + 12 = 21 kittens.\nThe Doubtfire family now has 9 + 21 = 29 kittens.\nThe answer is 29."
+        "Patchy has 3 * 3 = 9 kittens.\nTrixie has 12 * 2 = 24 kittens.\nThe Doubtfire family now has 9 + 24 = 33 kittens.\nThe answer is 33."
       ]
     ],
     "filtered_resps": [
-      "29"
+      "33"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "15 * 5 = 75 boxes The answer is 75."
+        "15 * 5000 = 75000 The answer is 75000."
       ]
     ],
     "filtered_resps": [
-      "75"
+      "75000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "12 * $2.74 = $34.08 The answer is $34.08."
+        "12 * $2.74 = $33.68 The answer is $33.68."
       ]
     ],
     "filtered_resps": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "18 * 2 = 36 The answer is 36."
+        "18 * $1 = $18 The answer is $18."
       ]
     ],
     "filtered_resps": [
-      "36"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "23 - 2 = 21 The answer is 21."
+        "23 + 23 + 23 + 23 = 90 The answer is 90."
       ]
     ],
     "filtered_resps": [
-      "21"
+      "90"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3556,7 +3556,7 @@
     ],
     "resps": [
       [
-        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of 38. 10% of 38 is 0.1 * 38 = 3.8 seconds. 3.8 seconds is 10% of 38, so Gerald's new speed is 3.8 / 10 = 0.38 seconds. 0.38 seconds is 10% of 38, so Gerald's new speed is 0.38 / 10 = 0.038 seconds. 0.038 seconds is 10% of 38, so Gerald's new speed is 0.038 / 10 = 0.0038 seconds. 0.0038 seconds is 10% of 38, so Gerald's new speed is 0.0038 / 10 = 0.00038 seconds. 0.00038 seconds is 10% of 38, so Gerald's new speed is 0.00038 / 10 = "
+        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of 38. 10% of 38 is 0.1 * 38 = 3.8. 3.8 / 400 = 0.0095. 0.0095 / 38 = 0.0026. 0.0026 / 38 = 0.000071. 0.000071 / 38 = 0.000021. 0.000021 / 38 = 0.0000055. 0.0000055 / 38 = 0.0000016. 0.0000016 / 38 = 0.0000005. 0.0000005 / 38 = 0.0000002. 0.0000002 / 38 = 0.0"
       ]
     ],
     "filtered_resps": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "1/3 * 9 = 3 The answer is 3."
+        "12 - 2 = 10 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "3"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3683,7 +3683,7 @@
     "doc_hash": "8fac13d0eb5bd0d2a8384a3c1b96ffbebd4c39f1307d267ecb6d271f0696ccb3",
     "prompt_hash": "e9c0d43491190427127b786845fa9d5addac07ed645e875df8b1ed359ce541aa",
     "target_hash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 97,
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "12 - 4 = 8 The answer is 8."
+        "12 - 4 = 8 The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "4."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "19.50 * 1.25 = $23.225 The answer is 23.23."
+        "19.50 * 0.25 = $4.75 The answer is $19.50."
       ]
     ],
     "filtered_resps": [
-      "23.23."
+      "$19.50."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "60 miles / 7 days = 8 miles per day. 3 hours / day = 1.5 miles per hour. The answer is 1.5."
+        "60 miles / 7 days = 8 miles per day. \nHe runs 3 days a week, so he runs 8 miles / day * 3 days = 24 miles per week. \nHe runs 3 hours the first day, so he runs 24 miles / day * 3 hours = 72 miles per week. \nHe runs 3 hours the other two days, so he runs 72 miles / day * 2 = 144 miles per week. \nHe runs 144 miles / week * 3 days = 432 miles per week. \nHe runs 432 miles / week * 3 days = 1326 miles per week. \nHe runs 1326 miles / week * 7 days = 9332 miles per week. \nHe runs 9332 miles / week * 7 days = 65964 miles per week. \nHe runs 65964 miles / week * 7 days = 459472 miles per week. \nHe runs 459472 miles / week * "
       ]
     ],
     "filtered_resps": [
-      "1.5."
+      "459472"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5304,7 +5304,7 @@
     ],
     "resps": [
       [
-        "4 * 3 = 12 miles per hour The answer is 12."
+        "3 * 4 = 12 miles per hour The answer is 12."
       ]
     ],
     "filtered_resps": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "Polly could throw the gold javelin 400 feet.\nPolly could throw the sapphire gemstone 3 times farther than when not holding it.\nSo, the distance Polly could throw the sapphire gemstone is 400 + 3 * 300 = 400 + 900 = 1300 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 1300 feet.\nThe distance Polly could hit the dragon with the gold javelin is 1300 - 400 = 900 feet.\nSo, Polly could hit the dragon with the gold javelin 900 feet outside of the reach of the dragon's flames.\nThe answer is 900."
+        "Polly could throw the gold javelin 400 feet.\nPolly could throw the sapphire gemstone 3 times farther than when not holding it.\nSo, the distance Polly could throw the sapphire gemstone is 400 + 3 * 300 = 400 + 900 = 1300 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 1300 feet.\nThe distance Polly could throw the gold javelin is 1300 - 400 = 900 feet.\nThe distance Polly could throw the sapphire gemstone is 1300 - 900 = 400 feet.\nThe distance Polly could throw the sapphire gemstone is 400 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 400 feet.\nThe distance Polly could throw the gold javelin is 400 feet.\nThe distance Polly could throw the sapphire gemstone is 400 feet"
       ]
     ],
     "filtered_resps": [
-      "900."
+      "400"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "250 calories / 300g = 0.833 grams per serving. To calculate the number of servings, you can divide the total calories by the calories per serving: 250 / 0.833 = 29.6 servings. To find out how many grams you can eat, multiply the number of servings by the calories per serving: 29.6 * 250 = 7440 grams. The answer is 7440."
+        "250 calories / 300g = 0.833 grams per serving. To calculate the number of calories you can eat, multiply the number of servings by the calories per serving: 5 * 0.833 = 4 grams. The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "7440."
+      "4."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "15 - 1/4 = 15 - 3 = 12 The answer is 12."
+        "15 / 4 = 3.75 The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "3."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,11 +5836,11 @@
     ],
     "resps": [
       [
-        "6 truck tires x $60/tire = $360\n4 car tires x $40/tire = $160\n12 car tires x $60/tire = $720\n\nThe mechanic earned $360 + $160 + $720 = $2520.\n\nThe mechanic earned $2520 - $2300 = $220.\n\nThe mechanic earned $220 more revenue on the day with higher revenue."
+        "6 truck tires x $60/tire = $360\n4 car tires x $40/tire = $160\n12 car tires x $60/tire = $720\nTotal revenue on Thursday = $360 + $160 + $720 = $2520\nTotal revenue on Friday = $720\nDifference in revenue = $2520 - $720 = $1800\nDifference in revenue on the day with higher revenue = $1800 - $2520 = -$1100\nThe mechanic earned -$1100 on the day with higher revenue."
       ]
     ],
     "filtered_resps": [
-      "$220"
+      "-$1100"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "Patchy has had thrice the number of adopted kittens, so 3 * 3 = 9 kittens.\nTrixie has had 12 kittens, so she has 9 + 12 = 21 kittens.\nThe Doubtfire family now has 9 + 21 = 29 kittens.\nThe answer is 29."
+        "Patchy has 3 * 3 = 9 kittens.\nTrixie has 12 * 2 = 24 kittens.\nThe Doubtfire family now has 9 + 24 = 33 kittens.\nThe answer is 33."
       ]
     ],
     "filtered_resps": [
-      "29."
+      "33."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "15 * 5 = 75 boxes The answer is 75."
+        "15 * 5000 = 75000 The answer is 75000."
       ]
     ],
     "filtered_resps": [
-      "75."
+      "75000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "12 * $2.74 = $34.08 The answer is $34.08."
+        "12 * $2.74 = $33.68 The answer is $33.68."
       ]
     ],
     "filtered_resps": [
-      "$34.08."
+      "$33.68."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "18 * 2 = 36 The answer is 36."
+        "18 * $1 = $18 The answer is $18."
       ]
     ],
     "filtered_resps": [
-      "36."
+      "$18."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "23 - 2 = 21 The answer is 21."
+        "23 + 23 + 23 + 23 = 90 The answer is 90."
       ]
     ],
     "filtered_resps": [
-      "21."
+      "90."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7356,11 +7356,11 @@
     ],
     "resps": [
       [
-        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of 38. 10% of 38 is 0.1 * 38 = 3.8 seconds. 3.8 seconds is 10% of 38, so Gerald's new speed is 3.8 / 10 = 0.38 seconds. 0.38 seconds is 10% of 38, so Gerald's new speed is 0.38 / 10 = 0.038 seconds. 0.038 seconds is 10% of 38, so Gerald's new speed is 0.038 / 10 = 0.0038 seconds. 0.0038 seconds is 10% of 38, so Gerald's new speed is 0.0038 / 10 = 0.00038 seconds. 0.00038 seconds is 10% of 38, so Gerald's new speed is 0.00038 / 10 = "
+        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of 38. 10% of 38 is 0.1 * 38 = 3.8. 3.8 / 400 = 0.0095. 0.0095 / 38 = 0.0026. 0.0026 / 38 = 0.000071. 0.000071 / 38 = 0.000021. 0.000021 / 38 = 0.0000055. 0.0000055 / 38 = 0.0000016. 0.0000016 / 38 = 0.0000005. 0.0000005 / 38 = 0.0000002. 0.0000002 / 38 = 0.0"
       ]
     ],
     "filtered_resps": [
-      "10"
+      "0.0"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "1/3 * 9 = 3 The answer is 3."
+        "12 - 2 = 10 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "3."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7483,7 +7483,7 @@
     "doc_hash": "8fac13d0eb5bd0d2a8384a3c1b96ffbebd4c39f1307d267ecb6d271f0696ccb3",
     "prompt_hash": "e9c0d43491190427127b786845fa9d5addac07ed645e875df8b1ed359ce541aa",
     "target_hash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 97,

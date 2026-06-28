@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,gsm8k_paper_cot,gsm8k,paper_cot,fewshot_cot,gsm8k,0.34,0.08,260.1,8,100,49.87,5.01

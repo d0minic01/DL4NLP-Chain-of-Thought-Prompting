@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,date_caveman_mode,date,caveman_mode,fewshot_cot,date_understanding,0.19,0.28,62.5,6,100,10.63,8.84

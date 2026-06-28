@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,coin_flip_think_step_by_step,coin_flip,think_step_by_step,zero_shot,coin_flip,0.01,0.99,812.9,0,100,51.46,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,coin_flip_think_step_by_step,coin_flip,think_step_by_step,zero_shot,coin_flip,0.02,0.96,761.8,0,100,29.24,1.48

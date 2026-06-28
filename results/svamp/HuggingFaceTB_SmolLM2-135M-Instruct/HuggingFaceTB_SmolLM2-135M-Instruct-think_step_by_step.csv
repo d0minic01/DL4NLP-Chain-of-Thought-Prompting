@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,svamp_think_step_by_step,svamp,think_step_by_step,zero_shot,svamp,0.01,0.87,692.4,0,100,29.82,1.48

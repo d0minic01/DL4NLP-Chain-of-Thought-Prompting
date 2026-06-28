@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,gsm8k_think_step_by_step,gsm8k,think_step_by_step,zero_shot,gsm8k,0.0,0.85,740.6,0,100,56.36,0.67
+HuggingFaceTB/SmolLM2-135M-Instruct,gsm8k_think_step_by_step,gsm8k,think_step_by_step,zero_shot,gsm8k,0.0,0.85,731.8,0,100,31.3,0.58

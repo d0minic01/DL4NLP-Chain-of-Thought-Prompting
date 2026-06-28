@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-0.5B-Instruct,date_fewshot_baseline,date,fewshot_baseline,fewshot_base,date_understanding,0.43,0.0,25.0,6,100,7.51,4.12

@@ -1010,7 +1010,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"p\"."
+        "The letter now is \"o\"."
       ]
     ],
     "filtered_resps": [
@@ -2226,7 +2226,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"z\"."
+        "The letter now is \"z\". Vince does not shift the letter. Sofia does not shift the letter. Wanda shifts the letter."
       ]
     ],
     "filtered_resps": [
@@ -2454,7 +2454,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"q\". Ray shifts the letter to \"q\" and Oscar shifts the letter to \"q\". Nina shifts the letter to \"q\"."
+        "The letter now is \"q\". Ray shifts the letter, and Oscar shifts the letter. Nina shifts the letter. The letter now is \"q\"."
       ]
     ],
     "filtered_resps": [
@@ -2986,7 +2986,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"e\". Nina shifts the letter, and Ivan shifts the letter. Bob shifts the letter, and Nina shifts the letter."
+        "The letter now is \"e\". Nina shifts the letter, and Ivan shifts the letter. Bob shifts the letter, and Ivan shifts the letter."
       ]
     ],
     "filtered_resps": [
@@ -3024,7 +3024,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"d\"."
+        "The letter now is \"n\"."
       ]
     ],
     "filtered_resps": [
@@ -3746,7 +3746,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"h\"."
+        "The letter now is \"t\"."
       ]
     ],
     "filtered_resps": [
@@ -4810,11 +4810,11 @@
     ],
     "resps": [
       [
-        "The letter now is \"p\"."
+        "The letter now is \"o\"."
       ]
     ],
     "filtered_resps": [
-      "p"
+      "o"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,7 +6026,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"z\"."
+        "The letter now is \"z\". Vince does not shift the letter. Sofia does not shift the letter. Wanda shifts the letter."
       ]
     ],
     "filtered_resps": [
@@ -6254,7 +6254,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"q\". Ray shifts the letter to \"q\" and Oscar shifts the letter to \"q\". Nina shifts the letter to \"q\"."
+        "The letter now is \"q\". Ray shifts the letter, and Oscar shifts the letter. Nina shifts the letter. The letter now is \"q\"."
       ]
     ],
     "filtered_resps": [
@@ -6786,7 +6786,7 @@
     ],
     "resps": [
       [
-        "The letter now is \"e\". Nina shifts the letter, and Ivan shifts the letter. Bob shifts the letter, and Nina shifts the letter."
+        "The letter now is \"e\". Nina shifts the letter, and Ivan shifts the letter. Bob shifts the letter, and Ivan shifts the letter."
       ]
     ],
     "filtered_resps": [
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "The letter now is \"d\"."
+        "The letter now is \"n\"."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "n"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "The letter now is \"h\"."
+        "The letter now is \"t\"."
       ]
     ],
     "filtered_resps": [
-      "h"
+      "t"
     ],
     "filter": "flexible-extract",
     "metrics": [

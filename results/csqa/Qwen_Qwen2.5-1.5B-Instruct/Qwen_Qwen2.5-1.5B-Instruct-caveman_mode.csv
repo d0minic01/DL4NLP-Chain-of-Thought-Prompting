@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-1.5B-Instruct,csqa_caveman_mode,csqa,caveman_mode,fewshot_cot,commonsense_qa,0.75,0.0,98.3,7,100,10.43,5.92

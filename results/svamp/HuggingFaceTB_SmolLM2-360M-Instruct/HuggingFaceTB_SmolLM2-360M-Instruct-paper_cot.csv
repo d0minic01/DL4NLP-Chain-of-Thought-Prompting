@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,svamp_paper_cot,svamp,paper_cot,fewshot_cot,svamp,0.24,0.03,166.5,8,100,26.68,1.73

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,strategyqa_persona_cot,strategyqa,persona_cot,fewshot_cot,strategyqa,0.54,0.02,119.2,6,100,25.93,5.3

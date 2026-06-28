@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "The answer is 05/17/2008."
+        "The answer is 05/18/2008."
       ]
     ],
     "filtered_resps": [
-      "05/17/2008"
+      "05/18/2008"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "The answer is 05/18/2008."
+        "The answer is 05/17/2008."
       ]
     ],
     "filtered_resps": [
-      "05/18/2008"
+      "05/17/2008"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1010,11 +1010,11 @@
     ],
     "resps": [
       [
-        "The answer is 04/27/1970."
+        "The answer is 04/04/1970."
       ]
     ],
     "filtered_resps": [
-      "04/27/1970"
+      "04/04/1970"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "The answer is 01/30/2010."
+        "The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
-      "01/30/2010"
+      "01/31/2010"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "The answer is 11/28/2018."
+        "The answer is 01/28/2018."
       ]
     ],
     "filtered_resps": [
-      "11/28/2018"
+      "01/28/2018"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "The answer is 02/28/1992."
+        "The answer is 02/29/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "02/29/1992"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2530,11 +2530,11 @@
     ],
     "resps": [
       [
-        "The answer is 07/27/1967."
+        "The answer is 07/30/1967."
       ]
     ],
     "filtered_resps": [
-      "07/27/1967"
+      "07/30/1967"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2872,11 +2872,11 @@
     ],
     "resps": [
       [
-        "The answer is 01/30/2010."
+        "The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
-      "01/30/2010"
+      "01/31/2010"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "The answer is 01/27/1967."
+        "The answer is 01/01/1967."
       ]
     ],
     "filtered_resps": [
-      "01/27/1967"
+      "01/01/1967"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3480,11 +3480,11 @@
     ],
     "resps": [
       [
-        "The answer is 03/05/2023."
+        "The answer is 05/05/2023."
       ]
     ],
     "filtered_resps": [
-      "03/05/2023"
+      "05/05/2023"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "The answer is 05/17/2008."
+        "The answer is 05/18/2008."
       ]
     ],
     "filtered_resps": [
-      "05/17/2008"
+      "05/18/2008"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "The answer is 05/18/2008."
+        "The answer is 05/17/2008."
       ]
     ],
     "filtered_resps": [
-      "05/18/2008"
+      "05/17/2008"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4810,11 +4810,11 @@
     ],
     "resps": [
       [
-        "The answer is 04/27/1970."
+        "The answer is 04/04/1970."
       ]
     ],
     "filtered_resps": [
-      "04/27/1970"
+      "04/04/1970"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "The answer is 01/30/2010."
+        "The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
-      "01/30/2010"
+      "01/31/2010"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "The answer is 11/28/2018."
+        "The answer is 01/28/2018."
       ]
     ],
     "filtered_resps": [
-      "11/28/2018"
+      "01/28/2018"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "The answer is 02/28/1992."
+        "The answer is 02/29/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "02/29/1992"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6330,11 +6330,11 @@
     ],
     "resps": [
       [
-        "The answer is 07/27/1967."
+        "The answer is 07/30/1967."
       ]
     ],
     "filtered_resps": [
-      "07/27/1967"
+      "07/30/1967"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6672,11 +6672,11 @@
     ],
     "resps": [
       [
-        "The answer is 01/30/2010."
+        "The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
-      "01/30/2010"
+      "01/31/2010"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "The answer is 01/27/1967."
+        "The answer is 01/01/1967."
       ]
     ],
     "filtered_resps": [
-      "01/27/1967"
+      "01/01/1967"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7280,11 +7280,11 @@
     ],
     "resps": [
       [
-        "The answer is 03/05/2023."
+        "The answer is 05/05/2023."
       ]
     ],
     "filtered_resps": [
-      "03/05/2023"
+      "05/05/2023"
     ],
     "filter": "flexible-extract",
     "metrics": [

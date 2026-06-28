@@ -288,7 +288,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, no, no. [CORRECT] No, no, no. [CORRECT] Find the spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
+        "[INCORRECT] No, no, no. [CORRECT] Find a spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Could you find any refreshing drink? [CORRECT] Find any refreshing drink, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "[INCORRECT] Could you get me something refreshing? [CORRECT] Find the refreshing drink, pick it up, and deliver it. The answer is 1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done()."
+      "1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select a can, pick it up, and place it in the gripper. The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
+        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select water, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done()."
+      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, no, no. [CORRECT] No, no, no. [CORRECT] Find the spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
+        "[INCORRECT] No, no, no. [CORRECT] Find a spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1238,11 +1238,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Could you find any refreshing drink? [CORRECT] Find any refreshing drink, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "[INCORRECT] Could you get me something refreshing? [CORRECT] Find the refreshing drink, pick it up, and deliver it. The answer is 1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done()."
+      "1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any snack. [CORRECT] Select any snack. [CORRECT] Find the snack, pick it up, and deliver it. The answer is 1. find(snack), 2. pick(snack), 3. find(user), 4. put(snack), 5. done().."
+        "[INCORRECT] Bring any drink. [CORRECT] Select any snack. [CORRECT] Find the snack, pick it up, and deliver it. The answer is 1. find(snack), 2. pick(snack), 3. find(user), 4. put(snack), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, you cannot get a fruit. [CORRECT] Fruits are not edible. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have"
+        "[INCORRECT] Fruits are not typically a food item. [CORRECT] Fruits are typically eaten as part of a balanced diet. The answer is 1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any three different drinks. [CORRECT] Select any three different drinks. [CORRECT] Find the three different drinks, pick them up, and deliver them. The answer is 1. find(three different drinks), 2. pick(three different drinks), 3. find(user), 4. put(three different drinks), 5. done().."
+        "[INCORRECT] Bring any three different drinks. [CORRECT] Select any three different drinks. [CORRECT] Find the three different drinks, place them in the trash, and then deliver them. The answer is 1. find(three different drinks), 2. pick(three different drinks), 3. find(user), 4. put(three different drinks), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Throw away any fruit on the table. [CORRECT] Find the fruit, pick it up, and deliver it. The answer is 1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done().."
+        "[INCORRECT] Throw away any fruit. [CORRECT] Find the fruit, pick it up, and deliver it. The answer is 1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any open can. [CORRECT] Select water, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "[INCORRECT] Bring any open can. [CORRECT] Select a can, pick it up, and deliver it. The answer is 1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done()."
+      "1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any three items. [CORRECT] Select any three items, such as a fruit, a soda, and a bag of chips. The answer is 1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. find(soda), 6. pick(soda), 7. find(bag of chips), 8. put(soda), 9. done().."
+        "[INCORRECT] Bring any item without identifying it. [CORRECT] Find the fruit, soda, and chips, and deliver them to the user. The answer is 1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(soda), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. find(soda), 6. pick(soda), 7. find(bag of chips), 8. put(soda), 9. done()."
+      "1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(soda), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Walk to the counter. [CORRECT] Find the counter, then find the table. [CORRECT] Place the counter on the table. [CORRECT] Move the counter to the table. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [COR"
+        "[INCORRECT] Walk to the counter. [CORRECT] Find the counter, then move to the table. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the table. [CORRECT] Place the table on the counter,"
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Find the table. [CORRECT] Select a table, then find the table. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "[INCORRECT] Find the table. [CORRECT] Select a table, then find the table, then find the user. The answer is 1. find(table), 2. find(user), 3. find(table), 4. find(user), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done()."
+      "1. find(table), 2. find(user), 3. find(table), 4. find(user), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2682,7 +2682,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any fruit. [CORRECT] Select any fruit, such as apple, banana, or orange. [CORRECT] Find the apple, pick it up, and place it in the drawer. The answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
+        "[INCORRECT] Bring any fruit. [CORRECT] Select any fruit, such as apple, banana, or orange. [CORRECT] Find the apple, pick it up, and deliver it. The answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Move banana to table. [CORRECT] Select banana, pick it up, and place it in the trash. The answer is 1. find(banana), 2. pick(banana), 3. find(table), 4. put(banana), 5. done().."
+        "[INCORRECT] Move banana to the table. [CORRECT] Select banana, pick it up, and place it in the trash. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(banana), 2. pick(banana), 3. find(table), 4. put(banana), 5. done()."
+      "1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3138,11 +3138,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any three items. [CORRECT] Select any three items. [CORRECT] Find the fruit, the soda, and the bag of chips. The answer is 1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. done().."
+        "[INCORRECT] Bring any fruit, soda, and chips. [CORRECT] Select any of these items. [CORRECT] Find the fruit, pick it up, and place it in the trash. The answer is 1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. done()."
+      "1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select a can, pick it up, and place it in the gripper. The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
+        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select water, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done()."
+      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3442,7 +3442,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Go to the table. [CORRECT] Find the table, then find the user, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the"
+        "[INCORRECT] Go to the table. [CORRECT] Find the table, then find the user. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [COR"
       ]
     ],
     "filtered_resps": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Go to the table. [CORRECT] Find the counter, then the table. The answer is 1. find(table), 2. find(counter), 3. find(user), 4. put(table), 5. done().."
+        "[INCORRECT] Go to the counter. [CORRECT] Find the counter, then the table. The answer is 1. find(counter), 2. find(table), 3. find(user), 4. put(counter), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. find(counter), 3. find(user), 4. put(table), 5. done()."
+      "1. find(counter), 2. find(table), 3. find(user), 4. put(counter), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4050,7 +4050,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, no, no. [CORRECT] No, no, no. [CORRECT] Find the spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
+        "[INCORRECT] No, no, no. [CORRECT] Find a spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Could you find any refreshing drink? [CORRECT] Find any refreshing drink, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "[INCORRECT] Could you get me something refreshing? [CORRECT] Find the refreshing drink, pick it up, and deliver it. The answer is 1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done"
+      "1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select a can, pick it up, and place it in the gripper. The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
+        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select water, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done"
+      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4924,7 +4924,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, no, no. [CORRECT] No, no, no. [CORRECT] Find the spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
+        "[INCORRECT] No, no, no. [CORRECT] Find a spice, pick it up, and deliver it. The answer is 1. find(spices), 2. pick(spices), 3. find(user), 4. put(spices), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5000,11 +5000,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Could you find any refreshing drink? [CORRECT] Find any refreshing drink, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "[INCORRECT] Could you get me something refreshing? [CORRECT] Find the refreshing drink, pick it up, and deliver it. The answer is 1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done"
+      "1. find(resurrect), 2. pick(resurrect), 3. find(user), 4. put(resurrect), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,7 +5456,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any snack. [CORRECT] Select any snack. [CORRECT] Find the snack, pick it up, and deliver it. The answer is 1. find(snack), 2. pick(snack), 3. find(user), 4. put(snack), 5. done().."
+        "[INCORRECT] Bring any drink. [CORRECT] Select any snack. [CORRECT] Find the snack, pick it up, and deliver it. The answer is 1. find(snack), 2. pick(snack), 3. find(user), 4. put(snack), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5494,11 +5494,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] No, you cannot get a fruit. [CORRECT] Fruits are not edible. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have a sweet taste. [CORRECT] Fruits are typically sweet and have"
+        "[INCORRECT] Fruits are not typically a food item. [CORRECT] Fruits are typically eaten as part of a balanced diet. The answer is 1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,7 +5570,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any three different drinks. [CORRECT] Select any three different drinks. [CORRECT] Find the three different drinks, pick them up, and deliver them. The answer is 1. find(three different drinks), 2. pick(three different drinks), 3. find(user), 4. put(three different drinks), 5. done().."
+        "[INCORRECT] Bring any three different drinks. [CORRECT] Select any three different drinks. [CORRECT] Find the three different drinks, place them in the trash, and then deliver them. The answer is 1. find(three different drinks), 2. pick(three different drinks), 3. find(user), 4. put(three different drinks), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5608,7 +5608,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Throw away any fruit on the table. [CORRECT] Find the fruit, pick it up, and deliver it. The answer is 1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done().."
+        "[INCORRECT] Throw away any fruit. [CORRECT] Find the fruit, pick it up, and deliver it. The answer is 1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any open can. [CORRECT] Select water, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "[INCORRECT] Bring any open can. [CORRECT] Select a can, pick it up, and deliver it. The answer is 1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done"
+      "1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any three items. [CORRECT] Select any three items, such as a fruit, a soda, and a bag of chips. The answer is 1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. find(soda), 6. pick(soda), 7. find(bag of chips), 8. put(soda), 9. done().."
+        "[INCORRECT] Bring any item without identifying it. [CORRECT] Find the fruit, soda, and chips, and deliver them to the user. The answer is 1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(soda), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. find(soda), 6. pick(soda), 7. find(bag of chips), 8. put(soda), 9. done"
+      "1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(soda), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Walk to the counter. [CORRECT] Find the counter, then find the table. [CORRECT] Place the counter on the table. [CORRECT] Move the counter to the table. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [CORRECT] Move the table to the counter. [CORRECT] Place the table on the counter. [COR"
+        "[INCORRECT] Walk to the counter. [CORRECT] Find the counter, then move to the table. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the table. [CORRECT] Place the table on the counter, then move to the counter. [CORRECT] Place the counter on the table, then move to the table. [CORRECT] Place the table on the counter, then move to the table. [CORRECT] Place the table on the counter,"
       ]
     ],
     "filtered_resps": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Find the table. [CORRECT] Select a table, then find the table. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "[INCORRECT] Find the table. [CORRECT] Select a table, then find the table, then find the user. The answer is 1. find(table), 2. find(user), 3. find(table), 4. find(user), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done"
+      "1. find(table), 2. find(user), 3. find(table), 4. find(user), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6444,7 +6444,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any fruit. [CORRECT] Select any fruit, such as apple, banana, or orange. [CORRECT] Find the apple, pick it up, and place it in the drawer. The answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
+        "[INCORRECT] Bring any fruit. [CORRECT] Select any fruit, such as apple, banana, or orange. [CORRECT] Find the apple, pick it up, and deliver it. The answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Move banana to table. [CORRECT] Select banana, pick it up, and place it in the trash. The answer is 1. find(banana), 2. pick(banana), 3. find(table), 4. put(banana), 5. done().."
+        "[INCORRECT] Move banana to the table. [CORRECT] Select banana, pick it up, and place it in the trash. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(banana), 2. pick(banana), 3. find(table), 4. put(banana), 5. done"
+      "1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6900,11 +6900,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bring any three items. [CORRECT] Select any three items. [CORRECT] Find the fruit, the soda, and the bag of chips. The answer is 1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. done().."
+        "[INCORRECT] Bring any fruit, soda, and chips. [CORRECT] Select any of these items. [CORRECT] Find the fruit, pick it up, and place it in the trash. The answer is 1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(soda), 4. put(fruit), 5. done"
+      "1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select a can, pick it up, and place it in the gripper. The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
+        "[INCORRECT] Put the coke can in your gripper. [CORRECT] Select water, pick it up, and deliver it. The answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done"
+      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,7 +7204,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Go to the table. [CORRECT] Find the table, then find the user, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the tea, then find the rice, then find the coffee, then find the juice, then find the soda, then find the chips, then find the"
+        "[INCORRECT] Go to the table. [CORRECT] Find the table, then find the user. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [CORRECT] The user is in the table. [COR"
       ]
     ],
     "filtered_resps": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Go to the table. [CORRECT] Find the counter, then the table. The answer is 1. find(table), 2. find(counter), 3. find(user), 4. put(table), 5. done().."
+        "[INCORRECT] Go to the counter. [CORRECT] Find the counter, then the table. The answer is 1. find(counter), 2. find(table), 3. find(user), 4. put(counter), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. find(counter), 3. find(user), 4. put(table), 5. done"
+      "1. find(counter), 2. find(table), 3. find(user), 4. put(counter), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [

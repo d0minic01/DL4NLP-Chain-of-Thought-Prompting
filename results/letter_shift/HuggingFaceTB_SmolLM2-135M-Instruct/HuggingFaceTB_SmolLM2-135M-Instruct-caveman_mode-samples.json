@@ -1124,7 +1124,7 @@
     ],
     "resps": [
       [
-        "Letter start k. Grace no shift. Peter shift. Mia shift. Ivan shift. 1 shift. wrap to a. The answer is a."
+        "Letter start k. Grace no shift. Peter shift. Mia shift. Ivan no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "Letter start i. Zoe no shift. Iris no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start i. Zoe shift. Iris no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "Letter start y. Eve shift. Diana shift. 1 shift. wrap to a. The answer is d."
+        "Letter start y. Eve shift. Diana shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "Letter start z. Grace no shift. Grace shift. 1 shift. wrap to a. The answer is a."
+        "Letter start z. Tom no shift. Grace shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "Letter start w. Julia no shift. Iris no shift. 1 shift. wrap to a. The answer is w."
+        "Letter start w. Julia shift. Julia no shift. Iris no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "w"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "Letter start x. Liam no shift. Nina shift. Kevin shift. 1 shift. wrap to a. The answer is x."
+        "Letter start x. Liam no shift. Nina shift. Kevin shift. Tina shift. 1 shift. wrap to a. The answer is x."
       ]
     ],
     "filtered_resps": [
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "Letter start j. Olivia shift. Mia shift. Jack no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start j. Olivia shift. Mia shift. Jack no shift. 1 shift. wrap to a. The answer is j."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "j"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2986,7 +2986,7 @@
     ],
     "resps": [
       [
-        "Letter start e. Nina no shift. Ivan shift. Bob no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start e. Nina no shift. Ivan shift. Bob shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -3366,7 +3366,7 @@
     ],
     "resps": [
       [
-        "Letter start o. Ursula no shift. Jack no shift. Beth no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start o. Ursula shift. Jack shift. Beth shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -3404,7 +3404,7 @@
     ],
     "resps": [
       [
-        "Letter start s. Rachel no shift. Uma shift. Peter shift. Frank no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start s. Rachel shift. Uma no shift. Peter shift. Frank no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -4924,7 +4924,7 @@
     ],
     "resps": [
       [
-        "Letter start k. Grace no shift. Peter shift. Mia shift. Ivan shift. 1 shift. wrap to a. The answer is a."
+        "Letter start k. Grace no shift. Peter shift. Mia shift. Ivan no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -5266,7 +5266,7 @@
     ],
     "resps": [
       [
-        "Letter start i. Zoe no shift. Iris no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start i. Zoe shift. Iris no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "Letter start y. Eve shift. Diana shift. 1 shift. wrap to a. The answer is d."
+        "Letter start y. Eve shift. Diana shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,7 +5760,7 @@
     ],
     "resps": [
       [
-        "Letter start z. Grace no shift. Grace shift. 1 shift. wrap to a. The answer is a."
+        "Letter start z. Tom no shift. Grace shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "Letter start w. Julia no shift. Iris no shift. 1 shift. wrap to a. The answer is w."
+        "Letter start w. Julia shift. Julia no shift. Iris no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "w"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "Letter start x. Liam no shift. Nina shift. Kevin shift. 1 shift. wrap to a. The answer is x."
+        "Letter start x. Liam no shift. Nina shift. Kevin shift. Tina shift. 1 shift. wrap to a. The answer is x."
       ]
     ],
     "filtered_resps": [
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "Letter start j. Olivia shift. Mia shift. Jack no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start j. Olivia shift. Mia shift. Jack no shift. 1 shift. wrap to a. The answer is j."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "j"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,7 +6786,7 @@
     ],
     "resps": [
       [
-        "Letter start e. Nina no shift. Ivan shift. Bob no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start e. Nina no shift. Ivan shift. Bob shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -7166,7 +7166,7 @@
     ],
     "resps": [
       [
-        "Letter start o. Ursula no shift. Jack no shift. Beth no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start o. Ursula shift. Jack shift. Beth shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -7204,7 +7204,7 @@
     ],
     "resps": [
       [
-        "Letter start s. Rachel no shift. Uma shift. Peter shift. Frank no shift. 1 shift. wrap to a. The answer is a."
+        "Letter start s. Rachel shift. Uma no shift. Peter shift. Frank no shift. 1 shift. wrap to a. The answer is a."
       ]
     ],
     "filtered_resps": [

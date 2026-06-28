@@ -40,7 +40,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of security measure. Step 2: A revolving door is a common security measure for two-way travel. Step 3: The revolving door is a security device that allows two people to move through a door at the same time. The answer is (e)."
+        "Step 1: Identify the type of door. Step 2: A revolving door is a door that rotates, allowing people to move around. Step 3: A security measure at a revolving door is a door that is designed to be secure and protected. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -152,7 +152,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of magazines. Step 2: The doctor is a place, not a location. The answer is (e)."
+        "Step 1: Identify the location of magazines. Step 2: The market is a place where people buy magazines. Step 3: Mortuary is a place where people bury their dead. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -208,7 +208,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of a hamburger. Step 2: Fast food restaurants are typically located in busy areas, such as downtown, near major highways, or near busy streets. Step 3: Pizza is a common food item in many cities, but it is not a typical location for a hamburger. The answer is (e)."
+        "Step 1: Identify the location of a hamburger. Step 2: Fast food restaurants are typically located in fast food establishments. Step 3: Pizza is a common food item in fast food restaurants. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -376,7 +376,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the Spanish speaking North American country. Step 2: The mildred's coffee shop is a local establishment in the state of New Mexico. Step 3: The diner is a local establishment in the state of Texas. Step 4: The kitchen is a local establishment in the state of California. The answer is (c)."
+        "Step 1: Identify the Spanish speaking North American country. Step 2: The mildred's coffee shop is a popular spot for coffee in Mexico. Step 3: The diner is a popular place for coffee in the United States. Step 4: The kitchen is a place for coffee in the United States. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -432,7 +432,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what animals do when an enemy is approaching. Step 2: Animals are often in a state of heightened arousal, which can lead to heightened emotional responses. Step 3: The enemy is a threat to the animal's well-being, so the animal's primary response is to defend itself. The answer is (e)."
+        "Step 1: Identify what animals do when an enemy is approaching. Step 2: Animals are often in a state of heightened arousal, which can lead to increased activity. Step 3: The enemy is likely to be a threat to the animal's well-being, so the animal's primary response is to increase its activity. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -544,7 +544,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what people typically do while playing guitar. Step 2: Playing guitar is a form of self-expression and self-care. Step 3: Arthritis is a condition that affects the joints and can cause pain. The answer is (e)."
+        "Step 1: Identify what people typically do while playing guitar. Step 2: Playing guitar is a form of self-expression and self-care. Step 3: The act of playing guitar is a form of self-expression and self-care. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -712,7 +712,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of the heifer's master. Step 2: The heifer's master lives in a farm house. Step 3: The barnyard is a place where heifers are raised. The answer is (b)."
+        "Step 1: Identify the location of the heifer's master. Step 2: The heifer is a female cow, so it is a female. Step 3: The heifer is a cow, so it is a female. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -880,7 +880,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what you're waiting with. Step 2: Motel is a place where people stay, so it's a place you're waiting to be with. Step 3: Hospitals are places where people are treated for medical conditions, so it's a place you're waiting to be with. Step 4: People are places where people are treated, so it's a place you're waiting to be with. The answer is (d)."
+        "Step 1: Identify what you're waiting with. Step 2: Waiters are waiting with food and drinks. Step 3: Waiters are not people. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -992,7 +992,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the physical injury. Step 2: The person is injured. Step 3: The injury is a small cut. The answer is (c)."
+        "Step 1: Identify what happens when a person is hit with a sword. Step 2: A sword is a blunt instrument, so it can cut through flesh and bone. Step 3: A small cut is a wound, so it is a small injury. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of senses people have. Step 2: Spiders have two eyes, but they don't have tongues. Spiders are not the only ones with two eyes. Step 3: The answer is (b)."
+        "Step 1: Identify the type of senses people have. Step 2: Spiders have two eyes, but they don't have tongues. Spiders are not the only ones with two eyes. Step 3: The brains of people with two eyes are not the same as those with one. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -1104,11 +1104,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of glue sticks. Step 2: School is a place where glue sticks are used. Step 3: School is a place where glue sticks are used. The answer is (b)."
+        "Step 1: Identify the type of glue sticks. Step 2: School is a place where glue sticks are used. Step 3: School is a place where glue sticks are used. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1384,11 +1384,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the person's characteristics. Step 2: Clumsy is a term that describes someone who is not clever, bright, or competent. Step 3: The answer is (b)."
+        "Step 1: Identify the person's characteristics. Step 2: Clumsy is a term that describes someone who is not clever, bright, or competent. Step 3: The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1440,7 +1440,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what is referred to as \"reproduction.\" Step 2: The term \"reproduction\" is used to describe the process of creating new life. Step 3: The term \"photo copy\" is used to describe the act of creating a new life. The answer is (e)."
+        "Step 1: Identify what is referred to as \"reproduction.\" Step 2: The term \"reproduction\" is often used to describe the process of reproduction in animals. Step 3: The term \"photo copy\" is used to describe the act of reproducing a photograph. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1496,7 +1496,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the weasel is doing. Step 2: The weasel is a common animal in the wild. Step 3: The barn is a place where animals are kept. Step 4: The public office is a place where people are elected. Step 5: The freezer is a place where food is stored. The answer is (d)."
+        "Step 1: Identify what the weasel is doing. Step 2: The weasel is a common animal in the wild. Step 3: The barn is a place where animals are kept. Step 4: The public office is a place where people work. Step 5: The freezer is a place where food is stored. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -1552,7 +1552,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what Blue reads. Step 2: Blue is a book lover. Step 3: The book he reads is not new perspective. The answer is (d)."
+        "Step 1: Identify what blue reads material is. Step 2: Blue reads material is a type of book that is not familiar to him. Step 3: The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -1608,7 +1608,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what he hopes for success at. Step 2: He hopes for success in a new job. Step 3: The Michigan is a state, not a place. The answer is (d)."
+        "Step 1: Identify the profession he hopes to work in. Step 2: The job he hopes to work in is a vocation. Step 3: The Michigan is a state, not a place. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -1888,11 +1888,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone doing all the work in a failing marriage. Step 2: The person is experiencing frustration and impatience. Step 3: The person is doing all the work in a failing marriage. The answer is (b)."
+        "Step 1: Identify the emotional state of someone doing all the work in a failing marriage. Step 2: The person is experiencing frustration and impatience. Step 3: The inability to wait their turn is a sign of impatience. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1901,7 +1901,7 @@
     "doc_hash": "e7ee313e92b978b2b46e83c83238d27d17a6c8db13ba28fdd4e4543bbb078e0d",
     "prompt_hash": "387aa3d8f32aea1b157fb54039803c1acc1b9c697583353e8a0696684bfd6aab",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 34,
@@ -1944,7 +1944,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the senior center is doing. Step 2: The senior center is a place where people come to learn and grow. Step 3: The senior center is a place where people can learn and grow. The answer is (e)."
+        "Step 1: Identify what the senior center is doing. Step 2: The senior center is a place where seniors can connect with others, learn new things, and feel more connected to the community. Step 3: The senior center is a place where people can feel more connected to the community. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2000,11 +2000,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the object of the lock. Step 2: The lock is a key, and the thief is someone who has a key. Step 3: The lock is a key, and the thief is someone who has a key. The answer is (d)."
+        "Step 1: Identify what the lock prevents. Step 2: The lock prevents the thief from moving the steering wheel. Step 3: The lock prevents the thief from working on the engine. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2013,7 +2013,7 @@
     "doc_hash": "b02b7cb8da6c802766762648ca933593563b137df163a3c3e133f2b258b5e3ed",
     "prompt_hash": "c98d00124f15b0b670d46c88ad3498cf02e7b74ff383ade14a94ecd3e27f94ef",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 36,
@@ -2056,11 +2056,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of police officer. Step 2: Police officers are typically responsible for maintaining order and preventing crime. Step 3: The President is the person in charge of the United States, and he is the one who is responsible for enforcing the laws. The answer is (e)."
+        "Step 1: Identify the police officer's role. Step 2: The police officer is likely to work for a police department. Step 3: The city is the location of the police department. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone having leftover cake. Step 2: The quandry is a place, not a container for cake. The answer is (b)."
+        "Step 1: Identify what you have leftover. Step 2: Quandry is a place where you have leftover food. Step 3: The refrigerator is a place where you have leftover food. Step 4: The oven is a place where you have leftover food. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2125,7 +2125,7 @@
     "doc_hash": "efb3421eb16c1e6036baa6d83eb9149e97dddcdfffed3758b0f2b50eae6f5bd0",
     "prompt_hash": "18489c90ac772656d90ab6e0fe5c4412b342ff511d2a14912eae820b97f087c1",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -2168,11 +2168,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the human wants to do. Step 2: The human wants to submerge himself in water. Step 3: The human is looking for a way to submerge himself in water. The answer is (b)."
+        "Step 1: Identify what the human wants to do. Step 2: The human wants to submerge himself in water. Step 3: The human is looking for a way to submerge himself in water. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2280,11 +2280,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of Bob the lizard. Step 2: Rock is a place, not a location. The answer is (b)."
+        "Step 1: Identify Bob the lizard. Step 2: Rock is a place with lots of water, so rock is likely the location. Step 3: Jazz club is a place with lots of music, so jazz club is likely the location. Step 4: New mexico is a place with lots of water, so new mexico is likely the location. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2293,7 +2293,7 @@
     "doc_hash": "93e7b797f857bc457cf1e89e3fc7661c78ac440d6cd30fe429e315d2ed73a5fe",
     "prompt_hash": "a23b9321d37a3fb342569d471162184e58e0316702372fb2d50e8a610dafd7de",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -2448,11 +2448,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what can be put in a picture frame. Step 2: A picture frame is a piece of furniture that holds a picture. Step 3: A picture frame is not a piece of furniture. The answer is (d)."
+        "Step 1: Identify the type of frame. Step 2: A picture frame is a type of frame that holds a picture. Step 3: A picture frame is not a type of wall. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2728,11 +2728,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location. Step 2: The house is a place that does not have an elevator. Step 3: The telephone book is a place that does not have an elevator. The answer is (d)."
+        "Step 1: Identify the location. Step 2: The house is a place that does not have an elevator. Step 3: The telephone book is a place that does not have an elevator. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2741,7 +2741,7 @@
     "doc_hash": "c453366155da733e1f4432a3c40f254591ae5b914111caab8350e2164da0bdee",
     "prompt_hash": "783e3a9b46b325c5401575cc4e23b139e3c94bd90f830e13e1d400d9aa943501",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 49,
@@ -2896,7 +2896,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone having a seizure. Step 2: A seizure is a sudden, uncontrolled, and often violent response to a stimulus. Step 3: Slurred speech is a condition where someone has trouble speaking clearly, often due to a lack of coordination. The answer is (c)."
+        "Step 1: Identify the emotional state of someone having a seizure. Step 2: A seizure is a sudden, uncontrolled release of energy. Step 3: Slurred speech is a sign of a seizure, which is a sudden, uncontrolled release of energy. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3008,11 +3008,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the child wants. Step 2: Fall down is not a good choice, as it implies a physical act of falling. Step 3: Falling down is not a good choice, as it implies a physical act of falling. Step 4: Beware of fall down, as it implies a physical act of falling. The answer is (b)."
+        "Step 1: Identify what the child wants. Step 2: Fall down is not a good choice, as it implies a physical act of falling. Step 3: Beware of fall-down options, as they often imply a physical act of falling. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3021,7 +3021,7 @@
     "doc_hash": "2dfc6b674438bc83d83f275cb3a5b2cd7750b329868413cb35bd41d12e759469",
     "prompt_hash": "919f8f010692680cb4f5254e9f97415e195074a4a5559bb74ec3b04c50b95b97",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 54,
@@ -3120,11 +3120,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the teacher does not tolerate. Step 2: The teacher is not a movie theatre or bowling alley. The answer is (d)."
+        "Step 1: Identify what the teacher does not tolerate. Step 2: The teacher is not a movie theatre or bowling alley. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3133,7 +3133,7 @@
     "doc_hash": "53d6730ae3aad9c123d86e68791512b89f350656d461aa7f44dcfafa842d6315",
     "prompt_hash": "d8833fab6aff4bc1e868300a2dc20d57eb0bfde8fb4a5cb08a87e6c55a666613",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 56,
@@ -3288,11 +3288,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location. Step 2: Bland is a place that is not pleasant, but it is not hot. Step 3: Lifeless is a place that is not alive, but it is not cold. Step 4: Soggy is a place that is not wet, but it is not cold. The answer is (e)."
+        "Step 1: Identify the location. Step 2: Bland is a place that is not pleasant, but it is not hot. Step 3: The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3301,7 +3301,7 @@
     "doc_hash": "65bcce00838b0725ac59f3c6bc99d9718aee2db63d2f39abd97772088fd84b2f",
     "prompt_hash": "f39f075b0ecfe3ca8842254934cb3cb1351715aa4b1589176300d5397228c10e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 59,
@@ -3344,11 +3344,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what someone wants to know. Step 2: Read books. Step 3: See favorite shows. Step 4: Go somewhere. The answer is (d)."
+        "Step 1: Identify what someone wants to know. Step 2: Read books, watch movies, or go somewhere. Step 3: The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3456,11 +3456,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the computer user's location. Step 2: The computer is a device that can be used to access the internet. Step 3: The internet is a vast network of computers and devices that connect to the internet. The answer is (d)."
+        "Step 1: Identify the user's activity. Step 2: The computer is a device that can be used for various purposes. Step 3: The computer is a device that can be used for various purposes, including personal computing. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3512,7 +3512,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of environment. Step 2: Crabs live in saltwater. Step 3: The answer is (c)."
+        "Step 1: Identify the environment of crabs. Step 2: Crabs are found in saltwater, which is a harsh environment. Step 3: The environment is harsh, and crabs are adapted to survive in it. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3568,11 +3568,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of the snake. Step 2: The pet shops are places, not places where snakes are found. The answer is (e)."
+        "Step 1: Identify the location of the snake. Step 2: The pet shops are places, not places where snakes are found. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3624,7 +3624,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what a bench is. Step 2: A bench is a place where people sit and rest. Step 3: Bus stops are places where people sit and wait for buses. Step 4: Bus depots are places where buses are stored. Step 5: Train stations are places where trains are stored. The answer is (e)."
+        "Step 1: Identify what a bench is. Step 2: A bench is a place where people sit and rest. Step 3: Bus stops are places where people sit and wait for a bus. Step 4: Bus depots are places where buses are stopped. Step 5: Train stations are places where trains stop. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3680,7 +3680,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone eating in a failing relationship. Step 2: The human tends to eat in a failing relationship, as it is a sign of desperation. Step 3: The human tends to eat in a failing relationship, as it is a sign of desperation. The answer is (b)."
+        "Step 1: Identify the human's emotional state. Step 2: A hungry person is likely to feel a sense of deprivation and frustration. Step 3: The human likely will go to a restaurant to satisfy their hunger. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3792,7 +3792,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify where a shower curtain is used. Step 2: Bathtub is not a place where a shower curtain is used. Step 3: The bathtub is a place where a shower curtain is used. The answer is (b)."
+        "Step 1: Identify where a shower curtain is used. Step 2: Bathtub is not a place where a shower curtain is used. Step 3: The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3848,7 +3848,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of idea. Step 2: School bus is a vehicle for transportation, not a fire extinguisher. Step 3: The answer is (b)."
+        "Step 1: Identify the idea. Step 2: A fire extinguisher is not a necessary item for a house. Step 3: The idea is not a fire extinguisher, but a house. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3904,11 +3904,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the continent. Step 2: The continent with the most castles is Europe. Step 3: The continent with the most castles is Europe. The answer is (c)."
+        "Step 1: Identify the continent. Step 2: Fairy tale is a fantasy, not a real place. Step 3: The continent with the most castles is Europe. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4016,11 +4016,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Sally's work. Step 2: The office supply store is a place where people work. Step 3: The school is a place where students work. The answer is (d)."
+        "Step 1: Identify Sally's task. Step 2: The task is to hold papers while reading them off a clipboard. Step 3: The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4128,7 +4128,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of game. Step 2: Pawns are the pieces that are moved to the end of the board. Step 3: The pawns are the pieces that are moved to the end of the board. The answer is (e)."
+        "Step 1: Identify the type of game. Step 2: Pawns are the pieces that are moved to the pawns. Step 3: The pawns are the pieces that are moved to the pawns. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4184,7 +4184,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what is not true about a basketball. Step 2: Basketball is a sport, not a game. Step 3: The hole in the basketball is not a hole in the game. The answer is (d)."
+        "Step 1: Identify what is not true about a basketball. Step 2: Basketball is a sport, not a game. Step 3: The hole in the basketball is not a hole in the ground. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4296,7 +4296,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of a wild bird. Step 2: Wild birds are found in various environments, including forests, grasslands, deserts, and mountains. Step 3: The sky is a place where birds can fly, and the countryside is a place where they can live. The answer is (b)."
+        "Step 1: Identify the location of a wild bird. Step 2: Wild birds are found in various environments, including forests, grasslands, and deserts. Step 3: The sky is a place where birds can fly, and the countryside is a place where they can live. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -4464,7 +4464,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what could prevent someone from committing murder. Step 2: Murder is a serious crime that can have severe consequences. Step 3: The consequences of committing murder are far-reaching and can have a profound impact on a person's life. The answer is (d)."
+        "Step 1: Identify what could prevent someone from committing murder. Step 2: Murder is a serious crime that can have severe consequences. Step 3: The consequences of committing murder are far-reaching and can have a profound impact on one's life. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4520,11 +4520,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify George's condition. Step 2: George's socks are smelly and his soles are blistered. Step 3: George's feet are still smelly and his socks are still blistered. The answer is (c)."
+        "Step 1: Identify George's condition. Step 2: George's condition is not a car. Step 3: The condition is not smelly and blistered. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4533,7 +4533,7 @@
     "doc_hash": "f696e6ee729fc6f792362cc5cb080a9de9492171077bc9d1b22efbe856cf0390",
     "prompt_hash": "cc85febda9bf182e66b1422a0a86cbbc7018f30cbb640c7e8d26cb7f6e29b28e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -4576,7 +4576,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of cable used in a crane. Step 2: The crane uses a steel cable to lift heavy loads. Step 3: The construction site is a place where construction is done. The answer is (d)."
+        "Step 1: Identify the type of work the crane is doing. Step 2: The crane is working a bridge, so it is a bridge. Step 3: The bridge is a structure, so it is a structure. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4632,11 +4632,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the main purpose of farmers. Step 2: Farmers are the main purpose of the agricultural industry. Step 3: The agricultural industry is the main purpose of farmers. The answer is (e)."
+        "Step 1: Identify the main purpose of farmers. Step 2: Farmers are the main purpose of the agricultural industry. Step 3: The agricultural industry is the main purpose of farmers. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4645,7 +4645,7 @@
     "doc_hash": "01c7fab0786dda505edf7d093a086f067e75d758b9829384584f63b75440768a",
     "prompt_hash": "41fb5f2dfc0833d5295e5d4fec5ee36a2706aa9707664d557f94351f45664741",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -4688,11 +4688,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the penny's location. Step 2: Pound the penny into a pile. Step 3: Place the penny in a pocket. Step 4: Place the pocket in a safe place. The answer is (d)."
+        "Step 1: Identify the type of penny. Step 2: Pound the penny into a coin. Step 3: The penny is a small denomination, so it's best to put it in a pocket. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4800,11 +4800,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the man's fear of illness. Step 2: The man is a patient, so he is not a sick person. Step 3: The man is a patient, so he is not a sick person. The answer is (c)."
+        "Step 1: Identify the man's fear of illness. Step 2: The man is a patient, so he is not a sick person. Step 3: The hospital is a place where patients are admitted for treatment. Step 4: The elderly person is a person who is not a patient, so they are not a sick person. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4856,7 +4856,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of pans. Step 2: Cooking is the action of preparing food. Step 3: Pan is a utensil used for cooking. Step 4: Kitchen is the place where cooking takes place. Step 5: Drawer is a storage container for food. The answer is (d)."
+        "Step 1: Identify the location of pans. Step 2: Cooking is the action of preparing food. Step 3: Pan is a utensil used for cooking. Step 4: Kitchen is the place where cooking takes place. Step 5: Drawer is a storage area for food. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4912,7 +4912,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone remembering something. Step 2: The act of remembering is not the same as remembering something. Step 3: The act of remembering is not the same as remembering something. The answer is (d)."
+        "Step 1: Identify the emotional state of someone remembering something. Step 2: The act of remembering is not the same as remembering the act of remembering. Step 3: The act of remembering is not the same as the act of remembering the act of remembering. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4968,11 +4968,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of the largest land mass. Step 2: The Amazon Basin is home to the most monkeys. Step 3: The Amazon Basin is a large land mass, not a place to live. The answer is (d)."
+        "Step 1: Identify the location of the largest land mass. Step 2: The Amazon Basin is home to the most monkeys. Step 3: The Amazon Basin is a large land mass, not a place to live. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4981,7 +4981,7 @@
     "doc_hash": "1081b1adde558cc293e0ad5dfac3fafdea22a6866705bccd56025e5f2b57a8a9",
     "prompt_hash": "fe2aae6227f6f2132fa4bb84f15ece6cc504385994f22aa1cbbd9393e1d20ad3",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 89,
@@ -5192,7 +5192,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what is needed of someone in the kitchen. Step 2: The kitchen is a place where people often need to cook and clean. Step 3: Oil squeaky hinge is a common tool used in cooking and cleaning. The answer is (d)."
+        "Step 1: Identify what is needed of someone in the kitchen. Step 2: The kitchen is a place where people often work. Step 3: Oil squeaky hinge is a necessary tool for cooking. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -5248,7 +5248,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of wind instruments together. Step 2: Music stores are places where people buy and sell instruments. Step 3: Music rooms are places where musicians perform. Step 4: Symphony halls are places where music is performed. The answer is (b)."
+        "Step 1: Identify the location of wind instruments together. Step 2: Music stores are places where people buy and sell instruments. Step 3: A symphony is a large, large concert hall where musicians perform. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -5304,7 +5304,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the city. Step 2: The mountie is in a city. Step 3: The city is not a place where he is in. The answer is (c)."
+        "Step 1: Identify the city. Step 2: The mountie is in a city. Step 3: The mountie is in a city. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5360,11 +5360,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the person is trying to do. Step 2: Point out what they are not doing. Step 3: Point out what they are doing. The answer is (e)."
+        "Step 1: Identify what the person wants to do. Step 2: Point out the lack of understanding. Step 3: Point out the understanding. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5373,7 +5373,7 @@
     "doc_hash": "50e68a5799e8583bcf4700f79c5a4fe61d4740022021ffd54599d0f956c0997b",
     "prompt_hash": "8063e12a9f89775218aced98e8421be9285d8e4e587bd3bbcfd0adc86d26bee1",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -5416,11 +5416,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Billy's goal: have fun after work. Step 2: Billy's block of time is a time for relaxation and enjoyment. Step 3: The reason he sets aside a block of time for fun is to have a good time. The answer is (e)."
+        "Step 1: Identify Billy's goal: have fun after work. Step 2: Billy's block of time is a time for relaxation. Step 3: The block is a time for relaxation. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5528,11 +5528,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what you cannot do. Step 2: Greed is a powerful emotion that can lead to destructive behavior. Step 3: The answer is (d)."
+        "Step 1: Identify what you cannot do. Step 2: Greed is a powerful emotion that can lead to destructive behavior. Step 3: The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5640,7 +5640,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of security measure. Step 2: A revolving door is a common security measure for two-way travel. Step 3: The revolving door is a security device that allows two people to move through a door at the same time. The answer is (e)."
+        "Step 1: Identify the type of door. Step 2: A revolving door is a door that rotates, allowing people to move around. Step 3: A security measure at a revolving door is a door that is designed to be secure and protected. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5752,7 +5752,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of magazines. Step 2: The doctor is a place, not a location. The answer is (e)."
+        "Step 1: Identify the location of magazines. Step 2: The market is a place where people buy magazines. Step 3: Mortuary is a place where people bury their dead. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5808,7 +5808,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of a hamburger. Step 2: Fast food restaurants are typically located in busy areas, such as downtown, near major highways, or near busy streets. Step 3: Pizza is a common food item in many cities, but it is not a typical location for a hamburger. The answer is (e)."
+        "Step 1: Identify the location of a hamburger. Step 2: Fast food restaurants are typically located in fast food establishments. Step 3: Pizza is a common food item in fast food restaurants. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5976,7 +5976,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the Spanish speaking North American country. Step 2: The mildred's coffee shop is a local establishment in the state of New Mexico. Step 3: The diner is a local establishment in the state of Texas. Step 4: The kitchen is a local establishment in the state of California. The answer is (c)."
+        "Step 1: Identify the Spanish speaking North American country. Step 2: The mildred's coffee shop is a popular spot for coffee in Mexico. Step 3: The diner is a popular place for coffee in the United States. Step 4: The kitchen is a place for coffee in the United States. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6032,7 +6032,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what animals do when an enemy is approaching. Step 2: Animals are often in a state of heightened arousal, which can lead to heightened emotional responses. Step 3: The enemy is a threat to the animal's well-being, so the animal's primary response is to defend itself. The answer is (e)."
+        "Step 1: Identify what animals do when an enemy is approaching. Step 2: Animals are often in a state of heightened arousal, which can lead to increased activity. Step 3: The enemy is likely to be a threat to the animal's well-being, so the animal's primary response is to increase its activity. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6144,7 +6144,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what people typically do while playing guitar. Step 2: Playing guitar is a form of self-expression and self-care. Step 3: Arthritis is a condition that affects the joints and can cause pain. The answer is (e)."
+        "Step 1: Identify what people typically do while playing guitar. Step 2: Playing guitar is a form of self-expression and self-care. Step 3: The act of playing guitar is a form of self-expression and self-care. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6312,7 +6312,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of the heifer's master. Step 2: The heifer's master lives in a farm house. Step 3: The barnyard is a place where heifers are raised. The answer is (b)."
+        "Step 1: Identify the location of the heifer's master. Step 2: The heifer is a female cow, so it is a female. Step 3: The heifer is a cow, so it is a female. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -6480,7 +6480,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what you're waiting with. Step 2: Motel is a place where people stay, so it's a place you're waiting to be with. Step 3: Hospitals are places where people are treated for medical conditions, so it's a place you're waiting to be with. Step 4: People are places where people are treated, so it's a place you're waiting to be with. The answer is (d)."
+        "Step 1: Identify what you're waiting with. Step 2: Waiters are waiting with food and drinks. Step 3: Waiters are not people. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -6592,7 +6592,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the physical injury. Step 2: The person is injured. Step 3: The injury is a small cut. The answer is (c)."
+        "Step 1: Identify what happens when a person is hit with a sword. Step 2: A sword is a blunt instrument, so it can cut through flesh and bone. Step 3: A small cut is a wound, so it is a small injury. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6648,7 +6648,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of senses people have. Step 2: Spiders have two eyes, but they don't have tongues. Spiders are not the only ones with two eyes. Step 3: The answer is (b)."
+        "Step 1: Identify the type of senses people have. Step 2: Spiders have two eyes, but they don't have tongues. Spiders are not the only ones with two eyes. Step 3: The brains of people with two eyes are not the same as those with one. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -6704,11 +6704,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of glue sticks. Step 2: School is a place where glue sticks are used. Step 3: School is a place where glue sticks are used. The answer is (b)."
+        "Step 1: Identify the type of glue sticks. Step 2: School is a place where glue sticks are used. Step 3: School is a place where glue sticks are used. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6984,11 +6984,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the person's characteristics. Step 2: Clumsy is a term that describes someone who is not clever, bright, or competent. Step 3: The answer is (b)."
+        "Step 1: Identify the person's characteristics. Step 2: Clumsy is a term that describes someone who is not clever, bright, or competent. Step 3: The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7040,7 +7040,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what is referred to as \"reproduction.\" Step 2: The term \"reproduction\" is used to describe the process of creating new life. Step 3: The term \"photo copy\" is used to describe the act of creating a new life. The answer is (e)."
+        "Step 1: Identify what is referred to as \"reproduction.\" Step 2: The term \"reproduction\" is often used to describe the process of reproduction in animals. Step 3: The term \"photo copy\" is used to describe the act of reproducing a photograph. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7096,7 +7096,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the weasel is doing. Step 2: The weasel is a common animal in the wild. Step 3: The barn is a place where animals are kept. Step 4: The public office is a place where people are elected. Step 5: The freezer is a place where food is stored. The answer is (d)."
+        "Step 1: Identify what the weasel is doing. Step 2: The weasel is a common animal in the wild. Step 3: The barn is a place where animals are kept. Step 4: The public office is a place where people work. Step 5: The freezer is a place where food is stored. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -7152,7 +7152,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what Blue reads. Step 2: Blue is a book lover. Step 3: The book he reads is not new perspective. The answer is (d)."
+        "Step 1: Identify what blue reads material is. Step 2: Blue reads material is a type of book that is not familiar to him. Step 3: The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -7208,7 +7208,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what he hopes for success at. Step 2: He hopes for success in a new job. Step 3: The Michigan is a state, not a place. The answer is (d)."
+        "Step 1: Identify the profession he hopes to work in. Step 2: The job he hopes to work in is a vocation. Step 3: The Michigan is a state, not a place. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -7488,11 +7488,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone doing all the work in a failing marriage. Step 2: The person is experiencing frustration and impatience. Step 3: The person is doing all the work in a failing marriage. The answer is (b)."
+        "Step 1: Identify the emotional state of someone doing all the work in a failing marriage. Step 2: The person is experiencing frustration and impatience. Step 3: The inability to wait their turn is a sign of impatience. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7501,7 +7501,7 @@
     "doc_hash": "e7ee313e92b978b2b46e83c83238d27d17a6c8db13ba28fdd4e4543bbb078e0d",
     "prompt_hash": "387aa3d8f32aea1b157fb54039803c1acc1b9c697583353e8a0696684bfd6aab",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 34,
@@ -7544,7 +7544,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the senior center is doing. Step 2: The senior center is a place where people come to learn and grow. Step 3: The senior center is a place where people can learn and grow. The answer is (e)."
+        "Step 1: Identify what the senior center is doing. Step 2: The senior center is a place where seniors can connect with others, learn new things, and feel more connected to the community. Step 3: The senior center is a place where people can feel more connected to the community. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7600,11 +7600,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the object of the lock. Step 2: The lock is a key, and the thief is someone who has a key. Step 3: The lock is a key, and the thief is someone who has a key. The answer is (d)."
+        "Step 1: Identify what the lock prevents. Step 2: The lock prevents the thief from moving the steering wheel. Step 3: The lock prevents the thief from working on the engine. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7613,7 +7613,7 @@
     "doc_hash": "b02b7cb8da6c802766762648ca933593563b137df163a3c3e133f2b258b5e3ed",
     "prompt_hash": "c98d00124f15b0b670d46c88ad3498cf02e7b74ff383ade14a94ecd3e27f94ef",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 36,
@@ -7656,11 +7656,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of police officer. Step 2: Police officers are typically responsible for maintaining order and preventing crime. Step 3: The President is the person in charge of the United States, and he is the one who is responsible for enforcing the laws. The answer is (e)."
+        "Step 1: Identify the police officer's role. Step 2: The police officer is likely to work for a police department. Step 3: The city is the location of the police department. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7712,11 +7712,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone having leftover cake. Step 2: The quandry is a place, not a container for cake. The answer is (b)."
+        "Step 1: Identify what you have leftover. Step 2: Quandry is a place where you have leftover food. Step 3: The refrigerator is a place where you have leftover food. Step 4: The oven is a place where you have leftover food. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7725,7 +7725,7 @@
     "doc_hash": "efb3421eb16c1e6036baa6d83eb9149e97dddcdfffed3758b0f2b50eae6f5bd0",
     "prompt_hash": "18489c90ac772656d90ab6e0fe5c4412b342ff511d2a14912eae820b97f087c1",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -7768,11 +7768,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the human wants to do. Step 2: The human wants to submerge himself in water. Step 3: The human is looking for a way to submerge himself in water. The answer is (b)."
+        "Step 1: Identify what the human wants to do. Step 2: The human wants to submerge himself in water. Step 3: The human is looking for a way to submerge himself in water. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7880,11 +7880,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of Bob the lizard. Step 2: Rock is a place, not a location. The answer is (b)."
+        "Step 1: Identify Bob the lizard. Step 2: Rock is a place with lots of water, so rock is likely the location. Step 3: Jazz club is a place with lots of music, so jazz club is likely the location. Step 4: New mexico is a place with lots of water, so new mexico is likely the location. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7893,7 +7893,7 @@
     "doc_hash": "93e7b797f857bc457cf1e89e3fc7661c78ac440d6cd30fe429e315d2ed73a5fe",
     "prompt_hash": "a23b9321d37a3fb342569d471162184e58e0316702372fb2d50e8a610dafd7de",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -8048,11 +8048,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what can be put in a picture frame. Step 2: A picture frame is a piece of furniture that holds a picture. Step 3: A picture frame is not a piece of furniture. The answer is (d)."
+        "Step 1: Identify the type of frame. Step 2: A picture frame is a type of frame that holds a picture. Step 3: A picture frame is not a type of wall. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8328,11 +8328,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location. Step 2: The house is a place that does not have an elevator. Step 3: The telephone book is a place that does not have an elevator. The answer is (d)."
+        "Step 1: Identify the location. Step 2: The house is a place that does not have an elevator. Step 3: The telephone book is a place that does not have an elevator. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8341,7 +8341,7 @@
     "doc_hash": "c453366155da733e1f4432a3c40f254591ae5b914111caab8350e2164da0bdee",
     "prompt_hash": "783e3a9b46b325c5401575cc4e23b139e3c94bd90f830e13e1d400d9aa943501",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 49,
@@ -8496,7 +8496,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone having a seizure. Step 2: A seizure is a sudden, uncontrolled, and often violent response to a stimulus. Step 3: Slurred speech is a condition where someone has trouble speaking clearly, often due to a lack of coordination. The answer is (c)."
+        "Step 1: Identify the emotional state of someone having a seizure. Step 2: A seizure is a sudden, uncontrolled release of energy. Step 3: Slurred speech is a sign of a seizure, which is a sudden, uncontrolled release of energy. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8608,11 +8608,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the child wants. Step 2: Fall down is not a good choice, as it implies a physical act of falling. Step 3: Falling down is not a good choice, as it implies a physical act of falling. Step 4: Beware of fall down, as it implies a physical act of falling. The answer is (b)."
+        "Step 1: Identify what the child wants. Step 2: Fall down is not a good choice, as it implies a physical act of falling. Step 3: Beware of fall-down options, as they often imply a physical act of falling. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8621,7 +8621,7 @@
     "doc_hash": "2dfc6b674438bc83d83f275cb3a5b2cd7750b329868413cb35bd41d12e759469",
     "prompt_hash": "919f8f010692680cb4f5254e9f97415e195074a4a5559bb74ec3b04c50b95b97",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 54,
@@ -8720,11 +8720,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the teacher does not tolerate. Step 2: The teacher is not a movie theatre or bowling alley. The answer is (d)."
+        "Step 1: Identify what the teacher does not tolerate. Step 2: The teacher is not a movie theatre or bowling alley. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8733,7 +8733,7 @@
     "doc_hash": "53d6730ae3aad9c123d86e68791512b89f350656d461aa7f44dcfafa842d6315",
     "prompt_hash": "d8833fab6aff4bc1e868300a2dc20d57eb0bfde8fb4a5cb08a87e6c55a666613",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 56,
@@ -8888,11 +8888,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location. Step 2: Bland is a place that is not pleasant, but it is not hot. Step 3: Lifeless is a place that is not alive, but it is not cold. Step 4: Soggy is a place that is not wet, but it is not cold. The answer is (e)."
+        "Step 1: Identify the location. Step 2: Bland is a place that is not pleasant, but it is not hot. Step 3: The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8901,7 +8901,7 @@
     "doc_hash": "65bcce00838b0725ac59f3c6bc99d9718aee2db63d2f39abd97772088fd84b2f",
     "prompt_hash": "f39f075b0ecfe3ca8842254934cb3cb1351715aa4b1589176300d5397228c10e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 59,
@@ -8944,11 +8944,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what someone wants to know. Step 2: Read books. Step 3: See favorite shows. Step 4: Go somewhere. The answer is (d)."
+        "Step 1: Identify what someone wants to know. Step 2: Read books, watch movies, or go somewhere. Step 3: The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9056,11 +9056,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the computer user's location. Step 2: The computer is a device that can be used to access the internet. Step 3: The internet is a vast network of computers and devices that connect to the internet. The answer is (d)."
+        "Step 1: Identify the user's activity. Step 2: The computer is a device that can be used for various purposes. Step 3: The computer is a device that can be used for various purposes, including personal computing. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9112,7 +9112,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of environment. Step 2: Crabs live in saltwater. Step 3: The answer is (c)."
+        "Step 1: Identify the environment of crabs. Step 2: Crabs are found in saltwater, which is a harsh environment. Step 3: The environment is harsh, and crabs are adapted to survive in it. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -9168,11 +9168,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of the snake. Step 2: The pet shops are places, not places where snakes are found. The answer is (e)."
+        "Step 1: Identify the location of the snake. Step 2: The pet shops are places, not places where snakes are found. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9224,7 +9224,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what a bench is. Step 2: A bench is a place where people sit and rest. Step 3: Bus stops are places where people sit and wait for buses. Step 4: Bus depots are places where buses are stored. Step 5: Train stations are places where trains are stored. The answer is (e)."
+        "Step 1: Identify what a bench is. Step 2: A bench is a place where people sit and rest. Step 3: Bus stops are places where people sit and wait for a bus. Step 4: Bus depots are places where buses are stopped. Step 5: Train stations are places where trains stop. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9280,7 +9280,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone eating in a failing relationship. Step 2: The human tends to eat in a failing relationship, as it is a sign of desperation. Step 3: The human tends to eat in a failing relationship, as it is a sign of desperation. The answer is (b)."
+        "Step 1: Identify the human's emotional state. Step 2: A hungry person is likely to feel a sense of deprivation and frustration. Step 3: The human likely will go to a restaurant to satisfy their hunger. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -9392,7 +9392,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify where a shower curtain is used. Step 2: Bathtub is not a place where a shower curtain is used. Step 3: The bathtub is a place where a shower curtain is used. The answer is (b)."
+        "Step 1: Identify where a shower curtain is used. Step 2: Bathtub is not a place where a shower curtain is used. Step 3: The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -9448,7 +9448,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of idea. Step 2: School bus is a vehicle for transportation, not a fire extinguisher. Step 3: The answer is (b)."
+        "Step 1: Identify the idea. Step 2: A fire extinguisher is not a necessary item for a house. Step 3: The idea is not a fire extinguisher, but a house. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -9504,11 +9504,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the continent. Step 2: The continent with the most castles is Europe. Step 3: The continent with the most castles is Europe. The answer is (c)."
+        "Step 1: Identify the continent. Step 2: Fairy tale is a fantasy, not a real place. Step 3: The continent with the most castles is Europe. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9616,11 +9616,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Sally's work. Step 2: The office supply store is a place where people work. Step 3: The school is a place where students work. The answer is (d)."
+        "Step 1: Identify Sally's task. Step 2: The task is to hold papers while reading them off a clipboard. Step 3: The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9728,7 +9728,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of game. Step 2: Pawns are the pieces that are moved to the end of the board. Step 3: The pawns are the pieces that are moved to the end of the board. The answer is (e)."
+        "Step 1: Identify the type of game. Step 2: Pawns are the pieces that are moved to the pawns. Step 3: The pawns are the pieces that are moved to the pawns. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9784,7 +9784,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what is not true about a basketball. Step 2: Basketball is a sport, not a game. Step 3: The hole in the basketball is not a hole in the game. The answer is (d)."
+        "Step 1: Identify what is not true about a basketball. Step 2: Basketball is a sport, not a game. Step 3: The hole in the basketball is not a hole in the ground. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -9896,7 +9896,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of a wild bird. Step 2: Wild birds are found in various environments, including forests, grasslands, deserts, and mountains. Step 3: The sky is a place where birds can fly, and the countryside is a place where they can live. The answer is (b)."
+        "Step 1: Identify the location of a wild bird. Step 2: Wild birds are found in various environments, including forests, grasslands, and deserts. Step 3: The sky is a place where birds can fly, and the countryside is a place where they can live. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -10064,7 +10064,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what could prevent someone from committing murder. Step 2: Murder is a serious crime that can have severe consequences. Step 3: The consequences of committing murder are far-reaching and can have a profound impact on a person's life. The answer is (d)."
+        "Step 1: Identify what could prevent someone from committing murder. Step 2: Murder is a serious crime that can have severe consequences. Step 3: The consequences of committing murder are far-reaching and can have a profound impact on one's life. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -10120,11 +10120,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify George's condition. Step 2: George's socks are smelly and his soles are blistered. Step 3: George's feet are still smelly and his socks are still blistered. The answer is (c)."
+        "Step 1: Identify George's condition. Step 2: George's condition is not a car. Step 3: The condition is not smelly and blistered. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10133,7 +10133,7 @@
     "doc_hash": "f696e6ee729fc6f792362cc5cb080a9de9492171077bc9d1b22efbe856cf0390",
     "prompt_hash": "cc85febda9bf182e66b1422a0a86cbbc7018f30cbb640c7e8d26cb7f6e29b28e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -10176,7 +10176,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of cable used in a crane. Step 2: The crane uses a steel cable to lift heavy loads. Step 3: The construction site is a place where construction is done. The answer is (d)."
+        "Step 1: Identify the type of work the crane is doing. Step 2: The crane is working a bridge, so it is a bridge. Step 3: The bridge is a structure, so it is a structure. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -10232,11 +10232,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the main purpose of farmers. Step 2: Farmers are the main purpose of the agricultural industry. Step 3: The agricultural industry is the main purpose of farmers. The answer is (e)."
+        "Step 1: Identify the main purpose of farmers. Step 2: Farmers are the main purpose of the agricultural industry. Step 3: The agricultural industry is the main purpose of farmers. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10245,7 +10245,7 @@
     "doc_hash": "01c7fab0786dda505edf7d093a086f067e75d758b9829384584f63b75440768a",
     "prompt_hash": "41fb5f2dfc0833d5295e5d4fec5ee36a2706aa9707664d557f94351f45664741",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -10288,11 +10288,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the penny's location. Step 2: Pound the penny into a pile. Step 3: Place the penny in a pocket. Step 4: Place the pocket in a safe place. The answer is (d)."
+        "Step 1: Identify the type of penny. Step 2: Pound the penny into a coin. Step 3: The penny is a small denomination, so it's best to put it in a pocket. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10400,11 +10400,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the man's fear of illness. Step 2: The man is a patient, so he is not a sick person. Step 3: The man is a patient, so he is not a sick person. The answer is (c)."
+        "Step 1: Identify the man's fear of illness. Step 2: The man is a patient, so he is not a sick person. Step 3: The hospital is a place where patients are admitted for treatment. Step 4: The elderly person is a person who is not a patient, so they are not a sick person. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10456,7 +10456,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of pans. Step 2: Cooking is the action of preparing food. Step 3: Pan is a utensil used for cooking. Step 4: Kitchen is the place where cooking takes place. Step 5: Drawer is a storage container for food. The answer is (d)."
+        "Step 1: Identify the location of pans. Step 2: Cooking is the action of preparing food. Step 3: Pan is a utensil used for cooking. Step 4: Kitchen is the place where cooking takes place. Step 5: Drawer is a storage area for food. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -10512,7 +10512,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the emotional state of someone remembering something. Step 2: The act of remembering is not the same as remembering something. Step 3: The act of remembering is not the same as remembering something. The answer is (d)."
+        "Step 1: Identify the emotional state of someone remembering something. Step 2: The act of remembering is not the same as remembering the act of remembering. Step 3: The act of remembering is not the same as the act of remembering the act of remembering. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -10568,11 +10568,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of the largest land mass. Step 2: The Amazon Basin is home to the most monkeys. Step 3: The Amazon Basin is a large land mass, not a place to live. The answer is (d)."
+        "Step 1: Identify the location of the largest land mass. Step 2: The Amazon Basin is home to the most monkeys. Step 3: The Amazon Basin is a large land mass, not a place to live. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10581,7 +10581,7 @@
     "doc_hash": "1081b1adde558cc293e0ad5dfac3fafdea22a6866705bccd56025e5f2b57a8a9",
     "prompt_hash": "fe2aae6227f6f2132fa4bb84f15ece6cc504385994f22aa1cbbd9393e1d20ad3",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 89,
@@ -10792,7 +10792,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what is needed of someone in the kitchen. Step 2: The kitchen is a place where people often need to cook and clean. Step 3: Oil squeaky hinge is a common tool used in cooking and cleaning. The answer is (d)."
+        "Step 1: Identify what is needed of someone in the kitchen. Step 2: The kitchen is a place where people often work. Step 3: Oil squeaky hinge is a necessary tool for cooking. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -10848,7 +10848,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the location of wind instruments together. Step 2: Music stores are places where people buy and sell instruments. Step 3: Music rooms are places where musicians perform. Step 4: Symphony halls are places where music is performed. The answer is (b)."
+        "Step 1: Identify the location of wind instruments together. Step 2: Music stores are places where people buy and sell instruments. Step 3: A symphony is a large, large concert hall where musicians perform. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -10904,7 +10904,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the city. Step 2: The mountie is in a city. Step 3: The city is not a place where he is in. The answer is (c)."
+        "Step 1: Identify the city. Step 2: The mountie is in a city. Step 3: The mountie is in a city. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -10960,11 +10960,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what the person is trying to do. Step 2: Point out what they are not doing. Step 3: Point out what they are doing. The answer is (e)."
+        "Step 1: Identify what the person wants to do. Step 2: Point out the lack of understanding. Step 3: Point out the understanding. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10973,7 +10973,7 @@
     "doc_hash": "50e68a5799e8583bcf4700f79c5a4fe61d4740022021ffd54599d0f956c0997b",
     "prompt_hash": "8063e12a9f89775218aced98e8421be9285d8e4e587bd3bbcfd0adc86d26bee1",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -11016,11 +11016,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Billy's goal: have fun after work. Step 2: Billy's block of time is a time for relaxation and enjoyment. Step 3: The reason he sets aside a block of time for fun is to have a good time. The answer is (e)."
+        "Step 1: Identify Billy's goal: have fun after work. Step 2: Billy's block of time is a time for relaxation. Step 3: The block is a time for relaxation. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -11128,11 +11128,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify what you cannot do. Step 2: Greed is a powerful emotion that can lead to destructive behavior. Step 3: The answer is (d)."
+        "Step 1: Identify what you cannot do. Step 2: Greed is a powerful emotion that can lead to destructive behavior. Step 3: The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [

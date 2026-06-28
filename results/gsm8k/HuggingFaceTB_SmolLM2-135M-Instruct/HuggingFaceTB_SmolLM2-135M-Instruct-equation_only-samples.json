@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "Janet\u2019s ducks lay 16 eggs per day * 16 eggs per day = 240 eggs per day\nShe eats three for breakfast every morning * 3 eggs per day = 9 eggs per day\nShe bakes muffins for her friends every day * 4 eggs per day = 12 eggs per day\nShe sells the remainder at the farmers\u2019 market daily for $2 per fresh duck egg = $2 * 12 eggs/day = $24\nShe makes $24 / 3 = $8.67 per day at the farmers\u2019 market\n#### 8.67\nThe answer is 8.67."
+        "Janet\u2019s ducks lay 16 eggs per day * 16 eggs per day = 240 eggs per day Janet makes 240 eggs / day = 240 / 24 = 9.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
       ]
     ],
     "filtered_resps": [
-      "8.67"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -212,11 +212,11 @@
     ],
     "resps": [
       [
-        "16 - 60 = 2 The answer is 4."
+        "60% of 16 = 0.6 * 16 = 9\nKylar needs 16 - 9 = 5 glasses to buy\n5 - 9 = 1\nKylar needs 1 - 1 = 1\nKylar needs 1 * 16 = 16\nKylar needs 16 * 60 = 90\nKylar needs 90 * 1 = 90\nKylar needs 90 * 16 = 128\nKylar needs 128 * 60 = 720\nKylar needs 720 * 1 = 720\nKylar needs 720 * 16 = 1080\nKylar needs 1080 * 60 = 6320\nKylar needs 6320 * 1 = 6320\nKylar needs 6320 * 16 = 9160\nKylar needs 9160 * 60 = 5600\nKyl"
       ]
     ],
     "filtered_resps": [
-      "4"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "3 + 2 = 5 The answer is 8."
+        "4 - 2 = 2 The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "8"
+      "2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -364,7 +364,7 @@
     ],
     "resps": [
       [
-        "Eliza's rate per hour is $10 * 45 = $450. Eliza's rate per hour is $10 * 45 = $400. Eliza's earnings for this week are $400 + $450 = $850."
+        "Eliza's rate per hour is $10 * 45 = $450. Eliza's rate per hour is $10 * 45 = $400. Eliza's earnings for this week is $400 + $450 = $850."
       ]
     ],
     "filtered_resps": [
@@ -554,7 +554,7 @@
     ],
     "resps": [
       [
-        "20% of 20 students = 0.20 * 20 = 4 Students\n25% of 20 students = 0.25 * 20 = 4 Students\n25% of the remaining students = 0.25 * 20 = 5 Students\n5% of the total students = 0.05 * 20 = 10 Students\n\nSo, 4 students enrolled in hip-hop dance."
+        "20% of 20 students = 0.20 * 20 = 4 Students\n25% of 20 students = 0.25 * 20 = 4 Students\n25% of the remaining students = 0.25 * 20 = 5 Students\n5% of the total students = 0.05 * 20 = 10 Students\n10% of the total students = 0.10 * 20 = 20 Students\n5% of the total students = 0.05 * 20 = 10 Students\n10% of the total students = 0.010 * 20 = 20 Students\n10% of the total students = 0.005 * 20 = 10 Students\n5% of the total students = 0.05 * 20 = 10 Students\n10% of the total students = 0.010 * 20 = 20 Students\n10% of the total students = 0.005 * 20 = 10 Students\n10%"
       ]
     ],
     "filtered_resps": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "2.5% increase in the jewelry market = 0.25 * 5,000 = $1,000\n1.2% increase in the electronic gadgets market = 0.12 * 8,000 = $9,000\n\nTo maximize profit, the merchant should choose the jewelry market."
+        "2.5% increase in jewelry market = 0.25 * 5,000 = $1,000\n1.2% increase in electronic gadgets market = 0.12 * 8,000 = $9,000\n\nTotal profit = $1,000 + $9,000 = $1,090\n\nSo, the merchant would make a profit of $1,090 at the end of the month."
       ]
     ],
     "filtered_resps": [
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "50 - 35 - 15 = 10 The answer is 12."
+        "20 + 30 + 15 = 55 The answer is 105."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "105"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,7 +896,7 @@
     ],
     "resps": [
       [
-        "1:00 PM - 1:00 PM = 0.00 PM"
+        "1:00 PM - 1:00 PM = 0.00 PM - 1:00 PM = 0.0000 PM"
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "60 - 15 = 45 The answer is 12."
+        "60 - 15 = 45 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1314,11 +1314,11 @@
     ],
     "resps": [
       [
-        "2 + 5 = 7 The answer is 12."
+        "2 - 5 = 3 The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "6"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1352,11 +1352,11 @@
     ],
     "resps": [
       [
-        "40 - 20 = 20 The answer is 20."
+        "40 - 20 = 20 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1428,11 +1428,11 @@
     ],
     "resps": [
       [
-        "13 - 8 = 3 The answer is 4."
+        "13 - 8 = 3 The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1441,7 +1441,7 @@
     "doc_hash": "8de6d7e2e70b616d608c932b64b38867711ee3dcea416d3694e91cc66a4b2b37",
     "prompt_hash": "70a170052d5392d8dd77746719c47db6c6a4cdf568f72f41de33a27eff039aea",
     "target_hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 38,
@@ -1542,11 +1542,11 @@
     ],
     "resps": [
       [
-        "1 year old + 2 years old = 3 years old The answer is 4."
+        "1 year old + 2 years old = 3 years old The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "3"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "2000 - 2000 = 0 The answer is 0."
+        "1800 - 2000 = 800 The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "4 hours / 2 = 2.4 hours per day\n2.4 hours / 5 articles = 0.4 hours per article\n0.4 hours / 2 articles = 0.2 hours per article\n0.2 hours / 2 articles = 0.1 hours per article\n0.1 hours / 2 articles = 0.001 hours per article\n0.001 hours / 2 articles = 0.0001 hours per article\n0.0001 hours / 2 articles = 0.000001 hours per article\n0.000001 hours / 2 articles = 0.0000001 hours per article\n0.0000001 hours / 2 articles = 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "4 hours / 2 = 2.4 hours per day\n2.4 hours / 5 articles = 0.5 hours per article\n0.5 hours / 2 articles = 0.25 hours per article\n0.25 hours / 2 articles = 0.125 hours per article\n0.125 hours / 2 articles = 0.0625 hours per article\n0.625 hours / 5 articles = 0.125 hours per article\n0.125 hours / 2 articles = 0.0625 hours per article\n0.625 hours / 3 articles = 0.125 hours per article\n0.125 hours / 4 articles = 0.0625 hours per article\n0.0625 hours / 5 articles = 0.0625 hours per article\n0.0625 hours / 6 articles = 0.0625 hours per article\n0.0625 hours / 7 articles = 0.0625 hours per article\n0.0625 hours / 8"
       ]
     ],
     "filtered_resps": [
@@ -1808,11 +1808,11 @@
     ],
     "resps": [
       [
-        "200 - 40 = 160 The answer is 16."
+        "40 - 200 = 40 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "16"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1884,11 +1884,11 @@
     ],
     "resps": [
       [
-        "15 * 3/4 = 30 The answer is 15."
+        "15 * 3/4 = 15 / 4 = 4 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "10 - 4 = 6 The answer is 6."
+        "10 - 4 = 6 The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "20 - 2 = 18 The answer is 18."
+        "20 - 12 = 8 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "3755 - 5000 = 15000\n15000 - 15 = 15000\n15000 + 15 = 16555\n16555 + 15 = 17200\n17200 + 3755 = 18955\n18955 + 3755 = 22200\n22200 + 15 = 22755\n22755 + 15 = 23020\n23020 + 15 = 23275\n23275 + 15 = 23530\n23530 + 15 = 23785\n23785 + 15 = 24003\n24003 + 15 = 24153\n24153 + 15 = 24306\n24306 + 15 = 24"
+        "3755 - 15 = 3755 - 3755 = 0 The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "0"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2682,11 +2682,11 @@
     ],
     "resps": [
       [
-        "15 - 5 = 10 The answer is 12."
+        "5 * 15 = 75 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "150 - 150 * 0.02 = 150 - 20 = 135 The answer is 13."
+        "150 - 100 = 50 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "13"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "2 * 18 = 36 The answer is 18."
+        "2 * 3 = 6 The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "6 * 24 = 144 The answer is 144."
+        "24 - 1/6 = 23 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "144"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3075,7 +3075,7 @@
     "doc_hash": "108b4fe53641443aab680ea967b6d9033d1dba648ebce8539c13b90ab12d0660",
     "prompt_hash": "73b1614f3ede5a13d412ddac7ef34a56b5ce2bcefc1bbe32708bb552eb814901",
     "target_hash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -3100,11 +3100,11 @@
     ],
     "resps": [
       [
-        "10 + 21 + 23 + 9 + 28 = 70 The answer is 100."
+        "10 + 21 + 23 + 9 + 28 = 72 The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "100"
+      "120"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "The first alarm rang four times, the second alarm rang for three times, and the third alarm rang for half as long as the second alarm. The fourth alarm rang for half as long as the third alarm. The total number of times the alarm rang is 4 + 3 + 1 + 1 = 10. The answer is 10."
+        "The first alarm rang four times, the second alarm rang for three times, and the third alarm rang for half as long as the second alarm. The fourth alarm rang for half as long as the third alarm. The total number of times the alarm rang is 4 + 3 + 2 + 1 = 10."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3366,11 +3366,11 @@
     ],
     "resps": [
       [
-        "88,000 - 10 * 88,000 = 88,000 - 10 * 100,000 = 88,000 - 100,000 = 88,000\nThe answer is 88,000."
+        "88,000 - 10 * 88,000 = 88,000 - 10 * 88,000 = 88,000 - 10 * 88,000 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 1"
       ]
     ],
     "filtered_resps": [
-      "88,000"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "12 - 60 = 2 The answer is 4."
+        "2 * 60 = 120 The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "120"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "2/3 * 9 = 18 The answer is 18."
+        "9 - 2/3 = 12 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "18 + 2 = 20 The answer is 21."
+        "18 - 2 = 15 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "21"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "Janet\u2019s ducks lay 16 eggs per day * 16 eggs per day = 240 eggs per day\nShe eats three for breakfast every morning * 3 eggs per day = 9 eggs per day\nShe bakes muffins for her friends every day * 4 eggs per day = 12 eggs per day\nShe sells the remainder at the farmers\u2019 market daily for $2 per fresh duck egg = $2 * 12 eggs/day = $24\nShe makes $24 / 3 = $8.67 per day at the farmers\u2019 market\n#### 8.67\nThe answer is 8.67."
+        "Janet\u2019s ducks lay 16 eggs per day * 16 eggs per day = 240 eggs per day Janet makes 240 eggs / day = 240 / 24 = 9.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
       ]
     ],
     "filtered_resps": [
-      "8.67."
+      "9.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4012,11 +4012,11 @@
     ],
     "resps": [
       [
-        "16 - 60 = 2 The answer is 4."
+        "60% of 16 = 0.6 * 16 = 9\nKylar needs 16 - 9 = 5 glasses to buy\n5 - 9 = 1\nKylar needs 1 - 1 = 1\nKylar needs 1 * 16 = 16\nKylar needs 16 * 60 = 90\nKylar needs 90 * 1 = 90\nKylar needs 90 * 16 = 128\nKylar needs 128 * 60 = 720\nKylar needs 720 * 1 = 720\nKylar needs 720 * 16 = 1080\nKylar needs 1080 * 60 = 6320\nKylar needs 6320 * 1 = 6320\nKylar needs 6320 * 16 = 9160\nKylar needs 9160 * 60 = 5600\nKyl"
       ]
     ],
     "filtered_resps": [
-      "4."
+      "5600"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "3 + 2 = 5 The answer is 8."
+        "4 - 2 = 2 The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,7 +4164,7 @@
     ],
     "resps": [
       [
-        "Eliza's rate per hour is $10 * 45 = $450. Eliza's rate per hour is $10 * 45 = $400. Eliza's earnings for this week are $400 + $450 = $850."
+        "Eliza's rate per hour is $10 * 45 = $450. Eliza's rate per hour is $10 * 45 = $400. Eliza's earnings for this week is $400 + $450 = $850."
       ]
     ],
     "filtered_resps": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "20% of 20 students = 0.20 * 20 = 4 Students\n25% of 20 students = 0.25 * 20 = 4 Students\n25% of the remaining students = 0.25 * 20 = 5 Students\n5% of the total students = 0.05 * 20 = 10 Students\n\nSo, 4 students enrolled in hip-hop dance."
+        "20% of 20 students = 0.20 * 20 = 4 Students\n25% of 20 students = 0.25 * 20 = 4 Students\n25% of the remaining students = 0.25 * 20 = 5 Students\n5% of the total students = 0.05 * 20 = 10 Students\n10% of the total students = 0.10 * 20 = 20 Students\n5% of the total students = 0.05 * 20 = 10 Students\n10% of the total students = 0.010 * 20 = 20 Students\n10% of the total students = 0.005 * 20 = 10 Students\n5% of the total students = 0.05 * 20 = 10 Students\n10% of the total students = 0.010 * 20 = 20 Students\n10% of the total students = 0.005 * 20 = 10 Students\n10%"
       ]
     ],
     "filtered_resps": [
-      "4"
+      "10"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "2.5% increase in the jewelry market = 0.25 * 5,000 = $1,000\n1.2% increase in the electronic gadgets market = 0.12 * 8,000 = $9,000\n\nTo maximize profit, the merchant should choose the jewelry market."
+        "2.5% increase in jewelry market = 0.25 * 5,000 = $1,000\n1.2% increase in electronic gadgets market = 0.12 * 8,000 = $9,000\n\nTotal profit = $1,000 + $9,000 = $1,090\n\nSo, the merchant would make a profit of $1,090 at the end of the month."
       ]
     ],
     "filtered_resps": [
-      "$9,000"
+      "$1,090"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "50 - 35 - 15 = 10 The answer is 12."
+        "20 + 30 + 15 = 55 The answer is 105."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "105."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "1:00 PM - 1:00 PM = 0.00 PM"
+        "1:00 PM - 1:00 PM = 0.00 PM - 1:00 PM = 0.0000 PM"
       ]
     ],
     "filtered_resps": [
-      "0.00"
+      "0.0000"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "60 - 15 = 45 The answer is 12."
+        "60 - 15 = 45 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5114,11 +5114,11 @@
     ],
     "resps": [
       [
-        "2 + 5 = 7 The answer is 12."
+        "2 - 5 = 3 The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "6."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5152,11 +5152,11 @@
     ],
     "resps": [
       [
-        "40 - 20 = 20 The answer is 20."
+        "40 - 20 = 20 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "20."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5228,11 +5228,11 @@
     ],
     "resps": [
       [
-        "13 - 8 = 3 The answer is 4."
+        "13 - 8 = 3 The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "4."
+      "2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5241,7 +5241,7 @@
     "doc_hash": "8de6d7e2e70b616d608c932b64b38867711ee3dcea416d3694e91cc66a4b2b37",
     "prompt_hash": "70a170052d5392d8dd77746719c47db6c6a4cdf568f72f41de33a27eff039aea",
     "target_hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 38,
@@ -5342,11 +5342,11 @@
     ],
     "resps": [
       [
-        "1 year old + 2 years old = 3 years old The answer is 4."
+        "1 year old + 2 years old = 3 years old The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "4."
+      "3."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "2000 - 2000 = 0 The answer is 0."
+        "1800 - 2000 = 800 The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5532,11 +5532,11 @@
     ],
     "resps": [
       [
-        "4 hours / 2 = 2.4 hours per day\n2.4 hours / 5 articles = 0.4 hours per article\n0.4 hours / 2 articles = 0.2 hours per article\n0.2 hours / 2 articles = 0.1 hours per article\n0.1 hours / 2 articles = 0.001 hours per article\n0.001 hours / 2 articles = 0.0001 hours per article\n0.0001 hours / 2 articles = 0.000001 hours per article\n0.000001 hours / 2 articles = 0.0000001 hours per article\n0.0000001 hours / 2 articles = 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "4 hours / 2 = 2.4 hours per day\n2.4 hours / 5 articles = 0.5 hours per article\n0.5 hours / 2 articles = 0.25 hours per article\n0.25 hours / 2 articles = 0.125 hours per article\n0.125 hours / 2 articles = 0.0625 hours per article\n0.625 hours / 5 articles = 0.125 hours per article\n0.125 hours / 2 articles = 0.0625 hours per article\n0.625 hours / 3 articles = 0.125 hours per article\n0.125 hours / 4 articles = 0.0625 hours per article\n0.0625 hours / 5 articles = 0.0625 hours per article\n0.0625 hours / 6 articles = 0.0625 hours per article\n0.0625 hours / 7 articles = 0.0625 hours per article\n0.0625 hours / 8"
       ]
     ],
     "filtered_resps": [
-      "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      "8"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "200 - 40 = 160 The answer is 16."
+        "40 - 200 = 40 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "16."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5684,11 +5684,11 @@
     ],
     "resps": [
       [
-        "15 * 3/4 = 30 The answer is 15."
+        "15 * 3/4 = 15 / 4 = 4 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "15."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "10 - 4 = 6 The answer is 6."
+        "10 - 4 = 6 The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5912,11 +5912,11 @@
     ],
     "resps": [
       [
-        "20 - 2 = 18 The answer is 18."
+        "20 - 12 = 8 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "3755 - 5000 = 15000\n15000 - 15 = 15000\n15000 + 15 = 16555\n16555 + 15 = 17200\n17200 + 3755 = 18955\n18955 + 3755 = 22200\n22200 + 15 = 22755\n22755 + 15 = 23020\n23020 + 15 = 23275\n23275 + 15 = 23530\n23530 + 15 = 23785\n23785 + 15 = 24003\n24003 + 15 = 24153\n24153 + 15 = 24306\n24306 + 15 = 24"
+        "3755 - 15 = 3755 - 3755 = 0 The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "24"
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "15 - 5 = 10 The answer is 12."
+        "5 * 15 = 75 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "150 - 150 * 0.02 = 150 - 20 = 135 The answer is 13."
+        "150 - 100 = 50 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "13."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "2 * 18 = 36 The answer is 18."
+        "2 * 3 = 6 The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "6 * 24 = 144 The answer is 144."
+        "24 - 1/6 = 23 The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "144."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6875,7 +6875,7 @@
     "doc_hash": "108b4fe53641443aab680ea967b6d9033d1dba648ebce8539c13b90ab12d0660",
     "prompt_hash": "73b1614f3ede5a13d412ddac7ef34a56b5ce2bcefc1bbe32708bb552eb814901",
     "target_hash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -6900,11 +6900,11 @@
     ],
     "resps": [
       [
-        "10 + 21 + 23 + 9 + 28 = 70 The answer is 100."
+        "10 + 21 + 23 + 9 + 28 = 72 The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "100."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,7 +7090,7 @@
     ],
     "resps": [
       [
-        "The first alarm rang four times, the second alarm rang for three times, and the third alarm rang for half as long as the second alarm. The fourth alarm rang for half as long as the third alarm. The total number of times the alarm rang is 4 + 3 + 1 + 1 = 10. The answer is 10."
+        "The first alarm rang four times, the second alarm rang for three times, and the third alarm rang for half as long as the second alarm. The fourth alarm rang for half as long as the third alarm. The total number of times the alarm rang is 4 + 3 + 2 + 1 = 10."
       ]
     ],
     "filtered_resps": [
@@ -7166,11 +7166,11 @@
     ],
     "resps": [
       [
-        "88,000 - 10 * 88,000 = 88,000 - 10 * 100,000 = 88,000 - 100,000 = 88,000\nThe answer is 88,000."
+        "88,000 - 10 * 88,000 = 88,000 - 10 * 88,000 = 88,000 - 10 * 88,000 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 10 * 100 = 88,000 - 1"
       ]
     ],
     "filtered_resps": [
-      "88,000."
+      "1"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "12 - 60 = 2 The answer is 4."
+        "2 * 60 = 120 The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "4."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "2/3 * 9 = 18 The answer is 18."
+        "9 - 2/3 = 12 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "18 + 2 = 20 The answer is 21."
+        "18 - 2 = 15 The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "21."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [

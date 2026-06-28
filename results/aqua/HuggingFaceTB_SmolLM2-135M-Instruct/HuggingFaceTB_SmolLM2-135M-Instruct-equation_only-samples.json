@@ -30,11 +30,11 @@
     ],
     "resps": [
       [
-        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15% of Friend Q's rate. 15% of 15% is 15/100 = 0.15.\nFriend Q's rate is 15% of 15% is 15/100 * 15/100 = 15/100 * 0.15 = 1.5 km/h.\nFriend P's rate is 15% of 1.5 km/h is 15/1.5 * 1.5 = 1.25 km/h.\nFriend P's rate is 15% of 1.25 km/h is 15/1.25 * 1.25/1.25 = 1.25 km/h.\nFriend Q's rate is 15% of 1.25 km/h is 15/1.25 * 1.25/1.25 = 1.25 km/h.\nF"
+        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15% of Friend Q's rate. 15% of 15% is 15/100 = 0.15.\nFriend Q's rate is 15% of 15% is 15/100 * 15/100 = 15/100 * 0.15 = 1.5.\nFriend P's rate is 1.5 * 1.5 = 2.5.\nSince Friend P has walked 2.5 kilometers, Friend Q has walked 2.5 * 2.5 = 6.5 kilometers.\nSo, Friend P has walked 21 kilometers.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -43,7 +43,7 @@
     "doc_hash": "5f40282913e4d55ba41c7592172024e47bf8f2c75c050efc2eb50a8c3c80acbc",
     "prompt_hash": "e1c84ae7856e3121df8efc79f6509562c608ae58896eb8a141459501cabb7ab8",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 1,
@@ -76,7 +76,7 @@
     ],
     "resps": [
       [
-        "(5, 1) and (1, 5) are on line k. The slope of line k is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (1, 5) is on line k, so the slope of the line is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (5, 3) is on line k, so the slope of the line is 1/5. The point (1, 3) is on line k, so the slope of the line is 1/5. The point (5, 3) is on line k, so the slope of the line is 1/5. The point (1, 3) is on line k, so the slope of the line is 1/5. The point (5, 3) is on line k, so the slope of the line is 1/5. The point"
+        "(5, 1) and (1, 5) are on line k. The slope of line k is 1/5. The point (5, 1) lies on line k, so the slope of the line is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (1, 5) lies on line k, so the slope of the line is 1/5. The point (5, 1) lies on line k, so the slope of the line is 1/5. The point (5, 3) lies on line k, so the slope of the line is 1/5. The point (1, 3) lies on line k, so the slope of the line is 1/5. The point (5, 3) lies on line k, so the slope of the line is 1/5. The point (1, 3) lies on line k, so the slope of the line is 1/5. The point (5, 3) lies on line k, so the slope of the line is 1/5. The point"
       ]
     ],
     "filtered_resps": [
@@ -168,7 +168,7 @@
     ],
     "resps": [
       [
-        "$1600 * 4% = $6000 The answer is (e)."
+        "$10,000 * 4% = $4000 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -214,7 +214,7 @@
     ],
     "resps": [
       [
-        "25 kmph * 11 kmph = 275 km The answer is (e)."
+        "25 kmph * 11 kmph = 275 kmph The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -444,11 +444,11 @@
     ],
     "resps": [
       [
-        "8XY = 8 * 25 = 200 The answer is (e)."
+        "8XY = 8 * 1 + 8 * 2 + 8 * 3 + 8 * 4 + 8 * 5 + 8 * 6 + 8 * 7 + 8 * 8 = 8 * 1 + 8 * 2 + 8 * 3 + 8 * 4 + 8 * 5 + 8 * 6 + 8 * 7 + 8 * 8 = 8 * 10 + 8 * 11 + 8 * 12 + 8 * 13 + 8 * 14 + 8 * 15 + 8 * 16 + 8 * 17 + 8 * 18 + 8 * 19 + 8 * 20 = 8 * 100 + 8 * 110 + 8 * 120 + 8 * 130 + 8 * 140 + 8 * 150 + 8 * 160 + 8 * 170 + 8 * 180 + 8 * 190 +"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -536,11 +536,11 @@
     ],
     "resps": [
       [
-        "3 * 4% = 12.4% of Rs. 956 = 12.4 * 0.04 = 4.84\nRs. 956 - 4.84 = 955.6\nRs. 956 * 0.04 = 3.84\nRs. 956 * 0.04 = 0.096\nRs. 956 * 0.04 = 0.04\nRs. 956 * 0.04 = 0.004\nRs. 956 * 0.04 = 0.0004\nRs. 956 * 0.04 = 0.00004\nRs. 956 * 0.04 = 0.000004\nRs. 956 * 0.04 = 0.0000004\nRs. 956 * 0.04 = 0.000000004\nRs. 9"
+        "3 * 4% = 12.4% of Rs. 956 = 12.4 * 0.04 = 4.84\nRs. 956 - 4.84 = 955.6 The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -720,7 +720,7 @@
     ],
     "resps": [
       [
-        "3/4 * 8a + 5(3/4)b = 22 The answer is (e)."
+        "3/4 * 8a + 5(8a + 5b) = 22 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -766,7 +766,7 @@
     ],
     "resps": [
       [
-        "k^2/l^2 = 1/2 = 1/\u221a(2)"
+        "k/l^2 = 1/2 = 1/\u221a2 = 1/2^2 = 1/4 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4"
       ]
     ],
     "filtered_resps": [
@@ -950,7 +950,7 @@
     ],
     "resps": [
       [
-        "x = 4 + 10 + 10 + 46 + 94 = 28 The answer is (e)."
+        "x = 4 + 10 + 46 + 94 = 28 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1088,7 +1088,7 @@
     ],
     "resps": [
       [
-        "40 * 2\u03c0 = 800 The answer is (e)."
+        "40 * 1 + 90 * 2 + 401 * 3 = 11\u221a 2\u03c0 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1180,7 +1180,7 @@
     ],
     "resps": [
       [
-        "y<2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y"
+        "y<2x = 2x - 1\ny>3 = 3 - 1\ny = 2\n\nThe correct answer is (a). I only."
       ]
     ],
     "filtered_resps": [
@@ -1226,11 +1226,11 @@
     ],
     "resps": [
       [
-        "10 - 1 = 9 The answer is (c)."
+        "10 - 10 = 0 The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "To solve this problem, we need to calculate the weighted average of the 50 customers and the 40 customers.\nWeighted average = (50 * 95,000) + (40 * 45,000) = 2,500,000 + 1,200,000 = 3,700,000\n\nNow, we can calculate the average income of the other 40 customers:\nAverage income = (40 * 95,000) + (40 * 45,000) = 1,200,000 + 1,200,000 = 2,400,000\n\nSo, the average income of the other 40 customers is $32,500."
+        "To solve this problem, we need to calculate the weighted average of the 50 customers and the 40 customers.\nWeighted average = (50 * 45,000) + (40 * 95,000) = 2,100,000 + 1,600,000 = 3,700,000\n\nNow, we need to find the weighted average of the 50 customers and the 40 customers.\nWeighted average = (50 * 45,000) + (40 * 95,000) = 2,100,000 + 1,600,000 = 3,700,000\n\nThe weighted average of the 50 customers and the 40 customers is $3,700,000.\n\nThe other 40 customers have an average income of $37,500.\n\nThe weighted average of the 50 customers and the 40 customers is $37,500.\n\nThe weighted average"
       ]
     ],
     "filtered_resps": [
@@ -1318,11 +1318,11 @@
     ],
     "resps": [
       [
-        "35 cm * 14 cm = 490 cm The answer is (e)."
+        "35 cm * 14 cm = 490 cm The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1331,7 +1331,7 @@
     "doc_hash": "b2c1127968fa620ca9f9416e1fc40ac8e00b2ecb55878e3fe1ba7bc4d2d5deae",
     "prompt_hash": "0ad7c5b3d149c34aa7690829f23cd629d464be8516ed15c27ea1c44eb1b303a8",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 29,
@@ -1502,7 +1502,7 @@
     ],
     "resps": [
       [
-        "7 * 1 + 70 * 2 + 401 * 3 = 2100 The answer is (e)."
+        "7 * 1 + 7 * 2 + 401 * 3 = 216 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1594,7 +1594,7 @@
     ],
     "resps": [
       [
-        "I. 15  ==> 15 * 3 = 45  ==> 45 * 3 = 135  ==> 135 * 3 = 400  ==> 400 * 3 = 1200  ==> 1200 * 3 = 3600  ==> 3600 * 3 = 10800  ==> 10800 * 3 = 31200  ==> 31200 * 3 = 94400  ==> 94400 * 3 = 296800  ==> 296800 * 3 = 875600  ==> 875600 * 3 = 2931200  ==> 2931200 * 3 = 8714400  ==> 8714400 * 3 = 27868000  ==> 278680"
+        "I. 15 = 3 * 5 = 15 I. 30 = 5 * 3 = 15 II. 60 = 3 * 5 = 15 III. 60 = 5 * 3 = 15 IV. 60 = 3 * 5 = 15 V. 60 = 5 * 3 = 15 VI. 60 = 3 * 5 = 15 VII. 60 = 5 * 3 = 15 VIII. 60 = 3 * 5 = 15 IX. 60 = 5 * 3 = 15 x 3 = 15 x 3 = 45 I. 15 = 3 * 5 = 15 I. 30 = 5 * 3 = 15 II. 60 = 5 * 3 = 15 III. 60 = 5 * 3 = 15 IV. 60 = 5 * 3 = 15 V. 60 = 5 * 3 = 15 VI."
       ]
     ],
     "filtered_resps": [
@@ -1778,7 +1778,7 @@
     ],
     "resps": [
       [
-        "22 days * 7 days per week = 156 days"
+        "22 days * 7 days/week = 156 days"
       ]
     ],
     "filtered_resps": [
@@ -1824,11 +1824,11 @@
     ],
     "resps": [
       [
-        "a + b + c = 1 + 4 + 9 = 16"
+        "1/a + 1/b + 1/c = 1. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1837,7 +1837,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "eeb005bc8f6458b7b03c5683de2ea6071bacc91d5c9cdb87e3f415aed47d38e2",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "three times the sum of the ages of his sons = 4 * 55 = 225 The answer is (e)."
+        "Four years hence, his present age is 36 + 45 = 71 years The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1962,7 +1962,7 @@
     ],
     "resps": [
       [
-        "8mph * 8hrs = 64mph * 8hrs = 524mph The answer is (e)."
+        "8mph * 8 hours = 64 miles The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2100,11 +2100,11 @@
     ],
     "resps": [
       [
-        "8 * 5 = 40 customers bought a coffee and a bagel. 3 out of 5 customers bought a coffee and a bagel. 40 * 5 = 200 customers bought a coffee and a bagel. 27/343 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = "
+        "8 * 5 = 40 customers bought a coffee and a bagel. 3 out of 5 customers bought a coffee and a bagel. 40 * 5 = 200 customers bought a coffee and a bagel. 40 + 200 = 240 customers bought a coffee and a bagel. 8 customers bought both. 240 - 200 = 40 customers bought a coffee and a bagel. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "x + 3 = 8 - 4x + 3 = 8 - 12x + 3 = 10x + 3"
+        "x + 3 = 8 + 4x The equation is x + 3 = 8 + 4x"
       ]
     ],
     "filtered_resps": [
@@ -2192,11 +2192,11 @@
     ],
     "resps": [
       [
-        "20% * 24% = 0.2 * 0.24 = 0.04444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444"
+        "20% * 24% = 40% The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2284,7 +2284,7 @@
     ],
     "resps": [
       [
-        "13 paise per Sq.cm * 13 Sq.cm = 1613.60 cm3 The answer is (e)."
+        "13 paise per Sq.cm * 13 Sq.cm = 166 Paise The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2330,7 +2330,7 @@
     ],
     "resps": [
       [
-        "20 articles * 20% = 400 / 20 = 200 The answer is (e)."
+        "20 articles * 20% = 400 / 20 = 200 articles The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "82 + 41 = 123 The answer is (e)."
+        "41 + 14 = 55 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2882,7 +2882,7 @@
     ],
     "resps": [
       [
-        "22 1/8 % * 40 years = 12 1/2 % The answer is (e)."
+        "1999 * 1 + 1999 * 2 + 1999 * 3 = 22 1/8 % The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2928,7 +2928,7 @@
     ],
     "resps": [
       [
-        "A withdraws Rs.6000 and B withdraws Rs.12000, so A withdraws Rs.6000 and B withdraws Rs.12000. In 4 months, A withdraws Rs.6000 and B withdraws Rs.12000. In 2 months, A withdraws Rs.12000 and B withdraws Rs.6000. In 3 months, A withdraws Rs.6000 and B withdraws Rs.12000. In 4 months, A withdraws Rs.12000 and B withdraws Rs.12000. In 5 months, A withdraws Rs.12000 and B withdraws Rs.6000. In 6 months, A withdraws Rs.6000 and B withdraws Rs.12000. In 7 months, A withdraws Rs.12000 and B withdraws Rs.12000. In 8 months, A withdraws Rs.12000 and B withdraws Rs.12000. In "
+        "A withdraws Rs.6000 and B withdraws Rs.12000, so A withdraws Rs.6000 * 2 = Rs.12000. B withdraws Rs.12000 * 3 = Rs.32000. After 4 months, A withdraws Rs.12000 * 4 = Rs.48000. After 2 months, B withdraws Rs.32000 * 2 = Rs.64000. After 3 months, A withdraws Rs.64000 * 3 = Rs.168000. After 4 months, B withdraws Rs.168000 * 4 = Rs.632000. After 5 months, A withdraws Rs.632000 * 5 = Rs.336000. After 6 months, B withdraws Rs.336000 * 6 = Rs.1596000. After 7 months, A withdraws Rs.1596000 * 7 ="
       ]
     ],
     "filtered_resps": [
@@ -3250,7 +3250,7 @@
     ],
     "resps": [
       [
-        "351^2 + 22^2 + 26^2 = 20000 + 4000 + 1600 = 22000 The answer is (e)."
+        "351^2 + 22^2 + 26^2 = 20000 + 4000 + 1600 = 24000 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3296,7 +3296,7 @@
     ],
     "resps": [
       [
-        "\u221a6 cm2 * \u221a3 cm2 = 3\u221a6 cm2 The answer is (e)."
+        "\u221a6 cm2 * \u221a3 cm2 = 3 cm2 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3342,7 +3342,7 @@
     ],
     "resps": [
       [
-        "1 + 2^n = 2^n (a) 2^n = (\u20132)^n (b) 2^n = (\u20132)^-n (c) 2^n = (\u20132)^-n (d) 2^n = (\u20132)^-n (e) 2^-n = (\u20132)^-n"
+        "1 + 2^n = 2^n (a) 2^n = (\u20132)^n (b) 2^n = (\u20132)^-n (c) 2^n = (\u20132)^-n (d) (\u20132)^n = \u20132^-n (e) (\u20132)^-n = \u20132^-n"
       ]
     ],
     "filtered_resps": [
@@ -3388,11 +3388,11 @@
     ],
     "resps": [
       [
-        "1000 / 40 = 250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "1000 * 40 = 40000 The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3434,11 +3434,11 @@
     ],
     "resps": [
       [
-        "120 m / 15 sec = 8 m The answer is (e)."
+        "120 m / 15 sec = 7.5 m The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "60 kmph * 1 litre per hour = 600 litres of diesel per hour\n$60 per litre = $6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "600 Km * 1200 = 720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
@@ -3894,11 +3894,11 @@
     ],
     "resps": [
       [
-        "4 * 1 + 4 * 2 + 4 * 3 = 16 The answer is (e)."
+        "4 * 1 + 6 * 2 + 8 * 3 = 4 + 6 + 8 = 20 The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4078,11 +4078,11 @@
     ],
     "resps": [
       [
-        "0.01 * 2 = 0.02 The answer is (e)."
+        "0.01 * 2% = 0.0011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4262,11 +4262,11 @@
     ],
     "resps": [
       [
-        "1/4 * 3 = 1/12 The answer is (e)."
+        "1 man * 4 days = 4 days 12 days = 4 * 12 = 48 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day ="
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4446,7 +4446,7 @@
     ],
     "resps": [
       [
-        "25% of the original area = 25 * 100 = 2500 The answer is (e)."
+        "25% of the area is 25 * 100 = 2500 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4584,11 +4584,11 @@
     ],
     "resps": [
       [
-        "1:1 = 1:1 / 2 = 1:1 / 2 = 1:1 / 3 The answer is (c)."
+        "1:1 = 1:100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4630,11 +4630,11 @@
     ],
     "resps": [
       [
-        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15% of Friend Q's rate. 15% of 15% is 15/100 = 0.15.\nFriend Q's rate is 15% of 15% is 15/100 * 15/100 = 15/100 * 0.15 = 1.5 km/h.\nFriend P's rate is 15% of 1.5 km/h is 15/1.5 * 1.5 = 1.25 km/h.\nFriend P's rate is 15% of 1.25 km/h is 15/1.25 * 1.25/1.25 = 1.25 km/h.\nFriend Q's rate is 15% of 1.25 km/h is 15/1.25 * 1.25/1.25 = 1.25 km/h.\nF"
+        "Friend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15% of Friend Q's rate. 15% of 15% is 15/100 = 0.15.\nFriend Q's rate is 15% of 15% is 15/100 * 15/100 = 15/100 * 0.15 = 1.5.\nFriend P's rate is 1.5 * 1.5 = 2.5.\nSince Friend P has walked 2.5 kilometers, Friend Q has walked 2.5 * 2.5 = 6.5 kilometers.\nSo, Friend P has walked 21 kilometers.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4643,7 +4643,7 @@
     "doc_hash": "5f40282913e4d55ba41c7592172024e47bf8f2c75c050efc2eb50a8c3c80acbc",
     "prompt_hash": "e1c84ae7856e3121df8efc79f6509562c608ae58896eb8a141459501cabb7ab8",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 1,
@@ -4676,7 +4676,7 @@
     ],
     "resps": [
       [
-        "(5, 1) and (1, 5) are on line k. The slope of line k is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (1, 5) is on line k, so the slope of the line is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (5, 3) is on line k, so the slope of the line is 1/5. The point (1, 3) is on line k, so the slope of the line is 1/5. The point (5, 3) is on line k, so the slope of the line is 1/5. The point (1, 3) is on line k, so the slope of the line is 1/5. The point (5, 3) is on line k, so the slope of the line is 1/5. The point"
+        "(5, 1) and (1, 5) are on line k. The slope of line k is 1/5. The point (5, 1) lies on line k, so the slope of the line is 1/5. The point (5, 1) is on line k, so the slope of the line is 1/5. The point (1, 5) lies on line k, so the slope of the line is 1/5. The point (5, 1) lies on line k, so the slope of the line is 1/5. The point (5, 3) lies on line k, so the slope of the line is 1/5. The point (1, 3) lies on line k, so the slope of the line is 1/5. The point (5, 3) lies on line k, so the slope of the line is 1/5. The point (1, 3) lies on line k, so the slope of the line is 1/5. The point (5, 3) lies on line k, so the slope of the line is 1/5. The point"
       ]
     ],
     "filtered_resps": [
@@ -4768,7 +4768,7 @@
     ],
     "resps": [
       [
-        "$1600 * 4% = $6000 The answer is (e)."
+        "$10,000 * 4% = $4000 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "25 kmph * 11 kmph = 275 km The answer is (e)."
+        "25 kmph * 11 kmph = 275 kmph The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5044,11 +5044,11 @@
     ],
     "resps": [
       [
-        "8XY = 8 * 25 = 200 The answer is (e)."
+        "8XY = 8 * 1 + 8 * 2 + 8 * 3 + 8 * 4 + 8 * 5 + 8 * 6 + 8 * 7 + 8 * 8 = 8 * 1 + 8 * 2 + 8 * 3 + 8 * 4 + 8 * 5 + 8 * 6 + 8 * 7 + 8 * 8 = 8 * 10 + 8 * 11 + 8 * 12 + 8 * 13 + 8 * 14 + 8 * 15 + 8 * 16 + 8 * 17 + 8 * 18 + 8 * 19 + 8 * 20 = 8 * 100 + 8 * 110 + 8 * 120 + 8 * 130 + 8 * 140 + 8 * 150 + 8 * 160 + 8 * 170 + 8 * 180 + 8 * 190 +"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5136,11 +5136,11 @@
     ],
     "resps": [
       [
-        "3 * 4% = 12.4% of Rs. 956 = 12.4 * 0.04 = 4.84\nRs. 956 - 4.84 = 955.6\nRs. 956 * 0.04 = 3.84\nRs. 956 * 0.04 = 0.096\nRs. 956 * 0.04 = 0.04\nRs. 956 * 0.04 = 0.004\nRs. 956 * 0.04 = 0.0004\nRs. 956 * 0.04 = 0.00004\nRs. 956 * 0.04 = 0.000004\nRs. 956 * 0.04 = 0.0000004\nRs. 956 * 0.04 = 0.000000004\nRs. 9"
+        "3 * 4% = 12.4% of Rs. 956 = 12.4 * 0.04 = 4.84\nRs. 956 - 4.84 = 955.6 The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5320,7 +5320,7 @@
     ],
     "resps": [
       [
-        "3/4 * 8a + 5(3/4)b = 22 The answer is (e)."
+        "3/4 * 8a + 5(8a + 5b) = 22 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5366,7 +5366,7 @@
     ],
     "resps": [
       [
-        "k^2/l^2 = 1/2 = 1/\u221a(2)"
+        "k/l^2 = 1/2 = 1/\u221a2 = 1/2^2 = 1/4 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4 = 1/2 = 1/2^2 + 1/2^2 = 1/4 + 1/4"
       ]
     ],
     "filtered_resps": [
@@ -5550,7 +5550,7 @@
     ],
     "resps": [
       [
-        "x = 4 + 10 + 10 + 46 + 94 = 28 The answer is (e)."
+        "x = 4 + 10 + 46 + 94 = 28 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5688,7 +5688,7 @@
     ],
     "resps": [
       [
-        "40 * 2\u03c0 = 800 The answer is (e)."
+        "40 * 1 + 90 * 2 + 401 * 3 = 11\u221a 2\u03c0 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5780,11 +5780,11 @@
     ],
     "resps": [
       [
-        "y<2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y < 2x  ==> y"
+        "y<2x = 2x - 1\ny>3 = 3 - 1\ny = 2\n\nThe correct answer is (a). I only."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5826,11 +5826,11 @@
     ],
     "resps": [
       [
-        "10 - 1 = 9 The answer is (c)."
+        "10 - 10 = 0 The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5872,7 +5872,7 @@
     ],
     "resps": [
       [
-        "To solve this problem, we need to calculate the weighted average of the 50 customers and the 40 customers.\nWeighted average = (50 * 95,000) + (40 * 45,000) = 2,500,000 + 1,200,000 = 3,700,000\n\nNow, we can calculate the average income of the other 40 customers:\nAverage income = (40 * 95,000) + (40 * 45,000) = 1,200,000 + 1,200,000 = 2,400,000\n\nSo, the average income of the other 40 customers is $32,500."
+        "To solve this problem, we need to calculate the weighted average of the 50 customers and the 40 customers.\nWeighted average = (50 * 45,000) + (40 * 95,000) = 2,100,000 + 1,600,000 = 3,700,000\n\nNow, we need to find the weighted average of the 50 customers and the 40 customers.\nWeighted average = (50 * 45,000) + (40 * 95,000) = 2,100,000 + 1,600,000 = 3,700,000\n\nThe weighted average of the 50 customers and the 40 customers is $3,700,000.\n\nThe other 40 customers have an average income of $37,500.\n\nThe weighted average of the 50 customers and the 40 customers is $37,500.\n\nThe weighted average"
       ]
     ],
     "filtered_resps": [
@@ -5918,11 +5918,11 @@
     ],
     "resps": [
       [
-        "35 cm * 14 cm = 490 cm The answer is (e)."
+        "35 cm * 14 cm = 490 cm The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5931,7 +5931,7 @@
     "doc_hash": "b2c1127968fa620ca9f9416e1fc40ac8e00b2ecb55878e3fe1ba7bc4d2d5deae",
     "prompt_hash": "0ad7c5b3d149c34aa7690829f23cd629d464be8516ed15c27ea1c44eb1b303a8",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 29,
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "7 * 1 + 70 * 2 + 401 * 3 = 2100 The answer is (e)."
+        "7 * 1 + 7 * 2 + 401 * 3 = 216 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6194,7 +6194,7 @@
     ],
     "resps": [
       [
-        "I. 15  ==> 15 * 3 = 45  ==> 45 * 3 = 135  ==> 135 * 3 = 400  ==> 400 * 3 = 1200  ==> 1200 * 3 = 3600  ==> 3600 * 3 = 10800  ==> 10800 * 3 = 31200  ==> 31200 * 3 = 94400  ==> 94400 * 3 = 296800  ==> 296800 * 3 = 875600  ==> 875600 * 3 = 2931200  ==> 2931200 * 3 = 8714400  ==> 8714400 * 3 = 27868000  ==> 278680"
+        "I. 15 = 3 * 5 = 15 I. 30 = 5 * 3 = 15 II. 60 = 3 * 5 = 15 III. 60 = 5 * 3 = 15 IV. 60 = 3 * 5 = 15 V. 60 = 5 * 3 = 15 VI. 60 = 3 * 5 = 15 VII. 60 = 5 * 3 = 15 VIII. 60 = 3 * 5 = 15 IX. 60 = 5 * 3 = 15 x 3 = 15 x 3 = 45 I. 15 = 3 * 5 = 15 I. 30 = 5 * 3 = 15 II. 60 = 5 * 3 = 15 III. 60 = 5 * 3 = 15 IV. 60 = 5 * 3 = 15 V. 60 = 5 * 3 = 15 VI."
       ]
     ],
     "filtered_resps": [
@@ -6378,7 +6378,7 @@
     ],
     "resps": [
       [
-        "22 days * 7 days per week = 156 days"
+        "22 days * 7 days/week = 156 days"
       ]
     ],
     "filtered_resps": [
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "a + b + c = 1 + 4 + 9 = 16"
+        "1/a + 1/b + 1/c = 1. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6437,7 +6437,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "eeb005bc8f6458b7b03c5683de2ea6071bacc91d5c9cdb87e3f415aed47d38e2",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "three times the sum of the ages of his sons = 4 * 55 = 225 The answer is (e)."
+        "Four years hence, his present age is 36 + 45 = 71 years The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6562,7 +6562,7 @@
     ],
     "resps": [
       [
-        "8mph * 8hrs = 64mph * 8hrs = 524mph The answer is (e)."
+        "8mph * 8 hours = 64 miles The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6700,11 +6700,11 @@
     ],
     "resps": [
       [
-        "8 * 5 = 40 customers bought a coffee and a bagel. 3 out of 5 customers bought a coffee and a bagel. 40 * 5 = 200 customers bought a coffee and a bagel. 27/343 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = 27/343 * 100 = "
+        "8 * 5 = 40 customers bought a coffee and a bagel. 3 out of 5 customers bought a coffee and a bagel. 40 * 5 = 200 customers bought a coffee and a bagel. 40 + 200 = 240 customers bought a coffee and a bagel. 8 customers bought both. 240 - 200 = 40 customers bought a coffee and a bagel. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "x + 3 = 8 - 4x + 3 = 8 - 12x + 3 = 10x + 3"
+        "x + 3 = 8 + 4x The equation is x + 3 = 8 + 4x"
       ]
     ],
     "filtered_resps": [
@@ -6792,11 +6792,11 @@
     ],
     "resps": [
       [
-        "20% * 24% = 0.2 * 0.24 = 0.04444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444"
+        "20% * 24% = 40% The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6884,7 +6884,7 @@
     ],
     "resps": [
       [
-        "13 paise per Sq.cm * 13 Sq.cm = 1613.60 cm3 The answer is (e)."
+        "13 paise per Sq.cm * 13 Sq.cm = 166 Paise The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6930,7 +6930,7 @@
     ],
     "resps": [
       [
-        "20 articles * 20% = 400 / 20 = 200 The answer is (e)."
+        "20 articles * 20% = 400 / 20 = 200 articles The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7206,7 +7206,7 @@
     ],
     "resps": [
       [
-        "82 + 41 = 123 The answer is (e)."
+        "41 + 14 = 55 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7482,7 +7482,7 @@
     ],
     "resps": [
       [
-        "22 1/8 % * 40 years = 12 1/2 % The answer is (e)."
+        "1999 * 1 + 1999 * 2 + 1999 * 3 = 22 1/8 % The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7528,7 +7528,7 @@
     ],
     "resps": [
       [
-        "A withdraws Rs.6000 and B withdraws Rs.12000, so A withdraws Rs.6000 and B withdraws Rs.12000. In 4 months, A withdraws Rs.6000 and B withdraws Rs.12000. In 2 months, A withdraws Rs.12000 and B withdraws Rs.6000. In 3 months, A withdraws Rs.6000 and B withdraws Rs.12000. In 4 months, A withdraws Rs.12000 and B withdraws Rs.12000. In 5 months, A withdraws Rs.12000 and B withdraws Rs.6000. In 6 months, A withdraws Rs.6000 and B withdraws Rs.12000. In 7 months, A withdraws Rs.12000 and B withdraws Rs.12000. In 8 months, A withdraws Rs.12000 and B withdraws Rs.12000. In "
+        "A withdraws Rs.6000 and B withdraws Rs.12000, so A withdraws Rs.6000 * 2 = Rs.12000. B withdraws Rs.12000 * 3 = Rs.32000. After 4 months, A withdraws Rs.12000 * 4 = Rs.48000. After 2 months, B withdraws Rs.32000 * 2 = Rs.64000. After 3 months, A withdraws Rs.64000 * 3 = Rs.168000. After 4 months, B withdraws Rs.168000 * 4 = Rs.632000. After 5 months, A withdraws Rs.632000 * 5 = Rs.336000. After 6 months, B withdraws Rs.336000 * 6 = Rs.1596000. After 7 months, A withdraws Rs.1596000 * 7 ="
       ]
     ],
     "filtered_resps": [
@@ -7850,7 +7850,7 @@
     ],
     "resps": [
       [
-        "351^2 + 22^2 + 26^2 = 20000 + 4000 + 1600 = 22000 The answer is (e)."
+        "351^2 + 22^2 + 26^2 = 20000 + 4000 + 1600 = 24000 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7896,7 +7896,7 @@
     ],
     "resps": [
       [
-        "\u221a6 cm2 * \u221a3 cm2 = 3\u221a6 cm2 The answer is (e)."
+        "\u221a6 cm2 * \u221a3 cm2 = 3 cm2 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7942,7 +7942,7 @@
     ],
     "resps": [
       [
-        "1 + 2^n = 2^n (a) 2^n = (\u20132)^n (b) 2^n = (\u20132)^-n (c) 2^n = (\u20132)^-n (d) 2^n = (\u20132)^-n (e) 2^-n = (\u20132)^-n"
+        "1 + 2^n = 2^n (a) 2^n = (\u20132)^n (b) 2^n = (\u20132)^-n (c) 2^n = (\u20132)^-n (d) (\u20132)^n = \u20132^-n (e) (\u20132)^-n = \u20132^-n"
       ]
     ],
     "filtered_resps": [
@@ -7988,11 +7988,11 @@
     ],
     "resps": [
       [
-        "1000 / 40 = 250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "1000 * 40 = 40000 The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8034,11 +8034,11 @@
     ],
     "resps": [
       [
-        "120 m / 15 sec = 8 m The answer is (e)."
+        "120 m / 15 sec = 7.5 m The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "60 kmph * 1 litre per hour = 600 litres of diesel per hour\n$60 per litre = $6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "600 Km * 1200 = 720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
@@ -8494,11 +8494,11 @@
     ],
     "resps": [
       [
-        "4 * 1 + 4 * 2 + 4 * 3 = 16 The answer is (e)."
+        "4 * 1 + 6 * 2 + 8 * 3 = 4 + 6 + 8 = 20 The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8678,11 +8678,11 @@
     ],
     "resps": [
       [
-        "0.01 * 2 = 0.02 The answer is (e)."
+        "0.01 * 2% = 0.0011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8862,11 +8862,11 @@
     ],
     "resps": [
       [
-        "1/4 * 3 = 1/12 The answer is (e)."
+        "1 man * 4 days = 4 days 12 days = 4 * 12 = 48 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day = 12 days 12 days * 1 day ="
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9046,7 +9046,7 @@
     ],
     "resps": [
       [
-        "25% of the original area = 25 * 100 = 2500 The answer is (e)."
+        "25% of the area is 25 * 100 = 2500 The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9184,11 +9184,11 @@
     ],
     "resps": [
       [
-        "1:1 = 1:1 / 2 = 1:1 / 2 = 1:1 / 3 The answer is (c)."
+        "1:1 = 1:100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

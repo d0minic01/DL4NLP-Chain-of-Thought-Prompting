@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "14 days from now in MM/DD/YYYY is 14/17/2008."
+        "14 days from now in MM/DD/YYYY is 14 days from now."
       ]
     ],
     "filtered_resps": [
@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "1 days from now in MM/DD/YYYY is 15/15/1990."
+        "To find the date 1 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to add 1 day to the given date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 1 day to the date gives us:\n\nThe date 1 days from now in MM/DD/YYYY is: 1 + 1 = 2 days from now.\n\nSo, the date 1 days from now in MM/DD/YYYY is 2 days from now."
       ]
     ],
     "filtered_resps": [
@@ -98,7 +98,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now in MM/DD/YYYY:\n\nThe date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days"
       ]
     ],
     "filtered_resps": [
@@ -174,7 +174,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days from now is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 0"
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to add 7 days to the current date.\n\nThe current date is 02/28/1992. To convert it to the Gregorian calendar, we add 7 days: 02/28/1992 + 7 = 02/29/1992.\n\nSo, the date 7 days from now in MM/DD/YYYY is 02/29/1992."
       ]
     ],
     "filtered_resps": [
@@ -212,7 +212,7 @@
     ],
     "resps": [
       [
-        "10 days from now in MM/DD/YYYY is 10/15/2016."
+        "10 days from now is 10/15/2016."
       ]
     ],
     "filtered_resps": [
@@ -250,7 +250,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the total date: 01/30/2010.\n\nSo, the date one week from today in MM/DD/YYYY is 01/30/2010."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we need to add 30 to the MM/DD/YYYY format.\n\nSo, the date one week from today in MM/DD/YYYY is 01/30/2010."
       ]
     ],
     "filtered_resps": [
@@ -402,7 +402,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the current date.\n\nStep 1: Convert 7 days from now to the current date\n7 days from now is 7 days ago.\n\nStep 2: Add 1 day to the current date\n7 days ago is 7 + 1 = 8 days ago.\n\nStep 3: Add 1 day to the current date\n8 days ago is 8 + 1 = 9 days ago.\n\nStep 4: Add 1 day to the current date\n9 days ago is 9 + 1 = 10 days ago.\n\nStep 5: Add 1 day to the current date\n10 days ago is 10 + 1 = 11 days ago.\n\nStep 6: Add 1 day to the current date\n11 days ago is 11 + 1 = 12 days ago.\n\nStep 7: Add 1 day to the current date\n12 days ago is 12 + 1 = 13 days ago.\n\nStep 8:"
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to add 7 days to the original date.\n\nSo, the date 7 days from now is 7 + 7 = 14 days from now.\n\nThe answer is 14 days from now in MM/DD/YYYY."
       ]
     ],
     "filtered_resps": [
@@ -440,7 +440,7 @@
     ],
     "resps": [
       [
-        "To find the date 24 hours later in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 4/19/1969.\n\nTo convert the date to the time format MM/DD/YYYY, we need to add 12 to the date and then divide by 12.\n\nThe time format MM/DD/YYYY is 12:30:59.\n\nNow, we can add 12 to the date and divide by 12 to find the time in the time format MM/DD/YYYY.\n\nThe time in the time format MM/DD/YYYY is 12:30:59.\n\nSo, the date 24 hours later in MM/DD/YYYY is 12:30:59."
+        "To find the date 24 hours later in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 4/19/1969.\n\nTo convert the date to the time format MM/DD/YYYY, we need to add 12 to the date and then divide by 12.\n\nThe time format MM/DD/YYYY is 12:30:59.\n\nNow, we can add 12 to the date and divide by 12 to find the time in the time format MM/DD/YYYY:\n\n(12 + 12) / 12 = 12\n\nSo, the date 24 hours later in MM/DD/YYYY is 12:30:59."
       ]
     ],
     "filtered_resps": [
@@ -516,7 +516,7 @@
     ],
     "resps": [
       [
-        "1 days from now in MM/DD/YYYY is 1/4/1985."
+        "1 days from now in MM/DD/YYYY is 11/04/1985."
       ]
     ],
     "filtered_resps": [
@@ -554,7 +554,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date to the current day: 07/22/2001.\n\nThen, we convert the date to the current month: 12/31/2001.\n\nNow, we add 3 days to the current month: 12/31/2001 + 3 = 12/32/2001.\n\nSo, the date 3 days ago in MM/DD/YYYY is 12/32/2001."
+        "To find the date 3 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together: 3 days ago.\n\nSo, the date 3 days ago in MM/DD/YYYY is 3 days ago."
       ]
     ],
     "filtered_resps": [
@@ -782,7 +782,7 @@
     ],
     "resps": [
       [
-        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: YYYY-MM-DD.\n\nNow, we add the two formats together to get the date: 09/08/2005.\n\nSo, the date one week ago in MM/DD/YYYY is 09/08/2005."
+        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1. Add 08 to the date\n2. Add 08 to the date\n3. Add 08 to the date\n\nStep 2: Convert the time format MM/DD/YYYY to the time format MM/DD/YYYY\n1. Add 08 to the time format MM/DD/YYYY\n2. Add 08 to the time format MM/DD/YYYY\n\nStep 3: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 08 to the time format MM/DD/YYYY\n2. Add 08 to the time format MM/DD/YYYY\n\nStep 4: Convert the date format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 08 to the date format MM/DD/"
       ]
     ],
     "filtered_resps": [
@@ -858,7 +858,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 11/28/2018 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 11/28/2018 to the Gregorian calendar date. The Gregorian calendar starts on 10/15/1900.\n\nNow, we convert 11/28/2018 to the corresponding date in the Gregorian calendar. The date 11/28/2018 is 11/28/2018.\n\nSo, the date 7 days ago in MM/DD/YYYY is 11/28/2018."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 11/28/2018 to the corresponding date in the Gregorian calendar.\n\nStep 1: Convert 11/28/2018 to MM/DD/YYYY\n11/28/2018 = 11/28/2018\n\nStep 2: Convert MM/DD/YYYY to MM/DD/YYYY\n11/28/2018 = 11/28/2018\n\nStep 3: Add 7 days to 11/28/2018\n11/28/2018 + 7 = 11/29/2018\n\nThe date 7 days ago in MM/DD/YYYY is 11/29/2018."
       ]
     ],
     "filtered_resps": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1963-08-19\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1963-08-19\n\nStep 3: Add the date to the time format MM/DD/YYYY\n1963-08-19\n\nThe date one week from today is 1963-08-19."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = datetime.strftime(date_time, '%Y-%m-%d')\n```\n\nFinally, we convert the date_time_format string to the date format MM/DD/YYYY.\n\n```python\nprint(date_time_format)\n```\n\nSo, the date one week from today in MM/DD/YYYY is 08/19/1963."
       ]
     ],
     "filtered_resps": [
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to divide the date by 12 and add 1.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 7 days from now in MM/DD/YYYY is 03/15/1990.\n\nThe answer is 03/15/1990."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to add 365 days (from the given date) to the given date.\n\nThe time format is MM/DD/YYYY.\n\nNow, we can add 365 days to the given date:\n\nThe date 7 days from now in MM/DD/YYYY is: 03/15/1990 + 365 days = 03/15/1991\n\nSo, the date 7 days from now in MM/DD/YYYY is 03/15/1991."
       ]
     ],
     "filtered_resps": [
-      "03/15/1990"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 07/22/2001.\n\nTo convert the date to the time format, we need to add 3 days to the current date.\n\nThe current date is 07/22/2001.\n\nNow, we can add 3 days to the current date: 07/22 + 3 = 07/25.\n\nSo, the date 3 days from now in MM/DD/YYYY is 07/25."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 07/22/2001. To convert it to the time format, we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add "
       ]
     ],
     "filtered_resps": [
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "10 days from now is 10/30/2010."
+        "10 days from now in MM/DD/YYYY is 10/30/2010."
       ]
     ],
     "filtered_resps": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date to the current day: 03/15/1990.\n\nThen, we convert the current day to the month: 15.\n\nFinally, we convert the month to the year: 15.\n\nNow, we can find the date 7 days ago in MM/DD/YYYY: 15/15/1990.\n\nSo, the answer is 15/15/1990."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date to the current day: 03/15/1990.\n\nThen, we convert the date to the current month: 7.\n\nNow, we add 7 days to the current month: 7 days ago.\n\nSo, the date 7 days ago in MM/DD/YYYY is 7 days ago."
       ]
     ],
     "filtered_resps": [
@@ -1238,7 +1238,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days ago is 30 days ago.\n\nNow, we can convert the date to the time format MM/DD/YYYY.\n\nThe time format MM/DD/YYYY is 06/12/1975.\n\nSo, the date 30 days ago in MM/DD/YYYY is 06/12/1975."
+        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 30 days ago in MM/DD/YYYY by adding 30 days to the current date.\n\nSo, the date 30 days ago in MM/DD/YYYY is 30 days ago."
       ]
     ],
     "filtered_resps": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the date: 30 days ago in MM/DD/YYYY.\n\nSo, the date 30 days ago in MM/DD/YYYY is 30 days ago in MM/DD/YYYY."
+        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n30 days ago is equivalent to 30 days ago in MM/DD/YYYY.\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n30 days ago is equivalent to 30 days ago in MM/DD/YYYY.\n\nStep 3: Add the date to the time format MM/DD/YYYY\n30 days ago + 30 days ago = 33 days ago\n\nSo, the date 30 days ago in MM/DD/YYYY is 33 days ago."
       ]
     ],
     "filtered_resps": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 07/04/1970.\n\nTo convert the date to the time format, we need to divide the date by 12.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 3 days from now in MM/DD/YYYY is 07/04/1970.\n\nThe answer is 07/04/1970."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 07/04/1970.\n\nTo convert the date to the time format, we need to add 3 days to the original date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 3 days to the original date gives us:\n\nDay = 07/04/1970 + 3 = 07/09/1970\n\nNow, we can find the date 3 days from now in MM/DD/YYYY by adding 3 days to the original date:\n\nDay = 07/09/1970 + 3 = 07/10/1970\n\nSo, the date 3 days from now in MM/DD/YYYY is 07/10/1970."
       ]
     ],
     "filtered_resps": [
-      "07/04/1970"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1542,7 +1542,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 10/31/1980 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 10/31/1980 to the Gregorian calendar date. The Gregorian calendar starts on 1 January 1900.\n\nNow, we convert 10/31/1980 to the corresponding date in the Gregorian calendar. The date 10/31/1980 is 10/31/1980.\n\nSo, the date 7 days from now in MM/DD/YYYY is 10/31/1980."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 10/31/1980.\n\nTo convert the date to the time format, we need to add 31 days to the given date.\n\nThe time format for 10/31/1980 is 12/31/1980.\n\nNow, we can add 31 days to the given date:\n\n12/31/1980 + 31 days = 12/31/1981\n\nSo, the date 7 days from now in MM/DD/YYYY is 12/31/1981."
       ]
     ],
     "filtered_resps": [
@@ -1656,7 +1656,7 @@
     ],
     "resps": [
       [
-        "11/28/2018 is 11/28/2018."
+        "To find the date 3 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date 11/28/2018 to the current day and month. The current day is 11/28/2018, and the month is December.\n\nNow, we convert the date 11/28/2018 to the current day and month. The current day is 11/28/2018, and the month is December.\n\nSo, the date 3 days ago in MM/DD/YYYY is 11/28/2018."
       ]
     ],
     "filtered_resps": [
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days from now is 02/14/2020.\n\nTo convert the date to the time format, we need to add 7 days to the current date.\n\nThe time format for 7 days is 02/14/2020.\n\nNow, we can add 7 days to the current date: 02/14/2020 + 7 = 02/19/2020.\n\nSo, the date 7 days from now in MM/DD/YYYY is 02/19/2020."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
       ]
     ],
     "filtered_resps": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 30 days to the original date.\n\nNow, we convert the time format MM/DD/YYYY to the time format MM/DD/YYYY. This is done by adding 30 days to the original time.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date 12/25/1998 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/25/1998 to the Gregorian date. This is done by adding 30 days to 12/25/1998. \n\n12/25/1998 = 12 + 30\n12/25/1998 = 33/25/1998\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 33/25/1998 to 12/25/1998.\n\n30 days from now = 33/25/1998 + 12/25/1998\n30 days = 55/25/1998\n\nSo, the date 30 days from now in MM/DD/YYYY is 55/25/1998."
       ]
     ],
     "filtered_resps": [
@@ -1922,7 +1922,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 7 days from now in MM/DD/YYYY by adding 7 to the date.\n\nSo, the date 7 days from now in MM/DD/YYYY is 7 days from now in MM/DD/YYYY.\n\nThe answer is 7 days from now in MM/DD/YYYY."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
       ]
     ],
     "filtered_resps": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 03/07/1955 to the current date.\n\nStep 1: Convert 03/07/1955 to MM/DD/YYYY\n03/07/1955 = 03/07/1955\n\nStep 2: Add 7 days to 03/07/1955\n03/07/1955 + 7 = 03/16/1955\n\nSo, the date 7 days ago in MM/DD/YYYY is 03/16/1955."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n\nStep 3: Add the date to the time format MM/DD/YYYY\n\nStep 4: Add the date to the time format MM/DD/YYYY\n\nStep 5: Add the date to the time format MM/DD/YYYY\n\nStep 6: Add the date to the time format MM/DD/YYYY\n\nStep 7: Add the date to the time format MM/DD/YYYY\n\nStep 8: Add the date to the time format MM/DD/YYYY\n\nStep 9: Add the date to the time format MM/DD/YYYY\n\nStep 10: Add the date to the time format MM/DD/YYYY\n\nStep 11: Add the date to"
       ]
     ],
     "filtered_resps": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date: 30 + 30 = 60 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in 60 days.\n\nThe answer is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -2074,7 +2074,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe"
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the time in the format MM/DD/YYYY.\n\nThe time in the format MM/DD/YYYY is 02/28/1992.\n\nSo, the date 3 days from now in MM/DD/YYYY is 02/28/1992."
       ]
     ],
     "filtered_resps": [
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the total date: 04/03/2015.\n\nSo, the date one week from today in MM/DD/YYYY is 04/03/2015."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nNext, we convert the date format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nFinally, we add the two formats together to get the date in the correct format.\n\nSo, the date one week from today in MM/DD/YYYY is 04/03/2015."
       ]
     ],
     "filtered_resps": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = datetime.strftime(date_time, '%Y-%m-%d')\n```\n\nFinally, we convert the date_time_format string to the date format MM/DD/YYYY.\n\nSo, the date one week from today in MM/DD/YYYY is:\n\n```\n06/12/1975\n```"
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nNext, we convert the date format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nFinally, we add the two formats together to get the date in the correct format.\n\nSo, the date one week from today in MM/DD/YYYY is 06/12/1975."
       ]
     ],
     "filtered_resps": [
@@ -2378,7 +2378,7 @@
     ],
     "resps": [
       [
-        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1. Add 07 to the date\n2. Add 365 to the date\n3. Add 12 to the date\n\nStep 2: Convert the time format MM/DD/YYYY to the time format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YYYY\n2. Add 365 to the time format MM/DD/YYYY\n\nStep 3: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YYYY\n2. Add 365 to the time format MM/DD/YYYY\n\nStep 4: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM"
+        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1. Add 07 to the date\n2. Divide the result by 24 to get the number of hours\n3. Divide the result by 24 to get the number of minutes\n4. Divide the result by 60 to get the number of seconds\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YYYY\n2. Divide the result by 24 to get the number of hours\n3. Divide the result by 24 to get the number of minutes\n4. Divide the result by 60 to get the number of seconds\n\nStep 3: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YY"
       ]
     ],
     "filtered_resps": [
@@ -2416,7 +2416,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date 12/25/1998 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/25/1998 to the Gregorian date. This is done by adding 30 days to 12/25/1998. \n\n12/25/1998 = 12 + 30 = 32\n\nNow, we convert the date 32 days ago to the corresponding date in the Gregorian calendar. This is done by adding 32 days to 32 days ago.\n\n32 days ago = 32 + 32 = 64\n\nFinally, we add 32 days to 64 days ago to get the date 30 days ago in MM/DD/YYYY.\n\nSo, the date 30 days ago in MM/DD/YYYY is 30 days ago."
+        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date 12/25/1998 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/25/1998 to the Gregorian date. This is done by adding 30 days to 12/25/1998.\n\nNow, we convert the date 12/25/1998 to the corresponding date in the Gregorian calendar. This is done by adding 30 days to 12/25/1998.\n\nSo, the date 30 days ago in MM/DD/YYYY is 12/25/1998."
       ]
     ],
     "filtered_resps": [
@@ -2530,7 +2530,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 12/30/1967 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/30/1967 to the Gregorian calendar date. The Gregorian calendar starts on 10/01/1900.\n\nNow, we convert 12/30/1967 to the corresponding date in the Gregorian calendar. The date 12/30/1967 is 12/30/1967.\n\nSo, the date 7 days ago in MM/DD/YYYY is 12/30/1967."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 12/30/1967 to the current date.\n\nStep 1: Convert 12/30/1967 to MM/DD/YYYY\n12/30/1967 = 12/30/1967\n\nStep 2: Add 7 days to 12/30/1967\n12/30/1967 + 7 = 13/30/1967\n\nThe date 7 days ago in MM/DD/YYYY is 13/30/1967."
       ]
     ],
     "filtered_resps": [
@@ -2568,7 +2568,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 30 to the date.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY.\n\nThe answer is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -2644,11 +2644,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 06/12/1975.\n\nTo convert the date to the time format, we need to add 3 days to the original date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 3 days to the date gives us:\n\nDay = 06/12/1975 + 3 = 06/13/1975\n\nSo, the date 3 days from now in MM/DD/YYYY is 06/13/1975."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 06/12/1975.\n\nTo convert the date to the time format, we need to add 3 days to the original date.\n\nThe time format for 3 days is MM/DD/YYYY.\n\nNow, we can add 3 days to the original date:\n\nThe date 3 days from now in MM/DD/YYYY is 06/12/1975.\n\nThe answer is 06/12/1975."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "06/12/1975"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2682,7 +2682,7 @@
     ],
     "resps": [
       [
-        "To find the date 10 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to add 1 day to the given date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 1 day to the date gives us:\n\nThe date 10 days from now in MM/DD/YYYY is: 10/15/1990\n\nSo, the date 10 days from now in MM/DD/YYYY is 10/15/1990."
+        "To find the date 10 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 01 to the date and then subtracting 12 to get the time.\n\nNow, we convert the time to the date format MM/DD/YYYY. This is done by adding 01 to the time and then subtracting 12 to get the date.\n\nSo, the date 10 days from now in MM/DD/YYYY is 10/15/1990."
       ]
     ],
     "filtered_resps": [
@@ -2720,7 +2720,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = '%Y-%m-%d %H:%M:%S'\n\n# Convert date to time format\ndate_time_time = date_time_format.format(date_time)\n\n# Convert time to date\ndate_time_date = datetime.strptime(date_time_time, '%Y-%m-%d %H:%M:%S')\n\n# Convert date to date format\ndate_time_date_format = '%Y-%m-%d %H:%M:%S'\n\n# Find the date one week from today\ndate_one_week = date_time_date.strftime('%Y-%m-%d %"
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = datetime.strftime(date_time, '%Y-%m-%d')\n```\n\nFinally, we convert the date_time_format string to the date format MM/DD/YYYY.\n\nSo, the date one week from today in MM/DD/YYYY is:\n\n```\n02/14/2020\n```\n\nThe answer is: 02/14/2020."
       ]
     ],
     "filtered_resps": [
@@ -2758,7 +2758,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together: 7 days ago.\n\nSo, the date 7 days ago in MM/DD/YYYY is 7 days ago."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days ago is 06/21/2012.\n\nTo convert the date to the time format, we need to add 7 days to the original date.\n\nThe time format for 7 days ago is 06/21/2012.\n\nSo, the date 7 days ago in MM/DD/YYYY is 06/21/2012."
       ]
     ],
     "filtered_resps": [
@@ -2796,7 +2796,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 30 days to the original date.\n\nNow, we convert the time format MM/DD/YYYY to the time format MM/DD/YYYY. This is done by adding 30 days to the original time.\n\nSo, the date 3 days from now in MM/DD/YYYY is 3 days from now in MM/DD/YYYY."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 01/30/2010.\n\nTo convert the date to the time format, we need to add 3 days to the current date.\n\nThe current date is 01/30/2010.\n\nNow, we can add 3 days to the current date:\n\nThe date 3 days from now is 01/30/2010 + 3 = 01/33/2010.\n\nSo, the date 3 days from now in MM/DD/YYYY is 01/33/2010."
       ]
     ],
     "filtered_resps": [
@@ -2872,7 +2872,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 01/30/2010 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 01/30/2010 to the Gregorian calendar date. The Gregorian calendar starts on January 1, 1900.\n\nNow, we convert 01/30/2010 to the corresponding date in the Gregorian calendar. The date 01/30/2010 is 01/30/2010.\n\nSo, the date 7 days from now in MM/DD/YYYY is 01/30/2010."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days from now is 01/30/2010.\n\nTo convert the date to the time format, we need to add 7 days to the original date.\n\nThe time format for 7 days is 01/30/2010.\n\nNow, we can add 7 days to the original date 01/30/2010:\n\nThe date 7 days from now is 01/30/2010 + 7 = 01/37/2010.\n\nSo, the date 7 days from now in MM/DD/YYYY is 01/37/2010."
       ]
     ],
     "filtered_resps": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 06/21/2012.\n\nTo convert the date to the time format, we need to add 7 days to the original date.\n\nThe time format for 7 days is 07:00 AM.\n\nSo, the date 7 days from now in MM/DD/YYYY is 06/21/2012."
       ]
     ],
     "filtered_resps": [
@@ -2986,7 +2986,7 @@
     ],
     "resps": [
       [
-        "1 days from now in MM/DD/YYYY is 1/30/1967.\n\nTo convert 1 days from now to 1 day, we need to divide 1 by 24. \n\n1 day = 1/24\n\nSo, 1 days from now is 1/24 of a day."
+        "1 days from now in MM/DD/YYYY is 1/30/1967."
       ]
     ],
     "filtered_resps": [
@@ -3062,7 +3062,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now in MM/DD/YYYY:\n\nThe date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days"
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days from now.\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -3100,7 +3100,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the date.\n\nThe date 30 days from now is 30 days + 30 days = 60 days.\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 30 days to the date 60 days from now.\n\nThe date 30 days from now is 60 days + 30 days = 90 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 90 days."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date: 30 + 30 = 60 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in 60 days.\n\nThe answer is 30 days from now in MM/DD/YYYY."
       ]
     ],
     "filtered_resps": [
@@ -3176,7 +3176,7 @@
     ],
     "resps": [
       [
-        "10 days from now is 10 days from now in MM/DD/YYYY."
+        "10 days from now is 10/14/2020."
       ]
     ],
     "filtered_resps": [
@@ -3214,11 +3214,11 @@
     ],
     "resps": [
       [
-        "To find the date 1 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 02/28/1992.\n\nTo convert the date to the time format, we need to divide the date by 12.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 1 days from now in MM/DD/YYYY is 02/28/1992.\n\nThe answer is 02/28/1992."
+        "1 days from now in MM/DD/YYYY is 1/28/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,7 +3252,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the total date: 09/08/2005.\n\nSo, the date one week from today in MM/DD/YYYY is 09/08/2005."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nNext, we convert the date format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nFinally, we add the two formats together to get the date in the correct format.\n\nSo, the date one week from today in MM/DD/YYYY is 09/08/2005."
       ]
     ],
     "filtered_resps": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the"
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now in MM/DD/YYYY:\n\nThe date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days"
       ]
     ],
     "filtered_resps": [
@@ -3556,11 +3556,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is"
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 12/30/1967.\n\nTo convert the date to the time format, we need to divide the date by 12 and then add 1 day.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 3 days from now in MM/DD/YYYY is 12/30/1967.\n\nThe answer is 12/30/1967."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "12/30/1967"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,7 +3670,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the current date.\n\nStep 1: Convert 7 days from now to the current date\n7 days from now is 7 days ago.\n\nStep 2: Add 1 day to the current date\n7 days ago is 7 + 1 = 8 days ago.\n\nStep 3: Add 1 day to the current date\n8 days ago is 8 + 1 = 9 days ago.\n\nStep 4: Add 1 day to the current date\n9 days ago is 9 + 1 = 10 days ago.\n\nStep 5: Add 1 day to the current date\n10 days ago is 10 + 1 = 11 days ago.\n\nStep 6: Add 1 day to the current date\n11 days ago is 11 + 1 = 12 days ago.\n\nStep 7: Add 1 day to the current date\n12 days ago is 12 + 1 = 13 days ago.\n\nStep 8:"
       ]
     ],
     "filtered_resps": [
@@ -3708,7 +3708,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 30 days to the original date.\n\nNow, we convert the time format MM/DD/YYYY to the time format MM/DD/YYYY. This is done by adding 30 days to the original time.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 30 to the date.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY.\n\nThe answer is 30 days from now in MM/DD/YYYY."
       ]
     ],
     "filtered_resps": [
@@ -3784,7 +3784,7 @@
     ],
     "resps": [
       [
-        "14 days ago in MM/DD/YYYY is 06/12/1975."
+        "14 days ago in MM/DD/YYYY is 14 days ago."
       ]
     ],
     "filtered_resps": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "14 days from now in MM/DD/YYYY is 14/17/2008."
+        "14 days from now in MM/DD/YYYY is 14 days from now."
       ]
     ],
     "filtered_resps": [
-      "14/17/2008"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "1 days from now in MM/DD/YYYY is 15/15/1990."
+        "To find the date 1 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to add 1 day to the given date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 1 day to the date gives us:\n\nThe date 1 days from now in MM/DD/YYYY is: 1 + 1 = 2 days from now.\n\nSo, the date 1 days from now in MM/DD/YYYY is 2 days from now."
       ]
     ],
     "filtered_resps": [
-      "15/15/1990"
+      "03/15/1990"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3898,7 +3898,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now in MM/DD/YYYY:\n\nThe date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days"
       ]
     ],
     "filtered_resps": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days from now is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 8 and then add 1.\n\nThe time format is 0"
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to add 7 days to the current date.\n\nThe current date is 02/28/1992. To convert it to the Gregorian calendar, we add 7 days: 02/28/1992 + 7 = 02/29/1992.\n\nSo, the date 7 days from now in MM/DD/YYYY is 02/29/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "02/29/1992"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4012,7 +4012,7 @@
     ],
     "resps": [
       [
-        "10 days from now in MM/DD/YYYY is 10/15/2016."
+        "10 days from now is 10/15/2016."
       ]
     ],
     "filtered_resps": [
@@ -4050,7 +4050,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the total date: 01/30/2010.\n\nSo, the date one week from today in MM/DD/YYYY is 01/30/2010."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we need to add 30 to the MM/DD/YYYY format.\n\nSo, the date one week from today in MM/DD/YYYY is 01/30/2010."
       ]
     ],
     "filtered_resps": [
@@ -4202,7 +4202,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the current date.\n\nStep 1: Convert 7 days from now to the current date\n7 days from now is 7 days ago.\n\nStep 2: Add 1 day to the current date\n7 days ago is 7 + 1 = 8 days ago.\n\nStep 3: Add 1 day to the current date\n8 days ago is 8 + 1 = 9 days ago.\n\nStep 4: Add 1 day to the current date\n9 days ago is 9 + 1 = 10 days ago.\n\nStep 5: Add 1 day to the current date\n10 days ago is 10 + 1 = 11 days ago.\n\nStep 6: Add 1 day to the current date\n11 days ago is 11 + 1 = 12 days ago.\n\nStep 7: Add 1 day to the current date\n12 days ago is 12 + 1 = 13 days ago.\n\nStep 8:"
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to add 7 days to the original date.\n\nSo, the date 7 days from now is 7 + 7 = 14 days from now.\n\nThe answer is 14 days from now in MM/DD/YYYY."
       ]
     ],
     "filtered_resps": [
@@ -4240,7 +4240,7 @@
     ],
     "resps": [
       [
-        "To find the date 24 hours later in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 4/19/1969.\n\nTo convert the date to the time format MM/DD/YYYY, we need to add 12 to the date and then divide by 12.\n\nThe time format MM/DD/YYYY is 12:30:59.\n\nNow, we can add 12 to the date and divide by 12 to find the time in the time format MM/DD/YYYY.\n\nThe time in the time format MM/DD/YYYY is 12:30:59.\n\nSo, the date 24 hours later in MM/DD/YYYY is 12:30:59."
+        "To find the date 24 hours later in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 4/19/1969.\n\nTo convert the date to the time format MM/DD/YYYY, we need to add 12 to the date and then divide by 12.\n\nThe time format MM/DD/YYYY is 12:30:59.\n\nNow, we can add 12 to the date and divide by 12 to find the time in the time format MM/DD/YYYY:\n\n(12 + 12) / 12 = 12\n\nSo, the date 24 hours later in MM/DD/YYYY is 12:30:59."
       ]
     ],
     "filtered_resps": [
@@ -4316,11 +4316,11 @@
     ],
     "resps": [
       [
-        "1 days from now in MM/DD/YYYY is 1/4/1985."
+        "1 days from now in MM/DD/YYYY is 11/04/1985."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "11/04/1985"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date to the current day: 07/22/2001.\n\nThen, we convert the date to the current month: 12/31/2001.\n\nNow, we add 3 days to the current month: 12/31/2001 + 3 = 12/32/2001.\n\nSo, the date 3 days ago in MM/DD/YYYY is 12/32/2001."
+        "To find the date 3 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together: 3 days ago.\n\nSo, the date 3 days ago in MM/DD/YYYY is 3 days ago."
       ]
     ],
     "filtered_resps": [
-      "12/32/2001"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: YYYY-MM-DD.\n\nNow, we add the two formats together to get the date: 09/08/2005.\n\nSo, the date one week ago in MM/DD/YYYY is 09/08/2005."
+        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1. Add 08 to the date\n2. Add 08 to the date\n3. Add 08 to the date\n\nStep 2: Convert the time format MM/DD/YYYY to the time format MM/DD/YYYY\n1. Add 08 to the time format MM/DD/YYYY\n2. Add 08 to the time format MM/DD/YYYY\n\nStep 3: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 08 to the time format MM/DD/YYYY\n2. Add 08 to the time format MM/DD/YYYY\n\nStep 4: Convert the date format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 08 to the date format MM/DD/"
       ]
     ],
     "filtered_resps": [
-      "09/08/2005"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4658,11 +4658,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 11/28/2018 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 11/28/2018 to the Gregorian calendar date. The Gregorian calendar starts on 10/15/1900.\n\nNow, we convert 11/28/2018 to the corresponding date in the Gregorian calendar. The date 11/28/2018 is 11/28/2018.\n\nSo, the date 7 days ago in MM/DD/YYYY is 11/28/2018."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 11/28/2018 to the corresponding date in the Gregorian calendar.\n\nStep 1: Convert 11/28/2018 to MM/DD/YYYY\n11/28/2018 = 11/28/2018\n\nStep 2: Convert MM/DD/YYYY to MM/DD/YYYY\n11/28/2018 = 11/28/2018\n\nStep 3: Add 7 days to 11/28/2018\n11/28/2018 + 7 = 11/29/2018\n\nThe date 7 days ago in MM/DD/YYYY is 11/29/2018."
       ]
     ],
     "filtered_resps": [
-      "11/28/2018"
+      "11/29/2018"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1963-08-19\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1963-08-19\n\nStep 3: Add the date to the time format MM/DD/YYYY\n1963-08-19\n\nThe date one week from today is 1963-08-19."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = datetime.strftime(date_time, '%Y-%m-%d')\n```\n\nFinally, we convert the date_time_format string to the date format MM/DD/YYYY.\n\n```python\nprint(date_time_format)\n```\n\nSo, the date one week from today in MM/DD/YYYY is 08/19/1963."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "08/19/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to divide the date by 12 and add 1.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 7 days from now in MM/DD/YYYY is 03/15/1990.\n\nThe answer is 03/15/1990."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to add 365 days (from the given date) to the given date.\n\nThe time format is MM/DD/YYYY.\n\nNow, we can add 365 days to the given date:\n\nThe date 7 days from now in MM/DD/YYYY is: 03/15/1990 + 365 days = 03/15/1991\n\nSo, the date 7 days from now in MM/DD/YYYY is 03/15/1991."
       ]
     ],
     "filtered_resps": [
-      "03/15/1990"
+      "03/15/1991"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 07/22/2001.\n\nTo convert the date to the time format, we need to add 3 days to the current date.\n\nThe current date is 07/22/2001.\n\nNow, we can add 3 days to the current date: 07/22 + 3 = 07/25.\n\nSo, the date 3 days from now in MM/DD/YYYY is 07/25."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 07/22/2001. To convert it to the time format, we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add 3 days to the current date.\n\nThe time format is 24 hours, so we need to add "
       ]
     ],
     "filtered_resps": [
@@ -4962,7 +4962,7 @@
     ],
     "resps": [
       [
-        "10 days from now is 10/30/2010."
+        "10 days from now in MM/DD/YYYY is 10/30/2010."
       ]
     ],
     "filtered_resps": [
@@ -5000,11 +5000,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date to the current day: 03/15/1990.\n\nThen, we convert the current day to the month: 15.\n\nFinally, we convert the month to the year: 15.\n\nNow, we can find the date 7 days ago in MM/DD/YYYY: 15/15/1990.\n\nSo, the answer is 15/15/1990."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date to the current day: 03/15/1990.\n\nThen, we convert the date to the current month: 7.\n\nNow, we add 7 days to the current month: 7 days ago.\n\nSo, the date 7 days ago in MM/DD/YYYY is 7 days ago."
       ]
     ],
     "filtered_resps": [
-      "15/15/1990"
+      "03/15/1990"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5038,11 +5038,11 @@
     ],
     "resps": [
       [
-        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days ago is 30 days ago.\n\nNow, we can convert the date to the time format MM/DD/YYYY.\n\nThe time format MM/DD/YYYY is 06/12/1975.\n\nSo, the date 30 days ago in MM/DD/YYYY is 06/12/1975."
+        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 30 days ago in MM/DD/YYYY by adding 30 days to the current date.\n\nSo, the date 30 days ago in MM/DD/YYYY is 30 days ago."
       ]
     ],
     "filtered_resps": [
-      "06/12/1975"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,7 +5266,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the date: 30 days ago in MM/DD/YYYY.\n\nSo, the date 30 days ago in MM/DD/YYYY is 30 days ago in MM/DD/YYYY."
+        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n30 days ago is equivalent to 30 days ago in MM/DD/YYYY.\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n30 days ago is equivalent to 30 days ago in MM/DD/YYYY.\n\nStep 3: Add the date to the time format MM/DD/YYYY\n30 days ago + 30 days ago = 33 days ago\n\nSo, the date 30 days ago in MM/DD/YYYY is 33 days ago."
       ]
     ],
     "filtered_resps": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 07/04/1970.\n\nTo convert the date to the time format, we need to divide the date by 12.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 3 days from now in MM/DD/YYYY is 07/04/1970.\n\nThe answer is 07/04/1970."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 07/04/1970.\n\nTo convert the date to the time format, we need to add 3 days to the original date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 3 days to the original date gives us:\n\nDay = 07/04/1970 + 3 = 07/09/1970\n\nNow, we can find the date 3 days from now in MM/DD/YYYY by adding 3 days to the original date:\n\nDay = 07/09/1970 + 3 = 07/10/1970\n\nSo, the date 3 days from now in MM/DD/YYYY is 07/10/1970."
       ]
     ],
     "filtered_resps": [
-      "07/04/1970"
+      "07/10/1970"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5342,11 +5342,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 10/31/1980 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 10/31/1980 to the Gregorian calendar date. The Gregorian calendar starts on 1 January 1900.\n\nNow, we convert 10/31/1980 to the corresponding date in the Gregorian calendar. The date 10/31/1980 is 10/31/1980.\n\nSo, the date 7 days from now in MM/DD/YYYY is 10/31/1980."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 10/31/1980.\n\nTo convert the date to the time format, we need to add 31 days to the given date.\n\nThe time format for 10/31/1980 is 12/31/1980.\n\nNow, we can add 31 days to the given date:\n\n12/31/1980 + 31 days = 12/31/1981\n\nSo, the date 7 days from now in MM/DD/YYYY is 12/31/1981."
       ]
     ],
     "filtered_resps": [
-      "10/31/1980"
+      "12/31/1981"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,7 +5456,7 @@
     ],
     "resps": [
       [
-        "11/28/2018 is 11/28/2018."
+        "To find the date 3 days ago in MM/DD/YYYY, we need to convert the date to the current day and month.\n\nFirst, we convert the date 11/28/2018 to the current day and month. The current day is 11/28/2018, and the month is December.\n\nNow, we convert the date 11/28/2018 to the current day and month. The current day is 11/28/2018, and the month is December.\n\nSo, the date 3 days ago in MM/DD/YYYY is 11/28/2018."
       ]
     ],
     "filtered_resps": [
@@ -5494,11 +5494,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days from now is 02/14/2020.\n\nTo convert the date to the time format, we need to add 7 days to the current date.\n\nThe time format for 7 days is 02/14/2020.\n\nNow, we can add 7 days to the current date: 02/14/2020 + 7 = 02/19/2020.\n\nSo, the date 7 days from now in MM/DD/YYYY is 02/19/2020."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
       ]
     ],
     "filtered_resps": [
-      "02/19/2020"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 30 days to the original date.\n\nNow, we convert the time format MM/DD/YYYY to the time format MM/DD/YYYY. This is done by adding 30 days to the original time.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date 12/25/1998 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/25/1998 to the Gregorian date. This is done by adding 30 days to 12/25/1998. \n\n12/25/1998 = 12 + 30\n12/25/1998 = 33/25/1998\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 33/25/1998 to 12/25/1998.\n\n30 days from now = 33/25/1998 + 12/25/1998\n30 days = 55/25/1998\n\nSo, the date 30 days from now in MM/DD/YYYY is 55/25/1998."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "55/25/1998"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5722,7 +5722,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 7 days from now in MM/DD/YYYY by adding 7 to the date.\n\nSo, the date 7 days from now in MM/DD/YYYY is 7 days from now in MM/DD/YYYY.\n\nThe answer is 7 days from now in MM/DD/YYYY."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
       ]
     ],
     "filtered_resps": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 03/07/1955 to the current date.\n\nStep 1: Convert 03/07/1955 to MM/DD/YYYY\n03/07/1955 = 03/07/1955\n\nStep 2: Add 7 days to 03/07/1955\n03/07/1955 + 7 = 03/16/1955\n\nSo, the date 7 days ago in MM/DD/YYYY is 03/16/1955."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n\nStep 3: Add the date to the time format MM/DD/YYYY\n\nStep 4: Add the date to the time format MM/DD/YYYY\n\nStep 5: Add the date to the time format MM/DD/YYYY\n\nStep 6: Add the date to the time format MM/DD/YYYY\n\nStep 7: Add the date to the time format MM/DD/YYYY\n\nStep 8: Add the date to the time format MM/DD/YYYY\n\nStep 9: Add the date to the time format MM/DD/YYYY\n\nStep 10: Add the date to the time format MM/DD/YYYY\n\nStep 11: Add the date to"
       ]
     ],
     "filtered_resps": [
-      "03/16/1955"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,7 +5836,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date: 30 + 30 = 60 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in 60 days.\n\nThe answer is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -5874,7 +5874,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 02/28/1992. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe"
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the time in the format MM/DD/YYYY.\n\nThe time in the format MM/DD/YYYY is 02/28/1992.\n\nSo, the date 3 days from now in MM/DD/YYYY is 02/28/1992."
       ]
     ],
     "filtered_resps": [
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the total date: 04/03/2015.\n\nSo, the date one week from today in MM/DD/YYYY is 04/03/2015."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nNext, we convert the date format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nFinally, we add the two formats together to get the date in the correct format.\n\nSo, the date one week from today in MM/DD/YYYY is 04/03/2015."
       ]
     ],
     "filtered_resps": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = datetime.strftime(date_time, '%Y-%m-%d')\n```\n\nFinally, we convert the date_time_format string to the date format MM/DD/YYYY.\n\nSo, the date one week from today in MM/DD/YYYY is:\n\n```\n06/12/1975\n```"
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nNext, we convert the date format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nFinally, we add the two formats together to get the date in the correct format.\n\nSo, the date one week from today in MM/DD/YYYY is 06/12/1975."
       ]
     ],
     "filtered_resps": [
@@ -6178,7 +6178,7 @@
     ],
     "resps": [
       [
-        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1. Add 07 to the date\n2. Add 365 to the date\n3. Add 12 to the date\n\nStep 2: Convert the time format MM/DD/YYYY to the time format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YYYY\n2. Add 365 to the time format MM/DD/YYYY\n\nStep 3: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YYYY\n2. Add 365 to the time format MM/DD/YYYY\n\nStep 4: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM"
+        "To find the date one week ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nStep 1: Convert the date to the time format MM/DD/YYYY\n1. Add 07 to the date\n2. Divide the result by 24 to get the number of hours\n3. Divide the result by 24 to get the number of minutes\n4. Divide the result by 60 to get the number of seconds\n\nStep 2: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YYYY\n2. Divide the result by 24 to get the number of hours\n3. Divide the result by 24 to get the number of minutes\n4. Divide the result by 60 to get the number of seconds\n\nStep 3: Convert the time format MM/DD/YYYY to the date format MM/DD/YYYY\n1. Add 07 to the time format MM/DD/YY"
       ]
     ],
     "filtered_resps": [
@@ -6216,7 +6216,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date 12/25/1998 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/25/1998 to the Gregorian date. This is done by adding 30 days to 12/25/1998. \n\n12/25/1998 = 12 + 30 = 32\n\nNow, we convert the date 32 days ago to the corresponding date in the Gregorian calendar. This is done by adding 32 days to 32 days ago.\n\n32 days ago = 32 + 32 = 64\n\nFinally, we add 32 days to 64 days ago to get the date 30 days ago in MM/DD/YYYY.\n\nSo, the date 30 days ago in MM/DD/YYYY is 30 days ago."
+        "To find the date 30 days ago in MM/DD/YYYY, we need to convert the date 12/25/1998 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/25/1998 to the Gregorian date. This is done by adding 30 days to 12/25/1998.\n\nNow, we convert the date 12/25/1998 to the corresponding date in the Gregorian calendar. This is done by adding 30 days to 12/25/1998.\n\nSo, the date 30 days ago in MM/DD/YYYY is 12/25/1998."
       ]
     ],
     "filtered_resps": [
@@ -6330,11 +6330,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 12/30/1967 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 12/30/1967 to the Gregorian calendar date. The Gregorian calendar starts on 10/01/1900.\n\nNow, we convert 12/30/1967 to the corresponding date in the Gregorian calendar. The date 12/30/1967 is 12/30/1967.\n\nSo, the date 7 days ago in MM/DD/YYYY is 12/30/1967."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date 12/30/1967 to the current date.\n\nStep 1: Convert 12/30/1967 to MM/DD/YYYY\n12/30/1967 = 12/30/1967\n\nStep 2: Add 7 days to 12/30/1967\n12/30/1967 + 7 = 13/30/1967\n\nThe date 7 days ago in MM/DD/YYYY is 13/30/1967."
       ]
     ],
     "filtered_resps": [
-      "12/30/1967"
+      "13/30/1967"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6368,7 +6368,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 30 to the date.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY.\n\nThe answer is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -6444,11 +6444,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 06/12/1975.\n\nTo convert the date to the time format, we need to add 3 days to the original date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 3 days to the date gives us:\n\nDay = 06/12/1975 + 3 = 06/13/1975\n\nSo, the date 3 days from now in MM/DD/YYYY is 06/13/1975."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 06/12/1975.\n\nTo convert the date to the time format, we need to add 3 days to the original date.\n\nThe time format for 3 days is MM/DD/YYYY.\n\nNow, we can add 3 days to the original date:\n\nThe date 3 days from now in MM/DD/YYYY is 06/12/1975.\n\nThe answer is 06/12/1975."
       ]
     ],
     "filtered_resps": [
-      "06/13/1975"
+      "06/12/1975"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6482,7 +6482,7 @@
     ],
     "resps": [
       [
-        "To find the date 10 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 03/15/1990.\n\nTo convert the date to the time format, we need to add 1 day to the given date.\n\nThe time format is MM/DD/YYYY.\n\nAdding 1 day to the date gives us:\n\nThe date 10 days from now in MM/DD/YYYY is: 10/15/1990\n\nSo, the date 10 days from now in MM/DD/YYYY is 10/15/1990."
+        "To find the date 10 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 01 to the date and then subtracting 12 to get the time.\n\nNow, we convert the time to the date format MM/DD/YYYY. This is done by adding 01 to the time and then subtracting 12 to get the date.\n\nSo, the date 10 days from now in MM/DD/YYYY is 10/15/1990."
       ]
     ],
     "filtered_resps": [
@@ -6520,11 +6520,11 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = '%Y-%m-%d %H:%M:%S'\n\n# Convert date to time format\ndate_time_time = date_time_format.format(date_time)\n\n# Convert time to date\ndate_time_date = datetime.strptime(date_time_time, '%Y-%m-%d %H:%M:%S')\n\n# Convert date to date format\ndate_time_date_format = '%Y-%m-%d %H:%M:%S'\n\n# Find the date one week from today\ndate_one_week = date_time_date.strftime('%Y-%m-%d %"
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we need to convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nTo do this, we use the `datetime` module in Python.\n\n```python\nfrom datetime import datetime\n\ndate_time = datetime.now()\ndate_time_format = datetime.strftime(date_time, '%Y-%m-%d')\n```\n\nFinally, we convert the date_time_format string to the date format MM/DD/YYYY.\n\nSo, the date one week from today in MM/DD/YYYY is:\n\n```\n02/14/2020\n```\n\nThe answer is: 02/14/2020."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "02/14/2020"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6558,11 +6558,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together: 7 days ago.\n\nSo, the date 7 days ago in MM/DD/YYYY is 7 days ago."
+        "To find the date 7 days ago in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days ago is 06/21/2012.\n\nTo convert the date to the time format, we need to add 7 days to the original date.\n\nThe time format for 7 days ago is 06/21/2012.\n\nSo, the date 7 days ago in MM/DD/YYYY is 06/21/2012."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "06/21/2012"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 30 days to the original date.\n\nNow, we convert the time format MM/DD/YYYY to the time format MM/DD/YYYY. This is done by adding 30 days to the original time.\n\nSo, the date 3 days from now in MM/DD/YYYY is 3 days from now in MM/DD/YYYY."
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 3 days from now is 01/30/2010.\n\nTo convert the date to the time format, we need to add 3 days to the current date.\n\nThe current date is 01/30/2010.\n\nNow, we can add 3 days to the current date:\n\nThe date 3 days from now is 01/30/2010 + 3 = 01/33/2010.\n\nSo, the date 3 days from now in MM/DD/YYYY is 01/33/2010."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "01/33/2010"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6672,11 +6672,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 01/30/2010 to the corresponding date in the Gregorian calendar.\n\nFirst, we convert 01/30/2010 to the Gregorian calendar date. The Gregorian calendar starts on January 1, 1900.\n\nNow, we convert 01/30/2010 to the corresponding date in the Gregorian calendar. The date 01/30/2010 is 01/30/2010.\n\nSo, the date 7 days from now in MM/DD/YYYY is 01/30/2010."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 7 days from now is 01/30/2010.\n\nTo convert the date to the time format, we need to add 7 days to the original date.\n\nThe time format for 7 days is 01/30/2010.\n\nNow, we can add 7 days to the original date 01/30/2010:\n\nThe date 7 days from now is 01/30/2010 + 7 = 01/37/2010.\n\nSo, the date 7 days from now in MM/DD/YYYY is 01/37/2010."
       ]
     ],
     "filtered_resps": [
-      "01/30/2010"
+      "01/37/2010"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 06/21/2012.\n\nTo convert the date to the time format, we need to add 7 days to the original date.\n\nThe time format for 7 days is 07:00 AM.\n\nSo, the date 7 days from now in MM/DD/YYYY is 06/21/2012."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "06/21/2012"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,7 +6786,7 @@
     ],
     "resps": [
       [
-        "1 days from now in MM/DD/YYYY is 1/30/1967.\n\nTo convert 1 days from now to 1 day, we need to divide 1 by 24. \n\n1 day = 1/24\n\nSo, 1 days from now is 1/24 of a day."
+        "1 days from now in MM/DD/YYYY is 1/30/1967."
       ]
     ],
     "filtered_resps": [
@@ -6862,7 +6862,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now in MM/DD/YYYY:\n\nThe date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days"
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now:\n\nThe date 30 days from now is 30 days from now + 30 days = 330 days from now.\n\nSo, the date 30 days from now in MM/DD/YYYY is 330 days."
       ]
     ],
     "filtered_resps": [
@@ -6900,7 +6900,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the date.\n\nThe date 30 days from now is 30 days + 30 days = 60 days.\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 30 days to the date 60 days from now.\n\nThe date 30 days from now is 60 days + 30 days = 90 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 90 days."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date: 30 + 30 = 60 days.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in 60 days.\n\nThe answer is 30 days from now in MM/DD/YYYY."
       ]
     ],
     "filtered_resps": [
@@ -6976,11 +6976,11 @@
     ],
     "resps": [
       [
-        "10 days from now is 10 days from now in MM/DD/YYYY."
+        "10 days from now is 10/14/2020."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "10/14/2020"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7014,11 +7014,11 @@
     ],
     "resps": [
       [
-        "To find the date 1 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 02/28/1992.\n\nTo convert the date to the time format, we need to divide the date by 12.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 1 days from now in MM/DD/YYYY is 02/28/1992.\n\nThe answer is 02/28/1992."
+        "1 days from now in MM/DD/YYYY is 1/28/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,7 +7052,7 @@
     ],
     "resps": [
       [
-        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format: MM/DD/YYYY.\n\nThen, we convert the time format to the date format: MM/DD/YYYY.\n\nNow, we add the two formats together to get the total date: 09/08/2005.\n\nSo, the date one week from today in MM/DD/YYYY is 09/08/2005."
+        "To find the date one week from today in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we convert the time format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nNext, we convert the date format MM/DD/YYYY to the date format MM/DD/YYYY.\n\nFinally, we add the two formats together to get the date in the correct format.\n\nSo, the date one week from today in MM/DD/YYYY is 09/08/2005."
       ]
     ],
     "filtered_resps": [
@@ -7280,7 +7280,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the MM/DD/YYYY date.\n\nThe time format is 24 hours, so we need to add 24 hours to the"
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nThe date 30 days from now is 30 days from now in MM/DD/YYYY.\n\nTo convert the date to the time format, we need to add 30 days to the current date.\n\nThe current date is 30 days from now.\n\nNow, we can add 30 days to the current date to find the date 30 days from now in MM/DD/YYYY:\n\nThe date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days = 30 days from now in MM/DD/YYYY + 30 days"
       ]
     ],
     "filtered_resps": [
@@ -7356,7 +7356,7 @@
     ],
     "resps": [
       [
-        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is 12/30/1967. To convert it to the time format, we need to divide the number of days by 24 and then add 1.\n\nThe time format is"
+        "To find the date 3 days from now in MM/DD/YYYY, we need to convert the given date to the corresponding time format.\n\nThe given date is 12/30/1967.\n\nTo convert the date to the time format, we need to divide the date by 12 and then add 1 day.\n\nThe time format is MM/DD/YYYY.\n\nSo, the date 3 days from now in MM/DD/YYYY is 12/30/1967.\n\nThe answer is 12/30/1967."
       ]
     ],
     "filtered_resps": [
@@ -7470,7 +7470,7 @@
     ],
     "resps": [
       [
-        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the corresponding date in the Gregorian calendar.\n\nThe date 7 days from now is 7 days from now in the Gregorian calendar. To convert the date to the Gregorian calendar, we need to divide the number of days by 365.\n\nThe number of days in a year is 365.25 days. Therefore, 7 days from now is 7 * 365.25 = 281 days.\n\nSo, the date 7 days from now in MM/DD/YYYY is 281 days."
+        "To find the date 7 days from now in MM/DD/YYYY, we need to convert the date 7 days from now to the current date.\n\nStep 1: Convert 7 days from now to the current date\n7 days from now is 7 days ago.\n\nStep 2: Add 1 day to the current date\n7 days ago is 7 + 1 = 8 days ago.\n\nStep 3: Add 1 day to the current date\n8 days ago is 8 + 1 = 9 days ago.\n\nStep 4: Add 1 day to the current date\n9 days ago is 9 + 1 = 10 days ago.\n\nStep 5: Add 1 day to the current date\n10 days ago is 10 + 1 = 11 days ago.\n\nStep 6: Add 1 day to the current date\n11 days ago is 11 + 1 = 12 days ago.\n\nStep 7: Add 1 day to the current date\n12 days ago is 12 + 1 = 13 days ago.\n\nStep 8:"
       ]
     ],
     "filtered_resps": [
@@ -7508,7 +7508,7 @@
     ],
     "resps": [
       [
-        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY. This is done by adding 30 days to the original date.\n\nNow, we convert the time format MM/DD/YYYY to the time format MM/DD/YYYY. This is done by adding 30 days to the original time.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY."
+        "To find the date 30 days from now in MM/DD/YYYY, we need to convert the date to the corresponding time format.\n\nFirst, we convert the date to the time format MM/DD/YYYY.\n\nNow, we can find the date 30 days from now in MM/DD/YYYY by adding 30 to the date.\n\nSo, the date 30 days from now in MM/DD/YYYY is 30 days from now in MM/DD/YYYY.\n\nThe answer is 30 days from now in MM/DD/YYYY."
       ]
     ],
     "filtered_resps": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "14 days ago in MM/DD/YYYY is 06/12/1975."
+        "14 days ago in MM/DD/YYYY is 14 days ago."
       ]
     ],
     "filtered_resps": [
-      "06/12/1975"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

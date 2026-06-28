@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,strategyqa_true_baseline,strategyqa,true_baseline,zero_shot,strategyqa,0.09,0.89,430.4,0,100,26.13,20.53

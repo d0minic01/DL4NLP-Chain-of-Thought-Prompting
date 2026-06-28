@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,letter_shift_paper_cot,letter_shift,paper_cot,fewshot_cot,letter_shift,0.64,0.0,139.9,6,100,16.69,5.3

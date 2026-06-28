@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,aqua_think_step_by_step,aqua,think_step_by_step,zero_shot,aqua-rat,0.01,0.99,741.2,0,100,121.42,24.31

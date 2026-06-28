@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "Janet has 16 eggs per day. 3 eggs for breakfast = 16 x 3 = 48 eggs. 48 eggs for 2 days = 48 x 2 = 96 eggs. 96 eggs for 1 day = 96 x 2 = 192 eggs. 192 eggs for 3 days = 192 x 3 = 516 eggs. 516 eggs for 4 days = 516 x 4 = 2032 eggs. 2032 eggs for 5 days = 2032 x 5 = 10050 eggs. 10050 eggs for 6 days = 10050 x 6 = 60000 eggs. 60000 eggs for 7 days = 60000 x 7 = 400000 eggs. 400000 eggs for 8 days = 400000 x 8 = 320000 eggs. 320000 eggs for 9 days = "
+        "Janet has 16 eggs per day. 3 eggs for breakfast = 16 x 3 = 48 eggs. 48 eggs for 1 day = 48 x 1 = 48 eggs. 48 eggs for 2 days = 48 x 2 = 96 eggs. 96 eggs for 3 days = 96 x 3 = 312 eggs. 312 eggs for 1 day = 312 x 1 = 312 eggs. 312 eggs for 2 days = 312 x 2 = 624 eggs. 624 eggs for 3 days = 624 x 3 = 1848 eggs. 1848 eggs for 4 days = 1848 x 4 = 7704 eggs. 7704 eggs for 5 days = 7704 x 5 = 37080 eggs. 37080 eggs for 6 days = 37080 x 6 = 207000 eggs. 2070"
       ]
     ],
     "filtered_resps": [
@@ -60,11 +60,11 @@
     ],
     "resps": [
       [
-        "A robe takes 2 bolts of blue fiber. 2 bolts of blue fiber is 2 x 2 = 4 bolts. 2 bolts of white fiber is 2 x 1 = 2 bolts. 2 bolts of blue fiber is 4 x 2 = 8 bolts. The answer is 8."
+        "Blue fiber takes 2 bolts of 100 fibers each, so 100 / 2 = 50 bolts of blue fiber. 2 bolts of blue fiber will be 50 x 2 = 100. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "8"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -98,7 +98,7 @@
     ],
     "resps": [
       [
-        "Josh bought the house for $80,000. 50% of the house's value is $80,000 x 0.5 = $40,000. 150% of the house's value is $40,000 x 0.15 = $5,000. 50% of the house's value is $5,000 x 0.5 = $2,500. 150% of the house's value is $2,500 x 0.15 = $3,750. 50% of the house's value is $3,750 x 0.5 = $1,975. 150% of the house's value is $1,975 x 0.15 = $2,925. 50% of the house's value is $2,925 x 0.5 = $1,737.50. 150% of the house's value is $1,737.50 x 0.15 = $"
+        "Josh bought the house for $80,000. 50,000 x 150% = $75,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,"
       ]
     ],
     "filtered_resps": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "Wendi's flock is 20 chickens. 15 cups of feed is 15 x 2 = 30 cups. 25 cups of feed is 25 x 2 = 50 cups. 30 cups of feed is 30 x 3 = 90 cups. 30 + 50 + 90 = 120 cups. The answer is 120."
+        "Wendi's flock is 20 chickens. 15 cups of feed is 15 x 2 = 30 cups. 25 cups of feed is 25 x 2 = 50 cups. 30 cups of feed is 30 x 3 = 90 cups. 30 + 50 + 90 = 120 cups. 120 cups of feed is 120 / 3 = 40 cups. 40 cups of feed is 40 x 2 = 80 cups. 80 cups of feed is 80 / 2 = 40 cups. 40 cups of feed is 40 x 3 = 120 cups. 120 cups of feed is 120 / 3 = 40 cups. 40 cups of feed is 40 x 2 = 80 cups. 80 cups of feed is 80 x 3 = 240 cups. 240 cups of feed is 240 / 2 = 120 cups. 120 cups of feed is "
       ]
     ],
     "filtered_resps": [
-      "120"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,7 +326,7 @@
     ],
     "resps": [
       [
-        "John drove for 3 hours at a speed of 60 mph.  He drove for 4 hours at 80 mph.  He spent 2 hours in standstill traffic.  He drove at 80 mph for 2 hours.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving"
+        "John drove for 3 hours at a speed of 60 mph.  He drove for 4 hours at 80 mph.  He spent 2 hours in standstill traffic.  He spent 1 hour in driving at 80 mph.  So he drove for 4 - 2 = 2 hours.  He drove at 80 mph for 2 hours.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 8"
       ]
     ],
     "filtered_resps": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "Eliza's rate per hour is $10. She also received an overtime pay of 1.2 times her regular hourly rate. So her rate per hour is $10 * 1.2 = $12.40. Eliza's rate per hour is $12.40 / 45 hours = $0.28. The total earnings for this week is $12.40 + $0.28 = $13.68. The answer is 13.68."
+        "Eliza's rate per hour is $10. She also received an overtime pay of 1.2 times her regular hourly rate. So her rate per hour is $10 * 1.2 = $12.40. Eliza's earnings for this week are $12.40 + $12.40 = $14.80. The answer is 14.80."
       ]
     ],
     "filtered_resps": [
-      "13.68"
+      "14.80"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "In the first month, the program had 60 downloads. 30% of 60 downloads is 0.3 * 60 = 18 downloads. 30% of 60 is 0.3 * 60 = 18. So the program had 18 downloads in the first month.\n\nIn the second month, the program had 60 downloads. 30% of 18 downloads is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 6 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 *"
+        "In the first month, the program had 60 downloads. 30% of 60 downloads is 0.3 * 60 = 18 downloads. 30% of 60 is 0.3 * 60 = 18 downloads. 18 + 18 = 36 downloads. The answer is 36."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "36"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "Carlos has $90 to plant. Each year, he will grow 7 lemons, so he will have 90 - 7 = 83 lemons. He can sell them for $1.5 each, so he will have 83 x 1.5 = 135 dollars. Since he has $3 a year to water and feed the tree, it will take 135 - 3 = 128 years to start earning money on the lemon tree. The answer is 128."
+        "Carlos has $90 to plant. Each year, he will grow 7 lemons, so he will have 7 x 7 = 49 lemons. He can sell them for $1.5 each, so he will have 49 - 1.5 = 46 lemons. To grow 49 - 1.5 = 45 lemons, he will need 45 x 1.5 = 72 lemons. He will need 72 - 1.5 = 67 lemons to grow 45 - 1.5 = 62 lemons. To grow 62 - 1.5 = 50 lemons, he will need 50 x 1.5 = 80 lemons. He will need 80 - 1.5 = 78 lemons to grow 50 - 1.5 = 55 lemons. He will need 55 - 1.5 = 52 lemons to grow 50 - 1.5 = 48 lemons. He will need 48 - 1.5 = 44 lemons to grow 50 - 1.5 = 40 lemons"
       ]
     ],
     "filtered_resps": [
-      "128"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "In total, 20% of 20 students enrolled in contemporary dance, 25% of 20 students enrolled in jazz dance, and 25% of the remaining students enrolled in hip-hop dance are 20% of 20 students. So 20% of 20 students is 20 x 0.20 = 4.\n\nThe answer is 4."
+        "In total, 20% of 20 students enrolled in contemporary dance, 25% of 20 students enrolled in jazz dance, and 25% of the remaining students enrolled in hip-hop dance are 20% of 20 students. So 20% of 20 students is 20 x 0.20 = 4.00. The remaining students are 20 - 4.00 = 16.00. The percentage of students enrolled in hip-hop dance is 25% of 16.00, which is 0.25 x 16.00 = 4.00. The percentage of students enrolled in jazz dance is 25% of 16.00, which is 0.25 x 16.00 = 3.75. The percentage of students enrolled in hip-hop dance is 25% of 16.00, which is 0.25 x 16.00 = 3.75. The answer is 3.75."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "3.75"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "The merchant wants to maximize profit by making a choice between the two plans. The merchant's goal is to maximize the profit by choosing the plan that will result in the highest profit.\n\nThe merchant's financial advisor's speculations suggest that the jewelry market will go up 2.5% while the electronic gadgets market will rise 1.2% within the same month. To maximize profit, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's goal is to maximize profit by choosing the plan that will result in the highest profit. To do this, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's financial advisor's speculations suggest that the jewelry market will go up 2.5% while the electronic gadgets market will rise 1.2% within the same month. To maximize profit, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's goal is to maximize profit by choosing the plan that will result in the highest profit. To do this, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's financial advisor's speculations suggest that the jewelry market will go up 2.5% while"
+        "The merchant wants to maximize profit by making a choice between the two plans. The merchant wants to make a profit of $5,000, which is 2.5% of the jewelry market. The merchant wants to make a profit of $8,000, which is 1.2% of the electronic gadgets market.\n\nTo maximize profit, the merchant should choose the plan with the higher profit margin. The merchant wants to maximize his profit by making a choice between the two plans. The merchant can choose the plan with the higher profit margin by choosing the plan with the higher profit margin.\n\nTherefore, the merchant should choose the plan with the higher profit margin."
       ]
     ],
     "filtered_resps": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "1:00 PM is 1 hour and 50 minutes. 2000 / 1:00 = 2000 / 1 = 2000 centimeters.\n5:00 PM is 1 hour and 50 minutes. 2000 / 5 = 4000 / 1 = 4000 centimeters.\nThe answer is 4000."
+        "1:00 PM is 1 hour and 50 minutes. 2000 / 1 = 2000. 1 hour and 50 minutes is 2000 / 60 = 36.5. 36.5 - 2000 is 100. 100 - 36.5 is 63.5. The answer is 63.5."
       ]
     ],
     "filtered_resps": [
-      "4000"
+      "63.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1010,11 +1010,11 @@
     ],
     "resps": [
       [
-        "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. 3 pairs of shorts cost $16.50 each, and 3 pairs of pants cost $22.50 each. 3 pairs of pants cost $22.50 each. 3 pairs of shoes cost $42.50 each. So Mishka spent $16.50 + $22.50 + $42.50 = $75. The answer is 75."
+        "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. 3 pairs of shorts cost $16.50 each, and 3 pairs of pants cost $22.50 each. 3 pairs of pants cost $22.50 each. 3 pairs of shoes cost $42.50 each. So Mishka spent $16.50 + $22.50 + $42.50 = $71.50. The answer is 71."
       ]
     ],
     "filtered_resps": [
-      "75"
+      "71"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "Cynthia eats 15 servings of ice cream per carton. 60 days * 15 servings = 90 servings. 15 servings of ice cream per carton = 15 x 90 = 135 servings. 15 servings of ice cream per carton * 60 days = 800 servings. 800 servings of ice cream = 800 x 15 = 12,000 servings. 135 servings of ice cream = 135 x 15 = 1750 servings. 15 servings of ice cream = 15 x 15 = 225 servings. 225 servings of ice cream = 225 x 15 = 31,000 servings. 3100 servings of ice cream = 3100 x 15 = 48,000 servings. 4800 servings of ice cream = 4800 x 15 = 6,400 servings. 6400 servings of ice cream = 6400 x 15 = "
+        "Cynthia eats 15 servings of ice cream per carton. 60 days * 15 servings = 90 servings. 15 servings of ice cream per carton = 15 x 90 = 135 servings. 15 servings of ice cream per carton * $4.00 per carton = $60. 90 servings of ice cream per carton * 135 servings = $11,250. 60 days * $11,250 = $7,300. The answer is 7,300."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "7,300"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,11 +1086,11 @@
     ],
     "resps": [
       [
-        "Henry started with 60 miles. He then stopped at 20 miles. His second stop was 15 miles before the end of the trip. So he traveled 20 + 15 = 35 miles. The answer is 35."
+        "Henry started with 60 miles. He then stopped at 20 miles. His second stop was 15 miles before the end of the trip. So he traveled 20 - 15 = 5 miles before the end of the trip. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "35"
+      "5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "The first friend says 80. The second friend says 20 more than half the first one. The third friend says 25% more than the first one. The fourth friend says 25% more than the first one. The fifth friend says 25% more than the second one. The sixth friend says 25% more than the first one. The seventh friend says 25% more than the second one. The eighth friend says 25% more than the first one. The ninth friend says 25% more than the second one. The tenth friend says 25% more than the first one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the first one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than"
+        "The first friend says 80. The second friend says 20 more than half the first one, which is 20 + 80 = 100. The third friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The fourth friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The fifth friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The sixth friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The seventh friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The eighth friend says"
       ]
     ],
     "filtered_resps": [
@@ -1238,7 +1238,7 @@
     ],
     "resps": [
       [
-        "John takes care of 10 dogs.  Each dog takes 1 hour a day to walk. So he takes 10 x 1 = 10 hours a day. The answer is 10."
+        "John takes care of 10 dogs.  Each dog takes 1 hour a day to walk and take care of their business. So he takes 10 x 1 = 10 hours a day. The answer is 10."
       ]
     ],
     "filtered_resps": [
@@ -1314,7 +1314,7 @@
     ],
     "resps": [
       [
-        "Siobhan has 2 fewer jewels than half of Raymond's jewels. 2 - 1 = 1. So she has 2 - 1 = 1 more jewels than half of Raymond's jewels. 5 - 1 = 4. The answer is 4."
+        "Siobhan has 2 fewer jewels than Aaron. 2 - 1 = 1. So she has 2 - 1 = 1 more jewels than Aaron. 5 - 1 = 4. The answer is 4."
       ]
     ],
     "filtered_resps": [
@@ -1352,11 +1352,11 @@
     ],
     "resps": [
       [
-        "In the first 20 minutes, Mike scored 4 points.  In the second 20 minutes, he scored 25% more points. So in total, Mike scored 4 + 25 = 50 points. The answer is 50."
+        "In the first 20 minutes, Mike scored 4 points.  In the second 20 minutes, he scored 25% more points. So in total, Mike scored 4 + 25 = 29 points. The answer is 29."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "29"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "John runs 60 miles a week.  He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  So he runs 60 - 3 = 57 miles per hour. The answer is 57."
+        "John runs 60 miles per week. 3 days a week, he runs 3 x 60 = 180 miles. 3 hours the first day, he runs 3 x 60 = 180 miles. 3 hours the other two days, he runs 3 x 180 = 540 miles. 540 miles / 60 miles per day = 9.25 miles per hour. The answer is 9.25."
       ]
     ],
     "filtered_resps": [
-      "57"
+      "9.25"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1542,11 +1542,11 @@
     ],
     "resps": [
       [
-        "Brandon's iPhone is four times as old as Ben's iPhone. 4 x 1 = 4. Suzy's iPhone is two times older than Brandon's iPhone. 2 x 2 = 4. The answer is 4."
+        "Brandon's iPhone is four times as old as Ben's iPhone. Brandon's iPhone is 1 year old. Suzy's iPhone is 1 year old. Suzy's iPhone is 1 year old + 1 year old = 2 years old. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "1800 calories is 1800 / 2000 = 1.8 grams.\nSo you can eat 1.8 grams of chips per day if your daily calorie target is 2000."
+        "If you consume 1800 calories, then you have 1800 - 2000 = 800 calories. 300g of chips has 5 servings, so you have 300g / 5 servings = 600 calories. 800 calories is 800 - 600 = 200 calories. 200 calories is 200 - 200 = 0 calories. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "0"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop.  At work, she placed 23 post-it notes in 220 cups of coffee.  So she had 80 - 23 = 63. The answer is 63."
+        "Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop.  At work, she placed 23 post-it notes in each of 220 cups of coffee.  So she had 80 - 23 = 63 post-it notes in her purse.  If she had 23 post-it notes remaining overall, she had 63 - 23 = 40. The answer is 40."
       ]
     ],
     "filtered_resps": [
-      "63"
+      "40"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "She used 4 feet of wire. 6 feet of wire is 12 feet. So she obtained 12 - 6 = 6 pieces of wire. The answer is 6."
+        "She used 4 feet of wire to support the tomato plants. 6 inches of wire is 12 inches. So she obtained 12 x 6 = 72 pieces of wire. The answer is 72."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "72"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1884,11 +1884,11 @@
     ],
     "resps": [
       [
-        "Each floor has 8 units. So the total number of units in the building is 15 floors x 8 units per floor = 120 units. The building has 15 floors. So the total number of unoccupied units is 120 units / 15 floors = 8. The answer is 8."
+        "Each floor has 8 units. 15 floors x 8 units per floor = 120 units. 3/4 of the building is occupied. 120 units / 3/4 = 30 units. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "8"
+      "30"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1897,7 +1897,7 @@
     "doc_hash": "cc090ff1f75aa926b2d49e8ecf4a62c97d587aa13d2ce9c26fd97c280166bf7a",
     "prompt_hash": "e82a8b6a64291fadc545cafe330b7a2bca3e72de3ff27ca141833285cc82230c",
     "target_hash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 50,
@@ -1922,11 +1922,11 @@
     ],
     "resps": [
       [
-        "Lloyd has 252 eggs per day. 252 / 2 = 128 eggs per week. 128 eggs per week is 128 x 2 = 256 eggs per week. Lloyd makes 256 - 128 = 104 eggs per week. The answer is 104."
+        "Lloyd has 252 eggs per day. 252 / 2 = 128 eggs per week. 128 eggs per week is 128 x 2 = 256 eggs per week. Lloyd makes 256 / 2 = 124 eggs per week. The answer is 124."
       ]
     ],
     "filtered_resps": [
-      "104"
+      "124"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "Uriah's book bag weighs 1/4 pound each. 1/4 pound each is 1/16 pound each. 30 comic books weighs 1/16 pound each. So he needs to remove 30 x 1/16 = 1/64 pounds of comic books. 1/64 pounds of comic books weighs 1/64 x 1/4 = 1/24. The answer is 1/24."
+        "Uriah's comic books weigh 1/4 pound each. 1/4 pound of comic books is 1/4 x 1/4 = 1/16. If he removes 30 comic books, he will remove 30 / 16 = 1.5 pounds. So he needs to remove 1.5 x 15 = 18.5 pounds. The answer is 18.5."
       ]
     ],
     "filtered_resps": [
-      "1"
+      "18.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "For each truck tire that is repaired, the mechanic charges $60.  For each car tire that is repaired, the mechanic charges $40.  So for each truck tire repaired, the mechanic charges $60 + $40 = $100.  For each car tire repaired, the mechanic charges $40 - $100 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $0 + $0 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100.  So for each car tire repaired, the mechanic charges $0 + $0 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100.  So for each car tire repaired, the mechanic charges $0 + $0 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100"
+        "For each truck tire that is repaired, the mechanic charges $60.  For each car tire that is repaired, the mechanic charges $40.  So for each truck tire repaired, the mechanic charges $60 + $40 = $100.  For each car tire repaired, the mechanic charges $40 - $100 = $0.  So for each truck tire repaired, the mechanic charges $100.  For each car tire repaired, the mechanic charges $0.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $0.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $100 + $0 = $100.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $100 +"
       ]
     ],
     "filtered_resps": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "The Doubtfire sisters are driving home with 7 kittens. 7 cats have been adopted from the local animal shelter. 7 cats x 3 kittens per cat = 21 kittens. The Doubtfire family now has 21 - 21 = 0. The answer is 0."
+        "The Doubtfire sisters are driving home with 7 kittens. 7 cats have been adopted from the local animal shelter. 7 cats have been adopted from the local animal shelter. 7 + 12 = 19. The answer is 19."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "19"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2112,7 +2112,7 @@
     ],
     "resps": [
       [
-        "Jean has 30 lollipops. 2 lollipops in a bag will be 2 x 30 = 60. So Jean can fill 60 - 2 = 58 bags. The answer is 58."
+        "Jean has 30 lollipops. 2 lollipops in one bag will be 2 x 30 = 60. So Jean can fill 60 - 2 = 58 bags. The answer is 58."
       ]
     ],
     "filtered_resps": [
@@ -2150,11 +2150,11 @@
     ],
     "resps": [
       [
-        "Peter has 42 dollars. 7 x 42 = 288 dollars. The answer is 288."
+        "Peter has 42 dollars. 7 tickets for $7 each will be 7 x 7 = 49 dollars. 42 - 49 is 12. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "288"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "The combined weight of the driver and the empty truck is 3755 pounds. The maximum number of boxes that can be loaded onto the truck is 5000 pounds. The truck's weight limit is 5000 pounds.\n\nThe total weight of the boxes is 3755 + 5000 = 8755 pounds. The truck's weight limit is 5000 pounds.\n\nThe maximum number of boxes that can be loaded onto the truck is 8755 - 5000 = 3755. The answer is 3755."
+        "The bridge can carry no more than 5000 pounds. The truck can carry 3755 pounds. The combined weight of the driver and the empty truck is 3755 + 3755 = 7500 pounds. The maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 7500 - 5000 = 2500 pounds. The answer is 2500."
       ]
     ],
     "filtered_resps": [
-      "3755"
+      "2500"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,7 +2226,7 @@
     ],
     "resps": [
       [
-        "Stephen's final bill came to $40.00. 25% of $40.00 is $12.50. 25% of $40.00 is $12.50 * 0.25 = $3.00. 25% of $40.00 is $3.00 * 0.25 = $0.75. 25% of $40.00 is $0.75 * 0.25 = $0.175. 25% of $40.00 is $0.175 * 0.25 = $0.04. 25% of $40.00 is $0.04 * 0.25 = $0.0125. 25% of $40.00 is $0.0125 * 0.25 = $0.00625. 25% of $40.00 is $0.00625 * 0.25 = $0.0006"
+        "Stephen's final bill came to $40.00. 25% of $40.00 is $12.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 2"
       ]
     ],
     "filtered_resps": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "There are 100% of the good oranges. So there are 100% - 25 = 75 good oranges. The answer is 75."
+        "There are 25 oranges in total. 1/25 of the oranges are bad. So 1/25 of the oranges are bad. 20% of the oranges are bad. So 20% of the oranges are bad. 20% of the oranges are good. So 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 2"
       ]
     ],
     "filtered_resps": [
-      "75"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "Janet bought 500 - 800 = 200 dollars for the material. 200 - 10% of that is 200 - 200 / 10 = 0 dollars. 0 x 10 = 0 dollars. The answer is 0."
+        "Janet bought 500 - 800 = 1000 dollars. 10% of 1000 is 1000 / 10 = 100 dollars. 10% of 1000 is 100 / 10 = 10 dollars. 1000 - 100 = 90 dollars.  The answer is 90."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "90"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "Marcy worked for the company for 40 years. 40 years x 5% per year = 20 years. 20 years x 0.02 = 4.04. 40 years - 20 years = 20 years. The answer is 20."
+        "Marcy works for the same company for 40 years. 20 years is 40 x 4 = 160 years. 5% of 160 is 0.05 x 160 = 8.5. 160 - 8.5 = 135.5. 135.5 / 100 = 1.355. 135.5 x 1.355 = 177.05. 177.05 / 100 = 1.77. 177.05 x 1.77 = 225.05. 225.05 / 100 = 2.25. 225.05 x 2.25 = 450.05. 450.05 / 100 = 4.50. 4.50 x 4.50 = 19.00. 19.00 x 1.90 = 27.90. 2"
       ]
     ],
     "filtered_resps": [
-      "20"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2454,7 +2454,7 @@
     ],
     "resps": [
       [
-        "Since Sophia needs to fill up her tank, she needs to fill it up 12 gallons. So she needs to fill up 12 / 4 = 3 gallons. The tank holds 12 gallons. So she can drive 3 * 12 = 36 miles on a single tank of gas. The answer is 36."
+        "Since Sophia needs to fill up her tank, she needs to put in 12 gallons of gas. So she needs to fill up her tank 12 / 4 = 3 gallons.\n\nSince her car has a 12-gallon tank, she can drive 3 * 12 = 36 miles on a single tank of gas. The answer is 36."
       ]
     ],
     "filtered_resps": [
@@ -2530,11 +2530,11 @@
     ],
     "resps": [
       [
-        "Each school has 5 players each. So the total number of people sent is 5 x 5 = 25. The answer is 25."
+        "Each school has 5 players each. 4 schools sent 5 players each. So each school has 4 x 5 = 20 players. 4 schools sent 20 players each. So each school has 20 - 20 = 0 players. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "25"
+      "0"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2568,7 +2568,7 @@
     ],
     "resps": [
       [
-        "There were originally 175 diamonds, 35 fewer rubies than diamonds, and 2 more emeralds than rubies. 175 - 35 = 140. 2 more emeralds than rubies is 2 * 2 = 4. The answer is 4."
+        "There were originally 175 diamonds, 35 fewer rubies than diamonds, and 2 more emeralds than rubies. 175 - 35 = 120. 2 more emeralds than rubies is 2 * 2 = 4. The answer is 4."
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "Twice as many boys as girls, so there are 2 x 60 = 120 boys. 5 students to every teacher, so there are 120 + 5 = 125 teachers. The answer is 125."
+        "Twice as many boys as girls means 2 * 60 = 120 boys. 5 students to every teacher means 120 / 5 = 24 teachers. The answer is 24."
       ]
     ],
     "filtered_resps": [
-      "125"
+      "24"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2720,7 +2720,7 @@
     ],
     "resps": [
       [
-        "Kelian has 20 instructions. 20 x 2 = 40 instructions. Kelian has 40 - 20 = 20 instructions to prepare the two dishes. The answer is 20."
+        "Kelian has 20 instructions. 20 x 2 = 40 instructions. 40 - 20 = 20 instructions. The answer is 20."
       ]
     ],
     "filtered_resps": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "Shiela bought 5 cell phones for $150 each. 2% of $150 is 0.02 x 150 = $3. 3 units of cell phones will be charged at 2% of $150. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1.5. The total cost of 3 months is $150 x 3 = $450. The answer is 450."
+        "Shiela bought 5 cell phones for $150 each. 2% of $150 is 0.02 x 150 = $3. 3 units of cell phones will be charged at 2% of $150. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1. 3 units of cell phones will be charged at 0.02 x 1 = $0.02. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1. 3 units of cell phones will be charged at 0.02 x 1 = $0.02. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1. 3 units of cell phones will be charged at 0.02 x "
       ]
     ],
     "filtered_resps": [
-      "450"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "Artie sells 12 pots of marigolds, 9 pots of petunias, and 17 pots of begonias. He has 12 pots x 3 = 36 pots of marigolds, 9 pots x 1.5 = 13 pots of petunias, and 17 pots x 2.5 = 38 pots of begonias. He has 36 pots x 3 = 108 pots of marigolds, 13 pots x 1.5 = 17 pots of petunias, and 38 pots x 2.5 = 92 pots of begonias. He has 108 pots x 3 = 312 pots of marigolds, 13 pots x 1.5 = 17 pots of petunias, and 92 pots x 2.5 = 264 pots of begonias. He has 312 pots x 3 = 936 pots of marigolds, 17 pots x 1.5 = 22 pots of petunias, and 264 pots x 2.5 = 6"
+        "Artie has 12 pots of marigolds, 9 pots of petunias, and 17 pots of begonias. He sells 12 pots of marigolds for $2.74 per pot, 9 pots of petunias for $1.87 per pot, and 17 pots of begonias for $2.12 per pot. So he sells 12 x 1.87 = $15.44 per pot. The answer is 15.44."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "15.44"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "If Raymond does half as much laundry as Sarah, then he does 400 / 2 = 200 pounds of laundry.\nIf Sarah does 4 times as much laundry as David, then she does 4 x 400 = 1600 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200 - 1600 = 800 pounds.\nThe answer is 800."
+        "If Raymond does half as much laundry as Sarah, then he does 400 / 2 = 200 pounds of laundry.\nIf Sarah does 4 times as much laundry as David, then she does 4 x 400 = 1600 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200 - 1600 = 100 pounds.\nThe answer is 100."
       ]
     ],
     "filtered_resps": [
-      "800"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2961,7 +2961,7 @@
     "doc_hash": "c6a0ad6571b63fdc4d3813ce8c055adbacfa270146ba1a16d970f2588e521795",
     "prompt_hash": "efeebf8986eb8b3e9d3d247b4ddab41c62d4361e701b87f32affa98bbe40b458",
     "target_hash": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 78,
@@ -3024,7 +3024,7 @@
     ],
     "resps": [
       [
-        "John took the dog to the groomer for $100.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 100 = 30%.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 30% = 30%.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is"
+        "John took the dog to the groomer for $100.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 100 = 30%.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 30% = 10%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of"
       ]
     ],
     "filtered_resps": [
@@ -3100,11 +3100,11 @@
     ],
     "resps": [
       [
-        "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. So he had 10 + 23 = 33 stickers. 28 stickers were used to decorate a greeting card. So he had 33 - 28 = 5 stickers left. The answer is 5."
+        "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. So he had 10 + 23 = 33 stickers. 28 stickers were used to decorate a greeting card. So he had 33 - 28 = 12 stickers left. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "5"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3138,11 +3138,11 @@
     ],
     "resps": [
       [
-        "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times Grace's weight. 4 times Grace's weight is 4 * 125 = 480 pounds. 2 pounds less than 4 times Grace's weight is 480 - 2 = 468 pounds. So their combined weight is 468 + 2 = 470 pounds. The answer is 470."
+        "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times Grace's weight. 4 times Grace's weight is 4 * 125 = 480 pounds. 2 pounds less than 4 times Grace's weight is 480 - 2 = 468 pounds. So their combined weight is 468 + 480 = 948 pounds. The answer is 948."
       ]
     ],
     "filtered_resps": [
-      "470"
+      "948"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "Gene has 1 shirt from each vacation. 1 x 4 = 4. 1 x 2 = 2. 1 x 3 = 3. 1 x 4 = 4. 4 + 2 = 6. The answer is 6."
+        "Gene has 1 shirt from each vacation. 1 x 4 = 4. 1 x 2 = 2. 1 x 3 = 3. 1 x 4 = 4. 4 x 2 = 8. 4 x 3 = 12. 1 x 4 = 4. 4 x 2 = 8. 8 x 3 = 24. 24 x 2 = 52. 52 x 2 = 124. 124 x 4 = 516. 516 x 3 = 1638. 1638 x 4 = 6664. 6664 x 2 = 13332. 13332 x 3 = 40000. 40000 x 2 = 80000. 80000 x 4 = 320000. 320000 x 2 = 640000. 640000 x 3 = "
       ]
     ],
     "filtered_resps": [
-      "6"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "Sylvie's salary is 5 years in the company. 10% of 5 years is 5/100 * 5 = 0.05 * 5 = 2.5. So her annual salary is 5 years in the company * 2.5 = 12.5. The answer is 12.5."
+        "Sylvie's salary is 5 years in the company. 10% of 5 years is 0.1 * 5 = 5. So her salary is 5 + 5 = 10. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12.5"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3366,11 +3366,11 @@
     ],
     "resps": [
       [
-        "Harald sold 88,000 copies.\nMarilyn sold 10 times as many copies as Harald, so she sold 10 x 88,000 = 88,000 copies.\nSo Harald sold 88,000 - 88,000 = 1,000 copies.\nThe answer is 1,000."
+        "Harald sold 10 times as many copies as Marilyn. 10 x 88,000 = 88,000. The answer is 88,000."
       ]
     ],
     "filtered_resps": [
-      "1,000"
+      "88,000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3442,7 +3442,7 @@
     ],
     "resps": [
       [
-        "Ted knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult. So he needs to bring 10 x 0.5 = 5 lbs of potato salad.\nIf there will be 20 adults and 5 children, then he needs to bring 20 x 5 = 100 pounds of potato salad.\nThe answer is 100."
+        "Ted knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult. So he needs to bring 10 x 0.5 = 5 lbs of potato salad.\nIf there will be 20 adults and 5 children, then Ted needs to bring 20 x 5 = 100 pounds of potato salad.\nThe answer is 100."
       ]
     ],
     "filtered_resps": [
@@ -3480,11 +3480,11 @@
     ],
     "resps": [
       [
-        "Jan has 3 x 4 = 12 pets. Marcia has 2 x 3 = 6 pets. Cindy has 4 + 6 = 10 pets. The answer is 10."
+        "Jan has 3 x 4 = 12 pets. Marcia has 2 x 3 = 6 pets. Cindy has 4 + 2 = 6 pets. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "6"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "Twelve - 60 = 10. The combined number of pet dogs and cats is 10 + 60 = 60. The number of pets in the neighborhood is 10 + 60 = 60. The answer is 60."
+        "Twelve - 60 = 10. The number of pets in the neighborhood is 10. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "60"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3632,11 +3632,11 @@
     ],
     "resps": [
       [
-        "Out of the 200 Grade 5 students, 2/5 of the girls are in the girl scout. So 200 / 2 = 100 girls are not in the girl scout. 2/3 of the girls are in the girl scout. So 100 / 2 = 50 girls are not in the girl scout. The answer is 50."
+        "Out of the 200 Grade 5 students, 2/5 of the girls are in the girl scout. So 200 / 2 = 100 girls are not in the girl scout. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3746,11 +3746,11 @@
     ],
     "resps": [
       [
-        "There were originally 30 cars on the motorway. 5 cars from the line take an exit so they don't have to drive through the traffic jam. 30 - 5 = 25 cars drove through the traffic jam. 25 cars from the line take an exit so they don't have to drive through the traffic jam. 25 - 25 = 0 cars drove through the traffic jam. The answer is 0."
+        "There were originally 30 cars on the motorway. 5 cars from the line take an exit so they don't have to drive through the traffic jam. 30 - 5 = 25 cars drove through the traffic jam in the first 15 minutes. 25 cars are 25 - 30 = 5 cars. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3759,7 +3759,7 @@
     "doc_hash": "986b473854db95d4d4d2837f8b7224e1f5795ebb8164dc6311386ce793b45c0b",
     "prompt_hash": "c8a430921cff04740f07f37709f0cc5e5796702b271729aa9060449120e0bd09",
     "target_hash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 99,
@@ -3784,7 +3784,7 @@
     ],
     "resps": [
       [
-        "Mary already has 2 potted plants on each of the 40 window ledges. 18 new potted plants will be given to her friends and family tomorrow. So she will have 2 x 18 = 36 potted plants. The answer is 36."
+        "Mary already has 2 potted plants on each of the 40 window ledges. 18 new potted plants will be given to her friends and family tomorrow. So she will have 2 x 18 = 36 potted plants left. The answer is 36."
       ]
     ],
     "filtered_resps": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "Janet has 16 eggs per day. 3 eggs for breakfast = 16 x 3 = 48 eggs. 48 eggs for 2 days = 48 x 2 = 96 eggs. 96 eggs for 1 day = 96 x 2 = 192 eggs. 192 eggs for 3 days = 192 x 3 = 516 eggs. 516 eggs for 4 days = 516 x 4 = 2032 eggs. 2032 eggs for 5 days = 2032 x 5 = 10050 eggs. 10050 eggs for 6 days = 10050 x 6 = 60000 eggs. 60000 eggs for 7 days = 60000 x 7 = 400000 eggs. 400000 eggs for 8 days = 400000 x 8 = 320000 eggs. 320000 eggs for 9 days = "
+        "Janet has 16 eggs per day. 3 eggs for breakfast = 16 x 3 = 48 eggs. 48 eggs for 1 day = 48 x 1 = 48 eggs. 48 eggs for 2 days = 48 x 2 = 96 eggs. 96 eggs for 3 days = 96 x 3 = 312 eggs. 312 eggs for 1 day = 312 x 1 = 312 eggs. 312 eggs for 2 days = 312 x 2 = 624 eggs. 624 eggs for 3 days = 624 x 3 = 1848 eggs. 1848 eggs for 4 days = 1848 x 4 = 7704 eggs. 7704 eggs for 5 days = 7704 x 5 = 37080 eggs. 37080 eggs for 6 days = 37080 x 6 = 207000 eggs. 2070"
       ]
     ],
     "filtered_resps": [
-      "9"
+      "2070"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "A robe takes 2 bolts of blue fiber. 2 bolts of blue fiber is 2 x 2 = 4 bolts. 2 bolts of white fiber is 2 x 1 = 2 bolts. 2 bolts of blue fiber is 4 x 2 = 8 bolts. The answer is 8."
+        "Blue fiber takes 2 bolts of 100 fibers each, so 100 / 2 = 50 bolts of blue fiber. 2 bolts of blue fiber will be 50 x 2 = 100. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "Josh bought the house for $80,000. 50% of the house's value is $80,000 x 0.5 = $40,000. 150% of the house's value is $40,000 x 0.15 = $5,000. 50% of the house's value is $5,000 x 0.5 = $2,500. 150% of the house's value is $2,500 x 0.15 = $3,750. 50% of the house's value is $3,750 x 0.5 = $1,975. 150% of the house's value is $1,975 x 0.15 = $2,925. 50% of the house's value is $2,925 x 0.5 = $1,737.50. 150% of the house's value is $1,737.50 x 0.15 = $"
+        "Josh bought the house for $80,000. 50,000 x 150% = $75,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,000. 150% of $80,000 is $1,250,"
       ]
     ],
     "filtered_resps": [
-      "0.15"
+      "$1,250,"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "Wendi's flock is 20 chickens. 15 cups of feed is 15 x 2 = 30 cups. 25 cups of feed is 25 x 2 = 50 cups. 30 cups of feed is 30 x 3 = 90 cups. 30 + 50 + 90 = 120 cups. The answer is 120."
+        "Wendi's flock is 20 chickens. 15 cups of feed is 15 x 2 = 30 cups. 25 cups of feed is 25 x 2 = 50 cups. 30 cups of feed is 30 x 3 = 90 cups. 30 + 50 + 90 = 120 cups. 120 cups of feed is 120 / 3 = 40 cups. 40 cups of feed is 40 x 2 = 80 cups. 80 cups of feed is 80 / 2 = 40 cups. 40 cups of feed is 40 x 3 = 120 cups. 120 cups of feed is 120 / 3 = 40 cups. 40 cups of feed is 40 x 2 = 80 cups. 80 cups of feed is 80 x 3 = 240 cups. 240 cups of feed is 240 / 2 = 120 cups. 120 cups of feed is "
       ]
     ],
     "filtered_resps": [
-      "120."
+      "120"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "John drove for 3 hours at a speed of 60 mph.  He drove for 4 hours at 80 mph.  He spent 2 hours in standstill traffic.  He drove at 80 mph for 2 hours.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving at 80 mph.  He spent 1 hour in driving"
+        "John drove for 3 hours at a speed of 60 mph.  He drove for 4 hours at 80 mph.  He spent 2 hours in standstill traffic.  He spent 1 hour in driving at 80 mph.  So he drove for 4 - 2 = 2 hours.  He drove at 80 mph for 2 hours.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 80 mph for 1 hour.  He drove at 8"
       ]
     ],
     "filtered_resps": [
-      "1"
+      "8"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "Eliza's rate per hour is $10. She also received an overtime pay of 1.2 times her regular hourly rate. So her rate per hour is $10 * 1.2 = $12.40. Eliza's rate per hour is $12.40 / 45 hours = $0.28. The total earnings for this week is $12.40 + $0.28 = $13.68. The answer is 13.68."
+        "Eliza's rate per hour is $10. She also received an overtime pay of 1.2 times her regular hourly rate. So her rate per hour is $10 * 1.2 = $12.40. Eliza's earnings for this week are $12.40 + $12.40 = $14.80. The answer is 14.80."
       ]
     ],
     "filtered_resps": [
-      "13.68."
+      "14.80."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "In the first month, the program had 60 downloads. 30% of 60 downloads is 0.3 * 60 = 18 downloads. 30% of 60 is 0.3 * 60 = 18. So the program had 18 downloads in the first month.\n\nIn the second month, the program had 60 downloads. 30% of 18 downloads is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 6 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 * 18 = 5 downloads. 30% of 18 is 0.3 *"
+        "In the first month, the program had 60 downloads. 30% of 60 downloads is 0.3 * 60 = 18 downloads. 30% of 60 is 0.3 * 60 = 18 downloads. 18 + 18 = 36 downloads. The answer is 36."
       ]
     ],
     "filtered_resps": [
-      "0.3"
+      "36."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "Carlos has $90 to plant. Each year, he will grow 7 lemons, so he will have 90 - 7 = 83 lemons. He can sell them for $1.5 each, so he will have 83 x 1.5 = 135 dollars. Since he has $3 a year to water and feed the tree, it will take 135 - 3 = 128 years to start earning money on the lemon tree. The answer is 128."
+        "Carlos has $90 to plant. Each year, he will grow 7 lemons, so he will have 7 x 7 = 49 lemons. He can sell them for $1.5 each, so he will have 49 - 1.5 = 46 lemons. To grow 49 - 1.5 = 45 lemons, he will need 45 x 1.5 = 72 lemons. He will need 72 - 1.5 = 67 lemons to grow 45 - 1.5 = 62 lemons. To grow 62 - 1.5 = 50 lemons, he will need 50 x 1.5 = 80 lemons. He will need 80 - 1.5 = 78 lemons to grow 50 - 1.5 = 55 lemons. He will need 55 - 1.5 = 52 lemons to grow 50 - 1.5 = 48 lemons. He will need 48 - 1.5 = 44 lemons to grow 50 - 1.5 = 40 lemons"
       ]
     ],
     "filtered_resps": [
-      "128."
+      "40"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "In total, 20% of 20 students enrolled in contemporary dance, 25% of 20 students enrolled in jazz dance, and 25% of the remaining students enrolled in hip-hop dance are 20% of 20 students. So 20% of 20 students is 20 x 0.20 = 4.\n\nThe answer is 4."
+        "In total, 20% of 20 students enrolled in contemporary dance, 25% of 20 students enrolled in jazz dance, and 25% of the remaining students enrolled in hip-hop dance are 20% of 20 students. So 20% of 20 students is 20 x 0.20 = 4.00. The remaining students are 20 - 4.00 = 16.00. The percentage of students enrolled in hip-hop dance is 25% of 16.00, which is 0.25 x 16.00 = 4.00. The percentage of students enrolled in jazz dance is 25% of 16.00, which is 0.25 x 16.00 = 3.75. The percentage of students enrolled in hip-hop dance is 25% of 16.00, which is 0.25 x 16.00 = 3.75. The answer is 3.75."
       ]
     ],
     "filtered_resps": [
-      "4."
+      "3.75."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "The merchant wants to maximize profit by making a choice between the two plans. The merchant's goal is to maximize the profit by choosing the plan that will result in the highest profit.\n\nThe merchant's financial advisor's speculations suggest that the jewelry market will go up 2.5% while the electronic gadgets market will rise 1.2% within the same month. To maximize profit, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's goal is to maximize profit by choosing the plan that will result in the highest profit. To do this, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's financial advisor's speculations suggest that the jewelry market will go up 2.5% while the electronic gadgets market will rise 1.2% within the same month. To maximize profit, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's goal is to maximize profit by choosing the plan that will result in the highest profit. To do this, the merchant should choose the plan that will result in the highest profit.\n\nThe merchant's financial advisor's speculations suggest that the jewelry market will go up 2.5% while"
+        "The merchant wants to maximize profit by making a choice between the two plans. The merchant wants to make a profit of $5,000, which is 2.5% of the jewelry market. The merchant wants to make a profit of $8,000, which is 1.2% of the electronic gadgets market.\n\nTo maximize profit, the merchant should choose the plan with the higher profit margin. The merchant wants to maximize his profit by making a choice between the two plans. The merchant can choose the plan with the higher profit margin by choosing the plan with the higher profit margin.\n\nTherefore, the merchant should choose the plan with the higher profit margin."
       ]
     ],
     "filtered_resps": [
-      "2.5"
+      "1.2"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "1:00 PM is 1 hour and 50 minutes. 2000 / 1:00 = 2000 / 1 = 2000 centimeters.\n5:00 PM is 1 hour and 50 minutes. 2000 / 5 = 4000 / 1 = 4000 centimeters.\nThe answer is 4000."
+        "1:00 PM is 1 hour and 50 minutes. 2000 / 1 = 2000. 1 hour and 50 minutes is 2000 / 60 = 36.5. 36.5 - 2000 is 100. 100 - 36.5 is 63.5. The answer is 63.5."
       ]
     ],
     "filtered_resps": [
-      "4000."
+      "63.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4810,11 +4810,11 @@
     ],
     "resps": [
       [
-        "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. 3 pairs of shorts cost $16.50 each, and 3 pairs of pants cost $22.50 each. 3 pairs of pants cost $22.50 each. 3 pairs of shoes cost $42.50 each. So Mishka spent $16.50 + $22.50 + $42.50 = $75. The answer is 75."
+        "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. 3 pairs of shorts cost $16.50 each, and 3 pairs of pants cost $22.50 each. 3 pairs of pants cost $22.50 each. 3 pairs of shoes cost $42.50 each. So Mishka spent $16.50 + $22.50 + $42.50 = $71.50. The answer is 71."
       ]
     ],
     "filtered_resps": [
-      "75."
+      "71."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "Cynthia eats 15 servings of ice cream per carton. 60 days * 15 servings = 90 servings. 15 servings of ice cream per carton = 15 x 90 = 135 servings. 15 servings of ice cream per carton * 60 days = 800 servings. 800 servings of ice cream = 800 x 15 = 12,000 servings. 135 servings of ice cream = 135 x 15 = 1750 servings. 15 servings of ice cream = 15 x 15 = 225 servings. 225 servings of ice cream = 225 x 15 = 31,000 servings. 3100 servings of ice cream = 3100 x 15 = 48,000 servings. 4800 servings of ice cream = 4800 x 15 = 6,400 servings. 6400 servings of ice cream = 6400 x 15 = "
+        "Cynthia eats 15 servings of ice cream per carton. 60 days * 15 servings = 90 servings. 15 servings of ice cream per carton = 15 x 90 = 135 servings. 15 servings of ice cream per carton * $4.00 per carton = $60. 90 servings of ice cream per carton * 135 servings = $11,250. 60 days * $11,250 = $7,300. The answer is 7,300."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "7,300."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,11 +4886,11 @@
     ],
     "resps": [
       [
-        "Henry started with 60 miles. He then stopped at 20 miles. His second stop was 15 miles before the end of the trip. So he traveled 20 + 15 = 35 miles. The answer is 35."
+        "Henry started with 60 miles. He then stopped at 20 miles. His second stop was 15 miles before the end of the trip. So he traveled 20 - 15 = 5 miles before the end of the trip. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "35."
+      "5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5000,7 +5000,7 @@
     ],
     "resps": [
       [
-        "The first friend says 80. The second friend says 20 more than half the first one. The third friend says 25% more than the first one. The fourth friend says 25% more than the first one. The fifth friend says 25% more than the second one. The sixth friend says 25% more than the first one. The seventh friend says 25% more than the second one. The eighth friend says 25% more than the first one. The ninth friend says 25% more than the second one. The tenth friend says 25% more than the first one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the first one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than the second one. The tenth friend says 25% more than"
+        "The first friend says 80. The second friend says 20 more than half the first one, which is 20 + 80 = 100. The third friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The fourth friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The fifth friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The sixth friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The seventh friend says 25% more than the first one, which is 25% of 100, which is 0.25 * 100 = 25%. The eighth friend says"
       ]
     ],
     "filtered_resps": [
@@ -5038,7 +5038,7 @@
     ],
     "resps": [
       [
-        "John takes care of 10 dogs.  Each dog takes 1 hour a day to walk. So he takes 10 x 1 = 10 hours a day. The answer is 10."
+        "John takes care of 10 dogs.  Each dog takes 1 hour a day to walk and take care of their business. So he takes 10 x 1 = 10 hours a day. The answer is 10."
       ]
     ],
     "filtered_resps": [
@@ -5114,7 +5114,7 @@
     ],
     "resps": [
       [
-        "Siobhan has 2 fewer jewels than half of Raymond's jewels. 2 - 1 = 1. So she has 2 - 1 = 1 more jewels than half of Raymond's jewels. 5 - 1 = 4. The answer is 4."
+        "Siobhan has 2 fewer jewels than Aaron. 2 - 1 = 1. So she has 2 - 1 = 1 more jewels than Aaron. 5 - 1 = 4. The answer is 4."
       ]
     ],
     "filtered_resps": [
@@ -5152,11 +5152,11 @@
     ],
     "resps": [
       [
-        "In the first 20 minutes, Mike scored 4 points.  In the second 20 minutes, he scored 25% more points. So in total, Mike scored 4 + 25 = 50 points. The answer is 50."
+        "In the first 20 minutes, Mike scored 4 points.  In the second 20 minutes, he scored 25% more points. So in total, Mike scored 4 + 25 = 29 points. The answer is 29."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "29."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "John runs 60 miles a week.  He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  So he runs 60 - 3 = 57 miles per hour. The answer is 57."
+        "John runs 60 miles per week. 3 days a week, he runs 3 x 60 = 180 miles. 3 hours the first day, he runs 3 x 60 = 180 miles. 3 hours the other two days, he runs 3 x 180 = 540 miles. 540 miles / 60 miles per day = 9.25 miles per hour. The answer is 9.25."
       ]
     ],
     "filtered_resps": [
-      "57."
+      "9.25."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5342,11 +5342,11 @@
     ],
     "resps": [
       [
-        "Brandon's iPhone is four times as old as Ben's iPhone. 4 x 1 = 4. Suzy's iPhone is two times older than Brandon's iPhone. 2 x 2 = 4. The answer is 4."
+        "Brandon's iPhone is four times as old as Ben's iPhone. Brandon's iPhone is 1 year old. Suzy's iPhone is 1 year old. Suzy's iPhone is 1 year old + 1 year old = 2 years old. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "4."
+      "2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "1800 calories is 1800 / 2000 = 1.8 grams.\nSo you can eat 1.8 grams of chips per day if your daily calorie target is 2000."
+        "If you consume 1800 calories, then you have 1800 - 2000 = 800 calories. 300g of chips has 5 servings, so you have 300g / 5 servings = 600 calories. 800 calories is 800 - 600 = 200 calories. 200 calories is 200 - 200 = 0 calories. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "2000."
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop.  At work, she placed 23 post-it notes in 220 cups of coffee.  So she had 80 - 23 = 63. The answer is 63."
+        "Candice put 80 post-it notes in her purse before heading out to her job at the coffee shop.  At work, she placed 23 post-it notes in each of 220 cups of coffee.  So she had 80 - 23 = 63 post-it notes in her purse.  If she had 23 post-it notes remaining overall, she had 63 - 23 = 40. The answer is 40."
       ]
     ],
     "filtered_resps": [
-      "63."
+      "40."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "She used 4 feet of wire. 6 feet of wire is 12 feet. So she obtained 12 - 6 = 6 pieces of wire. The answer is 6."
+        "She used 4 feet of wire to support the tomato plants. 6 inches of wire is 12 inches. So she obtained 12 x 6 = 72 pieces of wire. The answer is 72."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "72."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5684,11 +5684,11 @@
     ],
     "resps": [
       [
-        "Each floor has 8 units. So the total number of units in the building is 15 floors x 8 units per floor = 120 units. The building has 15 floors. So the total number of unoccupied units is 120 units / 15 floors = 8. The answer is 8."
+        "Each floor has 8 units. 15 floors x 8 units per floor = 120 units. 3/4 of the building is occupied. 120 units / 3/4 = 30 units. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "30."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5697,7 +5697,7 @@
     "doc_hash": "cc090ff1f75aa926b2d49e8ecf4a62c97d587aa13d2ce9c26fd97c280166bf7a",
     "prompt_hash": "e82a8b6a64291fadc545cafe330b7a2bca3e72de3ff27ca141833285cc82230c",
     "target_hash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 50,
@@ -5722,11 +5722,11 @@
     ],
     "resps": [
       [
-        "Lloyd has 252 eggs per day. 252 / 2 = 128 eggs per week. 128 eggs per week is 128 x 2 = 256 eggs per week. Lloyd makes 256 - 128 = 104 eggs per week. The answer is 104."
+        "Lloyd has 252 eggs per day. 252 / 2 = 128 eggs per week. 128 eggs per week is 128 x 2 = 256 eggs per week. Lloyd makes 256 / 2 = 124 eggs per week. The answer is 124."
       ]
     ],
     "filtered_resps": [
-      "104."
+      "124."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "Uriah's book bag weighs 1/4 pound each. 1/4 pound each is 1/16 pound each. 30 comic books weighs 1/16 pound each. So he needs to remove 30 x 1/16 = 1/64 pounds of comic books. 1/64 pounds of comic books weighs 1/64 x 1/4 = 1/24. The answer is 1/24."
+        "Uriah's comic books weigh 1/4 pound each. 1/4 pound of comic books is 1/4 x 1/4 = 1/16. If he removes 30 comic books, he will remove 30 / 16 = 1.5 pounds. So he needs to remove 1.5 x 15 = 18.5 pounds. The answer is 18.5."
       ]
     ],
     "filtered_resps": [
-      "24."
+      "18.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,7 +5836,7 @@
     ],
     "resps": [
       [
-        "For each truck tire that is repaired, the mechanic charges $60.  For each car tire that is repaired, the mechanic charges $40.  So for each truck tire repaired, the mechanic charges $60 + $40 = $100.  For each car tire repaired, the mechanic charges $40 - $100 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $0 + $0 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100.  So for each car tire repaired, the mechanic charges $0 + $0 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100.  So for each car tire repaired, the mechanic charges $0 + $0 = $0.  So for each truck tire repaired, the mechanic charges $100 - $0 = $100"
+        "For each truck tire that is repaired, the mechanic charges $60.  For each car tire that is repaired, the mechanic charges $40.  So for each truck tire repaired, the mechanic charges $60 + $40 = $100.  For each car tire repaired, the mechanic charges $40 - $100 = $0.  So for each truck tire repaired, the mechanic charges $100.  For each car tire repaired, the mechanic charges $0.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $0.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $100 + $0 = $100.  So for each truck tire repaired, the mechanic charges $100 + $0 = $100.  So for each car tire repaired, the mechanic charges $100 +"
       ]
     ],
     "filtered_resps": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "The Doubtfire sisters are driving home with 7 kittens. 7 cats have been adopted from the local animal shelter. 7 cats x 3 kittens per cat = 21 kittens. The Doubtfire family now has 21 - 21 = 0. The answer is 0."
+        "The Doubtfire sisters are driving home with 7 kittens. 7 cats have been adopted from the local animal shelter. 7 cats have been adopted from the local animal shelter. 7 + 12 = 19. The answer is 19."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "19."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5912,7 +5912,7 @@
     ],
     "resps": [
       [
-        "Jean has 30 lollipops. 2 lollipops in a bag will be 2 x 30 = 60. So Jean can fill 60 - 2 = 58 bags. The answer is 58."
+        "Jean has 30 lollipops. 2 lollipops in one bag will be 2 x 30 = 60. So Jean can fill 60 - 2 = 58 bags. The answer is 58."
       ]
     ],
     "filtered_resps": [
@@ -5950,11 +5950,11 @@
     ],
     "resps": [
       [
-        "Peter has 42 dollars. 7 x 42 = 288 dollars. The answer is 288."
+        "Peter has 42 dollars. 7 tickets for $7 each will be 7 x 7 = 49 dollars. 42 - 49 is 12. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "288."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "The combined weight of the driver and the empty truck is 3755 pounds. The maximum number of boxes that can be loaded onto the truck is 5000 pounds. The truck's weight limit is 5000 pounds.\n\nThe total weight of the boxes is 3755 + 5000 = 8755 pounds. The truck's weight limit is 5000 pounds.\n\nThe maximum number of boxes that can be loaded onto the truck is 8755 - 5000 = 3755. The answer is 3755."
+        "The bridge can carry no more than 5000 pounds. The truck can carry 3755 pounds. The combined weight of the driver and the empty truck is 3755 + 3755 = 7500 pounds. The maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 7500 - 5000 = 2500 pounds. The answer is 2500."
       ]
     ],
     "filtered_resps": [
-      "3755."
+      "2500."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "Stephen's final bill came to $40.00. 25% of $40.00 is $12.50. 25% of $40.00 is $12.50 * 0.25 = $3.00. 25% of $40.00 is $3.00 * 0.25 = $0.75. 25% of $40.00 is $0.75 * 0.25 = $0.175. 25% of $40.00 is $0.175 * 0.25 = $0.04. 25% of $40.00 is $0.04 * 0.25 = $0.0125. 25% of $40.00 is $0.0125 * 0.25 = $0.00625. 25% of $40.00 is $0.00625 * 0.25 = $0.0006"
+        "Stephen's final bill came to $40.00. 25% of $40.00 is $12.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 25% of $40.00 is $12.00. 25% of $40.00 is $6.00. 2"
       ]
     ],
     "filtered_resps": [
-      "$0.0006"
+      "2"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "There are 100% of the good oranges. So there are 100% - 25 = 75 good oranges. The answer is 75."
+        "There are 25 oranges in total. 1/25 of the oranges are bad. So 1/25 of the oranges are bad. 20% of the oranges are bad. So 20% of the oranges are bad. 20% of the oranges are good. So 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 20% of the oranges are good. 2"
       ]
     ],
     "filtered_resps": [
-      "75."
+      "2"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "Janet bought 500 - 800 = 200 dollars for the material. 200 - 10% of that is 200 - 200 / 10 = 0 dollars. 0 x 10 = 0 dollars. The answer is 0."
+        "Janet bought 500 - 800 = 1000 dollars. 10% of 1000 is 1000 / 10 = 100 dollars. 10% of 1000 is 100 / 10 = 10 dollars. 1000 - 100 = 90 dollars.  The answer is 90."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "90."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "Marcy worked for the company for 40 years. 40 years x 5% per year = 20 years. 20 years x 0.02 = 4.04. 40 years - 20 years = 20 years. The answer is 20."
+        "Marcy works for the same company for 40 years. 20 years is 40 x 4 = 160 years. 5% of 160 is 0.05 x 160 = 8.5. 160 - 8.5 = 135.5. 135.5 / 100 = 1.355. 135.5 x 1.355 = 177.05. 177.05 / 100 = 1.77. 177.05 x 1.77 = 225.05. 225.05 / 100 = 2.25. 225.05 x 2.25 = 450.05. 450.05 / 100 = 4.50. 4.50 x 4.50 = 19.00. 19.00 x 1.90 = 27.90. 2"
       ]
     ],
     "filtered_resps": [
-      "20."
+      "2"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6254,7 +6254,7 @@
     ],
     "resps": [
       [
-        "Since Sophia needs to fill up her tank, she needs to fill it up 12 gallons. So she needs to fill up 12 / 4 = 3 gallons. The tank holds 12 gallons. So she can drive 3 * 12 = 36 miles on a single tank of gas. The answer is 36."
+        "Since Sophia needs to fill up her tank, she needs to put in 12 gallons of gas. So she needs to fill up her tank 12 / 4 = 3 gallons.\n\nSince her car has a 12-gallon tank, she can drive 3 * 12 = 36 miles on a single tank of gas. The answer is 36."
       ]
     ],
     "filtered_resps": [
@@ -6330,11 +6330,11 @@
     ],
     "resps": [
       [
-        "Each school has 5 players each. So the total number of people sent is 5 x 5 = 25. The answer is 25."
+        "Each school has 5 players each. 4 schools sent 5 players each. So each school has 4 x 5 = 20 players. 4 schools sent 20 players each. So each school has 20 - 20 = 0 players. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "25."
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6368,7 +6368,7 @@
     ],
     "resps": [
       [
-        "There were originally 175 diamonds, 35 fewer rubies than diamonds, and 2 more emeralds than rubies. 175 - 35 = 140. 2 more emeralds than rubies is 2 * 2 = 4. The answer is 4."
+        "There were originally 175 diamonds, 35 fewer rubies than diamonds, and 2 more emeralds than rubies. 175 - 35 = 120. 2 more emeralds than rubies is 2 * 2 = 4. The answer is 4."
       ]
     ],
     "filtered_resps": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "Twice as many boys as girls, so there are 2 x 60 = 120 boys. 5 students to every teacher, so there are 120 + 5 = 125 teachers. The answer is 125."
+        "Twice as many boys as girls means 2 * 60 = 120 boys. 5 students to every teacher means 120 / 5 = 24 teachers. The answer is 24."
       ]
     ],
     "filtered_resps": [
-      "125."
+      "24."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6520,7 +6520,7 @@
     ],
     "resps": [
       [
-        "Kelian has 20 instructions. 20 x 2 = 40 instructions. Kelian has 40 - 20 = 20 instructions to prepare the two dishes. The answer is 20."
+        "Kelian has 20 instructions. 20 x 2 = 40 instructions. 40 - 20 = 20 instructions. The answer is 20."
       ]
     ],
     "filtered_resps": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "Shiela bought 5 cell phones for $150 each. 2% of $150 is 0.02 x 150 = $3. 3 units of cell phones will be charged at 2% of $150. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1.5. The total cost of 3 months is $150 x 3 = $450. The answer is 450."
+        "Shiela bought 5 cell phones for $150 each. 2% of $150 is 0.02 x 150 = $3. 3 units of cell phones will be charged at 2% of $150. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1. 3 units of cell phones will be charged at 0.02 x 1 = $0.02. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1. 3 units of cell phones will be charged at 0.02 x 1 = $0.02. 3 units of cell phones will be charged at 0.02 x 3 = $6. 3 units of cell phones will be charged at 0.02 x 6 = $1. 3 units of cell phones will be charged at 0.02 x "
       ]
     ],
     "filtered_resps": [
-      "450."
+      "0.02"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "Artie sells 12 pots of marigolds, 9 pots of petunias, and 17 pots of begonias. He has 12 pots x 3 = 36 pots of marigolds, 9 pots x 1.5 = 13 pots of petunias, and 17 pots x 2.5 = 38 pots of begonias. He has 36 pots x 3 = 108 pots of marigolds, 13 pots x 1.5 = 17 pots of petunias, and 38 pots x 2.5 = 92 pots of begonias. He has 108 pots x 3 = 312 pots of marigolds, 13 pots x 1.5 = 17 pots of petunias, and 92 pots x 2.5 = 264 pots of begonias. He has 312 pots x 3 = 936 pots of marigolds, 17 pots x 1.5 = 22 pots of petunias, and 264 pots x 2.5 = 6"
+        "Artie has 12 pots of marigolds, 9 pots of petunias, and 17 pots of begonias. He sells 12 pots of marigolds for $2.74 per pot, 9 pots of petunias for $1.87 per pot, and 17 pots of begonias for $2.12 per pot. So he sells 12 x 1.87 = $15.44 per pot. The answer is 15.44."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "15.44."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "If Raymond does half as much laundry as Sarah, then he does 400 / 2 = 200 pounds of laundry.\nIf Sarah does 4 times as much laundry as David, then she does 4 x 400 = 1600 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200 - 1600 = 800 pounds.\nThe answer is 800."
+        "If Raymond does half as much laundry as Sarah, then he does 400 / 2 = 200 pounds of laundry.\nIf Sarah does 4 times as much laundry as David, then she does 4 x 400 = 1600 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200 - 1600 = 100 pounds.\nThe answer is 100."
       ]
     ],
     "filtered_resps": [
-      "800."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6761,7 +6761,7 @@
     "doc_hash": "c6a0ad6571b63fdc4d3813ce8c055adbacfa270146ba1a16d970f2588e521795",
     "prompt_hash": "efeebf8986eb8b3e9d3d247b4ddab41c62d4361e701b87f32affa98bbe40b458",
     "target_hash": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 78,
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "John took the dog to the groomer for $100.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 100 = 30%.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 30% = 30%.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is 30% of $100, which is $30.  The discount is"
+        "John took the dog to the groomer for $100.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 100 = 30%.  The groomer offers the dog a 30% discount for being a new customer.  So the discount is 0.30 x 30% = 10%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of 100, which is 0.30 x 100 = 30%.  The discount is 30% of"
       ]
     ],
     "filtered_resps": [
-      "$30."
+      "30"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6900,11 +6900,11 @@
     ],
     "resps": [
       [
-        "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. So he had 10 + 23 = 33 stickers. 28 stickers were used to decorate a greeting card. So he had 33 - 28 = 5 stickers left. The answer is 5."
+        "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. So he had 10 + 23 = 33 stickers. 28 stickers were used to decorate a greeting card. So he had 33 - 28 = 12 stickers left. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "5."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6938,11 +6938,11 @@
     ],
     "resps": [
       [
-        "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times Grace's weight. 4 times Grace's weight is 4 * 125 = 480 pounds. 2 pounds less than 4 times Grace's weight is 480 - 2 = 468 pounds. So their combined weight is 468 + 2 = 470 pounds. The answer is 470."
+        "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times Grace's weight. 4 times Grace's weight is 4 * 125 = 480 pounds. 2 pounds less than 4 times Grace's weight is 480 - 2 = 468 pounds. So their combined weight is 468 + 480 = 948 pounds. The answer is 948."
       ]
     ],
     "filtered_resps": [
-      "470."
+      "948."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "Gene has 1 shirt from each vacation. 1 x 4 = 4. 1 x 2 = 2. 1 x 3 = 3. 1 x 4 = 4. 4 + 2 = 6. The answer is 6."
+        "Gene has 1 shirt from each vacation. 1 x 4 = 4. 1 x 2 = 2. 1 x 3 = 3. 1 x 4 = 4. 4 x 2 = 8. 4 x 3 = 12. 1 x 4 = 4. 4 x 2 = 8. 8 x 3 = 24. 24 x 2 = 52. 52 x 2 = 124. 124 x 4 = 516. 516 x 3 = 1638. 1638 x 4 = 6664. 6664 x 2 = 13332. 13332 x 3 = 40000. 40000 x 2 = 80000. 80000 x 4 = 320000. 320000 x 2 = 640000. 640000 x 3 = "
       ]
     ],
     "filtered_resps": [
-      "6."
+      "3"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "Sylvie's salary is 5 years in the company. 10% of 5 years is 5/100 * 5 = 0.05 * 5 = 2.5. So her annual salary is 5 years in the company * 2.5 = 12.5. The answer is 12.5."
+        "Sylvie's salary is 5 years in the company. 10% of 5 years is 0.1 * 5 = 5. So her salary is 5 + 5 = 10. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12.5."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7166,11 +7166,11 @@
     ],
     "resps": [
       [
-        "Harald sold 88,000 copies.\nMarilyn sold 10 times as many copies as Harald, so she sold 10 x 88,000 = 88,000 copies.\nSo Harald sold 88,000 - 88,000 = 1,000 copies.\nThe answer is 1,000."
+        "Harald sold 10 times as many copies as Marilyn. 10 x 88,000 = 88,000. The answer is 88,000."
       ]
     ],
     "filtered_resps": [
-      "1,000."
+      "88,000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7242,7 +7242,7 @@
     ],
     "resps": [
       [
-        "Ted knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult. So he needs to bring 10 x 0.5 = 5 lbs of potato salad.\nIf there will be 20 adults and 5 children, then he needs to bring 20 x 5 = 100 pounds of potato salad.\nThe answer is 100."
+        "Ted knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult. So he needs to bring 10 x 0.5 = 5 lbs of potato salad.\nIf there will be 20 adults and 5 children, then Ted needs to bring 20 x 5 = 100 pounds of potato salad.\nThe answer is 100."
       ]
     ],
     "filtered_resps": [
@@ -7280,11 +7280,11 @@
     ],
     "resps": [
       [
-        "Jan has 3 x 4 = 12 pets. Marcia has 2 x 3 = 6 pets. Cindy has 4 + 6 = 10 pets. The answer is 10."
+        "Jan has 3 x 4 = 12 pets. Marcia has 2 x 3 = 6 pets. Cindy has 4 + 2 = 6 pets. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "6."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "Twelve - 60 = 10. The combined number of pet dogs and cats is 10 + 60 = 60. The number of pets in the neighborhood is 10 + 60 = 60. The answer is 60."
+        "Twelve - 60 = 10. The number of pets in the neighborhood is 10. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "60."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "Out of the 200 Grade 5 students, 2/5 of the girls are in the girl scout. So 200 / 2 = 100 girls are not in the girl scout. 2/3 of the girls are in the girl scout. So 100 / 2 = 50 girls are not in the girl scout. The answer is 50."
+        "Out of the 200 Grade 5 students, 2/5 of the girls are in the girl scout. So 200 / 2 = 100 girls are not in the girl scout. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "There were originally 30 cars on the motorway. 5 cars from the line take an exit so they don't have to drive through the traffic jam. 30 - 5 = 25 cars drove through the traffic jam. 25 cars from the line take an exit so they don't have to drive through the traffic jam. 25 - 25 = 0 cars drove through the traffic jam. The answer is 0."
+        "There were originally 30 cars on the motorway. 5 cars from the line take an exit so they don't have to drive through the traffic jam. 30 - 5 = 25 cars drove through the traffic jam in the first 15 minutes. 25 cars are 25 - 30 = 5 cars. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7559,7 +7559,7 @@
     "doc_hash": "986b473854db95d4d4d2837f8b7224e1f5795ebb8164dc6311386ce793b45c0b",
     "prompt_hash": "c8a430921cff04740f07f37709f0cc5e5796702b271729aa9060449120e0bd09",
     "target_hash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 99,
@@ -7584,7 +7584,7 @@
     ],
     "resps": [
       [
-        "Mary already has 2 potted plants on each of the 40 window ledges. 18 new potted plants will be given to her friends and family tomorrow. So she will have 2 x 18 = 36 potted plants. The answer is 36."
+        "Mary already has 2 potted plants on each of the 40 window ledges. 18 new potted plants will be given to her friends and family tomorrow. So she will have 2 x 18 = 36 potted plants left. The answer is 36."
       ]
     ],
     "filtered_resps": [

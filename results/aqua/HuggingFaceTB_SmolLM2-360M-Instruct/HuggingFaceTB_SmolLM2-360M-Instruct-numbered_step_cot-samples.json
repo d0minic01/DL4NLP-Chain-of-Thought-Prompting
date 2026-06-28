@@ -30,7 +30,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate Friend P's rate. Friend P's rate is 15% faster than Friend Q's rate. So, Friend P's rate is 15/100 = 0.15. Step 2: Calculate Friend P's distance. Friend P's distance is 0.15 * 43 km = 6.5 km. The answer is (b)."
+        "Step 1: Calculate Friend P's rate. Friend P's rate is 15% faster than Friend Q's rate. So, Friend P's rate is 15/100 = 0.15. Step 2: Calculate Friend P's distance. Friend P's distance is 0.15 * 43 km = 6.45 km. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -76,7 +76,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine slope of line k. Slope = (y2 - y1) / (x2 - x1) = (y - 1) / (5 - x) = 1/5. Step 2: Use point (x, y) to find y. (x, y) = (5, y) => y = 5 - x. Step 3: Substitute y = 5 - x into slope equation. Slope = (5 - x) / 5 = 1/5. Step 4: Solve for x. 1/5 = 1/5 => x = 1. The answer is (a)."
+        "Step 1: Determine slope of line k. Slope = (y2 - y1) / (x2 - x1) = (y - 1) / (5 - x) = 1/5. Step 2: Use point (x, y) to find y. (x, y) = (5, y) => y = 5 - x. Step 3: Use point (x, 1) to find x. (x, 1) = (x, 5 - x) => 2x = 5 => x = 5/2. Step 4: Substitute x and y into slope equation. 1/5 = (5/2 - x) / 5 => 1/5 = (5/2 - x) / 5 => 5/10 = (5/2 - x) => -1/2 = (5/2 - x) => x = 10/2 = 5. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -214,11 +214,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate speed of the man in still water. Speed in downstream = Speed in upstream + Speed of current. Speed in upstream = Speed in downstream - Speed of current. Speed in downstream = 25 kmph + 11 kmph = 36 kmph. Step 2: Calculate time taken to cover 80 meters downstream. Time = Distance / Speed = 80 meters / 36 kmph = 2.17 seconds. The answer is (d)."
+        "Step 1: Calculate speed of current. Speed of current = 11 kmph * 5/18 = 11/6 kmph.\nStep 2: Calculate time to cover 80 meters downstream. Time = Distance / Speed = 80 meters / 11 kmph = 7.22 seconds.\nStep 3: Calculate time to cover 80 meters upstream. Time = Distance / Speed = 80 meters / 25 kmph = 3.2 seconds.\nStep 4: Calculate time to cover 80 meters downstream and upstream. Time = (7.22 + 3.2) / 25 kmph = 10.4 seconds.\nStep 5: Calculate time to cover 80 meters downstream and upstream. Time = (7.22 + 3.2) / 25 kmph = 10.4 seconds.\nStep 6: Add the times to find the total time. Total time = 10.4 seconds + 10.4 seconds = 20.8 seconds.\nStep 7: Calculate the time taken to cover 80 meters downstream and upstream. Time"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -306,11 +306,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the inequality. x^2 + 4x - 11 = 5x - 16. Step 2: Divide by 5. x^2 + 4x - 11 = 5x - 16. Step 3: Add 1 to both sides. x^2 + 4x - 11 + 1 = 5x - 16 + 1. Step 4: Simplify. x^2 + 4x - 10 = 5x - 17. Step 5: Divide by 5. x^2 + 4x - 10 = 5x - 17/5. Step 6: Add 1 to both sides. x^2 + 4x - 10 + 1 = 5x - 17/5 + 1. Step 7: Simplify. x^2 + 4x - 11 = 5x - 17/5 + 1 + 1. Step 8: Simplify. x^2 + 4x - 11 = 5x - 17/5 +"
+        "Step 1: Simplify the inequality. (x^2 + 4x - 11)/5 \u2264 x + 1. Step 2: Multiply both sides by 5 to get rid of denominator. x^2 + 4x - 11 \u2264 5x + 5. Step 3: Subtract 5x from both sides. x^2 + 4x - 16 \u2264 0. Step 4: Factor the left side. (x + 4)(x - 4) \u2264 0. Step 5: Check the solution. x \u2264 4 or x \u2265 4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -398,7 +398,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate total cost for each age group. \n- For persons under 18: $5 * 6 = $30\n- For persons 18-25: $5 * 6 + $20 = $35\n- For persons 26-35: $5 * 6 + $20 + $10 = $45\n- For persons 36-45: $5 * 6 + $20 + $10 + $5 = $55\n- For persons 46-55: $5 * 6 + $20 + $10 + $5 + $10 = $65\n- For persons 56-65: $5 * 6 + $20 + $10 + $5 + $10 + $10 = $75\n- For persons 66-75: $5 * 6 + $20 + $10 + $5 + $10 + $10 + $10 = $85\n- For persons 76-85: $5 * 6 + $20 + $10 +"
+        "Step 1: Calculate total cost for each age group. \n- For persons under 18: $5 * 6 = $30\n- For persons 18-20: $5 * 6 + $20 = $35\n- For persons 21-25: $5 * 6 + $20 + $10 = $35\n- For persons 26-30: $5 * 6 + $20 + $10 + $5 = $35\n- For persons 31-35: $5 * 6 + $20 + $10 + $5 + $10 = $35\n- For persons 36-40: $5 * 6 + $20 + $10 + $5 + $10 + $10 = $35\n- For persons 41-45: $5 * 6 + $20 + $10 + $5 + $10 + $10 + $10 = $35\n- For persons 46-50: $5 * 6 + $20 + $10 +"
       ]
     ],
     "filtered_resps": [
@@ -444,11 +444,11 @@
     ],
     "resps": [
       [
-        "Step 1: Check divisibility by 2. 8XY is divisible by 2 if and only if 8X + 8Y is divisible by 2. Step 2: Calculate 8X + 8Y. 8*1 + 8*1 = 14. Step 3: Check divisibility by 2. 14 is divisible by 2. The answer is (a)."
+        "Step 1: Check divisibility by 2. 8XY is divisible by 2 if and only if 8X and 8Y are both divisible by 2. Step 2: Check divisibility by 3. 8XY is divisible by 3 if and only if 8X and 8Y are both divisible by 3. Step 3: Check divisibility by 4. 8XY is divisible by 4 if and only if 8X and 8Y are both divisible by 4. Step 4: Check divisibility by 5. 8XY is divisible by 5 if and only if 8X and 8Y are both divisible by 5. Step 5: Check divisibility by 6. 8XY is divisible by 6 if and only if 8X and 8Y are both divisible by 6. Step 6: Check divisibility by 7. 8XY is divisible by 7 if and only if 8X and 8Y are both divisible by 7. Step 7: Check divisibility by 8. 8XY is divisible by 8 if and only if 8X and"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -490,7 +490,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate tip. 20% of $50 = 0.20 * 50 = $10. Step 2: Calculate total cost. 50 + 10 = $50. The answer is (c)."
+        "Step 1: Calculate tip. 20% of $50 = 0.20 * 50 = $10. Step 2: Calculate total cost. 50 + 10 = $60. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -582,11 +582,11 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the problem. The number p is a multiple of 2, so it is even. The number p is also a power of 4, so it is a power of 2.\n\nStep 2: Calculate p mod 10. 4^0 = 1, 4^1 = 4, 4^2 = 16, 4^3 = 64, 4^4 = 256, 4^5 = 1024, 4^6 = 4096, 4^7 = 16384, 4^8 = 65536, 4^9 = 262144, 4^10 = 131072, 4^11 = 521428, 4^12 = 1283144, 4^13 = 2566576, 4^14 = 6333152, 4^15 = 12999996, 4^16 = 2"
+        "Step 1: Understand the problem. The number p is a multiple of 2, so it is divisible by 2.\nStep 2: Calculate p. 4^q = 4^(2*2) = 4^4 = 256.\nStep 3: Calculate remainder when p is divided by 10. Since p is a multiple of 2, it is divisible by 2.\nStep 4: Calculate remainder when 256 is divided by 10. Since 256 is a multiple of 10, the remainder is 0.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -628,7 +628,7 @@
     ],
     "resps": [
       [
-        "Step 1: Check units. n is a positive integer. Step 2: Calculate the next positive integer. n + 1 = 2n + 1. Step 3: Compare with the given options. 1 is not a positive integer. The answer is (e)."
+        "Step 1: Check units. Square of q is q^2. Step 2: Calculate next positive integer. 5^2 = 25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -674,7 +674,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the ratio of A, B, and C. \nA: 5600 / (5600 + 5600 + 5600) = 1.\nB: 5600 / (5600 + 5600 + 5600) = 1.\nC: 5600 / (5600 + 5600 + 5600) = 1.\n\nStep 2: Find the ratio of A, B, and C. \nA: 1 / 7 * 1 = 1/7.\nB: 1 / 7 * 1 = 1/7.\nC: 1 / 7 * 1 = 1/7.\n\nStep 3: Find the difference between A and C. \nA: 1/7 - 1/7 = 0.\nC: 1/7 - 1/7 = 0.\n\nStep 4: Find the difference between B and C. \nB: 1/7 - 1/7 = 0."
+        "Step 1: Find the ratio of A, B, and C. \nA: B: C = 1/7:1/7:1/14 = 1/7 + 1/7 + 1/14 = 2/7.\n\nStep 2: Find the difference between A and C. \nA - C = 1/7 + 1/7 + 1/14 - 1/7 - 1/7 - 1/14 = 1/7.\n\nStep 3: Find the difference between A and B. \nA - B = 1/7 + 1/7 + 1/14 - 1/7 - 1/7 - 1/14 - 1/7 = 1/7.\n\nStep 4: Find the difference between B and C. \nB - C = 1/7 + 1/7 + 1/14 - 1/7 - 1/7 - 1/14 - 1/7 = 1/7.\n\nStep 5: Compare the differences. \nA - C > B"
       ]
     ],
     "filtered_resps": [
@@ -766,11 +766,11 @@
     ],
     "resps": [
       [
-        "Step 1: Check conditions. 1 < k/l < 1. Step 2: Calculate keystrokes. 1/1 < 1 < 1. The answer is (a)."
+        "Step 1: Check conditions. 1 < k/l < 1. Step 2: Calculate values. 1/1 = 1, 1/2 = 0.5, 1/3 = 0.3333333333333333, 1/4 = 0.25, 1/5 = 0.2, 1/6 = 0.1666666666666666, 1/7 = 0.14285714285714286, 1/8 = 0.125, 1/9 = 0.1111111111111111, 1/10 = 0.1, 1/11 = 0.09090909090909091, 1/12 = 0.08333333333333333, 1/13 = 0.076923"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -812,7 +812,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the average score for the 5 mock tests. \nAverage score = (10 + 10 + 10 + 10 + 10) / 5 = 50 / 5 = 10.\n\nStep 2: Calculate the score of the last mock test. \nLast mock test score = 760 + 10 = 770.\n\nStep 3: Calculate the difference in the score of the last mock and the GMAT score. \nDifference = Last mock test score - GMAT score = 770 - 760.67 = 39.33.\n\nThe answer is (d)."
+        "Step 1: Calculate the average score for the 5 mock tests. \nAverage score = (10 + 10 + 10 + 10 + 10) / 5 = 50 / 5 = 10.\n\nStep 2: Calculate the score of the last mock test. \nLast mock test score = 760 + 10 = 860.\n\nStep 3: Calculate the difference in the score of the last mock and the GMAT score. \nDifference = Last mock test score - GMAT score = 860 - 760 = 100.\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -1042,11 +1042,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the sum of digits. 2 + 5 + 4 + 7 + 5 = 24. Step 2: Calculate the sum of digits of 24. 2 + 4 = 6. Step 3: Calculate the sum of digits of 6. 6 + 7 = 13. Step 4: Calculate the sum of digits of 13. 1 + 3 = 4. Step 5: Calculate the sum of digits of 4. 4 + 5 = 9. Step 6: Calculate the sum of digits of 9. 9 + 7 = 16. Step 7: Calculate the sum of digits of 16. 1 + 6 = 7. Step 8: Calculate the sum of digits of 7. 7 + 5 = 12. Step 9: Calculate the sum of digits of 12. 1 + 2 = 3. Step 10: Calculate the sum of digits of 3. 3 + 4 = 7. Step 11: Calculate the sum of digits of 7. 7 + 5 = "
+        "Step 1: Calculate the sum of digits. 2 + 5 + 4 + 7 + 5 = 24. Step 2: Calculate the sum of digits of 24. 2 + 4 = 6. Step 3: Calculate the sum of digits of 6. 6 + 7 = 13. Step 4: Calculate the sum of digits of 13. 1 + 3 = 4. Step 5: Calculate the sum of digits of 4. 4 + 5 = 9. Step 6: Calculate the sum of digits of 9. 9 + 7 = 16. Step 7: Calculate the sum of digits of 16. 1 + 6 = 7. Step 8: Calculate the least value of x. 7 is the least value of x. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1088,7 +1088,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the radius of circle Q.  P is inscribed in circle Q, so the radius is equal to the distance from the center of the circle to the center of P. The distance from the center of the circle to the center of P is the diameter of the circle. The diameter is twice the radius, so the diameter is 40. The radius is half the diameter, so the radius is 20. The answer is (a).\n\nStep 2: Find the area of circle Q. The area of a circle is given by the formula A = \u03c0r^2. The radius is 20, so the area is A = \u03c0(20)^2 = 400\u03c0. The answer is (b)."
+        "Step 1: Find the radius of circle Q.  P is inscribed in circle Q, so the radius is equal to the distance from the center of the circle to the center of P. The distance from the center to the center of P is 40/2 = 20. The radius of the circle is 20. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -1134,11 +1134,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total amount paid. 200 + 51200 = 51220. Step 2: Calculate the total amount repaid. 51220 / 2 = 25610. Step 3: Calculate the number of months. 51220 / 200 = 256.25. The answer is (c)."
+        "Step 1: Calculate the total amount paid. 200 + 51200 = 51220. Step 2: Calculate the total amount repaid. 51220 / 2 = 25610. Step 3: Calculate the number of months. 51220 / 2 = 25610 / 2 = 12805. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1226,11 +1226,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the new ratio. 10 fewer classes * 100 students per class = 100 students. The answer is (d)."
+        "Step 1: Calculate the new ratio. 10 fewer classes * 120 students = 120 - 10 = 110 students. The new ratio Q is 110 / 120 = 10/9. Step 2: Compare to the given ratio Q = 3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1239,7 +1239,7 @@
     "doc_hash": "2da1bbe5439573b8265b1d8f5a9a6827b238914aa0b133d787608831e8528d5c",
     "prompt_hash": "e2722a1f348b3f24379c06922e02b5cfdc2bd9aa726f1c0321bbafc3eec53e5a",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 27,
@@ -1318,7 +1318,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate slant height. 35 cm * sqrt(3) = 35 cm * 1.732 = 61.05 cm. Step 2: Calculate curved surface area. 1/3 * pi * r^2 = 1/3 * 3.14159 * (14)^2 = 1540. The answer is (c)."
+        "Step 1: Calculate slant height. 35 cm * sqrt(3) = 17.07 cm. Step 2: Calculate curved surface area. 1/3 * pi * r^2 = 1/3 * 3.14159 * (14)^2 = 1540. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate original time taken. 1 hour = 60 minutes. 1 hour * 60 = 60 minutes.\nStep 2: Calculate time taken by leakage. 1 hour * 2 = 2 hours.\nStep 3: Calculate time taken by pipe to fill the tank. 60 minutes * 2 = 120 minutes.\nStep 4: Calculate time taken by pipe to empty the tank. 120 minutes * 2 = 240 minutes.\nStep 5: Calculate time taken by leakage to empty the tank. 240 minutes * 2 = 480 minutes.\nStep 6: Add the time taken by pipe to fill the tank and the time taken by leakage to empty the tank. 60 minutes + 480 minutes = 540 minutes.\nStep 7: Convert minutes to hours. 540 minutes / 60 minutes/hour = 9 hours.\nStep 8: Convert hours to days. 9 hours / 24 hours/day = 0.425 days.\nStep 9: Convert days to minutes. 0.42"
+        "Step 1: Calculate original time taken. 1 hour = 60 minutes. 1 hour * 60 = 60 minutes.\nStep 2: Calculate time taken by leakage. 1 hour * 2 = 2 hours.\nStep 3: Calculate time taken by pipe to fill the tank. 60 minutes * 2 = 120 minutes.\nStep 4: Calculate time taken by pipe to empty the tank. 120 minutes * 2 = 240 minutes.\nStep 5: Calculate time taken by leakage to empty the tank. 240 minutes * 2 = 480 minutes.\nStep 6: Calculate time taken by pipe to empty the tank. 60 minutes * 2 = 120 minutes. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1778,11 +1778,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of days before graduation. 22 days - 22 = 0 days. Step 2: Determine the day of the week. 0 days - 22 = 22 days - 22 = 0 days. The answer is (a)."
+        "Step 1: Determine the number of days before graduation. 22 days - 22 = 0 days. Step 2: Determine the day of the week. Since it's 0 days before graduation, it's a Friday. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1824,11 +1824,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Multiply both sides by a, b, and c to get a/a + b/b + c/c = 1. Step 2: Add 1/a + 1/b + 1/c to both sides. 1/a + 1/b + 1/c + a/a + b/b + c/c = 1 + 1 = 2. Step 3: Add 1/a + 1/b + 1/c to both sides. 1/a + 1/b + 1/c + a/a + b/b + c/c + 1 = 2 + 1 = 3. Step 4: Add 1/a + 1/b + 1/c to both sides. 1/a + 1/b + 1/c + a/a + b/b + c/c + 1 + 1 = 3 + 1 = 4. Step 5: Add 1/a + 1/b +"
+        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Step 2: Multiply both sides by a, b, and c. 1 + 1 + 1 = 3. Step 3: Subtract 3 from both sides. 2 = 3. Step 4: Divide both sides by 3. 2/3 = a. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "Step 1: Set up equation. Let x be the age of the father. Let y be the age of the son. Let z be the age of the other son. Let a be the age of the father. Let b be the age of the son. Let c be the age of the other son. Let d be the age of the other son. Let e be the age of the father. Let f be the age of the son. Let g be the age of the other son. Let h be the age of the father. Let h = 3x + y. Let h = 2z + a. Let h = 2f + c. Let h = 2e + b. Let h = 2g + d. Let h = 3x + y + z. Let h = 2f + c + a + b + c + d + e + f + g. Let h = 2f + c + a + b + c + d + e + f + g. Let h = 2f + c + a + b + c + d + e + f + g. Let h = 2f + c + a + b + c + d + e + f"
+        "Step 1: Set up equation. Let x be the age of the father. Let y be the age of the son. Let z be the sum of the ages of the two sons. Let a be the age of the father. Let b be the age of the son. Let c be the sum of the ages of the two sons. Let d be the age of the father. Let e be the age of the son. Let f be the sum of the ages of the two sons. Let g be the age of the father. Let h be the age of the son. Let k be the sum of the ages of the two sons. Let l be the age of the father. Let m be the sum of the ages of the two sons. Let n be the sum of the ages of the two sons. Let n be the age of the father. Let n be the sum of the ages of the two sons. Let n be the age of the son. Let n be the sum of the ages of the two sons. Let n be the age of the son. Let n be the sum of the ages of the two sons. Let n be the age of the son. Let n be the sum of the ages of the two sons. Let"
       ]
     ],
     "filtered_resps": [
@@ -2008,7 +2008,7 @@
     ],
     "resps": [
       [
-        "Step 1: Multiply 5358 by 51. Step 2: Calculate the product. 5358 * 51 = 273258. The answer is (a)."
+        "Step 1: Calculate product. 5358 * 51 = 273258. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2054,7 +2054,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the total number of ways to seat the 3 persons. 5 chairs * 3 persons = 15 ways.\n\nStep 2: Determine the number of ways the couple can sit together. 1 couple * 1 chair = 1 way.\n\nStep 3: Calculate the number of ways the couple can sit alone. 4 chairs * 1 chair = 4 ways.\n\nStep 4: Calculate the number of ways the couple can sit in a row. 1 couple * 4 chairs = 4 ways.\n\nStep 5: Calculate the number of ways the single person can sit in a row. 1 chair * 1 chair = 1 way.\n\nStep 6: Calculate the probability. (1 way for the couple to sit together) / (4 ways for the couple to sit alone + 1 way for the single person to sit alone) = 1/5 + 1/4 = 3/5. The answer is (c)."
+        "Step 1: Determine the total number of ways to seat the 3 persons. 5 chairs * 3 persons = 15 ways.\n\nStep 2: Determine the number of ways the couple can sit together. 1 couple * 1 chair = 1 way.\n\nStep 3: Calculate the number of ways the couple can sit alone. 4 chairs * 1 chair = 4 ways.\n\nStep 4: Calculate the number of ways the couple can sit in a row. 1 couple * 4 chairs = 4 ways.\n\nStep 5: Calculate the number of ways the couple can sit in a row and the single person can sit alone. 4 ways * 1 way = 4 ways.\n\nStep 6: Calculate the probability. 4 ways / 15 ways = 4/15 = 2/15 = 2/5. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify equation. |x+3| \u2013 |4-x| = |8+x|. Step 2: Break down equation into two parts. |x+3| = |8+x|. Step 3: Solve equation for x. |x+3| = 8 + x. Step 4: Subtract 3 from both sides. |x+3| = 5. Step 5: Divide both sides by 5. |x+3| = 1.5. Step 6: Take the square root of both sides. x + 3 = \u00b11.5. Step 7: Solve for x. x = -2 or x = 4.5. Step 8: Check solutions. -2 + 3 = 1 and 4.5 + 3 = 7.5. The answer is (a)."
+        "Step 1: Simplify equation. |x+3| \u2013 |4-x| = |8+x|. Step 2: Break down equation into two parts. |x+3| = |8+x|. Step 3: Solve equation for x. |x+3| = 8 + x. Step 4: Subtract 3 from both sides. |x+3| = 8. Step 5: Divide both sides by 3. |x+3| = 2. Step 6: Take the square root of both sides. |x+3| = \u00b12. Step 7: Check solutions. x = -1, x = 2. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2192,7 +2192,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the original output. 100% - 10% = 90%.\nStep 2: Calculate the new output. 90% + 20% = 110%.\nStep 3: Calculate the new output after the holiday rush. 110% - 20% = 90%.\nStep 4: Calculate the new output after the holiday rush and the original output. 90% + 10% = 100%.\nStep 5: Calculate the new output after the holiday rush and the original output and the holiday rush. 100% + 10% + 20% = 130%.\nStep 6: Calculate the new output after the holiday rush and the original output and the holiday rush and the original output. 100% + 10% + 20% + 20% = 150%.\nStep 7: Calculate the new output after the holiday rush and the original output and the holiday rush, the original output, and the holiday rush, and the original output. 100% + 10% + 20"
+        "Step 1: Calculate the original output. 100% - 10% = 90%.\nStep 2: Calculate the new output. 90% + 20% = 110%.\nStep 3: Calculate the new output after the holiday rush. 110% - 20% = 90%.\nStep 4: Calculate the new output after the holiday rush and the original output. 90% + 10% = 100%.\nStep 5: Calculate the new output after the holiday rush and the original output and the holiday rush. 100% + 10% = 110%.\nStep 6: Calculate the new output after the holiday rush and the original output, the holiday rush, and the original output. 110% + 10% + 20% = 130%.\nStep 7: Calculate the new output after the holiday rush, the holiday rush, and the original output, and the original output. 130% + 10% + 10% = 150%.\nStep 8: Calculate the new output after"
       ]
     ],
     "filtered_resps": [
@@ -2330,7 +2330,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate gain. Gain = 20% of $60 = 0.20 * $60 = $12. Step 2: Calculate loss. Loss = 20% of $50 = 0.20 * $50 = $10. Step 3: Calculate new cost. New cost = $50 - $10 = $40. Step 4: Calculate new gain. New gain = 20% of $40 = 0.20 * $40 = $8. Step 5: Calculate new cost. New cost = $50 - $8 = $42. Step 6: Calculate new gain. New gain = 20% of $42 = 0.20 * $42 = $8. Step 7: Calculate new cost. New cost = $50 - $8 = $42. Step 8: Calculate new gain. New gain = 20% of $42 = 0.20 * $42 = $8. Step 9: Calculate new cost. New cost = $50 - $8 = $42. Step 10"
+        "Step 1: Calculate gain. Gain = 20% of 20 = 0.20 * 20 = 4. Step 2: Calculate loss. Loss = 20% of $50 = 0.20 * $50 = $10. Step 3: Calculate new cost. New cost = $50 - $10 = $40. Step 4: Calculate new gain. New gain = 20% of $40 = 0.20 * $40 = $8. Step 5: Calculate new cost. New cost = $40 - $8 = $32. Step 6: Calculate new gain. New gain = 20% of $32 = 0.20 * $32 = $6. Step 7: Calculate new cost. New cost = $32 - $6 = $26. Step 8: Calculate new gain. New gain = 20% of $26 = 0.20 * $26 = $4. Step 9: Calculate new cost. New cost = $26 - $4 = $22. Step 10:"
       ]
     ],
     "filtered_resps": [
@@ -2468,7 +2468,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the time taken to cross the pole. 500 m / 20 sec = 25 sec.\nStep 2: Find the speed of the train. 500 m / 25 sec = 20 m/sec.\nStep 3: Convert to Kmph. 20 m/sec * 3600 sec/hr = 72000 Kmph. The answer is (c)."
+        "Step 1: Find the time taken to cross the pole. 500 m / 20 sec = 25 sec.\nStep 2: Find the speed of the train. 500 m / 25 sec = 20 m/sec. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "Step 1: Set up equation. Let x be the digit in the ten's place and y be the digit in the unit's place. Step 2: Given equation. x + y = 10. Step 3: Solve equation. x + y = 10 => x = 10 - y. Step 4: Substitute x into equation. 4(10 - y) + y = 10. Step 5: Simplify equation. 40 - 4y + y = 10. Step 6: Solve equation. -4y = 6 => y = -1. The answer is (c)."
+        "Step 1: Set up equation. Let x be the digit in the ten's place and y be the digit in the unit's place. The equation is: x + y = 10. Step 2: Substitute y = 4x. The equation becomes: x + 4x = 10. Step 3: Simplify the equation. x + 4x = 10. Step 4: Combine like terms. 5x = 10. Step 5: Solve for x. Divide both sides by 5. x = 2. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2652,7 +2652,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate edge. 7a = 7 * 7 = 49 cm. Step 2: Calculate surface area. Surface area = 6 * (49 * 49) = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24"
+        "Step 1: Calculate edge length. 7a = 7 * 7 = 49 cm. Step 2: Calculate surface area. Surface area = 6 * (edge length)^2 = 6 * 49^2 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 ="
       ]
     ],
     "filtered_resps": [
@@ -2744,11 +2744,11 @@
     ],
     "resps": [
       [
-        "Step 1: Divide the board into 3 equal parts. 7ft. 9 inches / 12 inches/foot = 0.625 feet. Step 2: Calculate length of each part. 0.625 feet * 3 = 1.875 feet. The answer is (c)."
+        "Step 1: Divide the board into 3 equal parts. 7ft. 9 inches / 12 = 0.625 ft. 0.625 ft / 3 = 0.2083 ft. 0.2083 ft / 3 = 0.0694 ft. 0.0694 ft / 3 = 0.0231 ft. 0.0231 ft / 3 = 0.0077 ft. 0.0077 ft / 3 = 0.0025 ft. 0.0025 ft / 3 = 0.00083 ft. 0.00083 ft / 3 = 0.00027 ft. 0.00027 ft / 3 = 0.000083 ft. 0.000083 ft / 3 = 0.000027 ft. 0.000027 ft / 3 = 0.000083 ft."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2790,11 +2790,11 @@
     ],
     "resps": [
       [
-        "Step 1: Break down the expression into parts. 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*3"
+        "Step 1: Break down the expression into factors. 15 = 3*5, 32 = 4*8, 25 = 5*5, 22 = 2*11, 40 = 2*20, 75 = 3*25, 98 = 2*49, 112 = 2*52, 125 = 5*25. Step 2: Calculate the number of factors. 12 * 12 = 144. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2836,7 +2836,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the length of the diagonals. 18 cm / 2 = 9 cm, 22 cm / 2 = 11 cm. Step 2: Calculate area. Area = 1/2 * length of diagonals * length of diagonals. Area = 1/2 * 9 cm * 11 cm = 49 cm^2. The answer is (c)."
+        "Step 1: Calculate the length of the diagonals. 18 cm / 2 = 9 cm, 22 cm / 2 = 11 cm. Step 2: Calculate area. Area = 1/2 * 9 cm * 11 cm = 49 cm^2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2928,7 +2928,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate profit after 4 months. A's profit = 6000 * 4/12 = 2000. B's profit = 12000 * 4/12 = 4800. The profit after 4 months is Rs.2000 + Rs.4800 = Rs.6800. Step 2: Calculate profit after 2 months. A's profit = 6000 * 2/12 = 1000. B's profit = 12000 * 2/12 = 2400. The profit after 2 months is Rs.1000 + Rs.2400 = Rs.3400. Step 3: Calculate profit after 1 month. A's profit = 6000 * 1/12 = 500. B's profit = 12000 * 1/12 = 1000. The profit after 1 month is Rs.500 + Rs.1000 = Rs.1500. Step 4: Calculate profit"
+        "Step 1: Calculate profit for each person. \nA's profit = 6000 * 4/12 = 2000. \nB's profit = 12000 * 4/12 = 4800. \nA's profit = 6000 * 1/12 = 500. \nB's profit = 12000 * 1/12 = 1000. \nA's profit = 2000 + 4800 = 6800. \nB's profit = 500 + 1000 = 1500. \nA's profit = 6800 / 2 = 3400. \nB's profit = 1500 / 2 = 750. \nA's profit = 3400 / 2 = 1700. \nB's profit = 750 / 2 = 375. \nA's profit = 1700 + 375 = 207"
       ]
     ],
     "filtered_resps": [
@@ -3020,11 +3020,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total charge. 1/4 mile * 34 cents = 0.75 cents. 1/5 mile * 6 cents = 0.15 cents. Total charge = 0.75 + 0.15 = 1.95 cents. Step 2: Divide the total charge by the charge per mile. 1.95 cents / 0.06 cents = 3.25. The answer is (c)."
+        "Step 1: Calculate the total charge. 1/4 mile * 34 cents = 0.75 cents. 1/5 mile * 6 cents = 0.15 cents. Total charge = 0.75 + 0.15 = 1.00 cents. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3033,7 +3033,7 @@
     "doc_hash": "88133b3c18a2f5b2ed2720ef81ceb0aec1b5b0fc28371ebdcae1e8b0c3136974",
     "prompt_hash": "00dba01a887b9cde98dc551a88bcdd3a24f6a82e9229ffdb683fa95c4f440f1c",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 66,
@@ -3112,7 +3112,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the work rate of each group. 10 women can complete 10/9 * 10 = 11.11 work in 1 day. 10 children can complete 10/12 * 10 = 9.33 work in 1 day. 6 women can complete 6/9 * 10 = 8 work in 1 day. 7 children can complete 7/12 * 10 = 6.67 work in 1 day.\n\nStep 2: Calculate the work rate of the combined group. 6 women + 7 children = 13. The work rate of the combined group is 13/9 * 10 = 14.33 work in 1 day.\n\nStep 3: Calculate the time required to complete the work. 14.33 work / 14.33 work per day = 1 day. The answer is (d)."
+        "Step 1: Calculate the work done by each group. 10 women can complete 10 * 9 = 90 work in 9 days. 10 children can complete 10 * 12 = 120 work in 12 days. 6 women can complete 6 * 9 = 54 work in 9 days. 7 children can complete 7 * 12 = 84 work in 12 days.\n\nStep 2: Calculate the total work done by all 10 women and 10 children. 54 + 84 = 138.\n\nStep 3: Calculate the work done by 6 women and 7 children. 138 / 6 = 23.5.\n\nStep 4: Divide the total work by the number of women and children. 138 / 6 = 23.5. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -3158,11 +3158,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the ratio. 5 : 6 : 7. Step 2: Find the sum of the longest and shortest numbers. 5 + 6 = 11, 11 + 7 = 18. Step 3: Find the sum of the third number and 54. 54 + 18 = 72. Step 4: Find the third number. 72 / 11 = 6. The answer is (e)."
+        "Step 1: Set up equation. Let the third number be x. Ratio of the longest and shortest numbers is 5:6:7. So, x = 5*7 + 6*6 + 7*5 = 37. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3171,7 +3171,7 @@
     "doc_hash": "aa7830b75b6ed95e835aeddbde022b007c910a235c63b8993c5c90cadf245bd3",
     "prompt_hash": "8ecfeb4a7e5d02a351a54d4f9f5d7cbc46c89447318dd036b01dca38042ae43f",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 69,
@@ -3204,7 +3204,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of handshakes for each person. 9 people * 9 handshakes = 81 handshakes.\nStep 2: Calculate the total handshakes. 81 handshakes * 9 people = 729 handshakes. The answer is (c)."
+        "Step 1: Determine the number of handshakes for each person. 9 people * 9 handshakes = 81 handshakes.\n\nStep 2: Calculate the total number of handshakes. 81 handshakes * 9 people = 729 handshakes. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3250,11 +3250,11 @@
     ],
     "resps": [
       [
-        "Step 1: Write down the given information.\nSum of the squares of three numbers = 351\nSum of their products taken two at a time = 245.\n\nStep 2: Use the formula for the sum of squares of three numbers.\nSum of squares = (number1 * number2 * number3) + (number1 * number2 * number3) + (number1 * number2 * number3)\n\nStep 3: Substitute the given information into the formula.\nSum of squares = (100 * 100 * 100) + (100 * 100 * 100) + (100 * 100 * 100)\n\nStep 4: Calculate the sum of squares.\nSum of squares = 1000000 + 1000000 + 1000000\nSum of squares = 3000000.\n\nStep 5: Find the sum.\nSum of the squares = 3000000.\n\nThe answer is (c)."
+        "Step 1: Write down the given information.\nSum of the squares of three numbers = 351\nSum of their products taken two at a time = 245.\n\nStep 2: Use the formula for the sum of squares of three numbers.\nSum of squares = (number1 * number2 * number3) + (number1 * number2 * number3) + (number1 * number2 * number3)\n\nStep 3: Substitute the given information into the formula.\nSum of squares = (100 * 100 * 100) + (100 * 100 * 100) + (100 * 100 * 100)\n\nStep 4: Calculate the sum of squares.\nSum of squares = 1000000000 + 1000000000 + 1000000000\nSum of squares = 3000000000\n\nStep 5: Divide the sum of squares by 3 to find the sum of the three numbers.\nSum of the"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3388,11 +3388,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate population after 1 hour. 1 hour * 60 seconds/hour = 60 minutes. 60 minutes * 60 seconds/minute = 3600 seconds. 3600 seconds * 120 seconds/person = 43200 seconds. 43200 seconds * 1 person/40 seconds/person = 1080 persons. The answer is (c)."
+        "Step 1: Calculate population after 1 hour. 1 hour * 60 seconds/hour = 60 minutes. 60 minutes * 60 seconds/minute = 3600 seconds. 3600 seconds * 120 seconds/person = 43200 seconds. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3618,11 +3618,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the total number of ways to select 5 persons from 14. 14 choose 5 = 14! / (5! * (14-5)!) = 14! / (5! * 9!) = 1140.\n\nStep 2: Determine the number of ways to select 3 men from 7 men. 7 choose 3 = 7! / (3! * (7-3)!) = 21.\n\nStep 3: Determine the number of ways to select 2 women from 6 women. 6 choose 2 = 6! / (2! * (6-2)!) = 15.\n\nStep 4: Calculate the number of ways to select 0 woman from 6 women. 6 choose 0 = 1.\n\nStep 5: Calculate the number of ways to select 3 men and 2 women. 21 * 15 = 315.\n\nStep 6: Calculate the probability of having 0 woman in committee. 315 / 1140 = 1/36. The answer is"
+        "Step 1: Determine the total number of ways to select 5 persons from 14. 14 choose 5 = 14! / (5! * (14-5)!) = 14! / (5! * 9!) = 1004.\n\nStep 2: Determine the number of ways to select 3 men and 2 women. 3 men * 2 women = 6.\n\nStep 3: Calculate the number of ways to select 3 men and 2 women such that at least 3 men are on the committee. 3 men * 2 women = 6.\n\nStep 4: Calculate the number of ways to select 3 men and 2 women such that at least 3 men are on the committee. 3 men * 2 women = 6.\n\nStep 5: Calculate the probability of having 0 woman in committee. 6 / 1004 = 1/36. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3631,7 +3631,7 @@
     "doc_hash": "93c07a49b965a51709451d68e851d27c1d0055fea3a83893360ceb77601dda8f",
     "prompt_hash": "5870502d281a921045bb80c3f0fe5a3dca2bc7ef9bfb125c1daceb5d20702d0e",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 79,
@@ -3664,11 +3664,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate total number of ways to choose 4 bulbs. 4 * 3 * 2 * 1 = 24. Step 2: Calculate number of ways to choose 3 good bulbs and 1 defective bulb. 9 * 8 * 7 = 504. Step 3: Calculate probability. 24 / 504 = 20/63. The answer is (b)."
+        "Step 1: Calculate total number of ways to choose 4 bulbs. 4 choose 4 = 4. Step 2: Calculate number of ways to choose 3 good bulbs and 1 defective bulb. 9 choose 3 = 84. Step 3: Calculate probability. Probability = (number of ways to choose 3 good bulbs * number of ways to choose 1 defective bulb) / total number of ways to choose 4 bulbs. Probability = 84 * 4 / 4 = 336 / 4 = 84. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3677,7 +3677,7 @@
     "doc_hash": "619296d1fd34c49b40aa03bdc67718a9ed6c3e7aa06de778ca35067638056fd5",
     "prompt_hash": "4b00d214a6be38549862ba195c152d93d63f304c5d7597428bf30f005df4c190",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 80,
@@ -3756,11 +3756,11 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the given condition. |w| = -w means w is a negative number.\nStep 2: Check the given condition. \n-w \u2265 0 (since w is a negative number)\n-w < 0 (since w is a negative number)\n\nThe answer is (b)."
+        "Step 1: Understand the given condition. |w| = w, which means w is a constant.\nStep 2: Check the given condition. \n(a) x \u2265 0: Since w is a constant, x is also a constant.\n(b) w \u2264 0: Since w is a constant, w is also a constant.\n(c) x2 > x: Since w is a constant, x2 is also a constant.\n(d) x3 < 0: Since w is a constant, x3 is also a constant.\n(e) 2x < x: Since w is a constant, 2x is also a constant.\n\nThe answer is (a) x \u2265 0."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3769,7 +3769,7 @@
     "doc_hash": "f7441ff2c5327305ee985c4cae404b9c5e5a92575ad9bae930fddce7b9f75280",
     "prompt_hash": "2e294b07fdc490bef5246fd360853ce5b5f00174b81132ff6c3d8ceb08f5b203",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 82,
@@ -3894,7 +3894,7 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the relationship between volume and surface area.\nStep 2: Calculate the volume of the cube. \nStep 3: Calculate the surface area of the cube.\nStep 4: Compare the two values.\nStep 5: Determine the edge length.\n\nStep 1: Calculate the volume of the cube. \nVolume = edge^3 \nVolume = 1^3 = 1\n\nStep 2: Calculate the surface area of the cube. \nSurface area = 6 * edge^2 \nSurface area = 6 * 1^2 = 6\n\nStep 3: Compare the two values. \nVolume = 1, Surface area = 6.\n\nStep 4: Determine the edge length. \nEdge length = (Volume / Surface area) \nEdge length = (1 / 6) = 1/6\n\nStep 5: Since the volume and surface area are equal, the edge length is 1/6. The answer is (c)."
+        "Step 1: Understand the relationship between volume and surface area.\nStep 2: Calculate the volume of the cube. \nStep 3: Calculate the surface area of the cube.\nStep 4: Compare the two values.\nStep 5: Determine the edge length.\n\nStep 1: Calculate the volume of the cube. \nVolume = edge^3 \nVolume = 1^3 = 1\n\nStep 2: Calculate the surface area of the cube. \nSurface area = 6 * edge^2 \nSurface area = 6 * 1^2 = 6\n\nStep 3: Compare the two values. \nVolume = 1, Surface area = 6\n\nStep 4: Determine the edge length. \nEdge length = sqrt(Volume / Surface area) \nEdge length = sqrt(1 / 6) \nEdge length = 1/3\n\nStep 5: Compare the edge length to the answer choices.\nEdge length = 1/3, 4, 6, 8, 9\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3940,11 +3940,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of mice needed to test the poisned can. 30 cans * 24 hours = 720 hours. 720 hours / 24 hours = 30 mice. The answer is (b)."
+        "Step 1: Determine the number of mice needed to test the poisned can. 30 cans * 24 hours = 720 hours. 720 hours / 24 hours = 30 mice. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3986,7 +3986,7 @@
     ],
     "resps": [
       [
-        "Step 1: Convert kmph to meters per second. 72 kmph * 1000 m/km = 7200 m/s. Step 2: Calculate time. 165 m * 7200 m/s = 1152000 m/s. Step 3: Calculate distance. 660 m * 7200 m/s = 4688000 m/s. Step 4: Calculate time. 4688000 m/s / 1152000 m/s = 4.125 seconds. The answer is (d)."
+        "Step 1: Convert kmph to meters per second. 72 kmph * 1000 m/km = 7200 m/s. Step 2: Calculate time. 165 m * 7200 m/s = 115200 s. Step 3: Calculate distance. 660 m * 7200 m/s = 451200 s. Step 4: Calculate time. 115200 s / 451200 s = 0.25. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4170,11 +4170,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find the time taken by train A to reach its destination. 9 hours = 9000 / 60 kmph. Step 2: Find the time taken by train B to reach its destination. 4 hours = 4000 / 60 kmph. Step 3: Find the ratio of the time taken by train A to train B. 9000 / 4000 = 2.5. Step 4: Find the ratio of the distance covered by train A to train B. 9000 / 4000 = 2.5. Step 5: Find the ratio of the speed of train A to train B. 60 kmph / 2.5 kmph = 24. The answer is (c)."
+        "Step 1: Find the time taken by train A to reach its destination. 9 hours = 9000 / 60 kmph. Step 2: Find the time taken by train B to reach its destination. 4 hours = 4000 / 60 kmph. Step 3: Find the ratio of time taken by train A to train B. 9000 / 4000 = 2.5. Step 4: Find the ratio of their speeds. 60 kmph / 40 kmph = 1.5. Step 5: Find the rate at which train B runs. 1.5 * 100 = 150. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4216,7 +4216,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the probability of each boy choosing his own toy.\n- Boy 1: 1/3\n- Boy 2: 1/3\n- Boy 3: 1/3\n\nStep 2: Calculate the probability that no boy will choose his own toy.\n- Probability of Boy 1 choosing his own toy: 1/3\n- Probability of Boy 2 choosing his own toy: 1/3\n- Probability of Boy 3 choosing his own toy: 1/3\n\nStep 3: Calculate the probability that at least one boy will choose his own toy.\n- Probability of Boy 1 choosing his own toy: 1/3\n- Probability of Boy 2 choosing his own toy: 1/3\n- Probability of Boy 3 choosing his own toy: 1/3\n- Probability that at least one boy will choose his own toy: 1 - (1/3 + 1/3 + 1/3) = 1/3\n\nThe answer is (d)."
+        "Step 1: Calculate the probability of each boy choosing his own toy. \nProbability of boy 1 choosing his own toy = 1/3\nProbability of boy 2 choosing his own toy = 1/3\nProbability of boy 3 choosing his own toy = 1/3\n\nStep 2: Calculate the probability that no boy will choose his own toy. \nProbability of no boy choosing his own toy = 1 - (probability of boy 1 choosing his own toy) * (probability of boy 2 choosing his own toy) * (probability of boy 3 choosing his own toy)\nProbability of no boy choosing his own toy = 1 - (1/3) * (1/3) * (1/3) = 1/3\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4262,7 +4262,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of days it takes to complete the job. 1 man + 1 woman + 1 boy = 4 people. 4 people / day.\n\nStep 2: Determine the number of days it takes to complete the job with 1 man and 1 woman. 1 man + 1 woman = 2 people. 2 people / day.\n\nStep 3: Determine the number of days it takes to complete the job with 1 man and 1 boy. 1 man + 1 boy = 2 people. 2 people / day.\n\nStep 4: Determine the number of days it takes to complete the job with 1 man, 1 woman, and 1 boy. 1 man + 1 woman + 1 boy = 4 people. 4 people / day.\n\nStep 5: Determine the number of days it takes to complete the job with 1 man, 1 woman, and 1 boy and 1 boy. 1 man + 1 woman + 1 boy = 4 people. 4 people / day.\n\nStep 6: Determine the number of days it takes to complete the job with 1"
+        "Step 1: Determine the number of days it takes to complete the job. 1 man + 1 woman + 1 boy = 4 people. 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days ="
       ]
     ],
     "filtered_resps": [
@@ -4308,11 +4308,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate age after 6 years. Amit's age after 6 years = 5 * 6 + 4 = 26 years.\nStep 2: Calculate age of Dhiraj at present. Dhiraj's age at present = 4 * 6 + 4 = 19 years.\nStep 3: Compare ages. 26 - 19 = 7. The answer is (d)."
+        "Step 1: Calculate age after 6 years. Amit's age after 6 years = 5 * 6 + 4 = 26. Dhiraj's age after 6 years = 4 * 6 + 4 = 26. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4400,11 +4400,11 @@
     ],
     "resps": [
       [
-        "Step 1: Analyze each choice.\nI. Both x and y are positive: This is true.\nII. If x is negative, y must be negative: This is true.\nIII. If x is positive, y must be positive: This is true.\n\nStep 2: Compare choices.\nI only: This is true.\nII only: This is true.\nIII only: This is true.\n\nThe answer is (b)."
+        "Step 1: Analyze each choice.\nI. Both x and y are positive: This is true.\nII. If x is negative, y must be negative: This is true.\nIII. If x is positive, y must be positive: This is true.\n\nStep 2: Compare choices.\nI only: This is true.\nII only: This is true.\nIII only: This is true.\n\nStep 3: Choose the correct answer.\nThe answer is (a). I only."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4413,7 +4413,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "ff57ad2674c97e5fa160f62d1a9a629b97adc80d4ddf44ab5f264ec742282d22",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -4630,7 +4630,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate Friend P's rate. Friend P's rate is 15% faster than Friend Q's rate. So, Friend P's rate is 15/100 = 0.15. Step 2: Calculate Friend P's distance. Friend P's distance is 0.15 * 43 km = 6.5 km. The answer is (b)."
+        "Step 1: Calculate Friend P's rate. Friend P's rate is 15% faster than Friend Q's rate. So, Friend P's rate is 15/100 = 0.15. Step 2: Calculate Friend P's distance. Friend P's distance is 0.15 * 43 km = 6.45 km. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -4676,7 +4676,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine slope of line k. Slope = (y2 - y1) / (x2 - x1) = (y - 1) / (5 - x) = 1/5. Step 2: Use point (x, y) to find y. (x, y) = (5, y) => y = 5 - x. Step 3: Substitute y = 5 - x into slope equation. Slope = (5 - x) / 5 = 1/5. Step 4: Solve for x. 1/5 = 1/5 => x = 1. The answer is (a)."
+        "Step 1: Determine slope of line k. Slope = (y2 - y1) / (x2 - x1) = (y - 1) / (5 - x) = 1/5. Step 2: Use point (x, y) to find y. (x, y) = (5, y) => y = 5 - x. Step 3: Use point (x, 1) to find x. (x, 1) = (x, 5 - x) => 2x = 5 => x = 5/2. Step 4: Substitute x and y into slope equation. 1/5 = (5/2 - x) / 5 => 1/5 = (5/2 - x) / 5 => 5/10 = (5/2 - x) => -1/2 = (5/2 - x) => x = 10/2 = 5. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -4814,11 +4814,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate speed of the man in still water. Speed in downstream = Speed in upstream + Speed of current. Speed in upstream = Speed in downstream - Speed of current. Speed in downstream = 25 kmph + 11 kmph = 36 kmph. Step 2: Calculate time taken to cover 80 meters downstream. Time = Distance / Speed = 80 meters / 36 kmph = 2.17 seconds. The answer is (d)."
+        "Step 1: Calculate speed of current. Speed of current = 11 kmph * 5/18 = 11/6 kmph.\nStep 2: Calculate time to cover 80 meters downstream. Time = Distance / Speed = 80 meters / 11 kmph = 7.22 seconds.\nStep 3: Calculate time to cover 80 meters upstream. Time = Distance / Speed = 80 meters / 25 kmph = 3.2 seconds.\nStep 4: Calculate time to cover 80 meters downstream and upstream. Time = (7.22 + 3.2) / 25 kmph = 10.4 seconds.\nStep 5: Calculate time to cover 80 meters downstream and upstream. Time = (7.22 + 3.2) / 25 kmph = 10.4 seconds.\nStep 6: Add the times to find the total time. Total time = 10.4 seconds + 10.4 seconds = 20.8 seconds.\nStep 7: Calculate the time taken to cover 80 meters downstream and upstream. Time"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4906,11 +4906,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the inequality. x^2 + 4x - 11 = 5x - 16. Step 2: Divide by 5. x^2 + 4x - 11 = 5x - 16. Step 3: Add 1 to both sides. x^2 + 4x - 11 + 1 = 5x - 16 + 1. Step 4: Simplify. x^2 + 4x - 10 = 5x - 17. Step 5: Divide by 5. x^2 + 4x - 10 = 5x - 17/5. Step 6: Add 1 to both sides. x^2 + 4x - 10 + 1 = 5x - 17/5 + 1. Step 7: Simplify. x^2 + 4x - 11 = 5x - 17/5 + 1 + 1. Step 8: Simplify. x^2 + 4x - 11 = 5x - 17/5 +"
+        "Step 1: Simplify the inequality. (x^2 + 4x - 11)/5 \u2264 x + 1. Step 2: Multiply both sides by 5 to get rid of denominator. x^2 + 4x - 11 \u2264 5x + 5. Step 3: Subtract 5x from both sides. x^2 + 4x - 16 \u2264 0. Step 4: Factor the left side. (x + 4)(x - 4) \u2264 0. Step 5: Check the solution. x \u2264 4 or x \u2265 4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4998,7 +4998,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate total cost for each age group. \n- For persons under 18: $5 * 6 = $30\n- For persons 18-25: $5 * 6 + $20 = $35\n- For persons 26-35: $5 * 6 + $20 + $10 = $45\n- For persons 36-45: $5 * 6 + $20 + $10 + $5 = $55\n- For persons 46-55: $5 * 6 + $20 + $10 + $5 + $10 = $65\n- For persons 56-65: $5 * 6 + $20 + $10 + $5 + $10 + $10 = $75\n- For persons 66-75: $5 * 6 + $20 + $10 + $5 + $10 + $10 + $10 = $85\n- For persons 76-85: $5 * 6 + $20 + $10 +"
+        "Step 1: Calculate total cost for each age group. \n- For persons under 18: $5 * 6 = $30\n- For persons 18-20: $5 * 6 + $20 = $35\n- For persons 21-25: $5 * 6 + $20 + $10 = $35\n- For persons 26-30: $5 * 6 + $20 + $10 + $5 = $35\n- For persons 31-35: $5 * 6 + $20 + $10 + $5 + $10 = $35\n- For persons 36-40: $5 * 6 + $20 + $10 + $5 + $10 + $10 = $35\n- For persons 41-45: $5 * 6 + $20 + $10 + $5 + $10 + $10 + $10 = $35\n- For persons 46-50: $5 * 6 + $20 + $10 +"
       ]
     ],
     "filtered_resps": [
@@ -5044,11 +5044,11 @@
     ],
     "resps": [
       [
-        "Step 1: Check divisibility by 2. 8XY is divisible by 2 if and only if 8X + 8Y is divisible by 2. Step 2: Calculate 8X + 8Y. 8*1 + 8*1 = 14. Step 3: Check divisibility by 2. 14 is divisible by 2. The answer is (a)."
+        "Step 1: Check divisibility by 2. 8XY is divisible by 2 if and only if 8X and 8Y are both divisible by 2. Step 2: Check divisibility by 3. 8XY is divisible by 3 if and only if 8X and 8Y are both divisible by 3. Step 3: Check divisibility by 4. 8XY is divisible by 4 if and only if 8X and 8Y are both divisible by 4. Step 4: Check divisibility by 5. 8XY is divisible by 5 if and only if 8X and 8Y are both divisible by 5. Step 5: Check divisibility by 6. 8XY is divisible by 6 if and only if 8X and 8Y are both divisible by 6. Step 6: Check divisibility by 7. 8XY is divisible by 7 if and only if 8X and 8Y are both divisible by 7. Step 7: Check divisibility by 8. 8XY is divisible by 8 if and only if 8X and"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5090,7 +5090,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate tip. 20% of $50 = 0.20 * 50 = $10. Step 2: Calculate total cost. 50 + 10 = $50. The answer is (c)."
+        "Step 1: Calculate tip. 20% of $50 = 0.20 * 50 = $10. Step 2: Calculate total cost. 50 + 10 = $60. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5182,11 +5182,11 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the problem. The number p is a multiple of 2, so it is even. The number p is also a power of 4, so it is a power of 2.\n\nStep 2: Calculate p mod 10. 4^0 = 1, 4^1 = 4, 4^2 = 16, 4^3 = 64, 4^4 = 256, 4^5 = 1024, 4^6 = 4096, 4^7 = 16384, 4^8 = 65536, 4^9 = 262144, 4^10 = 131072, 4^11 = 521428, 4^12 = 1283144, 4^13 = 2566576, 4^14 = 6333152, 4^15 = 12999996, 4^16 = 2"
+        "Step 1: Understand the problem. The number p is a multiple of 2, so it is divisible by 2.\nStep 2: Calculate p. 4^q = 4^(2*2) = 4^4 = 256.\nStep 3: Calculate remainder when p is divided by 10. Since p is a multiple of 2, it is divisible by 2.\nStep 4: Calculate remainder when 256 is divided by 10. Since 256 is a multiple of 10, the remainder is 0.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5228,7 +5228,7 @@
     ],
     "resps": [
       [
-        "Step 1: Check units. n is a positive integer. Step 2: Calculate the next positive integer. n + 1 = 2n + 1. Step 3: Compare with the given options. 1 is not a positive integer. The answer is (e)."
+        "Step 1: Check units. Square of q is q^2. Step 2: Calculate next positive integer. 5^2 = 25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5274,7 +5274,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the ratio of A, B, and C. \nA: 5600 / (5600 + 5600 + 5600) = 1.\nB: 5600 / (5600 + 5600 + 5600) = 1.\nC: 5600 / (5600 + 5600 + 5600) = 1.\n\nStep 2: Find the ratio of A, B, and C. \nA: 1 / 7 * 1 = 1/7.\nB: 1 / 7 * 1 = 1/7.\nC: 1 / 7 * 1 = 1/7.\n\nStep 3: Find the difference between A and C. \nA: 1/7 - 1/7 = 0.\nC: 1/7 - 1/7 = 0.\n\nStep 4: Find the difference between B and C. \nB: 1/7 - 1/7 = 0."
+        "Step 1: Find the ratio of A, B, and C. \nA: B: C = 1/7:1/7:1/14 = 1/7 + 1/7 + 1/14 = 2/7.\n\nStep 2: Find the difference between A and C. \nA - C = 1/7 + 1/7 + 1/14 - 1/7 - 1/7 - 1/14 = 1/7.\n\nStep 3: Find the difference between A and B. \nA - B = 1/7 + 1/7 + 1/14 - 1/7 - 1/7 - 1/14 - 1/7 = 1/7.\n\nStep 4: Find the difference between B and C. \nB - C = 1/7 + 1/7 + 1/14 - 1/7 - 1/7 - 1/14 - 1/7 = 1/7.\n\nStep 5: Compare the differences. \nA - C > B"
       ]
     ],
     "filtered_resps": [
@@ -5366,11 +5366,11 @@
     ],
     "resps": [
       [
-        "Step 1: Check conditions. 1 < k/l < 1. Step 2: Calculate keystrokes. 1/1 < 1 < 1. The answer is (a)."
+        "Step 1: Check conditions. 1 < k/l < 1. Step 2: Calculate values. 1/1 = 1, 1/2 = 0.5, 1/3 = 0.3333333333333333, 1/4 = 0.25, 1/5 = 0.2, 1/6 = 0.1666666666666666, 1/7 = 0.14285714285714286, 1/8 = 0.125, 1/9 = 0.1111111111111111, 1/10 = 0.1, 1/11 = 0.09090909090909091, 1/12 = 0.08333333333333333, 1/13 = 0.076923"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5412,7 +5412,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the average score for the 5 mock tests. \nAverage score = (10 + 10 + 10 + 10 + 10) / 5 = 50 / 5 = 10.\n\nStep 2: Calculate the score of the last mock test. \nLast mock test score = 760 + 10 = 770.\n\nStep 3: Calculate the difference in the score of the last mock and the GMAT score. \nDifference = Last mock test score - GMAT score = 770 - 760.67 = 39.33.\n\nThe answer is (d)."
+        "Step 1: Calculate the average score for the 5 mock tests. \nAverage score = (10 + 10 + 10 + 10 + 10) / 5 = 50 / 5 = 10.\n\nStep 2: Calculate the score of the last mock test. \nLast mock test score = 760 + 10 = 860.\n\nStep 3: Calculate the difference in the score of the last mock and the GMAT score. \nDifference = Last mock test score - GMAT score = 860 - 760 = 100.\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -5642,11 +5642,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the sum of digits. 2 + 5 + 4 + 7 + 5 = 24. Step 2: Calculate the sum of digits of 24. 2 + 4 = 6. Step 3: Calculate the sum of digits of 6. 6 + 7 = 13. Step 4: Calculate the sum of digits of 13. 1 + 3 = 4. Step 5: Calculate the sum of digits of 4. 4 + 5 = 9. Step 6: Calculate the sum of digits of 9. 9 + 7 = 16. Step 7: Calculate the sum of digits of 16. 1 + 6 = 7. Step 8: Calculate the sum of digits of 7. 7 + 5 = 12. Step 9: Calculate the sum of digits of 12. 1 + 2 = 3. Step 10: Calculate the sum of digits of 3. 3 + 4 = 7. Step 11: Calculate the sum of digits of 7. 7 + 5 = "
+        "Step 1: Calculate the sum of digits. 2 + 5 + 4 + 7 + 5 = 24. Step 2: Calculate the sum of digits of 24. 2 + 4 = 6. Step 3: Calculate the sum of digits of 6. 6 + 7 = 13. Step 4: Calculate the sum of digits of 13. 1 + 3 = 4. Step 5: Calculate the sum of digits of 4. 4 + 5 = 9. Step 6: Calculate the sum of digits of 9. 9 + 7 = 16. Step 7: Calculate the sum of digits of 16. 1 + 6 = 7. Step 8: Calculate the least value of x. 7 is the least value of x. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,11 +5688,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find the radius of circle Q.  P is inscribed in circle Q, so the radius is equal to the distance from the center of the circle to the center of P. The distance from the center of the circle to the center of P is the diameter of the circle. The diameter is twice the radius, so the diameter is 40. The radius is half the diameter, so the radius is 20. The answer is (a).\n\nStep 2: Find the area of circle Q. The area of a circle is given by the formula A = \u03c0r^2. The radius is 20, so the area is A = \u03c0(20)^2 = 400\u03c0. The answer is (b)."
+        "Step 1: Find the radius of circle Q.  P is inscribed in circle Q, so the radius is equal to the distance from the center of the circle to the center of P. The distance from the center to the center of P is 40/2 = 20. The radius of the circle is 20. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5701,7 +5701,7 @@
     "doc_hash": "dcac6def14c5ed4d5c283619424346cf9b55e29fb969f5570c53aa6d98bb6854",
     "prompt_hash": "d0203807e32f21b2add9e307c96a26d4a76adc4186975225e8584cce48c01d35",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 24,
@@ -5734,11 +5734,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total amount paid. 200 + 51200 = 51220. Step 2: Calculate the total amount repaid. 51220 / 2 = 25610. Step 3: Calculate the number of months. 51220 / 200 = 256.25. The answer is (c)."
+        "Step 1: Calculate the total amount paid. 200 + 51200 = 51220. Step 2: Calculate the total amount repaid. 51220 / 2 = 25610. Step 3: Calculate the number of months. 51220 / 2 = 25610 / 2 = 12805. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5826,11 +5826,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the new ratio. 10 fewer classes * 100 students per class = 100 students. The answer is (d)."
+        "Step 1: Calculate the new ratio. 10 fewer classes * 120 students = 120 - 10 = 110 students. The new ratio Q is 110 / 120 = 10/9. Step 2: Compare to the given ratio Q = 3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5839,7 +5839,7 @@
     "doc_hash": "2da1bbe5439573b8265b1d8f5a9a6827b238914aa0b133d787608831e8528d5c",
     "prompt_hash": "e2722a1f348b3f24379c06922e02b5cfdc2bd9aa726f1c0321bbafc3eec53e5a",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 27,
@@ -5918,7 +5918,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate slant height. 35 cm * sqrt(3) = 35 cm * 1.732 = 61.05 cm. Step 2: Calculate curved surface area. 1/3 * pi * r^2 = 1/3 * 3.14159 * (14)^2 = 1540. The answer is (c)."
+        "Step 1: Calculate slant height. 35 cm * sqrt(3) = 17.07 cm. Step 2: Calculate curved surface area. 1/3 * pi * r^2 = 1/3 * 3.14159 * (14)^2 = 1540. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6332,11 +6332,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate original time taken. 1 hour = 60 minutes. 1 hour * 60 = 60 minutes.\nStep 2: Calculate time taken by leakage. 1 hour * 2 = 2 hours.\nStep 3: Calculate time taken by pipe to fill the tank. 60 minutes * 2 = 120 minutes.\nStep 4: Calculate time taken by pipe to empty the tank. 120 minutes * 2 = 240 minutes.\nStep 5: Calculate time taken by leakage to empty the tank. 240 minutes * 2 = 480 minutes.\nStep 6: Add the time taken by pipe to fill the tank and the time taken by leakage to empty the tank. 60 minutes + 480 minutes = 540 minutes.\nStep 7: Convert minutes to hours. 540 minutes / 60 minutes/hour = 9 hours.\nStep 8: Convert hours to days. 9 hours / 24 hours/day = 0.425 days.\nStep 9: Convert days to minutes. 0.42"
+        "Step 1: Calculate original time taken. 1 hour = 60 minutes. 1 hour * 60 = 60 minutes.\nStep 2: Calculate time taken by leakage. 1 hour * 2 = 2 hours.\nStep 3: Calculate time taken by pipe to fill the tank. 60 minutes * 2 = 120 minutes.\nStep 4: Calculate time taken by pipe to empty the tank. 120 minutes * 2 = 240 minutes.\nStep 5: Calculate time taken by leakage to empty the tank. 240 minutes * 2 = 480 minutes.\nStep 6: Calculate time taken by pipe to empty the tank. 60 minutes * 2 = 120 minutes. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6378,11 +6378,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of days before graduation. 22 days - 22 = 0 days. Step 2: Determine the day of the week. 0 days - 22 = 22 days - 22 = 0 days. The answer is (a)."
+        "Step 1: Determine the number of days before graduation. 22 days - 22 = 0 days. Step 2: Determine the day of the week. Since it's 0 days before graduation, it's a Friday. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Multiply both sides by a, b, and c to get a/a + b/b + c/c = 1. Step 2: Add 1/a + 1/b + 1/c to both sides. 1/a + 1/b + 1/c + a/a + b/b + c/c = 1 + 1 = 2. Step 3: Add 1/a + 1/b + 1/c to both sides. 1/a + 1/b + 1/c + a/a + b/b + c/c + 1 = 2 + 1 = 3. Step 4: Add 1/a + 1/b + 1/c to both sides. 1/a + 1/b + 1/c + a/a + b/b + c/c + 1 + 1 = 3 + 1 = 4. Step 5: Add 1/a + 1/b +"
+        "Step 1: Simplify the equation. 1/a + 1/b + 1/c = 1. Step 2: Multiply both sides by a, b, and c. 1 + 1 + 1 = 3. Step 3: Subtract 3 from both sides. 2 = 3. Step 4: Divide both sides by 3. 2/3 = a. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "Step 1: Set up equation. Let x be the age of the father. Let y be the age of the son. Let z be the age of the other son. Let a be the age of the father. Let b be the age of the son. Let c be the age of the other son. Let d be the age of the other son. Let e be the age of the father. Let f be the age of the son. Let g be the age of the other son. Let h be the age of the father. Let h = 3x + y. Let h = 2z + a. Let h = 2f + c. Let h = 2e + b. Let h = 2g + d. Let h = 3x + y + z. Let h = 2f + c + a + b + c + d + e + f + g. Let h = 2f + c + a + b + c + d + e + f + g. Let h = 2f + c + a + b + c + d + e + f + g. Let h = 2f + c + a + b + c + d + e + f"
+        "Step 1: Set up equation. Let x be the age of the father. Let y be the age of the son. Let z be the sum of the ages of the two sons. Let a be the age of the father. Let b be the age of the son. Let c be the sum of the ages of the two sons. Let d be the age of the father. Let e be the age of the son. Let f be the sum of the ages of the two sons. Let g be the age of the father. Let h be the age of the son. Let k be the sum of the ages of the two sons. Let l be the age of the father. Let m be the sum of the ages of the two sons. Let n be the sum of the ages of the two sons. Let n be the age of the father. Let n be the sum of the ages of the two sons. Let n be the age of the son. Let n be the sum of the ages of the two sons. Let n be the age of the son. Let n be the sum of the ages of the two sons. Let n be the age of the son. Let n be the sum of the ages of the two sons. Let"
       ]
     ],
     "filtered_resps": [
@@ -6608,7 +6608,7 @@
     ],
     "resps": [
       [
-        "Step 1: Multiply 5358 by 51. Step 2: Calculate the product. 5358 * 51 = 273258. The answer is (a)."
+        "Step 1: Calculate product. 5358 * 51 = 273258. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6654,7 +6654,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the total number of ways to seat the 3 persons. 5 chairs * 3 persons = 15 ways.\n\nStep 2: Determine the number of ways the couple can sit together. 1 couple * 1 chair = 1 way.\n\nStep 3: Calculate the number of ways the couple can sit alone. 4 chairs * 1 chair = 4 ways.\n\nStep 4: Calculate the number of ways the couple can sit in a row. 1 couple * 4 chairs = 4 ways.\n\nStep 5: Calculate the number of ways the single person can sit in a row. 1 chair * 1 chair = 1 way.\n\nStep 6: Calculate the probability. (1 way for the couple to sit together) / (4 ways for the couple to sit alone + 1 way for the single person to sit alone) = 1/5 + 1/4 = 3/5. The answer is (c)."
+        "Step 1: Determine the total number of ways to seat the 3 persons. 5 chairs * 3 persons = 15 ways.\n\nStep 2: Determine the number of ways the couple can sit together. 1 couple * 1 chair = 1 way.\n\nStep 3: Calculate the number of ways the couple can sit alone. 4 chairs * 1 chair = 4 ways.\n\nStep 4: Calculate the number of ways the couple can sit in a row. 1 couple * 4 chairs = 4 ways.\n\nStep 5: Calculate the number of ways the couple can sit in a row and the single person can sit alone. 4 ways * 1 way = 4 ways.\n\nStep 6: Calculate the probability. 4 ways / 15 ways = 4/15 = 2/15 = 2/5. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "Step 1: Simplify equation. |x+3| \u2013 |4-x| = |8+x|. Step 2: Break down equation into two parts. |x+3| = |8+x|. Step 3: Solve equation for x. |x+3| = 8 + x. Step 4: Subtract 3 from both sides. |x+3| = 5. Step 5: Divide both sides by 5. |x+3| = 1.5. Step 6: Take the square root of both sides. x + 3 = \u00b11.5. Step 7: Solve for x. x = -2 or x = 4.5. Step 8: Check solutions. -2 + 3 = 1 and 4.5 + 3 = 7.5. The answer is (a)."
+        "Step 1: Simplify equation. |x+3| \u2013 |4-x| = |8+x|. Step 2: Break down equation into two parts. |x+3| = |8+x|. Step 3: Solve equation for x. |x+3| = 8 + x. Step 4: Subtract 3 from both sides. |x+3| = 8. Step 5: Divide both sides by 3. |x+3| = 2. Step 6: Take the square root of both sides. |x+3| = \u00b12. Step 7: Check solutions. x = -1, x = 2. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6792,7 +6792,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the original output. 100% - 10% = 90%.\nStep 2: Calculate the new output. 90% + 20% = 110%.\nStep 3: Calculate the new output after the holiday rush. 110% - 20% = 90%.\nStep 4: Calculate the new output after the holiday rush and the original output. 90% + 10% = 100%.\nStep 5: Calculate the new output after the holiday rush and the original output and the holiday rush. 100% + 10% + 20% = 130%.\nStep 6: Calculate the new output after the holiday rush and the original output and the holiday rush and the original output. 100% + 10% + 20% + 20% = 150%.\nStep 7: Calculate the new output after the holiday rush and the original output and the holiday rush, the original output, and the holiday rush, and the original output. 100% + 10% + 20"
+        "Step 1: Calculate the original output. 100% - 10% = 90%.\nStep 2: Calculate the new output. 90% + 20% = 110%.\nStep 3: Calculate the new output after the holiday rush. 110% - 20% = 90%.\nStep 4: Calculate the new output after the holiday rush and the original output. 90% + 10% = 100%.\nStep 5: Calculate the new output after the holiday rush and the original output and the holiday rush. 100% + 10% = 110%.\nStep 6: Calculate the new output after the holiday rush and the original output, the holiday rush, and the original output. 110% + 10% + 20% = 130%.\nStep 7: Calculate the new output after the holiday rush, the holiday rush, and the original output, and the original output. 130% + 10% + 10% = 150%.\nStep 8: Calculate the new output after"
       ]
     ],
     "filtered_resps": [
@@ -6930,7 +6930,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate gain. Gain = 20% of $60 = 0.20 * $60 = $12. Step 2: Calculate loss. Loss = 20% of $50 = 0.20 * $50 = $10. Step 3: Calculate new cost. New cost = $50 - $10 = $40. Step 4: Calculate new gain. New gain = 20% of $40 = 0.20 * $40 = $8. Step 5: Calculate new cost. New cost = $50 - $8 = $42. Step 6: Calculate new gain. New gain = 20% of $42 = 0.20 * $42 = $8. Step 7: Calculate new cost. New cost = $50 - $8 = $42. Step 8: Calculate new gain. New gain = 20% of $42 = 0.20 * $42 = $8. Step 9: Calculate new cost. New cost = $50 - $8 = $42. Step 10"
+        "Step 1: Calculate gain. Gain = 20% of 20 = 0.20 * 20 = 4. Step 2: Calculate loss. Loss = 20% of $50 = 0.20 * $50 = $10. Step 3: Calculate new cost. New cost = $50 - $10 = $40. Step 4: Calculate new gain. New gain = 20% of $40 = 0.20 * $40 = $8. Step 5: Calculate new cost. New cost = $40 - $8 = $32. Step 6: Calculate new gain. New gain = 20% of $32 = 0.20 * $32 = $6. Step 7: Calculate new cost. New cost = $32 - $6 = $26. Step 8: Calculate new gain. New gain = 20% of $26 = 0.20 * $26 = $4. Step 9: Calculate new cost. New cost = $26 - $4 = $22. Step 10:"
       ]
     ],
     "filtered_resps": [
@@ -7068,7 +7068,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find the time taken to cross the pole. 500 m / 20 sec = 25 sec.\nStep 2: Find the speed of the train. 500 m / 25 sec = 20 m/sec.\nStep 3: Convert to Kmph. 20 m/sec * 3600 sec/hr = 72000 Kmph. The answer is (c)."
+        "Step 1: Find the time taken to cross the pole. 500 m / 20 sec = 25 sec.\nStep 2: Find the speed of the train. 500 m / 25 sec = 20 m/sec. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7206,11 +7206,11 @@
     ],
     "resps": [
       [
-        "Step 1: Set up equation. Let x be the digit in the ten's place and y be the digit in the unit's place. Step 2: Given equation. x + y = 10. Step 3: Solve equation. x + y = 10 => x = 10 - y. Step 4: Substitute x into equation. 4(10 - y) + y = 10. Step 5: Simplify equation. 40 - 4y + y = 10. Step 6: Solve equation. -4y = 6 => y = -1. The answer is (c)."
+        "Step 1: Set up equation. Let x be the digit in the ten's place and y be the digit in the unit's place. The equation is: x + y = 10. Step 2: Substitute y = 4x. The equation becomes: x + 4x = 10. Step 3: Simplify the equation. x + 4x = 10. Step 4: Combine like terms. 5x = 10. Step 5: Solve for x. Divide both sides by 5. x = 2. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7252,7 +7252,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate edge. 7a = 7 * 7 = 49 cm. Step 2: Calculate surface area. Surface area = 6 * (49 * 49) = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24"
+        "Step 1: Calculate edge length. 7a = 7 * 7 = 49 cm. Step 2: Calculate surface area. Surface area = 6 * (edge length)^2 = 6 * 49^2 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 = 24 * 24 * 49 ="
       ]
     ],
     "filtered_resps": [
@@ -7344,11 +7344,11 @@
     ],
     "resps": [
       [
-        "Step 1: Divide the board into 3 equal parts. 7ft. 9 inches / 12 inches/foot = 0.625 feet. Step 2: Calculate length of each part. 0.625 feet * 3 = 1.875 feet. The answer is (c)."
+        "Step 1: Divide the board into 3 equal parts. 7ft. 9 inches / 12 = 0.625 ft. 0.625 ft / 3 = 0.2083 ft. 0.2083 ft / 3 = 0.0694 ft. 0.0694 ft / 3 = 0.0231 ft. 0.0231 ft / 3 = 0.0077 ft. 0.0077 ft / 3 = 0.0025 ft. 0.0025 ft / 3 = 0.00083 ft. 0.00083 ft / 3 = 0.00027 ft. 0.00027 ft / 3 = 0.000083 ft. 0.000083 ft / 3 = 0.000027 ft. 0.000027 ft / 3 = 0.000083 ft."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7390,11 +7390,11 @@
     ],
     "resps": [
       [
-        "Step 1: Break down the expression into parts. 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*3"
+        "Step 1: Break down the expression into factors. 15 = 3*5, 32 = 4*8, 25 = 5*5, 22 = 2*11, 40 = 2*20, 75 = 3*25, 98 = 2*49, 112 = 2*52, 125 = 5*25. Step 2: Calculate the number of factors. 12 * 12 = 144. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the length of the diagonals. 18 cm / 2 = 9 cm, 22 cm / 2 = 11 cm. Step 2: Calculate area. Area = 1/2 * length of diagonals * length of diagonals. Area = 1/2 * 9 cm * 11 cm = 49 cm^2. The answer is (c)."
+        "Step 1: Calculate the length of the diagonals. 18 cm / 2 = 9 cm, 22 cm / 2 = 11 cm. Step 2: Calculate area. Area = 1/2 * 9 cm * 11 cm = 49 cm^2. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7528,7 +7528,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate profit after 4 months. A's profit = 6000 * 4/12 = 2000. B's profit = 12000 * 4/12 = 4800. The profit after 4 months is Rs.2000 + Rs.4800 = Rs.6800. Step 2: Calculate profit after 2 months. A's profit = 6000 * 2/12 = 1000. B's profit = 12000 * 2/12 = 2400. The profit after 2 months is Rs.1000 + Rs.2400 = Rs.3400. Step 3: Calculate profit after 1 month. A's profit = 6000 * 1/12 = 500. B's profit = 12000 * 1/12 = 1000. The profit after 1 month is Rs.500 + Rs.1000 = Rs.1500. Step 4: Calculate profit"
+        "Step 1: Calculate profit for each person. \nA's profit = 6000 * 4/12 = 2000. \nB's profit = 12000 * 4/12 = 4800. \nA's profit = 6000 * 1/12 = 500. \nB's profit = 12000 * 1/12 = 1000. \nA's profit = 2000 + 4800 = 6800. \nB's profit = 500 + 1000 = 1500. \nA's profit = 6800 / 2 = 3400. \nB's profit = 1500 / 2 = 750. \nA's profit = 3400 / 2 = 1700. \nB's profit = 750 / 2 = 375. \nA's profit = 1700 + 375 = 207"
       ]
     ],
     "filtered_resps": [
@@ -7620,11 +7620,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total charge. 1/4 mile * 34 cents = 0.75 cents. 1/5 mile * 6 cents = 0.15 cents. Total charge = 0.75 + 0.15 = 1.95 cents. Step 2: Divide the total charge by the charge per mile. 1.95 cents / 0.06 cents = 3.25. The answer is (c)."
+        "Step 1: Calculate the total charge. 1/4 mile * 34 cents = 0.75 cents. 1/5 mile * 6 cents = 0.15 cents. Total charge = 0.75 + 0.15 = 1.00 cents. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7633,7 +7633,7 @@
     "doc_hash": "88133b3c18a2f5b2ed2720ef81ceb0aec1b5b0fc28371ebdcae1e8b0c3136974",
     "prompt_hash": "00dba01a887b9cde98dc551a88bcdd3a24f6a82e9229ffdb683fa95c4f440f1c",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 66,
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the work rate of each group. 10 women can complete 10/9 * 10 = 11.11 work in 1 day. 10 children can complete 10/12 * 10 = 9.33 work in 1 day. 6 women can complete 6/9 * 10 = 8 work in 1 day. 7 children can complete 7/12 * 10 = 6.67 work in 1 day.\n\nStep 2: Calculate the work rate of the combined group. 6 women + 7 children = 13. The work rate of the combined group is 13/9 * 10 = 14.33 work in 1 day.\n\nStep 3: Calculate the time required to complete the work. 14.33 work / 14.33 work per day = 1 day. The answer is (d)."
+        "Step 1: Calculate the work done by each group. 10 women can complete 10 * 9 = 90 work in 9 days. 10 children can complete 10 * 12 = 120 work in 12 days. 6 women can complete 6 * 9 = 54 work in 9 days. 7 children can complete 7 * 12 = 84 work in 12 days.\n\nStep 2: Calculate the total work done by all 10 women and 10 children. 54 + 84 = 138.\n\nStep 3: Calculate the work done by 6 women and 7 children. 138 / 6 = 23.5.\n\nStep 4: Divide the total work by the number of women and children. 138 / 6 = 23.5. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -7758,11 +7758,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the ratio. 5 : 6 : 7. Step 2: Find the sum of the longest and shortest numbers. 5 + 6 = 11, 11 + 7 = 18. Step 3: Find the sum of the third number and 54. 54 + 18 = 72. Step 4: Find the third number. 72 / 11 = 6. The answer is (e)."
+        "Step 1: Set up equation. Let the third number be x. Ratio of the longest and shortest numbers is 5:6:7. So, x = 5*7 + 6*6 + 7*5 = 37. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7771,7 +7771,7 @@
     "doc_hash": "aa7830b75b6ed95e835aeddbde022b007c910a235c63b8993c5c90cadf245bd3",
     "prompt_hash": "8ecfeb4a7e5d02a351a54d4f9f5d7cbc46c89447318dd036b01dca38042ae43f",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 69,
@@ -7804,7 +7804,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of handshakes for each person. 9 people * 9 handshakes = 81 handshakes.\nStep 2: Calculate the total handshakes. 81 handshakes * 9 people = 729 handshakes. The answer is (c)."
+        "Step 1: Determine the number of handshakes for each person. 9 people * 9 handshakes = 81 handshakes.\n\nStep 2: Calculate the total number of handshakes. 81 handshakes * 9 people = 729 handshakes. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7850,11 +7850,11 @@
     ],
     "resps": [
       [
-        "Step 1: Write down the given information.\nSum of the squares of three numbers = 351\nSum of their products taken two at a time = 245.\n\nStep 2: Use the formula for the sum of squares of three numbers.\nSum of squares = (number1 * number2 * number3) + (number1 * number2 * number3) + (number1 * number2 * number3)\n\nStep 3: Substitute the given information into the formula.\nSum of squares = (100 * 100 * 100) + (100 * 100 * 100) + (100 * 100 * 100)\n\nStep 4: Calculate the sum of squares.\nSum of squares = 1000000 + 1000000 + 1000000\nSum of squares = 3000000.\n\nStep 5: Find the sum.\nSum of the squares = 3000000.\n\nThe answer is (c)."
+        "Step 1: Write down the given information.\nSum of the squares of three numbers = 351\nSum of their products taken two at a time = 245.\n\nStep 2: Use the formula for the sum of squares of three numbers.\nSum of squares = (number1 * number2 * number3) + (number1 * number2 * number3) + (number1 * number2 * number3)\n\nStep 3: Substitute the given information into the formula.\nSum of squares = (100 * 100 * 100) + (100 * 100 * 100) + (100 * 100 * 100)\n\nStep 4: Calculate the sum of squares.\nSum of squares = 1000000000 + 1000000000 + 1000000000\nSum of squares = 3000000000\n\nStep 5: Divide the sum of squares by 3 to find the sum of the three numbers.\nSum of the"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7988,11 +7988,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate population after 1 hour. 1 hour * 60 seconds/hour = 60 minutes. 60 minutes * 60 seconds/minute = 3600 seconds. 3600 seconds * 120 seconds/person = 43200 seconds. 43200 seconds * 1 person/40 seconds/person = 1080 persons. The answer is (c)."
+        "Step 1: Calculate population after 1 hour. 1 hour * 60 seconds/hour = 60 minutes. 60 minutes * 60 seconds/minute = 3600 seconds. 3600 seconds * 120 seconds/person = 43200 seconds. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8218,11 +8218,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the total number of ways to select 5 persons from 14. 14 choose 5 = 14! / (5! * (14-5)!) = 14! / (5! * 9!) = 1140.\n\nStep 2: Determine the number of ways to select 3 men from 7 men. 7 choose 3 = 7! / (3! * (7-3)!) = 21.\n\nStep 3: Determine the number of ways to select 2 women from 6 women. 6 choose 2 = 6! / (2! * (6-2)!) = 15.\n\nStep 4: Calculate the number of ways to select 0 woman from 6 women. 6 choose 0 = 1.\n\nStep 5: Calculate the number of ways to select 3 men and 2 women. 21 * 15 = 315.\n\nStep 6: Calculate the probability of having 0 woman in committee. 315 / 1140 = 1/36. The answer is"
+        "Step 1: Determine the total number of ways to select 5 persons from 14. 14 choose 5 = 14! / (5! * (14-5)!) = 14! / (5! * 9!) = 1004.\n\nStep 2: Determine the number of ways to select 3 men and 2 women. 3 men * 2 women = 6.\n\nStep 3: Calculate the number of ways to select 3 men and 2 women such that at least 3 men are on the committee. 3 men * 2 women = 6.\n\nStep 4: Calculate the number of ways to select 3 men and 2 women such that at least 3 men are on the committee. 3 men * 2 women = 6.\n\nStep 5: Calculate the probability of having 0 woman in committee. 6 / 1004 = 1/36. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8231,7 +8231,7 @@
     "doc_hash": "93c07a49b965a51709451d68e851d27c1d0055fea3a83893360ceb77601dda8f",
     "prompt_hash": "5870502d281a921045bb80c3f0fe5a3dca2bc7ef9bfb125c1daceb5d20702d0e",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 79,
@@ -8264,11 +8264,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate total number of ways to choose 4 bulbs. 4 * 3 * 2 * 1 = 24. Step 2: Calculate number of ways to choose 3 good bulbs and 1 defective bulb. 9 * 8 * 7 = 504. Step 3: Calculate probability. 24 / 504 = 20/63. The answer is (b)."
+        "Step 1: Calculate total number of ways to choose 4 bulbs. 4 choose 4 = 4. Step 2: Calculate number of ways to choose 3 good bulbs and 1 defective bulb. 9 choose 3 = 84. Step 3: Calculate probability. Probability = (number of ways to choose 3 good bulbs * number of ways to choose 1 defective bulb) / total number of ways to choose 4 bulbs. Probability = 84 * 4 / 4 = 336 / 4 = 84. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8277,7 +8277,7 @@
     "doc_hash": "619296d1fd34c49b40aa03bdc67718a9ed6c3e7aa06de778ca35067638056fd5",
     "prompt_hash": "4b00d214a6be38549862ba195c152d93d63f304c5d7597428bf30f005df4c190",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 80,
@@ -8356,11 +8356,11 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the given condition. |w| = -w means w is a negative number.\nStep 2: Check the given condition. \n-w \u2265 0 (since w is a negative number)\n-w < 0 (since w is a negative number)\n\nThe answer is (b)."
+        "Step 1: Understand the given condition. |w| = w, which means w is a constant.\nStep 2: Check the given condition. \n(a) x \u2265 0: Since w is a constant, x is also a constant.\n(b) w \u2264 0: Since w is a constant, w is also a constant.\n(c) x2 > x: Since w is a constant, x2 is also a constant.\n(d) x3 < 0: Since w is a constant, x3 is also a constant.\n(e) 2x < x: Since w is a constant, 2x is also a constant.\n\nThe answer is (a) x \u2265 0."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8369,7 +8369,7 @@
     "doc_hash": "f7441ff2c5327305ee985c4cae404b9c5e5a92575ad9bae930fddce7b9f75280",
     "prompt_hash": "2e294b07fdc490bef5246fd360853ce5b5f00174b81132ff6c3d8ceb08f5b203",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 82,
@@ -8494,7 +8494,7 @@
     ],
     "resps": [
       [
-        "Step 1: Understand the relationship between volume and surface area.\nStep 2: Calculate the volume of the cube. \nStep 3: Calculate the surface area of the cube.\nStep 4: Compare the two values.\nStep 5: Determine the edge length.\n\nStep 1: Calculate the volume of the cube. \nVolume = edge^3 \nVolume = 1^3 = 1\n\nStep 2: Calculate the surface area of the cube. \nSurface area = 6 * edge^2 \nSurface area = 6 * 1^2 = 6\n\nStep 3: Compare the two values. \nVolume = 1, Surface area = 6.\n\nStep 4: Determine the edge length. \nEdge length = (Volume / Surface area) \nEdge length = (1 / 6) = 1/6\n\nStep 5: Since the volume and surface area are equal, the edge length is 1/6. The answer is (c)."
+        "Step 1: Understand the relationship between volume and surface area.\nStep 2: Calculate the volume of the cube. \nStep 3: Calculate the surface area of the cube.\nStep 4: Compare the two values.\nStep 5: Determine the edge length.\n\nStep 1: Calculate the volume of the cube. \nVolume = edge^3 \nVolume = 1^3 = 1\n\nStep 2: Calculate the surface area of the cube. \nSurface area = 6 * edge^2 \nSurface area = 6 * 1^2 = 6\n\nStep 3: Compare the two values. \nVolume = 1, Surface area = 6\n\nStep 4: Determine the edge length. \nEdge length = sqrt(Volume / Surface area) \nEdge length = sqrt(1 / 6) \nEdge length = 1/3\n\nStep 5: Compare the edge length to the answer choices.\nEdge length = 1/3, 4, 6, 8, 9\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8540,11 +8540,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of mice needed to test the poisned can. 30 cans * 24 hours = 720 hours. 720 hours / 24 hours = 30 mice. The answer is (b)."
+        "Step 1: Determine the number of mice needed to test the poisned can. 30 cans * 24 hours = 720 hours. 720 hours / 24 hours = 30 mice. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8586,7 +8586,7 @@
     ],
     "resps": [
       [
-        "Step 1: Convert kmph to meters per second. 72 kmph * 1000 m/km = 7200 m/s. Step 2: Calculate time. 165 m * 7200 m/s = 1152000 m/s. Step 3: Calculate distance. 660 m * 7200 m/s = 4688000 m/s. Step 4: Calculate time. 4688000 m/s / 1152000 m/s = 4.125 seconds. The answer is (d)."
+        "Step 1: Convert kmph to meters per second. 72 kmph * 1000 m/km = 7200 m/s. Step 2: Calculate time. 165 m * 7200 m/s = 115200 s. Step 3: Calculate distance. 660 m * 7200 m/s = 451200 s. Step 4: Calculate time. 115200 s / 451200 s = 0.25. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -8770,11 +8770,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find the time taken by train A to reach its destination. 9 hours = 9000 / 60 kmph. Step 2: Find the time taken by train B to reach its destination. 4 hours = 4000 / 60 kmph. Step 3: Find the ratio of the time taken by train A to train B. 9000 / 4000 = 2.5. Step 4: Find the ratio of the distance covered by train A to train B. 9000 / 4000 = 2.5. Step 5: Find the ratio of the speed of train A to train B. 60 kmph / 2.5 kmph = 24. The answer is (c)."
+        "Step 1: Find the time taken by train A to reach its destination. 9 hours = 9000 / 60 kmph. Step 2: Find the time taken by train B to reach its destination. 4 hours = 4000 / 60 kmph. Step 3: Find the ratio of time taken by train A to train B. 9000 / 4000 = 2.5. Step 4: Find the ratio of their speeds. 60 kmph / 40 kmph = 1.5. Step 5: Find the rate at which train B runs. 1.5 * 100 = 150. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8816,7 +8816,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the probability of each boy choosing his own toy.\n- Boy 1: 1/3\n- Boy 2: 1/3\n- Boy 3: 1/3\n\nStep 2: Calculate the probability that no boy will choose his own toy.\n- Probability of Boy 1 choosing his own toy: 1/3\n- Probability of Boy 2 choosing his own toy: 1/3\n- Probability of Boy 3 choosing his own toy: 1/3\n\nStep 3: Calculate the probability that at least one boy will choose his own toy.\n- Probability of Boy 1 choosing his own toy: 1/3\n- Probability of Boy 2 choosing his own toy: 1/3\n- Probability of Boy 3 choosing his own toy: 1/3\n- Probability that at least one boy will choose his own toy: 1 - (1/3 + 1/3 + 1/3) = 1/3\n\nThe answer is (d)."
+        "Step 1: Calculate the probability of each boy choosing his own toy. \nProbability of boy 1 choosing his own toy = 1/3\nProbability of boy 2 choosing his own toy = 1/3\nProbability of boy 3 choosing his own toy = 1/3\n\nStep 2: Calculate the probability that no boy will choose his own toy. \nProbability of no boy choosing his own toy = 1 - (probability of boy 1 choosing his own toy) * (probability of boy 2 choosing his own toy) * (probability of boy 3 choosing his own toy)\nProbability of no boy choosing his own toy = 1 - (1/3) * (1/3) * (1/3) = 1/3\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -8862,7 +8862,7 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of days it takes to complete the job. 1 man + 1 woman + 1 boy = 4 people. 4 people / day.\n\nStep 2: Determine the number of days it takes to complete the job with 1 man and 1 woman. 1 man + 1 woman = 2 people. 2 people / day.\n\nStep 3: Determine the number of days it takes to complete the job with 1 man and 1 boy. 1 man + 1 boy = 2 people. 2 people / day.\n\nStep 4: Determine the number of days it takes to complete the job with 1 man, 1 woman, and 1 boy. 1 man + 1 woman + 1 boy = 4 people. 4 people / day.\n\nStep 5: Determine the number of days it takes to complete the job with 1 man, 1 woman, and 1 boy and 1 boy. 1 man + 1 woman + 1 boy = 4 people. 4 people / day.\n\nStep 6: Determine the number of days it takes to complete the job with 1"
+        "Step 1: Determine the number of days it takes to complete the job. 1 man + 1 woman + 1 boy = 4 people. 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days = 1.33 days. 1 man + 1 woman + 1 boy = 4 people / 3 days ="
       ]
     ],
     "filtered_resps": [
@@ -8908,11 +8908,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate age after 6 years. Amit's age after 6 years = 5 * 6 + 4 = 26 years.\nStep 2: Calculate age of Dhiraj at present. Dhiraj's age at present = 4 * 6 + 4 = 19 years.\nStep 3: Compare ages. 26 - 19 = 7. The answer is (d)."
+        "Step 1: Calculate age after 6 years. Amit's age after 6 years = 5 * 6 + 4 = 26. Dhiraj's age after 6 years = 4 * 6 + 4 = 26. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "Step 1: Analyze each choice.\nI. Both x and y are positive: This is true.\nII. If x is negative, y must be negative: This is true.\nIII. If x is positive, y must be positive: This is true.\n\nStep 2: Compare choices.\nI only: This is true.\nII only: This is true.\nIII only: This is true.\n\nThe answer is (b)."
+        "Step 1: Analyze each choice.\nI. Both x and y are positive: This is true.\nII. If x is negative, y must be negative: This is true.\nIII. If x is positive, y must be positive: This is true.\n\nStep 2: Compare choices.\nI only: This is true.\nII only: This is true.\nIII only: This is true.\n\nStep 3: Choose the correct answer.\nThe answer is (a). I only."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9013,7 +9013,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "ff57ad2674c97e5fa160f62d1a9a629b97adc80d4ddf44ab5f264ec742282d22",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,

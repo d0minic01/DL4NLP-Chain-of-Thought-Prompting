@@ -306,11 +306,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the inequality is x^2 + 4x - 11 \u2264 5x + 11. Subtracting 5x from both sides, we get x^2 + 4x - 16 \u2264 0. Dividing by 5, we get x^2 + 8x - 3.2 \u2264 0. The answer is (c)."
+        "As a mathematician: the inequality is x^2 + 4x - 11 \u2264 5x + 11. Simplifying: x^2 + 4x - 10 \u2264 0. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -319,7 +319,7 @@
     "doc_hash": "485e610a670077c87ae35da438da1fab35f3759f3c6b36eecd439519f6403f37",
     "prompt_hash": "bef4fc7d69d822d45a8d11f7c323c0ba1057295c39f096e2e2861617b17e41ae",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 7,
@@ -444,7 +444,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 8XY is divisible by 2 if and only if 8X + 8Y is divisible by 2. The possible values of X and Y are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57,"
+        "As a mathematician: 8XY is a 3-digit number divisible by 2. Possible products of X and Y are 12, 27, 31, 42, 54, 63, 72, 81, 92, 102, 112, 122, 132, 142, 152, 162, 172, 182, 192, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 302, 312, 322, 332, 342, 352, 362, 372, 382, 392, 402, 412, 422, 432, 442, 452, 462, 472, 482"
       ]
     ],
     "filtered_resps": [
@@ -536,7 +536,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the rate of interest is 4% more than the previous year. So, the new rate is 4 + 4 = 8%. The new rate is 8% more than the previous year, so the new rate is 8 + 4 = 12%. The new rate is 12% more than the previous year, so the new rate is 12 + 4 = 16%. The new rate is 16% more than the previous year, so the new rate is 16 + 4 = 20%. The new rate is 20% more than the previous year, so the new rate is 20 + 4 = 24%. The new rate is 24% more than the previous year, so the new rate is 24 + 4 = 28%. The new rate is 28% more than the previous year, so the new rate is 28 + 4 = 32%. The new rate is 32% more than the previous year, so the new rate is 32 + 4 = 36%. The new rate is 36% more than the previous year, so"
+        "As a mathematician: the rate of interest is 4% more than the previous year. So, the new rate is 4 + 4 = 8%. The new rate becomes 8% of 825, which is 0.08 * 825 = 65.6. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8"
       ]
     ],
     "filtered_resps": [
@@ -582,11 +582,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: p = 4^q, so p = 4^0 = 1. The answer is (c)."
+        "As a mathematician: p = 4^q, so p = 4^1 * 4^2 * 4^3 * 4^4 * 4^5 * 4^6 * 4^7 * 4^8 * 4^9 * 4^10. The remainder when p is divided by 10 is 0. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -674,11 +674,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the ratio of A to C is 1/7:1/7 = 1:1. The ratio of A to B is 1/7:1/14 = 1/7 * 7/14 = 7/91. The ratio of B to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to B is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of B to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to B is 1/7:1/14 ="
+        "As a mathematician: the ratio of A to C is 1/7:1/7 = 1:1. The ratio of A to B is 1/7:1/7 = 1:1. The ratio of B to C is 1/7:1/7 = 1:1. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -812,7 +812,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: Mike's average score for the 5 mock tests is 716.67 / 5 = 143.33. His score for the 6th mock test is 760. The difference in his score is 760 - 143.33 = 616.67. The answer is (d)."
+        "As a mathematician: Mike's average score for the 5 mock tests is 716.67 / 5 = 143.33. His score for the 6th test is 760. The difference in his score is 760 - 143.33 = 616.67. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -950,11 +950,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the difference between the last number and the first number is 46 - 4 = 42. The difference between the second and the third number is 46 - 10 = 36. The difference between the third and the fourth number is 46 - 40 = 6. The difference between the fourth and the fifth number is 46 - 94 = 52. The difference between the fifth and the sixth number is 46 - 42 = 4. The difference between the sixth and the seventh number is 46 - 48 = 2. The difference between the seventh and the eighth number is 46 - 50 = -2. The difference between the eighth and the ninth number is 46 - 94 = -42. The difference between the ninth and the tenth number is 46 - 100 = -96. The difference between the tenth and the eleventh number is 46 - 110 = -96. The difference between the eleventh and the twelfth number is 46 - 120 = -106. The difference between the twelfth and the thirteenth number is"
+        "As a mathematician: the difference between the last number and the first number is 46 - 4 = 42. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1180,11 +1180,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the total amount of money James earned is 30 + 6(6) + 12(6) + 18(6) = 30 + 36 + 72 + 108 = 210. The answer is (a)."
+        "As a mathematician: the total amount of money James earned is 30 + 6(6) + 12(6) + 18(6) = 30 + 36 + 72 + 108 = 210. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1594,7 +1594,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the factors of 3 are 1, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 75, 81, 84, 87, 90, 93, 96, 99, 105, 110, 112, 115, 118, 120, 123, 126, 129, 132, 135, 138, 140, 145, 148, 150, 153, 156, 159, 162, 165, 168, 170, 175, 1"
+        "As a mathematician: the factors of 3 are 1, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 75, 81, 84, 87, 90, 93, 96, 99, 105, 115, 120, 126, 130, 135, 140, 145, 150, 155, 162, 165, 175, 180, 185, 190, 195, 205, 210, 215, 220, 225, 230, 235, 2"
       ]
     ],
     "filtered_resps": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the original time taken by the pipe to fill the tank is 1 hour. The leakage takes 2 times of its original time, so it takes 2 * 1 = 2 hours. The answer is (c)."
+        "As a mathematician: the original time taken by the pipe to fill the tank is 1/2. The leakage takes 2 times of its original time, so it takes 2 * 1/2 = 1 hour. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1824,11 +1824,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the given equation is a linear equation in three variables. The sum of the first two terms is 1, and the sum of the last two terms is 1. The sum of the first and last terms is 1 + 1 = 2, and the sum of the second and third terms is 1 + 1 = 2. The sum of the first and second terms is 1 + 2 = 3, and the sum of the third and fourth terms is 1 + 2 = 3. The sum of the first and third terms is 1 + 3 = 4, and the sum of the second and fourth terms is 1 + 3 = 4. The sum of the first and second terms is 1 + 4 = 5, and the sum of the third and fourth terms is 1 + 4 = 5. The sum of the first and third terms is 1 + 5 = 6, and the sum of the second and fourth terms is 1 + 5 = 6. The sum of the first and second terms is 1 + 6 = 7, and the sum of the third and fourth terms is 1 + 6"
+        "As a mathematician: the given equation is a linear equation in three variables. The sum of the first two terms is 1, and the sum of the last two terms is 1. The sum of the first and last terms is 1 + 1 = 2, and the sum of the second and third terms is 1 + 1 = 2. The sum of all three terms is 1 + 2 + 2 = 6. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1837,7 +1837,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "443c396f63585e16291a06bdb63f3b268c7fac42402fb3e17ab94a29b9d8d1ad",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -1870,11 +1870,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the ages of the two sons be x and y. The sum of their ages is 2x + 2y = 3x + 2y = 5x. The father\u00e2\u20ac\u2122s present age is 5x. The answer is (a)."
+        "As a mathematician: let the ages of the two sons be x and y. The sum of their ages is x + y = 3x. The father\u00e2\u20ac\u2122s present age is 3x + 4. The sum of their ages 3x + y = 3x + 4 + 4 = 3x + 8. The father\u00e2\u20ac\u2122s present age is 3x + 8 + 4 = 3x + 12. The father\u00e2\u20ac\u2122s present age is 3x + 12 + 4 = 3x + 16. The father\u00e2\u20ac\u2122s present age is 3x + 16 + 4 = 3x + 20. The father\u00e2\u20ac\u2122s present age is 3x + 20 + 4 = 3x + 24. The father\u00e2\u20ac\u2122s present age is 3x + 24 + 4 = 3x + 28. The father\u00e2\u20ac\u2122s present age is 3x + 28 + 4 = 3x + 32. The father\u00e2\u20ac\u2122s present age is 3x + 32 + 4 = 3x"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1883,7 +1883,7 @@
     "doc_hash": "b517202d96a9c7f97af7a840a07c3e22a8499d925b0d700ba7ba5f4db3afba7b",
     "prompt_hash": "f5b20086267d1d2b685df9aa808606405a4e8f0e741859d2eea6a0ed8d4bf273",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the left side is |8+x|, and the absolute value of the right side is |8+x|. The equation is |8+x| = |8+x|. The answer is (a)."
+        "As a mathematician: the equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the left side is |8+x|, and the absolute value of the right side is |8+x|. The equation is |x+3| = |8+x|. The equation is a linear inequality, and it has one solution. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2330,11 +2330,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20 * 60 = 1200. 1200 - 20 = 1180. 1180 * 120% = 1180 * 0.2 = 236.8. The answer is (c)."
+        "As a mathematician: 20 * 60 = 1200. 1200 - 20 = 1180. 1180 * 100 = 118000. 118000 - 50 = 118000 - 50 = 117500. 117500 * 100 = 1175000. 1175000 - 20 = 1173000. 1173000 * 100 = 11730000. 11730000 - 20 = 11728000. 11728000 * 100 = 117280000. 117280000 - 50 = 117280000 - 50 = 117280000. 117280000 * "
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2376,11 +2376,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The answer is (a)."
+        "As a mathematician: the ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2389,7 +2389,7 @@
     "doc_hash": "bec2f937604b9d457f2557d264c96ad0c7123edc5163c0f036e33d9809547e37",
     "prompt_hash": "0131d80153d1388499fe03705e8a205e254021dfdd3b2cc6eb3c5a62ece42afb",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 52,
@@ -2744,11 +2744,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 7ft. 9 inches = 7ft. 9/12 = 7ft. 9/12 * 12 = 7ft. 9/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12"
+        "As a mathematician: 7ft. 9in. = 7ft. + 9in. = 7ft. + (7ft. / 12) = 7ft. + 6.5 = 13.5ft. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2836,11 +2836,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: area = (diagonal 1 * diagonal 2) / 2. Plugging in the values: area = (18 * 22) / 2 = 288 The answer is (e)."
+        "As a mathematician: the area of a rhombus is given by the formula: area = (d1*d2) / 2. Plugging in the values: area = (18*22) / 2 = 277. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2882,11 +2882,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the rate of simple interest is 9/40 * 100 = 22.5%. The answer is (b)."
+        "As a mathematician: the interest earned in 40 years is 9 * 40 = 360. The rate of interest is 360 / 40 = 9%. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3112,7 +3112,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the number of women is 10/2 = 5. The number of children is 10/3 = 3. The number of women and children is 5 + 3 = 8. The number of days will be 8 * 12 = 96. The answer is (d)."
+        "As a mathematician: the number of women is 10/6 = 5/3. The number of children is 10/7 = 14/3. The number of women and children is 5/3 + 14/3 = 21/3. The number of days is 21/3 = 7. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -3158,11 +3158,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the three numbers be 5x, 6x, and 7x. The sum of the longest and shortest numbers is 5x + 7x = 12x. The sum of the third number and 54 is 12x + 54. We can set up the equation: 12x + 54 = 12x + 12x + 54. Simplifying, we get 54 = 20x + 54. Solving for x, we get x = 3. The answer is (c)."
+        "As a mathematician: let the three numbers be 5x, 6x, and 7x. The sum of the longest and shortest numbers is 5x + 7x = 12x. The sum of the third number and 54 is 12x + 54. We can set up the equation: 12x + 54 = 12x + 12x + 54. Simplifying, we get 24x + 54 = 24x + 54. Subtracting 24x from both sides, we get 54 = 54. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3204,7 +3204,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the number of handshakes is 9 people * 9 people = 81 handshakes. The answer is (c)."
+        "As a mathematician: the total number of handshakes is 9 people * 9 handshakes per person = 81 handshakes. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3250,11 +3250,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the three numbers be x, y, and z. Then x^2 + y^2 = 351 and xy + z^2 = 245. Plugging in the values, we get x^2 + y^2 = 351 and xy + z^2 = 245. Solving for x^2 + y^2, we get x^2 + y^2 = 351 - 245 = 106. Solving for xy + z^2, we get xy + z^2 = 245 - 351 = -14. The answer is (c)."
+        "As a mathematician: let the three numbers be x, y, and z. Then the sum of their products taken two at a time is 245 = 3x + 3y + 3z. The sum of their squares is x^2 + y^2 + z^2 = 351. Substituting the expression for x^2 + y^2 + z^2, we get 351 = 3x + 3y + 3z. Solving for x, y, and z, we get x = 11, y = 11, and z = 11. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3388,11 +3388,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the population increases by 1 person every 40 seconds, so 1 person / 40 seconds = 1/40. The answer is (c)."
+        "As a mathematician: the population increases by 1 person every 40 seconds, so 1 person * 40 seconds = 4 people. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3401,7 +3401,7 @@
     "doc_hash": "8bf6f6f341f409c9faccedb7127b3178fefc1f1fdb7fdcb0e165ae1bb30226a5",
     "prompt_hash": "88d1173ecae0edb26f4dc2b6836b5ecbd7d5df90e9319dab281ca28bac9c5a3f",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 74,
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the area of a rhombus is given by the formula: area = (d1*d2) / 2. Plugging in the values: area = (30*30) / 2 = 267 sq.cm. The answer is (c)."
+        "As a mathematician: area of a rhombus = (side * side * sqrt(2)) / 2. Plugging in the values: area = (25 * 25 * sqrt(2)) / 2 = 25 * 25 * sqrt(2) / 2 = 25 * 25 * sqrt(2) = 25 * 25 * 3 = 25 * 3 * 5 = 25 * 5 = 125 sq.cm. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3526,7 +3526,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: time = distance / speed. So, time = 110 m / 72 km/hr = 1.5 sec. The answer is (b)."
+        "As a mathematician: time = distance / speed. So, time = 110 m / 72 km/hr = 1.42 sec. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cost of diesel per hour is 1 litre per hour. The cost of diesel per 60 km is 1 litre per hour * 60 km = 60 litre per hour. The cost of diesel per 600 km is 60 litre per hour * 600 km = 3600 litre per hour. The answer is (c)."
+        "As a mathematician: the consumption of diesel per hour is 60 kmph * 100 km/h = 6000 litres per hour. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3618,11 +3618,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the total number of ways to select 5 persons from 14 is 14C5 = 14! / (5! * (14-5)!) = 1005. The number of ways to select 3 men and 2 women is 3C3 * 6C2 = 6 * 15 = 90. The number of ways to select 0 woman is 14C0 = 14. The probability of having 0 woman in committee is 90 / 1005 = 1/15. The answer is (c)."
+        "As a mathematician: the total number of ways to select 5 persons from 14 is 14C5 = 14! / (5! * 9!) = 1006. The number of ways to select 3 men and 2 women is 3C3 * 6C2 = 6 * 15 = 90. The number of ways to select 0 women is 14C0 = 1. The number of ways to select 3 men and 2 women is 90 - 14 = 76. The number of ways to select 3 men and 2 women is 76 * 6C2 = 76 * 15 = 1140. The number of ways to select 3 men and 2 women is 1140 - 90 = 1050. The number of ways to select 3 men and 2 women is 1050 - 76 = 974. The number of ways to select 3 men and 2 women is 974 - 6 * 14 = 974 - 84 = "
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3631,7 +3631,7 @@
     "doc_hash": "93c07a49b965a51709451d68e851d27c1d0055fea3a83893360ceb77601dda8f",
     "prompt_hash": "1d9a5e4c2dddbc9894c0df698ebeb9d5d03955b817d1262a0355d991b7c497ae",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 79,
@@ -3710,7 +3710,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: speed = 54 km/hr = 54 * 1000 / 3600 = 15 m/s. Time taken = 32 sec. Length of platform = speed * time = 15 * 32 = 480 m. The answer is (c)."
+        "As a mathematician: speed = 54 km/hr = 54 * 8/3 = 168 km/hr. Time taken = 32 sec. Length of platform = Speed * Time = 168 * 32 = 5496 meters. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3756,7 +3756,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the absolute value of a number is always non-negative. The answer is (a)."
+        "As a mathematician: |w| = w, so w is always non-negative. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -3802,7 +3802,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the first number be x. Then the second number is x - 30% of x = (100 - 30)x/100 = 70x/100. The third number is x - 37% of x = (100 - 37)x/100 = 63x/100. The difference between the second and first number is 70x/100 - 63x/100 = 7x/100. The answer is (d)."
+        "As a mathematician: let the first number be x. Then the second number is x - 30% of x = (100 - 30)x / 100 = 70x / 100. The difference between the second and first number is 70x / 100 - x = 60x / 100. The difference is 60x / 100. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -3986,11 +3986,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: time = distance / speed. So, time = 660 / 72 = 9.083333333333333. The answer is (d)."
+        "As a mathematician: time = distance / speed. So, time = 660 / 72 = 9.09 seconds. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the profit after 6 months is 3000 * 2 = 6000. The profit after 1 year is 6000 * 12 = 72000. The ratio of A's profit to B's profit is 6000 / 72000 = 1/12. The answer is (c)."
+        "As a mathematician: the profit after 6 months is 3000 * 2 = 6000. The profit after 1 year is 6000 * 12 = 72000. The ratio of A's profit to B's profit is 6000 / 72000 = 9/12 = 9:6. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4446,11 +4446,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the area of the original square is 25% of 500, which is 0.25 * 500 = 125. The area of the new square is 125 + 25 = 150. The area of the new square is 150 * 150 / 100 = 225. The area of the new square is 225 * 225 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is"
+        "As a mathematician: the area of the original square is 25% of 500, which is 0.25 * 500 = 125. The area of the new square is 125 * 25% = 125 * 0.25 = 31.25. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the number of times the interest is compounded per year is 12. The number of years is 10. The interest is compounded monthly, so the number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is"
+        "As a mathematician: the number of times the interest is compounded per year is 12 (12 months in a year). The number of years is 10. The interest is compounded monthly, so the number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/1"
       ]
     ],
     "filtered_resps": [
@@ -4906,11 +4906,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the inequality is x^2 + 4x - 11 \u2264 5x + 11. Subtracting 5x from both sides, we get x^2 + 4x - 16 \u2264 0. Dividing by 5, we get x^2 + 8x - 3.2 \u2264 0. The answer is (c)."
+        "As a mathematician: the inequality is x^2 + 4x - 11 \u2264 5x + 11. Simplifying: x^2 + 4x - 10 \u2264 0. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4919,7 +4919,7 @@
     "doc_hash": "485e610a670077c87ae35da438da1fab35f3759f3c6b36eecd439519f6403f37",
     "prompt_hash": "bef4fc7d69d822d45a8d11f7c323c0ba1057295c39f096e2e2861617b17e41ae",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 7,
@@ -5044,7 +5044,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 8XY is divisible by 2 if and only if 8X + 8Y is divisible by 2. The possible values of X and Y are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57,"
+        "As a mathematician: 8XY is a 3-digit number divisible by 2. Possible products of X and Y are 12, 27, 31, 42, 54, 63, 72, 81, 92, 102, 112, 122, 132, 142, 152, 162, 172, 182, 192, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 302, 312, 322, 332, 342, 352, 362, 372, 382, 392, 402, 412, 422, 432, 442, 452, 462, 472, 482"
       ]
     ],
     "filtered_resps": [
@@ -5136,7 +5136,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the rate of interest is 4% more than the previous year. So, the new rate is 4 + 4 = 8%. The new rate is 8% more than the previous year, so the new rate is 8 + 4 = 12%. The new rate is 12% more than the previous year, so the new rate is 12 + 4 = 16%. The new rate is 16% more than the previous year, so the new rate is 16 + 4 = 20%. The new rate is 20% more than the previous year, so the new rate is 20 + 4 = 24%. The new rate is 24% more than the previous year, so the new rate is 24 + 4 = 28%. The new rate is 28% more than the previous year, so the new rate is 28 + 4 = 32%. The new rate is 32% more than the previous year, so the new rate is 32 + 4 = 36%. The new rate is 36% more than the previous year, so"
+        "As a mathematician: the rate of interest is 4% more than the previous year. So, the new rate is 4 + 4 = 8%. The new rate becomes 8% of 825, which is 0.08 * 825 = 65.6. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8. The new rate becomes 8% of 956, which is 0.08 * 956 = 76.8"
       ]
     ],
     "filtered_resps": [
@@ -5182,11 +5182,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: p = 4^q, so p = 4^0 = 1. The answer is (c)."
+        "As a mathematician: p = 4^q, so p = 4^1 * 4^2 * 4^3 * 4^4 * 4^5 * 4^6 * 4^7 * 4^8 * 4^9 * 4^10. The remainder when p is divided by 10 is 0. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5274,11 +5274,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the ratio of A to C is 1/7:1/7 = 1:1. The ratio of A to B is 1/7:1/14 = 1/7 * 7/14 = 7/91. The ratio of B to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to B is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of B to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to C is 1/7:1/14 = 1/7 * 14/14 = 14/91. The ratio of A to B is 1/7:1/14 ="
+        "As a mathematician: the ratio of A to C is 1/7:1/7 = 1:1. The ratio of A to B is 1/7:1/7 = 1:1. The ratio of B to C is 1/7:1/7 = 1:1. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5412,7 +5412,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: Mike's average score for the 5 mock tests is 716.67 / 5 = 143.33. His score for the 6th mock test is 760. The difference in his score is 760 - 143.33 = 616.67. The answer is (d)."
+        "As a mathematician: Mike's average score for the 5 mock tests is 716.67 / 5 = 143.33. His score for the 6th test is 760. The difference in his score is 760 - 143.33 = 616.67. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -5550,11 +5550,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the difference between the last number and the first number is 46 - 4 = 42. The difference between the second and the third number is 46 - 10 = 36. The difference between the third and the fourth number is 46 - 40 = 6. The difference between the fourth and the fifth number is 46 - 94 = 52. The difference between the fifth and the sixth number is 46 - 42 = 4. The difference between the sixth and the seventh number is 46 - 48 = 2. The difference between the seventh and the eighth number is 46 - 50 = -2. The difference between the eighth and the ninth number is 46 - 94 = -42. The difference between the ninth and the tenth number is 46 - 100 = -96. The difference between the tenth and the eleventh number is 46 - 110 = -96. The difference between the eleventh and the twelfth number is 46 - 120 = -106. The difference between the twelfth and the thirteenth number is"
+        "As a mathematician: the difference between the last number and the first number is 46 - 4 = 42. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5780,11 +5780,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the total amount of money James earned is 30 + 6(6) + 12(6) + 18(6) = 30 + 36 + 72 + 108 = 210. The answer is (a)."
+        "As a mathematician: the total amount of money James earned is 30 + 6(6) + 12(6) + 18(6) = 30 + 36 + 72 + 108 = 210. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6194,7 +6194,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the factors of 3 are 1, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 75, 81, 84, 87, 90, 93, 96, 99, 105, 110, 112, 115, 118, 120, 123, 126, 129, 132, 135, 138, 140, 145, 148, 150, 153, 156, 159, 162, 165, 168, 170, 175, 1"
+        "As a mathematician: the factors of 3 are 1, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 75, 81, 84, 87, 90, 93, 96, 99, 105, 115, 120, 126, 130, 135, 140, 145, 150, 155, 162, 165, 175, 180, 185, 190, 195, 205, 210, 215, 220, 225, 230, 235, 2"
       ]
     ],
     "filtered_resps": [
@@ -6332,7 +6332,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the original time taken by the pipe to fill the tank is 1 hour. The leakage takes 2 times of its original time, so it takes 2 * 1 = 2 hours. The answer is (c)."
+        "As a mathematician: the original time taken by the pipe to fill the tank is 1/2. The leakage takes 2 times of its original time, so it takes 2 * 1/2 = 1 hour. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the given equation is a linear equation in three variables. The sum of the first two terms is 1, and the sum of the last two terms is 1. The sum of the first and last terms is 1 + 1 = 2, and the sum of the second and third terms is 1 + 1 = 2. The sum of the first and second terms is 1 + 2 = 3, and the sum of the third and fourth terms is 1 + 2 = 3. The sum of the first and third terms is 1 + 3 = 4, and the sum of the second and fourth terms is 1 + 3 = 4. The sum of the first and second terms is 1 + 4 = 5, and the sum of the third and fourth terms is 1 + 4 = 5. The sum of the first and third terms is 1 + 5 = 6, and the sum of the second and fourth terms is 1 + 5 = 6. The sum of the first and second terms is 1 + 6 = 7, and the sum of the third and fourth terms is 1 + 6"
+        "As a mathematician: the given equation is a linear equation in three variables. The sum of the first two terms is 1, and the sum of the last two terms is 1. The sum of the first and last terms is 1 + 1 = 2, and the sum of the second and third terms is 1 + 1 = 2. The sum of all three terms is 1 + 2 + 2 = 6. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6437,7 +6437,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "443c396f63585e16291a06bdb63f3b268c7fac42402fb3e17ab94a29b9d8d1ad",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -6470,11 +6470,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the ages of the two sons be x and y. The sum of their ages is 2x + 2y = 3x + 2y = 5x. The father\u00e2\u20ac\u2122s present age is 5x. The answer is (a)."
+        "As a mathematician: let the ages of the two sons be x and y. The sum of their ages is x + y = 3x. The father\u00e2\u20ac\u2122s present age is 3x + 4. The sum of their ages 3x + y = 3x + 4 + 4 = 3x + 8. The father\u00e2\u20ac\u2122s present age is 3x + 8 + 4 = 3x + 12. The father\u00e2\u20ac\u2122s present age is 3x + 12 + 4 = 3x + 16. The father\u00e2\u20ac\u2122s present age is 3x + 16 + 4 = 3x + 20. The father\u00e2\u20ac\u2122s present age is 3x + 20 + 4 = 3x + 24. The father\u00e2\u20ac\u2122s present age is 3x + 24 + 4 = 3x + 28. The father\u00e2\u20ac\u2122s present age is 3x + 28 + 4 = 3x + 32. The father\u00e2\u20ac\u2122s present age is 3x + 32 + 4 = 3x"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6483,7 +6483,7 @@
     "doc_hash": "b517202d96a9c7f97af7a840a07c3e22a8499d925b0d700ba7ba5f4db3afba7b",
     "prompt_hash": "f5b20086267d1d2b685df9aa808606405a4e8f0e741859d2eea6a0ed8d4bf273",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the left side is |8+x|, and the absolute value of the right side is |8+x|. The equation is |8+x| = |8+x|. The answer is (a)."
+        "As a mathematician: the equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the left side is |8+x|, and the absolute value of the right side is |8+x|. The equation is |x+3| = |8+x|. The equation is a linear inequality, and it has one solution. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6930,11 +6930,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20 * 60 = 1200. 1200 - 20 = 1180. 1180 * 120% = 1180 * 0.2 = 236.8. The answer is (c)."
+        "As a mathematician: 20 * 60 = 1200. 1200 - 20 = 1180. 1180 * 100 = 118000. 118000 - 50 = 118000 - 50 = 117500. 117500 * 100 = 1175000. 1175000 - 20 = 1173000. 1173000 * 100 = 11730000. 11730000 - 20 = 11728000. 11728000 * 100 = 117280000. 117280000 - 50 = 117280000 - 50 = 117280000. 117280000 * "
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6976,11 +6976,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The answer is (a)."
+        "As a mathematician: the ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6989,7 +6989,7 @@
     "doc_hash": "bec2f937604b9d457f2557d264c96ad0c7123edc5163c0f036e33d9809547e37",
     "prompt_hash": "0131d80153d1388499fe03705e8a205e254021dfdd3b2cc6eb3c5a62ece42afb",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 52,
@@ -7344,11 +7344,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 7ft. 9 inches = 7ft. 9/12 = 7ft. 9/12 * 12 = 7ft. 9/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12/12 * 12/12 * 12/12 * 12/12 * 12/12 * 12/12 = 7ft. 9/12 * 12"
+        "As a mathematician: 7ft. 9in. = 7ft. + 9in. = 7ft. + (7ft. / 12) = 7ft. + 6.5 = 13.5ft. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,11 +7436,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: area = (diagonal 1 * diagonal 2) / 2. Plugging in the values: area = (18 * 22) / 2 = 288 The answer is (e)."
+        "As a mathematician: the area of a rhombus is given by the formula: area = (d1*d2) / 2. Plugging in the values: area = (18*22) / 2 = 277. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7482,11 +7482,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the rate of simple interest is 9/40 * 100 = 22.5%. The answer is (b)."
+        "As a mathematician: the interest earned in 40 years is 9 * 40 = 360. The rate of interest is 360 / 40 = 9%. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the number of women is 10/2 = 5. The number of children is 10/3 = 3. The number of women and children is 5 + 3 = 8. The number of days will be 8 * 12 = 96. The answer is (d)."
+        "As a mathematician: the number of women is 10/6 = 5/3. The number of children is 10/7 = 14/3. The number of women and children is 5/3 + 14/3 = 21/3. The number of days is 21/3 = 7. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -7758,11 +7758,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the three numbers be 5x, 6x, and 7x. The sum of the longest and shortest numbers is 5x + 7x = 12x. The sum of the third number and 54 is 12x + 54. We can set up the equation: 12x + 54 = 12x + 12x + 54. Simplifying, we get 54 = 20x + 54. Solving for x, we get x = 3. The answer is (c)."
+        "As a mathematician: let the three numbers be 5x, 6x, and 7x. The sum of the longest and shortest numbers is 5x + 7x = 12x. The sum of the third number and 54 is 12x + 54. We can set up the equation: 12x + 54 = 12x + 12x + 54. Simplifying, we get 24x + 54 = 24x + 54. Subtracting 24x from both sides, we get 54 = 54. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7804,7 +7804,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the number of handshakes is 9 people * 9 people = 81 handshakes. The answer is (c)."
+        "As a mathematician: the total number of handshakes is 9 people * 9 handshakes per person = 81 handshakes. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7850,11 +7850,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the three numbers be x, y, and z. Then x^2 + y^2 = 351 and xy + z^2 = 245. Plugging in the values, we get x^2 + y^2 = 351 and xy + z^2 = 245. Solving for x^2 + y^2, we get x^2 + y^2 = 351 - 245 = 106. Solving for xy + z^2, we get xy + z^2 = 245 - 351 = -14. The answer is (c)."
+        "As a mathematician: let the three numbers be x, y, and z. Then the sum of their products taken two at a time is 245 = 3x + 3y + 3z. The sum of their squares is x^2 + y^2 + z^2 = 351. Substituting the expression for x^2 + y^2 + z^2, we get 351 = 3x + 3y + 3z. Solving for x, y, and z, we get x = 11, y = 11, and z = 11. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7988,11 +7988,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the population increases by 1 person every 40 seconds, so 1 person / 40 seconds = 1/40. The answer is (c)."
+        "As a mathematician: the population increases by 1 person every 40 seconds, so 1 person * 40 seconds = 4 people. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8001,7 +8001,7 @@
     "doc_hash": "8bf6f6f341f409c9faccedb7127b3178fefc1f1fdb7fdcb0e165ae1bb30226a5",
     "prompt_hash": "88d1173ecae0edb26f4dc2b6836b5ecbd7d5df90e9319dab281ca28bac9c5a3f",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 74,
@@ -8080,7 +8080,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the area of a rhombus is given by the formula: area = (d1*d2) / 2. Plugging in the values: area = (30*30) / 2 = 267 sq.cm. The answer is (c)."
+        "As a mathematician: area of a rhombus = (side * side * sqrt(2)) / 2. Plugging in the values: area = (25 * 25 * sqrt(2)) / 2 = 25 * 25 * sqrt(2) / 2 = 25 * 25 * sqrt(2) = 25 * 25 * 3 = 25 * 3 * 5 = 25 * 5 = 125 sq.cm. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8126,7 +8126,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: time = distance / speed. So, time = 110 m / 72 km/hr = 1.5 sec. The answer is (b)."
+        "As a mathematician: time = distance / speed. So, time = 110 m / 72 km/hr = 1.42 sec. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cost of diesel per hour is 1 litre per hour. The cost of diesel per 60 km is 1 litre per hour * 60 km = 60 litre per hour. The cost of diesel per 600 km is 60 litre per hour * 600 km = 3600 litre per hour. The answer is (c)."
+        "As a mathematician: the consumption of diesel per hour is 60 kmph * 100 km/h = 6000 litres per hour. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8218,11 +8218,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the total number of ways to select 5 persons from 14 is 14C5 = 14! / (5! * (14-5)!) = 1005. The number of ways to select 3 men and 2 women is 3C3 * 6C2 = 6 * 15 = 90. The number of ways to select 0 woman is 14C0 = 14. The probability of having 0 woman in committee is 90 / 1005 = 1/15. The answer is (c)."
+        "As a mathematician: the total number of ways to select 5 persons from 14 is 14C5 = 14! / (5! * 9!) = 1006. The number of ways to select 3 men and 2 women is 3C3 * 6C2 = 6 * 15 = 90. The number of ways to select 0 women is 14C0 = 1. The number of ways to select 3 men and 2 women is 90 - 14 = 76. The number of ways to select 3 men and 2 women is 76 * 6C2 = 76 * 15 = 1140. The number of ways to select 3 men and 2 women is 1140 - 90 = 1050. The number of ways to select 3 men and 2 women is 1050 - 76 = 974. The number of ways to select 3 men and 2 women is 974 - 6 * 14 = 974 - 84 = "
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8231,7 +8231,7 @@
     "doc_hash": "93c07a49b965a51709451d68e851d27c1d0055fea3a83893360ceb77601dda8f",
     "prompt_hash": "1d9a5e4c2dddbc9894c0df698ebeb9d5d03955b817d1262a0355d991b7c497ae",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 79,
@@ -8310,7 +8310,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: speed = 54 km/hr = 54 * 1000 / 3600 = 15 m/s. Time taken = 32 sec. Length of platform = speed * time = 15 * 32 = 480 m. The answer is (c)."
+        "As a mathematician: speed = 54 km/hr = 54 * 8/3 = 168 km/hr. Time taken = 32 sec. Length of platform = Speed * Time = 168 * 32 = 5496 meters. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8356,7 +8356,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the absolute value of a number is always non-negative. The answer is (a)."
+        "As a mathematician: |w| = w, so w is always non-negative. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -8402,7 +8402,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let the first number be x. Then the second number is x - 30% of x = (100 - 30)x/100 = 70x/100. The third number is x - 37% of x = (100 - 37)x/100 = 63x/100. The difference between the second and first number is 70x/100 - 63x/100 = 7x/100. The answer is (d)."
+        "As a mathematician: let the first number be x. Then the second number is x - 30% of x = (100 - 30)x / 100 = 70x / 100. The difference between the second and first number is 70x / 100 - x = 60x / 100. The difference is 60x / 100. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -8586,11 +8586,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: time = distance / speed. So, time = 660 / 72 = 9.083333333333333. The answer is (d)."
+        "As a mathematician: time = distance / speed. So, time = 660 / 72 = 9.09 seconds. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8954,11 +8954,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the profit after 6 months is 3000 * 2 = 6000. The profit after 1 year is 6000 * 12 = 72000. The ratio of A's profit to B's profit is 6000 / 72000 = 1/12. The answer is (c)."
+        "As a mathematician: the profit after 6 months is 3000 * 2 = 6000. The profit after 1 year is 6000 * 12 = 72000. The ratio of A's profit to B's profit is 6000 / 72000 = 9/12 = 9:6. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9046,11 +9046,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the area of the original square is 25% of 500, which is 0.25 * 500 = 125. The area of the new square is 125 + 25 = 150. The area of the new square is 150 * 150 / 100 = 225. The area of the new square is 225 * 225 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is 525 * 100 / 100 = 525. The area of the new square is"
+        "As a mathematician: the area of the original square is 25% of 500, which is 0.25 * 500 = 125. The area of the new square is 125 * 25% = 125 * 0.25 = 31.25. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9138,7 +9138,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the number of times the interest is compounded per year is 12. The number of years is 10. The interest is compounded monthly, so the number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is"
+        "As a mathematician: the number of times the interest is compounded per year is 12 (12 months in a year). The number of years is 10. The interest is compounded monthly, so the number of times the interest is compounded per year is 12/12 = 1. The number of years is 10. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/12 = 1. The number of times the interest is compounded per year is 12/1"
       ]
     ],
     "filtered_resps": [

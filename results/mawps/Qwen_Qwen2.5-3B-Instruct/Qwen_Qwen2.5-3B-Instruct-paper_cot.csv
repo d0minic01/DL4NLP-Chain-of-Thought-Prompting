@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,mawps_paper_cot,mawps,paper_cot,fewshot_cot,mawps,0.9,0.04,190.1,8,100,24.5,9.56

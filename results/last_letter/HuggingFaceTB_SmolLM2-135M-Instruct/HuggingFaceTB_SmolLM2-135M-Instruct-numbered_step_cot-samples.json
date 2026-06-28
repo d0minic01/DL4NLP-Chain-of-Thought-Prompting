@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Emma = w. Step 2: Take last letter of jungle = e. Step 3: Combine: we. The answer is we."
+        "Step 1: Take last letter of Emma = w. Step 2: Take last letter of jungle = e. Step 3: Combine: we. The answer is ew."
       ]
     ],
     "filtered_resps": [
-      "we"
+      "ew"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Flame Harbor = l. Step 2: Take last letter of Guitar = e. Step 3: Combine: eh. The answer is eh."
+        "Step 1: Take last letter of Flame Harbor = l. Step 2: Take last letter of Gourmet = m. Step 3: Combine: m. The answer is m."
       ]
     ],
     "filtered_resps": [
-      "eh"
+      "m"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Ruth = y. Step 2: Take last letter of Yasmin = j. Step 3: Combine: ysj. The answer is ysj."
+        "Step 1: Take last letter of Ruth = y. Step 2: Take last letter of Yasmin = j. Step 3: Combine: ys. The answer is ys."
       ]
     ],
     "filtered_resps": [
-      "ysj"
+      "ys"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Clara = r. Step 2: Take last letter of Feather = s. Step 3: Combine: rs. The answer is rs."
+        "Step 1: Take last letter of Clara = r. Step 2: Take last letter of Feather = d. Step 3: Combine: rd. The answer is rd."
       ]
     ],
     "filtered_resps": [
-      "rs"
+      "rd"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,11 +1086,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of feather = q. Step 2: Take last letter of quilt = i. Step 3: Combine: qi. The answer is qi."
+        "Step 1: Take last letter of Feather = q. Step 2: Take last letter of quilt = t. Step 3: Combine: tq. The answer is tq."
       ]
     ],
     "filtered_resps": [
-      "qi"
+      "tq"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1200,11 +1200,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Des = s. Step 2: Take last letter of Kate = t. Step 3: Combine: tk. The answer is tk."
+        "Step 1: Take last letter of Des = s. Step 2: Take last letter of Kate = t. Step 3: Combine: s. The answer is t."
       ]
     ],
     "filtered_resps": [
-      "tk"
+      "t"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1314,11 +1314,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Olivia = o. Step 2: Take last letter of Carol = n. Step 3: Combine: on. The answer is n."
+        "Step 1: Take last letter of Olivia = o. Step 2: Take last letter of Carol = l. Step 3: Combine: oll. The answer is oll."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "oll"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Donna = n. Step 2: Take last letter of Yarn = n. Step 3: Combine: nn. The answer is nnn."
+        "Step 1: Take last letter of Donna = n. Step 2: Take last letter of yarn = y. Step 3: Combine: ny. The answer is ny."
       ]
     ],
     "filtered_resps": [
-      "nnn"
+      "ny"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Puzzle = l. Step 2: Take last letter of Novel = n. Step 3: Combine: ln. The answer is ln."
+        "Step 1: Take last letter of Puzzle = l. Step 2: Take last letter of Novel = d. Step 3: Combine: dn. The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "dn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Forest = n. Step 2: Take last letter of Engine = e. Step 3: Combine: n. The answer is n."
+        "Step 1: Take last letter of Forest = n. Step 2: Take last letter of Engine = n. Step 3: Combine: nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "nnn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1922,11 +1922,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Donna = h. Step 2: Take last letter of Hammer = m. Step 3: Combine: mh. The answer is mh."
+        "Step 1: Take last letter of Donna = h. Step 2: Take last letter of Hammer = d. Step 3: Combine: dn. The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "mh"
+      "dn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Vera = v. Step 2: Take last letter of oven = u. Step 3: Combine: uv. The answer is uv."
+        "Step 1: Take last letter of Vera = v. Step 2: Take last letter of oven = o. Step 3: Combine: ov. The answer is ov."
       ]
     ],
     "filtered_resps": [
-      "uv"
+      "ov"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Castle = r. Step 2: Take last letter of Rocket = c. Step 3: Combine: rc. The answer is rc."
+        "Step 1: Take last letter of Castle = r. Step 2: Take last letter of rocket = c. Step 3: Combine: rc. The answer is rc."
       ]
     ],
     "filtered_resps": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Candle = l. Step 2: Take last letter of Jack = g. Step 3: Combine: gn. The answer is gn."
+        "Step 1: Take last letter of Candle = j. Step 2: Take last letter of Jack = g. Step 3: Combine: jg. The answer is jg."
       ]
     ],
     "filtered_resps": [
-      "gn"
+      "jg"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2720,11 +2720,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of anchor = b. Step 2: Take last letter of Brian = n. Step 3: Combine: bn. The answer is nn."
+        "Step 1: Take last letter of anchor = b. Step 2: Take last letter of Brian = n. Step 3: Combine: nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "nnn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of David = f. Step 2: Take last letter of Forest = d. Step 3: Combine: fd. The answer is fd."
+        "Step 1: Take last letter of Forest = d. Step 2: Take last letter of David = f. Step 3: Combine: f. The answer is f."
       ]
     ],
     "filtered_resps": [
-      "fd"
+      "f"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Ruth = l. Step 2: Take last letter of Ruth = v. Step 3: Combine: vr. The answer is vr."
+        "Step 1: Take last letter of Ruth = l. Step 2: Take last letter of Ruth = v. Step 3: Combine: rv. The answer is rv."
       ]
     ],
     "filtered_resps": [
-      "vr"
+      "rv"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,11 +2910,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Glove = v. Step 2: Take last letter of window = violet. Step 3: Combine: vv. The answer is vv."
+        "Step 1: Take last letter of Glove = v. Step 2: Take last letter of window = violet. Step 3: Combine: vv. The answer is vvv."
       ]
     ],
     "filtered_resps": [
-      "vv"
+      "vvv"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Yellow = l. Step 2: Take last letter of Lan = n. Step 3: Combine: ln. The answer is ln."
+        "Step 1: Take last letter of yellow = y. Step 2: Take last letter of lantern = l. Step 3: Combine: yl. The answer is yl."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "yl"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3024,11 +3024,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Xena = n. Step 2: Take last letter of Walter = a. Step 3: Combine: na. The answer is na."
+        "Step 1: Take last letter of Xena = n. Step 2: Take last letter of Walter = g. Step 3: Combine: ng. The answer is ng."
       ]
     ],
     "filtered_resps": [
-      "na"
+      "ng"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Henry = o. Step 2: Take last letter of elbow = e. Step 3: Combine: oe. The answer is oe."
+        "Step 1: Take last letter of Henry = o. Step 2: Take last letter of elbow = n. Step 3: Combine: o. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "oe"
+      "n"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Iris = r. Step 2: Take last letter of rocket = butter = kettle = I. Step 3: Combine: rbk. The answer is rbk."
+        "Step 1: Take last letter of Iris = r. Step 2: Take last letter of rocket = butter = kettle = I. Step 3: Combine: rk. The answer is rk."
       ]
     ],
     "filtered_resps": [
-      "rbk"
+      "rk"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Quilt violet Tara Dragon = t. Step 2: Take last letter of violet = v. Step 3: Combine: vt. The answer is vt."
+        "Step 1: Take last letter of Quilt violet Tara Dragon = t. Step 2: Take last letter of violet = v. Step 3: Combine: v. The answer is v."
       ]
     ],
     "filtered_resps": [
-      "vt"
+      "v"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Emma = w. Step 2: Take last letter of jungle = e. Step 3: Combine: we. The answer is we."
+        "Step 1: Take last letter of Emma = w. Step 2: Take last letter of jungle = e. Step 3: Combine: we. The answer is ew."
       ]
     ],
     "filtered_resps": [
-      "we"
+      "ew"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Flame Harbor = l. Step 2: Take last letter of Guitar = e. Step 3: Combine: eh. The answer is eh."
+        "Step 1: Take last letter of Flame Harbor = l. Step 2: Take last letter of Gourmet = m. Step 3: Combine: m. The answer is m."
       ]
     ],
     "filtered_resps": [
-      "eh"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Ruth = y. Step 2: Take last letter of Yasmin = j. Step 3: Combine: ysj. The answer is ysj."
+        "Step 1: Take last letter of Ruth = y. Step 2: Take last letter of Yasmin = j. Step 3: Combine: ys. The answer is ys."
       ]
     ],
     "filtered_resps": [
-      "ysj"
+      "ys"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Clara = r. Step 2: Take last letter of Feather = s. Step 3: Combine: rs. The answer is rs."
+        "Step 1: Take last letter of Clara = r. Step 2: Take last letter of Feather = d. Step 3: Combine: rd. The answer is rd."
       ]
     ],
     "filtered_resps": [
-      "rs"
+      "rd"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,11 +4886,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of feather = q. Step 2: Take last letter of quilt = i. Step 3: Combine: qi. The answer is qi."
+        "Step 1: Take last letter of Feather = q. Step 2: Take last letter of quilt = t. Step 3: Combine: tq. The answer is tq."
       ]
     ],
     "filtered_resps": [
-      "qi"
+      "tq"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5000,11 +5000,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Des = s. Step 2: Take last letter of Kate = t. Step 3: Combine: tk. The answer is tk."
+        "Step 1: Take last letter of Des = s. Step 2: Take last letter of Kate = t. Step 3: Combine: s. The answer is t."
       ]
     ],
     "filtered_resps": [
-      "tk"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5114,11 +5114,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Olivia = o. Step 2: Take last letter of Carol = n. Step 3: Combine: on. The answer is n."
+        "Step 1: Take last letter of Olivia = o. Step 2: Take last letter of Carol = l. Step 3: Combine: oll. The answer is oll."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "oll"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Donna = n. Step 2: Take last letter of Yarn = n. Step 3: Combine: nn. The answer is nnn."
+        "Step 1: Take last letter of Donna = n. Step 2: Take last letter of yarn = y. Step 3: Combine: ny. The answer is ny."
       ]
     ],
     "filtered_resps": [
-      "nnn"
+      "ny"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Puzzle = l. Step 2: Take last letter of Novel = n. Step 3: Combine: ln. The answer is ln."
+        "Step 1: Take last letter of Puzzle = l. Step 2: Take last letter of Novel = d. Step 3: Combine: dn. The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "dn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Forest = n. Step 2: Take last letter of Engine = e. Step 3: Combine: n. The answer is n."
+        "Step 1: Take last letter of Forest = n. Step 2: Take last letter of Engine = n. Step 3: Combine: nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "nnn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5722,11 +5722,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Donna = h. Step 2: Take last letter of Hammer = m. Step 3: Combine: mh. The answer is mh."
+        "Step 1: Take last letter of Donna = h. Step 2: Take last letter of Hammer = d. Step 3: Combine: dn. The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "mh"
+      "dn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6064,11 +6064,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Vera = v. Step 2: Take last letter of oven = u. Step 3: Combine: uv. The answer is uv."
+        "Step 1: Take last letter of Vera = v. Step 2: Take last letter of oven = o. Step 3: Combine: ov. The answer is ov."
       ]
     ],
     "filtered_resps": [
-      "uv"
+      "ov"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Castle = r. Step 2: Take last letter of Rocket = c. Step 3: Combine: rc. The answer is rc."
+        "Step 1: Take last letter of Castle = r. Step 2: Take last letter of rocket = c. Step 3: Combine: rc. The answer is rc."
       ]
     ],
     "filtered_resps": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Candle = l. Step 2: Take last letter of Jack = g. Step 3: Combine: gn. The answer is gn."
+        "Step 1: Take last letter of Candle = j. Step 2: Take last letter of Jack = g. Step 3: Combine: jg. The answer is jg."
       ]
     ],
     "filtered_resps": [
-      "gn"
+      "jg"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6520,11 +6520,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of anchor = b. Step 2: Take last letter of Brian = n. Step 3: Combine: bn. The answer is nn."
+        "Step 1: Take last letter of anchor = b. Step 2: Take last letter of Brian = n. Step 3: Combine: nn. The answer is nnn."
       ]
     ],
     "filtered_resps": [
-      "nn"
+      "nnn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of David = f. Step 2: Take last letter of Forest = d. Step 3: Combine: fd. The answer is fd."
+        "Step 1: Take last letter of Forest = d. Step 2: Take last letter of David = f. Step 3: Combine: f. The answer is f."
       ]
     ],
     "filtered_resps": [
-      "fd"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Ruth = l. Step 2: Take last letter of Ruth = v. Step 3: Combine: vr. The answer is vr."
+        "Step 1: Take last letter of Ruth = l. Step 2: Take last letter of Ruth = v. Step 3: Combine: rv. The answer is rv."
       ]
     ],
     "filtered_resps": [
-      "vr"
+      "rv"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Glove = v. Step 2: Take last letter of window = violet. Step 3: Combine: vv. The answer is vv."
+        "Step 1: Take last letter of Glove = v. Step 2: Take last letter of window = violet. Step 3: Combine: vv. The answer is vvv."
       ]
     ],
     "filtered_resps": [
-      "vv"
+      "vvv"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Yellow = l. Step 2: Take last letter of Lan = n. Step 3: Combine: ln. The answer is ln."
+        "Step 1: Take last letter of yellow = y. Step 2: Take last letter of lantern = l. Step 3: Combine: yl. The answer is yl."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "yl"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Xena = n. Step 2: Take last letter of Walter = a. Step 3: Combine: na. The answer is na."
+        "Step 1: Take last letter of Xena = n. Step 2: Take last letter of Walter = g. Step 3: Combine: ng. The answer is ng."
       ]
     ],
     "filtered_resps": [
-      "na"
+      "ng"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Henry = o. Step 2: Take last letter of elbow = e. Step 3: Combine: oe. The answer is oe."
+        "Step 1: Take last letter of Henry = o. Step 2: Take last letter of elbow = n. Step 3: Combine: o. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "oe"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Iris = r. Step 2: Take last letter of rocket = butter = kettle = I. Step 3: Combine: rbk. The answer is rbk."
+        "Step 1: Take last letter of Iris = r. Step 2: Take last letter of rocket = butter = kettle = I. Step 3: Combine: rk. The answer is rk."
       ]
     ],
     "filtered_resps": [
-      "rbk"
+      "rk"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "Step 1: Take last letter of Quilt violet Tara Dragon = t. Step 2: Take last letter of violet = v. Step 3: Combine: vt. The answer is vt."
+        "Step 1: Take last letter of Quilt violet Tara Dragon = t. Step 2: Take last letter of violet = v. Step 3: Combine: v. The answer is v."
       ]
     ],
     "filtered_resps": [
-      "vt"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-1b-it,svamp_caveman_mode,svamp,caveman_mode,fewshot_cot,svamp,0.38,0.47,353.8,8,100,34.81,4.38

@@ -98,7 +98,7 @@
     ],
     "resps": [
       [
-        "The answer is $135,000."
+        "The answer is $1,050."
       ]
     ],
     "filtered_resps": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "The answer is 150."
+        "The answer is 125."
       ]
     ],
     "filtered_resps": [
-      "150"
+      "125"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,7 +440,7 @@
     ],
     "resps": [
       [
-        "The answer is $180."
+        "The answer is $178."
       ]
     ],
     "filtered_resps": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "The answer is 1."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "1"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "The answer is 12."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1200,11 +1200,11 @@
     ],
     "resps": [
       [
-        "The answer is 15."
+        "The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "The answer is 23."
+        "The answer is 220."
       ]
     ],
     "filtered_resps": [
-      "23"
+      "220"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1922,11 +1922,11 @@
     ],
     "resps": [
       [
-        "The answer is $500."
+        "The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "The answer is 20."
+        "The answer is 25."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "25"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2530,11 +2530,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "The answer is 175."
+        "The answer is 300."
       ]
     ],
     "filtered_resps": [
-      "175"
+      "300"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "The answer is 100."
+        "The answer is 105."
       ]
     ],
     "filtered_resps": [
-      "100"
+      "105"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "The answer is $117."
+        "The answer is $10."
       ]
     ],
     "filtered_resps": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "The answer is $135,000."
+        "The answer is $1,050."
       ]
     ],
     "filtered_resps": [
-      "$135,000."
+      "$1,050."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "The answer is 150."
+        "The answer is 125."
       ]
     ],
     "filtered_resps": [
-      "150."
+      "125."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "The answer is $180."
+        "The answer is $178."
       ]
     ],
     "filtered_resps": [
-      "$180."
+      "$178."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "The answer is 1."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "1."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "The answer is 12."
+        "The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5000,11 +5000,11 @@
     ],
     "resps": [
       [
-        "The answer is 15."
+        "The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "15."
+      "20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "The answer is 23."
+        "The answer is 220."
       ]
     ],
     "filtered_resps": [
-      "23."
+      "220."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5722,11 +5722,11 @@
     ],
     "resps": [
       [
-        "The answer is $500."
+        "The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "$500."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "The answer is 20."
+        "The answer is 25."
       ]
     ],
     "filtered_resps": [
-      "20."
+      "25."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6330,11 +6330,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "The answer is 175."
+        "The answer is 300."
       ]
     ],
     "filtered_resps": [
-      "175."
+      "300."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "The answer is 100."
+        "The answer is 105."
       ]
     ],
     "filtered_resps": [
-      "100."
+      "105."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "The answer is $117."
+        "The answer is $10."
       ]
     ],
     "filtered_resps": [
-      "$117."
+      "$10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "The answer is 10."
+        "The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "Janet's ducks lay 16 eggs per day. She eats 3 for breakfast every morning. So she eats 16 - 3 = 13 eggs per day. She bakes 4 muffins for her friends every day. So she bakes 13 - 4 = 9 muffins per day. She sells the remainder at the farmers' market for $2 per fresh duck egg. So she makes 9 x 2 = $18 per day at the farmers' market. The answer is 18."
+        "Janet's ducks lay 16 eggs per day. She eats 3 for breakfast every morning. So she eats 16 - 3 = 13 eggs per day. She bakes 4 muffins for her friends every day. So she bakes 13 - 4 = 9 muffins per day. She sells the remainder at the farmers' market for $2 per fresh duck egg. So she makes 9 x 2 = $18 per day. The answer is 18."
       ]
     ],
     "filtered_resps": [
@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "A robe takes 2 bolts of blue fiber and half that much white fiber. So it takes 2 x 1 = 2 bolts of blue fiber. Then it takes 1 / 2 x 1 = 1/2 of that much white fiber. So it takes 2 x 1/2 = 1 bolt of white fiber. The answer is 1 bolt."
+        "A robe takes 2 bolts of blue fiber and half that much white fiber. So it takes 2 x 1 = 2 bolts of blue fiber. Then it takes 1 / 2 x 1 = 1/2 of that much white fiber. So it takes 2 x 1/2 = 1 bolt of white fiber. The answer is 1."
       ]
     ],
     "filtered_resps": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "John drives for 3 hours at 60 mph. So he has 3 x 60 = 180 miles. He spends the first 2 hours in standstill traffic. So he has 180 - 2 x 60 = 180 - 120 = 60 miles. He spends the next half-hour driving at 30 mph. So he has 60 - 30 = 30 miles. He spends the remaining time of the 4 hours going at 80 mph. So he has 80 - 30 = 50 miles. The answer is 50."
+        "John drives for 3 hours at 60 mph. So he has 3 x 60 = 180 miles. He spends 2 hours in standstill traffic. So he has 180 - 2 = 178 miles. He spends the next half-hour driving at 30 mph. So he has 178 - 30 = 148 miles. He spends the remaining time of the 4 hours going at 80 mph. So he has 148 - 80 = 68 miles. The answer is 68."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "68"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "The number of downloads in the first month was 60. In the second month, it was three times as many, so it was 60 x 3 = 180. In the third month, it was reduced by 30%, so it was 180 - 0.30 * 180 = 126. The answer is 126."
+        "In the first month, the program had 60 downloads. In the second month, it was three times as many as the first month, so it had 60 x 3 = 180 downloads. In the third month, it was reduced by 30% of the first month's downloads, so it had 180 x 0.3 = 54 downloads. The total number of downloads over the three months is 180 + 54 + 180 = 344. The answer is 344."
       ]
     ],
     "filtered_resps": [
-      "126"
+      "344"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "Toula bought 3 dozen donuts which cost 3 x 12 = 36 dollars. 2 dozen mini cupcakes which cost 2 x 12 = 24 dollars. 6 dozen mini cheesecakes which cost 6 x 12 = 72 dollars. So the total cost is 36 + 24 + 72 = 120 dollars. The answer is 120."
+        "Toula bought 3 dozen donuts which cost 3 x 60 = 180 dollars. 2 dozen mini cupcakes which cost 2 x 60 = 120 dollars. 6 dozen mini cheesecakes which cost 6 x 55 = 330 dollars. So the total cost is 180 + 120 + 330 = 510 dollars. The answer is 510."
       ]
     ],
     "filtered_resps": [
-      "120"
+      "510"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "The tree will cost $90 to plant. Each year it will grow 7 lemons, which will be sold for $1.5 each. So in 7 years, it will grow 7 x 7 = 49 lemons. It will cost $90 x 49 = $4,030. It will take 49 / 1.5 = 32 years to earn money on the lemon tree. The answer is 32."
+        "Carlos will plant the tree for 1 year. Each year it will grow 7 lemons, so it will grow 7 x 7 = 49 lemons. It will cost 3 x 49 = 147 dollars to plant the tree. It will cost 90 - 147 = -147 dollars to water and feed the tree. It will cost 147 - 147 = 0 dollars to water and feed the tree. So it will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 147 = 0 dollars to water and feed the tree. So it will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 14"
       ]
     ],
     "filtered_resps": [
-      "32"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -592,11 +592,11 @@
     ],
     "resps": [
       [
-        "The jewelry market is expected to rise 2.5% and the electronic gadgets market will rise 1.2% within the same month. To find the total increase in value, we add the two percentages: 2.5% + 1.2% = 3.7%. The jewelry market will increase by 3.7% of $5,000, which is $1,750. The electronic gadgets market will increase by 3.7% of $8,000, which is $2,960. The total increase in value is $1,750 + $2,960 = $4,710. The merchant would make a profit of $4,710 - $5,000 = -$1,710. The answer is -$1,710."
+        "The jewelry market is expected to rise 2.5% in the month, so the jewelry market price will increase by 2.5% of $5,000, which is 0.025 * $5,000 = $125. The electronic gadgets market is expected to rise 1.2% in the month, so the electronic gadgets market price will increase by 1.2% of $8,000, which is 0.012 * $8,000 = $96. The total increase in the jewelry market price is $125 + $96 = $221. The total increase in the electronic gadgets market price is $96 + $96 = $192. The total increase in the merchant's profit is $221 - $192 = $39. The answer is 39."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "39"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "Jill gets paid $20 per hour. 50 weeks a year * 35 hours a week = 1750 hours. 1750 hours * 20 dollars per hour = $35,000. The answer is 35,000."
+        "Jill gets paid $20 per hour. 50 weeks a year * 35 hours a week = 1750 hours. 1750 hours * 20 dollars per hour = 35000 dollars. The answer is 35000."
       ]
     ],
     "filtered_resps": [
-      "35,000"
+      "35000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "Claire makes 3 eggs for breakfast every morning. In 4 weeks, she will make 3 x 4 = 12 eggs. There are 12 eggs in a dozen. So Claire will eat 12 / 12 = 1 dozen eggs in 4 weeks. The answer is 1."
+        "Claire makes 3 eggs for breakfast every morning. In 4 weeks, she will make 3 x 4 = 12 eggs. So she will eat 12 / 1 = 12 dozens of eggs in 4 weeks. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "1"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "A candle melts by 2 centimeters every hour that it burns. So after 1 hour, it will be 1 x 2 = 2 centimeters shorter. After 2 hours, it will be 2 x 2 = 4 centimeters shorter. After 3 hours, it will be 4 x 2 = 8 centimeters shorter. After 4 hours, it will be 8 x 2 = 16 centimeters shorter. After 5 hours, it will be 16 x 2 = 32 centimeters shorter. The answer is 32."
+        "A candle melts by 2 centimeters every hour that it burns. So after 1:00 PM, it will be 1:00 PM + 2 hours = 2:00 PM. After 5:00 PM, it will be 5:00 PM + 2 hours = 7:00 PM. The difference between 2:00 PM and 7:00 PM is 20 centimeters. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "32"
+      "20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "Kyle bought last year's best-selling book for $19.50. A 25% discount is 25% of $19.50, which is 0.25 * $19.50 = $4.775. So the original price of the book is $19.50 - $4.775 = $14.725. The answer is 14.73."
+        "Kyle bought last year's best-selling book for $19.50. A 25% discount means he got 25% of the original price. So 25% of $19.50 is 0.25 * $19.50 = $4.775. So the original price of the book was $19.50 - $4.775 = $14.725. The answer is 14.73."
       ]
     ],
     "filtered_resps": [
@@ -1124,11 +1124,11 @@
     ],
     "resps": [
       [
-        "The boots cost $33. The high heels cost twice as much, so they cost 33 x 2 = $66. The total cost of the high heels is $33 + $66 = $99. The answer is 99."
+        "The boots cost 5 dollars less than the heels. So the boots cost 5 - 33 = -20 dollars. The answer is -20."
       ]
     ],
     "filtered_resps": [
-      "99"
+      "-20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "The ratio of Darrell's age to Allen's age is 7:11. If their total age is 162, then Allen's age 10 years from now will be 162 / 11 * 10 = 156. The answer is 156."
+        "The ratio of Darrell's age to Allen's age is 7:11. If their total age is 162, then Allen's age is 162 / 2 = 81. Allen's age 10 years from now is 81 + 10 = 91. The answer is 91."
       ]
     ],
     "filtered_resps": [
-      "156"
+      "91"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1238,7 +1238,7 @@
     ],
     "resps": [
       [
-        "John takes care of 10 dogs. Each dog takes 5 hours a day to walk and take care of their business. So he takes care of 10 x 5 = 50 hours a day. He spends 50 hours a week taking care of dogs. The answer is 50."
+        "John takes care of 10 dogs. Each dog takes .5 hours a day to walk and take care of their business. So each dog takes 10 x .5 = 5 hours a day. So he takes care of 10 x 5 = 50 hours a week. The answer is 50."
       ]
     ],
     "filtered_resps": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "John runs 60 miles a week. He runs 3 days a week. So he runs 60 miles / 3 days = 20 miles per day. He runs 3 hours the first day. So he runs 20 miles / 3 hours = 6.67 miles per hour. The answer is 6.67."
+        "John runs 60 miles a week. He runs 3 days a week. So he runs 60 x 3 = 180 miles in 3 weeks. He runs 180 / 3 = 60 miles in 1 week. He runs 60 / 3 = 20 miles in 1 day. He runs 20 / 2 = 10 miles in 1 hour. He runs 10 / 2 = 5 miles in 1 minute. He runs 5 / 2 = 2.5 miles in 1 second. He runs 2.5 / 2 = 1.25 miles in 1 second. He runs 1.25 / 2 = 0.625 miles in 1 second. He runs 0.625 / 2 = 0.3125 miles in 1 second. He runs 0.3125 / 2 = 0.15625 miles in 1 second. He runs 0.15625 / 2 = 0.078125 miles in 1 second. He runs 0"
       ]
     ],
     "filtered_resps": [
-      "6.67"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "A 300g bag of chips has 5 servings. So you can eat 300g / 5 servings = 60g of chips. If your daily calorie target is 2000 calories, then you can eat 60g / 2000 calories = 0.03 grams of chips per day. The answer is 0.03."
+        "A 300g bag has 5 servings. So you can eat 300g / 5 servings = 60 grams. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "0.03"
+      "60"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,7 +1732,7 @@
     ],
     "resps": [
       [
-        "Meredith writes 5 articles on Monday and 2/5 times more on Tuesday than on Monday. So she wrote 5 x 2/5 = 1 articles on Tuesday.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday. So she wrote 1 x 2 = 2 articles on Wednesday.\nIn total, she wrote 5 + 1 + 2 = 8 articles in the three days.\nThe answer is 8."
+        "Meredith writes 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. So she wrote 5 x 2/5 = 1 articles on Tuesday.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday. So she wrote 1 x 2 = 2 articles on Wednesday.\nIn total, she wrote 5 + 1 + 2 = 8 articles in the three days.\nThe answer is 8."
       ]
     ],
     "filtered_resps": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "Candice had 80 post-it notes in her purse. 23 post-it notes were in the package she purchased. So she had 80 - 23 = 57 post-it notes remaining. The answer is 57."
+        "Candice had 80 post-it notes in her purse. She purchased a package of 220 post-it notes. So she had 80 - 220 = -180 post-it notes. She had 23 post-it notes remaining. The answer is -180."
       ]
     ],
     "filtered_resps": [
-      "57"
+      "-180"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "The wire was cut into pieces 6 inches long. Tracy used 4 feet of wire. So she used 4 x 6 = 24 pieces of wire. The answer is 24."
+        "The wire was cut into pieces 6 inches long. If it was 4 feet long, then each piece was 6 inches long. So she obtained 4 / 6 = 2 pieces. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "24"
+      "2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "Uriah's book bag is getting too heavy. So he needs to remove 15 pounds. If his comic books weigh 1/4 pound each, then 15 / 4 = 3.75 pounds. If his toys weigh 1/2 pound each, then 30 / 2 = 15 pounds. So he needs to remove 3.75 + 15 = 18.75 pounds. The answer is 18.75."
+        "Uriah's book bag is getting too heavy. So he needs to remove 15 pounds. If his comic books weigh 1/4 pound each, then he needs to remove 15 / 4 = 3.75 pounds. If his toys weigh 1/2 pound each, then he needs to remove 3.75 / 2 = 1.875 pounds. The answer is 1.875."
       ]
     ],
     "filtered_resps": [
-      "18.75"
+      "1.875"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "Janet paid $500 for the brooch material. She also paid $800 for the jeweler to construct it. So she paid $500 + $800 = $1300. She also paid 10% of that to get it insured. So she paid $1300 x 0.10 = $130. The answer is $130."
+        "Janet paid $500 for the brooch material. She also paid $800 for the jeweler to construct it. So she paid $500 + $800 = $1300. She also paid 10% of that to get it insured. So she paid 10% of $1300 = $1300 x 0.10 = $130. The answer is $130."
       ]
     ],
     "filtered_resps": [
@@ -2682,11 +2682,11 @@
     ],
     "resps": [
       [
-        "Judy teaches 5 dance classes on the weekdays. So she teaches 5 x 5 = 25 classes on the weekdays. She teaches 8 classes on Saturday. So she teaches 25 + 8 = 33 classes on Saturday. She charges $15.00 per student. So she makes 33 x 15 = $505.00 in 1 week. The answer is 505."
+        "Judy teaches 5 dance classes on the weekdays. So she teaches 5 x 5 = 25 classes. She charges $15.00 per student. So she makes 25 x 15 = $375.00 in 1 week. The answer is 375."
       ]
     ],
     "filtered_resps": [
-      "505"
+      "375"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "If Artie sells 12 pots of marigolds, he will sell 12 x $2.74 = $34.44. If he sells 9 pots of petunias, he will sell 9 x $1.87 = $17.73. If he sells 17 pots of begonias, he will sell 17 x $2.12 = $36.84. The total amount he will make is $34.44 + $17.73 + $36.84 = $73.17. The answer is 73.17."
+        "If Artie sells 12 pots of marigolds, he will sell 12 x $2.74 = $34.44. If he sells 9 pots of petunias, he will sell 9 x $1.87 = $17.73. If he sells 17 pots of begonias, he will sell 17 x $2.12 = $36.84. The total amount he will make is $34.44 + $17.73 + $36.84 = $82.17. The answer is 82.17."
       ]
     ],
     "filtered_resps": [
-      "73.17"
+      "82.17"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2872,11 +2872,11 @@
     ],
     "resps": [
       [
-        "Each level of the sandcastle has half the square footage as the level below it. So the square footage of each level is 16 / 2 = 8. The average square footage of a level is 8."
+        "Each level of the sandcastle has half the square footage as the level below it. So the square footage of the level below is 16. The square footage of the level above is 16 / 2 = 8. The average square footage of a level is 8 / 4 = 2. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "According to the veterinarian, Cecilia has to feed the puppy 1 cup of dog food every day for 180 days. So she will have 1 cup x 180 days = 180 cups of dog food. Then she has to feed the puppy 2 cups of dog food every day for the rest of its life. So she will have 2 cups x 180 days = 360 cups of dog food. The answer is 360."
+        "According to the veterinarian, the puppy needs 1 cup of dog food every day for 180 days. So 1 cup * 180 days = 180 cups. Then the puppy needs 2 cups of dog food every day for the rest of its life. So 2 cups * 180 days = 360 cups. The answer is 360."
       ]
     ],
     "filtered_resps": [
@@ -3328,7 +3328,7 @@
     ],
     "resps": [
       [
-        "The company pays each of its employees $600 in a month. So the annual salary is 600 * 12 = $7200. The company increases the salaries of its employees by 10% of the initial salary every year for those who've stayed in the company for five years. So the annual salary for Sylvie will be 600 * 1.10 = $660. The answer is 660."
+        "The company pays each of its employees $600 in a month. The company increases the salaries of each of its employees by 10% of the initial salary every year for those who've stayed in the company for five years. So the annual salary for Sylvie will be 600 x 1.10 = 660 dollars. The answer is 660."
       ]
     ],
     "filtered_resps": [
@@ -3442,11 +3442,11 @@
     ],
     "resps": [
       [
-        "If Ted needs to feed 20 adults and 5 children, then he needs to feed 20 + 5 = 25 people. If each adult needs 10 lbs of potato salad and each child needs half as much as an adult, then each adult needs 10 x 2 = 20 lbs of potato salad and each child needs 10 / 2 = 5 lbs of potato salad. So Ted needs to feed 25 x 20 = 500 lbs of potato salad. The answer is 500."
+        "If there will be 20 adults and 5 children at the picnic, then there will be 20 + 5 = 25 children. If Ted needs to bring 10 lbs of potato salad to feed everyone, then he needs to bring 10 x 2 = 20 lbs of potato salad. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "500"
+      "20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "If there are 2 cats for every dog, then there are 60 / 2 = 30 dogs. The number of rabbits pets is 12 less than the combined number of pet dogs and cats, so it is 30 - 12 = 18. The answer is 18."
+        "If there are 2 cats for every dog, then there are 60 / 2 = 30 dogs. The number of rabbits is 12 less than the combined number of pet dogs and cats, so the number of rabbits is 60 - 30 = 30. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "30"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "Mary received 18 new potted plants yesterday. She already has 2 plants on each ledge, so she will have 18 x 2 = 36 plants left. She will give 1 potted plant from each ledge to friends and family tomorrow, so she will have 36 - 1 = 35 plants left. The answer is 35."
+        "Mary received 18 new potted plants yesterday. She already has 2 plants on each ledge, so she will have 18 x 2 = 36 plants left. The answer is 36."
       ]
     ],
     "filtered_resps": [
-      "35"
+      "36"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,7 +3822,7 @@
     ],
     "resps": [
       [
-        "Janet's ducks lay 16 eggs per day. She eats 3 for breakfast every morning. So she eats 16 - 3 = 13 eggs per day. She bakes 4 muffins for her friends every day. So she bakes 13 - 4 = 9 muffins per day. She sells the remainder at the farmers' market for $2 per fresh duck egg. So she makes 9 x 2 = $18 per day at the farmers' market. The answer is 18."
+        "Janet's ducks lay 16 eggs per day. She eats 3 for breakfast every morning. So she eats 16 - 3 = 13 eggs per day. She bakes 4 muffins for her friends every day. So she bakes 13 - 4 = 9 muffins per day. She sells the remainder at the farmers' market for $2 per fresh duck egg. So she makes 9 x 2 = $18 per day. The answer is 18."
       ]
     ],
     "filtered_resps": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "A robe takes 2 bolts of blue fiber and half that much white fiber. So it takes 2 x 1 = 2 bolts of blue fiber. Then it takes 1 / 2 x 1 = 1/2 of that much white fiber. So it takes 2 x 1/2 = 1 bolt of white fiber. The answer is 1 bolt."
+        "A robe takes 2 bolts of blue fiber and half that much white fiber. So it takes 2 x 1 = 2 bolts of blue fiber. Then it takes 1 / 2 x 1 = 1/2 of that much white fiber. So it takes 2 x 1/2 = 1 bolt of white fiber. The answer is 1."
       ]
     ],
     "filtered_resps": [
-      "1"
+      "1."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "John drives for 3 hours at 60 mph. So he has 3 x 60 = 180 miles. He spends the first 2 hours in standstill traffic. So he has 180 - 2 x 60 = 180 - 120 = 60 miles. He spends the next half-hour driving at 30 mph. So he has 60 - 30 = 30 miles. He spends the remaining time of the 4 hours going at 80 mph. So he has 80 - 30 = 50 miles. The answer is 50."
+        "John drives for 3 hours at 60 mph. So he has 3 x 60 = 180 miles. He spends 2 hours in standstill traffic. So he has 180 - 2 = 178 miles. He spends the next half-hour driving at 30 mph. So he has 178 - 30 = 148 miles. He spends the remaining time of the 4 hours going at 80 mph. So he has 148 - 80 = 68 miles. The answer is 68."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "68."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "The number of downloads in the first month was 60. In the second month, it was three times as many, so it was 60 x 3 = 180. In the third month, it was reduced by 30%, so it was 180 - 0.30 * 180 = 126. The answer is 126."
+        "In the first month, the program had 60 downloads. In the second month, it was three times as many as the first month, so it had 60 x 3 = 180 downloads. In the third month, it was reduced by 30% of the first month's downloads, so it had 180 x 0.3 = 54 downloads. The total number of downloads over the three months is 180 + 54 + 180 = 344. The answer is 344."
       ]
     ],
     "filtered_resps": [
-      "126."
+      "344."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "Toula bought 3 dozen donuts which cost 3 x 12 = 36 dollars. 2 dozen mini cupcakes which cost 2 x 12 = 24 dollars. 6 dozen mini cheesecakes which cost 6 x 12 = 72 dollars. So the total cost is 36 + 24 + 72 = 120 dollars. The answer is 120."
+        "Toula bought 3 dozen donuts which cost 3 x 60 = 180 dollars. 2 dozen mini cupcakes which cost 2 x 60 = 120 dollars. 6 dozen mini cheesecakes which cost 6 x 55 = 330 dollars. So the total cost is 180 + 120 + 330 = 510 dollars. The answer is 510."
       ]
     ],
     "filtered_resps": [
-      "120."
+      "510."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "The tree will cost $90 to plant. Each year it will grow 7 lemons, which will be sold for $1.5 each. So in 7 years, it will grow 7 x 7 = 49 lemons. It will cost $90 x 49 = $4,030. It will take 49 / 1.5 = 32 years to earn money on the lemon tree. The answer is 32."
+        "Carlos will plant the tree for 1 year. Each year it will grow 7 lemons, so it will grow 7 x 7 = 49 lemons. It will cost 3 x 49 = 147 dollars to plant the tree. It will cost 90 - 147 = -147 dollars to water and feed the tree. It will cost 147 - 147 = 0 dollars to water and feed the tree. So it will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 147 = 0 dollars to water and feed the tree. So it will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 147 dollars to water and feed the tree. It will cost 147 - 0 = 14"
       ]
     ],
     "filtered_resps": [
-      "32."
+      "14"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "The jewelry market is expected to rise 2.5% and the electronic gadgets market will rise 1.2% within the same month. To find the total increase in value, we add the two percentages: 2.5% + 1.2% = 3.7%. The jewelry market will increase by 3.7% of $5,000, which is $1,750. The electronic gadgets market will increase by 3.7% of $8,000, which is $2,960. The total increase in value is $1,750 + $2,960 = $4,710. The merchant would make a profit of $4,710 - $5,000 = -$1,710. The answer is -$1,710."
+        "The jewelry market is expected to rise 2.5% in the month, so the jewelry market price will increase by 2.5% of $5,000, which is 0.025 * $5,000 = $125. The electronic gadgets market is expected to rise 1.2% in the month, so the electronic gadgets market price will increase by 1.2% of $8,000, which is 0.012 * $8,000 = $96. The total increase in the jewelry market price is $125 + $96 = $221. The total increase in the electronic gadgets market price is $96 + $96 = $192. The total increase in the merchant's profit is $221 - $192 = $39. The answer is 39."
       ]
     ],
     "filtered_resps": [
-      "-$1,710."
+      "39."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "Jill gets paid $20 per hour. 50 weeks a year * 35 hours a week = 1750 hours. 1750 hours * 20 dollars per hour = $35,000. The answer is 35,000."
+        "Jill gets paid $20 per hour. 50 weeks a year * 35 hours a week = 1750 hours. 1750 hours * 20 dollars per hour = 35000 dollars. The answer is 35000."
       ]
     ],
     "filtered_resps": [
-      "35,000."
+      "35000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "Claire makes 3 eggs for breakfast every morning. In 4 weeks, she will make 3 x 4 = 12 eggs. There are 12 eggs in a dozen. So Claire will eat 12 / 12 = 1 dozen eggs in 4 weeks. The answer is 1."
+        "Claire makes 3 eggs for breakfast every morning. In 4 weeks, she will make 3 x 4 = 12 eggs. So she will eat 12 / 1 = 12 dozens of eggs in 4 weeks. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "1."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "A candle melts by 2 centimeters every hour that it burns. So after 1 hour, it will be 1 x 2 = 2 centimeters shorter. After 2 hours, it will be 2 x 2 = 4 centimeters shorter. After 3 hours, it will be 4 x 2 = 8 centimeters shorter. After 4 hours, it will be 8 x 2 = 16 centimeters shorter. After 5 hours, it will be 16 x 2 = 32 centimeters shorter. The answer is 32."
+        "A candle melts by 2 centimeters every hour that it burns. So after 1:00 PM, it will be 1:00 PM + 2 hours = 2:00 PM. After 5:00 PM, it will be 5:00 PM + 2 hours = 7:00 PM. The difference between 2:00 PM and 7:00 PM is 20 centimeters. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "32."
+      "20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,7 +4734,7 @@
     ],
     "resps": [
       [
-        "Kyle bought last year's best-selling book for $19.50. A 25% discount is 25% of $19.50, which is 0.25 * $19.50 = $4.775. So the original price of the book is $19.50 - $4.775 = $14.725. The answer is 14.73."
+        "Kyle bought last year's best-selling book for $19.50. A 25% discount means he got 25% of the original price. So 25% of $19.50 is 0.25 * $19.50 = $4.775. So the original price of the book was $19.50 - $4.775 = $14.725. The answer is 14.73."
       ]
     ],
     "filtered_resps": [
@@ -4924,11 +4924,11 @@
     ],
     "resps": [
       [
-        "The boots cost $33. The high heels cost twice as much, so they cost 33 x 2 = $66. The total cost of the high heels is $33 + $66 = $99. The answer is 99."
+        "The boots cost 5 dollars less than the heels. So the boots cost 5 - 33 = -20 dollars. The answer is -20."
       ]
     ],
     "filtered_resps": [
-      "99."
+      "-20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "The ratio of Darrell's age to Allen's age is 7:11. If their total age is 162, then Allen's age 10 years from now will be 162 / 11 * 10 = 156. The answer is 156."
+        "The ratio of Darrell's age to Allen's age is 7:11. If their total age is 162, then Allen's age is 162 / 2 = 81. Allen's age 10 years from now is 81 + 10 = 91. The answer is 91."
       ]
     ],
     "filtered_resps": [
-      "156."
+      "91."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5038,7 +5038,7 @@
     ],
     "resps": [
       [
-        "John takes care of 10 dogs. Each dog takes 5 hours a day to walk and take care of their business. So he takes care of 10 x 5 = 50 hours a day. He spends 50 hours a week taking care of dogs. The answer is 50."
+        "John takes care of 10 dogs. Each dog takes .5 hours a day to walk and take care of their business. So each dog takes 10 x .5 = 5 hours a day. So he takes care of 10 x 5 = 50 hours a week. The answer is 50."
       ]
     ],
     "filtered_resps": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "John runs 60 miles a week. He runs 3 days a week. So he runs 60 miles / 3 days = 20 miles per day. He runs 3 hours the first day. So he runs 20 miles / 3 hours = 6.67 miles per hour. The answer is 6.67."
+        "John runs 60 miles a week. He runs 3 days a week. So he runs 60 x 3 = 180 miles in 3 weeks. He runs 180 / 3 = 60 miles in 1 week. He runs 60 / 3 = 20 miles in 1 day. He runs 20 / 2 = 10 miles in 1 hour. He runs 10 / 2 = 5 miles in 1 minute. He runs 5 / 2 = 2.5 miles in 1 second. He runs 2.5 / 2 = 1.25 miles in 1 second. He runs 1.25 / 2 = 0.625 miles in 1 second. He runs 0.625 / 2 = 0.3125 miles in 1 second. He runs 0.3125 / 2 = 0.15625 miles in 1 second. He runs 0.15625 / 2 = 0.078125 miles in 1 second. He runs 0"
       ]
     ],
     "filtered_resps": [
-      "6.67."
+      "0"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "A 300g bag of chips has 5 servings. So you can eat 300g / 5 servings = 60g of chips. If your daily calorie target is 2000 calories, then you can eat 60g / 2000 calories = 0.03 grams of chips per day. The answer is 0.03."
+        "A 300g bag has 5 servings. So you can eat 300g / 5 servings = 60 grams. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "0.03."
+      "60."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5532,7 +5532,7 @@
     ],
     "resps": [
       [
-        "Meredith writes 5 articles on Monday and 2/5 times more on Tuesday than on Monday. So she wrote 5 x 2/5 = 1 articles on Tuesday.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday. So she wrote 1 x 2 = 2 articles on Wednesday.\nIn total, she wrote 5 + 1 + 2 = 8 articles in the three days.\nThe answer is 8."
+        "Meredith writes 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. So she wrote 5 x 2/5 = 1 articles on Tuesday.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday. So she wrote 1 x 2 = 2 articles on Wednesday.\nIn total, she wrote 5 + 1 + 2 = 8 articles in the three days.\nThe answer is 8."
       ]
     ],
     "filtered_resps": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Candice had 80 post-it notes in her purse. 23 post-it notes were in the package she purchased. So she had 80 - 23 = 57 post-it notes remaining. The answer is 57."
+        "Candice had 80 post-it notes in her purse. She purchased a package of 220 post-it notes. So she had 80 - 220 = -180 post-it notes. She had 23 post-it notes remaining. The answer is -180."
       ]
     ],
     "filtered_resps": [
-      "57."
+      "-180."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "The wire was cut into pieces 6 inches long. Tracy used 4 feet of wire. So she used 4 x 6 = 24 pieces of wire. The answer is 24."
+        "The wire was cut into pieces 6 inches long. If it was 4 feet long, then each piece was 6 inches long. So she obtained 4 / 6 = 2 pieces. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "24."
+      "2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "Uriah's book bag is getting too heavy. So he needs to remove 15 pounds. If his comic books weigh 1/4 pound each, then 15 / 4 = 3.75 pounds. If his toys weigh 1/2 pound each, then 30 / 2 = 15 pounds. So he needs to remove 3.75 + 15 = 18.75 pounds. The answer is 18.75."
+        "Uriah's book bag is getting too heavy. So he needs to remove 15 pounds. If his comic books weigh 1/4 pound each, then he needs to remove 15 / 4 = 3.75 pounds. If his toys weigh 1/2 pound each, then he needs to remove 3.75 / 2 = 1.875 pounds. The answer is 1.875."
       ]
     ],
     "filtered_resps": [
-      "18.75."
+      "1.875."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "Janet paid $500 for the brooch material. She also paid $800 for the jeweler to construct it. So she paid $500 + $800 = $1300. She also paid 10% of that to get it insured. So she paid $1300 x 0.10 = $130. The answer is $130."
+        "Janet paid $500 for the brooch material. She also paid $800 for the jeweler to construct it. So she paid $500 + $800 = $1300. She also paid 10% of that to get it insured. So she paid 10% of $1300 = $1300 x 0.10 = $130. The answer is $130."
       ]
     ],
     "filtered_resps": [
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "Judy teaches 5 dance classes on the weekdays. So she teaches 5 x 5 = 25 classes on the weekdays. She teaches 8 classes on Saturday. So she teaches 25 + 8 = 33 classes on Saturday. She charges $15.00 per student. So she makes 33 x 15 = $505.00 in 1 week. The answer is 505."
+        "Judy teaches 5 dance classes on the weekdays. So she teaches 5 x 5 = 25 classes. She charges $15.00 per student. So she makes 25 x 15 = $375.00 in 1 week. The answer is 375."
       ]
     ],
     "filtered_resps": [
-      "505."
+      "375."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "If Artie sells 12 pots of marigolds, he will sell 12 x $2.74 = $34.44. If he sells 9 pots of petunias, he will sell 9 x $1.87 = $17.73. If he sells 17 pots of begonias, he will sell 17 x $2.12 = $36.84. The total amount he will make is $34.44 + $17.73 + $36.84 = $73.17. The answer is 73.17."
+        "If Artie sells 12 pots of marigolds, he will sell 12 x $2.74 = $34.44. If he sells 9 pots of petunias, he will sell 9 x $1.87 = $17.73. If he sells 17 pots of begonias, he will sell 17 x $2.12 = $36.84. The total amount he will make is $34.44 + $17.73 + $36.84 = $82.17. The answer is 82.17."
       ]
     ],
     "filtered_resps": [
-      "73.17."
+      "82.17."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6672,11 +6672,11 @@
     ],
     "resps": [
       [
-        "Each level of the sandcastle has half the square footage as the level below it. So the square footage of each level is 16 / 2 = 8. The average square footage of a level is 8."
+        "Each level of the sandcastle has half the square footage as the level below it. So the square footage of the level below is 16. The square footage of the level above is 16 / 2 = 8. The average square footage of a level is 8 / 4 = 2. The answer is 2."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,7 +6710,7 @@
     ],
     "resps": [
       [
-        "According to the veterinarian, Cecilia has to feed the puppy 1 cup of dog food every day for 180 days. So she will have 1 cup x 180 days = 180 cups of dog food. Then she has to feed the puppy 2 cups of dog food every day for the rest of its life. So she will have 2 cups x 180 days = 360 cups of dog food. The answer is 360."
+        "According to the veterinarian, the puppy needs 1 cup of dog food every day for 180 days. So 1 cup * 180 days = 180 cups. Then the puppy needs 2 cups of dog food every day for the rest of its life. So 2 cups * 180 days = 360 cups. The answer is 360."
       ]
     ],
     "filtered_resps": [
@@ -7128,7 +7128,7 @@
     ],
     "resps": [
       [
-        "The company pays each of its employees $600 in a month. So the annual salary is 600 * 12 = $7200. The company increases the salaries of its employees by 10% of the initial salary every year for those who've stayed in the company for five years. So the annual salary for Sylvie will be 600 * 1.10 = $660. The answer is 660."
+        "The company pays each of its employees $600 in a month. The company increases the salaries of each of its employees by 10% of the initial salary every year for those who've stayed in the company for five years. So the annual salary for Sylvie will be 600 x 1.10 = 660 dollars. The answer is 660."
       ]
     ],
     "filtered_resps": [
@@ -7242,11 +7242,11 @@
     ],
     "resps": [
       [
-        "If Ted needs to feed 20 adults and 5 children, then he needs to feed 20 + 5 = 25 people. If each adult needs 10 lbs of potato salad and each child needs half as much as an adult, then each adult needs 10 x 2 = 20 lbs of potato salad and each child needs 10 / 2 = 5 lbs of potato salad. So Ted needs to feed 25 x 20 = 500 lbs of potato salad. The answer is 500."
+        "If there will be 20 adults and 5 children at the picnic, then there will be 20 + 5 = 25 children. If Ted needs to bring 10 lbs of potato salad to feed everyone, then he needs to bring 10 x 2 = 20 lbs of potato salad. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "500."
+      "20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "If there are 2 cats for every dog, then there are 60 / 2 = 30 dogs. The number of rabbits pets is 12 less than the combined number of pet dogs and cats, so it is 30 - 12 = 18. The answer is 18."
+        "If there are 2 cats for every dog, then there are 60 / 2 = 30 dogs. The number of rabbits is 12 less than the combined number of pet dogs and cats, so the number of rabbits is 60 - 30 = 30. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "30."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "Mary received 18 new potted plants yesterday. She already has 2 plants on each ledge, so she will have 18 x 2 = 36 plants left. She will give 1 potted plant from each ledge to friends and family tomorrow, so she will have 36 - 1 = 35 plants left. The answer is 35."
+        "Mary received 18 new potted plants yesterday. She already has 2 plants on each ledge, so she will have 18 x 2 = 36 plants left. The answer is 36."
       ]
     ],
     "filtered_resps": [
-      "35."
+      "36."
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,mawps_fewshot_baseline,mawps,fewshot_baseline,fewshot_base,mawps,0.46,0.0,73.2,8,100,19.94,8.84

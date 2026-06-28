@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,mawps_fewshot_baseline,mawps,fewshot_baseline,fewshot_base,mawps,0.35,0.06,214.4,8,100,19.13,11.13

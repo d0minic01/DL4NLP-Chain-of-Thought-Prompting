@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,aqua_persona_cot,aqua,persona_cot,fewshot_cot,aqua-rat,0.21,0.55,606.5,4,100,23.51,8.84

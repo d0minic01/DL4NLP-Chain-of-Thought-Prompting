@@ -40,7 +40,7 @@
     ],
     "resps": [
       [
-        "As a security guard: security is a function of department store, so (e). The answer is (e)."
+        "As a security guard: security is a function of the door, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -488,7 +488,7 @@
     ],
     "resps": [
       [
-        "As a reader: newspaper reading practice, so (e). The answer is (e)."
+        "As a reader: newspaper reading is a way to practice literacy, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -600,7 +600,7 @@
     ],
     "resps": [
       [
-        "As a vinyl record collector: vinyl is an odd thing to replace, so (e). The answer is (e)."
+        "As a vinyl collector: vinyl is an odd thing to replace, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -768,7 +768,7 @@
     ],
     "resps": [
       [
-        "As a dog owner: dog needs food, water, exercise, and attention, so (e). The answer is (e)."
+        "As a dog trainer: dog needs to be fed, exercised, and socialized, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "As a psychologist: people only have two eyes, so (e). The answer is (e)."
+        "As a person: two eyes, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2056,7 +2056,7 @@
     ],
     "resps": [
       [
-        "As a police officer: beat is a common term for a violent crime, so (e). The answer is (e)."
+        "As a police officer: police officer, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2616,7 +2616,7 @@
     ],
     "resps": [
       [
-        "As a shopper: before shopping, one must first acquire the necessary items, so (e). The answer is (e)."
+        "As a shopper: shopping before buying is best match to bring cash, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2840,7 +2840,7 @@
     ],
     "resps": [
       [
-        "As a human: clothes are everywhere, so (e). The answer is (e)."
+        "As a human: clothes are a part of life, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2896,7 +2896,7 @@
     ],
     "resps": [
       [
-        "As a person with a seizure: slurred speech, so (e). The answer is (e)."
+        "As a person: slurred speech, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2952,7 +2952,7 @@
     ],
     "resps": [
       [
-        "As a planner: work builds momentum, so (e). The answer is (e)."
+        "As a person: work builds momentum, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3176,7 +3176,7 @@
     ],
     "resps": [
       [
-        "As a city planner: freeway is best match to big town, so (e). The answer is (e)."
+        "As a city planner: freeway is a highway, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3232,7 +3232,7 @@
     ],
     "resps": [
       [
-        "As a friend: fairgrounds, so (e). The answer is (e)."
+        "As a friend: good, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3848,7 +3848,7 @@
     ],
     "resps": [
       [
-        "As a teacher: fire extinguisher is not a requirement for school bus, so (e). The answer is (e)."
+        "As a teacher: fire extinguisher is not a requirement to have, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4184,7 +4184,7 @@
     ],
     "resps": [
       [
-        "As a basketball coach: basketball is not a sport, so (e). The answer is (e)."
+        "As a basketball coach: hole in basketball does not affect shape, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4520,11 +4520,11 @@
     ],
     "resps": [
       [
-        "As a person: George's feet are smelly, so his socks are blistered, but that doesn't matter. He can still do what?"
+        "As a person who has walked and walked and walked: walking is a good way to get around, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4688,7 +4688,7 @@
     ],
     "resps": [
       [
-        "As a cashier: penny is best used to save for later, so (e). The answer is (e)."
+        "As a financial advisor: penny is best stored in wallet, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4912,7 +4912,7 @@
     ],
     "resps": [
       [
-        "As a memory: remembering something is best because of the context, so (e). The answer is (e)."
+        "As a memory: remembering something is a process of recalling, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5080,7 +5080,7 @@
     ],
     "resps": [
       [
-        "As a child: teens hide drink, so (e). The answer is (e)."
+        "As a teenager: teens hide drink, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5192,7 +5192,7 @@
     ],
     "resps": [
       [
-        "As a kitchen worker: kitchen is a place where people work, so (e). The answer is (e)."
+        "As a chef: kitchen is a place where food is made, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5640,7 +5640,7 @@
     ],
     "resps": [
       [
-        "As a security guard: security is a function of department store, so (e). The answer is (e)."
+        "As a security guard: security is a function of the door, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6088,7 +6088,7 @@
     ],
     "resps": [
       [
-        "As a reader: newspaper reading practice, so (e). The answer is (e)."
+        "As a reader: newspaper reading is a way to practice literacy, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6200,7 +6200,7 @@
     ],
     "resps": [
       [
-        "As a vinyl record collector: vinyl is an odd thing to replace, so (e). The answer is (e)."
+        "As a vinyl collector: vinyl is an odd thing to replace, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6368,7 +6368,7 @@
     ],
     "resps": [
       [
-        "As a dog owner: dog needs food, water, exercise, and attention, so (e). The answer is (e)."
+        "As a dog trainer: dog needs to be fed, exercised, and socialized, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6648,7 +6648,7 @@
     ],
     "resps": [
       [
-        "As a psychologist: people only have two eyes, so (e). The answer is (e)."
+        "As a person: two eyes, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7656,7 +7656,7 @@
     ],
     "resps": [
       [
-        "As a police officer: beat is a common term for a violent crime, so (e). The answer is (e)."
+        "As a police officer: police officer, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8216,7 +8216,7 @@
     ],
     "resps": [
       [
-        "As a shopper: before shopping, one must first acquire the necessary items, so (e). The answer is (e)."
+        "As a shopper: shopping before buying is best match to bring cash, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8440,7 +8440,7 @@
     ],
     "resps": [
       [
-        "As a human: clothes are everywhere, so (e). The answer is (e)."
+        "As a human: clothes are a part of life, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8496,7 +8496,7 @@
     ],
     "resps": [
       [
-        "As a person with a seizure: slurred speech, so (e). The answer is (e)."
+        "As a person: slurred speech, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8552,7 +8552,7 @@
     ],
     "resps": [
       [
-        "As a planner: work builds momentum, so (e). The answer is (e)."
+        "As a person: work builds momentum, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8776,7 +8776,7 @@
     ],
     "resps": [
       [
-        "As a city planner: freeway is best match to big town, so (e). The answer is (e)."
+        "As a city planner: freeway is a highway, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8832,7 +8832,7 @@
     ],
     "resps": [
       [
-        "As a friend: fairgrounds, so (e). The answer is (e)."
+        "As a friend: good, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9448,7 +9448,7 @@
     ],
     "resps": [
       [
-        "As a teacher: fire extinguisher is not a requirement for school bus, so (e). The answer is (e)."
+        "As a teacher: fire extinguisher is not a requirement to have, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9784,7 +9784,7 @@
     ],
     "resps": [
       [
-        "As a basketball coach: basketball is not a sport, so (e). The answer is (e)."
+        "As a basketball coach: hole in basketball does not affect shape, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10120,11 +10120,11 @@
     ],
     "resps": [
       [
-        "As a person: George's feet are smelly, so his socks are blistered, but that doesn't matter. He can still do what?"
+        "As a person who has walked and walked and walked: walking is a good way to get around, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10288,7 +10288,7 @@
     ],
     "resps": [
       [
-        "As a cashier: penny is best used to save for later, so (e). The answer is (e)."
+        "As a financial advisor: penny is best stored in wallet, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10512,7 +10512,7 @@
     ],
     "resps": [
       [
-        "As a memory: remembering something is best because of the context, so (e). The answer is (e)."
+        "As a memory: remembering something is a process of recalling, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10680,7 +10680,7 @@
     ],
     "resps": [
       [
-        "As a child: teens hide drink, so (e). The answer is (e)."
+        "As a teenager: teens hide drink, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10792,7 +10792,7 @@
     ],
     "resps": [
       [
-        "As a kitchen worker: kitchen is a place where people work, so (e). The answer is (e)."
+        "As a chef: kitchen is a place where food is made, so (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [

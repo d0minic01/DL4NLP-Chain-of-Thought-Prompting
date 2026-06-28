@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts p. Step 2: Pam shifts to q. Step 3: Diana shifts to r. Step 4: Jack does not shift, stays r. Final letter r. The answer is r."
+        "Step 1: Letter starts p. Step 2: Zoe shifts to p. Step 3: Pam shifts to p. Step 4: Diana shifts to p. Final letter p. The answer is p."
       ]
     ],
     "filtered_resps": [
-      "r"
+      "p"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -491,7 +491,7 @@
     "doc_hash": "00de7066a373d21b52c9b13eb399d2e27da7ac0a7dda61d1a637917ea2f6d9f1",
     "prompt_hash": "5d8dc89f89d4065d649e592525c5c8c99bb43cf0e28bc03381373ebde7847de8",
     "target_hash": "454349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 13,
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts w. Step 2: Oscar shifts to e. Step 3: Dan shifts to f. Step 4: Noah does not shift, stays f. Final letter f. The answer is f."
+        "Step 1: Letter starts w. Step 2: Oscar shifts to e. Step 3: Dan shifts to f. Step 4: Noah does not shift, stays a. Final letter f. The answer is f."
       ]
     ],
     "filtered_resps": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts y. Step 2: Eve shifts, wraps to a. Step 3: Diana shifts to z. Step 4: Alice shifts to a. Final letter a. The answer is a."
+        "Step 1: Letter starts y. Step 2: Eve shifts, wraps to a. Step 3: Diana shifts to a. Step 4: Alice shifts to b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1517,7 +1517,7 @@
     "doc_hash": "44df54eefa1f30494448ad5daf40fb9cb9b8fa8391bb301ec9f9900623957e45",
     "prompt_hash": "4c41108cde0ff9ef17b643ef6bee7da8bc3c9500c06f02b6a0f824d2049758e9",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -1580,7 +1580,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts w. Step 2: Tina shifts to e. Step 3: Nina shifts to b. Step 4: Hannah shifts to c. Final letter c. The answer is c."
+        "Step 1: Letter starts w. Step 2: Tina shifts to e. Step 3: Nina shifts to b. Step 4: Pam shifts to c. Final letter c. The answer is c."
       ]
     ],
     "filtered_resps": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts g. Step 2: Ursula shifts to e. Step 3: Victor shifts to f. Step 4: Sofia shifts to g. Final letter g. The answer is g."
+        "Step 1: Letter starts g. Step 2: Ursula shifts to e. Step 3: Victor shifts to f. Step 4: Sofia shifts to b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "g"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts t. Step 2: Beth shifts to d. Step 3: Wendy shifts to e. Step 4: Wendy does not shift, stays e. Final letter e. The answer is e."
+        "Step 1: Letter starts t. Step 2: Beth shifts to d. Step 3: Wendy shifts to e. Step 4: Noah does not shift, stays a. Final letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts w. Step 2: Julia shifts to e. Step 3: Sam shifts to f. Step 4: Julia does not shift, stays f. Final letter f. The answer is f."
+        "Step 1: Letter starts w. Step 2: Julia shifts to e. Step 3: Sam shifts to b. Step 4: Julia does not shift, stays b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts n. Step 2: Laura shifts to n. Step 3: Marcus does not shift, stays n. Step 4: Noah does not shift, stays n. Final letter n. The answer is n."
+        "Step 1: Letter starts n. Step 2: Laura shifts to e. Step 3: Marcus does not shift, stays e. Step 4: Noah does not shift, stays e. Final letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2391,7 +2391,7 @@
     "doc_hash": "b7cc1322411fbaf05741077c03115fcbd27c8b3db975202bbfb05bb427d85266",
     "prompt_hash": "f10fd32878a67bf2cc910c63a620dc87619c402eae891b75231f2d3514468f02",
     "target_hash": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 63,
@@ -2454,11 +2454,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts q. Step 2: Ray shifts to z. Step 3: Oscar shifts to a. Step 4: Nina shifts to b. Final letter b. The answer is b."
+        "Step 1: Letter starts q. Step 2: Oscar shifts to z. Step 3: Nina shifts to a. Step 4: Oscar does not shift, stays a. Final letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2682,11 +2682,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts x. Step 2: George shifts to z. Step 3: Beth shifts to b. Step 4: Julia shifts to a. Step 5: Caleb shifts to c. Final letter c. The answer is c."
+        "Step 1: Letter starts x. Step 2: George shifts to y. Step 3: Beth shifts to z. Step 4: Julia shifts to a. Step 5: Caleb does not shift, stays a. Final letter z. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "z"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts r. Step 2: Frank shifts to d. Step 3: Iris shifts to e. Step 4: Jack shifts to f. Final letter f. The answer is f."
+        "Step 1: Letter starts r. Step 2: Frank shifts to z. Step 3: Iris shifts to a. Step 4: Jack shifts to b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3024,11 +3024,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts n. Step 2: Iris shifts to d. Step 3: Diana shifts to e. Step 4: Liam does not shift, stays e. Final letter e. The answer is e."
+        "Step 1: Letter starts n. Step 2: Iris shifts to d. Step 3: Diana does not shift, stays d. Step 4: Liam does not shift, stays d. Final letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3138,7 +3138,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts b. Step 2: Peter shifts to d. Step 3: Nina does not shift, stays d. Step 4: Bob shifts to e. Final letter e. The answer is e."
+        "Step 1: Letter starts b. Step 2: Peter shifts to d. Step 3: Nina does not shift, stays d. Step 4: Mia shifts to e. Final letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -3746,11 +3746,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts h. Step 2: Liam shifts to i. Step 3: Xander shifts to j. Step 4: Tina does not shift, stays j. Final letter j. The answer is j."
+        "Step 1: Letter starts h. Step 2: Liam shifts to i. Step 3: Tina does not shift, stays i. Step 4: Noah does not shift, stays i. Final letter i. The answer is i."
       ]
     ],
     "filtered_resps": [
-      "j"
+      "i"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3759,7 +3759,7 @@
     "doc_hash": "9c865f80a6eecfb51376c3bed210e0c12b79f40a1f84733c91d9aae87da49a1a",
     "prompt_hash": "46fb2c94ef77131652aed9732954ee4f54d475edd468ba902cf9754882e560f7",
     "target_hash": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 99,
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts p. Step 2: Pam shifts to q. Step 3: Diana shifts to r. Step 4: Jack does not shift, stays r. Final letter r. The answer is r."
+        "Step 1: Letter starts p. Step 2: Zoe shifts to p. Step 3: Pam shifts to p. Step 4: Diana shifts to p. Final letter p. The answer is p."
       ]
     ],
     "filtered_resps": [
-      "r"
+      "p"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4291,7 +4291,7 @@
     "doc_hash": "00de7066a373d21b52c9b13eb399d2e27da7ac0a7dda61d1a637917ea2f6d9f1",
     "prompt_hash": "5d8dc89f89d4065d649e592525c5c8c99bb43cf0e28bc03381373ebde7847de8",
     "target_hash": "454349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 13,
@@ -4734,7 +4734,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts w. Step 2: Oscar shifts to e. Step 3: Dan shifts to f. Step 4: Noah does not shift, stays f. Final letter f. The answer is f."
+        "Step 1: Letter starts w. Step 2: Oscar shifts to e. Step 3: Dan shifts to f. Step 4: Noah does not shift, stays a. Final letter f. The answer is f."
       ]
     ],
     "filtered_resps": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts y. Step 2: Eve shifts, wraps to a. Step 3: Diana shifts to z. Step 4: Alice shifts to a. Final letter a. The answer is a."
+        "Step 1: Letter starts y. Step 2: Eve shifts, wraps to a. Step 3: Diana shifts to a. Step 4: Alice shifts to b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5317,7 +5317,7 @@
     "doc_hash": "44df54eefa1f30494448ad5daf40fb9cb9b8fa8391bb301ec9f9900623957e45",
     "prompt_hash": "4c41108cde0ff9ef17b643ef6bee7da8bc3c9500c06f02b6a0f824d2049758e9",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -5380,7 +5380,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts w. Step 2: Tina shifts to e. Step 3: Nina shifts to b. Step 4: Hannah shifts to c. Final letter c. The answer is c."
+        "Step 1: Letter starts w. Step 2: Tina shifts to e. Step 3: Nina shifts to b. Step 4: Pam shifts to c. Final letter c. The answer is c."
       ]
     ],
     "filtered_resps": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts g. Step 2: Ursula shifts to e. Step 3: Victor shifts to f. Step 4: Sofia shifts to g. Final letter g. The answer is g."
+        "Step 1: Letter starts g. Step 2: Ursula shifts to e. Step 3: Victor shifts to f. Step 4: Sofia shifts to b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "g"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts t. Step 2: Beth shifts to d. Step 3: Wendy shifts to e. Step 4: Wendy does not shift, stays e. Final letter e. The answer is e."
+        "Step 1: Letter starts t. Step 2: Beth shifts to d. Step 3: Wendy shifts to e. Step 4: Noah does not shift, stays a. Final letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts w. Step 2: Julia shifts to e. Step 3: Sam shifts to f. Step 4: Julia does not shift, stays f. Final letter f. The answer is f."
+        "Step 1: Letter starts w. Step 2: Julia shifts to e. Step 3: Sam shifts to b. Step 4: Julia does not shift, stays b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts n. Step 2: Laura shifts to n. Step 3: Marcus does not shift, stays n. Step 4: Noah does not shift, stays n. Final letter n. The answer is n."
+        "Step 1: Letter starts n. Step 2: Laura shifts to e. Step 3: Marcus does not shift, stays e. Step 4: Noah does not shift, stays e. Final letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6191,7 +6191,7 @@
     "doc_hash": "b7cc1322411fbaf05741077c03115fcbd27c8b3db975202bbfb05bb427d85266",
     "prompt_hash": "f10fd32878a67bf2cc910c63a620dc87619c402eae891b75231f2d3514468f02",
     "target_hash": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 63,
@@ -6254,11 +6254,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts q. Step 2: Ray shifts to z. Step 3: Oscar shifts to a. Step 4: Nina shifts to b. Final letter b. The answer is b."
+        "Step 1: Letter starts q. Step 2: Oscar shifts to z. Step 3: Nina shifts to a. Step 4: Oscar does not shift, stays a. Final letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts x. Step 2: George shifts to z. Step 3: Beth shifts to b. Step 4: Julia shifts to a. Step 5: Caleb shifts to c. Final letter c. The answer is c."
+        "Step 1: Letter starts x. Step 2: George shifts to y. Step 3: Beth shifts to z. Step 4: Julia shifts to a. Step 5: Caleb does not shift, stays a. Final letter z. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts r. Step 2: Frank shifts to d. Step 3: Iris shifts to e. Step 4: Jack shifts to f. Final letter f. The answer is f."
+        "Step 1: Letter starts r. Step 2: Frank shifts to z. Step 3: Iris shifts to a. Step 4: Jack shifts to b. Final letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts n. Step 2: Iris shifts to d. Step 3: Diana shifts to e. Step 4: Liam does not shift, stays e. Final letter e. The answer is e."
+        "Step 1: Letter starts n. Step 2: Iris shifts to d. Step 3: Diana does not shift, stays d. Step 4: Liam does not shift, stays d. Final letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6938,7 +6938,7 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts b. Step 2: Peter shifts to d. Step 3: Nina does not shift, stays d. Step 4: Bob shifts to e. Final letter e. The answer is e."
+        "Step 1: Letter starts b. Step 2: Peter shifts to d. Step 3: Nina does not shift, stays d. Step 4: Mia shifts to e. Final letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "Step 1: Letter starts h. Step 2: Liam shifts to i. Step 3: Xander shifts to j. Step 4: Tina does not shift, stays j. Final letter j. The answer is j."
+        "Step 1: Letter starts h. Step 2: Liam shifts to i. Step 3: Tina does not shift, stays i. Step 4: Noah does not shift, stays i. Final letter i. The answer is i."
       ]
     ],
     "filtered_resps": [
-      "j"
+      "i"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7559,7 +7559,7 @@
     "doc_hash": "9c865f80a6eecfb51376c3bed210e0c12b79f40a1f84733c91d9aae87da49a1a",
     "prompt_hash": "46fb2c94ef77131652aed9732954ee4f54d475edd468ba902cf9754882e560f7",
     "target_hash": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 99,

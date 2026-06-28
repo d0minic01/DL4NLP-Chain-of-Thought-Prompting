@@ -152,11 +152,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) market."
+        "The answer is (d) train station."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -488,7 +488,7 @@
     ],
     "resps": [
       [
-        "(c) money"
+        "(b) knowing how to read: Reading newspapers is a great way to practice your literacy skills. It helps you understand the basics of reading, such as vocabulary, grammar, and spelling. This is a crucial skill for learning to read and understand written language.\n\n(c) money: Money is a valuable resource that can be used to buy things, and reading newspapers can help you understand how to use money effectively. It's a practical skill that can be applied to various aspects of life, such as budgeting, saving, and making financial decisions.\n\n(d) buying: Buying things is a common activity that can be practiced in newspapers. It's a way to learn about the world around us, and it can help you understand how to make informed decisions. This is a valuable skill that can be applied to various aspects of life, such as budgeting, saving, and making financial decisions.\n\n(e) money bank: Money is a valuable resource that can be used to buy things, and reading newspapers can help you understand how to use money effectively. It's a practical skill that can be applied to various aspects of life, such as budgeting, saving, and making financial decisions.\n\nSo, the answer is: (b) knowing how to read"
       ]
     ],
     "filtered_resps": [
@@ -544,7 +544,7 @@
     ],
     "resps": [
       [
-        "People typically do the following activities while playing guitar:\n\n1. Cry: Crying is a common way people play guitar, often accompanied by music. It can be a way to express their emotions, release tension, or simply to feel the music.\n\n2. Hear sounds: Hearing the sounds of the guitar, such as the notes, chords, and melodies, can be a fun and engaging way to practice and improve.\n\n3. Singing: Singing is another common way people play guitar, often accompanied by music. It can be a way to express emotions, connect with others, or simply to enjoy the music.\n\n4. Making music: Making music is a fun and creative way to practice guitar. It can involve playing different chords, melodies, or rhythms, and can be a way to express oneself and connect with others.\n\n5. Arthritis: Arthritis is a condition that affects the joints, and playing guitar can be a way to improve flexibility, strength, and balance. It can also be a way to enjoy the music and connect with others."
+        "People typically do the following activities while playing guitar:\n\n1. Cry: Crying is a common way people play guitar, often accompanied by music. It can be a way to express their emotions, release tension, or simply to feel the music.\n\n2. Hear sounds: Hearing the sounds of the guitar, such as the notes, chords, and melodies, can be a fun and engaging way to practice and improve.\n\n3. Singing: Singing is another common way people play guitar, often accompanied by music. It can be a way to express emotions, build confidence, and connect with others.\n\n4. Making music: Making music is a fun and creative way to practice guitar. It can be a way to express emotions, build confidence, and connect with others.\n\n5. Arthritis: Arthritis is a condition that affects the joints, and it can make playing guitar a challenging but rewarding activity.\n\nIn conclusion, people typically do the following activities while playing guitar:\n\na) Cry (cry)\nb) Hear sounds (singing)\nc) Hearing the sounds of the guitar (chanting)\nd) Making music (making music)\ne) Arthritis (making music)"
       ]
     ],
     "filtered_resps": [
@@ -600,7 +600,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) record store.\n\nThe reason is that vinyl is an odd thing to replace, as it is a type of record that is typically made from a single, thin layer of vinyl. Vinyl is a type of record that is typically made from a single, thin layer of vinyl, which is then pressed onto a surface to create a record. This process is unique and distinct from other types of records, such as CDs and DVDs, which are made from multiple layers of plastic or other materials."
+        "The answer is (c) record store.\n\nThe answer is an odd thing to replace because vinyl is a type of record that is typically used for storing and playing records. It is a physical object that is made from a thin, flexible material called vinyl, which is then pressed into a vinyl record sleeve. Vinyl is a type of record that is typically used for storing and playing records, and it is an odd thing to replace because it is a physical object that is not typically used for storing and playing records."
       ]
     ],
     "filtered_resps": [
@@ -712,7 +712,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) stockyard."
+        "The answer is (c) slaughter house."
       ]
     ],
     "filtered_resps": [
@@ -824,7 +824,7 @@
     ],
     "resps": [
       [
-        "(b) laughter"
+        "(c) being entertained\n\nJanet was watching the film because she liked what?"
       ]
     ],
     "filtered_resps": [
@@ -936,7 +936,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) stay in bed.\n\nThe reason for this answer is that the given options are not suitable for the given context. The given options are:\n\n- reach tentative agreement\n- stay in bed\n- stop bicycle\n- examine thing\n- suicide\n\nThese options are not related to the given context, and therefore do not provide a suitable answer."
+        "The answer is (c) stay in bed.\n\nThe reason for this answer is that the given options are not suitable for the given context. The given options are:\n\n- reach tentative agreement\n- stay in bed\n- stop bicycle\n- examine thing\n- suicide\n\nThese options are not related to the given context, and they do not provide any useful information about the given situation. Therefore, the correct answer is (c) stay in bed."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "(b) names"
+        "(c) brains"
       ]
     ],
     "filtered_resps": [
@@ -1104,7 +1104,7 @@
     ],
     "resps": [
       [
-        "(b) desk drawer"
+        "(c) at school"
       ]
     ],
     "filtered_resps": [
@@ -1160,7 +1160,7 @@
     ],
     "resps": [
       [
-        "(a) lumberyard\n\nThe answer is:\n\n(b) synagogue"
+        "(c) floor"
       ]
     ],
     "filtered_resps": [
@@ -1328,11 +1328,11 @@
     ],
     "resps": [
       [
-        "(c) stadium"
+        "The answer is (c) hospital"
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1552,11 +1552,11 @@
     ],
     "resps": [
       [
-        "(c) understanding"
+        "(c) understanding\n\nThe answer is (c) understanding. Blue read material outside of his comfort zone because he wanted to gain new perspectives and understand what he was doing."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1664,7 +1664,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) violence.\n\nThis is because perjury is a serious crime that involves lying or fabricating evidence to commit a crime."
+        "The answer is (c) violence."
       ]
     ],
     "filtered_resps": [
@@ -1720,7 +1720,7 @@
     ],
     "resps": [
       [
-        "To finish on time, I would have to do the following:\n\n(a) eat\n\nEating is a crucial step in the process, as it allows me to consume food and fuel my body for the long journey ahead. I would have to eat a balanced meal that includes protein, complex carbohydrates, and healthy fats to ensure I have the energy I need to complete the task.\n\n(b) hasten\n\nHastening is a crucial step in the process, as it allows me to make the most of my time and energy. I would have to make a few quick decisions to ensure I have enough time to complete the task, such as choosing a time to start the workday, taking a break, or adjusting my schedule to accommodate any unexpected delays.\n\n(c) antedate\n\nAntedating is a crucial step in the process, as it allows me to ensure that I have all the necessary information and resources to complete the task. I would have to gather all the necessary documents, materials, and information to complete the task, such as a report, a checklist, or a document that outlines the steps I need to take.\n\n(d) bring forward\n\nBring forwarding is a crucial step in the process,"
+        "To finish on time, I would have to do the following:\n\n(a) eat\n\nEating is a crucial step in the process, as it allows me to consume food and fuel my body for the work ahead. I would have to eat a balanced meal to ensure I have enough energy to complete the tasks ahead.\n\n(b) hasten\n\nHastening is a crucial step in the process, as it allows me to move quickly and efficiently through the work. I would have to move quickly to complete the tasks, which would involve a lot of planning and organization.\n\n(c) antedate\n\nAntedating is a crucial step in the process, as it allows me to plan ahead and prepare for the tasks ahead. I would have to plan ahead and create a schedule to ensure I have everything I need to complete the tasks.\n\n(d) bring forward\n\nBring forwarding is a crucial step in the process, as it allows me to move forward and complete the tasks ahead. I would have to move forward and complete the tasks, which would involve a lot of planning and organization.\n\n(e) advance\n\nAdvance is a crucial step in the process, as it allows me to move ahead and"
       ]
     ],
     "filtered_resps": [
@@ -1776,7 +1776,7 @@
     ],
     "resps": [
       [
-        "(b) subway station"
+        "(c) county engineer's office"
       ]
     ],
     "filtered_resps": [
@@ -1888,7 +1888,7 @@
     ],
     "resps": [
       [
-        "(c) sing"
+        "(b) get in line."
       ]
     ],
     "filtered_resps": [
@@ -1944,11 +1944,11 @@
     ],
     "resps": [
       [
-        "(c) feel better"
+        "(b) heart\n\nThe answer is (b) heart because she was always helping at the senior center, which brought her a sense of satisfaction and happiness."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2000,7 +2000,7 @@
     ],
     "resps": [
       [
-        "(b) train"
+        "(a) keep cloesd\n\nThe lock kept the steering wheel from moving, but the thief still took his chances and began to work on the steering wheel."
       ]
     ],
     "filtered_resps": [
@@ -2392,7 +2392,7 @@
     ],
     "resps": [
       [
-        "(b) Google"
+        "(c) newspaper"
       ]
     ],
     "filtered_resps": [
@@ -2448,7 +2448,7 @@
     ],
     "resps": [
       [
-        "(b) wall"
+        "(c) newspaper"
       ]
     ],
     "filtered_resps": [
@@ -2504,7 +2504,7 @@
     ],
     "resps": [
       [
-        "(b) fun\n\nJames didn't get paid for it because he didn't get paid for it. This is a bad thing because it means that James didn't get a fair deal, which is a fundamental principle of the law. The law requires that people be paid for their work, and James didn't get paid for it. This is a violation of the law and a violation of the principle of fairness."
+        "(b) fun\n\nJames didn't get paid for it because he didn't get paid for it. This is a bad thing because it means that James didn't get a fair deal."
       ]
     ],
     "filtered_resps": [
@@ -2616,11 +2616,11 @@
     ],
     "resps": [
       [
-        "(a) get money\n\nThe answer is (a).\n\nTo shop, one must first acquire the necessary funds to purchase goods and services. This can be achieved through various means, such as making a deposit, making a loan, or using a credit card. Once the funds are in hand, the individual can then purchase the goods and services they desire."
+        "(c) bring cash is the most appropriate answer."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2629,7 +2629,7 @@
     "doc_hash": "7a377852f18347c881af1374a803ac020f6763dccbc1cfd002abfe1869513287",
     "prompt_hash": "c1f997a8af3f17d105f58fb8324a64cc0a7a0ed01a106e098a74609dd8e1ffc5",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 47,
@@ -2672,7 +2672,7 @@
     ],
     "resps": [
       [
-        "(b) obesity\n\nJohn needed to bring something important to work, specifically an Ochestra violin case."
+        "(c) symphony orchestra"
       ]
     ],
     "filtered_resps": [
@@ -2952,7 +2952,7 @@
     ],
     "resps": [
       [
-        "When a person is starting work, they are building a foundation of skills, knowledge, and experience. They are building a strong foundation of skills, knowledge, and experience that will be valuable in the long run.\n\n(a) Time is a crucial aspect of building a strong foundation. It is essential to have a clear understanding of the tasks, responsibilities, and expectations that will be covered during the workday. This will help the person to be more productive, efficient, and effective in their work.\n\n(b) Accomplishing is another important aspect of building a strong foundation. It involves putting in the time and effort required to complete tasks, meet deadlines, and meet quality standards. This will help the person to be more efficient, productive, and successful in their work.\n\n(c) Working is a critical aspect of building a strong foundation. It involves working on tasks, projects, and responsibilities that are relevant to the job or industry. This will help the person to be more engaged, motivated, and committed to their work.\n\n(d) Misting is a crucial aspect of building a strong foundation. It involves taking care of the physical and mental health of the person, ensuring that they are well-rested, healthy, and energized."
+        "When a person is starting work, they are building a foundation of skills, knowledge, and experience. They are building a strong foundation that will serve them well in the long run."
       ]
     ],
     "filtered_resps": [
@@ -3064,7 +3064,7 @@
     ],
     "resps": [
       [
-        "(c) eye contact\n\nThe answer is (c) eye contact. This is because talking to the same person about the same thing over and over again can lead to a sense of stagnation and boredom. It's like having a conversation with a friend, but with no new ideas or perspectives to share.\n\nIn the context of the original question, the person is talking to the same person about the same thing, which is a social activity. The person is not engaging in a new conversation or learning from each other, but rather, they are repeating the same conversation over and over again. This can lead to boredom, frustration, and a sense of stagnation.\n\nSo, the answer is (c) eye contact."
+        "(c) eye contact\n\nThe answer is (c) eye contact. This is because the person is talking to the same person repeatedly over and over again, which is a common behavior that can be considered a form of social interaction. The person is engaging in a conversation with the same person, and the repetition of the conversation is a way of maintaining a connection and establishing a sense of familiarity.\n\nIn this case, the person is not just talking to the same person, but they are also engaging in a conversation with the same person, which is a common behavior that can be considered a form of social interaction. The repetition of the conversation is a way of maintaining a sense of familiarity and connection, and it is a common behavior that can be considered a form of social interaction."
       ]
     ],
     "filtered_resps": [
@@ -3288,7 +3288,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) freezing"
+        "The answer is (e) freezing."
       ]
     ],
     "filtered_resps": [
@@ -3400,7 +3400,7 @@
     ],
     "resps": [
       [
-        "(c) public house"
+        "(d) restaurant"
       ]
     ],
     "filtered_resps": [
@@ -3456,11 +3456,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) indoor."
+        "(b) school"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3680,7 +3680,7 @@
     ],
     "resps": [
       [
-        "(a) eat in restaurant\n\nThe answer is (a) \"eat in restaurant.\""
+        "(a) eat in restaurant\n\nThe answer is (a) eat in restaurant."
       ]
     ],
     "filtered_resps": [
@@ -3848,11 +3848,11 @@
     ],
     "resps": [
       [
-        "(c) house is not a good idea, as it is not a place where you would need a fire extinguisher.\n\nThe answer is (c) house."
+        "(c) house is not a good idea, as it is not a place where you would typically use a fire extinguisher."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3861,7 +3861,7 @@
     "doc_hash": "5415af7aa16b4f090d90958f73d74a7f9cbf3e1fc23f4e14cc303f62a14ded8b",
     "prompt_hash": "55c3b4815f0f1d0676d5c43c418f0830db069b3caae6af5b3c2a34881e07a588",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 69,
@@ -3904,7 +3904,7 @@
     ],
     "resps": [
       [
-        "(c) germany"
+        "(b) edinburgh"
       ]
     ],
     "filtered_resps": [
@@ -4184,7 +4184,7 @@
     ],
     "resps": [
       [
-        "(c) full of air\n\nThe answer is (c) full of air because the basketball would not have a hole in it but would still have a general shape."
+        "(c) full of air\n\nThe answer is (c) full of air because the hole in the basketball's shape is not a hole in the shape of a basketball, but rather a hole in the shape of a basketball."
       ]
     ],
     "filtered_resps": [
@@ -4296,7 +4296,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) countryside. Wild birds often live in the countryside, where they can find food, shelter, and a safe place to roost."
+        "The answer is (c) countryside. Wild birds often live in areas with plenty of open spaces, such as fields, forests, and grasslands."
       ]
     ],
     "filtered_resps": [
@@ -4632,7 +4632,7 @@
     ],
     "resps": [
       [
-        "The main purpose of farmers is to provide a stable and reliable source of food for their communities. They do this by cultivating crops such as wheat, corn, soybeans, and other staple crops, as well as raising livestock like cattle, sheep, and goats. These animals are used to provide meat, milk, and other essential products to the local population.\n\nFarmers also play a crucial role in providing food for their communities by growing and harvesting crops, which are then used to produce food for human consumption. This not only provides a source of nutrition for the local population but also helps to reduce poverty and improve the overall quality of life for those living in rural areas.\n\nIn addition, farmers are also involved in the production of goods such as textiles, clothing, and other consumer goods. They also contribute to the local economy by supporting local businesses and industries. Overall, farmers are essential to the well-being and prosperity of their communities."
+        "The main purpose of farmers is to produce food for human consumption, which is a crucial aspect of their livelihood. They are responsible for growing, harvesting, and processing crops to meet the demands of the market. This includes growing crops like wheat, corn, soybeans, and other staple crops, as well as raising livestock such as cattle, sheep, and goats.\n\nFarmers also play a significant role in providing food for their communities, supporting local economies, and contributing to the overall health of the environment. They are involved in various activities such as farming, logging, and construction, which help to maintain the quality of life for their communities.\n\nIn addition, farmers are also involved in the production of other goods, such as textiles, wood products, and chemicals, which are essential for the survival of their communities. Overall, farmers are a vital part of the food production system, and their activities are essential for the well-being of their communities."
       ]
     ],
     "filtered_resps": [
@@ -4744,7 +4744,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) tidepools.\n\nTidal pools are shallow, narrow areas where the tide can rise and fall, and they are often found near the coast. They are often found near the coast, especially near the coast of Maine, where the tide can rise and fall. The crab meat is often found in the tidepools, where the crab is able to eat the crab meat."
+        "The answer is (c) tidepools.\n\nTidepools are a popular place to catch uncooked crab meat, and they are often found near the coast. The crab meat is usually caught in the shallows or on the beach, and it is then transported to the shore for processing."
       ]
     ],
     "filtered_resps": [
@@ -4856,11 +4856,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) kitchen.\n\nPans are typically placed in a cooking container, such as a pot or a pan, to cook food."
+        "The answer is (d) drawer"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4869,7 +4869,7 @@
     "doc_hash": "eec85e269415ce2b18aa779ffca047e2db287b846631fee4d7057925f39c3c32",
     "prompt_hash": "24aaa14a6b6aa9a05672822ac7355088ee0347b0564160c343ed53b18eac87f3",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 87,
@@ -5024,7 +5024,7 @@
     ],
     "resps": [
       [
-        "(b) insomnia\n\nThe correct answer is (b) insomnia."
+        "(a) rest"
       ]
     ],
     "filtered_resps": [
@@ -5192,7 +5192,7 @@
     ],
     "resps": [
       [
-        "(c) Question Authority\n\nThe answer is (c) Question Authority because the person who was hired in the kitchen needed to be a question authority. This means they were the one who asked the question, and the answer was the one that was asked."
+        "(c) Question Authority\n\nThe answer is (c) Question Authority because the person who was hired in the kitchen needed to be a question authority. This means they were the one who asked the question, and the person who answered the question was the one who was the answer."
       ]
     ],
     "filtered_resps": [
@@ -5360,7 +5360,7 @@
     ],
     "resps": [
       [
-        "The answer is (d) understood."
+        "The answer is (d) understanding."
       ]
     ],
     "filtered_resps": [
@@ -5472,11 +5472,11 @@
     ],
     "resps": [
       [
-        "(b) active"
+        "(c) lazybutt\n\nThe answer is (c) lazybutt because the man in the white suit was very lazy, which is a characteristic of a lazy butt."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5752,11 +5752,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) market."
+        "The answer is (d) train station."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6088,11 +6088,11 @@
     ],
     "resps": [
       [
-        "(c) money"
+        "(b) knowing how to read: Reading newspapers is a great way to practice your literacy skills. It helps you understand the basics of reading, such as vocabulary, grammar, and spelling. This is a crucial skill for learning to read and understand written language.\n\n(c) money: Money is a valuable resource that can be used to buy things, and reading newspapers can help you understand how to use money effectively. It's a practical skill that can be applied to various aspects of life, such as budgeting, saving, and making financial decisions.\n\n(d) buying: Buying things is a common activity that can be practiced in newspapers. It's a way to learn about the world around us, and it can help you understand how to make informed decisions. This is a valuable skill that can be applied to various aspects of life, such as budgeting, saving, and making financial decisions.\n\n(e) money bank: Money is a valuable resource that can be used to buy things, and reading newspapers can help you understand how to use money effectively. It's a practical skill that can be applied to various aspects of life, such as budgeting, saving, and making financial decisions.\n\nSo, the answer is: (b) knowing how to read"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,11 +6144,11 @@
     ],
     "resps": [
       [
-        "People typically do the following activities while playing guitar:\n\n1. Cry: Crying is a common way people play guitar, often accompanied by music. It can be a way to express their emotions, release tension, or simply to feel the music.\n\n2. Hear sounds: Hearing the sounds of the guitar, such as the notes, chords, and melodies, can be a fun and engaging way to practice and improve.\n\n3. Singing: Singing is another common way people play guitar, often accompanied by music. It can be a way to express emotions, connect with others, or simply to enjoy the music.\n\n4. Making music: Making music is a fun and creative way to practice guitar. It can involve playing different chords, melodies, or rhythms, and can be a way to express oneself and connect with others.\n\n5. Arthritis: Arthritis is a condition that affects the joints, and playing guitar can be a way to improve flexibility, strength, and balance. It can also be a way to enjoy the music and connect with others."
+        "People typically do the following activities while playing guitar:\n\n1. Cry: Crying is a common way people play guitar, often accompanied by music. It can be a way to express their emotions, release tension, or simply to feel the music.\n\n2. Hear sounds: Hearing the sounds of the guitar, such as the notes, chords, and melodies, can be a fun and engaging way to practice and improve.\n\n3. Singing: Singing is another common way people play guitar, often accompanied by music. It can be a way to express emotions, build confidence, and connect with others.\n\n4. Making music: Making music is a fun and creative way to practice guitar. It can be a way to express emotions, build confidence, and connect with others.\n\n5. Arthritis: Arthritis is a condition that affects the joints, and it can make playing guitar a challenging but rewarding activity.\n\nIn conclusion, people typically do the following activities while playing guitar:\n\na) Cry (cry)\nb) Hear sounds (singing)\nc) Hearing the sounds of the guitar (chanting)\nd) Making music (making music)\ne) Arthritis (making music)"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6157,7 +6157,7 @@
     "doc_hash": "3826ac5c6f4df8246919e794a8a8cbe6609ff9238d7614e58b4a8703225fd7ae",
     "prompt_hash": "cbb84911d8be57424acbad03a5d05c9c9d2ae74d01f66466ab28cafcba713431",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 10,
@@ -6200,11 +6200,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) record store.\n\nThe reason is that vinyl is an odd thing to replace, as it is a type of record that is typically made from a single, thin layer of vinyl. Vinyl is a type of record that is typically made from a single, thin layer of vinyl, which is then pressed onto a surface to create a record. This process is unique and distinct from other types of records, such as CDs and DVDs, which are made from multiple layers of plastic or other materials."
+        "The answer is (c) record store.\n\nThe answer is an odd thing to replace because vinyl is a type of record that is typically used for storing and playing records. It is a physical object that is made from a thin, flexible material called vinyl, which is then pressed into a vinyl record sleeve. Vinyl is a type of record that is typically used for storing and playing records, and it is an odd thing to replace because it is a physical object that is not typically used for storing and playing records."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6312,11 +6312,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) stockyard."
+        "The answer is (c) slaughter house."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "(b) laughter"
+        "(c) being entertained\n\nJanet was watching the film because she liked what?"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6536,11 +6536,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) stay in bed.\n\nThe reason for this answer is that the given options are not suitable for the given context. The given options are:\n\n- reach tentative agreement\n- stay in bed\n- stop bicycle\n- examine thing\n- suicide\n\nThese options are not related to the given context, and therefore do not provide a suitable answer."
+        "The answer is (c) stay in bed.\n\nThe reason for this answer is that the given options are not suitable for the given context. The given options are:\n\n- reach tentative agreement\n- stay in bed\n- stop bicycle\n- examine thing\n- suicide\n\nThese options are not related to the given context, and they do not provide any useful information about the given situation. Therefore, the correct answer is (c) stay in bed."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6549,7 +6549,7 @@
     "doc_hash": "e9af2e0373d0427e6921c9a8202e363f5d6a8e8eb27b32ec849e10d12675b741",
     "prompt_hash": "57c0237dfe9700af93d52a9f091ffe237610624552d838d1e457bdf4eba800ab",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 17,
@@ -6648,11 +6648,11 @@
     ],
     "resps": [
       [
-        "(b) names"
+        "(c) brains"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6661,7 +6661,7 @@
     "doc_hash": "094f41cd4a8ddf81bd4c5ea0e0afdd88e19c8b99c44268d632433ba20d23e1e4",
     "prompt_hash": "3df75f21effc0da2648573b9b5013ba35b4fffb3a5fd0cfc002b86d99f6f984d",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 19,
@@ -6704,11 +6704,11 @@
     ],
     "resps": [
       [
-        "(b) desk drawer"
+        "(c) at school"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6760,11 +6760,11 @@
     ],
     "resps": [
       [
-        "(a) lumberyard\n\nThe answer is:\n\n(b) synagogue"
+        "(c) floor"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6928,11 +6928,11 @@
     ],
     "resps": [
       [
-        "(c) stadium"
+        "The answer is (c) hospital"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6941,7 +6941,7 @@
     "doc_hash": "53d21d26fc31374c0893f9cd74f6b885490c3b46ba1ca11680f868fa503e6cdb",
     "prompt_hash": "4c1be7e7a280e65d51378db82dce3449659ff3d20c51b28f046e2e6ba3152629",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 24,
@@ -7152,7 +7152,7 @@
     ],
     "resps": [
       [
-        "(c) understanding"
+        "(c) understanding\n\nThe answer is (c) understanding. Blue read material outside of his comfort zone because he wanted to gain new perspectives and understand what he was doing."
       ]
     ],
     "filtered_resps": [
@@ -7264,7 +7264,7 @@
     ],
     "resps": [
       [
-        "The answer is (c) violence.\n\nThis is because perjury is a serious crime that involves lying or fabricating evidence to commit a crime."
+        "The answer is (c) violence."
       ]
     ],
     "filtered_resps": [
@@ -7320,11 +7320,11 @@
     ],
     "resps": [
       [
-        "To finish on time, I would have to do the following:\n\n(a) eat\n\nEating is a crucial step in the process, as it allows me to consume food and fuel my body for the long journey ahead. I would have to eat a balanced meal that includes protein, complex carbohydrates, and healthy fats to ensure I have the energy I need to complete the task.\n\n(b) hasten\n\nHastening is a crucial step in the process, as it allows me to make the most of my time and energy. I would have to make a few quick decisions to ensure I have enough time to complete the task, such as choosing a time to start the workday, taking a break, or adjusting my schedule to accommodate any unexpected delays.\n\n(c) antedate\n\nAntedating is a crucial step in the process, as it allows me to ensure that I have all the necessary information and resources to complete the task. I would have to gather all the necessary documents, materials, and information to complete the task, such as a report, a checklist, or a document that outlines the steps I need to take.\n\n(d) bring forward\n\nBring forwarding is a crucial step in the process,"
+        "To finish on time, I would have to do the following:\n\n(a) eat\n\nEating is a crucial step in the process, as it allows me to consume food and fuel my body for the work ahead. I would have to eat a balanced meal to ensure I have enough energy to complete the tasks ahead.\n\n(b) hasten\n\nHastening is a crucial step in the process, as it allows me to move quickly and efficiently through the work. I would have to move quickly to complete the tasks, which would involve a lot of planning and organization.\n\n(c) antedate\n\nAntedating is a crucial step in the process, as it allows me to plan ahead and prepare for the tasks ahead. I would have to plan ahead and create a schedule to ensure I have everything I need to complete the tasks.\n\n(d) bring forward\n\nBring forwarding is a crucial step in the process, as it allows me to move forward and complete the tasks ahead. I would have to move forward and complete the tasks, which would involve a lot of planning and organization.\n\n(e) advance\n\nAdvance is a crucial step in the process, as it allows me to move ahead and"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7376,11 +7376,11 @@
     ],
     "resps": [
       [
-        "(b) subway station"
+        "(c) county engineer's office"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7389,7 +7389,7 @@
     "doc_hash": "faac243076e5e030cd3453f8220d47b09b4699052b1abcce8c235442e67f170a",
     "prompt_hash": "9fbf7b17ff431b3190c9d68624bd6e06ea37141f32f26e62b5f058dea2be76f3",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 32,
@@ -7488,11 +7488,11 @@
     ],
     "resps": [
       [
-        "(c) sing"
+        "(b) get in line."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7544,7 +7544,7 @@
     ],
     "resps": [
       [
-        "(c) feel better"
+        "(b) heart\n\nThe answer is (b) heart because she was always helping at the senior center, which brought her a sense of satisfaction and happiness."
       ]
     ],
     "filtered_resps": [
@@ -7600,11 +7600,11 @@
     ],
     "resps": [
       [
-        "(b) train"
+        "(a) keep cloesd\n\nThe lock kept the steering wheel from moving, but the thief still took his chances and began to work on the steering wheel."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7992,7 +7992,7 @@
     ],
     "resps": [
       [
-        "(b) Google"
+        "(c) newspaper"
       ]
     ],
     "filtered_resps": [
@@ -8048,11 +8048,11 @@
     ],
     "resps": [
       [
-        "(b) wall"
+        "(c) newspaper"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8061,7 +8061,7 @@
     "doc_hash": "8e99ee02ef2c42a1e7a9757c4d357e59a0c3cfb3c8f3a0b2990391f78c6c1204",
     "prompt_hash": "68e955418f9b1e6d0491768f93826673c3974cec5771b96e003595207ca893c5",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 44,
@@ -8104,11 +8104,11 @@
     ],
     "resps": [
       [
-        "(b) fun\n\nJames didn't get paid for it because he didn't get paid for it. This is a bad thing because it means that James didn't get a fair deal, which is a fundamental principle of the law. The law requires that people be paid for their work, and James didn't get paid for it. This is a violation of the law and a violation of the principle of fairness."
+        "(b) fun\n\nJames didn't get paid for it because he didn't get paid for it. This is a bad thing because it means that James didn't get a fair deal."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8216,7 +8216,7 @@
     ],
     "resps": [
       [
-        "(a) get money\n\nThe answer is (a).\n\nTo shop, one must first acquire the necessary funds to purchase goods and services. This can be achieved through various means, such as making a deposit, making a loan, or using a credit card. Once the funds are in hand, the individual can then purchase the goods and services they desire."
+        "(c) bring cash is the most appropriate answer."
       ]
     ],
     "filtered_resps": [
@@ -8272,11 +8272,11 @@
     ],
     "resps": [
       [
-        "(b) obesity\n\nJohn needed to bring something important to work, specifically an Ochestra violin case."
+        "(c) symphony orchestra"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8285,7 +8285,7 @@
     "doc_hash": "356151e12354f2cc71368a4eb6794b401a328c30defd6cd29107b2541a1de71b",
     "prompt_hash": "18ae2334f85ba6f2c30143f89e35fc759043f6a10de86326a6f38c142c9533db",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 48,
@@ -8552,11 +8552,11 @@
     ],
     "resps": [
       [
-        "When a person is starting work, they are building a foundation of skills, knowledge, and experience. They are building a strong foundation of skills, knowledge, and experience that will be valuable in the long run.\n\n(a) Time is a crucial aspect of building a strong foundation. It is essential to have a clear understanding of the tasks, responsibilities, and expectations that will be covered during the workday. This will help the person to be more productive, efficient, and effective in their work.\n\n(b) Accomplishing is another important aspect of building a strong foundation. It involves putting in the time and effort required to complete tasks, meet deadlines, and meet quality standards. This will help the person to be more efficient, productive, and successful in their work.\n\n(c) Working is a critical aspect of building a strong foundation. It involves working on tasks, projects, and responsibilities that are relevant to the job or industry. This will help the person to be more engaged, motivated, and committed to their work.\n\n(d) Misting is a crucial aspect of building a strong foundation. It involves taking care of the physical and mental health of the person, ensuring that they are well-rested, healthy, and energized."
+        "When a person is starting work, they are building a foundation of skills, knowledge, and experience. They are building a strong foundation that will serve them well in the long run."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8565,7 +8565,7 @@
     "doc_hash": "e0c933a61eec6ccecce183dbef30475a7f64dc8e39bfd7ee5bb305668fc1bfc4",
     "prompt_hash": "9e9edca9352e9a4be400d48de46753819b1ead874957202a8031baf19d584738",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 53,
@@ -8664,7 +8664,7 @@
     ],
     "resps": [
       [
-        "(c) eye contact\n\nThe answer is (c) eye contact. This is because talking to the same person about the same thing over and over again can lead to a sense of stagnation and boredom. It's like having a conversation with a friend, but with no new ideas or perspectives to share.\n\nIn the context of the original question, the person is talking to the same person about the same thing, which is a social activity. The person is not engaging in a new conversation or learning from each other, but rather, they are repeating the same conversation over and over again. This can lead to boredom, frustration, and a sense of stagnation.\n\nSo, the answer is (c) eye contact."
+        "(c) eye contact\n\nThe answer is (c) eye contact. This is because the person is talking to the same person repeatedly over and over again, which is a common behavior that can be considered a form of social interaction. The person is engaging in a conversation with the same person, and the repetition of the conversation is a way of maintaining a connection and establishing a sense of familiarity.\n\nIn this case, the person is not just talking to the same person, but they are also engaging in a conversation with the same person, which is a common behavior that can be considered a form of social interaction. The repetition of the conversation is a way of maintaining a sense of familiarity and connection, and it is a common behavior that can be considered a form of social interaction."
       ]
     ],
     "filtered_resps": [
@@ -8888,7 +8888,7 @@
     ],
     "resps": [
       [
-        "The answer is (e) freezing"
+        "The answer is (e) freezing."
       ]
     ],
     "filtered_resps": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "(c) public house"
+        "(d) restaurant"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9056,11 +9056,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) indoor."
+        "(b) school"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9280,7 +9280,7 @@
     ],
     "resps": [
       [
-        "(a) eat in restaurant\n\nThe answer is (a) \"eat in restaurant.\""
+        "(a) eat in restaurant\n\nThe answer is (a) eat in restaurant."
       ]
     ],
     "filtered_resps": [
@@ -9448,7 +9448,7 @@
     ],
     "resps": [
       [
-        "(c) house is not a good idea, as it is not a place where you would need a fire extinguisher.\n\nThe answer is (c) house."
+        "(c) house is not a good idea, as it is not a place where you would typically use a fire extinguisher."
       ]
     ],
     "filtered_resps": [
@@ -9504,11 +9504,11 @@
     ],
     "resps": [
       [
-        "(c) germany"
+        "(b) edinburgh"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9784,11 +9784,11 @@
     ],
     "resps": [
       [
-        "(c) full of air\n\nThe answer is (c) full of air because the basketball would not have a hole in it but would still have a general shape."
+        "(c) full of air\n\nThe answer is (c) full of air because the hole in the basketball's shape is not a hole in the shape of a basketball, but rather a hole in the shape of a basketball."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9896,11 +9896,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) countryside. Wild birds often live in the countryside, where they can find food, shelter, and a safe place to roost."
+        "The answer is (c) countryside. Wild birds often live in areas with plenty of open spaces, such as fields, forests, and grasslands."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10232,7 +10232,7 @@
     ],
     "resps": [
       [
-        "The main purpose of farmers is to provide a stable and reliable source of food for their communities. They do this by cultivating crops such as wheat, corn, soybeans, and other staple crops, as well as raising livestock like cattle, sheep, and goats. These animals are used to provide meat, milk, and other essential products to the local population.\n\nFarmers also play a crucial role in providing food for their communities by growing and harvesting crops, which are then used to produce food for human consumption. This not only provides a source of nutrition for the local population but also helps to reduce poverty and improve the overall quality of life for those living in rural areas.\n\nIn addition, farmers are also involved in the production of goods such as textiles, clothing, and other consumer goods. They also contribute to the local economy by supporting local businesses and industries. Overall, farmers are essential to the well-being and prosperity of their communities."
+        "The main purpose of farmers is to produce food for human consumption, which is a crucial aspect of their livelihood. They are responsible for growing, harvesting, and processing crops to meet the demands of the market. This includes growing crops like wheat, corn, soybeans, and other staple crops, as well as raising livestock such as cattle, sheep, and goats.\n\nFarmers also play a significant role in providing food for their communities, supporting local economies, and contributing to the overall health of the environment. They are involved in various activities such as farming, logging, and construction, which help to maintain the quality of life for their communities.\n\nIn addition, farmers are also involved in the production of other goods, such as textiles, wood products, and chemicals, which are essential for the survival of their communities. Overall, farmers are a vital part of the food production system, and their activities are essential for the well-being of their communities."
       ]
     ],
     "filtered_resps": [
@@ -10344,11 +10344,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) tidepools.\n\nTidal pools are shallow, narrow areas where the tide can rise and fall, and they are often found near the coast. They are often found near the coast, especially near the coast of Maine, where the tide can rise and fall. The crab meat is often found in the tidepools, where the crab is able to eat the crab meat."
+        "The answer is (c) tidepools.\n\nTidepools are a popular place to catch uncooked crab meat, and they are often found near the coast. The crab meat is usually caught in the shallows or on the beach, and it is then transported to the shore for processing."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10357,7 +10357,7 @@
     "doc_hash": "c31e703a4a7f35715e60f2ddc59830c0337f27416f5f0babf2f9b1353be5dba3",
     "prompt_hash": "068c428fbe577c413298105ab086571f754e44944066070ef539902b85d07797",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 85,
@@ -10456,11 +10456,11 @@
     ],
     "resps": [
       [
-        "The answer is (c) kitchen.\n\nPans are typically placed in a cooking container, such as a pot or a pan, to cook food."
+        "The answer is (d) drawer"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10469,7 +10469,7 @@
     "doc_hash": "eec85e269415ce2b18aa779ffca047e2db287b846631fee4d7057925f39c3c32",
     "prompt_hash": "24aaa14a6b6aa9a05672822ac7355088ee0347b0564160c343ed53b18eac87f3",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -10624,11 +10624,11 @@
     ],
     "resps": [
       [
-        "(b) insomnia\n\nThe correct answer is (b) insomnia."
+        "(a) rest"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10792,11 +10792,11 @@
     ],
     "resps": [
       [
-        "(c) Question Authority\n\nThe answer is (c) Question Authority because the person who was hired in the kitchen needed to be a question authority. This means they were the one who asked the question, and the answer was the one that was asked."
+        "(c) Question Authority\n\nThe answer is (c) Question Authority because the person who was hired in the kitchen needed to be a question authority. This means they were the one who asked the question, and the person who answered the question was the one who was the answer."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10805,7 +10805,7 @@
     "doc_hash": "820ab4c3531cdf69a8eef46cb97bb63c8030401ad77c27190a9a7d4c32bd8084",
     "prompt_hash": "f3d7772f7e80c603fe0129bc5dbfa69dc3e54fe422c680599dd5f76c84dd7bb3",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 93,
@@ -10960,7 +10960,7 @@
     ],
     "resps": [
       [
-        "The answer is (d) understood."
+        "The answer is (d) understanding."
       ]
     ],
     "filtered_resps": [
@@ -11072,11 +11072,11 @@
     ],
     "resps": [
       [
-        "(b) active"
+        "(c) lazybutt\n\nThe answer is (c) lazybutt because the man in the white suit was very lazy, which is a characteristic of a lazy butt."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [

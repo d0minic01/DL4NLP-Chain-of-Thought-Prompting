@@ -212,7 +212,7 @@
     ],
     "resps": [
       [
-        "Mary Walter, tiger lantern."
+        "Mary Walter, a tiger lantern, is a name given to a type of lantern that is made of a special material called \"Mary Walter.\""
       ]
     ],
     "filtered_resps": [
@@ -364,7 +364,7 @@
     ],
     "resps": [
       [
-        "Brian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\n"
+        "The last letters of the words in \"Brian island puzzle hammer\" are \"Brian\"."
       ]
     ],
     "filtered_resps": [
@@ -440,7 +440,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"orange Carol Walter\" are \"O.R.\" and \"W.A.\""
+        "The last letters of the words in \"orange Carol Walter\" are \"O.R.\" and \"W.\""
       ]
     ],
     "filtered_resps": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "Kate, Jacket Valley, and Xenon."
+        "Kate, Jack, Valley, Xenon."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"Clara feather desert rocket\" are \"clara\" and \"feather\" and the concatenated letters are \"clara feather\" and \"feather\"."
+        "The last letters of the words in \"Clara feather desert rocket\" are \"clara\" and \"feather\"."
       ]
     ],
     "filtered_resps": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"desert Kate\" are \"Kate\"."
+        "The last letters of the words in \"desert Kate\" are \"desert\"."
       ]
     ],
     "filtered_resps": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"mango Iris river Zach\" are \"Z\" and \"o\"."
+        "The last letters of the words in \"mango Iris river Zach\" are \"Zach\"."
       ]
     ],
     "filtered_resps": [
@@ -2226,7 +2226,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"jacket planet lemon\" are \"j\" and \"p\"."
+        "The last letters of the words in \"jacket planet lemon\" are \"j\" and \"p\" and the concatenated letters are \"j\" and \"p\"."
       ]
     ],
     "filtered_resps": [
@@ -2264,7 +2264,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"oven Vera\" are \"Vera\"."
+        "Vera's oven is a great example of how a simple combination of letters can create a beautiful and memorable word."
       ]
     ],
     "filtered_resps": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "Le-M-O-G-H-I-N-O-G."
+        "Lemon guitar."
       ]
     ],
     "filtered_resps": [
@@ -2416,7 +2416,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"oven jacket window dragon\" are \"oven\" and \"jacket\" and \"window\" and \"dragon\". So, the answer is \"ovenjacketwindowdragon\"."
+        "The last letters of the words in \"oven jacket window dragon\" are \"oven\" and \"jacket\" and \"window\" and \"dragon\"."
       ]
     ],
     "filtered_resps": [
@@ -2644,7 +2644,7 @@
     ],
     "resps": [
       [
-        "Yasmin Brian Knight."
+        "Yasmin Brian knight."
       ]
     ],
     "filtered_resps": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"glove window violet\" are \"glove\" and \"window.\" So, the final result is \"glove window violet.\""
+        "Glove window violet."
       ]
     ],
     "filtered_resps": [
@@ -2986,7 +2986,7 @@
     ],
     "resps": [
       [
-        "Bob tiger eagle."
+        "Bob tiger eagle"
       ]
     ],
     "filtered_resps": [
@@ -3138,7 +3138,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"river feather anchor\" are \"air\"."
+        "The answer is \"air\"."
       ]
     ],
     "filtered_resps": [
@@ -3632,7 +3632,7 @@
     ],
     "resps": [
       [
-        "Violet Quinn Stone Zebra"
+        "The last letters of the words in \"violet Quinn stone zebra\" are \"v\" and \"i\"."
       ]
     ],
     "filtered_resps": [
@@ -4012,11 +4012,11 @@
     ],
     "resps": [
       [
-        "Mary Walter, tiger lantern."
+        "Mary Walter, a tiger lantern, is a name given to a type of lantern that is made of a special material called \"Mary Walter.\""
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "of"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "Brian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\nBrian Island Puzzle:\n\n"
+        "The last letters of the words in \"Brian island puzzle hammer\" are \"Brian\"."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "are"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,7 +4240,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"orange Carol Walter\" are \"O.R.\" and \"W.A.\""
+        "The last letters of the words in \"orange Carol Walter\" are \"O.R.\" and \"W.\""
       ]
     ],
     "filtered_resps": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "Kate, Jacket Valley, and Xenon."
+        "Kate, Jack, Valley, Xenon."
       ]
     ],
     "filtered_resps": [
-      "and"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"Clara feather desert rocket\" are \"clara\" and \"feather\" and the concatenated letters are \"clara feather\" and \"feather\"."
+        "The last letters of the words in \"Clara feather desert rocket\" are \"clara\" and \"feather\"."
       ]
     ],
     "filtered_resps": [
@@ -5000,7 +5000,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"desert Kate\" are \"Kate\"."
+        "The last letters of the words in \"desert Kate\" are \"desert\"."
       ]
     ],
     "filtered_resps": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"mango Iris river Zach\" are \"Z\" and \"o\"."
+        "The last letters of the words in \"mango Iris river Zach\" are \"Zach\"."
       ]
     ],
     "filtered_resps": [
-      "and"
+      "are"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,7 +6026,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"jacket planet lemon\" are \"j\" and \"p\"."
+        "The last letters of the words in \"jacket planet lemon\" are \"j\" and \"p\" and the concatenated letters are \"j\" and \"p\"."
       ]
     ],
     "filtered_resps": [
@@ -6064,11 +6064,11 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"oven Vera\" are \"Vera\"."
+        "Vera's oven is a great example of how a simple combination of letters can create a beautiful and memorable word."
       ]
     ],
     "filtered_resps": [
-      "are"
+      "word"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "Le-M-O-G-H-I-N-O-G."
+        "Lemon guitar."
       ]
     ],
     "filtered_resps": [
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"oven jacket window dragon\" are \"oven\" and \"jacket\" and \"window\" and \"dragon\". So, the answer is \"ovenjacketwindowdragon\"."
+        "The last letters of the words in \"oven jacket window dragon\" are \"oven\" and \"jacket\" and \"window\" and \"dragon\"."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "and"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6444,7 +6444,7 @@
     ],
     "resps": [
       [
-        "Yasmin Brian Knight."
+        "Yasmin Brian knight."
       ]
     ],
     "filtered_resps": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"glove window violet\" are \"glove\" and \"window.\" So, the final result is \"glove window violet.\""
+        "Glove window violet."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,7 +6786,7 @@
     ],
     "resps": [
       [
-        "Bob tiger eagle."
+        "Bob tiger eagle"
       ]
     ],
     "filtered_resps": [
@@ -6938,7 +6938,7 @@
     ],
     "resps": [
       [
-        "The last letters of the words in \"river feather anchor\" are \"air\"."
+        "The answer is \"air\"."
       ]
     ],
     "filtered_resps": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "Violet Quinn Stone Zebra"
+        "The last letters of the words in \"violet Quinn stone zebra\" are \"v\" and \"i\"."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "and"
     ],
     "filter": "flexible-extract",
     "metrics": [

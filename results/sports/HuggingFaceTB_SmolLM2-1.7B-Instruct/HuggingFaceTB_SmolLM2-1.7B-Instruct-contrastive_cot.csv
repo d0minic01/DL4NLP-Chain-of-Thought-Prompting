@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,sports_contrastive_cot,sports,contrastive_cot,fewshot_cot,sports_understanding,0.71,0.0,205.7,8,100,20.88,5.3

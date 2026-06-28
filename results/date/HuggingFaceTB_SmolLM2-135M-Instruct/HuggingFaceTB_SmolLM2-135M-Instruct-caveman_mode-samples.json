@@ -98,7 +98,7 @@
     ],
     "resps": [
       [
-        "03/03/2015 + 30 days = 03/04/2015. 30 day from now = 03/05/2015. The answer is 03/05/2015."
+        "03/03/2015 + 1 day = 03/04/2015. 30 day from now = 03/05/2015. The answer is 03/05/2015."
       ]
     ],
     "filtered_resps": [
@@ -516,11 +516,11 @@
     ],
     "resps": [
       [
-        "11/04/1985. 1 day from now = 11/05/1985. The answer is 11/05/1985."
+        "11/04/1985. Yesterday = 11/04/1985. The answer is 11/04/1985."
       ]
     ],
     "filtered_resps": [
-      "11/05/1985"
+      "11/04/1985"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -529,7 +529,7 @@
     "doc_hash": "de83c545171a3ec2bda12de55f92e9792c99124f0bd5ff75238d05a021d8ff50",
     "prompt_hash": "043e03910eae8f8c4f8133c83781467f9a6dfd9e16b3d6bda3ffb08cc8e59de6",
     "target_hash": "f2335158b3141cd06895230892e9a89eabbc6821da8c70cd6bc8e16b35c1f089",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 14,
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "03/03/2015 + 1 day = 03/04/2015. 14 days ago = 03/05/2015. The answer is 03/05/2015."
+        "03/03/2015. 14 days ago = 03/04/2015. The answer is 03/04/2015."
       ]
     ],
     "filtered_resps": [
-      "03/05/2015"
+      "03/04/2015"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -820,7 +820,7 @@
     ],
     "resps": [
       [
-        "03/07/1955. 1 day ago. The answer is 03/07/1955."
+        "03/07/1955. 1 day ago = 03/07/1955. The answer is 03/07/1955."
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "07/22/2001 + 1 day = 07/23/2001. 3 days from now = 07/23/2001. The answer is 07/23/2001."
+        "07/22/2001 + 1 day = 07/23/2001. 3 days from now = 07/24/2001. The answer is 07/24/2001."
       ]
     ],
     "filtered_resps": [
-      "07/23/2001"
+      "07/24/2001"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "01/30/2010 + 1 day = 01/31/2010. The answer is 01/31/2010."
+        "01/30/2010. 10 days from now = 01/31/2010. The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
@@ -1238,11 +1238,11 @@
     ],
     "resps": [
       [
-        "06/12/1975 + 1 day = 06/13/1975. 30 day after = 03/14/1975. The answer is 03/14/1975."
+        "06/12/1975 + 1 day = 06/13/1975. 30 day before = 03/13/1975. The answer is 03/13/1975."
       ]
     ],
     "filtered_resps": [
-      "03/14/1975"
+      "03/13/1975"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "07/25/1998. 7 days from now = 07/26/1998. The answer is 07/26/1998."
+        "12/25/1998 + 7 days = 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
-      "07/26/1998"
+      "12/26/1998"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "02/28/1992. 3 days from now = 02/28/1992. The answer is 02/28/1992."
+        "02/28/1992 + 3 days = 02/29/1992. The answer is 02/29/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "02/29/1992"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "08/19/1963 + 1 day = 08/20/1963. 10 days ago = 08/21/1963. The answer is 08/21/1963."
+        "08/19/1963 + 1 day = 08/20/1963. 10 days ago = 08/20/1963. The answer is 08/20/1963."
       ]
     ],
     "filtered_resps": [
-      "08/21/1963"
+      "08/20/1963"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2454,7 +2454,7 @@
     ],
     "resps": [
       [
-        "12/25/1998. 1 day from now = 12/26/1998. The answer is 12/26/1998."
+        "12/25/1998 + 1 day = 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
@@ -2682,11 +2682,11 @@
     ],
     "resps": [
       [
-        "03/15/1990 + 1 day = 03/16/1990. The answer is 03/16/1990."
+        "03/15/1990 + 1 day = 03/16/1990. 10 days from now = 03/17/1990. The answer is 03/17/1990."
       ]
     ],
     "filtered_resps": [
-      "03/16/1990"
+      "03/17/1990"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "01/15/2016. 1 day ago. The answer is 01/15/2016."
+        "01/15/2016. 1 day ago = 01/16/2016. The answer is 01/16/2016."
       ]
     ],
     "filtered_resps": [
-      "01/15/2016"
+      "01/16/2016"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,11 +2910,11 @@
     ],
     "resps": [
       [
-        "06/21/2012 + 1 day = 06/22/2012. 7 days from now = 06/23/2012. The answer is 06/23/2012."
+        "06/21/2012 + 7 days = 06/28/2012. The answer is 06/28/2012."
       ]
     ],
     "filtered_resps": [
-      "06/23/2012"
+      "06/28/2012"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2923,7 +2923,7 @@
     "doc_hash": "3db5a571164ae5f7ca5209f64792fd1f059657b713e60d347d5bb76470235436",
     "prompt_hash": "c3096df0498895e8cf40dd7899784e9e6706c6e24affb1851ce1494089ef5d04",
     "target_hash": "0ad3e23e36e1f58bd1dfdc00972c1b4a8d2b8bb22f463e950a286404defc1b71",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 77,
@@ -2986,7 +2986,7 @@
     ],
     "resps": [
       [
-        "12/30/1967. 1 day from now = 12/31/1967. The answer is 12/31/1967."
+        "12/30/1967 + 1 day = 12/31/1967. The answer is 12/31/1967."
       ]
     ],
     "filtered_resps": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "08/19/1963 + 1 day = 08/20/1963. 30 day from now = 08/21/1963. The answer is 08/21/1963."
+        "08/19/1963 + 1 day = 08/20/1963. 30 day from now = 08/20/1963. The answer is 08/20/1963."
       ]
     ],
     "filtered_resps": [
-      "08/21/1963"
+      "08/20/1963"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "07/07/1955. 14 days ago = 07/07/1955. The answer is 07/07/1955."
+        "03/07/1955 + 1 day = 03/08/1955. 14 days ago = 03/08/1955. The answer is 03/08/1955."
       ]
     ],
     "filtered_resps": [
-      "07/07/1955"
+      "03/08/1955"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3898,7 +3898,7 @@
     ],
     "resps": [
       [
-        "03/03/2015 + 30 days = 03/04/2015. 30 day from now = 03/05/2015. The answer is 03/05/2015."
+        "03/03/2015 + 1 day = 03/04/2015. 30 day from now = 03/05/2015. The answer is 03/05/2015."
       ]
     ],
     "filtered_resps": [
@@ -4316,11 +4316,11 @@
     ],
     "resps": [
       [
-        "11/04/1985. 1 day from now = 11/05/1985. The answer is 11/05/1985."
+        "11/04/1985. Yesterday = 11/04/1985. The answer is 11/04/1985."
       ]
     ],
     "filtered_resps": [
-      "11/05/1985"
+      "11/04/1985"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4329,7 +4329,7 @@
     "doc_hash": "de83c545171a3ec2bda12de55f92e9792c99124f0bd5ff75238d05a021d8ff50",
     "prompt_hash": "043e03910eae8f8c4f8133c83781467f9a6dfd9e16b3d6bda3ffb08cc8e59de6",
     "target_hash": "f2335158b3141cd06895230892e9a89eabbc6821da8c70cd6bc8e16b35c1f089",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 14,
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "03/03/2015 + 1 day = 03/04/2015. 14 days ago = 03/05/2015. The answer is 03/05/2015."
+        "03/03/2015. 14 days ago = 03/04/2015. The answer is 03/04/2015."
       ]
     ],
     "filtered_resps": [
-      "03/05/2015"
+      "03/04/2015"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4620,7 +4620,7 @@
     ],
     "resps": [
       [
-        "03/07/1955. 1 day ago. The answer is 03/07/1955."
+        "03/07/1955. 1 day ago = 03/07/1955. The answer is 03/07/1955."
       ]
     ],
     "filtered_resps": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "07/22/2001 + 1 day = 07/23/2001. 3 days from now = 07/23/2001. The answer is 07/23/2001."
+        "07/22/2001 + 1 day = 07/23/2001. 3 days from now = 07/24/2001. The answer is 07/24/2001."
       ]
     ],
     "filtered_resps": [
-      "07/23/2001"
+      "07/24/2001"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,7 +4962,7 @@
     ],
     "resps": [
       [
-        "01/30/2010 + 1 day = 01/31/2010. The answer is 01/31/2010."
+        "01/30/2010. 10 days from now = 01/31/2010. The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
@@ -5038,11 +5038,11 @@
     ],
     "resps": [
       [
-        "06/12/1975 + 1 day = 06/13/1975. 30 day after = 03/14/1975. The answer is 03/14/1975."
+        "06/12/1975 + 1 day = 06/13/1975. 30 day before = 03/13/1975. The answer is 03/13/1975."
       ]
     ],
     "filtered_resps": [
-      "03/14/1975"
+      "03/13/1975"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "07/25/1998. 7 days from now = 07/26/1998. The answer is 07/26/1998."
+        "12/25/1998 + 7 days = 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
-      "07/26/1998"
+      "12/26/1998"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "02/28/1992. 3 days from now = 02/28/1992. The answer is 02/28/1992."
+        "02/28/1992 + 3 days = 02/29/1992. The answer is 02/29/1992."
       ]
     ],
     "filtered_resps": [
-      "02/28/1992"
+      "02/29/1992"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "08/19/1963 + 1 day = 08/20/1963. 10 days ago = 08/21/1963. The answer is 08/21/1963."
+        "08/19/1963 + 1 day = 08/20/1963. 10 days ago = 08/20/1963. The answer is 08/20/1963."
       ]
     ],
     "filtered_resps": [
-      "08/21/1963"
+      "08/20/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6254,7 +6254,7 @@
     ],
     "resps": [
       [
-        "12/25/1998. 1 day from now = 12/26/1998. The answer is 12/26/1998."
+        "12/25/1998 + 1 day = 12/26/1998. The answer is 12/26/1998."
       ]
     ],
     "filtered_resps": [
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "03/15/1990 + 1 day = 03/16/1990. The answer is 03/16/1990."
+        "03/15/1990 + 1 day = 03/16/1990. 10 days from now = 03/17/1990. The answer is 03/17/1990."
       ]
     ],
     "filtered_resps": [
-      "03/16/1990"
+      "03/17/1990"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "01/15/2016. 1 day ago. The answer is 01/15/2016."
+        "01/15/2016. 1 day ago = 01/16/2016. The answer is 01/16/2016."
       ]
     ],
     "filtered_resps": [
-      "01/15/2016"
+      "01/16/2016"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "06/21/2012 + 1 day = 06/22/2012. 7 days from now = 06/23/2012. The answer is 06/23/2012."
+        "06/21/2012 + 7 days = 06/28/2012. The answer is 06/28/2012."
       ]
     ],
     "filtered_resps": [
-      "06/23/2012"
+      "06/28/2012"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6723,7 +6723,7 @@
     "doc_hash": "3db5a571164ae5f7ca5209f64792fd1f059657b713e60d347d5bb76470235436",
     "prompt_hash": "c3096df0498895e8cf40dd7899784e9e6706c6e24affb1851ce1494089ef5d04",
     "target_hash": "0ad3e23e36e1f58bd1dfdc00972c1b4a8d2b8bb22f463e950a286404defc1b71",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 77,
@@ -6786,7 +6786,7 @@
     ],
     "resps": [
       [
-        "12/30/1967. 1 day from now = 12/31/1967. The answer is 12/31/1967."
+        "12/30/1967 + 1 day = 12/31/1967. The answer is 12/31/1967."
       ]
     ],
     "filtered_resps": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "08/19/1963 + 1 day = 08/20/1963. 30 day from now = 08/21/1963. The answer is 08/21/1963."
+        "08/19/1963 + 1 day = 08/20/1963. 30 day from now = 08/20/1963. The answer is 08/20/1963."
       ]
     ],
     "filtered_resps": [
-      "08/21/1963"
+      "08/20/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "07/07/1955. 14 days ago = 07/07/1955. The answer is 07/07/1955."
+        "03/07/1955 + 1 day = 03/08/1955. 14 days ago = 03/08/1955. The answer is 03/08/1955."
       ]
     ],
     "filtered_resps": [
-      "07/07/1955"
+      "03/08/1955"
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-1.7B-Instruct,date_equation_only,date,equation_only,fewshot_cot,date_understanding,0.58,0.02,65.0,6,100,25.13,5.3

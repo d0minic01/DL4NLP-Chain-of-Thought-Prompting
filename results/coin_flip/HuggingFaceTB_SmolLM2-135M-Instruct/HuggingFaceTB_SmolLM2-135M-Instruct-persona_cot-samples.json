@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -35,7 +35,7 @@
     "doc_hash": "5fc7a116eae7e982cff369b6b7912e7f9b4b886e0bffdc0c19d7d5f13846053d",
     "prompt_hash": "fadf872dcb172af04c1d4958b08962c4e1864db64f9719e25da11e156ef0fa31",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 1,
@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -288,7 +288,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -402,7 +402,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -567,7 +567,7 @@
     "doc_hash": "3960f79f8eca93b2f1d17876279b4f8d1fe83e1e626fc1ce304d5f07966006ac",
     "prompt_hash": "8714e54499b3f028a5f3cbabf3b441b5dd502d29d4e0650bcf3380a1c990bff5",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 15,
@@ -592,11 +592,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -605,7 +605,7 @@
     "doc_hash": "4c592cb10c4e2b5d285b5492db0bbd8a230e550402eb967426d4dbc123d6d0ea",
     "prompt_hash": "e24f5185a321590c86f1a9e9fa831cc91ad480973f9da2152294317d358dc2c4",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 16,
@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -719,7 +719,7 @@
     "doc_hash": "eb8cbca5322bcc06bbbffa3eee7d7ead1b545f69fd83fad2e0c7a33daf255de0",
     "prompt_hash": "27c566d7ad155c93781c663762a2bd4e606ba90ed9f63533571d21b7f8a902b6",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 19,
@@ -744,7 +744,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -858,7 +858,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1124,11 +1124,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1137,7 +1137,7 @@
     "doc_hash": "c6f25ad418d49e25d6a5dd938e7fb2aa777b3ef9561151742c2db859ff719050",
     "prompt_hash": "a3a5e8305836bc65c8c617faea0591dac34b8cc35bf1d738e9f5f5d073cdcbb4",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 30,
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1314,7 +1314,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1428,11 +1428,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1441,7 +1441,7 @@
     "doc_hash": "b485d437aeb0af3daf793b40d9f41ea92c884431f29e4b0582a4b0dadddf374d",
     "prompt_hash": "dc3f7748a4d8c11f4a0d2bf523a91d4c4927e2623e7aa16cdd3294e1b4a415ca",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -1542,7 +1542,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1631,7 +1631,7 @@
     "doc_hash": "cfcf7087b38c9cfca2b36a3cab7654aa599bd3149c01450714f451ce18bf8507",
     "prompt_hash": "0fff76f7f60a4cadbc8a41e025bee8cb25be36472e9afbcc6b7eebc0885f84f4",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 43,
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1973,7 +1973,7 @@
     "doc_hash": "f40dc7a785abe8e0fb2f21ab250a0a37022e2f37e11802b5a60629028ffe18f7",
     "prompt_hash": "0efb3ed6cf70b6d03a05d5b0ae1282e722db1caa9059e69bbc3964dcc9f85dca",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 52,
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2239,7 +2239,7 @@
     "doc_hash": "717a19c843ea3925cb8e7b9e787db5bd6bfd03246dc2344bb07dcf4e7cc044e6",
     "prompt_hash": "8e41ef4124c419b78eb1200e366ef355a30107a147c9ab77a7381db8a5262abe",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 59,
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2454,11 +2454,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2467,7 +2467,7 @@
     "doc_hash": "72636d10ff318ff94cc669a839b99563e3d7d40a495a496031c8fd24d33979c7",
     "prompt_hash": "2e38224d101eba835634df9b0e237305472c7d520831ee542bcfe7d62d2020fd",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 65,
@@ -2492,7 +2492,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2644,11 +2644,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2657,7 +2657,7 @@
     "doc_hash": "6fe28ce3427fc02ee45330405ca142b139b64e2cb04fd2e2d5278730f433523b",
     "prompt_hash": "4fb60b3b05e0fb8cecd8c2056605bddbee5c27508d6f66878f55e28c19a3042f",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 70,
@@ -2796,7 +2796,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 0) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2872,7 +2872,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3062,7 +3062,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3176,7 +3176,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3252,7 +3252,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3328,7 +3328,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3442,7 +3442,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3531,7 +3531,7 @@
     "doc_hash": "7368a4bc6c2594787cc58d35011e8997b814409dcce967d4f3a6d73bb7310b53",
     "prompt_hash": "261a17184ac2c26eff099cbd8a1b05c35160e486c9b26fa414fbc7f91cbbe8c8",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 93,
@@ -3556,11 +3556,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3569,7 +3569,7 @@
     "doc_hash": "c797909238be804264b1d8b5815b4015098ddfc52ae169faad1065dfe0f6084f",
     "prompt_hash": "3e9b38a58b18d27ffbcc8ef4308cfdaff556e74367b8dfc60339499b87478dbb",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 94,
@@ -3632,7 +3632,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3721,7 +3721,7 @@
     "doc_hash": "677142980475e290f6de75a2866959f0c11feffef6395be2531a41546f962dd3",
     "prompt_hash": "384bd780979be81848402fb8fddd72ca5034f2964a46f344026dac30e5625c25",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 98,
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3835,7 +3835,7 @@
     "doc_hash": "5fc7a116eae7e982cff369b6b7912e7f9b4b886e0bffdc0c19d7d5f13846053d",
     "prompt_hash": "fadf872dcb172af04c1d4958b08962c4e1864db64f9719e25da11e156ef0fa31",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 1,
@@ -3860,7 +3860,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4088,7 +4088,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4202,7 +4202,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4367,7 +4367,7 @@
     "doc_hash": "3960f79f8eca93b2f1d17876279b4f8d1fe83e1e626fc1ce304d5f07966006ac",
     "prompt_hash": "8714e54499b3f028a5f3cbabf3b441b5dd502d29d4e0650bcf3380a1c990bff5",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 15,
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4405,7 +4405,7 @@
     "doc_hash": "4c592cb10c4e2b5d285b5492db0bbd8a230e550402eb967426d4dbc123d6d0ea",
     "prompt_hash": "e24f5185a321590c86f1a9e9fa831cc91ad480973f9da2152294317d358dc2c4",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 16,
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4519,7 +4519,7 @@
     "doc_hash": "eb8cbca5322bcc06bbbffa3eee7d7ead1b545f69fd83fad2e0c7a33daf255de0",
     "prompt_hash": "27c566d7ad155c93781c663762a2bd4e606ba90ed9f63533571d21b7f8a902b6",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 19,
@@ -4544,7 +4544,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4658,7 +4658,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4924,11 +4924,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4937,7 +4937,7 @@
     "doc_hash": "c6f25ad418d49e25d6a5dd938e7fb2aa777b3ef9561151742c2db859ff719050",
     "prompt_hash": "a3a5e8305836bc65c8c617faea0591dac34b8cc35bf1d738e9f5f5d073cdcbb4",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 30,
@@ -4962,7 +4962,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5114,7 +5114,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5228,11 +5228,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5241,7 +5241,7 @@
     "doc_hash": "b485d437aeb0af3daf793b40d9f41ea92c884431f29e4b0582a4b0dadddf374d",
     "prompt_hash": "dc3f7748a4d8c11f4a0d2bf523a91d4c4927e2623e7aa16cdd3294e1b4a415ca",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -5342,7 +5342,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5431,7 +5431,7 @@
     "doc_hash": "cfcf7087b38c9cfca2b36a3cab7654aa599bd3149c01450714f451ce18bf8507",
     "prompt_hash": "0fff76f7f60a4cadbc8a41e025bee8cb25be36472e9afbcc6b7eebc0885f84f4",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 43,
@@ -5646,7 +5646,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5773,7 +5773,7 @@
     "doc_hash": "f40dc7a785abe8e0fb2f21ab250a0a37022e2f37e11802b5a60629028ffe18f7",
     "prompt_hash": "0efb3ed6cf70b6d03a05d5b0ae1282e722db1caa9059e69bbc3964dcc9f85dca",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 52,
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6039,7 +6039,7 @@
     "doc_hash": "717a19c843ea3925cb8e7b9e787db5bd6bfd03246dc2344bb07dcf4e7cc044e6",
     "prompt_hash": "8e41ef4124c419b78eb1200e366ef355a30107a147c9ab77a7381db8a5262abe",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 59,
@@ -6140,7 +6140,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6254,11 +6254,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6267,7 +6267,7 @@
     "doc_hash": "72636d10ff318ff94cc669a839b99563e3d7d40a495a496031c8fd24d33979c7",
     "prompt_hash": "2e38224d101eba835634df9b0e237305472c7d520831ee542bcfe7d62d2020fd",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 65,
@@ -6292,7 +6292,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6444,11 +6444,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6457,7 +6457,7 @@
     "doc_hash": "6fe28ce3427fc02ee45330405ca142b139b64e2cb04fd2e2d5278730f433523b",
     "prompt_hash": "4fb60b3b05e0fb8cecd8c2056605bddbee5c27508d6f66878f55e28c19a3042f",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 70,
@@ -6596,7 +6596,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6634,7 +6634,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 0) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6672,7 +6672,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6710,7 +6710,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 0, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6862,7 +6862,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6976,7 +6976,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7052,7 +7052,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7128,7 +7128,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7242,7 +7242,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 0) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7331,7 +7331,7 @@
     "doc_hash": "7368a4bc6c2594787cc58d35011e8997b814409dcce967d4f3a6d73bb7310b53",
     "prompt_hash": "261a17184ac2c26eff099cbd8a1b05c35160e486c9b26fa414fbc7f91cbbe8c8",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 93,
@@ -7356,11 +7356,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7369,7 +7369,7 @@
     "doc_hash": "c797909238be804264b1d8b5815b4015098ddfc52ae169faad1065dfe0f6084f",
     "prompt_hash": "3e9b38a58b18d27ffbcc8ef4308cfdaff556e74367b8dfc60339499b87478dbb",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 94,
@@ -7432,7 +7432,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 0 + 1) mod 2 = 1, so the coin is tails. The answer is yes."
+        "As a mathematician: let heads = 0 and tails = 1. The final state is (0 + 1 + 1) mod 2 = 1, so the coin is tails. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7521,7 +7521,7 @@
     "doc_hash": "677142980475e290f6de75a2866959f0c11feffef6395be2531a41546f962dd3",
     "prompt_hash": "384bd780979be81848402fb8fddd72ca5034f2964a46f344026dac30e5625c25",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 98,

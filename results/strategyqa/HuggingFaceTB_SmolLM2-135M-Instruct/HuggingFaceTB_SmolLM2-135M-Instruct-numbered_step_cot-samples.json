@@ -26,7 +26,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the war. Step 2: Apollo 13 was a space mission. Step 3: The name Apollo 13 was given to the ship because of the Apollo 13 mission. The answer is yes."
+        "Step 1: Identify Apollo 13's mission. Step 2: Apollo 13 was a space mission. Step 3: The name Apollo 13 is a reference to the Apollo 13 mission. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -68,11 +68,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the sport. Step 2: Stanley Cup is a professional ice hockey game. Step 3: Stanley Cup is a professional ice hockey game. The answer is yes."
+        "Step 1: Identify the sport. Step 2: Stanley Cup is a professional ice hockey game. Step 3: Stanley Cup is a professional ice hockey game. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -81,7 +81,7 @@
     "doc_hash": "5b2d250d1b319aa628ca036fc43014c2b7e42bbc2b18c3e6859692cb15e11fbc",
     "prompt_hash": "26df7efc43127c7557d4908de3c691ccf5bc3b8265ca7a346847a55a951f53e9",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 2,
@@ -278,11 +278,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify religion. Step 2: Islamaphobe is a term used to describe someone who is strongly opposed to Islam. Step 3: Islamaphobe is not a person. The answer is no."
+        "Step 1: Identify religion. Step 2: Islamaphobe is a person who is against Islam. Step 3: Islamaphobe is a person who is against Islam. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -291,7 +291,7 @@
     "doc_hash": "ff31fef15155570a788d669df1f4e6028046f28569fac01f03353bbf2b6763f5",
     "prompt_hash": "47e5800aacd09105eb493e900c9ebca0084ea9cd5fe836174eb5551fbc0793e4",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 7,
@@ -320,7 +320,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify novel by J. K. Rowling. Step 2: Rowling's novel is \"The Catcher in the Rye\". Step 3: J. K. Rowling is not a book. The answer is no."
+        "Step 1: Identify novel by J. K. Rowling. Step 2: Rowling's novel is \"The Catcher in the Rye\". Step 3: Rowling's novel is not a novel. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -614,11 +614,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Rangers. Step 2: Rangers is a professional team. Step 3: Rangers is a professional team. The answer is yes."
+        "Step 1: Identify Rangers. Step 2: Rangers is a professional football team. Step 3: Rangers is not a professional football team. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -627,7 +627,7 @@
     "doc_hash": "f94bb5fd5407a613f7036d392de3ccda08ab532c6be57814a0bacac4cdd957c6",
     "prompt_hash": "7bc2c17928ac572f0fa61909044eb56fc30e1bb1cd1fd865387981cdc44def48",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 15,
@@ -950,11 +950,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify MLB World Series. Step 2: New South Wales is a state. Step 3: New South Wales is a state in Australia. The answer is yes."
+        "Step 1: Identify MLB World Series. Step 2: New South Wales is a state. Step 3: New South Wales is not a state. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -963,7 +963,7 @@
     "doc_hash": "91a68e2851e4ac1359e429afaacf8054973d0c2d2e584f59d51540278e723e09",
     "prompt_hash": "59f9e3da7ba913d72af384622acc5b65e62cb0e1217511751f75848179b9a299",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 23,
@@ -992,7 +992,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare currency exchange rates. Step 2: Euros are the currency of the Eurozone. Step 3: No, you cannot pay for coffee in NYC with Euros. The answer is no."
+        "Step 1: Compare currency exchange rates. Step 2: Euros are the currency of the Eurozone. Step 3: No, no, no. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1034,11 +1034,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify home remedies. Step 2: Blue color is a result of the skin's melanin. Step 3: Melanin is a pigment that gives skin its color. The answer is yes."
+        "Step 1: Identify home remedies. Step 2: Blue color is not a result of home remedies. Step 3: Blue color is not a result of home remedies. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1047,7 +1047,7 @@
     "doc_hash": "5d02bb9cfc60f92eb22d275c29a78234ed9f6e07691bf53036e6630cc787bd2a",
     "prompt_hash": "d869bfee4960a3bca8208365d81f89c6bcfecf5c274f912f0a4bc0da58d93457",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 25,
@@ -1118,7 +1118,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify cancer patients. Step 2: Cancer patients are often disabled. Step 3: Disability is a result of cancer, not the cancer itself. The answer is no."
+        "Step 1: Identify cancer patients. Step 2: Cancer patients are often elderly. Step 3: Disability is not a common occurrence. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1202,7 +1202,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify beach location. Step 2: Beach is not a good place to spot the full circle of a rainbow. Step 3: Rainbow is a natural phenomenon, not a beach activity. The answer is no."
+        "Step 1: Identify beach location. Step 2: Beach is not a good place to spot the full circle of a rainbow. Step 3: Rainbow is a natural phenomenon, not a manmade object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1286,11 +1286,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the competition. Step 2: Javier Sotomayor is a former high jump champion. Step 3: Sotomayor is not a high jump champion. The answer is no."
+        "Step 1: Identify caracal's size. Step 2: Javier Sotomayor is a large cat. Step 3: Javier Sotomayor is a large cat. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1299,7 +1299,7 @@
     "doc_hash": "ca1b14e93328922908b5d10685a5b123ed0a84778f6b570784bf46983e1d51b2",
     "prompt_hash": "4505a603e7ae26963373e7f93b73fbd1f158998a6625d8bd1352eb482b579039",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 31,
@@ -1412,7 +1412,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify students. Step 2: Students are typically 8-12 years old. Step 3: Students do not need graphing calculators. The answer is no."
+        "Step 1: Identify students. Step 2: Students are typically elementary school students. Step 3: Students do not need graphing calculators. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1496,7 +1496,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the name. Step 2: Michael is an unpopular name. Step 3: Michael is not unpopular. The answer is no."
+        "Step 1: Identify the name. Step 2: Michael is a popular name. Step 3: Michael is not popular. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1706,11 +1706,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify restaurant. Step 2: Ringo Starr is known for his pot roast. Step 3: Ringo Starr is known for his pot roast. The answer is yes."
+        "Step 1: Identify restaurant. Step 2: Ringo Starr is known for his pot roast. Step 3: Ringo Starr is known for his pot roast. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1719,7 +1719,7 @@
     "doc_hash": "08dc36268fb3a3956a3b30e1b5d7356b4b3faa6aeeaa3ccfdfa97ea0591cd0bb",
     "prompt_hash": "1c273642d0b14ce58813441a4cba021e586f63e51cdef6912390d3a754eb73b2",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -1748,7 +1748,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare iPhone and Samsung Galaxy. Step 2: Samsung Galaxy has more iterations. Step 3: Iphone has more iterations. The answer is yes."
+        "Step 1: Compare iPhone and Samsung Galaxy. Step 2: Samsung Galaxy has more iterations. Step 3: Samsung Galaxy has more iterations than iPhone. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2042,7 +2042,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Kurt Cobain's death. Step 2: Daniel LeFever was a friend of Cobain. Step 3: So death indirectly caused death of Daniel LeFever. The answer is yes."
+        "Step 1: Identify Kurt Cobain's death. Step 2: Daniel LeFever was a friend of Cobain. Step 3: The death of Daniel LeFever is indirectly caused by Kurt Cobain. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2126,11 +2126,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Minoch's condition. Step 2: Minoch was diagnosed with anorexia nervosa. Step 3: Minoch suffered from anorexia nervosa. The answer is yes."
+        "Step 1: Identify Minch's condition. Step 2: Minch was diagnosed with anorexia nervosa. Step 3: Minch did not suffer from anorexia nervosa. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2139,7 +2139,7 @@
     "doc_hash": "079ed489b9ee880e949968585c44abd1117b93b986a3b78f72f5565ccb45d2d9",
     "prompt_hash": "abac28fed48b7944a6d5ef8fad8ae9c07a5cacf250d5738bf41cc214d0ca2763",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 51,
@@ -2252,7 +2252,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare birth order of Prince Harry (1965-1966). Step 2: B's birth order is 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th, 18th, 19th, 20th, 21st, 22nd, 23rd, 24th, 25th, 26th, 27th, 28th, 29th, 30th, 31st, 32nd, 33rd, 34th, 35th, 36th, 37th, 38th, 39th, 40th, 41st, 42nd, 43rd, 44th, 45th, 46th, 47th,"
+        "Step 1: Compare birth order of Prince Harry (1983-1984). Step 2: B's birth order is 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th, 18th, 19th, 20th, 21st, 22nd, 23rd, 24th, 25th, 26th, 27th, 28th, 29th, 30th, 31st, 32nd, 33rd, 34th, 35th, 36th, 37th, 38th, 39th, 40th, 41st, 42nd, 43rd, 44th, 45th, 46th, 47th,"
       ]
     ],
     "filtered_resps": [
@@ -2420,7 +2420,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the Carnation Revolution. Step 2: Carnation Revolution was a Spanish revolution in 1974. Step 3: The Carnation Revolution was the deadliest revolution in Europe. The answer is yes."
+        "Step 1: Identify the Carnation Revolution. Step 2: Carnation Revolution was a Spanish revolution. Step 3: The Carnation Revolution was the deadliest revolution in Europe. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2462,7 +2462,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify b\u00f6rek (a Turkish word meaning \"to be in a state of confusion\"). Step 2: B\u00f6rek is a Turkish word for \"to be in a state of confusion.\" Step 3: Confusion is a state of being in a state of confusion. The answer is yes."
+        "Step 1: Identify b\u00f6rek (a Turkish word meaning \"to be in a state of confusion\"). Step 2: B\u00f6rek is a Turkish word for \"to be in a state of confusion.\" Step 3: Confusion is a state of confusion. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2504,7 +2504,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify genre. Step 2: Transexual, Transylvania is a genre. Step 3: Transvestite is a genre. The answer is yes."
+        "Step 1: Identify genre. Step 2: Transexual, Transylvania is a musical. Step 3: Transvestite is a musical. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2546,11 +2546,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify novel genre. Step 2: Analyze book's plot. Step 3: Compare to popular science novel. Step 4: No. The answer is no."
+        "Step 1: Identify novel genre. Step 2: Analyze book's plot. Step 3: Does it have a strong plot? The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2559,7 +2559,7 @@
     "doc_hash": "1392662e69218b615e315dabd8b09a8d5d63d825bba664828a0b781069a00a86",
     "prompt_hash": "95b34e040943544757c4a7a50ae673fe6548aa46ddb4bec901d9eb3f1266680a",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 61,
@@ -2630,7 +2630,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify death of Dr. Seuss. Step 2: Dr. Seuss was a famous author. Step 3: No death of Dr. Seuss. The answer is no."
+        "Step 1: Identify death. Step 2: Death is not a tragedy. Step 3: Death is not a tragedy. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2798,7 +2798,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Alice's Adventures in Wonderland. Step 2: Alice is a character. Step 3: Alice is a character who is not enjoyable. The answer is no."
+        "Step 1: Identify Alice's Adventures in Wonderland. Step 2: Alice is a character. Step 3: Alice is not a character. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3050,7 +3050,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Goofy's breed. Step 2: Goofy is a breed of dog. Step 3: Goofy does not need heartworm prevention. The answer is no."
+        "Step 1: Identify Goofy's breed. Step 2: Goofy is a breed of dog. Step 3: Goofy does not have heartworm prevention. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3218,7 +3218,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare Emmys. Step 2: Brian Cranston and Saoirse Ronan are both Emmys. Step 3: They are both prime numbers. The answer is yes."
+        "Step 1: Compare Emmy Awards. Step 2: Brian Cranston and Saoirse Ronan are both Emmy Award winners. Step 3: They are both prime numbers. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3344,7 +3344,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify vertebrae of human and Alaskan Malamutes. Step 2: Alaska Malamutes have more fused vertebrae than human. Step 3: More fused vertebrae in Alaska Malamutes than human. The answer is yes."
+        "Step 1: Identify vertebrae of human and Alaskan Malamutes. Step 2: Alaska Malamutes have more fused vertebrae than human. Step 3: More fused vertebrae in Alaska Malamutes suggests more fused vertebrae in humans. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3386,7 +3386,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify statue of freedom. Step 2: Identify statue of liberty. Step 3: Compare statue of freedom to statue of liberty. The answer is yes."
+        "Step 1: Identify statue of freedom. Step 2: Identify statue of liberty. Step 3: Compare statue of freedom and statue of liberty. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3470,7 +3470,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the space race. Step 2: The race was between the United States and the Soviet Union. Step 3: The United States won. The answer is yes."
+        "Step 1: Identify the space race. Step 2: Space race is a competition between nations. Step 3: Race is a competition between nations. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3512,11 +3512,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of collision. Step 2: Identify the number of people involved. Step 3: If the number of people is more than 100, it is possible. The answer is yes."
+        "Step 1: Identify the type of collision. Step 2: Identify the number of people involved. Step 3: If the number of people is more than 100, it is not possible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3525,7 +3525,7 @@
     "doc_hash": "520eab6eb56d24d29b15f605826fa59dab85d22e731c88d8a86fad4bb614086d",
     "prompt_hash": "933e1519eb91036cf42a2e47834bb176c05b7fd4c0f0e15a638b50b3d8a3e6c9",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 84,
@@ -3554,11 +3554,11 @@
     ],
     "resps": [
       [
-        "Step 1: Compare body builder and burger. Step 2: Body builder is more muscular. Step 3: Beef is more tender. The answer is no."
+        "Step 1: Compare body builder and burger. Step 2: Body builder is more muscular. Step 3: Beef is more tender and flavorful. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3567,7 +3567,7 @@
     "doc_hash": "cb2a26ffd6d73fd2df6fccb0e3d82cd9ad416c40764323b92a24158e5ed2a0d2",
     "prompt_hash": "419a07c6a55e5f367c83055bf271aa47851041b9cb5470d398bd1232e6265748",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 85,
@@ -3638,11 +3638,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify citrus fruits. Step 2: Some citrus fruits are toxic. Step 3: Some people may be allergic to them. The answer is yes."
+        "Step 1: Identify citrus fruits. Step 2: Some citrus fruits are toxic. Step 3: Some people may be allergic to them. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3651,7 +3651,7 @@
     "doc_hash": "113c27eac676509bea3e21478c1c07f791ceac106656d22f1af8c8a43768c901",
     "prompt_hash": "f07a51f23d95386075dbfccb9efd4eee895626cf478bbab3a82af5509574cec6",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -3680,7 +3680,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the cause of spontaneous abortion. Step 2: Produce a sample of lettuce. Step 3: Compare the sample to a normal sample of a normal woman. The answer is yes."
+        "Step 1: Identify the cause of spontaneous abortion. Step 2: Produce a sample of lettuce. Step 3: Compare the sample to a normal human pregnancy. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3974,7 +3974,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify landscape architect. Step 2: Persephone is a female landscape architect. Step 3: So she is a good consultant to a landscape architect. The answer is yes."
+        "Step 1: Identify landscape architect. Step 2: Persephone is a Greek goddess. Step 3: Persephone is a Greek goddess. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4058,7 +4058,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify song title. Step 2: Identify Bassey's song. Step 3: Compare to the title. The answer is no."
+        "Step 1: Identify song title. Step 2: Identify Bassey's song. Step 3: Compare to the title. Step 4: Compare to the song title. Step 5: Conclusion: No. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4100,7 +4100,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify silk production. Step 2: Silk is a type of silk. Step 3: Silk is not a monopoly. The answer is no."
+        "Step 1: Identify silk production. Step 2: Silk is produced by Bombyx mori. Step 3: No. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4184,7 +4184,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Great Depression. Step 2: Great Depression is a period of economic downturn. Step 3: Great Depression is a time of economic downturn, but not necessarily a depression. The answer is yes."
+        "Step 1: Identify Great Depression. Step 2: Great Depression is a period of economic downturn. Step 3: Great Depression is a time of economic downturn. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4226,7 +4226,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the war. Step 2: Apollo 13 was a space mission. Step 3: The name Apollo 13 was given to the ship because of the Apollo 13 mission. The answer is yes."
+        "Step 1: Identify Apollo 13's mission. Step 2: Apollo 13 was a space mission. Step 3: The name Apollo 13 is a reference to the Apollo 13 mission. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4268,11 +4268,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the sport. Step 2: Stanley Cup is a professional ice hockey game. Step 3: Stanley Cup is a professional ice hockey game. The answer is yes."
+        "Step 1: Identify the sport. Step 2: Stanley Cup is a professional ice hockey game. Step 3: Stanley Cup is a professional ice hockey game. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4281,7 +4281,7 @@
     "doc_hash": "5b2d250d1b319aa628ca036fc43014c2b7e42bbc2b18c3e6859692cb15e11fbc",
     "prompt_hash": "26df7efc43127c7557d4908de3c691ccf5bc3b8265ca7a346847a55a951f53e9",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 2,
@@ -4478,11 +4478,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify religion. Step 2: Islamaphobe is a term used to describe someone who is strongly opposed to Islam. Step 3: Islamaphobe is not a person. The answer is no."
+        "Step 1: Identify religion. Step 2: Islamaphobe is a person who is against Islam. Step 3: Islamaphobe is a person who is against Islam. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4491,7 +4491,7 @@
     "doc_hash": "ff31fef15155570a788d669df1f4e6028046f28569fac01f03353bbf2b6763f5",
     "prompt_hash": "47e5800aacd09105eb493e900c9ebca0084ea9cd5fe836174eb5551fbc0793e4",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 7,
@@ -4520,7 +4520,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify novel by J. K. Rowling. Step 2: Rowling's novel is \"The Catcher in the Rye\". Step 3: J. K. Rowling is not a book. The answer is no."
+        "Step 1: Identify novel by J. K. Rowling. Step 2: Rowling's novel is \"The Catcher in the Rye\". Step 3: Rowling's novel is not a novel. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4814,11 +4814,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Rangers. Step 2: Rangers is a professional team. Step 3: Rangers is a professional team. The answer is yes."
+        "Step 1: Identify Rangers. Step 2: Rangers is a professional football team. Step 3: Rangers is not a professional football team. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4827,7 +4827,7 @@
     "doc_hash": "f94bb5fd5407a613f7036d392de3ccda08ab532c6be57814a0bacac4cdd957c6",
     "prompt_hash": "7bc2c17928ac572f0fa61909044eb56fc30e1bb1cd1fd865387981cdc44def48",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 15,
@@ -5150,11 +5150,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify MLB World Series. Step 2: New South Wales is a state. Step 3: New South Wales is a state in Australia. The answer is yes."
+        "Step 1: Identify MLB World Series. Step 2: New South Wales is a state. Step 3: New South Wales is not a state. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5163,7 +5163,7 @@
     "doc_hash": "91a68e2851e4ac1359e429afaacf8054973d0c2d2e584f59d51540278e723e09",
     "prompt_hash": "59f9e3da7ba913d72af384622acc5b65e62cb0e1217511751f75848179b9a299",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 23,
@@ -5192,7 +5192,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare currency exchange rates. Step 2: Euros are the currency of the Eurozone. Step 3: No, you cannot pay for coffee in NYC with Euros. The answer is no."
+        "Step 1: Compare currency exchange rates. Step 2: Euros are the currency of the Eurozone. Step 3: No, no, no. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5234,11 +5234,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify home remedies. Step 2: Blue color is a result of the skin's melanin. Step 3: Melanin is a pigment that gives skin its color. The answer is yes."
+        "Step 1: Identify home remedies. Step 2: Blue color is not a result of home remedies. Step 3: Blue color is not a result of home remedies. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5247,7 +5247,7 @@
     "doc_hash": "5d02bb9cfc60f92eb22d275c29a78234ed9f6e07691bf53036e6630cc787bd2a",
     "prompt_hash": "d869bfee4960a3bca8208365d81f89c6bcfecf5c274f912f0a4bc0da58d93457",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 25,
@@ -5318,7 +5318,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify cancer patients. Step 2: Cancer patients are often disabled. Step 3: Disability is a result of cancer, not the cancer itself. The answer is no."
+        "Step 1: Identify cancer patients. Step 2: Cancer patients are often elderly. Step 3: Disability is not a common occurrence. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5402,7 +5402,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify beach location. Step 2: Beach is not a good place to spot the full circle of a rainbow. Step 3: Rainbow is a natural phenomenon, not a beach activity. The answer is no."
+        "Step 1: Identify beach location. Step 2: Beach is not a good place to spot the full circle of a rainbow. Step 3: Rainbow is a natural phenomenon, not a manmade object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5486,11 +5486,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the competition. Step 2: Javier Sotomayor is a former high jump champion. Step 3: Sotomayor is not a high jump champion. The answer is no."
+        "Step 1: Identify caracal's size. Step 2: Javier Sotomayor is a large cat. Step 3: Javier Sotomayor is a large cat. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5499,7 +5499,7 @@
     "doc_hash": "ca1b14e93328922908b5d10685a5b123ed0a84778f6b570784bf46983e1d51b2",
     "prompt_hash": "4505a603e7ae26963373e7f93b73fbd1f158998a6625d8bd1352eb482b579039",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 31,
@@ -5612,7 +5612,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify students. Step 2: Students are typically 8-12 years old. Step 3: Students do not need graphing calculators. The answer is no."
+        "Step 1: Identify students. Step 2: Students are typically elementary school students. Step 3: Students do not need graphing calculators. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5696,7 +5696,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the name. Step 2: Michael is an unpopular name. Step 3: Michael is not unpopular. The answer is no."
+        "Step 1: Identify the name. Step 2: Michael is a popular name. Step 3: Michael is not popular. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5906,11 +5906,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify restaurant. Step 2: Ringo Starr is known for his pot roast. Step 3: Ringo Starr is known for his pot roast. The answer is yes."
+        "Step 1: Identify restaurant. Step 2: Ringo Starr is known for his pot roast. Step 3: Ringo Starr is known for his pot roast. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5919,7 +5919,7 @@
     "doc_hash": "08dc36268fb3a3956a3b30e1b5d7356b4b3faa6aeeaa3ccfdfa97ea0591cd0bb",
     "prompt_hash": "1c273642d0b14ce58813441a4cba021e586f63e51cdef6912390d3a754eb73b2",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -5948,7 +5948,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare iPhone and Samsung Galaxy. Step 2: Samsung Galaxy has more iterations. Step 3: Iphone has more iterations. The answer is yes."
+        "Step 1: Compare iPhone and Samsung Galaxy. Step 2: Samsung Galaxy has more iterations. Step 3: Samsung Galaxy has more iterations than iPhone. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6242,7 +6242,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Kurt Cobain's death. Step 2: Daniel LeFever was a friend of Cobain. Step 3: So death indirectly caused death of Daniel LeFever. The answer is yes."
+        "Step 1: Identify Kurt Cobain's death. Step 2: Daniel LeFever was a friend of Cobain. Step 3: The death of Daniel LeFever is indirectly caused by Kurt Cobain. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6326,11 +6326,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Minoch's condition. Step 2: Minoch was diagnosed with anorexia nervosa. Step 3: Minoch suffered from anorexia nervosa. The answer is yes."
+        "Step 1: Identify Minch's condition. Step 2: Minch was diagnosed with anorexia nervosa. Step 3: Minch did not suffer from anorexia nervosa. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6339,7 +6339,7 @@
     "doc_hash": "079ed489b9ee880e949968585c44abd1117b93b986a3b78f72f5565ccb45d2d9",
     "prompt_hash": "abac28fed48b7944a6d5ef8fad8ae9c07a5cacf250d5738bf41cc214d0ca2763",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 51,
@@ -6452,7 +6452,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare birth order of Prince Harry (1965-1966). Step 2: B's birth order is 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th, 18th, 19th, 20th, 21st, 22nd, 23rd, 24th, 25th, 26th, 27th, 28th, 29th, 30th, 31st, 32nd, 33rd, 34th, 35th, 36th, 37th, 38th, 39th, 40th, 41st, 42nd, 43rd, 44th, 45th, 46th, 47th,"
+        "Step 1: Compare birth order of Prince Harry (1983-1984). Step 2: B's birth order is 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th, 14th, 15th, 16th, 17th, 18th, 19th, 20th, 21st, 22nd, 23rd, 24th, 25th, 26th, 27th, 28th, 29th, 30th, 31st, 32nd, 33rd, 34th, 35th, 36th, 37th, 38th, 39th, 40th, 41st, 42nd, 43rd, 44th, 45th, 46th, 47th,"
       ]
     ],
     "filtered_resps": [
@@ -6620,7 +6620,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the Carnation Revolution. Step 2: Carnation Revolution was a Spanish revolution in 1974. Step 3: The Carnation Revolution was the deadliest revolution in Europe. The answer is yes."
+        "Step 1: Identify the Carnation Revolution. Step 2: Carnation Revolution was a Spanish revolution. Step 3: The Carnation Revolution was the deadliest revolution in Europe. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6662,7 +6662,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify b\u00f6rek (a Turkish word meaning \"to be in a state of confusion\"). Step 2: B\u00f6rek is a Turkish word for \"to be in a state of confusion.\" Step 3: Confusion is a state of being in a state of confusion. The answer is yes."
+        "Step 1: Identify b\u00f6rek (a Turkish word meaning \"to be in a state of confusion\"). Step 2: B\u00f6rek is a Turkish word for \"to be in a state of confusion.\" Step 3: Confusion is a state of confusion. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6704,7 +6704,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify genre. Step 2: Transexual, Transylvania is a genre. Step 3: Transvestite is a genre. The answer is yes."
+        "Step 1: Identify genre. Step 2: Transexual, Transylvania is a musical. Step 3: Transvestite is a musical. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6746,11 +6746,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify novel genre. Step 2: Analyze book's plot. Step 3: Compare to popular science novel. Step 4: No. The answer is no."
+        "Step 1: Identify novel genre. Step 2: Analyze book's plot. Step 3: Does it have a strong plot? The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6759,7 +6759,7 @@
     "doc_hash": "1392662e69218b615e315dabd8b09a8d5d63d825bba664828a0b781069a00a86",
     "prompt_hash": "95b34e040943544757c4a7a50ae673fe6548aa46ddb4bec901d9eb3f1266680a",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 61,
@@ -6830,7 +6830,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify death of Dr. Seuss. Step 2: Dr. Seuss was a famous author. Step 3: No death of Dr. Seuss. The answer is no."
+        "Step 1: Identify death. Step 2: Death is not a tragedy. Step 3: Death is not a tragedy. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6998,7 +6998,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Alice's Adventures in Wonderland. Step 2: Alice is a character. Step 3: Alice is a character who is not enjoyable. The answer is no."
+        "Step 1: Identify Alice's Adventures in Wonderland. Step 2: Alice is a character. Step 3: Alice is not a character. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7250,7 +7250,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Goofy's breed. Step 2: Goofy is a breed of dog. Step 3: Goofy does not need heartworm prevention. The answer is no."
+        "Step 1: Identify Goofy's breed. Step 2: Goofy is a breed of dog. Step 3: Goofy does not have heartworm prevention. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7418,7 +7418,7 @@
     ],
     "resps": [
       [
-        "Step 1: Compare Emmys. Step 2: Brian Cranston and Saoirse Ronan are both Emmys. Step 3: They are both prime numbers. The answer is yes."
+        "Step 1: Compare Emmy Awards. Step 2: Brian Cranston and Saoirse Ronan are both Emmy Award winners. Step 3: They are both prime numbers. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7544,7 +7544,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify vertebrae of human and Alaskan Malamutes. Step 2: Alaska Malamutes have more fused vertebrae than human. Step 3: More fused vertebrae in Alaska Malamutes than human. The answer is yes."
+        "Step 1: Identify vertebrae of human and Alaskan Malamutes. Step 2: Alaska Malamutes have more fused vertebrae than human. Step 3: More fused vertebrae in Alaska Malamutes suggests more fused vertebrae in humans. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7586,7 +7586,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify statue of freedom. Step 2: Identify statue of liberty. Step 3: Compare statue of freedom to statue of liberty. The answer is yes."
+        "Step 1: Identify statue of freedom. Step 2: Identify statue of liberty. Step 3: Compare statue of freedom and statue of liberty. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7670,7 +7670,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the space race. Step 2: The race was between the United States and the Soviet Union. Step 3: The United States won. The answer is yes."
+        "Step 1: Identify the space race. Step 2: Space race is a competition between nations. Step 3: Race is a competition between nations. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7712,11 +7712,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the type of collision. Step 2: Identify the number of people involved. Step 3: If the number of people is more than 100, it is possible. The answer is yes."
+        "Step 1: Identify the type of collision. Step 2: Identify the number of people involved. Step 3: If the number of people is more than 100, it is not possible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7725,7 +7725,7 @@
     "doc_hash": "520eab6eb56d24d29b15f605826fa59dab85d22e731c88d8a86fad4bb614086d",
     "prompt_hash": "933e1519eb91036cf42a2e47834bb176c05b7fd4c0f0e15a638b50b3d8a3e6c9",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 84,
@@ -7754,11 +7754,11 @@
     ],
     "resps": [
       [
-        "Step 1: Compare body builder and burger. Step 2: Body builder is more muscular. Step 3: Beef is more tender. The answer is no."
+        "Step 1: Compare body builder and burger. Step 2: Body builder is more muscular. Step 3: Beef is more tender and flavorful. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7767,7 +7767,7 @@
     "doc_hash": "cb2a26ffd6d73fd2df6fccb0e3d82cd9ad416c40764323b92a24158e5ed2a0d2",
     "prompt_hash": "419a07c6a55e5f367c83055bf271aa47851041b9cb5470d398bd1232e6265748",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 85,
@@ -7838,11 +7838,11 @@
     ],
     "resps": [
       [
-        "Step 1: Identify citrus fruits. Step 2: Some citrus fruits are toxic. Step 3: Some people may be allergic to them. The answer is yes."
+        "Step 1: Identify citrus fruits. Step 2: Some citrus fruits are toxic. Step 3: Some people may be allergic to them. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7851,7 +7851,7 @@
     "doc_hash": "113c27eac676509bea3e21478c1c07f791ceac106656d22f1af8c8a43768c901",
     "prompt_hash": "f07a51f23d95386075dbfccb9efd4eee895626cf478bbab3a82af5509574cec6",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -7880,7 +7880,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify the cause of spontaneous abortion. Step 2: Produce a sample of lettuce. Step 3: Compare the sample to a normal sample of a normal woman. The answer is yes."
+        "Step 1: Identify the cause of spontaneous abortion. Step 2: Produce a sample of lettuce. Step 3: Compare the sample to a normal human pregnancy. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8174,7 +8174,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify landscape architect. Step 2: Persephone is a female landscape architect. Step 3: So she is a good consultant to a landscape architect. The answer is yes."
+        "Step 1: Identify landscape architect. Step 2: Persephone is a Greek goddess. Step 3: Persephone is a Greek goddess. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8258,7 +8258,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify song title. Step 2: Identify Bassey's song. Step 3: Compare to the title. The answer is no."
+        "Step 1: Identify song title. Step 2: Identify Bassey's song. Step 3: Compare to the title. Step 4: Compare to the song title. Step 5: Conclusion: No. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -8300,7 +8300,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify silk production. Step 2: Silk is a type of silk. Step 3: Silk is not a monopoly. The answer is no."
+        "Step 1: Identify silk production. Step 2: Silk is produced by Bombyx mori. Step 3: No. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -8384,7 +8384,7 @@
     ],
     "resps": [
       [
-        "Step 1: Identify Great Depression. Step 2: Great Depression is a period of economic downturn. Step 3: Great Depression is a time of economic downturn, but not necessarily a depression. The answer is yes."
+        "Step 1: Identify Great Depression. Step 2: Great Depression is a period of economic downturn. Step 3: Great Depression is a time of economic downturn. The answer is yes."
       ]
     ],
     "filtered_resps": [

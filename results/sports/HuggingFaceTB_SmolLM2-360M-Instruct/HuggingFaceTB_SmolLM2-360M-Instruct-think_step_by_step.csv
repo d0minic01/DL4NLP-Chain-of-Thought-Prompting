@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,sports_think_step_by_step,sports,think_step_by_step,zero_shot,sports_understanding,0.01,0.98,626.2,0,100,43.67,1.73

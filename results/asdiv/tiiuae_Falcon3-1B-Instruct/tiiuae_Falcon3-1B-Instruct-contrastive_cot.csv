@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,asdiv_contrastive_cot,asdiv,contrastive_cot,fewshot_cot,asdiv,0.84,0.03,172.8,8,100,16.3,11.13

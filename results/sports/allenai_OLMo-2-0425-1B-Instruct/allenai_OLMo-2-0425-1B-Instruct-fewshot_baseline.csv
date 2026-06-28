@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,sports_fewshot_baseline,sports,fewshot_baseline,fewshot_base,sports_understanding,0.67,0.0,62.2,8,100,10.94,8.84

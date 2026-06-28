@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "1 bolt of blue fiber + 1 bolt of white fiber = 2 bolts of blue fiber.\n\nSo, the robe takes 2 bolts of blue fiber."
+        "1 bolt of blue fiber + 1 bolt of white fiber = 2 bolts of blue fiber + 1 bolt of white fiber = 3 bolts of blue fiber.\n\nSo, it takes 3 bolts of blue fiber to make a robe."
       ]
     ],
     "filtered_resps": [
@@ -98,11 +98,11 @@
     ],
     "resps": [
       [
-        "Josh made a profit of $30,000."
+        "To find the profit, we need to calculate the profit as a percentage of the original price.\n\nThe original price of the house is $80,000.\nThe profit is calculated by subtracting the cost from the original price:\n$80,000 - $50,000 = $30,000\n\nTo find the percentage of profit, we divide the profit by the original price and multiply by 100:\n($30,000 / $80,000) * 100 = 37.5%\n\nThe answer is 37.5%."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "37.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "In the morning, Wendi gives her flock of chickens 15 cups of feed.\nIn the afternoon, she gives her chickens another 25 cups of feed.\nSo, the total amount of feed Wendi gives her chickens in the afternoon is 15 + 25 = 40 cups.\nThe size of Wendi's flock is 20 chickens.\nTo find out how many cups of feed Wendi needs to give her chickens in the final meal of the day, we need to subtract the amount of feed given in the afternoon from the total amount of feed given in the morning.\nSo, the amount of feed Wendi needs to give her chickens in the final meal of the day is 40 - 40 = 0 cups.\nThe answer is 0."
+        "In the morning, Wendi gives her flock of chickens 15 cups of feed.\nIn the afternoon, she gives her chickens another 25 cups of feed.\nSo, the total amount of feed Wendi needs to give her chickens in the final meal of the day is 15 + 25 = 40 cups.\nThe answer is 40."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "40"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -212,7 +212,7 @@
     ],
     "resps": [
       [
-        "Kylar needs to pay 16 * 0.60 = 9.60 dollars for the 16 glasses."
+        "Kylar needs to pay $5 * 16 = $80 for the 16 glasses."
       ]
     ],
     "filtered_resps": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "Carla has to restart the download from the beginning, which takes 20 minutes.\n\nThe original download was 200 GB, so it takes 200 GB / 2 GB/minute = 100 minutes to download.\n\nSince 40% of the way through the download, Carla has to download 200 GB / 0.4 = 500 GB.\n\nThe original download took 20 minutes to download, so it takes 500 GB / 0.2 = 250 minutes to download.\n\nThe total time it takes to download the file is 100 minutes + 250 minutes = 350 minutes.\n\nThe answer is 350 minutes."
+        "Carla has to restart the download from the beginning, which takes 20 minutes.\n\nThe original download was 200 GB, so it takes 200 GB / 2 GB/minute = 100 minutes to download.\n\nSince 40% of the way through the download, Carla has to download 200 GB / 0.4 = 500 GB.\n\nThe original download took 20 minutes to download, so it takes 500 GB / 0.2 = 250 minutes to download.\n\nThe total time it takes to download the file is 20 minutes + 250 minutes = 270 minutes.\n\nThe answer is 270."
       ]
     ],
     "filtered_resps": [
-      "350"
+      "270"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "To find the distance John travels, we need to calculate the total time he spends driving and then multiply that by his average speed.\n\nJohn drives for 3 hours at a speed of 60 mph, so his total distance is 3 * 60 = 180 miles.\n\nHe spends the first 2 hours in standstill traffic, so his total distance is 2 * 60 = 120 miles.\n\nHe spends the next half-hour driving at a speed of 30 mph, so his total distance is 1 * 30 = 30 miles.\n\nFinally, he spends the remaining 2 hours driving at a speed of 80 mph, so his total distance is 2 * 80 = 160 miles.\n\nThe total distance John travels is 180 + 120 + 30 + 160 = 420 miles.\n\nThe answer is 420."
+        "To find the distance John travels, we need to calculate the total distance he covers in the first 3 hours at 60 mph, then subtract the distance he spends in standstill traffic, and finally add the distance he spends driving at 80 mph.\n\nFirst, let's calculate the distance he covers in the first 3 hours: 3 hours * 60 mph = 180 miles.\n\nNext, we subtract the distance he spends in standstill traffic: 180 miles - 2 hours * 30 mph = 180 miles - 60 miles = 120 miles.\n\nFinally, we add the distance he spends driving at 80 mph: 4 hours * 80 mph = 320 miles.\n\nSo, John travels a total of 120 + 320 = 440 miles from home to his destination."
       ]
     ],
     "filtered_resps": [
-      "420"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -364,7 +364,7 @@
     ],
     "resps": [
       [
-        "Eliza's earnings for this week are $10 * 40 hours + 1.2 * 45 hours = $400 + 54 = $454."
+        "Eliza's earnings for this week are $10 * 40 hours + 1.2 * 10 hours = $400 + $120 = $520."
       ]
     ],
     "filtered_resps": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "Toula spent $68 + $80 + $55 = $203. The answer is 203."
+        "The total cost of the pastries was 3 dozen donuts + 2 dozen mini cupcakes + 6 dozen mini cheesecakes = 10 dozen pastries.\nThe cost of 1 dozen pastries was 10 dozen pastries * $68 per dozen = $680.\nThe cost of 1 dozen pastries was 10 dozen pastries * $80 per dozen = $800.\nThe total cost of the pastries was $680 + $800 = $1480.\nThe answer is $1480."
       ]
     ],
     "filtered_resps": [
-      "203"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "To find the percentage of hip-hop dance students, we need to first determine the total number of students enrolled in hip-hop dance. We know that 25% of the remaining students enrolled in hip-hop dance, which means 15% of the total students enrolled in the class.\n\nWe can calculate the total number of students enrolled in hip-hop dance by multiplying the number of remaining students by the percentage: 15% of 20 students is 0.15 * 20 = 3 students.\n\nNow, we can find the percentage of hip-hop dance students by dividing the number of hip-hop dance students by the total number of students enrolled in hip-hop dance: 3 students / 20 students = 0.15 or 15%.\n\nThe answer is 15%."
+        "To find the percentage of hip-hop dance students, we need to first determine the total number of students enrolled in hip-hop dance. We know that 25% of the remaining students enrolled in hip-hop dance, which means 15% of the total students enrolled in the class.\n\nWe can calculate the total number of students enrolled in hip-hop dance by multiplying the number of remaining students by the percentage: 15% of 20 students is 0.15 * 20 = 3 students.\n\nNow, we can find the percentage of hip-hop dance students by dividing the number of hip-hop dance students by the total number of students enrolled in hip-hop dance: 3 students / 20 students = 0.15 or 15%.\n\nSo, 15% of the entire students enrolled in hip-hop dance."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "To maximize profit, the merchant should choose the jewelry plan. The jewelry market is expected to rise 2.5% in the next month, which is a positive return. The electronic gadgets market, on the other hand, is expected to rise 1.2% in the next month, which is a negative return.\n\nThe profit from the jewelry plan is the difference between the value of the jewelry and the value of the electronic gadgets. The value of the jewelry is $5,000, and the value of the electronic gadgets is $8,000. The profit from the jewelry plan is $5,000 - $8,000 = -$3,000.\n\nThe profit from the electronic gadgets plan is the difference between the value of the electronic gadgets and the value of the electronic gadgets. The value of the electronic gadgets is $8,000, and the value of the electronic gadgets is $8,000. The profit from the electronic gadgets plan is $8,000 - $8,000 = $0.\n\nIn this scenario, the merchant should choose the jewelry plan, as it offers a higher profit."
+        "To maximize profit, the merchant should choose the jewelry plan. The jewelry market is expected to rise 2.5% in the next month, which is a positive return. The electronic gadgets market, on the other hand, is expected to rise 1.2% in the next month, which is a negative return.\n\nThe difference between the two returns is 2.5% - 1.2% = 1.3%. This is the profit the merchant can expect to make by choosing the jewelry plan."
       ]
     ],
     "filtered_resps": [
@@ -630,7 +630,7 @@
     ],
     "resps": [
       [
-        "To find the distance covered by each train in the two days, we need to calculate the total distance they traveled and then divide it by the number of days.\n\nThe first train traveled 80 miles in 80 minutes, which is equivalent to 1 mile per minute. So, they traveled 80 miles in 1 minute.\n\nThe second train traveled 150 miles in 150 minutes, which is equivalent to 1 mile per minute. So, they traveled 150 miles in 1 minute.\n\nNow, we can calculate the total distance covered by each train in the two days:\n\nFirst train: 80 miles/minute * 1 minute = 80 miles\nSecond train: 150 miles/minute * 1 minute = 150 miles\n\nThe distance covered by each train in the two days is 80 miles + 150 miles = 230 miles."
+        "To find the distance covered by each train in the two days, we need to calculate the total distance covered by the first train and then add the total distance covered by the second train.\n\nThe first train travels 80 miles in the first day and then travels 150 miles in the second day. So, the total distance covered by the first train in the first day is 80 + 150 = 230 miles.\n\nThe second train travels 150 miles in the first day and then travels 80 miles in the second day. So, the total distance covered by the second train in the first day is 150 + 80 = 230 miles.\n\nThe total distance covered by both trains in the two days is the sum of their individual distances: 230 + 230 = 460 miles.\n\nTherefore, the distance covered by each train in the two days is 460 miles."
       ]
     ],
     "filtered_resps": [
@@ -668,7 +668,7 @@
     ],
     "resps": [
       [
-        "Jill's annual salary is calculated by multiplying her hourly wage by the number of hours she works per week.\n\nHer hourly wage is $20.\nHer weekly hours are 50 weeks/year * 52 weeks/year = 260 weeks/year.\nHer weekly hours are 35 hours/week * 260 weeks/year = 9100 hours/year.\nHer annual salary is 260 weeks/year * 9100 hours/year * 35 hours/week/year = $11,400,000."
+        "Jill's annual salary is calculated by multiplying her hourly wage by the number of hours she works per week.\n\nHer hourly wage is $20.\nHer weekly hours are 50 weeks/year * 52 weeks/year = 260 weeks/year.\nHer weekly hours are 260 weeks/year * 35 hours/week = 910 hours/week.\nHer annual salary is 260 weeks/year * 910 hours/week * 35 hours/week = $1,110,000.\n\nThe answer is $1,110,000."
       ]
     ],
     "filtered_resps": [
@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "Claire makes a 3 egg omelet every morning for breakfast.\nIn 4 weeks, Claire will eat 4 * 7 = 28 eggs.\nThere are 12 eggs in a dozen, so Claire will eat 28 / 12 = 2 dozens of eggs.\nThe answer is 2."
+        "Claire makes a 3 egg omelet every morning for breakfast.\nIn 4 weeks, Claire will make 4 * 7 = 28 omelets.\nSince each omelet contains 1 egg, Claire will eat 28 * 1 = 28 eggs in 4 weeks.\nThe answer is 28."
       ]
     ],
     "filtered_resps": [
-      "2"
+      "28"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -744,7 +744,7 @@
     ],
     "resps": [
       [
-        "To find Marissa's average speed, we need to calculate the total distance she needs to cover and then divide it by the time it takes her to cover that distance.\n\nFirst, let's find the total distance she needs to cover: 12 miles. Since she took 1 hour to cover the first 4 miles, the remaining distance is 12 - 4 = 8 miles.\n\nNow, we can calculate her average speed by dividing the total distance by the time: 8 miles / 1 hour = 8 miles per hour.\n\nSo, Marissa needs to walk the remaining 8 miles at a speed of 8 miles per hour to reach her goal of 4 miles per hour average speed."
+        "To find Marissa's average speed, we need to calculate her total distance traveled and her total time spent walking.\n\nMarissa took 1 hour to walk the first 4 miles, so her total distance traveled is 4 miles.\n\nNext, she walked the next two miles for another hour, so her total distance traveled is 4 + 2 = 6 miles.\n\nFinally, she wants her average speed to be 4 miles per hour, so we need to find her total time spent walking. We can do this by dividing the total distance by her average speed: 6 miles / 4 miles per hour = 1.5 hours.\n\nNow that we know her total distance traveled and total time spent walking, we can find her average speed by dividing her total distance by her total time: 6 miles / 1.5 hours = 4 miles per hour.\n\nSo, Marissa needs to walk the remaining 3 miles at her average speed of 4 miles per hour to reach her goal of 12 miles."
       ]
     ],
     "filtered_resps": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "To find out how much water is in the remaining 24 liters, we need to calculate the amount of water in the orange drink first. Since the orange drink is two-thirds water, we can find the amount of water in the orange drink by dividing the total amount of water in the orange drink by 3/3, which is 1.\n\nThe amount of water in the orange drink is 10 liters / 1.25 liters per liter, which equals 8 liters.\n\nNow, we need to add the amount of water in the orange drink to the amount of water in the pineapple drink. The pineapple drink is three-fifths water, so we can find the amount of water in the pineapple drink by dividing the total amount of water in the pineapple drink by 3/5, which is 15 liters / 3/5 liters per liter, which equals 5 liters.\n\nThe amount of water in the remaining 24 liters is 24 liters - 8 liters - 5 liters, which equals 10 liters.\n\nThe answer is 10 liters."
+        "To find out how much water is in the remaining 24 liters, we need to calculate the amount of water in the orange drink first. Since the orange drink is two-thirds water, we can find the amount of water in the orange drink by dividing the total amount of water in the orange drink by 3/3, which is 1.\n\nThe amount of water in the orange drink is 10 liters / 1.25 liters per liter, which equals 8 liters.\n\nNow, we need to add the amount of water in the orange drink to the amount of water in the pineapple drink. The pineapple drink is three-fifths water, so we can find the amount of water in the pineapple drink by dividing the total amount of water in the pineapple drink by 3/5, which is 15 liters / 3/5 liters per liter, which equals 5 liters.\n\nThe amount of water in the remaining 24 liters is 8 liters + 5 liters, which equals 13 liters.\n\nThe answer is 13 liters."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "13"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "The original price of the book was $19.50."
+        "The original price of the book is $19.50."
       ]
     ],
     "filtered_resps": [
@@ -1010,7 +1010,7 @@
     ],
     "resps": [
       [
-        "Mishka spent $16.50 on the shorts, $22.50 on the pants, and $42 on the shoes. To find the total amount she spent, we add these costs together: $16.50 + $22.50 + $42 = $75.50. The answer is 75.50."
+        "Mishka spent $16.50 on the shorts, $22.50 on the pants, and $42 on the shoes. To find the total amount she spent, we add these amounts together: $16.50 + $22.50 + $42 = $75.50. The answer is 75.50."
       ]
     ],
     "filtered_resps": [
@@ -1124,11 +1124,11 @@
     ],
     "resps": [
       [
-        "Gloria has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. So, the total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the boots is 5 dollars less than the total cost of the two pairs of high heels.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nSo, the total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is"
+        "Gloria has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. So, the total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the boots is 5 dollars less than the total cost of the two pairs of high heels, which is 5 dollars less than 2 * 5 dollars = 10 dollars.\nTherefore, the total cost of the two pairs of high heels is 10 dollars.\nThe total cost of the boots is 5 dollars less than 10 dollars, which is 5 dollars.\nSo, the boots cost 5 dollars.\n#### 5\nThe answer is 5."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "To find Allen's age 10 years from now, we first need to find the current age of Allen. We know that Darrell's age is in the ratio of 7:11, and their total age is 162. We can set up the equation:\n\n(7/11) * x + 162 = 162\n\nTo solve for x, we can cross-multiply:\n\n7x + 162 = 162\n\nSubtract 162 from both sides:\n\n7x = -120\n\nDivide both sides by 7:\n\nx = -120 / 7\n\nx = -18\n\nSo, Allen's current age is 18 years. To find Allen's age 10 years from now, we add 10 years to his current age:\n\nx + 10 = 18 + 10\n\nx + 10 = 28\n\nx = 28 - 10\n\nx = 18\n\nTherefore, Allen's age 10 years from now is 18 years."
+        "To find Allen's age 10 years from now, we first need to find the current age of Allen. We know that Darrell's age is 7 times the age of Allen, and their total age is 162. So, Allen's current age is 162 / 7 = 23.86 years.\n\nNow, we can find Allen's age 10 years from now by adding 10 years to Allen's current age. Therefore, Allen's age 10 years from now is 23.86 + 10 = 33.86 years.\n\nThe answer is 33.86."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "33.86"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "John runs 60 miles a week.\nHe runs 3 days a week.\nHe runs 3 hours the first day.\nHe runs 3/2 hours the other two days.\nTo find the speed, we need to divide the total distance by the time.\n60 miles / 3 days = 20 miles per day.\nTo find the speed, we need to divide the total time by the time.\n3 days / 3 hours = 1 hour per day.\nTo find the speed, we need to divide the total distance by the time.\n60 miles / 1 hour = 60 miles per hour.\nThe answer is 60."
+        "John runs 60 miles a week.\nHe runs 3 days a week.\nHe runs 3 hours the first day.\nHe runs 3/2 hours the other two days.\nTo find the speed, we need to divide the total distance by the time taken.\nSo, 60 miles / 3 hours = 20 miles per hour.\nThe answer is 20."
       ]
     ],
     "filtered_resps": [
-      "60"
+      "20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1504,7 +1504,7 @@
     ],
     "resps": [
       [
-        "To solve this problem, we need to find the time it takes for Dana to run and walk at her respective speeds.\n\nDana can run at a rate of speed four times faster than she can walk, so she can run at 4 * 3 = 12 miles per hour.\n\nShe can also skip at a rate that is half as fast as she can run, so she can skip at 12 / 2 = 6 miles per hour.\n\nNow, we need to find the time it takes for Dana to run and skip for six hours. We can do this by dividing the total time by the number of times she runs and skips.\n\nTime to run and skip = Total time / Number of times she runs and skips\n= 6 hours / 2\n= 3 hours\n\nNow, we can find the distance she can travel in six hours by multiplying her running speed by her time to run and skipping.\n\nDistance = Running speed * Time to run and skip\n= 12 miles per hour * 3 hours\n= 36 miles\n\nThe answer is 36 miles."
+        "To solve this problem, we need to find the time it takes for Dana to run and walk at her respective speeds.\n\nDana can run at a rate of speed four times faster than she can walk, so she can run at 4 * 3 = 12 miles per hour.\n\nShe can also skip at a rate that is half as fast as she can run, so she can skip at 12 / 2 = 6 miles per hour.\n\nNow, we need to find the time it takes for Dana to run and skip for six hours. We can do this by dividing the total time by the number of times she runs and skips.\n\nTime to run and skip = Total time / Number of times she runs and skips\n= 6 hours / 2\n= 3 hours\n\nNow, we can find the distance she can travel in six hours by multiplying her running speed by her time of running and skipping.\n\nDistance = Running speed * Time to run and skip\n= 12 miles per hour * 3 hours\n= 36 miles\n\nThe answer is 36 miles."
       ]
     ],
     "filtered_resps": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "Polly could throw the gold javelin for a distance of 400 feet when holding the sapphire gemstone.\n\nSince the great dragon, Perg, can reach 1000 feet, and Polly can throw the javelin for a distance of 400 feet, the dragon can reach 1000 + 400 = 1400 feet.\n\nPolly can throw the javelin for a distance of 3 times farther than when not holding the gemstone, so she can throw the javelin for a distance of 3 * 400 = 1200 feet.\n\nSince the dragon can reach 1400 feet, and Polly can throw the javelin for a distance of 1200 feet, the dragon can reach 1400 - 1200 = 200 feet.\n\nTherefore, if holding the gemstone, Polly could still hit the dragon with the gold javelin from a distance of 200 feet outside of the reach of the dragon's flames.\n\nThe answer is 200."
+        "Polly could throw the gold javelin for a distance of 400 feet when holding the sapphire gemstone.\n\nSince the great dragon, Perg, can reach 1000 feet, and Polly can throw the javelin for a distance of 400 feet, the dragon can reach 1000 + 400 = 1400 feet.\n\nPolly can throw the javelin for a distance of 3 times farther than when not holding the gemstone, so she can throw the javelin for a distance of 3 * 400 = 1200 feet.\n\nSince the dragon can reach 1400 feet, and Polly can throw the javelin for a distance of 1200 feet, the dragon can reach 1400 - 1200 = 200 feet.\n\nPolly can still hit the dragon with the gold javelin if she holds the gemstone, so the answer is 200 feet."
       ]
     ],
     "filtered_resps": [
-      "200"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1593,7 +1593,7 @@
     "doc_hash": "a41984e20a80c9e385df17747e5837e8d0677303ddbbd2a85059c2a5e88180f6",
     "prompt_hash": "aa644168ddcc4152f0347ed7005b4c26c208552b4951383b2020fd6d81624f1d",
     "target_hash": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "To find Charlie's net profit, we need to calculate the total cost of the candles and the total profit.\n\nFirst, let's calculate the cost of the candles:\n\nCost of 1 pound of beeswax = $10.00\nCost of 10 candles = $10.00 * 10 = $100.00\n\nNext, let's calculate the cost of the wicks:\n\nCost of 1 pound of beeswax = $10.00\nCost of 10 wicks = $10.00 * 10 = $100.00\n\nNow, let's calculate the cost of the candles and wicks:\n\nCost of 1 pound of beeswax = $10.00\nCost of 10 candles = $100.00\nCost of 10 wicks = $100.00\n\nNow, let's calculate the profit:\n\nProfit = Cost of candles - Cost of wicks - Cost of candles\nProfit = $100.00 - $100.00 - $100.00\nPro"
+        "To find Charlie's net profit, we need to calculate the total cost of the candles and the total profit.\n\nFirst, let's calculate the cost of the candles:\n\nCost of 10 candles = 10 pounds of beeswax * 10 tapered candles per pound\nCost of 10 candles = 100 pounds of beeswax\nCost of 10 candles = $100\n\nNext, let's calculate the profit:\n\nProfit = Total cost of candles - Total cost of supplies\nProfit = $100 - $10\nProfit = $90\n\nNow, let's calculate Charlie's net profit:\n\nNet profit = Profit - Cost of candles\nNet profit = $90 - $100\nNet profit = -$10\n\nThe answer is -$10."
       ]
     ],
     "filtered_resps": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "Meredith writes 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. So, on Tuesday, she wrote 2/5 * 5 = 2 * 2 = 4 articles.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday, so she wrote 2 * 4 = 8 articles.\nIn total, Meredith wrote 5 + 4 + 8 = 17 articles in the three days.\nThe answer is 17."
+        "Meredith writes 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. So, she wrote 5 * (2/5) = 1 articles on Tuesday.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday, so she wrote 2 * 1 = 2 articles.\nIn total, Meredith wrote 5 + 1 + 2 = 8 articles in the three days.\nThe answer is 8."
       ]
     ],
     "filtered_resps": [
-      "17"
+      "8"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,7 +1770,7 @@
     ],
     "resps": [
       [
-        "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.\nOn her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.\nIf she had 23 post-it notes remaining overall, then she placed 23 - 80 = 150 Post-it notes in the package that she purchased.\n#### 150\nThe answer is: 150"
+        "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.\nOn her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.\nIf she had 23 post-it notes remaining overall, then she placed 23 * 220 = 5260 Post-it notes in the package that she purchased.\n#### 5260\nThe answer is: 5260"
       ]
     ],
     "filtered_resps": [
@@ -1808,11 +1808,11 @@
     ],
     "resps": [
       [
-        "John bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties.\nThe red ties cost 50% more than blue ties, so the cost of the red ties is 40 + 50 = 90 dollars.\nThe total cost of the blue ties is 40 * 4 = 160 dollars.\nThe total cost of the red ties is 4 * 90 = 360 dollars.\nThe total cost of John's purchases is 160 + 360 = 520 dollars.\nThe answer is 520."
+        "John bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties.\nThe red ties cost 50% more than blue ties, so the cost of the red ties is 40 + 50 = 90 dollars.\nJohn spent $200 on blue ties, so the total cost of blue ties is 200 * 4 = $800.\nThe total cost of John's ties is the sum of the cost of the red ties and the cost of the blue ties, which is 4 + 800 = $840.\nTherefore, John spent $840 on ties.\nThe answer is: 840"
       ]
     ],
     "filtered_resps": [
-      "520"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes 30 comic books, he will have 1/4 * 30 = 7.5 pounds of comic books left. His toys weigh 1/2 * 30 = 15 pounds. The answer is 15."
+        "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes 30 comic books, he will have removed 15 * 30 = 450 pounds. If he removes 450 pounds, his comic books will weigh 1/4 * 450 = 112.5 pounds. If he removes 112.5 pounds, his toys will weigh 1/2 * 112.5 = 56.25 pounds. If he removes 56.25 pounds, he will have removed 112.5 - 56.25 = 56 pounds. If he removes 56 pounds, he will have removed 112.5 - 56 = 56.5 pounds. If he removes 56.5 pounds, he will have removed 112.5 - 56.5 = 56 pounds. If he removes 56 pounds, he will have removed 112.5 - 5"
       ]
     ],
     "filtered_resps": [
-      "15"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2011,7 +2011,7 @@
     "doc_hash": "930339a81a29aaf23de920b455e44deae1a963daf65da90bab8629569ef25216",
     "prompt_hash": "f8e9d20f920f11eee3bc3b87ca9db495b2eb287ee3f71b96a616680fd2db28ff",
     "target_hash": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 53,
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "To find out how much more revenue the mechanic earned on the day with higher revenue, we need to calculate the revenue earned on the day with higher revenue and subtract it from the revenue earned on the day with lower revenue.\n\nThe revenue earned on the day with higher revenue is 6 truck tires * $60/tire = $360.\nThe revenue earned on the day with lower revenue is 4 car tires * $40/tire = $160.\n\nThe difference in revenue is $360 - $160 = $200.\n\nThe mechanic earned $200 more revenue on the day with higher revenue."
+        "To find out how much more revenue the mechanic earned on the day with higher revenue, we need to calculate the revenue earned on the day with higher revenue and subtract it from the revenue earned on the day with lower revenue.\n\nThe revenue earned on the day with higher revenue is 6 truck tires * $60/tire = $360.\n\nThe revenue earned on the day with lower revenue is 4 car tires * $40/tire = $160.\n\nNow, we subtract the revenue earned on the day with lower revenue from the revenue earned on the day with higher revenue: $360 - $160 = $200.\n\nThe mechanic earned $200 more revenue on the day with higher revenue."
       ]
     ],
     "filtered_resps": [
@@ -2112,7 +2112,7 @@
     ],
     "resps": [
       [
-        "Jean has 30 lollipops. He eats 2 of them. He has 20 lollipops left. He wants to package 2 lollipops in one bag. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops he wants to package. 20 lollipops / 2 lollipops per bag = 10 bags."
+        "Jean has 30 lollipops. He eats 2 of them. He has 20 lollipops left. He wants to package 2 lollipops in one bag. To find out how many bags Jean can fill, we divide the number of lollipops left by the number of lollipops he wants to package. 20 lollipops / 2 lollipops per bag = 10 bags. Therefore, Jean can fill 10 bags with the remaining lollipops."
       ]
     ],
     "filtered_resps": [
@@ -2188,7 +2188,7 @@
     ],
     "resps": [
       [
-        "To find the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit, we need to calculate the combined weight of the driver and the empty truck.\n\nThe combined weight of the driver and the empty truck is 3755 pounds. Since the driver is not being loaded, the combined weight of the driver and the empty truck is 3755 pounds.\n\nThe maximum number of boxes that can be loaded onto the truck is the bridge's weight limit, which is 5000 pounds.\n\nTherefore, the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 5000."
+        "To find the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit, we need to calculate the combined weight of the driver and the empty truck.\n\nThe combined weight of the driver and the empty truck is 3755 pounds. Since the driver is not being loaded, we can subtract 3755 pounds from the total weight to find the weight of the driver.\n\n3755 pounds - 3755 pounds = 0 pounds\n\nThis means the driver is not being loaded, so we can add the weight of the truck to the driver's weight.\n\n3755 pounds + 3755 pounds = 7510 pounds\n\nNow, we need to find the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit. We know the combined weight of the driver and the empty truck is 7510 pounds.\n\nTo find the maximum number of boxes, we can divide the combined weight by the weight of one box.\n\n7510 pounds / 15 pounds = 500 boxes\n\nSo, the maximum number of boxes that can be loaded onto the truck while"
       ]
     ],
     "filtered_resps": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "To find out how many oranges are good, we need to calculate the number of good oranges first. We know that 20% of the oranges are unripe, so we can calculate the number of unripe oranges as follows:\n\nNumber of unripe oranges = (20% of 25) * 25\nNumber of unripe oranges = (0.20 * 25)\nNumber of unripe oranges = 5\n\nNow, we know that 20% of the oranges are sour, so we can calculate the number of sour oranges as follows:\n\nNumber of sour oranges = (20% of 25) * 25\nNumber of sour oranges = (0.20 * 25)\nNumber of sour oranges = 5\n\nFinally, we can calculate the number of good oranges by subtracting the number of unripe and sour oranges from the total number of oranges:\n\nNumber of good oranges = Total number of oranges - (Number of unripe oranges + Number of sour oranges)\nNumber of good oranges = 25 - (5 + 5)\nNumber of good oranges = 25 - 10\nNumber of good oranges = "
+        "To find out how many oranges are good, we need to calculate the number of good oranges first. We know that 20% of the total oranges are unripe, so we can calculate this as follows:\n\n20% of 25 oranges is 0.20 * 25 = 5 oranges.\n\nNow, we need to find out how many good oranges are among the 25 oranges. We know that 25% of the total oranges are good, so we can calculate this as follows:\n\n25% of 25 oranges is 0.25 * 25 = 6 oranges.\n\nTherefore, there are 6 good oranges in the basket."
       ]
     ],
     "filtered_resps": [
@@ -2378,7 +2378,7 @@
     ],
     "resps": [
       [
-        "To find Marcy's annual pension, we need to calculate the value of the pension after 30 years and then add 5% of that value.\n\nThe pension is $50,000 per year, and it will be worth 30 years after she quits. To find the value after 30 years, we can use the formula:\n\nP = P * (1 + r)^n\n\nWhere P is the initial value, r is the annual percentage, and n is the number of years.\n\nP = $50,000 * (1 + 0.05)^30\n\nP = $50,000 * (1.05)^30\n\nP = $50,000 * 1.2086\n\nP = $62,140\n\nSo, after 30 years, Marcy's annual pension will be $62,140."
+        "To find Marcy's annual pension, we need to calculate the value of the pension after 30 years. We know that she gets 5% of the value of the pension per year, and she starts receiving the pension after 20 years.\n\nThe value of the pension after 20 years is $50,000/year * 20 years = $1,000,000.\n\nNow, we need to calculate the value of the pension after 30 years. We know that Marcy gets 5% of the value of the pension per year, so we multiply the value of the pension after 20 years by 0.05.\n\nThe value of the pension after 30 years is $1,000,000 * 0.05 = $50,000.\n\nTherefore, after 30 years, Marcy's annual pension will be $50,000."
       ]
     ],
     "filtered_resps": [
@@ -2416,7 +2416,7 @@
     ],
     "resps": [
       [
-        "Aleena paid $140 per month for the first half of the year.\n10% of $140 is $14.\nSo, Aleena paid $140 - $14 = $126 per month for the first half of the year.\nIf the streaming company charged her $140 per month for the second half of the year, then she paid $126 per month for the second half of the year.\nThe total amount she paid for the streaming service by the end of the year is $126 + $126 = $252.\nThe answer is $252."
+        "Aleena paid $140 per month for the first half of the year.\n10% of $140 is $14.\nSo, Aleena paid $140 - $14 = $126 per month for the first half of the year.\nIf the streaming company charged her $140 per month for the second half of the year, then she paid $126 per month for the second half of the year.\nTo find the total amount she paid for the streaming service by the end of the year, we add the amount she paid for the first half of the year and the amount she paid for the second half of the year:\n$126 + $126 = $252\nThe total amount she had paid for the streaming service by the end of the year is $252."
       ]
     ],
     "filtered_resps": [
@@ -2492,7 +2492,7 @@
     ],
     "resps": [
       [
-        "Jim spends 2 hours watching TV and then decides to go to bed and read for half as long. \nHe does this 3 times a week. \nSo, he spends 2 hours * 3 times = 6 hours watching TV and reading.\nIn 4 weeks, he spends 6 hours * 4 weeks = 24 hours on TV and reading.\n#### 24\nThe answer is: 24"
+        "Jim spends 2 hours watching TV and then decides to go to bed and read for half as long. \nHe does this 3 times a week. \nSo, he spends 2 hours * 3 times = 6 hours watching TV and reading.\nIn 4 weeks, he spends 6 hours * 4 weeks = 24 hours watching TV and reading.\n#### 24\nThe answer is: 24"
       ]
     ],
     "filtered_resps": [
@@ -2530,11 +2530,11 @@
     ],
     "resps": [
       [
-        "There are 4 schools competing at a basketball tournament. Each school has sent a girls\u2019 basketball team and a boys\u2019 basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, there are 4 * 5 = 20 players each for the girls\u2019 and boys\u2019 basketball teams. Since each team has 5 players, the total number of players for the girls\u2019 and boys\u2019 basketball teams is 20 * 5 = 100. Each coach has 5 players, so the total number of coaches is 100 * 5 = 500. Therefore, there are 500 people who have all of the schools sent. The answer is 500."
+        "There are 4 schools competing at the basketball tournament. Each school has sent a girls\u2019 basketball team and a boys\u2019 basketball team, and each team has 5 players each. So, the total number of players for each team is 5 * 5 = 25. Each school has also sent a coach for each team, so the total number of coaches is 4 * 2 = 8. Therefore, the total number of people that have all of the schools sent is 25 + 8 + 8 = 43. The answer is 43."
       ]
     ],
     "filtered_resps": [
-      "500"
+      "43"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2682,11 +2682,11 @@
     ],
     "resps": [
       [
-        "Judy teaches 5 dance classes on the weekdays and 8 classes on Saturday, so she teaches a total of 5 + 8 = 13 classes.\nEach class has 15 students, so the total number of students in all 13 classes is 13 * 15 = 195 students.\nEach student pays $15.00 per class, so Judy charges $15 * 195 = $2875.\nIn 1 week, Judy makes $2875 * 7 = $19,350.\nThe answer is 19,350."
+        "Judy makes $15.00 per student for 15 students, so she makes $15 * 15 = $225.00 in 1 week."
       ]
     ],
     "filtered_resps": [
-      "19,350"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,7 +2796,7 @@
     ],
     "resps": [
       [
-        "To find out how much Shiela will pay each month for 3 months, we need to calculate the total cost of the cell phones and then divide it by the number of months.\n\nFirst, let's calculate the total cost of the cell phones:\n\nTotal cost = Number of cell phones * Price per cell phone\nTotal cost = 5 * $150\nTotal cost = $750\n\nNow, let's calculate the interest charged for each unit:\n\nInterest = Total cost * 2% interest rate\nInterest = $750 * 0.02\nInterest = $15\n\nNext, let's calculate the monthly payment:\n\nMonthly payment = Total cost / Interest\nMonthly payment = $750 / $15\nMonthly payment = $50\n\nSo, Shiela will pay $50 each month for 3 months."
+        "To find out how much Shiela will pay each month for 3 months, we need to calculate the total cost of the cell phones and then divide it by 3.\n\nFirst, let's calculate the total cost of the cell phones:\n\nShiela bought five cell phones for $150 each, so the total cost is:\n5 * $150 = $750\n\nNow, let's calculate the interest charged for each unit:\n\nFor the first month, the interest is 2% of the total cost:\n$750 * 0.02 = $15\n\nFor the second month, the interest is 2% of the total cost:\n$750 * 0.02 = $15\n\nFor the third month, the interest is 2% of the total cost:\n$750 * 0.02 = $15\n\nThe total interest for the first three months is:\n$15 + $15 + $15 = $45\n\nNow, let's calculate the total cost of the cell phones after the interest is paid:\n\nThe total cost of the cell phones is"
       ]
     ],
     "filtered_resps": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "To find out how much Artie will make, we need to calculate the total value of the flowers he sold.\n\nFirst, let's calculate the value of the marigolds:\n12 pots of marigolds * $2.74 per pot = $32.64\n\nNext, let's calculate the value of the petunias:\n9 pots of petunias * $1.87 per pot = $17.43\n\nFinally, let's calculate the value of the begonias:\n17 pots of begonias * $2.12 per pot = $36.84\n\nNow, let's add up the values of the flowers:\n$32.64 + $17.43 + $36.84 = $80.27\n\nSo, Artie will make $80.27."
+        "To find out how much Artie will make, we need to calculate the total value of the flowers he sold.\n\nFirst, let's calculate the value of the marigolds:\n12 pots of marigolds * $2.74 per pot = $32.64\n\nNext, let's calculate the value of the petunias:\n9 pots of petunias * $1.87 per pot = $17.43\n\nFinally, let's calculate the value of the begonias:\n17 pots of begonias * $2.12 per pot = $36.84\n\nNow, let's add up the values of all the flowers:\n$32.64 + $17.43 + $36.84 = $80.27\n\nSo, Artie will make $80.27."
       ]
     ],
     "filtered_resps": [
@@ -2872,7 +2872,7 @@
     ],
     "resps": [
       [
-        "To find the average square footage of a level, we need to calculate the total square footage of all the levels and then divide it by the number of levels.\n\nThe total square footage of the sandcastle is 4 levels * 16 square feet per level = 64 square feet.\n\nNow, let's calculate the total square footage of the levels:\n\nLevel 1: 16 square feet\nLevel 2: 16 square feet\nLevel 3: 16 square feet\nLevel 4: 16 square feet\n\nThe total square footage of the levels is 16 + 16 + 16 + 16 = 64 square feet.\n\nNow, we can calculate the average square footage of a level by dividing the total square footage of the levels by the number of levels:\n\nAverage square footage of a level = Total square footage of the levels / Number of levels\n= 64 square feet / 4 levels\n= 16 square feet per level\n\nThe average square footage of a level is 16 square feet."
+        "To find the average square footage of a level, we need to calculate the total square footage of all the levels and then divide it by the number of levels.\n\nThe total square footage of the sandcastle is 4 levels * 16 square feet per level = 64 square feet.\n\nNow, let's calculate the total square footage of the levels:\n\nLevel 1: 16 square feet\nLevel 2: 16 square feet\nLevel 3: 16 square feet\nLevel 4: 16 square feet\n\nThe total square footage of all the levels is 16 + 16 + 16 + 16 = 64 square feet.\n\nNow, we can calculate the average square footage of a level by dividing the total square footage of all the levels by the number of levels:\n\nAverage square footage of a level = Total square footage of all the levels / Number of levels\n= 64 square feet / 4 levels\n= 16 square feet per level\n\nThe average square footage of a level is 16 square feet."
       ]
     ],
     "filtered_resps": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "To find out how many bags of dog food Cecilia will use in the first year, we need to calculate the total number of cups of dog food she needs to feed the puppy for 180 days.\n\nFirst, we'll calculate the number of days in the first year: 180 days / 7 days per week = 25 weeks.\n\nNow, we'll calculate the total number of cups of dog food she needs to feed the puppy for 25 weeks: 25 weeks * 110 cups per week = 2750 cups.\n\nFinally, we'll divide the total number of cups of dog food by the number of cups she needs to feed the puppy per day: 2750 cups / 1 cup per day = 2750 cups per day.\n\nSince one bag of dog food contains 110 cups, we'll divide the total number of cups of dog food by the number of cups in one bag: 2750 cups / 110 cups per bag = 24 bags.\n\nSo, Cecilia will use 24 bags of dog food in the first year."
+        "To find out how many bags of dog food Cecilia will use in the first year, we need to calculate the total number of cups of dog food she needs to feed the puppy for 180 days.\n\nFirst, we'll calculate the number of days in the first year: 180 days / 7 days per week = 25 weeks.\n\nNow, we'll calculate the total number of cups of dog food she needs to feed the puppy for 25 weeks: 25 weeks * 110 cups per week = 2750 cups.\n\nFinally, we'll divide the total number of cups of dog food by the number of cups she needs to feed the puppy per day: 2750 cups / 1 cup per day = 2750 cups per day.\n\nSince one bag of dog food contains 110 cups, we'll divide the total number of cups of dog food by the number of cups she needs to feed the puppy per day: 2750 cups / 110 cups per bag = 24.44 bags.\n\nSo, Cecilia will use 24.44 bags of dog food in"
       ]
     ],
     "filtered_resps": [
@@ -3176,11 +3176,11 @@
     ],
     "resps": [
       [
-        "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. So, the total number of thorns is 25 roses * 8 thorns per rose = 200 thorns. The answer is 200."
+        "There are 25 x 8 = 200 thorns in each rose bush. Since there are 3 rose bushes, the total number of thorns is 200 x 3 = 600."
       ]
     ],
     "filtered_resps": [
-      "200"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,7 +3252,7 @@
     ],
     "resps": [
       [
-        "To find out how many quilt blocks Gene has, we need to calculate the total number of quilt blocks he has from each of his four vacations.\n\nSince he has one shirt from each vacation, and each shirt is a quilt block, we can multiply the number of shirts by the number of vacation years to find the total number of quilt blocks.\n\nNumber of vacation years: 4\nNumber of shirts: 1\n\nTotal number of quilt blocks: 1 x 4 = 4\n\nSo, Gene has 4 quilt blocks in total."
+        "To find out how many quilt blocks Gene has, we need to calculate the total number of years he has been vacationing. Since he started vacationing at 23 years old and has been on four vacations a year, we can calculate the total number of years as follows:\n\n4 vacations * 4 years per vacation = 16 years\n\nNow, we can find the total number of quilt blocks by multiplying the total years by the number of years each vacation has been on:\n\n16 years * 4 years per vacation = 64 quilt blocks\n\nSo, Gene has 64 quilt blocks in total."
       ]
     ],
     "filtered_resps": [
@@ -3404,7 +3404,7 @@
     ],
     "resps": [
       [
-        "Christina needs 16 friends to invite, so she will need 16 * 2 = 32 gift bags.\nShe wants to spend 1/4 of the total cost on gift bags, so she will need 1/4 * 32 = 8 gift bags.\nEach gift bag costs $2, so she will spend 8 * 2 = $16.\nThe answer is 16."
+        "Christina needs 16 friends to invite, so she will need 16 * 2 = 32 gift bags.\nShe wants to spend 1/4 of the total cost on gift bags, which is 1/4 * 32 = 8 gift bags.\nEach gift bag costs $2, so she will spend 8 * 2 = $16 on gift bags.\nThe answer is 16."
       ]
     ],
     "filtered_resps": [
@@ -3442,7 +3442,7 @@
     ],
     "resps": [
       [
-        "To find out how many pounds of potato salad Ted needs to bring, we need to calculate the amount of potato salad needed for each group of adults and children separately.\n\nFor the adults, Ted needs to bring 20 adults x 10 lbs/adult = 200 lbs of potato salad.\nFor the children, Ted needs to bring 5 children x 0.5 lbs/child = 2.5 lbs of potato salad.\n\nNow, we add the amount of potato salad needed for each group to find the total amount Ted needs to bring: 200 lbs + 2.5 lbs = 202.5 lbs.\n\nSo, Ted needs to bring 202.5 lbs of potato salad to the dinosaur picnic."
+        "To find out how many pounds of potato salad Ted needs to bring, we first need to determine the amount of potato salad each adult and child will eat.\n\nAdult dinosaur will eat 10 lbs of potato salad.\nChild will eat half as much as an adult, so child will eat 10/2 = 5 lbs of potato salad.\n\nNow, we need to find out how many adults and children there are at the picnic.\nThere are 20 adults and 5 children.\n\nWe can now find out how many pounds of potato salad Ted needs to bring:\n\nTed needs to bring 20 adults * 10 lbs/adult = 200 lbs of potato salad.\nTed needs to bring 5 children * 5 lbs/child = 25 lbs of potato salad.\n\nSo, Ted needs to bring 200 + 25 = 225 pounds of potato salad to feed everyone at the dinosaur picnic."
       ]
     ],
     "filtered_resps": [
@@ -3480,11 +3480,11 @@
     ],
     "resps": [
       [
-        "Cindy has four pets, so she has a total of 4 + 2 = 6 pets.\nMarcia has three times the number of pets as Cindy, so she has 6 * 3 = 18 pets.\nJan has three times the number of pets as Marcia, so she has 18 * 3 = 54 pets.\nTherefore, the total number of pets the three have is 54 + 6 + 18 = 84 pets.\nThe answer is 84."
+        "Cindy has four pets, so Marcia has three times that, which is 3 * 4 = 12 pets.\nJan has three times the number of pets as Cindy, so Jan has 3 * 12 = 36 pets.\nTherefore, the total number of pets the three have is 36 pets.\nThe answer is 36."
       ]
     ],
     "filtered_resps": [
-      "84"
+      "36"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3556,7 +3556,7 @@
     ],
     "resps": [
       [
-        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of Gerald's original speed.\nGerald's original speed is 400 meters per second.\nGerald's improved speed is 10% of Gerald's original speed, which is 0.1 * 400 = 40 meters per second.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\n#### 38\nThe answer is 38."
+        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of Gerald's original speed.\nGerald's original speed is 400 meters per second.\nGerald's improved speed is 10% of Gerald's original speed, which is 0.1 * 400 = 40 meters per second.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\nThe answer is 38."
       ]
     ],
     "filtered_resps": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "The number of rabbits pets is 12 less than the combined number of pet dogs and cats. So, the number of rabbits pets is 12 - 60 = -56.\n\nThe number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets. Since there are two pets pets for every dog, the number of pets pets is 2 * 60 = 120.\n\nThe total number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets. So, the total number of pets is 120 + 120 = 240.\n\nThe answer is 240."
+        "The number of rabbits pets is 12 less than the combined number of pet dogs and cats. So, the number of rabbits pets is 12 - 60 = -56.\n\nThe number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets. Since there are two pets pets for every dog, the number of pets pets is 2 * 60 = 120.\n\nThe total number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets: 12 - 56 + 120 = -36.\n\nThe answer is -36."
       ]
     ],
     "filtered_resps": [
-      "240"
+      "-36"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3632,7 +3632,7 @@
     ],
     "resps": [
       [
-        "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. To find the number of girls not in the girl scout, we need to find the number of girls who are boys and the number of girls who are girls.\n\nFirst, let's find the number of girls who are boys. Since 2/5 of the students are boys, and there are 200 students, we can find the number of boys by multiplying 200 by 2/5. This gives us 200 * 2/5 = 40 boys.\n\nNext, let's find the number of girls who are girls. Since 2/3 of the girls are in the girl scout, and there are 200 girls, we can find the number of girls by multiplying 200 by 2/3. This gives us 200 * 2/3 = 40 girls.\n\nNow, we can find the number of girls who are not in the girl scout by subtracting the number of girls who are boys from the total number of girls. This gives us 40 - 40 ="
+        "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. To find the number of girls not in the girl scout, we need to find the number of girls who are boys and the number of girls who are girls.\n\nFirst, let's find the number of girls who are boys. Since 2/5 of the students are boys, and there are 200 students, we can find the number of boys by multiplying 200 by 2/5, which is 40.\n\nNext, let's find the number of girls who are girls. Since 2/3 of the girls are in the girl scout, and there are 200 girls, we can find the number of girls by multiplying 200 by 2/3, which is 40.\n\nNow, we can find the number of girls not in the girl scout by subtracting the number of girls who are boys from the number of girls who are girls. This gives us 40 - 40 = 0.\n\nTherefore, there are no girls not in the girl scout."
       ]
     ],
     "filtered_resps": [
@@ -3670,7 +3670,7 @@
     ],
     "resps": [
       [
-        "Harry slept 9 hours, so he slept 9 * 2/3 = 6 hours.\nJames slept 2/3 of Harry's sleep, which is 6 / (2/3) = 6 * (3/2) = 9 hours.\nTherefore, Harry slept 9 - 6 = 3 more hours than James.\n#### 3\nThe answer is: 3"
+        "Harry slept 9 hours, so he slept 9 * 2/3 = 12 hours.\nJames slept 2/3 of Harry's sleep, so James slept 12 * (2/3) = 8 hours.\nTherefore, Harry slept 12 - 8 = 4 more hours than James.\n#### 4\nThe answer is: 4"
       ]
     ],
     "filtered_resps": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "1 bolt of blue fiber + 1 bolt of white fiber = 2 bolts of blue fiber.\n\nSo, the robe takes 2 bolts of blue fiber."
+        "1 bolt of blue fiber + 1 bolt of white fiber = 2 bolts of blue fiber + 1 bolt of white fiber = 3 bolts of blue fiber.\n\nSo, it takes 3 bolts of blue fiber to make a robe."
       ]
     ],
     "filtered_resps": [
-      "2"
+      "3"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3873,7 +3873,7 @@
     "doc_hash": "00f836ab1a16e62131c59e2c6ce14552295991067d5b9f912f47449305e3b9e1",
     "prompt_hash": "ea200048fb5b9119c2ab88d7dd1adcec23509f462c42554fc5259144df8514bb",
     "target_hash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 2,
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "Josh made a profit of $30,000."
+        "To find the profit, we need to calculate the profit as a percentage of the original price.\n\nThe original price of the house is $80,000.\nThe profit is calculated by subtracting the cost from the original price:\n$80,000 - $50,000 = $30,000\n\nTo find the percentage of profit, we divide the profit by the original price and multiply by 100:\n($30,000 / $80,000) * 100 = 37.5%\n\nThe answer is 37.5%."
       ]
     ],
     "filtered_resps": [
-      "$30,000."
+      "37.5"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "In the morning, Wendi gives her flock of chickens 15 cups of feed.\nIn the afternoon, she gives her chickens another 25 cups of feed.\nSo, the total amount of feed Wendi gives her chickens in the afternoon is 15 + 25 = 40 cups.\nThe size of Wendi's flock is 20 chickens.\nTo find out how many cups of feed Wendi needs to give her chickens in the final meal of the day, we need to subtract the amount of feed given in the afternoon from the total amount of feed given in the morning.\nSo, the amount of feed Wendi needs to give her chickens in the final meal of the day is 40 - 40 = 0 cups.\nThe answer is 0."
+        "In the morning, Wendi gives her flock of chickens 15 cups of feed.\nIn the afternoon, she gives her chickens another 25 cups of feed.\nSo, the total amount of feed Wendi needs to give her chickens in the final meal of the day is 15 + 25 = 40 cups.\nThe answer is 40."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "40."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4012,7 +4012,7 @@
     ],
     "resps": [
       [
-        "Kylar needs to pay 16 * 0.60 = 9.60 dollars for the 16 glasses."
+        "Kylar needs to pay $5 * 16 = $80 for the 16 glasses."
       ]
     ],
     "filtered_resps": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "Carla has to restart the download from the beginning, which takes 20 minutes.\n\nThe original download was 200 GB, so it takes 200 GB / 2 GB/minute = 100 minutes to download.\n\nSince 40% of the way through the download, Carla has to download 200 GB / 0.4 = 500 GB.\n\nThe original download took 20 minutes to download, so it takes 500 GB / 0.2 = 250 minutes to download.\n\nThe total time it takes to download the file is 100 minutes + 250 minutes = 350 minutes.\n\nThe answer is 350 minutes."
+        "Carla has to restart the download from the beginning, which takes 20 minutes.\n\nThe original download was 200 GB, so it takes 200 GB / 2 GB/minute = 100 minutes to download.\n\nSince 40% of the way through the download, Carla has to download 200 GB / 0.4 = 500 GB.\n\nThe original download took 20 minutes to download, so it takes 500 GB / 0.2 = 250 minutes to download.\n\nThe total time it takes to download the file is 20 minutes + 250 minutes = 270 minutes.\n\nThe answer is 270."
       ]
     ],
     "filtered_resps": [
-      "350"
+      "270."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "To find the distance John travels, we need to calculate the total time he spends driving and then multiply that by his average speed.\n\nJohn drives for 3 hours at a speed of 60 mph, so his total distance is 3 * 60 = 180 miles.\n\nHe spends the first 2 hours in standstill traffic, so his total distance is 2 * 60 = 120 miles.\n\nHe spends the next half-hour driving at a speed of 30 mph, so his total distance is 1 * 30 = 30 miles.\n\nFinally, he spends the remaining 2 hours driving at a speed of 80 mph, so his total distance is 2 * 80 = 160 miles.\n\nThe total distance John travels is 180 + 120 + 30 + 160 = 420 miles.\n\nThe answer is 420."
+        "To find the distance John travels, we need to calculate the total distance he covers in the first 3 hours at 60 mph, then subtract the distance he spends in standstill traffic, and finally add the distance he spends driving at 80 mph.\n\nFirst, let's calculate the distance he covers in the first 3 hours: 3 hours * 60 mph = 180 miles.\n\nNext, we subtract the distance he spends in standstill traffic: 180 miles - 2 hours * 30 mph = 180 miles - 60 miles = 120 miles.\n\nFinally, we add the distance he spends driving at 80 mph: 4 hours * 80 mph = 320 miles.\n\nSo, John travels a total of 120 + 320 = 440 miles from home to his destination."
       ]
     ],
     "filtered_resps": [
-      "420."
+      "440"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "Eliza's earnings for this week are $10 * 40 hours + 1.2 * 45 hours = $400 + 54 = $454."
+        "Eliza's earnings for this week are $10 * 40 hours + 1.2 * 10 hours = $400 + $120 = $520."
       ]
     ],
     "filtered_resps": [
-      "$454."
+      "$520."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "Toula spent $68 + $80 + $55 = $203. The answer is 203."
+        "The total cost of the pastries was 3 dozen donuts + 2 dozen mini cupcakes + 6 dozen mini cheesecakes = 10 dozen pastries.\nThe cost of 1 dozen pastries was 10 dozen pastries * $68 per dozen = $680.\nThe cost of 1 dozen pastries was 10 dozen pastries * $80 per dozen = $800.\nThe total cost of the pastries was $680 + $800 = $1480.\nThe answer is $1480."
       ]
     ],
     "filtered_resps": [
-      "203."
+      "$1480."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "To find the percentage of hip-hop dance students, we need to first determine the total number of students enrolled in hip-hop dance. We know that 25% of the remaining students enrolled in hip-hop dance, which means 15% of the total students enrolled in the class.\n\nWe can calculate the total number of students enrolled in hip-hop dance by multiplying the number of remaining students by the percentage: 15% of 20 students is 0.15 * 20 = 3 students.\n\nNow, we can find the percentage of hip-hop dance students by dividing the number of hip-hop dance students by the total number of students enrolled in hip-hop dance: 3 students / 20 students = 0.15 or 15%.\n\nThe answer is 15%."
+        "To find the percentage of hip-hop dance students, we need to first determine the total number of students enrolled in hip-hop dance. We know that 25% of the remaining students enrolled in hip-hop dance, which means 15% of the total students enrolled in the class.\n\nWe can calculate the total number of students enrolled in hip-hop dance by multiplying the number of remaining students by the percentage: 15% of 20 students is 0.15 * 20 = 3 students.\n\nNow, we can find the percentage of hip-hop dance students by dividing the number of hip-hop dance students by the total number of students enrolled in hip-hop dance: 3 students / 20 students = 0.15 or 15%.\n\nSo, 15% of the entire students enrolled in hip-hop dance."
       ]
     ],
     "filtered_resps": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "To maximize profit, the merchant should choose the jewelry plan. The jewelry market is expected to rise 2.5% in the next month, which is a positive return. The electronic gadgets market, on the other hand, is expected to rise 1.2% in the next month, which is a negative return.\n\nThe profit from the jewelry plan is the difference between the value of the jewelry and the value of the electronic gadgets. The value of the jewelry is $5,000, and the value of the electronic gadgets is $8,000. The profit from the jewelry plan is $5,000 - $8,000 = -$3,000.\n\nThe profit from the electronic gadgets plan is the difference between the value of the electronic gadgets and the value of the electronic gadgets. The value of the electronic gadgets is $8,000, and the value of the electronic gadgets is $8,000. The profit from the electronic gadgets plan is $8,000 - $8,000 = $0.\n\nIn this scenario, the merchant should choose the jewelry plan, as it offers a higher profit."
+        "To maximize profit, the merchant should choose the jewelry plan. The jewelry market is expected to rise 2.5% in the next month, which is a positive return. The electronic gadgets market, on the other hand, is expected to rise 1.2% in the next month, which is a negative return.\n\nThe difference between the two returns is 2.5% - 1.2% = 1.3%. This is the profit the merchant can expect to make by choosing the jewelry plan."
       ]
     ],
     "filtered_resps": [
-      "$0."
+      "1.3"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "To find the distance covered by each train in the two days, we need to calculate the total distance they traveled and then divide it by the number of days.\n\nThe first train traveled 80 miles in 80 minutes, which is equivalent to 1 mile per minute. So, they traveled 80 miles in 1 minute.\n\nThe second train traveled 150 miles in 150 minutes, which is equivalent to 1 mile per minute. So, they traveled 150 miles in 1 minute.\n\nNow, we can calculate the total distance covered by each train in the two days:\n\nFirst train: 80 miles/minute * 1 minute = 80 miles\nSecond train: 150 miles/minute * 1 minute = 150 miles\n\nThe distance covered by each train in the two days is 80 miles + 150 miles = 230 miles."
+        "To find the distance covered by each train in the two days, we need to calculate the total distance covered by the first train and then add the total distance covered by the second train.\n\nThe first train travels 80 miles in the first day and then travels 150 miles in the second day. So, the total distance covered by the first train in the first day is 80 + 150 = 230 miles.\n\nThe second train travels 150 miles in the first day and then travels 80 miles in the second day. So, the total distance covered by the second train in the first day is 150 + 80 = 230 miles.\n\nThe total distance covered by both trains in the two days is the sum of their individual distances: 230 + 230 = 460 miles.\n\nTherefore, the distance covered by each train in the two days is 460 miles."
       ]
     ],
     "filtered_resps": [
-      "230"
+      "460"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4443,7 +4443,7 @@
     "doc_hash": "8d52662ed683404d1c5f225090293bd707c942fb370cf956572bef5e4057b3a6",
     "prompt_hash": "9bcde5e2fbfc47f8ccdb25970869d77d740ee5e040b22fac99a30bfe73ce4ab0",
     "target_hash": "a0eaec5a55dc2f5b2ba523018adc485ff620b9d83509b9f37186a7716e438d21",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 17,
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "Jill's annual salary is calculated by multiplying her hourly wage by the number of hours she works per week.\n\nHer hourly wage is $20.\nHer weekly hours are 50 weeks/year * 52 weeks/year = 260 weeks/year.\nHer weekly hours are 35 hours/week * 260 weeks/year = 9100 hours/year.\nHer annual salary is 260 weeks/year * 9100 hours/year * 35 hours/week/year = $11,400,000."
+        "Jill's annual salary is calculated by multiplying her hourly wage by the number of hours she works per week.\n\nHer hourly wage is $20.\nHer weekly hours are 50 weeks/year * 52 weeks/year = 260 weeks/year.\nHer weekly hours are 260 weeks/year * 35 hours/week = 910 hours/week.\nHer annual salary is 260 weeks/year * 910 hours/week * 35 hours/week = $1,110,000.\n\nThe answer is $1,110,000."
       ]
     ],
     "filtered_resps": [
-      "$11,400,000."
+      "$1,110,000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "Claire makes a 3 egg omelet every morning for breakfast.\nIn 4 weeks, Claire will eat 4 * 7 = 28 eggs.\nThere are 12 eggs in a dozen, so Claire will eat 28 / 12 = 2 dozens of eggs.\nThe answer is 2."
+        "Claire makes a 3 egg omelet every morning for breakfast.\nIn 4 weeks, Claire will make 4 * 7 = 28 omelets.\nSince each omelet contains 1 egg, Claire will eat 28 * 1 = 28 eggs in 4 weeks.\nThe answer is 28."
       ]
     ],
     "filtered_resps": [
-      "2."
+      "28."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "To find Marissa's average speed, we need to calculate the total distance she needs to cover and then divide it by the time it takes her to cover that distance.\n\nFirst, let's find the total distance she needs to cover: 12 miles. Since she took 1 hour to cover the first 4 miles, the remaining distance is 12 - 4 = 8 miles.\n\nNow, we can calculate her average speed by dividing the total distance by the time: 8 miles / 1 hour = 8 miles per hour.\n\nSo, Marissa needs to walk the remaining 8 miles at a speed of 8 miles per hour to reach her goal of 4 miles per hour average speed."
+        "To find Marissa's average speed, we need to calculate her total distance traveled and her total time spent walking.\n\nMarissa took 1 hour to walk the first 4 miles, so her total distance traveled is 4 miles.\n\nNext, she walked the next two miles for another hour, so her total distance traveled is 4 + 2 = 6 miles.\n\nFinally, she wants her average speed to be 4 miles per hour, so we need to find her total time spent walking. We can do this by dividing the total distance by her average speed: 6 miles / 4 miles per hour = 1.5 hours.\n\nNow that we know her total distance traveled and total time spent walking, we can find her average speed by dividing her total distance by her total time: 6 miles / 1.5 hours = 4 miles per hour.\n\nSo, Marissa needs to walk the remaining 3 miles at her average speed of 4 miles per hour to reach her goal of 12 miles."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "12"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "To find out how much water is in the remaining 24 liters, we need to calculate the amount of water in the orange drink first. Since the orange drink is two-thirds water, we can find the amount of water in the orange drink by dividing the total amount of water in the orange drink by 3/3, which is 1.\n\nThe amount of water in the orange drink is 10 liters / 1.25 liters per liter, which equals 8 liters.\n\nNow, we need to add the amount of water in the orange drink to the amount of water in the pineapple drink. The pineapple drink is three-fifths water, so we can find the amount of water in the pineapple drink by dividing the total amount of water in the pineapple drink by 3/5, which is 15 liters / 3/5 liters per liter, which equals 5 liters.\n\nThe amount of water in the remaining 24 liters is 24 liters - 8 liters - 5 liters, which equals 10 liters.\n\nThe answer is 10 liters."
+        "To find out how much water is in the remaining 24 liters, we need to calculate the amount of water in the orange drink first. Since the orange drink is two-thirds water, we can find the amount of water in the orange drink by dividing the total amount of water in the orange drink by 3/3, which is 1.\n\nThe amount of water in the orange drink is 10 liters / 1.25 liters per liter, which equals 8 liters.\n\nNow, we need to add the amount of water in the orange drink to the amount of water in the pineapple drink. The pineapple drink is three-fifths water, so we can find the amount of water in the pineapple drink by dividing the total amount of water in the pineapple drink by 3/5, which is 15 liters / 3/5 liters per liter, which equals 5 liters.\n\nThe amount of water in the remaining 24 liters is 8 liters + 5 liters, which equals 13 liters.\n\nThe answer is 13 liters."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "13"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,7 +4734,7 @@
     ],
     "resps": [
       [
-        "The original price of the book was $19.50."
+        "The original price of the book is $19.50."
       ]
     ],
     "filtered_resps": [
@@ -4810,7 +4810,7 @@
     ],
     "resps": [
       [
-        "Mishka spent $16.50 on the shorts, $22.50 on the pants, and $42 on the shoes. To find the total amount she spent, we add these costs together: $16.50 + $22.50 + $42 = $75.50. The answer is 75.50."
+        "Mishka spent $16.50 on the shorts, $22.50 on the pants, and $42 on the shoes. To find the total amount she spent, we add these amounts together: $16.50 + $22.50 + $42 = $75.50. The answer is 75.50."
       ]
     ],
     "filtered_resps": [
@@ -4924,11 +4924,11 @@
     ],
     "resps": [
       [
-        "Gloria has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. So, the total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the boots is 5 dollars less than the total cost of the two pairs of high heels.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nSo, the total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the two pairs of high heels is"
+        "Gloria has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. So, the total cost of the two pairs of high heels is 5 dollars less than the total cost of the boots.\nThe total cost of the boots is 5 dollars less than the total cost of the two pairs of high heels, which is 5 dollars less than 2 * 5 dollars = 10 dollars.\nTherefore, the total cost of the two pairs of high heels is 10 dollars.\nThe total cost of the boots is 5 dollars less than 10 dollars, which is 5 dollars.\nSo, the boots cost 5 dollars.\n#### 5\nThe answer is 5."
       ]
     ],
     "filtered_resps": [
-      "5"
+      "5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "To find Allen's age 10 years from now, we first need to find the current age of Allen. We know that Darrell's age is in the ratio of 7:11, and their total age is 162. We can set up the equation:\n\n(7/11) * x + 162 = 162\n\nTo solve for x, we can cross-multiply:\n\n7x + 162 = 162\n\nSubtract 162 from both sides:\n\n7x = -120\n\nDivide both sides by 7:\n\nx = -120 / 7\n\nx = -18\n\nSo, Allen's current age is 18 years. To find Allen's age 10 years from now, we add 10 years to his current age:\n\nx + 10 = 18 + 10\n\nx + 10 = 28\n\nx = 28 - 10\n\nx = 18\n\nTherefore, Allen's age 10 years from now is 18 years."
+        "To find Allen's age 10 years from now, we first need to find the current age of Allen. We know that Darrell's age is 7 times the age of Allen, and their total age is 162. So, Allen's current age is 162 / 7 = 23.86 years.\n\nNow, we can find Allen's age 10 years from now by adding 10 years to Allen's current age. Therefore, Allen's age 10 years from now is 23.86 + 10 = 33.86 years.\n\nThe answer is 33.86."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "33.86."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "John runs 60 miles a week.\nHe runs 3 days a week.\nHe runs 3 hours the first day.\nHe runs 3/2 hours the other two days.\nTo find the speed, we need to divide the total distance by the time.\n60 miles / 3 days = 20 miles per day.\nTo find the speed, we need to divide the total time by the time.\n3 days / 3 hours = 1 hour per day.\nTo find the speed, we need to divide the total distance by the time.\n60 miles / 1 hour = 60 miles per hour.\nThe answer is 60."
+        "John runs 60 miles a week.\nHe runs 3 days a week.\nHe runs 3 hours the first day.\nHe runs 3/2 hours the other two days.\nTo find the speed, we need to divide the total distance by the time taken.\nSo, 60 miles / 3 hours = 20 miles per hour.\nThe answer is 20."
       ]
     ],
     "filtered_resps": [
-      "60."
+      "20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5304,7 +5304,7 @@
     ],
     "resps": [
       [
-        "To solve this problem, we need to find the time it takes for Dana to run and walk at her respective speeds.\n\nDana can run at a rate of speed four times faster than she can walk, so she can run at 4 * 3 = 12 miles per hour.\n\nShe can also skip at a rate that is half as fast as she can run, so she can skip at 12 / 2 = 6 miles per hour.\n\nNow, we need to find the time it takes for Dana to run and skip for six hours. We can do this by dividing the total time by the number of times she runs and skips.\n\nTime to run and skip = Total time / Number of times she runs and skips\n= 6 hours / 2\n= 3 hours\n\nNow, we can find the distance she can travel in six hours by multiplying her running speed by her time to run and skipping.\n\nDistance = Running speed * Time to run and skip\n= 12 miles per hour * 3 hours\n= 36 miles\n\nThe answer is 36 miles."
+        "To solve this problem, we need to find the time it takes for Dana to run and walk at her respective speeds.\n\nDana can run at a rate of speed four times faster than she can walk, so she can run at 4 * 3 = 12 miles per hour.\n\nShe can also skip at a rate that is half as fast as she can run, so she can skip at 12 / 2 = 6 miles per hour.\n\nNow, we need to find the time it takes for Dana to run and skip for six hours. We can do this by dividing the total time by the number of times she runs and skips.\n\nTime to run and skip = Total time / Number of times she runs and skips\n= 6 hours / 2\n= 3 hours\n\nNow, we can find the distance she can travel in six hours by multiplying her running speed by her time of running and skipping.\n\nDistance = Running speed * Time to run and skip\n= 12 miles per hour * 3 hours\n= 36 miles\n\nThe answer is 36 miles."
       ]
     ],
     "filtered_resps": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "Polly could throw the gold javelin for a distance of 400 feet when holding the sapphire gemstone.\n\nSince the great dragon, Perg, can reach 1000 feet, and Polly can throw the javelin for a distance of 400 feet, the dragon can reach 1000 + 400 = 1400 feet.\n\nPolly can throw the javelin for a distance of 3 times farther than when not holding the gemstone, so she can throw the javelin for a distance of 3 * 400 = 1200 feet.\n\nSince the dragon can reach 1400 feet, and Polly can throw the javelin for a distance of 1200 feet, the dragon can reach 1400 - 1200 = 200 feet.\n\nTherefore, if holding the gemstone, Polly could still hit the dragon with the gold javelin from a distance of 200 feet outside of the reach of the dragon's flames.\n\nThe answer is 200."
+        "Polly could throw the gold javelin for a distance of 400 feet when holding the sapphire gemstone.\n\nSince the great dragon, Perg, can reach 1000 feet, and Polly can throw the javelin for a distance of 400 feet, the dragon can reach 1000 + 400 = 1400 feet.\n\nPolly can throw the javelin for a distance of 3 times farther than when not holding the gemstone, so she can throw the javelin for a distance of 3 * 400 = 1200 feet.\n\nSince the dragon can reach 1400 feet, and Polly can throw the javelin for a distance of 1200 feet, the dragon can reach 1400 - 1200 = 200 feet.\n\nPolly can still hit the dragon with the gold javelin if she holds the gemstone, so the answer is 200 feet."
       ]
     ],
     "filtered_resps": [
-      "200."
+      "200"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5494,11 +5494,11 @@
     ],
     "resps": [
       [
-        "To find Charlie's net profit, we need to calculate the total cost of the candles and the total profit.\n\nFirst, let's calculate the cost of the candles:\n\nCost of 1 pound of beeswax = $10.00\nCost of 10 candles = $10.00 * 10 = $100.00\n\nNext, let's calculate the cost of the wicks:\n\nCost of 1 pound of beeswax = $10.00\nCost of 10 wicks = $10.00 * 10 = $100.00\n\nNow, let's calculate the cost of the candles and wicks:\n\nCost of 1 pound of beeswax = $10.00\nCost of 10 candles = $100.00\nCost of 10 wicks = $100.00\n\nNow, let's calculate the profit:\n\nProfit = Cost of candles - Cost of wicks - Cost of candles\nProfit = $100.00 - $100.00 - $100.00\nPro"
+        "To find Charlie's net profit, we need to calculate the total cost of the candles and the total profit.\n\nFirst, let's calculate the cost of the candles:\n\nCost of 10 candles = 10 pounds of beeswax * 10 tapered candles per pound\nCost of 10 candles = 100 pounds of beeswax\nCost of 10 candles = $100\n\nNext, let's calculate the profit:\n\nProfit = Total cost of candles - Total cost of supplies\nProfit = $100 - $10\nProfit = $90\n\nNow, let's calculate Charlie's net profit:\n\nNet profit = Profit - Cost of candles\nNet profit = $90 - $100\nNet profit = -$10\n\nThe answer is -$10."
       ]
     ],
     "filtered_resps": [
-      "$100.00"
+      "-$10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5532,11 +5532,11 @@
     ],
     "resps": [
       [
-        "Meredith writes 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. So, on Tuesday, she wrote 2/5 * 5 = 2 * 2 = 4 articles.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday, so she wrote 2 * 4 = 8 articles.\nIn total, Meredith wrote 5 + 4 + 8 = 17 articles in the three days.\nThe answer is 17."
+        "Meredith writes 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. So, she wrote 5 * (2/5) = 1 articles on Tuesday.\nOn Wednesday, she wrote twice the number of articles she wrote on Tuesday, so she wrote 2 * 1 = 2 articles.\nIn total, Meredith wrote 5 + 1 + 2 = 8 articles in the three days.\nThe answer is 8."
       ]
     ],
     "filtered_resps": [
-      "17."
+      "8."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.\nOn her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.\nIf she had 23 post-it notes remaining overall, then she placed 23 - 80 = 150 Post-it notes in the package that she purchased.\n#### 150\nThe answer is: 150"
+        "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.\nOn her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.\nIf she had 23 post-it notes remaining overall, then she placed 23 * 220 = 5260 Post-it notes in the package that she purchased.\n#### 5260\nThe answer is: 5260"
       ]
     ],
     "filtered_resps": [
-      "150"
+      "5260"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "John bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties.\nThe red ties cost 50% more than blue ties, so the cost of the red ties is 40 + 50 = 90 dollars.\nThe total cost of the blue ties is 40 * 4 = 160 dollars.\nThe total cost of the red ties is 4 * 90 = 360 dollars.\nThe total cost of John's purchases is 160 + 360 = 520 dollars.\nThe answer is 520."
+        "John bought twice as many red ties as blue ties, so he bought 2 * 2 = 4 red ties.\nThe red ties cost 50% more than blue ties, so the cost of the red ties is 40 + 50 = 90 dollars.\nJohn spent $200 on blue ties, so the total cost of blue ties is 200 * 4 = $800.\nThe total cost of John's ties is the sum of the cost of the red ties and the cost of the blue ties, which is 4 + 800 = $840.\nTherefore, John spent $840 on ties.\nThe answer is: 840"
       ]
     ],
     "filtered_resps": [
-      "520."
+      "840"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes 30 comic books, he will have 1/4 * 30 = 7.5 pounds of comic books left. His toys weigh 1/2 * 30 = 15 pounds. The answer is 15."
+        "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes 30 comic books, he will have removed 15 * 30 = 450 pounds. If he removes 450 pounds, his comic books will weigh 1/4 * 450 = 112.5 pounds. If he removes 112.5 pounds, his toys will weigh 1/2 * 112.5 = 56.25 pounds. If he removes 56.25 pounds, he will have removed 112.5 - 56.25 = 56 pounds. If he removes 56 pounds, he will have removed 112.5 - 56 = 56.5 pounds. If he removes 56.5 pounds, he will have removed 112.5 - 56.5 = 56 pounds. If he removes 56 pounds, he will have removed 112.5 - 5"
       ]
     ],
     "filtered_resps": [
-      "15."
+      "5"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5811,7 +5811,7 @@
     "doc_hash": "930339a81a29aaf23de920b455e44deae1a963daf65da90bab8629569ef25216",
     "prompt_hash": "f8e9d20f920f11eee3bc3b87ca9db495b2eb287ee3f71b96a616680fd2db28ff",
     "target_hash": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 53,
@@ -5836,7 +5836,7 @@
     ],
     "resps": [
       [
-        "To find out how much more revenue the mechanic earned on the day with higher revenue, we need to calculate the revenue earned on the day with higher revenue and subtract it from the revenue earned on the day with lower revenue.\n\nThe revenue earned on the day with higher revenue is 6 truck tires * $60/tire = $360.\nThe revenue earned on the day with lower revenue is 4 car tires * $40/tire = $160.\n\nThe difference in revenue is $360 - $160 = $200.\n\nThe mechanic earned $200 more revenue on the day with higher revenue."
+        "To find out how much more revenue the mechanic earned on the day with higher revenue, we need to calculate the revenue earned on the day with higher revenue and subtract it from the revenue earned on the day with lower revenue.\n\nThe revenue earned on the day with higher revenue is 6 truck tires * $60/tire = $360.\n\nThe revenue earned on the day with lower revenue is 4 car tires * $40/tire = $160.\n\nNow, we subtract the revenue earned on the day with lower revenue from the revenue earned on the day with higher revenue: $360 - $160 = $200.\n\nThe mechanic earned $200 more revenue on the day with higher revenue."
       ]
     ],
     "filtered_resps": [
@@ -5912,7 +5912,7 @@
     ],
     "resps": [
       [
-        "Jean has 30 lollipops. He eats 2 of them. He has 20 lollipops left. He wants to package 2 lollipops in one bag. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops he wants to package. 20 lollipops / 2 lollipops per bag = 10 bags."
+        "Jean has 30 lollipops. He eats 2 of them. He has 20 lollipops left. He wants to package 2 lollipops in one bag. To find out how many bags Jean can fill, we divide the number of lollipops left by the number of lollipops he wants to package. 20 lollipops / 2 lollipops per bag = 10 bags. Therefore, Jean can fill 10 bags with the remaining lollipops."
       ]
     ],
     "filtered_resps": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "To find the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit, we need to calculate the combined weight of the driver and the empty truck.\n\nThe combined weight of the driver and the empty truck is 3755 pounds. Since the driver is not being loaded, the combined weight of the driver and the empty truck is 3755 pounds.\n\nThe maximum number of boxes that can be loaded onto the truck is the bridge's weight limit, which is 5000 pounds.\n\nTherefore, the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 5000."
+        "To find the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit, we need to calculate the combined weight of the driver and the empty truck.\n\nThe combined weight of the driver and the empty truck is 3755 pounds. Since the driver is not being loaded, we can subtract 3755 pounds from the total weight to find the weight of the driver.\n\n3755 pounds - 3755 pounds = 0 pounds\n\nThis means the driver is not being loaded, so we can add the weight of the truck to the driver's weight.\n\n3755 pounds + 3755 pounds = 7510 pounds\n\nNow, we need to find the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit. We know the combined weight of the driver and the empty truck is 7510 pounds.\n\nTo find the maximum number of boxes, we can divide the combined weight by the weight of one box.\n\n7510 pounds / 15 pounds = 500 boxes\n\nSo, the maximum number of boxes that can be loaded onto the truck while"
       ]
     ],
     "filtered_resps": [
-      "5000."
+      "500"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "To find out how many oranges are good, we need to calculate the number of good oranges first. We know that 20% of the oranges are unripe, so we can calculate the number of unripe oranges as follows:\n\nNumber of unripe oranges = (20% of 25) * 25\nNumber of unripe oranges = (0.20 * 25)\nNumber of unripe oranges = 5\n\nNow, we know that 20% of the oranges are sour, so we can calculate the number of sour oranges as follows:\n\nNumber of sour oranges = (20% of 25) * 25\nNumber of sour oranges = (0.20 * 25)\nNumber of sour oranges = 5\n\nFinally, we can calculate the number of good oranges by subtracting the number of unripe and sour oranges from the total number of oranges:\n\nNumber of good oranges = Total number of oranges - (Number of unripe oranges + Number of sour oranges)\nNumber of good oranges = 25 - (5 + 5)\nNumber of good oranges = 25 - 10\nNumber of good oranges = "
+        "To find out how many oranges are good, we need to calculate the number of good oranges first. We know that 20% of the total oranges are unripe, so we can calculate this as follows:\n\n20% of 25 oranges is 0.20 * 25 = 5 oranges.\n\nNow, we need to find out how many good oranges are among the 25 oranges. We know that 25% of the total oranges are good, so we can calculate this as follows:\n\n25% of 25 oranges is 0.25 * 25 = 6 oranges.\n\nTherefore, there are 6 good oranges in the basket."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "6"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "To find Marcy's annual pension, we need to calculate the value of the pension after 30 years and then add 5% of that value.\n\nThe pension is $50,000 per year, and it will be worth 30 years after she quits. To find the value after 30 years, we can use the formula:\n\nP = P * (1 + r)^n\n\nWhere P is the initial value, r is the annual percentage, and n is the number of years.\n\nP = $50,000 * (1 + 0.05)^30\n\nP = $50,000 * (1.05)^30\n\nP = $50,000 * 1.2086\n\nP = $62,140\n\nSo, after 30 years, Marcy's annual pension will be $62,140."
+        "To find Marcy's annual pension, we need to calculate the value of the pension after 30 years. We know that she gets 5% of the value of the pension per year, and she starts receiving the pension after 20 years.\n\nThe value of the pension after 20 years is $50,000/year * 20 years = $1,000,000.\n\nNow, we need to calculate the value of the pension after 30 years. We know that Marcy gets 5% of the value of the pension per year, so we multiply the value of the pension after 20 years by 0.05.\n\nThe value of the pension after 30 years is $1,000,000 * 0.05 = $50,000.\n\nTherefore, after 30 years, Marcy's annual pension will be $50,000."
       ]
     ],
     "filtered_resps": [
-      "$62,140."
+      "$50,000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6216,7 +6216,7 @@
     ],
     "resps": [
       [
-        "Aleena paid $140 per month for the first half of the year.\n10% of $140 is $14.\nSo, Aleena paid $140 - $14 = $126 per month for the first half of the year.\nIf the streaming company charged her $140 per month for the second half of the year, then she paid $126 per month for the second half of the year.\nThe total amount she paid for the streaming service by the end of the year is $126 + $126 = $252.\nThe answer is $252."
+        "Aleena paid $140 per month for the first half of the year.\n10% of $140 is $14.\nSo, Aleena paid $140 - $14 = $126 per month for the first half of the year.\nIf the streaming company charged her $140 per month for the second half of the year, then she paid $126 per month for the second half of the year.\nTo find the total amount she paid for the streaming service by the end of the year, we add the amount she paid for the first half of the year and the amount she paid for the second half of the year:\n$126 + $126 = $252\nThe total amount she had paid for the streaming service by the end of the year is $252."
       ]
     ],
     "filtered_resps": [
@@ -6292,7 +6292,7 @@
     ],
     "resps": [
       [
-        "Jim spends 2 hours watching TV and then decides to go to bed and read for half as long. \nHe does this 3 times a week. \nSo, he spends 2 hours * 3 times = 6 hours watching TV and reading.\nIn 4 weeks, he spends 6 hours * 4 weeks = 24 hours on TV and reading.\n#### 24\nThe answer is: 24"
+        "Jim spends 2 hours watching TV and then decides to go to bed and read for half as long. \nHe does this 3 times a week. \nSo, he spends 2 hours * 3 times = 6 hours watching TV and reading.\nIn 4 weeks, he spends 6 hours * 4 weeks = 24 hours watching TV and reading.\n#### 24\nThe answer is: 24"
       ]
     ],
     "filtered_resps": [
@@ -6330,11 +6330,11 @@
     ],
     "resps": [
       [
-        "There are 4 schools competing at a basketball tournament. Each school has sent a girls\u2019 basketball team and a boys\u2019 basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, there are 4 * 5 = 20 players each for the girls\u2019 and boys\u2019 basketball teams. Since each team has 5 players, the total number of players for the girls\u2019 and boys\u2019 basketball teams is 20 * 5 = 100. Each coach has 5 players, so the total number of coaches is 100 * 5 = 500. Therefore, there are 500 people who have all of the schools sent. The answer is 500."
+        "There are 4 schools competing at the basketball tournament. Each school has sent a girls\u2019 basketball team and a boys\u2019 basketball team, and each team has 5 players each. So, the total number of players for each team is 5 * 5 = 25. Each school has also sent a coach for each team, so the total number of coaches is 4 * 2 = 8. Therefore, the total number of people that have all of the schools sent is 25 + 8 + 8 = 43. The answer is 43."
       ]
     ],
     "filtered_resps": [
-      "500."
+      "43."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "Judy teaches 5 dance classes on the weekdays and 8 classes on Saturday, so she teaches a total of 5 + 8 = 13 classes.\nEach class has 15 students, so the total number of students in all 13 classes is 13 * 15 = 195 students.\nEach student pays $15.00 per class, so Judy charges $15 * 195 = $2875.\nIn 1 week, Judy makes $2875 * 7 = $19,350.\nThe answer is 19,350."
+        "Judy makes $15.00 per student for 15 students, so she makes $15 * 15 = $225.00 in 1 week."
       ]
     ],
     "filtered_resps": [
-      "19,350."
+      "1"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "To find out how much Shiela will pay each month for 3 months, we need to calculate the total cost of the cell phones and then divide it by the number of months.\n\nFirst, let's calculate the total cost of the cell phones:\n\nTotal cost = Number of cell phones * Price per cell phone\nTotal cost = 5 * $150\nTotal cost = $750\n\nNow, let's calculate the interest charged for each unit:\n\nInterest = Total cost * 2% interest rate\nInterest = $750 * 0.02\nInterest = $15\n\nNext, let's calculate the monthly payment:\n\nMonthly payment = Total cost / Interest\nMonthly payment = $750 / $15\nMonthly payment = $50\n\nSo, Shiela will pay $50 each month for 3 months."
+        "To find out how much Shiela will pay each month for 3 months, we need to calculate the total cost of the cell phones and then divide it by 3.\n\nFirst, let's calculate the total cost of the cell phones:\n\nShiela bought five cell phones for $150 each, so the total cost is:\n5 * $150 = $750\n\nNow, let's calculate the interest charged for each unit:\n\nFor the first month, the interest is 2% of the total cost:\n$750 * 0.02 = $15\n\nFor the second month, the interest is 2% of the total cost:\n$750 * 0.02 = $15\n\nFor the third month, the interest is 2% of the total cost:\n$750 * 0.02 = $15\n\nThe total interest for the first three months is:\n$15 + $15 + $15 = $45\n\nNow, let's calculate the total cost of the cell phones after the interest is paid:\n\nThe total cost of the cell phones is"
       ]
     ],
     "filtered_resps": [
-      "3"
+      "$45"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,7 +6634,7 @@
     ],
     "resps": [
       [
-        "To find out how much Artie will make, we need to calculate the total value of the flowers he sold.\n\nFirst, let's calculate the value of the marigolds:\n12 pots of marigolds * $2.74 per pot = $32.64\n\nNext, let's calculate the value of the petunias:\n9 pots of petunias * $1.87 per pot = $17.43\n\nFinally, let's calculate the value of the begonias:\n17 pots of begonias * $2.12 per pot = $36.84\n\nNow, let's add up the values of the flowers:\n$32.64 + $17.43 + $36.84 = $80.27\n\nSo, Artie will make $80.27."
+        "To find out how much Artie will make, we need to calculate the total value of the flowers he sold.\n\nFirst, let's calculate the value of the marigolds:\n12 pots of marigolds * $2.74 per pot = $32.64\n\nNext, let's calculate the value of the petunias:\n9 pots of petunias * $1.87 per pot = $17.43\n\nFinally, let's calculate the value of the begonias:\n17 pots of begonias * $2.12 per pot = $36.84\n\nNow, let's add up the values of all the flowers:\n$32.64 + $17.43 + $36.84 = $80.27\n\nSo, Artie will make $80.27."
       ]
     ],
     "filtered_resps": [
@@ -6672,7 +6672,7 @@
     ],
     "resps": [
       [
-        "To find the average square footage of a level, we need to calculate the total square footage of all the levels and then divide it by the number of levels.\n\nThe total square footage of the sandcastle is 4 levels * 16 square feet per level = 64 square feet.\n\nNow, let's calculate the total square footage of the levels:\n\nLevel 1: 16 square feet\nLevel 2: 16 square feet\nLevel 3: 16 square feet\nLevel 4: 16 square feet\n\nThe total square footage of the levels is 16 + 16 + 16 + 16 = 64 square feet.\n\nNow, we can calculate the average square footage of a level by dividing the total square footage of the levels by the number of levels:\n\nAverage square footage of a level = Total square footage of the levels / Number of levels\n= 64 square feet / 4 levels\n= 16 square feet per level\n\nThe average square footage of a level is 16 square feet."
+        "To find the average square footage of a level, we need to calculate the total square footage of all the levels and then divide it by the number of levels.\n\nThe total square footage of the sandcastle is 4 levels * 16 square feet per level = 64 square feet.\n\nNow, let's calculate the total square footage of the levels:\n\nLevel 1: 16 square feet\nLevel 2: 16 square feet\nLevel 3: 16 square feet\nLevel 4: 16 square feet\n\nThe total square footage of all the levels is 16 + 16 + 16 + 16 = 64 square feet.\n\nNow, we can calculate the average square footage of a level by dividing the total square footage of all the levels by the number of levels:\n\nAverage square footage of a level = Total square footage of all the levels / Number of levels\n= 64 square feet / 4 levels\n= 16 square feet per level\n\nThe average square footage of a level is 16 square feet."
       ]
     ],
     "filtered_resps": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "To find out how many bags of dog food Cecilia will use in the first year, we need to calculate the total number of cups of dog food she needs to feed the puppy for 180 days.\n\nFirst, we'll calculate the number of days in the first year: 180 days / 7 days per week = 25 weeks.\n\nNow, we'll calculate the total number of cups of dog food she needs to feed the puppy for 25 weeks: 25 weeks * 110 cups per week = 2750 cups.\n\nFinally, we'll divide the total number of cups of dog food by the number of cups she needs to feed the puppy per day: 2750 cups / 1 cup per day = 2750 cups per day.\n\nSince one bag of dog food contains 110 cups, we'll divide the total number of cups of dog food by the number of cups in one bag: 2750 cups / 110 cups per bag = 24 bags.\n\nSo, Cecilia will use 24 bags of dog food in the first year."
+        "To find out how many bags of dog food Cecilia will use in the first year, we need to calculate the total number of cups of dog food she needs to feed the puppy for 180 days.\n\nFirst, we'll calculate the number of days in the first year: 180 days / 7 days per week = 25 weeks.\n\nNow, we'll calculate the total number of cups of dog food she needs to feed the puppy for 25 weeks: 25 weeks * 110 cups per week = 2750 cups.\n\nFinally, we'll divide the total number of cups of dog food by the number of cups she needs to feed the puppy per day: 2750 cups / 1 cup per day = 2750 cups per day.\n\nSince one bag of dog food contains 110 cups, we'll divide the total number of cups of dog food by the number of cups she needs to feed the puppy per day: 2750 cups / 110 cups per bag = 24.44 bags.\n\nSo, Cecilia will use 24.44 bags of dog food in"
       ]
     ],
     "filtered_resps": [
-      "24"
+      "24.44"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6976,11 +6976,11 @@
     ],
     "resps": [
       [
-        "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. So, the total number of thorns is 25 roses * 8 thorns per rose = 200 thorns. The answer is 200."
+        "There are 25 x 8 = 200 thorns in each rose bush. Since there are 3 rose bushes, the total number of thorns is 200 x 3 = 600."
       ]
     ],
     "filtered_resps": [
-      "200."
+      "600."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6989,7 +6989,7 @@
     "doc_hash": "80bbce0a08c20370b680c2477626999d42b8b482133f395836461f24962e4ff8",
     "prompt_hash": "7d27a557a6bf3fb0061b3f541169337bc6b6f252312691466186674072e322f9",
     "target_hash": "284b7e6d788f363f910f7beb1910473e23ce9d6c871f1ce0f31f22a982d48ad4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 84,
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "To find out how many quilt blocks Gene has, we need to calculate the total number of quilt blocks he has from each of his four vacations.\n\nSince he has one shirt from each vacation, and each shirt is a quilt block, we can multiply the number of shirts by the number of vacation years to find the total number of quilt blocks.\n\nNumber of vacation years: 4\nNumber of shirts: 1\n\nTotal number of quilt blocks: 1 x 4 = 4\n\nSo, Gene has 4 quilt blocks in total."
+        "To find out how many quilt blocks Gene has, we need to calculate the total number of years he has been vacationing. Since he started vacationing at 23 years old and has been on four vacations a year, we can calculate the total number of years as follows:\n\n4 vacations * 4 years per vacation = 16 years\n\nNow, we can find the total number of quilt blocks by multiplying the total years by the number of years each vacation has been on:\n\n16 years * 4 years per vacation = 64 quilt blocks\n\nSo, Gene has 64 quilt blocks in total."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "64"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,7 +7204,7 @@
     ],
     "resps": [
       [
-        "Christina needs 16 friends to invite, so she will need 16 * 2 = 32 gift bags.\nShe wants to spend 1/4 of the total cost on gift bags, so she will need 1/4 * 32 = 8 gift bags.\nEach gift bag costs $2, so she will spend 8 * 2 = $16.\nThe answer is 16."
+        "Christina needs 16 friends to invite, so she will need 16 * 2 = 32 gift bags.\nShe wants to spend 1/4 of the total cost on gift bags, which is 1/4 * 32 = 8 gift bags.\nEach gift bag costs $2, so she will spend 8 * 2 = $16 on gift bags.\nThe answer is 16."
       ]
     ],
     "filtered_resps": [
@@ -7242,11 +7242,11 @@
     ],
     "resps": [
       [
-        "To find out how many pounds of potato salad Ted needs to bring, we need to calculate the amount of potato salad needed for each group of adults and children separately.\n\nFor the adults, Ted needs to bring 20 adults x 10 lbs/adult = 200 lbs of potato salad.\nFor the children, Ted needs to bring 5 children x 0.5 lbs/child = 2.5 lbs of potato salad.\n\nNow, we add the amount of potato salad needed for each group to find the total amount Ted needs to bring: 200 lbs + 2.5 lbs = 202.5 lbs.\n\nSo, Ted needs to bring 202.5 lbs of potato salad to the dinosaur picnic."
+        "To find out how many pounds of potato salad Ted needs to bring, we first need to determine the amount of potato salad each adult and child will eat.\n\nAdult dinosaur will eat 10 lbs of potato salad.\nChild will eat half as much as an adult, so child will eat 10/2 = 5 lbs of potato salad.\n\nNow, we need to find out how many adults and children there are at the picnic.\nThere are 20 adults and 5 children.\n\nWe can now find out how many pounds of potato salad Ted needs to bring:\n\nTed needs to bring 20 adults * 10 lbs/adult = 200 lbs of potato salad.\nTed needs to bring 5 children * 5 lbs/child = 25 lbs of potato salad.\n\nSo, Ted needs to bring 200 + 25 = 225 pounds of potato salad to feed everyone at the dinosaur picnic."
       ]
     ],
     "filtered_resps": [
-      "202.5"
+      "225"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7255,7 +7255,7 @@
     "doc_hash": "3831e340f8777324b2736cc6992a0bf59cf6376a7c75db004c8cf57f813d5ea3",
     "prompt_hash": "c8b9496f4a872b423abb64a78cd49b4b0ed206393fa098bf36b1708835a58946",
     "target_hash": "0e6523810856a138a75dec70a9cf3778a5c70b83ac915f22c33f05db97cb3e68",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 91,
@@ -7280,11 +7280,11 @@
     ],
     "resps": [
       [
-        "Cindy has four pets, so she has a total of 4 + 2 = 6 pets.\nMarcia has three times the number of pets as Cindy, so she has 6 * 3 = 18 pets.\nJan has three times the number of pets as Marcia, so she has 18 * 3 = 54 pets.\nTherefore, the total number of pets the three have is 54 + 6 + 18 = 84 pets.\nThe answer is 84."
+        "Cindy has four pets, so Marcia has three times that, which is 3 * 4 = 12 pets.\nJan has three times the number of pets as Cindy, so Jan has 3 * 12 = 36 pets.\nTherefore, the total number of pets the three have is 36 pets.\nThe answer is 36."
       ]
     ],
     "filtered_resps": [
-      "84."
+      "36."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7356,7 +7356,7 @@
     ],
     "resps": [
       [
-        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of Gerald's original speed.\nGerald's original speed is 400 meters per second.\nGerald's improved speed is 10% of Gerald's original speed, which is 0.1 * 400 = 40 meters per second.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\n#### 38\nThe answer is 38."
+        "Gerald's improved diet improved his speed by 10%, so his new speed is 10% of Gerald's original speed.\nGerald's original speed is 400 meters per second.\nGerald's improved speed is 10% of Gerald's original speed, which is 0.1 * 400 = 40 meters per second.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\nGerald's new speed is 40 meters per second.\nGerald can run the 400-meter hurdles in 38 seconds.\nThe answer is 38."
       ]
     ],
     "filtered_resps": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "The number of rabbits pets is 12 less than the combined number of pet dogs and cats. So, the number of rabbits pets is 12 - 60 = -56.\n\nThe number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets. Since there are two pets pets for every dog, the number of pets pets is 2 * 60 = 120.\n\nThe total number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets. So, the total number of pets is 120 + 120 = 240.\n\nThe answer is 240."
+        "The number of rabbits pets is 12 less than the combined number of pet dogs and cats. So, the number of rabbits pets is 12 - 60 = -56.\n\nThe number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets. Since there are two pets pets for every dog, the number of pets pets is 2 * 60 = 120.\n\nThe total number of pets in the neighborhood is the sum of the number of rabbits pets and the number of pets pets: 12 - 56 + 120 = -36.\n\nThe answer is -36."
       ]
     ],
     "filtered_resps": [
-      "240."
+      "-36."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. To find the number of girls not in the girl scout, we need to find the number of girls who are boys and the number of girls who are girls.\n\nFirst, let's find the number of girls who are boys. Since 2/5 of the students are boys, and there are 200 students, we can find the number of boys by multiplying 200 by 2/5. This gives us 200 * 2/5 = 40 boys.\n\nNext, let's find the number of girls who are girls. Since 2/3 of the girls are in the girl scout, and there are 200 girls, we can find the number of girls by multiplying 200 by 2/3. This gives us 200 * 2/3 = 40 girls.\n\nNow, we can find the number of girls who are not in the girl scout by subtracting the number of girls who are boys from the total number of girls. This gives us 40 - 40 ="
+        "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. To find the number of girls not in the girl scout, we need to find the number of girls who are boys and the number of girls who are girls.\n\nFirst, let's find the number of girls who are boys. Since 2/5 of the students are boys, and there are 200 students, we can find the number of boys by multiplying 200 by 2/5, which is 40.\n\nNext, let's find the number of girls who are girls. Since 2/3 of the girls are in the girl scout, and there are 200 girls, we can find the number of girls by multiplying 200 by 2/3, which is 40.\n\nNow, we can find the number of girls not in the girl scout by subtracting the number of girls who are boys from the number of girls who are girls. This gives us 40 - 40 = 0.\n\nTherefore, there are no girls not in the girl scout."
       ]
     ],
     "filtered_resps": [
-      "40"
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7445,7 +7445,7 @@
     "doc_hash": "f9345f8fd901bddc7e96b6e4b06bc4ece72e595c5b5a7d322bb15623ce515b08",
     "prompt_hash": "40ff6f8663238b148f85940c03ed0ec785e87b60e16bba7b36d0f9f9f33a3b0c",
     "target_hash": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 96,
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "Harry slept 9 hours, so he slept 9 * 2/3 = 6 hours.\nJames slept 2/3 of Harry's sleep, which is 6 / (2/3) = 6 * (3/2) = 9 hours.\nTherefore, Harry slept 9 - 6 = 3 more hours than James.\n#### 3\nThe answer is: 3"
+        "Harry slept 9 hours, so he slept 9 * 2/3 = 12 hours.\nJames slept 2/3 of Harry's sleep, so James slept 12 * (2/3) = 8 hours.\nTherefore, Harry slept 12 - 8 = 4 more hours than James.\n#### 4\nThe answer is: 4"
       ]
     ],
     "filtered_resps": [
-      "3"
+      "4"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7483,7 +7483,7 @@
     "doc_hash": "8fac13d0eb5bd0d2a8384a3c1b96ffbebd4c39f1307d267ecb6d271f0696ccb3",
     "prompt_hash": "0385e3df556122e23de9c03e40a634b1cbb792122e6b795534a9b2d0dc4a94b4",
     "target_hash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 97,

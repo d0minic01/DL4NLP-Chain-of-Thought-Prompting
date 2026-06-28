@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,sports_contrastive_cot,sports,contrastive_cot,fewshot_cot,sports_understanding,0.56,0.0,259.6,8,100,11.97,8.84

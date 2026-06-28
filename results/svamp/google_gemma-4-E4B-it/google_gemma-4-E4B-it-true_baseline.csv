@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,svamp_true_baseline,svamp,true_baseline,zero_shot,svamp,0.23,0.37,531.9,0,100,103.31,24.31

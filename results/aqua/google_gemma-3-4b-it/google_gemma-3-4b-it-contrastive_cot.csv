@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,aqua_contrastive_cot,aqua,contrastive_cot,fewshot_cot,aqua-rat,0.48,0.47,493.3,4,100,86.25,11.48

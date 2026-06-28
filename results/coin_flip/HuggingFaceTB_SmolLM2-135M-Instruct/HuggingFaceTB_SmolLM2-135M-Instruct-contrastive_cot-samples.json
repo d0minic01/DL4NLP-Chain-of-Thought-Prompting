@@ -60,11 +60,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Wanda flip. Ivan flip. Frank flip. 1 flip. Odd flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Wanda flip. Ivan flip. Frank flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -73,7 +73,7 @@
     "doc_hash": "9518aca83d24dc7584f1aa4c31e0e083704fc36db38873d5c7c4a321f8eefc7c",
     "prompt_hash": "f7401ecfa47b74b3b0eeb6f2fab5af16fc41dfe3872a62b690ce8bd6f55c9c2a",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 2,
@@ -212,7 +212,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Noah flip. Coin is tail. [CORRECT] Coin start head. Noah flip. Leah flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Noah flip. Coin is tail. [CORRECT] Coin start head. Noah flip. Leah flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Quinn flip. Amber flip. Vince flip. 2 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Quinn flip. Coin is tail. [CORRECT] Coin start head. Quinn flip. Amber flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -301,7 +301,7 @@
     "doc_hash": "3b84320101c36874f367b57eac17c9a3ce4b5dfc4e409949fdb938f2f07e335e",
     "prompt_hash": "6ec5340bd12d4ba26c699021ba250172af62656c4ffa3c5ef96cffb9a306f418",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 8,
@@ -326,7 +326,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Sam flip. Nina flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Sam flip. Nina flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Olivia flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Olivia flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -377,7 +377,7 @@
     "doc_hash": "2c5d3204038c11f3ded7746ed05ce74992cf80c99e7d285a2d135dd567af2d0f",
     "prompt_hash": "d7f0a92ebfac041d2de5bbc62cdb3c73c7c02a77cd756f9e740f4ea28d62875c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 10,
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Vince flip. Coin is tail. [CORRECT] Coin start head. Vince flip. Peter flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Vince flip. Vince does not flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -491,7 +491,7 @@
     "doc_hash": "78fc10b16d5c2bf0fb70309d2f90969d2a2487e5415b2eeccc5f7bb78f05a13b",
     "prompt_hash": "6fa74b96581cd9989fe673ebe7b705f11d8fedc94fbde4bb29c2cafd5c3a3ea5",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 13,
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Peter flip. Wanda no flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Peter flip. Wanda no flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -643,7 +643,7 @@
     "doc_hash": "011d7a6017566c3fc423239419ee283684c3f37545249991d53ecb91809c5b33",
     "prompt_hash": "575a22a8bf25c88adbe0c5fb876331b2bd349e1dcef80a92e9218ad57b2bb4bd",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 17,
@@ -782,7 +782,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Felix flip. Xavier no flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Felix flip. Xavier no flip. 1 flip. Odd flip. Coin tail. [CORRECT] Coin start head. Xavier flip. Yuri no flip. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Xavier flip. Yuri no flip. 1 flip. Odd flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Bob flip. Coin is tail. [CORRECT] Coin start head. Bob flip. Irene flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Bob flip. Coin is tail. [CORRECT] Coin start head. Bob flip. Irene flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1086,7 +1086,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Tina flip. Ray flip. Pam flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Tina flip. Tina flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1124,7 +1124,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Olivia flip. Eve no flip. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Olivia flip. Eve no flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Olivia flip. Eve no flip. 1 flip. Odd flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Julia flip. Alice flip. Laura flip. Olivia flip. 1 flip. Odd flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Julia flip. Alice flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Victor flip. Coin is tail. [CORRECT] Coin start head. Victor flip. Shaunda flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Victor flip. Coin is tail. [CORRECT] Coin start head. Victor flip. Shaunda flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1276,7 +1276,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Amber flip. Amber flip no. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Amber flip. Amber flip no. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Amber flip. Amber flip no. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1314,7 +1314,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Beth flip. Diana flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Beth flip. Diana flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1542,11 +1542,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Fiona flip. Ethan flip. Noah flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Fiona flip. Ethan flip. Noah flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1555,7 +1555,7 @@
     "doc_hash": "ded55eacbb66261a9f459bba5bcb7f8241ddf85243b66bcf7bb3c846932d22fa",
     "prompt_hash": "4fddbda3d1e367c50f3b897238f824dfa6397c59b9aab4ff5c5900d37e9d5f38",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Laura flip. Coin is tail. [CORRECT] Coin start head. Laura flip. Laura no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Laura flip. Coin is tail. [CORRECT] Coin start head. Laura flip. Laura no flip. 1 flip. Odd flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Shaunda flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Shaunda flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1783,7 +1783,7 @@
     "doc_hash": "bd16928244359dc168b236eca626e0f2cf049e7ec6c3fc8207eef4ae69fbdac8",
     "prompt_hash": "f658a372acd49360fc1663c5ab56149d25130cd84a585e9b9d3c0b49f97b9c7b",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 47,
@@ -1922,7 +1922,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Irene flip. Xavier no flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Irene flip. Xavier no flip. 1 flip. Odd flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Kevin flip. Eve flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Kevin flip. Eve flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1973,7 +1973,7 @@
     "doc_hash": "f40dc7a785abe8e0fb2f21ab250a0a37022e2f37e11802b5a60629028ffe18f7",
     "prompt_hash": "4cb5ffbb647ac10fa531d1612e1c801db3edd44a3d7032d2b35cb59b5bb079ff",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 52,
@@ -2074,7 +2074,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Blake flip. Tina flip. 2 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Blake flip. Tina no flip. 1 flip. Even flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Wanda flip. Caleb flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Wanda flip. Caleb flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2277,7 +2277,7 @@
     "doc_hash": "8057b16b2791c26badc73ae49baafec189d0ee0b13de24fe24f6779172d44149",
     "prompt_hash": "0ec8c30f9ab21268a6bf14ea81ebafe5121f22fcf277271e456feeb99e5aa846",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 60,
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Irene flip. Coin is tail. [CORRECT] Coin start head. Irene flip. Gina flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Irene flip. Coin is tail. [CORRECT] Coin start head. Irene flip. Gina do not flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2391,7 +2391,7 @@
     "doc_hash": "64a0b6afd329a02c947e07335259e8e5e428b377a9f30408aef75ed7099c308d",
     "prompt_hash": "818b40e9c72dce03573a0d6a122881bf9ac54ac73f6e2bdac14507b5f8f9f977",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 63,
@@ -2416,11 +2416,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Peter flip. 2 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Peter flip. Coin is tail. [CORRECT] Coin start head. Peter flip. Grace flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2429,7 +2429,7 @@
     "doc_hash": "b2a9cce1a9315bbf4a6e3e4c8696f436e8861e47e2825a487606fd7bd6b549bc",
     "prompt_hash": "d80445ad8e34970302639785cdba81a1a480702c607786d681c083e91e97f82b",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 64,
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Victor flip. Aaron flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Victor flip. 2 flip. Even flip. Coin tail. [CORRECT] Coin start head. Victor flip. 2 flip. Even flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2505,7 +2505,7 @@
     "doc_hash": "69871415135ee77ee4fc9ec0be16c4abe3c53cee31a963c8f4f0bd0f7824c958",
     "prompt_hash": "566de4d21d490cd9b6085e58dc47ebc80f2aa0c4e558ddaf1c8f91ef22e67e8f",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 66,
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Eve flip. Eve no flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Eve flip. Eve no flip. Coin is tail. [CORRECT] Coin start head. Eve flip. James flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2809,7 +2809,7 @@
     "doc_hash": "b7f4da0e5754b198901f79be64db36e775d95d0f84af379bebea356e08fd1e2d",
     "prompt_hash": "fe161b7e5bf7a400b4b13867e919dda9fa04e32293460c8c64ac90c19b4df699",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 74,
@@ -2872,7 +2872,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Mia flip. Ray no flip. 1 flip. Even flip. Coin head. [CORRECT] Coin start head. Mia flip. Ray no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Mia flip. Ray no flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Sofia flip. Caleb no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Sofia flip. Caleb no flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2961,7 +2961,7 @@
     "doc_hash": "b85ba1dd9f47a21de7806b96491751ad007d0d39cf086aa7a1ff87d7e45ecc1d",
     "prompt_hash": "fc29bd33573209ab0872c1f427f142907aaca0a78780146fb4f8960456ee4aad",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 78,
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3075,7 +3075,7 @@
     "doc_hash": "fea4dacbda1151929ae437ffb67e9e3da43aad44b776d63b373a62b8860c8883",
     "prompt_hash": "399bd95c2748f5aa29990c4635ed82ccbb34878afd57afe55348cc855a34dbf2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -3176,11 +3176,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Olivia flip. Amber flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Olivia flip. Amber flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3189,7 +3189,7 @@
     "doc_hash": "d5fe26702ba8df4d86892d5e4a511028b93d29e0396d1ea3f5677d2f9ecd7829",
     "prompt_hash": "13037ba6f75530dfafde1a3d8bdc5f135b4f1fdc0cc8a0f8b76ce78be48e5d08",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 84,
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Nina flip. Vince no flip. 1 flip. Even flip. Coin head. [CORRECT] Coin start head. Nina flip. Vince no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Nina flip. Vince no flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3265,7 +3265,7 @@
     "doc_hash": "835d1beaa9698cd2c6ad1e7b09c2302066e9ae1e5885e275b1a63281d9425a43",
     "prompt_hash": "892675b5f162be28b4d4a03d95ad9c49a5c1e0608efa47d6bf5d7646fc3e83f2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 86,
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Ursula flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Ursula flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3341,7 +3341,7 @@
     "doc_hash": "32f0f8ce09a2adb94710c001cfa2d60377b995de2a5d3a7c970b6e262cd10983",
     "prompt_hash": "cd908f72e0d6beeaf5a3be545c6472e8dbd0a7d81b78b2958ad101815cf1a057",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 88,
@@ -3518,7 +3518,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Tom flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. James flip. Coin is tail. [CORRECT] Coin start head. James flip. Derek flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3556,7 +3556,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Xavier flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Yara flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3746,7 +3746,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Quinn flip. Coin is tail. [CORRECT] Coin start head. Quinn flip. Yara flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Quinn flip. Coin is tail. [CORRECT] Coin start head. Quinn flip. Yara flip. 1 flip. Odd flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Wanda flip. Ivan flip. Frank flip. 1 flip. Odd flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Wanda flip. Ivan flip. Frank flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3873,7 +3873,7 @@
     "doc_hash": "9518aca83d24dc7584f1aa4c31e0e083704fc36db38873d5c7c4a321f8eefc7c",
     "prompt_hash": "f7401ecfa47b74b3b0eeb6f2fab5af16fc41dfe3872a62b690ce8bd6f55c9c2a",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 2,
@@ -4012,7 +4012,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Noah flip. Coin is tail. [CORRECT] Coin start head. Noah flip. Leah flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Noah flip. Coin is tail. [CORRECT] Coin start head. Noah flip. Leah flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Quinn flip. Amber flip. Vince flip. 2 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Quinn flip. Coin is tail. [CORRECT] Coin start head. Quinn flip. Amber flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4101,7 +4101,7 @@
     "doc_hash": "3b84320101c36874f367b57eac17c9a3ce4b5dfc4e409949fdb938f2f07e335e",
     "prompt_hash": "6ec5340bd12d4ba26c699021ba250172af62656c4ffa3c5ef96cffb9a306f418",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 8,
@@ -4126,7 +4126,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Sam flip. Nina flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Sam flip. Nina flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Olivia flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Olivia flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4177,7 +4177,7 @@
     "doc_hash": "2c5d3204038c11f3ded7746ed05ce74992cf80c99e7d285a2d135dd567af2d0f",
     "prompt_hash": "d7f0a92ebfac041d2de5bbc62cdb3c73c7c02a77cd756f9e740f4ea28d62875c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 10,
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Vince flip. Coin is tail. [CORRECT] Coin start head. Vince flip. Peter flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Vince flip. Vince does not flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4291,7 +4291,7 @@
     "doc_hash": "78fc10b16d5c2bf0fb70309d2f90969d2a2487e5415b2eeccc5f7bb78f05a13b",
     "prompt_hash": "6fa74b96581cd9989fe673ebe7b705f11d8fedc94fbde4bb29c2cafd5c3a3ea5",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 13,
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Peter flip. Wanda no flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Peter flip. Wanda no flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4443,7 +4443,7 @@
     "doc_hash": "011d7a6017566c3fc423239419ee283684c3f37545249991d53ecb91809c5b33",
     "prompt_hash": "575a22a8bf25c88adbe0c5fb876331b2bd349e1dcef80a92e9218ad57b2bb4bd",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 17,
@@ -4582,7 +4582,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Felix flip. Xavier no flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Felix flip. Xavier no flip. 1 flip. Odd flip. Coin tail. [CORRECT] Coin start head. Xavier flip. Yuri no flip. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Xavier flip. Yuri no flip. 1 flip. Odd flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4734,7 +4734,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Bob flip. Coin is tail. [CORRECT] Coin start head. Bob flip. Irene flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Bob flip. Coin is tail. [CORRECT] Coin start head. Bob flip. Irene flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4886,7 +4886,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Tina flip. Ray flip. Pam flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Tina flip. Tina flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4924,7 +4924,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Olivia flip. Eve no flip. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Olivia flip. Eve no flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Olivia flip. Eve no flip. 1 flip. Odd flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4962,7 +4962,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Julia flip. Alice flip. Laura flip. Olivia flip. 1 flip. Odd flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Julia flip. Alice flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5000,7 +5000,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Victor flip. Coin is tail. [CORRECT] Coin start head. Victor flip. Shaunda flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Victor flip. Coin is tail. [CORRECT] Coin start head. Victor flip. Shaunda flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5076,7 +5076,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Amber flip. Amber flip no. 1 flip. Odd flip. Coin head. [CORRECT] Coin start head. Amber flip. Amber flip no. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Amber flip. Amber flip no. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5114,7 +5114,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Beth flip. Diana flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Beth flip. Diana flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5342,11 +5342,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Fiona flip. Ethan flip. Noah flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Fiona flip. Ethan flip. Noah flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5355,7 +5355,7 @@
     "doc_hash": "ded55eacbb66261a9f459bba5bcb7f8241ddf85243b66bcf7bb3c846932d22fa",
     "prompt_hash": "4fddbda3d1e367c50f3b897238f824dfa6397c59b9aab4ff5c5900d37e9d5f38",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 41,
@@ -5494,7 +5494,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Laura flip. Coin is tail. [CORRECT] Coin start head. Laura flip. Laura no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Laura flip. Coin is tail. [CORRECT] Coin start head. Laura flip. Laura no flip. 1 flip. Odd flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Shaunda flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Shaunda flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5583,7 +5583,7 @@
     "doc_hash": "bd16928244359dc168b236eca626e0f2cf049e7ec6c3fc8207eef4ae69fbdac8",
     "prompt_hash": "f658a372acd49360fc1663c5ab56149d25130cd84a585e9b9d3c0b49f97b9c7b",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 47,
@@ -5722,7 +5722,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Irene flip. Xavier no flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Irene flip. Xavier no flip. 1 flip. Odd flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Kevin flip. Eve flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Kevin flip. Eve flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5773,7 +5773,7 @@
     "doc_hash": "f40dc7a785abe8e0fb2f21ab250a0a37022e2f37e11802b5a60629028ffe18f7",
     "prompt_hash": "4cb5ffbb647ac10fa531d1612e1c801db3edd44a3d7032d2b35cb59b5bb079ff",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 52,
@@ -5874,7 +5874,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Blake flip. Tina flip. 2 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Blake flip. Tina no flip. 1 flip. Even flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6064,11 +6064,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Wanda flip. Caleb flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Wanda flip. Coin is tail. [CORRECT] Coin start head. Wanda flip. Caleb flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6077,7 +6077,7 @@
     "doc_hash": "8057b16b2791c26badc73ae49baafec189d0ee0b13de24fe24f6779172d44149",
     "prompt_hash": "0ec8c30f9ab21268a6bf14ea81ebafe5121f22fcf277271e456feeb99e5aa846",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 60,
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Irene flip. Coin is tail. [CORRECT] Coin start head. Irene flip. Gina flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Irene flip. Coin is tail. [CORRECT] Coin start head. Irene flip. Gina do not flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6191,7 +6191,7 @@
     "doc_hash": "64a0b6afd329a02c947e07335259e8e5e428b377a9f30408aef75ed7099c308d",
     "prompt_hash": "818b40e9c72dce03573a0d6a122881bf9ac54ac73f6e2bdac14507b5f8f9f977",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 63,
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Peter flip. 2 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Peter flip. Coin is tail. [CORRECT] Coin start head. Peter flip. Grace flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6229,7 +6229,7 @@
     "doc_hash": "b2a9cce1a9315bbf4a6e3e4c8696f436e8861e47e2825a487606fd7bd6b549bc",
     "prompt_hash": "d80445ad8e34970302639785cdba81a1a480702c607786d681c083e91e97f82b",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 64,
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Victor flip. Aaron flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Victor flip. 2 flip. Even flip. Coin tail. [CORRECT] Coin start head. Victor flip. 2 flip. Even flip. Coin tail. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6305,7 +6305,7 @@
     "doc_hash": "69871415135ee77ee4fc9ec0be16c4abe3c53cee31a963c8f4f0bd0f7824c958",
     "prompt_hash": "566de4d21d490cd9b6085e58dc47ebc80f2aa0c4e558ddaf1c8f91ef22e67e8f",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 66,
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Eve flip. Eve no flip. 1 flip. Even flip. Coin still head. The answer is no."
+        "[INCORRECT] Coin start head. Eve flip. Eve no flip. Coin is tail. [CORRECT] Coin start head. Eve flip. James flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6609,7 +6609,7 @@
     "doc_hash": "b7f4da0e5754b198901f79be64db36e775d95d0f84af379bebea356e08fd1e2d",
     "prompt_hash": "fe161b7e5bf7a400b4b13867e919dda9fa04e32293460c8c64ac90c19b4df699",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 74,
@@ -6672,7 +6672,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Mia flip. Ray no flip. 1 flip. Even flip. Coin head. [CORRECT] Coin start head. Mia flip. Ray no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Mia flip. Ray no flip. 1 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Sofia flip. Caleb no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Sofia flip. Caleb no flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6761,7 +6761,7 @@
     "doc_hash": "b85ba1dd9f47a21de7806b96491751ad007d0d39cf086aa7a1ff87d7e45ecc1d",
     "prompt_hash": "fc29bd33573209ab0872c1f427f142907aaca0a78780146fb4f8960456ee4aad",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 78,
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Yvonne flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6875,7 +6875,7 @@
     "doc_hash": "fea4dacbda1151929ae437ffb67e9e3da43aad44b776d63b373a62b8860c8883",
     "prompt_hash": "399bd95c2748f5aa29990c4635ed82ccbb34878afd57afe55348cc855a34dbf2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -6976,11 +6976,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Olivia flip. Amber flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Olivia flip. Amber flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6989,7 +6989,7 @@
     "doc_hash": "d5fe26702ba8df4d86892d5e4a511028b93d29e0396d1ea3f5677d2f9ecd7829",
     "prompt_hash": "13037ba6f75530dfafde1a3d8bdc5f135b4f1fdc0cc8a0f8b76ce78be48e5d08",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 84,
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Nina flip. Vince no flip. 1 flip. Even flip. Coin head. [CORRECT] Coin start head. Nina flip. Vince no flip. 1 flip. Even flip. Coin tail. The answer is no."
+        "[INCORRECT] Coin start head. Nina flip. Vince no flip. 1 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7065,7 +7065,7 @@
     "doc_hash": "835d1beaa9698cd2c6ad1e7b09c2302066e9ae1e5885e275b1a63281d9425a43",
     "prompt_hash": "892675b5f162be28b4d4a03d95ad9c49a5c1e0608efa47d6bf5d7646fc3e83f2",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 86,
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Ursula flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Eve flip. Coin is tail. [CORRECT] Coin start head. Eve flip. Ursula flip. 2 flip. Even flip. Coin still head. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7141,7 +7141,7 @@
     "doc_hash": "32f0f8ce09a2adb94710c001cfa2d60377b995de2a5d3a7c970b6e262cd10983",
     "prompt_hash": "cd908f72e0d6beeaf5a3be545c6472e8dbd0a7d81b78b2958ad101815cf1a057",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 88,
@@ -7318,7 +7318,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Tom flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. James flip. Coin is tail. [CORRECT] Coin start head. James flip. Derek flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7356,7 +7356,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Xavier flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Derek flip. Coin is tail. [CORRECT] Coin start head. Derek flip. Yara flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7546,7 +7546,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Coin start head. Quinn flip. Coin is tail. [CORRECT] Coin start head. Quinn flip. Yara flip. 1 flip. Even flip. Coin still head. The answer is yes."
+        "[INCORRECT] Coin start head. Quinn flip. Coin is tail. [CORRECT] Coin start head. Quinn flip. Yara flip. 1 flip. Odd flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [

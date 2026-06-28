@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,strategyqa_caveman_mode,strategyqa,caveman_mode,fewshot_cot,strategyqa,0.49,0.04,173.3,6,100,14.65,11.13

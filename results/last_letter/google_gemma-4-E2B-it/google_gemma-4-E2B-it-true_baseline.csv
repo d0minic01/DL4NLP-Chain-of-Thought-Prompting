@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E2B-it,last_letter_true_baseline,last_letter,true_baseline,zero_shot,last_letter_concatenation,0.39,0.6,215.4,0,100,32.56,23.71

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,sports_caveman_mode,sports,caveman_mode,fewshot_cot,sports_understanding,0.65,0.0,101.9,8,100,6.65,15.3

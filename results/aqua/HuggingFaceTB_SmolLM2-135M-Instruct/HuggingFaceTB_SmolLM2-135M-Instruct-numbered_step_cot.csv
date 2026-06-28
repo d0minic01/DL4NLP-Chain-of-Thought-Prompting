@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,aqua_numbered_step_cot,aqua,numbered_step_cot,fewshot_cot,aqua-rat,0.23,0.06,142.8,4,100,70.78,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,aqua_numbered_step_cot,aqua,numbered_step_cot,fewshot_cot,aqua-rat,0.22,0.08,145.1,4,100,26.33,1.48

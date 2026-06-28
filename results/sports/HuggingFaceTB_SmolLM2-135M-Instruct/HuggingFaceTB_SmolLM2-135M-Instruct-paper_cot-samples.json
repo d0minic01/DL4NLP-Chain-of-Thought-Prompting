@@ -630,7 +630,7 @@
     ],
     "resps": [
       [
-        "Kylian Mbappe is a basketball player. Blocking the shot is part of basketball. The answer is yes."
+        "Kylian Mbappe is a soccer player. The shot is part of soccer. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "Patrick Mahomes is a basketball player. The field goal is part of football, not basketball. The answer is no."
+        "Patrick Mahomes is a basketball player. The field goal is part of basketball. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1859,7 +1859,7 @@
     "doc_hash": "8dc439efece049bbed73983600fffe0e8fcf2da97dabc3d89fdb8feaa6c034d5",
     "prompt_hash": "2a61093b3f4163b853915856b1eb690fb553402570cc8ae79db7c05e85c68c9e",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 49,
@@ -2720,7 +2720,7 @@
     ],
     "resps": [
       [
-        "Clayton Kershaw is a basketball player. Booking the yellow card is part of basketball. The answer is yes."
+        "Clayton Kershaw is a basketball player. Booked with a yellow card is part of basketball. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "Wayne Gretzky is a hockey player. Slashing is part of hockey. The answer is yes."
+        "Wayne Gretzky is a hockey player. The NBA is part of American football, not hockey. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3303,7 +3303,7 @@
     "doc_hash": "0594314925f37548335ccbd0fec4b668d5a60a99d378d62c1e4a6f3a94b1a2bc",
     "prompt_hash": "0f30d2be9d841cf0b7604230559477b6fbd9113d577736166f0a6a149b728fb3",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -3518,7 +3518,7 @@
     ],
     "resps": [
       [
-        "Peyton Manning is a football player. Sacking the quarterback is part of football, not football. The answer is yes."
+        "Peyton Manning is a football player. Sacking the quarterback is part of football, not baseball. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4430,7 +4430,7 @@
     ],
     "resps": [
       [
-        "Kylian Mbappe is a basketball player. Blocking the shot is part of basketball. The answer is yes."
+        "Kylian Mbappe is a soccer player. The shot is part of soccer. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "Patrick Mahomes is a basketball player. The field goal is part of football, not basketball. The answer is no."
+        "Patrick Mahomes is a basketball player. The field goal is part of basketball. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5659,7 +5659,7 @@
     "doc_hash": "8dc439efece049bbed73983600fffe0e8fcf2da97dabc3d89fdb8feaa6c034d5",
     "prompt_hash": "2a61093b3f4163b853915856b1eb690fb553402570cc8ae79db7c05e85c68c9e",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 49,
@@ -6520,7 +6520,7 @@
     ],
     "resps": [
       [
-        "Clayton Kershaw is a basketball player. Booking the yellow card is part of basketball. The answer is yes."
+        "Clayton Kershaw is a basketball player. Booked with a yellow card is part of basketball. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "Wayne Gretzky is a hockey player. Slashing is part of hockey. The answer is yes."
+        "Wayne Gretzky is a hockey player. The NBA is part of American football, not hockey. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7103,7 +7103,7 @@
     "doc_hash": "0594314925f37548335ccbd0fec4b668d5a60a99d378d62c1e4a6f3a94b1a2bc",
     "prompt_hash": "0f30d2be9d841cf0b7604230559477b6fbd9113d577736166f0a6a149b728fb3",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 87,
@@ -7318,7 +7318,7 @@
     ],
     "resps": [
       [
-        "Peyton Manning is a football player. Sacking the quarterback is part of football, not football. The answer is yes."
+        "Peyton Manning is a football player. Sacking the quarterback is part of football, not baseball. The answer is yes."
       ]
     ],
     "filtered_resps": [

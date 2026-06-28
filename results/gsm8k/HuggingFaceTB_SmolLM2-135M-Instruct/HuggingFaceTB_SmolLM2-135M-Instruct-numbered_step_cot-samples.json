@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of ducks: 16 * $2 = $32. Step 2: Total: 32 + 4 = 36. The answer is 36."
+        "Step 1: Cost of ducks: 16 * $2 = $32. Step 2: Total: 32 + 4 = $36. The answer is 36."
       ]
     ],
     "filtered_resps": [
@@ -60,11 +60,11 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of blue fiber: 2 bolts * $0.50 = $1.00. Step 2: Cost of white fiber: 1 bolt * $0.20 = $0.02. Step 3: Total: $1.00 + $0.02 = $1.12. The answer is 1.12."
+        "Step 1: Cost of blue fiber: 2 bolts * $0.50 = $1.00. Step 2: Cost of white fiber: 2 bolts * $0.20 = $4.00. The answer is 4.00."
       ]
     ],
     "filtered_resps": [
-      "1.12"
+      "4.00"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -98,11 +98,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the increase in value.  Josh bought the house for $80,000 and then put in $50,000 in repairs.  This increased the value of the house by 150%.  So, the increase in value is $50,000 - $80,000 = $30,000.  The profit is $30,000.  The answer is 30,000."
+        "Step 1: Calculate the increase in value.  The house now has $80,000 - $50,000 = $30,000. The increase in value is $30,000 / $50,000 = 0.5. The answer is 0.5."
       ]
     ],
     "filtered_resps": [
-      "30,000"
+      "0.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -136,11 +136,11 @@
     ],
     "resps": [
       [
-        "Step 1: 60 meters / 3 sprints = 20 meters. \nStep 2: 20 meters / 3 sprints = 60 meters. \nStep 3: 60 meters / 3 sprints = 20 meters. \nStep 4: 20 meters / 3 sprints = 60 meters. \nStep 5: 60 meters / 3 sprints = 20 meters. \nStep 6: 20 meters / 3 sprints = 60 meters. \nStep 7: 60 meters / 3 sprints = 20 meters. \nStep 8: 20 meters / 3 sprints = 60 meters. \nStep 9: 60 meters / 3 sprints = 20 meters. \nStep 10: 20 meters / 3 sprints = 60 meters. \nStep 11: 60 meters / 3 sprints = 20 meters. \nStep 12: 60 meters / 3 sprints = 20 meters. \nStep"
+        "Step 1: 60 meters / 3 sprints = 20 meters per sprint. \nStep 2: 20 meters per sprint * 3 sprints = 60 meters per week. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "60"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total feed given: 15 + 25 = 30. Step 2: Total feed given in the morning: 30 - 15 = 15. The answer is 15."
+        "Step 1: Total feed given: 15 + 25 = 30. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "30"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -250,11 +250,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of sheep in Seattle: 20 sheep. Step 2: Total number of sheep in Charleston: 4 times as many as Seattle: 4 * 20 = 80. Step 3: Total number of sheep in Toulouse: 20 + 80 = 280. Step 4: Total number of sheep in Seattle: 20 + 80 = 280. Step 5: Total number of sheep in Charleston: 20 + 4 * 280 = 280 + 1080 = 1160. The answer is 1160."
+        "Step 1: Toulouse has twice as many sheep as Charleston. Charleston has 4 * 20 = 80 sheep. Step 2: Seattle has 20 + 80 = 280 sheep. The answer is 280."
       ]
     ],
     "filtered_resps": [
-      "1160"
+      "280"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "Step 1: The download time is 20 minutes. The restart time is 20 minutes. The total time is 20 minutes + 20 minutes = 40 minutes. The load is 40 minutes * 2 = 80 minutes. The answer is 80."
+        "Step 1: 20 minutes = 200 GB/minute. 40% of 200 GB/minute = 0.4 * 200 = 80 GB/minute. 20 minutes = 200 GB/minute / 80 GB/minute = 2.5 hours. 2 hours = 24 hours. The answer is 2.5 hours."
       ]
     ],
     "filtered_resps": [
-      "80"
+      "2.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "Step 1: 3 hours * 60 mph = 180 miles. \nStep 2: 4 hours * 30 mph = 120 miles. \nStep 3: 180 - 120 = 40 miles. The answer is 40."
+        "Step 1: Total time: 4 hours + 2 hours + 2 hours = 7 hours.\nStep 2: Distance: 3 hours * 60 mph = 180 miles.\nStep 3: Distance: 7 hours * 30 mph = 210 miles.\nStep 4: Distance: 210 miles / 180 miles per hour = 1.25 miles.\nStep 5: Distance: 1.25 miles / 80 mph = 0.18 miles.\nStep 6: Distance: 0.18 miles / 80 mph = 0.0001 miles.\nStep 7: Distance: 0.0001 miles / 80 mph = 0.000001 miles.\nStep 8: Distance: 0.000001 miles / 80 mph = 0.0000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
-      "40"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of donuts: 3 * $68 = $192. Step 2: Cost of mini cupcakes: 2 * $80 = $160. Step 3: Cost of mini cheesecakes: 6 * $55 = $315. The total cost is $192 + $160 + $315 = $567. The answer is 567."
+        "Step 1: Cost of donuts: 3 * $68 = $192. Step 2: Cost of mini cupcakes: 2 * $80 = $160. Step 3: Cost of mini cheesecakes: 6 * $55 = $315. The total cost is $192 + $315 = $507. The answer is 507."
       ]
     ],
     "filtered_resps": [
-      "567"
+      "507"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of years it will take to grow the lemons. 7 lemons * 7 per lemon = 49 lemons. 1.5 lemons * 1.5 per lemon = 3.05 lemons. 3.05 lemons * $90 per lemon = $27.50. 27.50 + $3.05 = $29.55. The answer is 29.55."
+        "Step 1: Calculate the number of years it will take to grow the lemons. 7 lemons * 7 per lemon = 49 lemons. 1.5 lemons * 1.5 per lemon = 3.15 lemons. 3.15 lemons * $90 per lemon = $27.50. 27.50 + $3.15 = $29.15. The answer is 29.15."
       ]
     ],
     "filtered_resps": [
-      "29.55"
+      "29.15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -554,7 +554,7 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of students enrolled in hip-hop dance: 20 * 25 = 500.\nStep 2: Percentage of students enrolled in hip-hop dance: 500 / 2000 = 0.25.\nStep 3: Percentage of students enrolled in jazz dance: 25 * 20 = 400.\nStep 4: Percentage of students enrolled in jazz dance: 400 / 2000 = 0.20.\nStep 5: Percentage of students enrolled in hip-hop dance: 20 * 25 = 500.\nStep 6: Percentage of students enrolled in jazz dance: 500 / 2000 = 0.25.\nStep 7: Percentage of students enrolled in hip-hop dance: 20 * 25 = 500.\nStep 8: Percentage of students enrolled in jazz dance: 500 / 2000 = 0.25.\nStep 9: Percentage of students enrolled in hip-hop dance: "
+        "Step 1: Total number of students enrolled in hip-hop dance: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 2: Total number of students enrolled in jazz dance: 25% * 25% = 0.25 * 0.25 = 0.06.\nStep 3: Total number of students enrolled in contemporary dance: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 4: Total number of students enrolled in jazz dance: 25% * 25% = 0.25 * 0.25 = 0.06.\nStep 5: Total number of students enrolled in hip-hop dance: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 6: Total number of students enrolled in all classes: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 7: Percentage of students"
       ]
     ],
     "filtered_resps": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total profit. 2.5% increase in jewelry market = $0.25 * 2.5% = $0.025. 1.2% increase in electronic gadgets market = $0.10 * 1.2% = $0.006. The total profit is $0.025 + $0.006 = $0.051. The merchant would make a profit of $0.051 * 2 = $1.051."
+        "Step 1: Calculate the total profit. 2.5% increase in jewelry market = $0.25 * 2.5% = $0.025. 1.2% increase in electronic gadgets market = $0.10 * 1.2% = $0.006. The total profit is $0.025 + $0.006 = $0.051. The merchant would make a profit of $0.051 * 2.5% = $0.051 * 2.5 = $1.10."
       ]
     ],
     "filtered_resps": [
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "Step 1: Traveling westward: 80 miles / 150 miles per day = 0.025 miles per day. Step 2: Traveling northwards: 150 miles / 150 miles per day = 1 mile per day. The distance covered by each train is 0.025 miles per day * 1 mile per day = 0.025 miles per day. The answer is 0.025 miles per day."
+        "Step 1: Traveling westward: 80 miles / 150 miles per day = 0.015 miles per day. Step 2: Traveling northwards: 150 miles / 150 miles per day = 1.000 miles per day. The distance covered by each train in the two days is 0.015 miles per day * 1.000 miles per day = 1.000 miles. The answer is 1.000."
       ]
     ],
     "filtered_resps": [
-      "0.025"
+      "1.000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -668,7 +668,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate hours worked per week. 50 weeks * 50 weeks per year = 2500 hours. 35 hours per week * 50 weeks per year = 1500 hours. 15 hours per week * 35 hours per week = 500 hours. 20 hours per week * 35 hours per week = 800 hours. 20 hours per week * 15 hours per week = 300 hours. 300 hours / 20 hours per week = 150 hours. The answer is 150."
+        "Step 1: Calculate hours worked per year. 50 weeks * 50 weeks per year = 2500 hours. 35 hours per week * 50 weeks per year = 1500 hours. 15 hours per week * 35 hours per week = 500 hours. 20 hours per week * 35 hours per week = 800 hours. 20 hours per week * 15 hours per week = 300 hours. 300 hours / 20 hours per week = 150 hours. The answer is 150."
       ]
     ],
     "filtered_resps": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the age of Raymond. 6 years before Samantha. 23 years before Raymond's son. 23 - 6 = 19. The answer is 19."
+        "Step 1: Calculate the age of Raymond. 6 years before Raymond was born = 6 - 1 = 5. 5 years before Raymond was born = 5 + 1 = 6. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "19"
+      "6"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "Step 1: Measure the candle's length. 1:00 PM - 1:00 PM = 0:00 PM. 2 centimeters = 0 centimeters. 2000 cm = 2000 cm. The answer is 2000."
+        "Step 1: Measure the candle. 1:00 PM = 1:00 PM + 2 hours = 2:00 PM. 5:00 PM = 5:00 PM + 2 hours = 7:00 PM. The answer is 7."
       ]
     ],
     "filtered_resps": [
-      "2000"
+      "7"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1010,7 +1010,7 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of shorts: 3 * $16.50 = $51.50. Step 2: Cost of pants: 3 * $22.50 = $67.50. Step 3: Cost of shoes: 3 * $42 = $128. The answer is 128."
+        "Step 1: Cost of shorts: 3 * $16.50 = $51.50. Step 2: Cost of pants: 3 * $22.50 = $65.00. Step 3: Cost of shoes: 3 * $42 = $128. The answer is 128."
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "Step 1: Number of servings: 15 * 1 = 15 servings. Step 2: Cost of ice cream: $4.00 per serving. Step 3: Total: 15 + 4 = 19 servings. The answer is 19."
+        "Step 1: Cost of ice cream: 15 * $4.00 = $60. Step 2: Number of servings: 15 * 1 = 15. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "19"
+      "15"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,7 +1086,7 @@
     ],
     "resps": [
       [
-        "Step 1: First stop: 20 miles. Step 2: Second stop: 15 miles. Step 3: Total: 20 + 15 = 35 miles. The answer is 35."
+        "Step 1: First stop: 20 miles. Step 2: Second stop: 15 miles before the end of the trip. Step 3: Total miles: 20 + 15 = 35. The answer is 35."
       ]
     ],
     "filtered_resps": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find the total age. 162 - 7 + 11 = 157. The answer is 157."
+        "Step 1: Find the difference in age. 162 - 7 = 150. Step 2: Divide by 11. 150 / 11 = 12.5. The answer is 12.5."
       ]
     ],
     "filtered_resps": [
-      "157"
+      "12.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1200,11 +1200,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the first friend's answer. 80 + 20 + 25% + 25% + 25% = 100. The answer is 100.\nStep 2: Calculate the third friend's answer. 20 + 25% + 25% + 25% = 100. The answer is 100.\nStep 3: Calculate the fourth friend's answer. 25% + 25% + 25% + 25% = 100. The answer is 100.\nStep 4: Calculate the fifth friend's answer. 25% + 25% + 25% + 25% = 100. The answer is 100.\nStep 5: Calculate the total number of jelly beans in the jar. 80 + 100 + 100 + 100 = 400. The answer is 400.\nStep 6: Calculate the average guess. 400 / 4 = 100. The answer is "
+        "Step 1: Calculate the first friend's answer. 80 - 20 = 60. The second friend's answer is 20 + 25% = 25% more than 60. 25% of 60 is 0.25 * 60 = 14. The third friend's answer is 25% more than 14. 25% of 14 is 0.25 * 14 = 3.5. The fourth friend's answer is 25% more than 3.5. 25% of 3.5 is 0.25 * 3.5 = 8. The fifth friend's answer is 25% more than 8. 25% of 8 is 0.25 * 8 = 18. The sixth friend's answer is 25% more than 18. 25% of 18 is 0.25 * 18 = 4. The seventh friend's answer is 25% more than 4. 25% of 4 is 0.25 * "
       ]
     ],
     "filtered_resps": [
-      "100"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1352,11 +1352,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total points. 40 minutes * 4 points/minute = 160 points. 20 minutes * 25% = 10 points. 160 - 10 = 140 points. The answer is 140."
+        "Step 1: Calculate the total points. 40 minutes * 4 points/minute = 160 points. 20 minutes * 25% = 50 points. 160 - 50 + 50 = 100 points. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "140"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "Step 1: 60 miles per week * 3 days per week = 180 miles per week. \nStep 2: 3 hours per day * 2 hours = 6 hours per day. \nStep 3: 60 miles per week * 6 hours per day = 360 miles per week. \nStep 4: 3 hours per day * 2 hours = 6 hours per day. \nStep 5: 60 miles per week * 6 hours per day = 360 miles per week. \nStep 6: 360 miles per week * 2 hours per day = 720 miles per day. \nStep 7: 720 miles per day * 2 hours per day = 1440 hours per day. \nStep 8: 1440 hours per day * 2 days per week = 2880 days per week. \nStep 9: 2880 days per week * 6 days per week = 19600 days per week. \nStep 10: 19600 days per"
+        "Step 1: 60 miles per week * 3 days per week = 180 miles per week. \nStep 2: 3 hours per day * 1.5 hours per day = 4.5 hours per day. \nStep 3: 4.5 hours per day * 2 = 9 hours per day. \nStep 4: 9 hours per day * 2 = 12 hours per day. \nStep 5: 12 hours per day * 2 = 24 hours per day. \nStep 6: 24 hours per day * 2 = 48 hours per day. \nStep 7: 48 hours per day * 2 = 104 hours per day. \nStep 8: 104 hours per day * 2 = 228 hours per day. \nStep 9: 228 hours per day * 2 = 456 hours per day. \nStep 10: 456 hours per day * 2 = 912 hours per day. \nStep 11: 912 hours"
       ]
     ],
     "filtered_resps": [
@@ -1618,7 +1618,7 @@
     ],
     "resps": [
       [
-        "Step 1: 5 pies = 5 * 8 = 40 pieces. \nStep 2: 14 pieces = 14 * 8 = 108 pieces. \nStep 3: 108 pieces = 108 * 8 = 840 pieces. \nStep 4: 840 pieces = 840 * 8 = 6480 pieces. \nStep 5: 6480 pieces = 6480 * 8 = 5120 pieces. \nStep 6: 5120 pieces = 5120 * 8 = 3600 pieces. \nStep 7: 3600 pieces = 3600 * 8 = 24000 pieces. \nStep 8: 24000 pieces = 24000 * 8 = 16400 pieces. \nStep 9: 16400 pieces = 16400 * 8 = 12800 pieces. \nStep 10: "
+        "Step 1: 5 pies = 5 * 8 = 40 pieces. \nStep 2: 14 pieces = 14 * 8 = 108 pieces. \nStep 3: 108 pieces = 108 * 8 = 840 pieces. \nStep 4: 840 pieces = 840 * 8 = 6480 pieces. \nStep 5: 6480 pieces = 6480 * 8 = 51600 pieces. \nStep 6: 51600 pieces = 51600 * 8 = 40500 pieces. \nStep 7: 40500 pieces = 40500 * 8 = 30000 pieces. \nStep 8: 30000 pieces = 30000 * 8 = 200000 pieces. \nStep 9: 200000 pieces = 200000 * 8 = 160000"
       ]
     ],
     "filtered_resps": [
@@ -1656,7 +1656,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of servings. 300g * 5 servings = 1500 calories.\nStep 2: Calculate the number of servings. 300g * 5 servings = 1500 calories.\nStep 3: Calculate the number of calories per serving. 1500 calories / 1500 calories/serving = 1.\nStep 4: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 5: Calculate the number of servings. 300g * 1. = 300 calories.\nStep 6: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 7: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 8: Calculate the number of servings. 300g * 1. = 300 calories.\nStep 9: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 10: Calculate the number of calories per serving. 1. * "
+        "Step 1: Calculate the number of servings. 300g * 5 servings = 1500g.\nStep 2: Calculate the number of calories. 2000 calories / 1500g = 1.25 calories per serving.\nStep 3: Calculate the number of calories per serving. 1.25 calories per serving * 1500g = 2250 calories.\nStep 4: Calculate the total calories. 2250 calories + 1.25 calories per serving = 2265 calories.\nStep 5: Calculate the number of grams. 1500g * 1.25 = 2000g.\nStep 6: Calculate the number of grams per serving. 2000g / 1.25 = 1400g.\nStep 7: Calculate the number of servings. 300g * 5 servings = 1500g.\nStep 8: Calculate the total calories. 2000 calories + 1400 calories = 3400 calories.\nStep "
       ]
     ],
     "filtered_resps": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total cups of coffee: 23 * 220 = 4980. Step 2: Total cups of post-it notes: 80 * 2 = 1600. The answer is 1600."
+        "Step 1: Total cups of coffee: 23 * 220 = 4780. Step 2: Total cups of post-it notes: 80 * 23 = 1680. The answer is 1680."
       ]
     ],
     "filtered_resps": [
-      "1600"
+      "1680"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of red ties: 50% of 200 = 0.5 * 200 = 100. Step 2: Cost of blue ties: 40% of 200 = 0.4 * 200 = 80. The answer is 80."
+        "Step 1: Cost of red ties: 50% of $200 = 0.5 * $200 = $100. Step 2: Cost of blue ties: 40% of $200 = 0.4 * $200 = $80. The answer is 80."
       ]
     ],
     "filtered_resps": [
@@ -1884,11 +1884,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of units: 15 * 8 = 120. Step 2: Total number of units: 3/4 * 120 = 120 / 4 = 30. The answer is 30."
+        "Step 1: Total number of units: 15 * 8 = 120. Step 2: Total number of floors: 15 * 8 = 120. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "30"
+      "120"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1897,7 +1897,7 @@
     "doc_hash": "cc090ff1f75aa926b2d49e8ecf4a62c97d587aa13d2ce9c26fd97c280166bf7a",
     "prompt_hash": "e8946888781c5d8e400e66eb90a910228f7d700634dd67b379859add0d169931",
     "target_hash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 50,
@@ -1922,11 +1922,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of eggs per day. 252 eggs / 252 days = 1 egg per day. Step 2: Calculate the number of eggs per week. 1 egg per day * 7 days = 7 eggs. Step 3: Calculate the total number of eggs per week. 7 eggs per day * 7 days = 56 eggs. The answer is 56."
+        "Step 1: Number of eggs per day: 252 / 2 = 128. Step 2: Number of days: 128 / 365 = 4.6666666666666667. The answer is 4.6666666666666667."
       ]
     ],
     "filtered_resps": [
-      "56"
+      "4.6666666666666667"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1960,11 +1960,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the speed of the ship. 10 miles per hour = 10 * 6 = 60 miles per hour.\nStep 2: Determine the time it takes to travel from 1 to 4 PM. 4 PM = 12 hours.\nStep 3: Determine the time it takes to travel from 4 PM to 12 hours. 12 hours = 12 * 60 = 720 minutes.\nStep 4: Determine the time it takes to travel from 12 hours to 1 hour. 1 hour = 60 minutes.\nStep 5: Determine the time it takes to travel from 1 hour to 1 minute. 1 minute = 60 seconds.\nStep 6: Determine the time it takes to travel from 1 minute to 1 second. 1 second = 60/60 = 1 hour.\nStep 7: Determine the time it takes to travel from 1 second to 1 minute. 1 minute = 60/60 = 1 hour.\nStep 8: Determine the time it takes to travel from 1 minute to 1 second."
+        "Step 1: Determine the distance he travels. 10 miles per hour * 6 mph = 60 miles. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "60"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,11 +2036,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total revenue.  On Thursday, the mechanic repaired 6 truck tires and 4 car tires.  Total revenue: 6 * 4 = 24.  On Friday, the mechanic repaired 12 car tires and didn't repair any truck tires.  Total revenue: 12 * 12 = 144.  The total revenue on Friday is 24 + 144 = 172.  The total revenue on Thursday is 24 + 144 = 176.  The total revenue on Friday is 176 - 172 = 12.  The total revenue on Thursday is 176 - 12 = 168.  The total revenue on Friday is 168 - 12 = 156.  The total revenue on Friday is 156 - 12 = 134.  The total revenue on Saturday is 134 - 112 = 10.  The total revenue on Sunday is 10 - 10 = 0.  The total revenue on Monday is 0.  The total revenue"
+        "Step 1: Calculate the total revenue.  On Thursday, the mechanic repaired 6 truck tires and 4 car tires.  Total revenue: 6 * 4 = 24.  On Friday, the mechanic repaired 12 car tires and didn't repair any truck tires.  Total revenue: 12 * 1 = 12. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "Step 1: Number of bags Jean can fill: 30 - 2 = 27. The answer is 27."
+        "Step 1: Number of lollipops in bag: 20. Step 2: Number of lollipops in bag: 30. Step 3: Total: 20 + 30 = 50. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "27"
+      "50"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total bill: $40.00. Step 2: Total fees: $3.00 + $4.00 = $5.00. Step 3: Total tip: $3.00 * 2 = $6.00. The answer is 6.00."
+        "Step 1: Total bill: $40.00. Step 2: Total fees: $3.00. Step 3: Total tip: $4.00. Step 4: Total tip after fees: $3.00 + $4.00 = $7.00. The answer is 7.00."
       ]
     ],
     "filtered_resps": [
-      "6.00"
+      "7.00"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "Step 1: Number of good oranges: 25 - 1 = 24.\nStep 2: Number of bad oranges: 20% of 24 = 0.2 * 24 = 4.\nStep 3: Total number of oranges: 24 + 4 = 28.\nStep 4: Number of good oranges: 24 + 4 = 28.\nStep 5: Total number of good oranges: 28 + 2 = 29.\nStep 6: Number of good oranges: 29 - 2 = 27.\nStep 7: Total number of good oranges: 27 + 2 = 28.\nStep 8: Number of good oranges: 28 - 2 = 26.\nStep 9: Total number of good oranges: 26 + 2 = 28.\nStep 10: Number of good oranges: 28 - 2 = 27.\nStep 11: Total number of good oranges: 27 + 2 = 28.\nStep 12: Number of good oranges"
+        "Step 1: Number of good oranges: 25 - 1 = 24.\nStep 2: Number of bad oranges: 20% of 24 = 0.2 * 24 = 4.\nStep 3: Total number of oranges: 24 + 4 = 28.\nStep 4: Number of good oranges: 24 + 4 = 28.\nStep 5: Total number of good oranges: 28 + 2 = 29.\nStep 6: Total number of good oranges: 29 + 2 = 31.\nStep 7: Total number of good oranges: 29 + 2 = 31.\nStep 8: Total number of good oranges: 29 + 2 = 31.\nStep 9: Total number of good oranges: 29 + 2 = 31.\nStep 10: Total number of good oranges: 31 + 2 = 33.\nStep 11: Total number of good oranges: 33 + 2 = 35.\nStep 12: Total"
       ]
     ],
     "filtered_resps": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of material: 500 - 10% = $450. Step 2: Cost of jeweler: 800 - 10% = $700. Step 3: Total: $450 + $700 = $1250. The answer is 1250."
+        "Step 1: Cost of material: 500 - 500 = $0.  Cost of jeweler: 800 - 1000 = $800.  Cost of insurance: 10% of $800 = $80.  Total: $0 + $80 = $88. The answer is 88."
       ]
     ],
     "filtered_resps": [
-      "1250"
+      "88"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total number of cups of dog food. 1 cup of dog food = 110 cups.\nStep 2: Calculate the number of days in the first year. 180 days = 180 * 12 = 1800 days.\nStep 3: Calculate the number of cups of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 4: Calculate the number of bags of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 5: Calculate the total number of bags of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 6: Calculate the number of bags of dog food needed for the first year. 1220 cups = 1220 * 12 = 12400 cups.\nStep 7: Calculate the total number of bags of dog food needed for the first year. 124"
+        "Step 1: Calculate the total number of cups of dog food. 1 cup of dog food = 110 cups.\nStep 2: Calculate the number of days in the first year. 180 days = 180 * 12 = 2160 days.\nStep 3: Calculate the number of cups of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 4: Calculate the number of bags of dog food needed for the first year. 2 cups of dog food = 2 * 12 = 24 cups.\nStep 5: Calculate the total number of bags of dog food needed for the first year. 24 bags = 24 * 12 = 2880 bags.\nStep 6: Calculate the total number of bags of dog food needed for the first year. 2880 bags = 2880 * 12 = 31600 bags.\nStep 7: Calculate the total number of bags of dog food needed for the first year. 31600 bags ="
       ]
     ],
     "filtered_resps": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "Step 1: 1/6 of 24 liters = 1/6 * 24 = 12 liters.\nStep 2: 6 liters of water = 12 * 6 = 72 liters.\nStep 3: Total liters of water = 24 + 72 = 96 liters.\nStep 4: 24 - 96 = 4. The answer is 4."
+        "Step 1: 1/6 of 24 liters = 1/6 * 24 = 1/24. Step 2: 6 liters of water = 1/24 * 24 = 1/128. The answer is 1/128."
       ]
     ],
     "filtered_resps": [
-      "4"
+      "1"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3138,11 +3138,11 @@
     ],
     "resps": [
       [
-        "Step 1: Grace weighs 125 pounds. Step 2: Alex weighs 2 pounds less than 4 times Grace's weight. Step 3: 2 * 4 = 8. The answer is 8."
+        "Step 1: Grace weighs 125 pounds. Step 2: Alex weighs 2 pounds less than 4 times Grace's weight. Step 3: 4 times Grace's weight = 4 * 125 = 500 pounds. Step 4: 2 pounds less than 500 pounds = 2 * 500 = 1000 pounds. The combined weight is 500 + 1000 = 1500 pounds. The answer is 1500."
       ]
     ],
     "filtered_resps": [
-      "8"
+      "1500"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "Step 1: 23 - 4 = 21. 21 - 1 = 20. The answer is 20."
+        "Step 1: Total number of vacation blocks: 1 shirt from each vacation. 1 * 4 = 4. Step 2: Total number of blocks: 4 * 4 = 16. The answer is 16."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "16"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,7 +3290,7 @@
     ],
     "resps": [
       [
-        "Step 1: First alarm rang: 4 * 4 = 16. Second alarm rang: 4 * 3 = 12. Third alarm rang: 4 * 2 = 8. Fourth alarm rang: 4 * 1 = 4. Fifth alarm rang: 4 * 0 = 0. Sixth alarm rang: 4 * 1 = 4. Seventh alarm rang: 4 * 0 = 0. Eighth alarm rang: 4 * 1 = 4. Ninth alarm rang: 4 * 0 = 0. Tenth alarm rang: 4 * 1 = 4. Eleventh alarm rang: 4 * 0 = 0. Twelfth alarm rang: 4 * 1 = 4. Thirteenth alarm rang: 4 * 0 = 0. Fourteenth alarm rang: 4 * 1 = 4. Fifteenth alarm rang: 4 * 0 = 0. Fifteenth alarm rang: 4 * 1 = 4. Sixteenth alarm rang: 4 * 1 = 4. Seventeenth alarm rang: 4 * 1 = 4. Eighteenth alarm rang: 4 *"
+        "Step 1: The alarm rang four times.\nStep 2: The alarm rang for three times.\nStep 3: The alarm rang for half as long as the second time.\nStep 4: The alarm rang for three times.\nStep 5: The alarm rang for half as long as the third time.\nStep 6: The alarm rang for three times.\nStep 7: The alarm rang for half as long as the fourth time.\nStep 8: The alarm rang for three times.\nStep 9: The alarm rang for half as long as the fifth time.\nStep 10: The alarm rang for three times.\nStep 11: The alarm rang for half as long as the sixth time.\nStep 12: The alarm rang for three times.\nStep 13: The alarm rang for half as long as the seventh time.\nStep 14: The alarm rang for three times.\nStep 15: The alarm rang for half as long as the eighth time.\nStep 16: The alarm rang for three times.\nStep 17: The alarm rang for half as long as the ninth time.\nStep 18:"
       ]
     ],
     "filtered_resps": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the initial salary. 5 years in the company = 5 * $600 = $3000.\nStep 2: Calculate the annual salary. 3000 / 10% = $3000 * 1.10 = $3333.33.\nStep 3: Calculate the total salary after three more years of service. 3333.33 * 3 = $9666.67. The answer is 9666.67."
+        "Step 1: Calculate the initial salary. 5 years in the company = 5 * $600 = $3000.\nStep 2: Calculate the annual salary. 3000 * 10% = $3000 * 0.10 = $300.\nStep 3: Calculate the total salary after three more years of service. 3000 + 300 = $3300.\nThe answer is 3300."
       ]
     ],
     "filtered_resps": [
-      "9666.67"
+      "3300"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3404,11 +3404,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of guests. 16 friends * 1/4 guests = 1.6 guests. Step 2: Calculate the number of bags. 1.6 guests * 2 bags = 3 bags. Step 3: Calculate the total cost. 1.6 guests * 2 bags = 3 bags. The answer is 3."
+        "Step 1: Calculate the number of guests. 16 friends * 1/4 guests = 1.6 guests.\nStep 2: Calculate the number of bags. 1.6 guests * 2 = 3 bags.\nStep 3: Calculate the total cost of the gift bags. 1.6 guests * 2 bags = 3 bags.\nStep 4: Calculate the total cost of the gift bags. 3 bags * $2 = $6. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "3"
+      "6"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3442,11 +3442,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of adults and children. 20 adults = 20 * 10 = 200. 5 children = 5 * 10 = 50. 20 adults + 20 children = 40 adults + 40 children = 60 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + "
+        "Step 1: Determine the number of adults and children. 20 adults = 20 * 10 = 200 pounds. 5 children = 5 * 10 = 50 pounds. 20 adults + 5 children = 25 adults + 5 children = 26 children. 200 - 250 = 100. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "100"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the ages of the kids. Amy is 5 years older than Jackson, so Amy is 5 + 1 = 6 years old. Jackson is 10 years older than Corey, so Jackson is 10 + 10 = 20 years old. Corey is 1 year younger than James, so Corey is 1 + 1 = 2 years younger than James. James is 1 year younger than Corey, so Corey is 1 + 1 = 2 years younger than James. The ages of the kids are: 6 years old, 10 years old, 2 years younger than Corey, and 2 years younger than James. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10,"
+        "Step 1: Determine the ages of the kids. Amy is 5 years older than Jackson, so Amy is 5 + 1 = 6 years old. Jackson is 10 years older than Corey, so Jackson is 10 + 10 = 20 years old. Corey is 1 year younger than James, so Corey is 10 - 1 = 9 years old. James is 10 years older than Corey, so James is 10 + 10 = 20 years old. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "20"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,7 +3594,7 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of pets: 20 * 60 = 1200.\nStep 2: Total number of pets: 1200 - 20 = 1120.\nStep 3: Total number of pets: 1120 / 2 = 550.\nStep 4: Total number of pets: 1200 - 550 = 650.\nStep 5: Total number of pets: 1200 + 650 = 1850.\nStep 6: Total number of pets: 1850 / 2 = 900.\nStep 7: Total number of pets: 1120 + 900 = 2020.\nStep 8: Total number of pets: 1120 + 2020 = 3240.\nStep 9: Total number of pets: 1200 + 3240 = 4440.\nStep 10: Total number of pets: 1200 + 4440 ="
+        "Step 1: Total number of pets: 20 * 60 = 1200.\nStep 2: Total number of pets: 1200 - 20 = 1120.\nStep 3: Total number of pets: 1120 / 2 = 550.\nStep 4: Total number of pets: 1200 - 550 = 650.\nStep 5: Total number of pets: 1200 + 650 = 1850.\nStep 6: Total number of pets: 1850 / 2 = 900.\nStep 7: Total number of pets: 1120 + 650 = 1770.\nStep 8: Total number of pets: 1850 + 1770 = 3620.\nStep 9: Total number of pets: 1120 + 650 = 1770.\nStep 10: Total number of pets: 1850 + 3620 = "
       ]
     ],
     "filtered_resps": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "Step 1: Harry slept 9 hours. Step 2: James slept 2/3 of 9 hours. Step 3: Harry slept 9 - 2/3 = 11/3 hours. Step 4: Harry slept 11/3 hours + 1 = 22/3 hours. Step 5: James slept 11/3 hours + 1 = 22/3 hours. The answer is 22."
+        "Step 1: Harry slept 9 hours. Step 2: James slept 2/3 of 9 hours. Step 3: Harry slept 9 - 2/3 = 11/3 hours. Step 4: Harry slept 11/3 hours + 1 = 22/3 hours. Step 5: James slept 22/3 hours + 1 = 64/3 hours. Step 6: Harry slept 64/3 hours + 1 = 216/3 hours. Step 7: Harry slept 216/3 hours + 1 = 720/3 hours. Step 8: Harry slept 720/3 hours + 1 = 2560/3 hours. Step 9: Harry slept 2560/3 hours + 1 = 8320/3 hours. Step 10: Harry slept 8320/3 hours + 1 = 2760/3 hours. Step 11: Harry slept 2760/3 hours + 1 = 8440/3 hours. Step 12: Harry"
       ]
     ],
     "filtered_resps": [
-      "22"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "Step 1: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces.\nStep 2: 32 ounces of sauce = 32 * 1/2 = 12 ounces.\nStep 3: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 4: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 5: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 6: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 7: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 8: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 9: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 10: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 1"
+        "Step 1: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces. Step 2: 32 ounces of sauce = 32 * 1/2 = 12 ounces. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3721,7 +3721,7 @@
     "doc_hash": "b0b2fa84bdf8e74116f8a930c56b3a577b2e734de0f6d0ba2d6cce555a6a67d5",
     "prompt_hash": "29768941aaf60d2567782ac521c2a455ffca548edeeaeb910a07a0acc3a08698",
     "target_hash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -3746,7 +3746,7 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of cars on the motorway: 30 cars.\nStep 2: Number of cars that drove through the first 15 minutes: 5 cars from the line.\nStep 3: Number of cars that drove through the remaining 15 minutes: 30 - 5 = 25.\nStep 4: Total number of cars on the motorway: 30 + 25 = 55.\nStep 5: Total number of cars that drove through the traffic jam: 55 - 15 = 42.\nStep 6: Total number of cars that drove through the first 15 minutes: 58 - 42 = 12.\nStep 7: Total number of cars that drove through the remaining 15 minutes: 55 - 12 = 43.\nStep 8: Total number of cars that drove through the traffic jam: 30 + 43 = 53.\nStep 9: Total number of cars that drove through the first 15 minutes: 58 - 43 = 11.\nStep 10: Total number of"
+        "Step 1: Total number of cars on the motorway: 30 cars.\nStep 2: Number of cars that drove through the first 15 minutes: 5 cars from the line.\nStep 3: Number of cars that drove through the remaining 15 minutes: 30 - 5 = 25.\nStep 4: Total number of cars on the motorway: 30 + 25 = 55.\nStep 5: Total number of cars that drove through the traffic jam: 55 - 20 = 35.\nStep 6: Total number of cars that drove through the first 15 minutes: 35 - 20 = 15.\nStep 7: Total number of cars that drove through the remaining 15 minutes: 55 - 20 = 35.\nStep 8: Total number of cars that drove through the traffic jam: 35 - 20 = 15.\nStep 9: Total number of cars that drove through the first 15 minutes: 55 - 20 = 35.\nStep 10: Total number of"
       ]
     ],
     "filtered_resps": [
@@ -3822,7 +3822,7 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of ducks: 16 * $2 = $32. Step 2: Total: 32 + 4 = 36. The answer is 36."
+        "Step 1: Cost of ducks: 16 * $2 = $32. Step 2: Total: 32 + 4 = $36. The answer is 36."
       ]
     ],
     "filtered_resps": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of blue fiber: 2 bolts * $0.50 = $1.00. Step 2: Cost of white fiber: 1 bolt * $0.20 = $0.02. Step 3: Total: $1.00 + $0.02 = $1.12. The answer is 1.12."
+        "Step 1: Cost of blue fiber: 2 bolts * $0.50 = $1.00. Step 2: Cost of white fiber: 2 bolts * $0.20 = $4.00. The answer is 4.00."
       ]
     ],
     "filtered_resps": [
-      "1.12."
+      "4.00."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the increase in value.  Josh bought the house for $80,000 and then put in $50,000 in repairs.  This increased the value of the house by 150%.  So, the increase in value is $50,000 - $80,000 = $30,000.  The profit is $30,000.  The answer is 30,000."
+        "Step 1: Calculate the increase in value.  The house now has $80,000 - $50,000 = $30,000. The increase in value is $30,000 / $50,000 = 0.5. The answer is 0.5."
       ]
     ],
     "filtered_resps": [
-      "30,000."
+      "0.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3936,11 +3936,11 @@
     ],
     "resps": [
       [
-        "Step 1: 60 meters / 3 sprints = 20 meters. \nStep 2: 20 meters / 3 sprints = 60 meters. \nStep 3: 60 meters / 3 sprints = 20 meters. \nStep 4: 20 meters / 3 sprints = 60 meters. \nStep 5: 60 meters / 3 sprints = 20 meters. \nStep 6: 20 meters / 3 sprints = 60 meters. \nStep 7: 60 meters / 3 sprints = 20 meters. \nStep 8: 20 meters / 3 sprints = 60 meters. \nStep 9: 60 meters / 3 sprints = 20 meters. \nStep 10: 20 meters / 3 sprints = 60 meters. \nStep 11: 60 meters / 3 sprints = 20 meters. \nStep 12: 60 meters / 3 sprints = 20 meters. \nStep"
+        "Step 1: 60 meters / 3 sprints = 20 meters per sprint. \nStep 2: 20 meters per sprint * 3 sprints = 60 meters per week. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "60."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total feed given: 15 + 25 = 30. Step 2: Total feed given in the morning: 30 - 15 = 15. The answer is 15."
+        "Step 1: Total feed given: 15 + 25 = 30. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "15."
+      "30."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4050,11 +4050,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of sheep in Seattle: 20 sheep. Step 2: Total number of sheep in Charleston: 4 times as many as Seattle: 4 * 20 = 80. Step 3: Total number of sheep in Toulouse: 20 + 80 = 280. Step 4: Total number of sheep in Seattle: 20 + 80 = 280. Step 5: Total number of sheep in Charleston: 20 + 4 * 280 = 280 + 1080 = 1160. The answer is 1160."
+        "Step 1: Toulouse has twice as many sheep as Charleston. Charleston has 4 * 20 = 80 sheep. Step 2: Seattle has 20 + 80 = 280 sheep. The answer is 280."
       ]
     ],
     "filtered_resps": [
-      "1160."
+      "280."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "Step 1: The download time is 20 minutes. The restart time is 20 minutes. The total time is 20 minutes + 20 minutes = 40 minutes. The load is 40 minutes * 2 = 80 minutes. The answer is 80."
+        "Step 1: 20 minutes = 200 GB/minute. 40% of 200 GB/minute = 0.4 * 200 = 80 GB/minute. 20 minutes = 200 GB/minute / 80 GB/minute = 2.5 hours. 2 hours = 24 hours. The answer is 2.5 hours."
       ]
     ],
     "filtered_resps": [
-      "80."
+      "2.5"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "Step 1: 3 hours * 60 mph = 180 miles. \nStep 2: 4 hours * 30 mph = 120 miles. \nStep 3: 180 - 120 = 40 miles. The answer is 40."
+        "Step 1: Total time: 4 hours + 2 hours + 2 hours = 7 hours.\nStep 2: Distance: 3 hours * 60 mph = 180 miles.\nStep 3: Distance: 7 hours * 30 mph = 210 miles.\nStep 4: Distance: 210 miles / 180 miles per hour = 1.25 miles.\nStep 5: Distance: 1.25 miles / 80 mph = 0.18 miles.\nStep 6: Distance: 0.18 miles / 80 mph = 0.0001 miles.\nStep 7: Distance: 0.0001 miles / 80 mph = 0.000001 miles.\nStep 8: Distance: 0.000001 miles / 80 mph = 0.0000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
-      "40."
+      "0.0000000000000000000000000000000000000000000000000"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of donuts: 3 * $68 = $192. Step 2: Cost of mini cupcakes: 2 * $80 = $160. Step 3: Cost of mini cheesecakes: 6 * $55 = $315. The total cost is $192 + $160 + $315 = $567. The answer is 567."
+        "Step 1: Cost of donuts: 3 * $68 = $192. Step 2: Cost of mini cupcakes: 2 * $80 = $160. Step 3: Cost of mini cheesecakes: 6 * $55 = $315. The total cost is $192 + $315 = $507. The answer is 507."
       ]
     ],
     "filtered_resps": [
-      "567."
+      "507."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of years it will take to grow the lemons. 7 lemons * 7 per lemon = 49 lemons. 1.5 lemons * 1.5 per lemon = 3.05 lemons. 3.05 lemons * $90 per lemon = $27.50. 27.50 + $3.05 = $29.55. The answer is 29.55."
+        "Step 1: Calculate the number of years it will take to grow the lemons. 7 lemons * 7 per lemon = 49 lemons. 1.5 lemons * 1.5 per lemon = 3.15 lemons. 3.15 lemons * $90 per lemon = $27.50. 27.50 + $3.15 = $29.15. The answer is 29.15."
       ]
     ],
     "filtered_resps": [
-      "29.55."
+      "29.15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of students enrolled in hip-hop dance: 20 * 25 = 500.\nStep 2: Percentage of students enrolled in hip-hop dance: 500 / 2000 = 0.25.\nStep 3: Percentage of students enrolled in jazz dance: 25 * 20 = 400.\nStep 4: Percentage of students enrolled in jazz dance: 400 / 2000 = 0.20.\nStep 5: Percentage of students enrolled in hip-hop dance: 20 * 25 = 500.\nStep 6: Percentage of students enrolled in jazz dance: 500 / 2000 = 0.25.\nStep 7: Percentage of students enrolled in hip-hop dance: 20 * 25 = 500.\nStep 8: Percentage of students enrolled in jazz dance: 500 / 2000 = 0.25.\nStep 9: Percentage of students enrolled in hip-hop dance: "
+        "Step 1: Total number of students enrolled in hip-hop dance: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 2: Total number of students enrolled in jazz dance: 25% * 25% = 0.25 * 0.25 = 0.06.\nStep 3: Total number of students enrolled in contemporary dance: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 4: Total number of students enrolled in jazz dance: 25% * 25% = 0.25 * 0.25 = 0.06.\nStep 5: Total number of students enrolled in hip-hop dance: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 6: Total number of students enrolled in all classes: 20% * 20% = 0.2 * 0.2 = 0.04.\nStep 7: Percentage of students"
       ]
     ],
     "filtered_resps": [
-      "9"
+      "7"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total profit. 2.5% increase in jewelry market = $0.25 * 2.5% = $0.025. 1.2% increase in electronic gadgets market = $0.10 * 1.2% = $0.006. The total profit is $0.025 + $0.006 = $0.051. The merchant would make a profit of $0.051 * 2 = $1.051."
+        "Step 1: Calculate the total profit. 2.5% increase in jewelry market = $0.25 * 2.5% = $0.025. 1.2% increase in electronic gadgets market = $0.10 * 1.2% = $0.006. The total profit is $0.025 + $0.006 = $0.051. The merchant would make a profit of $0.051 * 2.5% = $0.051 * 2.5 = $1.10."
       ]
     ],
     "filtered_resps": [
-      "$1.051."
+      "$1.10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "Step 1: Traveling westward: 80 miles / 150 miles per day = 0.025 miles per day. Step 2: Traveling northwards: 150 miles / 150 miles per day = 1 mile per day. The distance covered by each train is 0.025 miles per day * 1 mile per day = 0.025 miles per day. The answer is 0.025 miles per day."
+        "Step 1: Traveling westward: 80 miles / 150 miles per day = 0.015 miles per day. Step 2: Traveling northwards: 150 miles / 150 miles per day = 1.000 miles per day. The distance covered by each train in the two days is 0.015 miles per day * 1.000 miles per day = 1.000 miles. The answer is 1.000."
       ]
     ],
     "filtered_resps": [
-      "0.025"
+      "1.000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,7 +4468,7 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate hours worked per week. 50 weeks * 50 weeks per year = 2500 hours. 35 hours per week * 50 weeks per year = 1500 hours. 15 hours per week * 35 hours per week = 500 hours. 20 hours per week * 35 hours per week = 800 hours. 20 hours per week * 15 hours per week = 300 hours. 300 hours / 20 hours per week = 150 hours. The answer is 150."
+        "Step 1: Calculate hours worked per year. 50 weeks * 50 weeks per year = 2500 hours. 35 hours per week * 50 weeks per year = 1500 hours. 15 hours per week * 35 hours per week = 500 hours. 20 hours per week * 35 hours per week = 800 hours. 20 hours per week * 15 hours per week = 300 hours. 300 hours / 20 hours per week = 150 hours. The answer is 150."
       ]
     ],
     "filtered_resps": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the age of Raymond. 6 years before Samantha. 23 years before Raymond's son. 23 - 6 = 19. The answer is 19."
+        "Step 1: Calculate the age of Raymond. 6 years before Raymond was born = 6 - 1 = 5. 5 years before Raymond was born = 5 + 1 = 6. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "19."
+      "6."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "Step 1: Measure the candle's length. 1:00 PM - 1:00 PM = 0:00 PM. 2 centimeters = 0 centimeters. 2000 cm = 2000 cm. The answer is 2000."
+        "Step 1: Measure the candle. 1:00 PM = 1:00 PM + 2 hours = 2:00 PM. 5:00 PM = 5:00 PM + 2 hours = 7:00 PM. The answer is 7."
       ]
     ],
     "filtered_resps": [
-      "2000."
+      "7."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4810,7 +4810,7 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of shorts: 3 * $16.50 = $51.50. Step 2: Cost of pants: 3 * $22.50 = $67.50. Step 3: Cost of shoes: 3 * $42 = $128. The answer is 128."
+        "Step 1: Cost of shorts: 3 * $16.50 = $51.50. Step 2: Cost of pants: 3 * $22.50 = $65.00. Step 3: Cost of shoes: 3 * $42 = $128. The answer is 128."
       ]
     ],
     "filtered_resps": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "Step 1: Number of servings: 15 * 1 = 15 servings. Step 2: Cost of ice cream: $4.00 per serving. Step 3: Total: 15 + 4 = 19 servings. The answer is 19."
+        "Step 1: Cost of ice cream: 15 * $4.00 = $60. Step 2: Number of servings: 15 * 1 = 15. The answer is 15."
       ]
     ],
     "filtered_resps": [
-      "19."
+      "15."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,7 +4886,7 @@
     ],
     "resps": [
       [
-        "Step 1: First stop: 20 miles. Step 2: Second stop: 15 miles. Step 3: Total: 20 + 15 = 35 miles. The answer is 35."
+        "Step 1: First stop: 20 miles. Step 2: Second stop: 15 miles before the end of the trip. Step 3: Total miles: 20 + 15 = 35. The answer is 35."
       ]
     ],
     "filtered_resps": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find the total age. 162 - 7 + 11 = 157. The answer is 157."
+        "Step 1: Find the difference in age. 162 - 7 = 150. Step 2: Divide by 11. 150 / 11 = 12.5. The answer is 12.5."
       ]
     ],
     "filtered_resps": [
-      "157."
+      "12.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5000,11 +5000,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the first friend's answer. 80 + 20 + 25% + 25% + 25% = 100. The answer is 100.\nStep 2: Calculate the third friend's answer. 20 + 25% + 25% + 25% = 100. The answer is 100.\nStep 3: Calculate the fourth friend's answer. 25% + 25% + 25% + 25% = 100. The answer is 100.\nStep 4: Calculate the fifth friend's answer. 25% + 25% + 25% + 25% = 100. The answer is 100.\nStep 5: Calculate the total number of jelly beans in the jar. 80 + 100 + 100 + 100 = 400. The answer is 400.\nStep 6: Calculate the average guess. 400 / 4 = 100. The answer is "
+        "Step 1: Calculate the first friend's answer. 80 - 20 = 60. The second friend's answer is 20 + 25% = 25% more than 60. 25% of 60 is 0.25 * 60 = 14. The third friend's answer is 25% more than 14. 25% of 14 is 0.25 * 14 = 3.5. The fourth friend's answer is 25% more than 3.5. 25% of 3.5 is 0.25 * 3.5 = 8. The fifth friend's answer is 25% more than 8. 25% of 8 is 0.25 * 8 = 18. The sixth friend's answer is 25% more than 18. 25% of 18 is 0.25 * 18 = 4. The seventh friend's answer is 25% more than 4. 25% of 4 is 0.25 * "
       ]
     ],
     "filtered_resps": [
-      "100."
+      "0.25"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5152,11 +5152,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total points. 40 minutes * 4 points/minute = 160 points. 20 minutes * 25% = 10 points. 160 - 10 = 140 points. The answer is 140."
+        "Step 1: Calculate the total points. 40 minutes * 4 points/minute = 160 points. 20 minutes * 25% = 50 points. 160 - 50 + 50 = 100 points. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "140."
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "Step 1: 60 miles per week * 3 days per week = 180 miles per week. \nStep 2: 3 hours per day * 2 hours = 6 hours per day. \nStep 3: 60 miles per week * 6 hours per day = 360 miles per week. \nStep 4: 3 hours per day * 2 hours = 6 hours per day. \nStep 5: 60 miles per week * 6 hours per day = 360 miles per week. \nStep 6: 360 miles per week * 2 hours per day = 720 miles per day. \nStep 7: 720 miles per day * 2 hours per day = 1440 hours per day. \nStep 8: 1440 hours per day * 2 days per week = 2880 days per week. \nStep 9: 2880 days per week * 6 days per week = 19600 days per week. \nStep 10: 19600 days per"
+        "Step 1: 60 miles per week * 3 days per week = 180 miles per week. \nStep 2: 3 hours per day * 1.5 hours per day = 4.5 hours per day. \nStep 3: 4.5 hours per day * 2 = 9 hours per day. \nStep 4: 9 hours per day * 2 = 12 hours per day. \nStep 5: 12 hours per day * 2 = 24 hours per day. \nStep 6: 24 hours per day * 2 = 48 hours per day. \nStep 7: 48 hours per day * 2 = 104 hours per day. \nStep 8: 104 hours per day * 2 = 228 hours per day. \nStep 9: 228 hours per day * 2 = 456 hours per day. \nStep 10: 456 hours per day * 2 = 912 hours per day. \nStep 11: 912 hours"
       ]
     ],
     "filtered_resps": [
-      "19600"
+      "912"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "Step 1: 5 pies = 5 * 8 = 40 pieces. \nStep 2: 14 pieces = 14 * 8 = 108 pieces. \nStep 3: 108 pieces = 108 * 8 = 840 pieces. \nStep 4: 840 pieces = 840 * 8 = 6480 pieces. \nStep 5: 6480 pieces = 6480 * 8 = 5120 pieces. \nStep 6: 5120 pieces = 5120 * 8 = 3600 pieces. \nStep 7: 3600 pieces = 3600 * 8 = 24000 pieces. \nStep 8: 24000 pieces = 24000 * 8 = 16400 pieces. \nStep 9: 16400 pieces = 16400 * 8 = 12800 pieces. \nStep 10: "
+        "Step 1: 5 pies = 5 * 8 = 40 pieces. \nStep 2: 14 pieces = 14 * 8 = 108 pieces. \nStep 3: 108 pieces = 108 * 8 = 840 pieces. \nStep 4: 840 pieces = 840 * 8 = 6480 pieces. \nStep 5: 6480 pieces = 6480 * 8 = 51600 pieces. \nStep 6: 51600 pieces = 51600 * 8 = 40500 pieces. \nStep 7: 40500 pieces = 40500 * 8 = 30000 pieces. \nStep 8: 30000 pieces = 30000 * 8 = 200000 pieces. \nStep 9: 200000 pieces = 200000 * 8 = 160000"
       ]
     ],
     "filtered_resps": [
-      "10"
+      "160000"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of servings. 300g * 5 servings = 1500 calories.\nStep 2: Calculate the number of servings. 300g * 5 servings = 1500 calories.\nStep 3: Calculate the number of calories per serving. 1500 calories / 1500 calories/serving = 1.\nStep 4: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 5: Calculate the number of servings. 300g * 1. = 300 calories.\nStep 6: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 7: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 8: Calculate the number of servings. 300g * 1. = 300 calories.\nStep 9: Calculate the number of calories per serving. 1. * 1. = 1.\nStep 10: Calculate the number of calories per serving. 1. * "
+        "Step 1: Calculate the number of servings. 300g * 5 servings = 1500g.\nStep 2: Calculate the number of calories. 2000 calories / 1500g = 1.25 calories per serving.\nStep 3: Calculate the number of calories per serving. 1.25 calories per serving * 1500g = 2250 calories.\nStep 4: Calculate the total calories. 2250 calories + 1.25 calories per serving = 2265 calories.\nStep 5: Calculate the number of grams. 1500g * 1.25 = 2000g.\nStep 6: Calculate the number of grams per serving. 2000g / 1.25 = 1400g.\nStep 7: Calculate the number of servings. 300g * 5 servings = 1500g.\nStep 8: Calculate the total calories. 2000 calories + 1400 calories = 3400 calories.\nStep "
       ]
     ],
     "filtered_resps": [
-      "1."
+      "3400"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total cups of coffee: 23 * 220 = 4980. Step 2: Total cups of post-it notes: 80 * 2 = 1600. The answer is 1600."
+        "Step 1: Total cups of coffee: 23 * 220 = 4780. Step 2: Total cups of post-it notes: 80 * 23 = 1680. The answer is 1680."
       ]
     ],
     "filtered_resps": [
-      "1600."
+      "1680."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,7 +5608,7 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of red ties: 50% of 200 = 0.5 * 200 = 100. Step 2: Cost of blue ties: 40% of 200 = 0.4 * 200 = 80. The answer is 80."
+        "Step 1: Cost of red ties: 50% of $200 = 0.5 * $200 = $100. Step 2: Cost of blue ties: 40% of $200 = 0.4 * $200 = $80. The answer is 80."
       ]
     ],
     "filtered_resps": [
@@ -5684,11 +5684,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of units: 15 * 8 = 120. Step 2: Total number of units: 3/4 * 120 = 120 / 4 = 30. The answer is 30."
+        "Step 1: Total number of units: 15 * 8 = 120. Step 2: Total number of floors: 15 * 8 = 120. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "30."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5697,7 +5697,7 @@
     "doc_hash": "cc090ff1f75aa926b2d49e8ecf4a62c97d587aa13d2ce9c26fd97c280166bf7a",
     "prompt_hash": "e8946888781c5d8e400e66eb90a910228f7d700634dd67b379859add0d169931",
     "target_hash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 50,
@@ -5722,11 +5722,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of eggs per day. 252 eggs / 252 days = 1 egg per day. Step 2: Calculate the number of eggs per week. 1 egg per day * 7 days = 7 eggs. Step 3: Calculate the total number of eggs per week. 7 eggs per day * 7 days = 56 eggs. The answer is 56."
+        "Step 1: Number of eggs per day: 252 / 2 = 128. Step 2: Number of days: 128 / 365 = 4.6666666666666667. The answer is 4.6666666666666667."
       ]
     ],
     "filtered_resps": [
-      "56."
+      "4.6666666666666667."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,11 +5760,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the speed of the ship. 10 miles per hour = 10 * 6 = 60 miles per hour.\nStep 2: Determine the time it takes to travel from 1 to 4 PM. 4 PM = 12 hours.\nStep 3: Determine the time it takes to travel from 4 PM to 12 hours. 12 hours = 12 * 60 = 720 minutes.\nStep 4: Determine the time it takes to travel from 12 hours to 1 hour. 1 hour = 60 minutes.\nStep 5: Determine the time it takes to travel from 1 hour to 1 minute. 1 minute = 60 seconds.\nStep 6: Determine the time it takes to travel from 1 minute to 1 second. 1 second = 60/60 = 1 hour.\nStep 7: Determine the time it takes to travel from 1 second to 1 minute. 1 minute = 60/60 = 1 hour.\nStep 8: Determine the time it takes to travel from 1 minute to 1 second."
+        "Step 1: Determine the distance he travels. 10 miles per hour * 6 mph = 60 miles. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "1"
+      "60."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,11 +5836,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total revenue.  On Thursday, the mechanic repaired 6 truck tires and 4 car tires.  Total revenue: 6 * 4 = 24.  On Friday, the mechanic repaired 12 car tires and didn't repair any truck tires.  Total revenue: 12 * 12 = 144.  The total revenue on Friday is 24 + 144 = 172.  The total revenue on Thursday is 24 + 144 = 176.  The total revenue on Friday is 176 - 172 = 12.  The total revenue on Thursday is 176 - 12 = 168.  The total revenue on Friday is 168 - 12 = 156.  The total revenue on Friday is 156 - 12 = 134.  The total revenue on Saturday is 134 - 112 = 10.  The total revenue on Sunday is 10 - 10 = 0.  The total revenue on Monday is 0.  The total revenue"
+        "Step 1: Calculate the total revenue.  On Thursday, the mechanic repaired 6 truck tires and 4 car tires.  Total revenue: 6 * 4 = 24.  On Friday, the mechanic repaired 12 car tires and didn't repair any truck tires.  Total revenue: 12 * 1 = 12. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5912,11 +5912,11 @@
     ],
     "resps": [
       [
-        "Step 1: Number of bags Jean can fill: 30 - 2 = 27. The answer is 27."
+        "Step 1: Number of lollipops in bag: 20. Step 2: Number of lollipops in bag: 30. Step 3: Total: 20 + 30 = 50. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "27."
+      "50."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total bill: $40.00. Step 2: Total fees: $3.00 + $4.00 = $5.00. Step 3: Total tip: $3.00 * 2 = $6.00. The answer is 6.00."
+        "Step 1: Total bill: $40.00. Step 2: Total fees: $3.00. Step 3: Total tip: $4.00. Step 4: Total tip after fees: $3.00 + $4.00 = $7.00. The answer is 7.00."
       ]
     ],
     "filtered_resps": [
-      "6.00."
+      "7.00."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "Step 1: Number of good oranges: 25 - 1 = 24.\nStep 2: Number of bad oranges: 20% of 24 = 0.2 * 24 = 4.\nStep 3: Total number of oranges: 24 + 4 = 28.\nStep 4: Number of good oranges: 24 + 4 = 28.\nStep 5: Total number of good oranges: 28 + 2 = 29.\nStep 6: Number of good oranges: 29 - 2 = 27.\nStep 7: Total number of good oranges: 27 + 2 = 28.\nStep 8: Number of good oranges: 28 - 2 = 26.\nStep 9: Total number of good oranges: 26 + 2 = 28.\nStep 10: Number of good oranges: 28 - 2 = 27.\nStep 11: Total number of good oranges: 27 + 2 = 28.\nStep 12: Number of good oranges"
+        "Step 1: Number of good oranges: 25 - 1 = 24.\nStep 2: Number of bad oranges: 20% of 24 = 0.2 * 24 = 4.\nStep 3: Total number of oranges: 24 + 4 = 28.\nStep 4: Number of good oranges: 24 + 4 = 28.\nStep 5: Total number of good oranges: 28 + 2 = 29.\nStep 6: Total number of good oranges: 29 + 2 = 31.\nStep 7: Total number of good oranges: 29 + 2 = 31.\nStep 8: Total number of good oranges: 29 + 2 = 31.\nStep 9: Total number of good oranges: 29 + 2 = 31.\nStep 10: Total number of good oranges: 31 + 2 = 33.\nStep 11: Total number of good oranges: 33 + 2 = 35.\nStep 12: Total"
       ]
     ],
     "filtered_resps": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "Step 1: Cost of material: 500 - 10% = $450. Step 2: Cost of jeweler: 800 - 10% = $700. Step 3: Total: $450 + $700 = $1250. The answer is 1250."
+        "Step 1: Cost of material: 500 - 500 = $0.  Cost of jeweler: 800 - 1000 = $800.  Cost of insurance: 10% of $800 = $80.  Total: $0 + $80 = $88. The answer is 88."
       ]
     ],
     "filtered_resps": [
-      "1250."
+      "88."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the total number of cups of dog food. 1 cup of dog food = 110 cups.\nStep 2: Calculate the number of days in the first year. 180 days = 180 * 12 = 1800 days.\nStep 3: Calculate the number of cups of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 4: Calculate the number of bags of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 5: Calculate the total number of bags of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 6: Calculate the number of bags of dog food needed for the first year. 1220 cups = 1220 * 12 = 12400 cups.\nStep 7: Calculate the total number of bags of dog food needed for the first year. 124"
+        "Step 1: Calculate the total number of cups of dog food. 1 cup of dog food = 110 cups.\nStep 2: Calculate the number of days in the first year. 180 days = 180 * 12 = 2160 days.\nStep 3: Calculate the number of cups of dog food needed for the first year. 110 cups = 110 * 12 = 1220 cups.\nStep 4: Calculate the number of bags of dog food needed for the first year. 2 cups of dog food = 2 * 12 = 24 cups.\nStep 5: Calculate the total number of bags of dog food needed for the first year. 24 bags = 24 * 12 = 2880 bags.\nStep 6: Calculate the total number of bags of dog food needed for the first year. 2880 bags = 2880 * 12 = 31600 bags.\nStep 7: Calculate the total number of bags of dog food needed for the first year. 31600 bags ="
       ]
     ],
     "filtered_resps": [
-      "124"
+      "31600"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "Step 1: 1/6 of 24 liters = 1/6 * 24 = 12 liters.\nStep 2: 6 liters of water = 12 * 6 = 72 liters.\nStep 3: Total liters of water = 24 + 72 = 96 liters.\nStep 4: 24 - 96 = 4. The answer is 4."
+        "Step 1: 1/6 of 24 liters = 1/6 * 24 = 1/24. Step 2: 6 liters of water = 1/24 * 24 = 1/128. The answer is 1/128."
       ]
     ],
     "filtered_resps": [
-      "4."
+      "128."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6938,11 +6938,11 @@
     ],
     "resps": [
       [
-        "Step 1: Grace weighs 125 pounds. Step 2: Alex weighs 2 pounds less than 4 times Grace's weight. Step 3: 2 * 4 = 8. The answer is 8."
+        "Step 1: Grace weighs 125 pounds. Step 2: Alex weighs 2 pounds less than 4 times Grace's weight. Step 3: 4 times Grace's weight = 4 * 125 = 500 pounds. Step 4: 2 pounds less than 500 pounds = 2 * 500 = 1000 pounds. The combined weight is 500 + 1000 = 1500 pounds. The answer is 1500."
       ]
     ],
     "filtered_resps": [
-      "8."
+      "1500."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "Step 1: 23 - 4 = 21. 21 - 1 = 20. The answer is 20."
+        "Step 1: Total number of vacation blocks: 1 shirt from each vacation. 1 * 4 = 4. Step 2: Total number of blocks: 4 * 4 = 16. The answer is 16."
       ]
     ],
     "filtered_resps": [
-      "20."
+      "16."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "Step 1: First alarm rang: 4 * 4 = 16. Second alarm rang: 4 * 3 = 12. Third alarm rang: 4 * 2 = 8. Fourth alarm rang: 4 * 1 = 4. Fifth alarm rang: 4 * 0 = 0. Sixth alarm rang: 4 * 1 = 4. Seventh alarm rang: 4 * 0 = 0. Eighth alarm rang: 4 * 1 = 4. Ninth alarm rang: 4 * 0 = 0. Tenth alarm rang: 4 * 1 = 4. Eleventh alarm rang: 4 * 0 = 0. Twelfth alarm rang: 4 * 1 = 4. Thirteenth alarm rang: 4 * 0 = 0. Fourteenth alarm rang: 4 * 1 = 4. Fifteenth alarm rang: 4 * 0 = 0. Fifteenth alarm rang: 4 * 1 = 4. Sixteenth alarm rang: 4 * 1 = 4. Seventeenth alarm rang: 4 * 1 = 4. Eighteenth alarm rang: 4 *"
+        "Step 1: The alarm rang four times.\nStep 2: The alarm rang for three times.\nStep 3: The alarm rang for half as long as the second time.\nStep 4: The alarm rang for three times.\nStep 5: The alarm rang for half as long as the third time.\nStep 6: The alarm rang for three times.\nStep 7: The alarm rang for half as long as the fourth time.\nStep 8: The alarm rang for three times.\nStep 9: The alarm rang for half as long as the fifth time.\nStep 10: The alarm rang for three times.\nStep 11: The alarm rang for half as long as the sixth time.\nStep 12: The alarm rang for three times.\nStep 13: The alarm rang for half as long as the seventh time.\nStep 14: The alarm rang for three times.\nStep 15: The alarm rang for half as long as the eighth time.\nStep 16: The alarm rang for three times.\nStep 17: The alarm rang for half as long as the ninth time.\nStep 18:"
       ]
     ],
     "filtered_resps": [
-      "4"
+      "18"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the initial salary. 5 years in the company = 5 * $600 = $3000.\nStep 2: Calculate the annual salary. 3000 / 10% = $3000 * 1.10 = $3333.33.\nStep 3: Calculate the total salary after three more years of service. 3333.33 * 3 = $9666.67. The answer is 9666.67."
+        "Step 1: Calculate the initial salary. 5 years in the company = 5 * $600 = $3000.\nStep 2: Calculate the annual salary. 3000 * 10% = $3000 * 0.10 = $300.\nStep 3: Calculate the total salary after three more years of service. 3000 + 300 = $3300.\nThe answer is 3300."
       ]
     ],
     "filtered_resps": [
-      "9666.67."
+      "3300."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,11 +7204,11 @@
     ],
     "resps": [
       [
-        "Step 1: Calculate the number of guests. 16 friends * 1/4 guests = 1.6 guests. Step 2: Calculate the number of bags. 1.6 guests * 2 bags = 3 bags. Step 3: Calculate the total cost. 1.6 guests * 2 bags = 3 bags. The answer is 3."
+        "Step 1: Calculate the number of guests. 16 friends * 1/4 guests = 1.6 guests.\nStep 2: Calculate the number of bags. 1.6 guests * 2 = 3 bags.\nStep 3: Calculate the total cost of the gift bags. 1.6 guests * 2 bags = 3 bags.\nStep 4: Calculate the total cost of the gift bags. 3 bags * $2 = $6. The answer is 6."
       ]
     ],
     "filtered_resps": [
-      "3."
+      "6."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7242,11 +7242,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the number of adults and children. 20 adults = 20 * 10 = 200. 5 children = 5 * 10 = 50. 20 adults + 20 children = 40 adults + 40 children = 60 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + 20 children = 40 children. 20 adults + "
+        "Step 1: Determine the number of adults and children. 20 adults = 20 * 10 = 200 pounds. 5 children = 5 * 10 = 50 pounds. 20 adults + 5 children = 25 adults + 5 children = 26 children. 200 - 250 = 100. The answer is 100."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "100."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "Step 1: Determine the ages of the kids. Amy is 5 years older than Jackson, so Amy is 5 + 1 = 6 years old. Jackson is 10 years older than Corey, so Jackson is 10 + 10 = 20 years old. Corey is 1 year younger than James, so Corey is 1 + 1 = 2 years younger than James. James is 1 year younger than Corey, so Corey is 1 + 1 = 2 years younger than James. The ages of the kids are: 6 years old, 10 years old, 2 years younger than Corey, and 2 years younger than James. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10, 2, 1, 2. The ages of the kids are: 6, 10,"
+        "Step 1: Determine the ages of the kids. Amy is 5 years older than Jackson, so Amy is 5 + 1 = 6 years old. Jackson is 10 years older than Corey, so Jackson is 10 + 10 = 20 years old. Corey is 1 year younger than James, so Corey is 10 - 1 = 9 years old. James is 10 years older than Corey, so James is 10 + 10 = 20 years old. The answer is 20."
       ]
     ],
     "filtered_resps": [
-      "10,"
+      "20."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of pets: 20 * 60 = 1200.\nStep 2: Total number of pets: 1200 - 20 = 1120.\nStep 3: Total number of pets: 1120 / 2 = 550.\nStep 4: Total number of pets: 1200 - 550 = 650.\nStep 5: Total number of pets: 1200 + 650 = 1850.\nStep 6: Total number of pets: 1850 / 2 = 900.\nStep 7: Total number of pets: 1120 + 900 = 2020.\nStep 8: Total number of pets: 1120 + 2020 = 3240.\nStep 9: Total number of pets: 1200 + 3240 = 4440.\nStep 10: Total number of pets: 1200 + 4440 ="
+        "Step 1: Total number of pets: 20 * 60 = 1200.\nStep 2: Total number of pets: 1200 - 20 = 1120.\nStep 3: Total number of pets: 1120 / 2 = 550.\nStep 4: Total number of pets: 1200 - 550 = 650.\nStep 5: Total number of pets: 1200 + 650 = 1850.\nStep 6: Total number of pets: 1850 / 2 = 900.\nStep 7: Total number of pets: 1120 + 650 = 1770.\nStep 8: Total number of pets: 1850 + 1770 = 3620.\nStep 9: Total number of pets: 1120 + 650 = 1770.\nStep 10: Total number of pets: 1850 + 3620 = "
       ]
     ],
     "filtered_resps": [
-      "4440"
+      "3620"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "Step 1: Harry slept 9 hours. Step 2: James slept 2/3 of 9 hours. Step 3: Harry slept 9 - 2/3 = 11/3 hours. Step 4: Harry slept 11/3 hours + 1 = 22/3 hours. Step 5: James slept 11/3 hours + 1 = 22/3 hours. The answer is 22."
+        "Step 1: Harry slept 9 hours. Step 2: James slept 2/3 of 9 hours. Step 3: Harry slept 9 - 2/3 = 11/3 hours. Step 4: Harry slept 11/3 hours + 1 = 22/3 hours. Step 5: James slept 22/3 hours + 1 = 64/3 hours. Step 6: Harry slept 64/3 hours + 1 = 216/3 hours. Step 7: Harry slept 216/3 hours + 1 = 720/3 hours. Step 8: Harry slept 720/3 hours + 1 = 2560/3 hours. Step 9: Harry slept 2560/3 hours + 1 = 8320/3 hours. Step 10: Harry slept 8320/3 hours + 1 = 2760/3 hours. Step 11: Harry slept 2760/3 hours + 1 = 8440/3 hours. Step 12: Harry"
       ]
     ],
     "filtered_resps": [
-      "22."
+      "12"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "Step 1: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces.\nStep 2: 32 ounces of sauce = 32 * 1/2 = 12 ounces.\nStep 3: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 4: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 5: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 6: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 7: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 8: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 9: 12 ounces of tomatoes = 12 * 3 = 36 ounces.\nStep 10: 36 ounces of tomatoes = 36 * 1/2 = 12 ounces.\nStep 1"
+        "Step 1: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces. Step 2: 32 ounces of sauce = 32 * 1/2 = 12 ounces. The answer is 12."
       ]
     ],
     "filtered_resps": [
-      "1"
+      "12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7521,7 +7521,7 @@
     "doc_hash": "b0b2fa84bdf8e74116f8a930c56b3a577b2e734de0f6d0ba2d6cce555a6a67d5",
     "prompt_hash": "29768941aaf60d2567782ac521c2a455ffca548edeeaeb910a07a0acc3a08698",
     "target_hash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -7546,7 +7546,7 @@
     ],
     "resps": [
       [
-        "Step 1: Total number of cars on the motorway: 30 cars.\nStep 2: Number of cars that drove through the first 15 minutes: 5 cars from the line.\nStep 3: Number of cars that drove through the remaining 15 minutes: 30 - 5 = 25.\nStep 4: Total number of cars on the motorway: 30 + 25 = 55.\nStep 5: Total number of cars that drove through the traffic jam: 55 - 15 = 42.\nStep 6: Total number of cars that drove through the first 15 minutes: 58 - 42 = 12.\nStep 7: Total number of cars that drove through the remaining 15 minutes: 55 - 12 = 43.\nStep 8: Total number of cars that drove through the traffic jam: 30 + 43 = 53.\nStep 9: Total number of cars that drove through the first 15 minutes: 58 - 43 = 11.\nStep 10: Total number of"
+        "Step 1: Total number of cars on the motorway: 30 cars.\nStep 2: Number of cars that drove through the first 15 minutes: 5 cars from the line.\nStep 3: Number of cars that drove through the remaining 15 minutes: 30 - 5 = 25.\nStep 4: Total number of cars on the motorway: 30 + 25 = 55.\nStep 5: Total number of cars that drove through the traffic jam: 55 - 20 = 35.\nStep 6: Total number of cars that drove through the first 15 minutes: 35 - 20 = 15.\nStep 7: Total number of cars that drove through the remaining 15 minutes: 55 - 20 = 35.\nStep 8: Total number of cars that drove through the traffic jam: 35 - 20 = 15.\nStep 9: Total number of cars that drove through the first 15 minutes: 55 - 20 = 35.\nStep 10: Total number of"
       ]
     ],
     "filtered_resps": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,gsm8k_paper_cot,gsm8k,paper_cot,fewshot_cot,gsm8k,0.39,0.11,331.9,8,100,24.63,11.13

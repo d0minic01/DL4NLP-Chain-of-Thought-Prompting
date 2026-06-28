@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "User want all drinks on table. pick all drinks. bring all. The answer is 1. find(all drinks), 2. pick(all drinks), 3. find(table), 4. put(all drinks), 5. done().."
+        "User want all drinks on table. pick all drinks. bring all drinks. The answer is 1. find(all drinks), 2. pick(all drinks), 3. find(table), 4. put(all drinks), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "User want snack. choose salt. bring salt. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "User want snack. choose salt. bring salt. the answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done()."
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "User want something to eat. choose spice. pick spice. the answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
+        "User want something to eat. choose spice. pick spice. The answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,7 +402,7 @@
     ],
     "resps": [
       [
-        "User want drink with caffeine. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want drink with caffeine. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -440,7 +440,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -478,7 +478,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -516,7 +516,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "User want snack. choose salt. bring salt. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "User want snack. choose salt. bring salt. the answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done()."
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "User want something to eat. choose spice. pick spice. the answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
+        "User want something to eat. choose spice. pick spice. The answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,7 +1276,7 @@
     ],
     "resps": [
       [
-        "User want drink with caffeine. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want drink with caffeine. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1314,7 +1314,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1694,11 +1694,11 @@
     ],
     "resps": [
       [
-        "User want snack. choose fruit. bring fruit. bring snack. The answer is 1. find(fruit), 2. pick(fruit), 3. find(snack), 4. put(fruit), 5. done().."
+        "User want snack. choose fruit. bring fruit. bring fruit. the answer is 1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(snack), 4. put(fruit), 5. done()."
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "User want fruit. choose apple. bring apple. the answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
+        "User want fruit. choose apple. bring apple. The answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "User want three different drinks. choose water, juice, and soda. bring water. the answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "User want three different drinks. pick three. choose three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick"
       ]
     ],
     "filtered_resps": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "User want apple. pick apple. bring it. The answer is 1. find(apple), 2. pick(apple), 3. find(trash), 4. put(apple), 5. done().."
+        "User want apple. pick apple. put in trash. The answer is 1. find(apple), 2. pick(apple), 3. find(trash), 4. put(apple), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "User want open can. pick can. bring open can. The answer is 1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done().."
+        "User want open can. pick can. bring open can. The answer is 1. find(can), 2. pick(can), 3. find(user), 4. put(can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done()."
+      "1. find(can), 2. pick(can), 3. find(user), 4. put(can), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "Two tasks. chips to table first. then water to table. do both. The answer is 1. find(chips), 2. pick(chips), 3. find(table), 4. put(chips), 5. find(water), 6. put(water), 7. done().."
+        "User want bag of chips and water bottle. bring them. the answer is 1. find(water bottle), 2. pick(water bottle), 3. find(table), 4. put(water bottle), 5. find(bag of chips), 6. put(bag of chips), 7. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(chips), 2. pick(chips), 3. find(table), 4. put(chips), 5. find(water), 6. put(water), 7. done()."
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2644,11 +2644,11 @@
     ],
     "resps": [
       [
-        "User want park. pick a place. do park. The answer is 1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done().."
+        "User want park. pick a place. do park. The answer is 1. find(park), 2. pick(park), 3. find(table), 4. put(park), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done()."
+      "1. find(park), 2. pick(park), 3. find(table), 4. put(park), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,7 +2910,7 @@
     ],
     "resps": [
       [
-        "User want banana. choose banana. put on counter. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
+        "User want banana. pick banana. put on counter. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -3252,7 +3252,7 @@
     ],
     "resps": [
       [
-        "User want to re-stock chips. pick chips. pick drawer. The answer is 1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done().."
+        "User want to re-stock chips in the drawer. pick chips. pick new. The answer is 1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -3632,11 +3632,11 @@
     ],
     "resps": [
       [
-        "User want coke can. pick coke can. put in trash. the answer is 1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done().."
+        "User want coke can. pick coke can. bring coke can. do both. The answer is 1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "User want to go to table. pick kettle chips. bring kettle chips. The answer is 1. find(kettle chips), 2. pick(kettle chips), 3. find(counter), 4. put(kettle chips), 5. done().."
+        "User want to go to table. pick kettle chips. bring kettle chips. The answer is 1. find(kettle chips), 2. pick(kettle chips), 3. find(user), 4. put(kettle chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(kettle chips), 2. pick(kettle chips), 3. find(counter), 4. put(kettle chips), 5. done()."
+      "1. find(kettle chips), 2. pick(kettle chips), 3. find(user), 4. put(kettle chips), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,7 +3822,7 @@
     ],
     "resps": [
       [
-        "User want all drinks on table. pick all drinks. bring all. The answer is 1. find(all drinks), 2. pick(all drinks), 3. find(table), 4. put(all drinks), 5. done().."
+        "User want all drinks on table. pick all drinks. bring all drinks. The answer is 1. find(all drinks), 2. pick(all drinks), 3. find(table), 4. put(all drinks), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "User want snack. choose salt. bring salt. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "User want snack. choose salt. bring salt. the answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4050,7 +4050,7 @@
     ],
     "resps": [
       [
-        "User want something to eat. choose spice. pick spice. the answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
+        "User want something to eat. choose spice. pick spice. The answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4164,7 +4164,7 @@
     ],
     "resps": [
       [
-        "User want drink with caffeine. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want drink with caffeine. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4202,7 +4202,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4240,7 +4240,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4278,7 +4278,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4810,7 +4810,7 @@
     ],
     "resps": [
       [
-        "User want snack. choose salt. bring salt. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "User want snack. choose salt. bring salt. the answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4924,7 +4924,7 @@
     ],
     "resps": [
       [
-        "User want something to eat. choose spice. pick spice. the answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
+        "User want something to eat. choose spice. pick spice. The answer is 1. find(spice), 2. pick(spice), 3. find(user), 4. put(spice), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5038,7 +5038,7 @@
     ],
     "resps": [
       [
-        "User want drink with caffeine. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want drink with caffeine. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5076,7 +5076,7 @@
     ],
     "resps": [
       [
-        "User want caffeinated. choose coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
+        "User want caffeinated. choose coffee. pick coffee. bring coffee. The answer is 1. find(coffee), 2. pick(coffee), 3. find(user), 4. put(coffee), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "User want snack. choose fruit. bring fruit. bring snack. The answer is 1. find(fruit), 2. pick(fruit), 3. find(snack), 4. put(fruit), 5. done().."
+        "User want snack. choose fruit. bring fruit. bring fruit. the answer is 1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(snack), 4. put(fruit), 5. done"
+      "1. find(fruit), 2. pick(fruit), 3. find(user), 4. put(fruit), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5494,7 +5494,7 @@
     ],
     "resps": [
       [
-        "User want fruit. choose apple. bring apple. the answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
+        "User want fruit. choose apple. bring apple. The answer is 1. find(apple), 2. pick(apple), 3. find(user), 4. put(apple), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "User want three different drinks. choose water, juice, and soda. bring water. the answer is 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done().."
+        "User want three different drinks. pick three. choose three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick three. pick"
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5722,7 +5722,7 @@
     ],
     "resps": [
       [
-        "User want apple. pick apple. bring it. The answer is 1. find(apple), 2. pick(apple), 3. find(trash), 4. put(apple), 5. done().."
+        "User want apple. pick apple. put in trash. The answer is 1. find(apple), 2. pick(apple), 3. find(trash), 4. put(apple), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "User want open can. pick can. bring open can. The answer is 1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done().."
+        "User want open can. pick can. bring open can. The answer is 1. find(can), 2. pick(can), 3. find(user), 4. put(can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(open can), 2. pick(open can), 3. find(user), 4. put(open can), 5. done"
+      "1. find(can), 2. pick(can), 3. find(user), 4. put(can), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "Two tasks. chips to table first. then water to table. do both. The answer is 1. find(chips), 2. pick(chips), 3. find(table), 4. put(chips), 5. find(water), 6. put(water), 7. done().."
+        "User want bag of chips and water bottle. bring them. the answer is 1. find(water bottle), 2. pick(water bottle), 3. find(table), 4. put(water bottle), 5. find(bag of chips), 6. put(bag of chips), 7. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(chips), 2. pick(chips), 3. find(table), 4. put(chips), 5. find(water), 6. put(water), 7. done"
+      "1. find(water bottle), 2. pick(water bottle), 3. find(table), 4. put(water bottle), 5. find(bag of chips), 6. put(bag of chips), 7. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "User want park. pick a place. do park. The answer is 1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done().."
+        "User want park. pick a place. do park. The answer is 1. find(park), 2. pick(park), 3. find(table), 4. put(park), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done"
+      "1. find(park), 2. pick(park), 3. find(table), 4. put(park), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6672,7 +6672,7 @@
     ],
     "resps": [
       [
-        "User want banana. choose banana. put on counter. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
+        "User want banana. pick banana. put on counter. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -7014,7 +7014,7 @@
     ],
     "resps": [
       [
-        "User want to re-stock chips. pick chips. pick drawer. The answer is 1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done().."
+        "User want to re-stock chips in the drawer. pick chips. pick new. The answer is 1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -7394,7 +7394,7 @@
     ],
     "resps": [
       [
-        "User want coke can. pick coke can. put in trash. the answer is 1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done().."
+        "User want coke can. pick coke can. bring coke can. do both. The answer is 1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "User want to go to table. pick kettle chips. bring kettle chips. The answer is 1. find(kettle chips), 2. pick(kettle chips), 3. find(counter), 4. put(kettle chips), 5. done().."
+        "User want to go to table. pick kettle chips. bring kettle chips. The answer is 1. find(kettle chips), 2. pick(kettle chips), 3. find(user), 4. put(kettle chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(kettle chips), 2. pick(kettle chips), 3. find(counter), 4. put(kettle chips), 5. done"
+      "1. find(kettle chips), 2. pick(kettle chips), 3. find(user), 4. put(kettle chips), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [

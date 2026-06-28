@@ -1134,11 +1134,11 @@
     ],
     "resps": [
       [
-        "The answer is (a)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1147,7 +1147,7 @@
     "doc_hash": "0737bde1ffa7acd28c8ca482d3a96887ec69f546cb33485bd234d502fc405ff0",
     "prompt_hash": "adda2e4dee112627ef52f0c11e368837679bfcd92ae249c43a293f4eb9af7bfe",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 25,
@@ -1272,11 +1272,11 @@
     ],
     "resps": [
       [
-        "The answer is (a)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1285,7 +1285,7 @@
     "doc_hash": "b726e48bbe79ded8772f5a1c938cb74febebf7e1965ae7425cf37ddf1349e63e",
     "prompt_hash": "a9dc2c747155987a6096d492824540b0ad0c5fe24519761ade972c4af6adc0f1",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 28,
@@ -1456,11 +1456,11 @@
     ],
     "resps": [
       [
-        "The answer is (b)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1469,7 +1469,7 @@
     "doc_hash": "69c0e7b70796c2c10a65f5a99938f463850b06baf3ea9be8960f7887115f37b9",
     "prompt_hash": "d4b1c47da73a08026560acf6a069bd7166c43d5f7fe44ad7baf714d2a71bb119",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 32,
@@ -1916,11 +1916,11 @@
     ],
     "resps": [
       [
-        "The answer is (a)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2054,11 +2054,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2652,11 +2652,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2836,11 +2836,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2849,7 +2849,7 @@
     "doc_hash": "7a662175b6122dd0279c72ca49fadaa0244cc88d8058e10718624bb5ea198328",
     "prompt_hash": "1d5b2564d9cc59859c0b2c09062d839e1f019c949c2ead3cda24e22be4c3bad9",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 62,
@@ -2882,11 +2882,11 @@
     ],
     "resps": [
       [
-        "The answer is (b)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2928,11 +2928,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2941,7 +2941,7 @@
     "doc_hash": "9b0c07a376c42e16e8abe49d9f5f6b48f0fb37ad1bcfd2f2c43f1c016862490d",
     "prompt_hash": "e18b72c996c76ec62c41a69ce1254f9891ee6c6bce6f06fefae77f561b60c12e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 64,
@@ -3388,11 +3388,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3434,11 +3434,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3618,11 +3618,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3631,7 +3631,7 @@
     "doc_hash": "93c07a49b965a51709451d68e851d27c1d0055fea3a83893360ceb77601dda8f",
     "prompt_hash": "c36b273b3fc05f6ba47ddf58016464779bc6abb22a9b5de9c8ac236f1beb5983",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 79,
@@ -4262,11 +4262,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5734,11 +5734,11 @@
     ],
     "resps": [
       [
-        "The answer is (a)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5747,7 +5747,7 @@
     "doc_hash": "0737bde1ffa7acd28c8ca482d3a96887ec69f546cb33485bd234d502fc405ff0",
     "prompt_hash": "adda2e4dee112627ef52f0c11e368837679bfcd92ae249c43a293f4eb9af7bfe",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 25,
@@ -5872,11 +5872,11 @@
     ],
     "resps": [
       [
-        "The answer is (a)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5885,7 +5885,7 @@
     "doc_hash": "b726e48bbe79ded8772f5a1c938cb74febebf7e1965ae7425cf37ddf1349e63e",
     "prompt_hash": "a9dc2c747155987a6096d492824540b0ad0c5fe24519761ade972c4af6adc0f1",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 28,
@@ -6056,11 +6056,11 @@
     ],
     "resps": [
       [
-        "The answer is (b)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6069,7 +6069,7 @@
     "doc_hash": "69c0e7b70796c2c10a65f5a99938f463850b06baf3ea9be8960f7887115f37b9",
     "prompt_hash": "d4b1c47da73a08026560acf6a069bd7166c43d5f7fe44ad7baf714d2a71bb119",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 32,
@@ -6516,11 +6516,11 @@
     ],
     "resps": [
       [
-        "The answer is (a)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6654,11 +6654,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7252,11 +7252,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,11 +7436,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7449,7 +7449,7 @@
     "doc_hash": "7a662175b6122dd0279c72ca49fadaa0244cc88d8058e10718624bb5ea198328",
     "prompt_hash": "1d5b2564d9cc59859c0b2c09062d839e1f019c949c2ead3cda24e22be4c3bad9",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 62,
@@ -7482,11 +7482,11 @@
     ],
     "resps": [
       [
-        "The answer is (b)."
+        "The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7528,11 +7528,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7541,7 +7541,7 @@
     "doc_hash": "9b0c07a376c42e16e8abe49d9f5f6b48f0fb37ad1bcfd2f2c43f1c016862490d",
     "prompt_hash": "e18b72c996c76ec62c41a69ce1254f9891ee6c6bce6f06fefae77f561b60c12e",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 64,
@@ -7988,11 +7988,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8034,11 +8034,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8218,11 +8218,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8231,7 +8231,7 @@
     "doc_hash": "93c07a49b965a51709451d68e851d27c1d0055fea3a83893360ceb77601dda8f",
     "prompt_hash": "c36b273b3fc05f6ba47ddf58016464779bc6abb22a9b5de9c8ac236f1beb5983",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 79,
@@ -8862,11 +8862,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)."
+        "The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [

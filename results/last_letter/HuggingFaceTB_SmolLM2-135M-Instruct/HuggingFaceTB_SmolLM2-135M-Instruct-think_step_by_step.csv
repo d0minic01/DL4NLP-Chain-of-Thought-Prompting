@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,last_letter_think_step_by_step,last_letter,think_step_by_step,zero_shot,last_letter_concatenation,0.0,1.0,415.0,0,100,46.92,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,last_letter_think_step_by_step,last_letter,think_step_by_step,zero_shot,last_letter_concatenation,0.0,1.0,401.4,0,100,28.4,1.48

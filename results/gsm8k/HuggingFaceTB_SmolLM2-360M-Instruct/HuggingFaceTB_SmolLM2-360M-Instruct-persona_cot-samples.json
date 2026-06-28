@@ -136,11 +136,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 3 sprints * 60 meters per sprint = 180 meters. The answer is 180."
+        "As a mathematician: 60 meters / sprint = 60 / 3 = 20 meters. Total is 3 * 20 = 60 meters. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "180"
+      "60"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -364,7 +364,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: hourly rate is $10. Overtime rate is 1.2 * $10 = $12. Total hours worked is 40 + 45 = 85 hours. Total earnings is 85 * $12 = $1000. The answer is $1000."
+        "As a mathematician: hourly rate is $10. Overtime rate is 1.2 * $10 = $12. Total hours worked is 40 + 45 = 85. Total earnings is 85 * $12 = $1000. The answer is $1000."
       ]
     ],
     "filtered_resps": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total downloads is 60 * 3 = 180. In the second month, 180 * 3 = 540. In the third month, 540 * 30% = 162. The answer is 180 + 540 + 162 = 372."
+        "As a mathematician: total downloads is 60 * 3 = 180. In the second month, 180 * 3 = 540. In the third month, 540 * 30% = 172. The answer is 172."
       ]
     ],
     "filtered_resps": [
-      "180"
+      "172"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost of donuts is 3 * 6 = 18. Cost of cupcakes is 2 * 6 = 12. Cost of cheesecakes is 6 * 5 = 30. Total cost is 18 + 12 + 30 = 63. The answer is 63."
+        "As a mathematician: cost of donuts is 3 * 6 = 18. Cost of mini cupcakes is 2 * 6 = 12. Cost of mini cheesecakes is 6 * 5 = 30. Total cost is 18 + 12 + 30 = 54. The answer is 54."
       ]
     ],
     "filtered_resps": [
-      "63"
+      "54"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,7 +478,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: total cost is 90 + 7 * 3 = 90 + 21 = 111. Total cost per year is 111 / 7 = 15.51. Total cost per year per year is 151 / 7 = 21.29. Total cost per year is 111 + 21.29 = 132.29. Total cost per year is 132.29 / 3 = 44.09. Total cost per year per year is 132.29 / 3 = 44.09. Total cost per year is 132.29 + 44.09 = 176.38. Total cost per year is 176.38 / 3 = 58.79. Total cost per year is 176.38 / 3 = 58.79. Total cost per year is 58.79 / 3 = 19.56. Total cost per year is 19.56 / 3 ="
+        "As a mathematician: total cost is 90 + 7 * 3 = 90 + 21 = 111. Total cost per year is 111 / 7 = 16.29. Total cost per year per year is 111 / 7 = 16.29. Total cost per year is 111 + 16.29 = 127.29. Total cost per year per year is 127.29 / 7 = 18.11. Total cost per year is 127.29 + 18.11 = 145.30. Total cost per year is 145.30 / 7 = 20.61. Total cost per year is 145.30 + 20.61 = 165.91. Total cost per year is 165.91 / 7 = 23.42. Total cost per year is 165.91 + 23.42 = 189.33. Total cost per year"
       ]
     ],
     "filtered_resps": [
@@ -554,11 +554,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20% of the students enrolled in contemporary dance, so 20/100 * 20 = 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25/100 * 20 = 0.25 * 20 = 5 students enrolled in hip-hop dance. The remaining students enrolled in hip-hop dance, so 20 - 4 - 5 = 0.2 * 20 = 4 students enrolled in hip-hop dance. The percentage of the students enrolled in hip-hop dance is 4/20 * 100 = 20%. The answer is 20."
+        "As a mathematician: 20% of the students enrolled in contemporary dance, so 20/100 * 20 = 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25/100 * 20 = 0.25 * 20 = 5 students enrolled in hip-hop dance. The remaining students enrolled in hip-hop dance is 20 - 4 - 5 = 0.\n\nThe percentage of the students enrolled in hip-hop dance is 5/20 * 100 = 25%. The answer is 25."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "25"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: hours worked is 50 * 35 = 1750. Salary is 20 * 1750 = $35,000. The answer is 35,000."
+        "As a mathematician: hours worked per year is 50 * 35 = 175 hours. Hours worked per week is 50 * 15 = 750 hours. Total hours worked is 175 + 750 = 925 hours. Total hours worked per year is 925 * 50 = 46250 hours. Total hours worked per week is 750 * 35 = 27500 hours. Total hours worked per year is 46250 + 27500 = 73750 hours. Total hours worked per year is 73750 * 50 = 3687500 hours. Total salary is 3687500 * 20 = 7375000 dollars. The answer is 7375000."
       ]
     ],
     "filtered_resps": [
-      "35,000"
+      "7375000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: Raymond was born 6 years before Samantha, so 23 - 6 = 17 years ago. Raymond had a son at the age of 23, so 17 - 31 = -20 years ago. Samantha is now 31 years old. The answer is -20."
+        "As a mathematician: Raymond was born 6 years before Samantha, so 23 - 6 = 17 years ago. Raymond had a son at the age of 23, so 17 - 31 = -20 years ago. Samantha is now 31 years old, so 23 - 31 = -12 years ago. The answer is -12."
       ]
     ],
     "filtered_resps": [
-      "-20"
+      "-12"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,11 +1086,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: first stop is 20 miles. Second stop is 15 miles before the end of the trip, so it is 15 - 20 = -5 miles. Total miles traveled is 20 + (-5) = 15. The answer is 15."
+        "As a mathematician: first stop is 20 miles. Second stop is 15 miles before the end of the trip. Total miles is 20 + 15 = 35. The answer is 35."
       ]
     ],
     "filtered_resps": [
-      "15"
+      "35"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: ratio is 7:11, so 162 / 11 = 15. Allen's age 10 years from now is 162 * 15 / 11 = 110. The answer is 110."
+        "As a mathematician: ratio is 7:11, so 162 / 7 = 23. Allen's age 10 years from now is 23 + 10 = 33. The answer is 33."
       ]
     ],
     "filtered_resps": [
-      "110"
+      "33"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1390,11 +1390,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 30 days * 4 yogurts = 120 yogurts. 120 yogurts * $5.00/yogurt = $600. The answer is $600."
+        "As a mathematician: total cost is 4 * 5 = 20. Remaining is 30 - 20 = 10. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: running 3 days a week is 3 * 7 = 21 miles. Running 3 hours a day is 21 * 3 = 63 miles. Running 3 hours on the other two days is 63 * 2 = 126 miles. Total is 63 + 126 = 189 miles. The answer is 189."
+        "As a mathematician: running 3 days a week is 3 * 5 = 15 miles. Running 3 hours a day is 15 * 3 = 45 miles. Running 3 hours on the other two days is 45 / 2 = 22.5 miles. The answer is 22.5."
       ]
     ],
     "filtered_resps": [
-      "189"
+      "22.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: time spent running is 6 hours * 4 = 24 hours. Time spent walking is 6 hours * 2 = 12 hours. Time spent skipping is 6 hours / 2 = 3 hours. Time spent running is 24 hours / 4 = 6 hours. Time spent walking is 12 hours / 2 = 6 hours. Time spent skipping is 3 hours / 2 = 1.5 hours. Time spent running is 6 hours / 2 = 3 hours. Time spent walking is 6 hours / 2 = 3 hours. Time spent skipping is 1.5 hours / 2 = 0.75 hours. Time spent running is 3 hours / 2 = 1.5 hours. Time spent walking is 3 hours / 2 = 1.5 hours. Time spent skipping is 0.75 hours / 2 = 0.375 hours. Time spent running is 1.5 hours / 2 = 0.75 hours. Time spent walking is 1.5 hours / 2 = 0.75 hours. Time spent skipping is 0.375"
+        "As a mathematician: time spent running is 6 hours * 4 = 24 hours. Time spent walking is 6 hours * 2 = 12 hours. Time spent skipping is 6 hours * 1/3 = 2 hours. Time spent running is 24 hours - 2 hours = 22 hours. Time spent walking is 12 hours - 2 hours = 10 hours. Time spent skipping is 2 hours - 2 hours = 0 hours. The answer is 22."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "22"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: distance is 400 feet. Distance with gemstone = 400 feet. Distance with gemstone + 3 times distance with gemstone = 400 feet + 3 * 400 feet = 400 feet + 1200 feet = 1600 feet. The answer is 1600 feet."
+        "As a mathematician: distance is 400 feet. Distance thrown with gemstone = 400 feet / 3 = 133.33 feet. Distance thrown without gemstone = 400 feet / 3 = 133.33 feet. The answer is 133.33."
       ]
     ],
     "filtered_resps": [
-      "1600"
+      "133.33"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total purchased is 80 + 220 = 200. Remaining is 23 - 200 = -130. The answer is -130."
+        "As a mathematician: total purchased is 220 * 2 = 440. Remaining is 80 - 440 = -320. The answer is -320."
       ]
     ],
     "filtered_resps": [
-      "-130"
+      "-320"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,11 +1808,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: blue ties cost 50% of $40, so 50% of $40 is $20. Red ties cost twice as much, so 2 * $40 = $80. Total cost is $20 + $80 = $100. The answer is 100."
+        "As a mathematician: blue ties cost $40 / 2 = $20 each. Total cost is 2 * 20 = $40. Remaining is $200 - $40 = $160. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "100"
+      "160"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1884,7 +1884,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15 floors * 8 units per floor = 120 units. 3/4 of the building is occupied, so 120 * (3/4) = 180 units. The answer is 180."
+        "As a mathematician: 15 floors * 8 units per floor = 120 units. 3/4 of the building is occupied, so 120 units * 3/4 = 180 units. The answer is 180."
       ]
     ],
     "filtered_resps": [
@@ -2036,7 +2036,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: truck tires are 6 * 60 = 360 dollars, car tires are 4 * 40 = 160 dollars. Total revenue is 360 + 160 = 520 dollars. The answer is 520."
+        "As a mathematician: truck tires are 6 * $60 = $360, car tires are 4 * $40 = $160. Total revenue is $360 + $160 = $520. The answer is 520."
       ]
     ],
     "filtered_resps": [
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 42 / 7 = 6. Peter can go to the movies 6 times. The answer is 6."
+        "As a mathematician: 42 / 7 = 6. The answer is 6."
       ]
     ],
     "filtered_resps": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: weight limit is 5000 pounds. Total weight of the driver and the empty truck is 3755 pounds. Total weight of the boxes is 5000 - 3755 = 1245 pounds. The answer is 1245."
+        "As a mathematician: the truck can carry 3755 / 15 = 250 boxes. The answer is 250."
       ]
     ],
     "filtered_resps": [
-      "1245"
+      "250"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total cost is 40 + 25 + 3 + 4 = 55. Total fees is 55 + 3 = 58. Final price is 55 + 58 = 113. The answer is 113."
+        "As a mathematician: total cost is 40 + 25 + 3 + 4 = 59. Total fees is 59 + 3 = 62. Final price is 59 - 62 = -11. The answer is -11."
       ]
     ],
     "filtered_resps": [
-      "113"
+      "-11"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,7 +2378,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 40 years * 5% per year = 0.05 * 40 = $2.00. 30 years * $50,000/year = $150,000. The answer is $150,000."
+        "As a mathematician: 40 years * 5% per year = 0.05 * 40 = $2.00 per year. 30 years * $2.00 per year = $6.00 per year. The answer is $6.00."
       ]
     ],
     "filtered_resps": [
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: hours spent watching TV is 2 * 2 = 4. Hours spent reading is 3 * 2 = 6. Total hours is 4 + 6 = 10. The answer is 10."
+        "As a mathematician: 2 hours * 4 weeks = 8 hours. 3 times a week * 2 hours = 6 hours. The answer is 8 + 6 = 14 hours."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "8"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2530,7 +2530,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: each school has 4 teams, so 4 * 5 = 20 players. Each team has 5 coaches. Total coaches = 20 * 5 = 100. The answer is 100."
+        "As a mathematician: each school has 4 teams, so 4 * 5 = 20 players. Each team has 5 coaches, so 20 * 5 = 100 coaches. The answer is 100."
       ]
     ],
     "filtered_resps": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: interest is 2% of $150, so 2 / 100 * 150 = $3. Monthly interest is $3 / 12 = $0.25. Monthly payment is $150 / $0.25 = $600. The answer is 600."
+        "As a mathematician: interest is 2% of $150, so 2% of $150 is 0.02 * 150 = $3. Interest is $3 * 3 = $9. Monthly payment is $150 / 3 = $50. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "600"
+      "50"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total pots sold is 12 + 9 + 17 = 34. Total cost is 34 * $2.74 = $91.44. Total profit is $91.44 - $2.74 = $88.70. The answer is 88.70."
+        "As a mathematician: 12 * $2.74 = $33.68. 9 * $1.87 = $17.73. 17 * $2.12 = $36.84. The answer is $33.68 + $17.73 + $36.84 = $72.51."
       ]
     ],
     "filtered_resps": [
-      "88.70"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/6 of 24 is 24 * 1/6 = 4 liters. Remaining is 24 - 4 = 20 liters. The answer is 20."
+        "As a mathematician: 1/6 of 24 is 24/6 = 4 liters. 6 liters is 4 + 6 = 10 liters. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "20"
+      "10"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3075,7 +3075,7 @@
     "doc_hash": "108b4fe53641443aab680ea967b6d9033d1dba648ebce8539c13b90ab12d0660",
     "prompt_hash": "647a536a2e5eb9a4dbb55f5bb48cf2b4b37f16f2897ab587a641657f076d16a3",
     "target_hash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: initial salary is 600 * 1.05 = 665. After three more years of service, salary will be 665 + 10 * 665 = 665 + 665 * 1.05 = 665 + 665 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * "
+        "As a mathematician: initial salary is 600 * 1.05 = 665. After three more years of service, salary will be 665 + 10 * 665 = 665 + 665 * 1.05 = 665 + 693.5 = 1358.5. The answer is 1358.5."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1358.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,7 +3708,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 16 * 3 = 48. Total is 48 / 16 = 3 tomatoes. The answer is 3."
+        "As a mathematician: 16 * 3 = 48. Total is 48 / 16 = 3. The answer is 3."
       ]
     ],
     "filtered_resps": [
@@ -3746,11 +3746,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cars in the first 15 minutes is 30 - 5 = 25. Cars in the remaining 15 minutes is 25 + 20 = 45. Cars that took an exit are 45 - 5 = 40. The answer is 40."
+        "As a mathematician: cars in the first 15 minutes is 30 - 5 = 25. Cars in the remaining 15 minutes is 25 + 20 = 45. Cars that drove through the jam are 25 + 5 = 30. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "40"
+      "30"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,7 +3784,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 2 pots on each ledge * 40 ledges = 80 pots. Mary will have 80 - 18 = 62 potted plants remaining. The answer is 62."
+        "As a mathematician: 2 pots on each ledge * 40 ledges = 80 pots. Mary will have 80 - 18 = 62 pots left. The answer is 62."
       ]
     ],
     "filtered_resps": [
@@ -3936,11 +3936,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 3 sprints * 60 meters per sprint = 180 meters. The answer is 180."
+        "As a mathematician: 60 meters / sprint = 60 / 3 = 20 meters. Total is 3 * 20 = 60 meters. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "180."
+      "60."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,7 +4164,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: hourly rate is $10. Overtime rate is 1.2 * $10 = $12. Total hours worked is 40 + 45 = 85 hours. Total earnings is 85 * $12 = $1000. The answer is $1000."
+        "As a mathematician: hourly rate is $10. Overtime rate is 1.2 * $10 = $12. Total hours worked is 40 + 45 = 85. Total earnings is 85 * $12 = $1000. The answer is $1000."
       ]
     ],
     "filtered_resps": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total downloads is 60 * 3 = 180. In the second month, 180 * 3 = 540. In the third month, 540 * 30% = 162. The answer is 180 + 540 + 162 = 372."
+        "As a mathematician: total downloads is 60 * 3 = 180. In the second month, 180 * 3 = 540. In the third month, 540 * 30% = 172. The answer is 172."
       ]
     ],
     "filtered_resps": [
-      "372."
+      "172."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost of donuts is 3 * 6 = 18. Cost of cupcakes is 2 * 6 = 12. Cost of cheesecakes is 6 * 5 = 30. Total cost is 18 + 12 + 30 = 63. The answer is 63."
+        "As a mathematician: cost of donuts is 3 * 6 = 18. Cost of mini cupcakes is 2 * 6 = 12. Cost of mini cheesecakes is 6 * 5 = 30. Total cost is 18 + 12 + 30 = 54. The answer is 54."
       ]
     ],
     "filtered_resps": [
-      "63."
+      "54."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total cost is 90 + 7 * 3 = 90 + 21 = 111. Total cost per year is 111 / 7 = 15.51. Total cost per year per year is 151 / 7 = 21.29. Total cost per year is 111 + 21.29 = 132.29. Total cost per year is 132.29 / 3 = 44.09. Total cost per year per year is 132.29 / 3 = 44.09. Total cost per year is 132.29 + 44.09 = 176.38. Total cost per year is 176.38 / 3 = 58.79. Total cost per year is 176.38 / 3 = 58.79. Total cost per year is 58.79 / 3 = 19.56. Total cost per year is 19.56 / 3 ="
+        "As a mathematician: total cost is 90 + 7 * 3 = 90 + 21 = 111. Total cost per year is 111 / 7 = 16.29. Total cost per year per year is 111 / 7 = 16.29. Total cost per year is 111 + 16.29 = 127.29. Total cost per year per year is 127.29 / 7 = 18.11. Total cost per year is 127.29 + 18.11 = 145.30. Total cost per year is 145.30 / 7 = 20.61. Total cost per year is 145.30 + 20.61 = 165.91. Total cost per year is 165.91 / 7 = 23.42. Total cost per year is 165.91 + 23.42 = 189.33. Total cost per year"
       ]
     ],
     "filtered_resps": [
-      "3"
+      "189.33."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,11 +4354,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20% of the students enrolled in contemporary dance, so 20/100 * 20 = 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25/100 * 20 = 0.25 * 20 = 5 students enrolled in hip-hop dance. The remaining students enrolled in hip-hop dance, so 20 - 4 - 5 = 0.2 * 20 = 4 students enrolled in hip-hop dance. The percentage of the students enrolled in hip-hop dance is 4/20 * 100 = 20%. The answer is 20."
+        "As a mathematician: 20% of the students enrolled in contemporary dance, so 20/100 * 20 = 0.2 * 20 = 4 students enrolled in contemporary dance. 25% of the remaining students enrolled in hip-hop dance, so 25/100 * 20 = 0.25 * 20 = 5 students enrolled in hip-hop dance. The remaining students enrolled in hip-hop dance is 20 - 4 - 5 = 0.\n\nThe percentage of the students enrolled in hip-hop dance is 5/20 * 100 = 25%. The answer is 25."
       ]
     ],
     "filtered_resps": [
-      "20."
+      "25."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: hours worked is 50 * 35 = 1750. Salary is 20 * 1750 = $35,000. The answer is 35,000."
+        "As a mathematician: hours worked per year is 50 * 35 = 175 hours. Hours worked per week is 50 * 15 = 750 hours. Total hours worked is 175 + 750 = 925 hours. Total hours worked per year is 925 * 50 = 46250 hours. Total hours worked per week is 750 * 35 = 27500 hours. Total hours worked per year is 46250 + 27500 = 73750 hours. Total hours worked per year is 73750 * 50 = 3687500 hours. Total salary is 3687500 * 20 = 7375000 dollars. The answer is 7375000."
       ]
     ],
     "filtered_resps": [
-      "35,000."
+      "7375000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: Raymond was born 6 years before Samantha, so 23 - 6 = 17 years ago. Raymond had a son at the age of 23, so 17 - 31 = -20 years ago. Samantha is now 31 years old. The answer is -20."
+        "As a mathematician: Raymond was born 6 years before Samantha, so 23 - 6 = 17 years ago. Raymond had a son at the age of 23, so 17 - 31 = -20 years ago. Samantha is now 31 years old, so 23 - 31 = -12 years ago. The answer is -12."
       ]
     ],
     "filtered_resps": [
-      "-20."
+      "-12."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,11 +4886,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: first stop is 20 miles. Second stop is 15 miles before the end of the trip, so it is 15 - 20 = -5 miles. Total miles traveled is 20 + (-5) = 15. The answer is 15."
+        "As a mathematician: first stop is 20 miles. Second stop is 15 miles before the end of the trip. Total miles is 20 + 15 = 35. The answer is 35."
       ]
     ],
     "filtered_resps": [
-      "15."
+      "35."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: ratio is 7:11, so 162 / 11 = 15. Allen's age 10 years from now is 162 * 15 / 11 = 110. The answer is 110."
+        "As a mathematician: ratio is 7:11, so 162 / 7 = 23. Allen's age 10 years from now is 23 + 10 = 33. The answer is 33."
       ]
     ],
     "filtered_resps": [
-      "110."
+      "33."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5190,11 +5190,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 30 days * 4 yogurts = 120 yogurts. 120 yogurts * $5.00/yogurt = $600. The answer is $600."
+        "As a mathematician: total cost is 4 * 5 = 20. Remaining is 30 - 20 = 10. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "$600."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: running 3 days a week is 3 * 7 = 21 miles. Running 3 hours a day is 21 * 3 = 63 miles. Running 3 hours on the other two days is 63 * 2 = 126 miles. Total is 63 + 126 = 189 miles. The answer is 189."
+        "As a mathematician: running 3 days a week is 3 * 5 = 15 miles. Running 3 hours a day is 15 * 3 = 45 miles. Running 3 hours on the other two days is 45 / 2 = 22.5 miles. The answer is 22.5."
       ]
     ],
     "filtered_resps": [
-      "189."
+      "22.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: time spent running is 6 hours * 4 = 24 hours. Time spent walking is 6 hours * 2 = 12 hours. Time spent skipping is 6 hours / 2 = 3 hours. Time spent running is 24 hours / 4 = 6 hours. Time spent walking is 12 hours / 2 = 6 hours. Time spent skipping is 3 hours / 2 = 1.5 hours. Time spent running is 6 hours / 2 = 3 hours. Time spent walking is 6 hours / 2 = 3 hours. Time spent skipping is 1.5 hours / 2 = 0.75 hours. Time spent running is 3 hours / 2 = 1.5 hours. Time spent walking is 3 hours / 2 = 1.5 hours. Time spent skipping is 0.75 hours / 2 = 0.375 hours. Time spent running is 1.5 hours / 2 = 0.75 hours. Time spent walking is 1.5 hours / 2 = 0.75 hours. Time spent skipping is 0.375"
+        "As a mathematician: time spent running is 6 hours * 4 = 24 hours. Time spent walking is 6 hours * 2 = 12 hours. Time spent skipping is 6 hours * 1/3 = 2 hours. Time spent running is 24 hours - 2 hours = 22 hours. Time spent walking is 12 hours - 2 hours = 10 hours. Time spent skipping is 2 hours - 2 hours = 0 hours. The answer is 22."
       ]
     ],
     "filtered_resps": [
-      "0.375"
+      "22."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: distance is 400 feet. Distance with gemstone = 400 feet. Distance with gemstone + 3 times distance with gemstone = 400 feet + 3 * 400 feet = 400 feet + 1200 feet = 1600 feet. The answer is 1600 feet."
+        "As a mathematician: distance is 400 feet. Distance thrown with gemstone = 400 feet / 3 = 133.33 feet. Distance thrown without gemstone = 400 feet / 3 = 133.33 feet. The answer is 133.33."
       ]
     ],
     "filtered_resps": [
-      "1600"
+      "133.33."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total purchased is 80 + 220 = 200. Remaining is 23 - 200 = -130. The answer is -130."
+        "As a mathematician: total purchased is 220 * 2 = 440. Remaining is 80 - 440 = -320. The answer is -320."
       ]
     ],
     "filtered_resps": [
-      "-130."
+      "-320."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: blue ties cost 50% of $40, so 50% of $40 is $20. Red ties cost twice as much, so 2 * $40 = $80. Total cost is $20 + $80 = $100. The answer is 100."
+        "As a mathematician: blue ties cost $40 / 2 = $20 each. Total cost is 2 * 20 = $40. Remaining is $200 - $40 = $160. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "100."
+      "160."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5684,7 +5684,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15 floors * 8 units per floor = 120 units. 3/4 of the building is occupied, so 120 * (3/4) = 180 units. The answer is 180."
+        "As a mathematician: 15 floors * 8 units per floor = 120 units. 3/4 of the building is occupied, so 120 units * 3/4 = 180 units. The answer is 180."
       ]
     ],
     "filtered_resps": [
@@ -5836,7 +5836,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: truck tires are 6 * 60 = 360 dollars, car tires are 4 * 40 = 160 dollars. Total revenue is 360 + 160 = 520 dollars. The answer is 520."
+        "As a mathematician: truck tires are 6 * $60 = $360, car tires are 4 * $40 = $160. Total revenue is $360 + $160 = $520. The answer is 520."
       ]
     ],
     "filtered_resps": [
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 42 / 7 = 6. Peter can go to the movies 6 times. The answer is 6."
+        "As a mathematician: 42 / 7 = 6. The answer is 6."
       ]
     ],
     "filtered_resps": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: weight limit is 5000 pounds. Total weight of the driver and the empty truck is 3755 pounds. Total weight of the boxes is 5000 - 3755 = 1245 pounds. The answer is 1245."
+        "As a mathematician: the truck can carry 3755 / 15 = 250 boxes. The answer is 250."
       ]
     ],
     "filtered_resps": [
-      "1245."
+      "250."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total cost is 40 + 25 + 3 + 4 = 55. Total fees is 55 + 3 = 58. Final price is 55 + 58 = 113. The answer is 113."
+        "As a mathematician: total cost is 40 + 25 + 3 + 4 = 59. Total fees is 59 + 3 = 62. Final price is 59 - 62 = -11. The answer is -11."
       ]
     ],
     "filtered_resps": [
-      "113."
+      "-11."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 40 years * 5% per year = 0.05 * 40 = $2.00. 30 years * $50,000/year = $150,000. The answer is $150,000."
+        "As a mathematician: 40 years * 5% per year = 0.05 * 40 = $2.00 per year. 30 years * $2.00 per year = $6.00 per year. The answer is $6.00."
       ]
     ],
     "filtered_resps": [
-      "$150,000."
+      "$6.00."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: hours spent watching TV is 2 * 2 = 4. Hours spent reading is 3 * 2 = 6. Total hours is 4 + 6 = 10. The answer is 10."
+        "As a mathematician: 2 hours * 4 weeks = 8 hours. 3 times a week * 2 hours = 6 hours. The answer is 8 + 6 = 14 hours."
       ]
     ],
     "filtered_resps": [
-      "10."
+      "14"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6330,7 +6330,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: each school has 4 teams, so 4 * 5 = 20 players. Each team has 5 coaches. Total coaches = 20 * 5 = 100. The answer is 100."
+        "As a mathematician: each school has 4 teams, so 4 * 5 = 20 players. Each team has 5 coaches, so 20 * 5 = 100 coaches. The answer is 100."
       ]
     ],
     "filtered_resps": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: interest is 2% of $150, so 2 / 100 * 150 = $3. Monthly interest is $3 / 12 = $0.25. Monthly payment is $150 / $0.25 = $600. The answer is 600."
+        "As a mathematician: interest is 2% of $150, so 2% of $150 is 0.02 * 150 = $3. Interest is $3 * 3 = $9. Monthly payment is $150 / 3 = $50. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "600."
+      "50."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total pots sold is 12 + 9 + 17 = 34. Total cost is 34 * $2.74 = $91.44. Total profit is $91.44 - $2.74 = $88.70. The answer is 88.70."
+        "As a mathematician: 12 * $2.74 = $33.68. 9 * $1.87 = $17.73. 17 * $2.12 = $36.84. The answer is $33.68 + $17.73 + $36.84 = $72.51."
       ]
     ],
     "filtered_resps": [
-      "88.70."
+      "$72.51."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/6 of 24 is 24 * 1/6 = 4 liters. Remaining is 24 - 4 = 20 liters. The answer is 20."
+        "As a mathematician: 1/6 of 24 is 24/6 = 4 liters. 6 liters is 4 + 6 = 10 liters. The answer is 10."
       ]
     ],
     "filtered_resps": [
-      "20."
+      "10."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6875,7 +6875,7 @@
     "doc_hash": "108b4fe53641443aab680ea967b6d9033d1dba648ebce8539c13b90ab12d0660",
     "prompt_hash": "647a536a2e5eb9a4dbb55f5bb48cf2b4b37f16f2897ab587a641657f076d16a3",
     "target_hash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: initial salary is 600 * 1.05 = 665. After three more years of service, salary will be 665 + 10 * 665 = 665 + 665 * 1.05 = 665 + 665 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 = 665 + 665 * 1.05 * 1.05 * "
+        "As a mathematician: initial salary is 600 * 1.05 = 665. After three more years of service, salary will be 665 + 10 * 665 = 665 + 665 * 1.05 = 665 + 693.5 = 1358.5. The answer is 1358.5."
       ]
     ],
     "filtered_resps": [
-      "1.05"
+      "1358.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,7 +7508,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 16 * 3 = 48. Total is 48 / 16 = 3 tomatoes. The answer is 3."
+        "As a mathematician: 16 * 3 = 48. Total is 48 / 16 = 3. The answer is 3."
       ]
     ],
     "filtered_resps": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cars in the first 15 minutes is 30 - 5 = 25. Cars in the remaining 15 minutes is 25 + 20 = 45. Cars that took an exit are 45 - 5 = 40. The answer is 40."
+        "As a mathematician: cars in the first 15 minutes is 30 - 5 = 25. Cars in the remaining 15 minutes is 25 + 20 = 45. Cars that drove through the jam are 25 + 5 = 30. The answer is 30."
       ]
     ],
     "filtered_resps": [
-      "40."
+      "30."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,7 +7584,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 2 pots on each ledge * 40 ledges = 80 pots. Mary will have 80 - 18 = 62 potted plants remaining. The answer is 62."
+        "As a mathematician: 2 pots on each ledge * 40 ledges = 80 pots. Mary will have 80 - 18 = 62 pots left. The answer is 62."
       ]
     ],
     "filtered_resps": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E2B-it,sports_contrastive_cot,sports,contrastive_cot,fewshot_cot,sports_understanding,0.8,0.0,215.8,8,100,39.68,23.71

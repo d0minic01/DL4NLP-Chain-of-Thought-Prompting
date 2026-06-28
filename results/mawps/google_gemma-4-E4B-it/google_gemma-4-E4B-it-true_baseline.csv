@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,mawps_true_baseline,mawps,true_baseline,zero_shot,mawps,0.15,0.27,385.3,0,100,103.91,24.31

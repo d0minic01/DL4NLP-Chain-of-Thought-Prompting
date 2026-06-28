@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,aqua_true_baseline,aqua,true_baseline,zero_shot,aqua-rat,0.07,0.75,239.9,0,100,54.5,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,aqua_true_baseline,aqua,true_baseline,zero_shot,aqua-rat,0.09,0.75,231.1,0,100,32.37,1.48

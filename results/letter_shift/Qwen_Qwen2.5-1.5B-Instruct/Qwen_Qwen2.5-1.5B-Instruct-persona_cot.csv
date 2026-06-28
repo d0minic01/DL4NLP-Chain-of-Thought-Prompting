@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-1.5B-Instruct,letter_shift_persona_cot,letter_shift,persona_cot,fewshot_cot,letter_shift,0.21,0.0,97.3,6,100,23.4,5.92

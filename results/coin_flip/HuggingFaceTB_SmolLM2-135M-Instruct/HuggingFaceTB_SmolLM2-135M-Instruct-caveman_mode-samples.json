@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Pam flip. Tom no flip. Ivan no flip. Aaron flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Pam flip. Tom no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Bob flip. Irene flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "Coin start head. Bob flip. Henry flip. Irene flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -972,7 +972,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Peter flip. Felix flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Peter flip. Felix flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Victor flip. Emma no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Victor flip. Emma flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1428,7 +1428,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Rachel flip. Diana flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "Coin start head. Diana flip. Rachel no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Felix flip. James no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Felix flip. James flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Frank flip. Aaron flip. Laura flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "Coin start head. Frank flip. Aaron flip. Laura flip. 1 flip. Odd flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2074,7 +2074,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Blake flip. Julia flip. Tina does not flip the coin. Irene flips the coin. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Blake flip. Julia flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2150,11 +2150,11 @@
     ],
     "resps": [
       [
-        "Coin start head. Marcus flip. Noah flip. Ursula flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "Coin start head. Marcus no flip. Noah flip. Ursula flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2163,7 +2163,7 @@
     "doc_hash": "67cf2fcfb89ef838267ddb4c824ca190b14c7d275a0d488256fd22fb0fa71c0c",
     "prompt_hash": "dbc397622ac6548ce7a783443ef29d580899282a2cd84031577b5386e1447ac1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 57,
@@ -2264,7 +2264,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Caleb flip. Wanda no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Wanda flip. Caleb no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Mia flip. Zoe no flip. Victor no flip. Rachel no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Mia flip. Zoe no flip. Victor no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Gina flip. Tina no flip. Ray no flip. George no flip. The answer is yes."
+        "Coin start head. Gina flip. Tina no flip. 1 flip. Even flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3138,7 +3138,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Pam flip. Tom flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Pam flip. Tom flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Noah flip. Chloe flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Noah flip. Chloe flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Pam flip. Tom no flip. Ivan no flip. Aaron flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Pam flip. Tom no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4734,7 +4734,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Bob flip. Irene flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "Coin start head. Bob flip. Henry flip. Irene flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Peter flip. Felix flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Peter flip. Felix flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5000,7 +5000,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Victor flip. Emma no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Victor flip. Emma flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5228,7 +5228,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Rachel flip. Diana flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "Coin start head. Diana flip. Rachel no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5608,7 +5608,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Felix flip. James no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Felix flip. James flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5646,7 +5646,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Frank flip. Aaron flip. Laura flip. 2 flip. Even flip. Coin still head. The answer is yes."
+        "Coin start head. Frank flip. Aaron flip. Laura flip. 1 flip. Odd flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5874,7 +5874,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Blake flip. Julia flip. Tina does not flip the coin. Irene flips the coin. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Blake flip. Julia flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5950,11 +5950,11 @@
     ],
     "resps": [
       [
-        "Coin start head. Marcus flip. Noah flip. Ursula flip. 1 flip. Odd flip. Coin tail. The answer is no."
+        "Coin start head. Marcus no flip. Noah flip. Ursula flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5963,7 +5963,7 @@
     "doc_hash": "67cf2fcfb89ef838267ddb4c824ca190b14c7d275a0d488256fd22fb0fa71c0c",
     "prompt_hash": "dbc397622ac6548ce7a783443ef29d580899282a2cd84031577b5386e1447ac1",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 57,
@@ -6064,7 +6064,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Caleb flip. Wanda no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Wanda flip. Caleb no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Mia flip. Zoe no flip. Victor no flip. Rachel no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Mia flip. Zoe no flip. Victor no flip. 1 flip. Odd flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6634,7 +6634,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Gina flip. Tina no flip. Ray no flip. George no flip. The answer is yes."
+        "Coin start head. Gina flip. Tina no flip. 1 flip. Even flip. Coin tail. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6938,7 +6938,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Pam flip. Tom flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Pam flip. Tom flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7280,7 +7280,7 @@
     ],
     "resps": [
       [
-        "Coin start head. Noah flip. Chloe flip. 1 flip. Odd flip. Coin tail. The answer is yes."
+        "Coin start head. Noah flip. Chloe flip. 2 flip. Even flip. Coin still head. The answer is yes."
       ]
     ],
     "filtered_resps": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,asdiv_think_step_by_step,asdiv,think_step_by_step,zero_shot,asdiv,0.85,0.15,418.2,0,100,24.9,20.53

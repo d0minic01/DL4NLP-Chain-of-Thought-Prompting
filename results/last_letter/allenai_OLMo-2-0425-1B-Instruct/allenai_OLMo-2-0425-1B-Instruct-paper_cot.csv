@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,last_letter_paper_cot,last_letter,paper_cot,fewshot_cot,last_letter_concatenation,0.0,0.1,142.1,4,100,9.65,8.84

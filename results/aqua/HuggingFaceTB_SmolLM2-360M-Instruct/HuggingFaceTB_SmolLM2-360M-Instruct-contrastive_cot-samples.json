@@ -76,7 +76,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The slope of line k is 1/5. The slope of line k passing through the origin is 0. The slope of line k passing through (x, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y"
+        "[INCORRECT] The slope of line k is 1/5. The slope of line k passing through the origin is 0. The equation of line k is y = 0x + 5. The equation of line k passing through the origin is y = 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation"
       ]
     ],
     "filtered_resps": [
@@ -122,7 +122,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The operation @ is not commutative, meaning that the order of the numbers being operated on matters. Therefore, the answer is (b).\n\n[CORRECT] The operation @ is not associative either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (c).\n\n[INCORRECT] The operation @ is not distributive either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (d).\n\n[INCORRECT] The operation @ is not associative either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (e)."
+        "[INCORRECT] The operation @ is not commutative, meaning that the order of the numbers being operated on matters. Therefore, the answer is (b).\n\n[CORRECT] The operation @ is not associative either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (c).\n\n[INCORRECT] The operation @ is not distributive either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (d).\n\n[CORRECT] The operation @ is not idempotent either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -214,7 +214,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The speed of the man in still water is 25 kmph. The speed of the current is 11 kmph. The man is rowing downstream, so the speed of the current is 11 kmph. The man's speed in downstream is 25 + 11 = 36 kmph. The man's time to cover 80 meters downstream is 80 / 36 = 2.1728 seconds. The answer is (b)."
+        "[INCORRECT] The speed of the man rowing the boat in still water is 25 kmph. The speed of the current is 11 kmph. The speed of the current is 25 kmph - 11 kmph = 14 kmph. The man's speed downstream is 25 kmph - 11 kmph = 14 kmph. The man's speed upstream is 25 kmph + 11 kmph = 36 kmph. The man's time to cover 80 metres downstream is 80 / 36 = 2/3 of a minute. The man's time to cover 80 metres upstream is 80 / 14 = 5/3 of a minute. The man's time to cover 80 metres downstream and upstream is 2/3 + 5/3 = 7/3 of a minute. The man's time to cover 80 metres downstream and upstream is 2/3 + 5/3 = 7/3 of a minute. The man's time to cover 80 metres downstream and upstream is 7/3 of a minute. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -260,7 +260,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. So, there are 6 * 5 = 30 possible combinations in which Jim and Ellen are not selected. There are 2 possible combinations in which Jim and Ellen are selected. So, there are 2 * 5 = 10 possible combinations in which Jim and Ellen are selected. There are 2 possible combinations in which Ellen is selected. So, there are 2 * 5 = 10 possible combinations in which Ellen is selected. There are 6 possible combinations in which Jim and Ellen are not selected. So, there are 6 * 5 = 30 possible combinations in which Jim and Ellen are not selected. There are 2 possible combinations in which Jim and Ellen are selected. So, there are 2 * 5 = 10 possible combinations in which Jim and Ellen are selected. There are 2 possible combinations in which Ellen is selected. So, there are 2 * 5 = 10 possible combinations in which Ellen is selected. There are 6 possible combinations in which Jim and Ellen are not selected. So, there are 6 * 5 = 30 possible combinations in which Jim"
+        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. There are 6 * 5 = 30 possible combinations in which Jim and Ellen are selected. There are 6 * 5 * 4 = 120 possible combinations in which Jim and Ellen are not selected. There are 6 * 5 * 4 * 3 = 504 possible combinations in which Ellen is not selected. There are 6 * 5 * 4 * 3 * 2 * 1 = 720 possible combinations in which Ellen is selected. There are 6 * 5 * 4 * 3 * 2 * 1 * 2 = 1680 possible combinations in which Jim is not selected. There are 6 * 5 * 4 * 3 * 2 * 1 * 2 * 3 = 2880 possible combinations in which Jim is selected. There are 6 * 5 * 4 * 3 * 2 * 1 * 2 * 3 * 4 = 16800 possible combinations in which both Jim and Ellen are not selected. There are 6 * 5"
       ]
     ],
     "filtered_resps": [
@@ -352,7 +352,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The smallest number of five digits is 10000. [CORRECT] The smallest number of five digits divisible by 22, 33, 66, and 44 is 10000. The answer is (a)."
+        "[INCORRECT] The smallest number of five digits is 10000. The smallest number divisible by 22, 33, 66, and 44 is 10000. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -398,7 +398,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Joe's total cost is $5 + $20 * 6 = $5 + $120 = $125. The answer is (a)."
+        "[INCORRECT] Joe's total cost is $5 + 20% of $5 = $5 + $0.50 = $5.50. He spent $5.50 at the fair. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -582,11 +582,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] p = 4^q, so p is a power of 4. The powers of 4 are 4, 16, 64, 256, and so on. The powers of 4^2 are 1, 4, 16, 64, and so on. The powers of 4^3 are 1, 8, 27, 64, and so on. The powers of 4^4 are 1, 16, 64, 256, and so on. The powers of 4^5 are 1, 8, 24, 128, and so on. The powers of 4^6 are 1, 16, 64, 256, and so on. The powers of 4^7 are 1, 8, 24, 128, and so on. The powers of 4^8 are 1, 16, 64, 256, and so on. The powers of 4^9 are 1, 16, 64,"
+        "[INCORRECT] The remainder when 4^q is divided by 10 is 0. [CORRECT] The remainder when 4^q is divided by 10 is 0. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -628,7 +628,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The square of a positive integer is always a positive integer. The next positive integer is always a positive integer. The answer is (a)."
+        "[INCORRECT] The next positive integer is n + 1. The square of the next positive integer is n^2 + 1. The square of the next positive integer is n^2 + 1. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -812,11 +812,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 50 = 710. [CORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 433.33. The answer is (d)."
+        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 43.33. [CORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 43.33. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -825,7 +825,7 @@
     "doc_hash": "8f5e3fd4d3eab1fb1f61cc0c28e0a5481156dd407c5dbd6ab29926841b91ffc8",
     "prompt_hash": "c0bbee209f01ee3c1f126ed1de9c8ee01bede1043f4e2471265951c4f4ff2f86",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 18,
@@ -858,7 +858,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The average of 15 numbers is 40. If 10 is added to each number, the new average is 40 + 10 = 50. The answer is (a)."
+        "[INCORRECT] The average of 15 numbers is 40. If 10 is added to each number, the mean of the numbers is 40 + 10 = 50. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -950,7 +950,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The first five numbers are 4, 10, X, 46, and 94. The sequence is 4, 10, X, 46, 94. The difference between the second and first number is 10 - 4 = 6. The difference between the third and second number is 46 - 10 = 36. The difference between the fourth and third number is 94 - 46 = 48. The difference between the fifth and fourth number is 46 - 94 = -32. The difference between the fifth and fourth number is 94 - 46 = 48. The difference between the fifth and fourth number is 48 - 32 = 16. The difference between the fifth and fourth number is 16 - 6 = 10. The difference between the fifth and fourth number is 10 - 28 = -18. The difference between the fifth and fourth number is 18 - 28 = -12. The difference between the fifth and fourth number is 12 - 10 = 2. The difference"
+        "[INCORRECT] The first five numbers are 4, 10, X, 46, and 94. The sequence is 4, 10, X, 46, 94. The difference between the second and the first number is 10 - 4 = 6. The difference between the third and the second number is 46 - 10 = 36. The difference between the fourth and the third number is 94 - 46 = 48. The difference between the fifth and the fourth number is 46 - 94 = -32. The difference between the fifth and the third number is 46 - 48 = -2. The difference between the fifth and the fourth number is 48 - 32 = 16. The difference between the fifth and the third number is 32 - 16 = 16. The difference between the fifth and the fourth number is 16 - 6 = 10. The difference between the fifth and the fourth number is 16 - 10 = 6. The difference between the fifth and the fourth number is 10 - "
       ]
     ],
     "filtered_resps": [
@@ -1088,7 +1088,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The perimeter of P is 40. The diameter of Q is 40 / 2 = 20. The circumference of Q is 20 * \u03c0. The answer is (b)."
+        "[INCORRECT] The perimeter of P is 40. The diameter of Q is 40 / 2 = 20. The circumference of Q is 2 * \u03c0 * 20 = 40\u03c0. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -1134,7 +1134,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The total amount of the loan is $51200. The first payment is $200. The total amount of the loan after the first payment is $51200 + $200 = $51400. The total amount of the loan after the second payment is $51400 + $200 = $51600. The total amount of the loan after the third payment is $51600 + $200 = $51800. The total amount of the loan after the fourth payment is $51800 + $200 = $52000. The total amount of the loan after the fifth payment is $52000 + $200 = $52200. The total amount of the loan after the sixth payment is $52200 + $200 = $52400. The total amount of the loan after the seventh payment is $52400 + $200 = $52600. The total amount of the loan after the eighth payment is $52600 +"
+        "[INCORRECT] The total amount of the loan is $51200. The first payment is $200. The total amount of the loan after the first payment is $200 + $200 = $400. The total amount of the loan after the second payment is $400 + $200 = $600. The total amount of the loan after the third payment is $600 + $200 = $800. The total amount of the loan after the fourth payment is $800 + $200 = $1000. The total amount of the loan after the fifth payment is $1000 + $200 = $1200. The total amount of the loan after the sixth payment is $1200 + $200 = $1400. The total amount of the loan after the seventh payment is $1400 + $200 = $1600. The total amount of the loan after the eighth payment is $1600 + $200 = $1800. The total amount of the loan after the ninth payment is"
       ]
     ],
     "filtered_resps": [
@@ -1180,11 +1180,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The fixed salary is $30 per week. The number of bicycles sold is x. The number of bicycles sold after the first 6 bicycles is y. The number of bicycles sold after the first 12 bicycles is 6y. The total amount earned is $30 + $6(x) + $12(y) + $18(6y) = $30 + $6x + $12y + $108y = $138y. The total amount earned last week is $30 + $6(6) + $12(6y) = $30 + $36 + $72y = $138y. The total amount earned this week is $30 + $6(6) + $12(6y) = $30 + $36 + $72y = $138y. The total amount earned this week is $138y - $138y = $0. The answer is (a)."
+        "[INCORRECT] The fixed salary is $30 per week. The number of bicycles sold is x. The number of bicycles sold after the first 6 bicycles is y. The number of bicycles sold after the next 6 bicycles is 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1)"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1226,11 +1226,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The current ratio of students per class is Q = 120 / 100 = 1.2. If the ratio were to be increased by 1, the new ratio would be Q + 1 = 1.2 + 1 = 2.2. If the ratio were to be decreased by 10, the new ratio would be Q - 10 = 2.2 - 10 = -8.2. The new ratio would be Q - 10 = 2.2 - 10 = -8.2. The answer is (d)."
+        "[INCORRECT] The current ratio of students per class is Q = 1. If the ratio is increased by 1, the new ratio is Q + 1 = 2. If 10 fewer classes are run, the new number of classes is Q + 10 = 11. The new total number of students is Q + 11 = 120. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1272,11 +1272,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The average income of the 50 customers is $45,000. The average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $45,000 - $95,000 = -$15,000. The average income of the other 40 customers is $45,000 - $95,000 = -$15,000. The answer is (d)."
+        "[INCORRECT] The average income of the 50 customers is $45,000. The average income of the 10 wealthiest customers is $95,000. The average income of the 40 customers who are not the wealthiest is $45,000 - $95,000 = -$145,000. The average income of the 40 customers who are not the wealthiest is $45,000 - $95,000 = -$40,000. The average income of the 40 customers who are not the wealthiest is -$145,000 + $40,000 = $105,000. The average income of the other 40 customers is $45,000 - $105,000 = -$35,000. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1364,11 +1364,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The volume of a block is given by the formula V = lwh, where l is the length, w is the width, and h is the height. If a small block has half the width, half the depth, and half the length of a normal block, then the volume of the small block is V = (1/2) * 8 * 8 * 8 = 4 * 8 = 32 cubic feet. The answer is (b)."
+        "[INCORRECT] The volume of a block is given by the formula V = lwh, where l is the length, w is the width, and h is the height. If a small block has half the width, half the depth, and half the length of a normal block, then the volume of the small block is V = (1/2) * 8 * 8 * 8 = 4. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1377,7 +1377,7 @@
     "doc_hash": "51d763245a7dacf2d55f0b97598023826a23ddbea2cb0b63e6cdcc023181d7ec",
     "prompt_hash": "c79e7d4a4a685b8f21e6b61b4087ba57724c9ab1075ef8213cd5bd45862fadb7",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 30,
@@ -1502,11 +1502,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The $500 investment has a yearly return of 19 percent of the total of the two investments. The $1,500 investment has a yearly return of 7 percent. The total yearly return is 19 percent + 7 percent = 26 percent. The answer is (b)."
+        "[INCORRECT] The $500 investment has a yearly return of 19 percent of the total of the two investments. The $1,500 investment has a yearly return of 7 percent. To find the yearly return of the $1,500 investment, we need to subtract the yearly return of the $500 investment from the yearly return of the $1,500 investment. So, 7 percent - 19 percent = -12 percent. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1686,7 +1686,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each game is played by two players, so there are 8 players * 2 games per player = 16 games. The answer is (a)."
+        "[INCORRECT] Each game is played by two players, so there are 8 * 8 = 64 games. [CORRECT] There are 8 players, and each player plays each of the others, so there are 8 * 8 = 64 games. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the ages of his two sons is 3 * 2 = 6 years. The father\u00e2\u20ac\u2122s present age is 3 * 6 = 18 years. The father\u00e2\u20ac\u2122s age 4 years hence will be 18 + 4 = 22 years. The answer is (b)."
+        "[INCORRECT] The sum of the ages of his two sons is 3 * 2 = 6. The father\u00e2\u20ac\u2122s present age is 3 * 6 = 18. The father\u00e2\u20ac\u2122s age 4 years hence will be 18 + 4 = 22. The father\u00e2\u20ac\u2122s age 4 years hence will be 22 * 2 = 44. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -1916,11 +1916,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10% gain on 1kg of fluid means 1000g * 10% = 100g. The actual % difference is 100g / 200g = 0.5%. [CORRECT] The actual % difference is 100% - 10% = 90%. The answer is (b)."
+        "[INCORRECT] 10% gain on 1kg of fluid means 1000g * 10% = 100g. 200g of coke is 100g * 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1929,7 +1929,7 @@
     "doc_hash": "de63dcf2d42bebe2b1326ce65806f692421337a38fd85867cc2649804b96c134",
     "prompt_hash": "192ed9df3402c30bd8c4f505b7ecc81a152a56444ae74ead6b2ec60ad0f47585",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -1962,11 +1962,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The person can walk at a constant rate of 8mph, so he would need 64 miles / 8mph = 8 hours. The person can bike at a constant rate of 16mph, so he would need 64 miles / 16mph = 4 hours. The person would require 8 hours + 4 hours = 12 hours to travel 64 miles. The answer is (b)."
+        "[INCORRECT] The person can walk at 8mph and bike at 16mph. To travel 64 miles, he would need to walk for 64 / 8 = 8 hours. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the expression inside the absolute value is |8+x|. The expression inside the absolute value is |4-x|. So, the equation is |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Simplify the equation: |x+3| = |8+x| \u2013 |4-x|. Since |x+3| = |8+x|, the equation becomes |x+3| = |8+x| \u2013 |4-x|. Since |x+3| is always non-negative, the equation will have one solution. The answer is (a)."
+        "[INCORRECT] The equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the expression inside the absolute value is |8+x|. The expression inside the absolute value is |4-x|. So, the equation is |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Simplify the equation: |x+3| = |8+x| \u2013 |4-x|. |x+3| = |8+x|. |x+3| = 8. |x+3| = 4. The equation has two solutions: x = 4 and x = -3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2330,11 +2330,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He should sell 20 * 60 = 1200 articles for $60. He should sell 20 * 20% = 40 articles for $50. The answer is (b)."
+        "[INCORRECT] He should sell 20 * 60 = 1200 articles for $60. He should sell 20 * 20 = 400 articles for $50. He should sell 400 - 1200 = -1000 articles for $50. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2376,7 +2376,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The ratio of the dividends from the 9% stock to the 12% stock is 96/120 = 3/5. The ratio of the investments in the 9% stock to the 12% stock is 3/5. The ratio of the dividends from the 9% stock to the 12% stock is 96/120 = 3/5. The answer is (a)."
+        "[INCORRECT] The ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The ratio of the dividends from the 9% stock to the 12% stock is 96/120 = 3/5. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the digits is 10, so the sum of the digits in the two-digit number is 10 + 4 = 14. The digit in the unit's place is 4 times the digit in ten's place, so the digit in the unit's place is 4 * 4 = 16. The number is 16 + 4 = 20. The answer is (a)."
+        "[INCORRECT] The digit in the unit's place is 4 times the digit in ten's place, so the digit in the unit's place is 4 * 4 = 16. The sum of the digits is 8 + 4 + 1 + 4 + 1 = 21. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2836,11 +2836,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The diagonals of a rhombus are 18 cm and 22 cm. The area of a rhombus is given by the formula: Area = (1/2) * d1 * d2. So, Area = (1/2) * 18 * 22 = 277. The answer is (a)."
+        "[INCORRECT] The diagonals of a rhombus are perpendicular to each other. The area of a rhombus is half the product of its diagonals. So, the area is 1/2 * 18 cm * 22 cm = 266. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2882,7 +2882,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The rate of simple interest is given as 22 1/8 % per annum. To convert this to a decimal, divide by 100, so 22 1/8 % = 22.1111 %. Multiply by 40 years, so 22.1111 * 40 = 888.4444. The answer is (b)."
+        "[INCORRECT] The rate of simple interest is given as 22 1/8 % per annum. To convert this to a decimal, divide by 100, so 22 1/8 % = 22.1111 %. [CORRECT] The rate of simple interest is 22 1/2 % per annum. To convert this to a decimal, divide by 100, so 22 1/2 % = 22.1111 %. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3020,7 +3020,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 1/4 mile = 34 cents. 1/5 mile = 6 cents. 1/4 * 34 = 10.5 cents. 1/5 * 6 = 3.6 cents. The total charge is 10.5 + 3.6 = 14 cents. The answer is (b)."
+        "[INCORRECT] 1/4 mile = 34 cents. 1/5 mile = 6 cents. 1/4 * 34 = 8.4. 1/5 * 6 = 3.6. 8.4 + 3.6 = 11.0. 11.0 + 1.24 = 12.24. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3066,11 +3066,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of ways a candidate can attempt the questions is 3! = 6. [CORRECT] The number of ways a candidate can attempt the questions is 4! = 24. The number of ways a candidate can attempt the questions is 5! = 120. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 720. The answer is (b)."
+        "[INCORRECT] The number of ways a candidate can attempt the questions is 3! = 6. [CORRECT] The number of ways a candidate can attempt the questions is 4! = 24. The number of ways a candidate can attempt the questions is 5! = 120. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3158,7 +3158,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the longest and shortest numbers is 5 + 7 = 12. The sum of the third number and 54 is 12 + 54 = 66. The answer is (e)."
+        "[INCORRECT] The sum of the longest and shortest numbers is 5 + 6 = 11. The sum of the third number and 54 is 11 + 54 = 65. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3250,7 +3250,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the squares of three numbers is 351. The sum of their products taken two at a time is 245. The sum of the squares of the three numbers is 351^2 + 245^2 = 12205 + 59800 = 62155. The answer is (b)."
+        "[INCORRECT] The sum of the squares of three numbers is 351. The sum of their products taken two at a time is 245. The sum of the squares of the three numbers is 351^2 + 245^2 = 12205 + 59800 = 62105. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3296,7 +3296,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of an equilateral triangle is given by the formula: Area = (\u221a3 / 4) * s^2, where s is the length of a side of the triangle. In this case, s = 16 cm. So, Area = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
+        "[INCORRECT] The area of an equilateral triangle is given by the formula A = (\u221a3 / 4) * s^2, where s is the side length. Plugging in s = 16 cm, we get A = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3342,7 +3342,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each of the given equations has at least one solution. [CORRECT] 2^n = (\u20132)^-n is not a valid equation, as the exponentiation is not defined for negative numbers. The correct answer is (b)."
+        "[INCORRECT] Each of the given equations has at least one solution. [CORRECT] 2^n = (\u20132)^-n is not a valid equation, as it is not a valid exponentiation operation. The correct answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3388,11 +3388,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The population increases at the rate of one person every 40 seconds. So, after 1 hour, the population will increase by 1 * 40 = 40 people. The answer is (a)."
+        "[INCORRECT] The population increases at the rate of one person every 40 seconds. So, after 1 hour, the population will increase by 1 * 40 = 40 people. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3401,7 +3401,7 @@
     "doc_hash": "8bf6f6f341f409c9faccedb7127b3178fefc1f1fdb7fdcb0e165ae1bb30226a5",
     "prompt_hash": "3d68cd604275469a260fbb0b211219114be3fab8c71b04fe961602dde4feb00f",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 74,
@@ -3618,7 +3618,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The total number of ways to select 5 persons from 14 is 14 * 13 * 12 * 11 * 10 = 13,320. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 216. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 105. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3"
+        "[INCORRECT] The total number of ways to select 5 persons from 14 is 14 * 13 * 12 * 11 * 10 = 13,320. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 216. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 216. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 *"
       ]
     ],
     "filtered_resps": [
@@ -3940,11 +3940,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 30 cans out of them one is poisned if a person tastes very little he will die within 14 hours. So, if there are mice to test, there are 30 - 1 = 29 mice. The answer is (b)."
+        "[INCORRECT] There are 30 cans out of them one is poisned if a person tastes very little he will die within 14 hours. So, the poisned can is 30 - 1 = 29. The poisned can is 29 - 2 = 27. The poisned can is 27 - 3 = 24. The poisned can is 24 - 2 = 22. The poisned can is 22 - 3 = 19. The poisned can is 19 - 3 = 16. The poisned can is 16 - 3 = 13. The poisned can is 13 - 3 = 10. The poisned can is 10 - 3 = 7. The poisned can is 7 - 3 = 4. The poisned can is 4 - 3 = 1. The poisned can is 1 - 3 = 2. The poisned can is 2 - 3 = 1. The poisned can is 1"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4032,11 +4032,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The store marked up its cost by 20%, so the original retail price is 100%. The profit is 100% - 20% = 80%. The profit in February is 80% of 100% = 80%. The answer is (b)."
+        "[INCORRECT] The store marked up its cost by 20%, so the original retail price was 100%. The profit is 100% - 20% = 80%. The profit in February is 80% of the original cost, which is 80% * 100% = 80%. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4045,7 +4045,7 @@
     "doc_hash": "b1595a6f9f96dbf51ab2825ac8dd108be0059c8f12a09cb2ee2c25af538f9aa5",
     "prompt_hash": "dcbac693bcfc5a207282f194313be167f55489297c07aad0ca12def79b41068a",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 88,
@@ -4078,7 +4078,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Half of 2 percent is 0.02. [CORRECT] Half of 2 percent is 0.02. The answer is (a)."
+        "[INCORRECT] Half of 2 percent is 0.05. [CORRECT] Half of 2 percent is 0.05. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -4216,7 +4216,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The probability that no boy will choose his own toy is 1/3. [CORRECT] The probability that a boy will choose his own toy is 1/3. The probability that no boy will choose his own toy is the probability that a boy will choose his own toy, which is 1/3. The answer is (a)."
+        "[INCORRECT] The probability that no boy will choose his own toy is 1 - 1/3 = 2/3. [CORRECT] The probability that no boy will choose his own toy is 1 - 1/3 = 2/3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -4308,7 +4308,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, the ratio will be 5 : 4 + 6 = 9 : 10. The age of Dhiraj at present is 10/10 * 5 = 5. The answer is (c)."
+        "[INCORRECT] The ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, the ratio will be 5 : 4 + 6 = 9 : 10. The age of Dhiraj at present is 10/10 * 5 = 5 years. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of their capitals is 3000:4000 = 3:4. The ratio of their profits is 3:4 = 3:4. The ratio of their capitals is 3:4. The answer is (a)."
+        "[INCORRECT] The ratio of their capitals is 3000:4000 = 3:4. The ratio of their profits is 3:4 = 3/4. The ratio of their investments is 3000:4000 = 3:4. The ratio of their profits is 3/4:3/4 = 3:4. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -4400,11 +4400,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] If x-y=10, then x = y + 10. If x is positive, then y must be positive. If x is negative, then y must be negative. The answer is (a)."
+        "[INCORRECT] If x-y = 10, then x = y + 10. So, x-y = 10. If x is positive, then y must be negative. If x is negative, then y must be positive. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4413,7 +4413,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "2d156b968327802e8ce9bbe497345983b7da78452d234b6d0c79baa24f1d8902",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 96,
@@ -4446,7 +4446,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of the square is 100 * 100 = 10000. The area is increased by 25% = 0.25 * 100 = 25%. The area is 10000 * 0.25 = 2500. The area is 2500 * 100 = 250000. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 2"
+        "[INCORRECT] The area of the square is 100 * 100 = 10000. The area is increased by 25%. So the area is 10000 * 1.25 = 12500. The area is 12500 * 100 = 125000. The area is 125000 * 1.25 = 156250. The area is 156250 * 100 = 1562500. The area is 1562500 * 1.25 = 1893750. The area is 1893750 * 100 = 18937500. The area is 18937500 * 1.25 = 22350625. The area is 22350625 * 100 = 2235062500. The area is 22350"
       ]
     ],
     "filtered_resps": [
@@ -4492,11 +4492,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The difference of the squares of two numbers is (a - b)^2 = (a - 8)^2 + (a - 20)^2. Substituting the given values, we get (a - 8)^2 + (a - 20)^2 = 20^2 + 8^2 = 400 + 64 = 464. The answer is (b)."
+        "[INCORRECT] The difference of the squares of two numbers is (a - b)^2 = (a - b)^2 = (20 - 8)^2 = 12^2 = 144. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The interest is compounded monthly, so the interest is $500 * (1 + 0.05/12) = $500 * (1 + 0.00417) = $500 * 1.00417 = $500.417. The value of the investment after 10 years is $500.417 * 12 = $600.729. The answer is (c)."
+        "[INCORRECT] The interest is compounded monthly, so the interest is $500 * (1 + 0.05/12) = $500 * (1 + 0.00417) = $500 * 1.00417 = $500.417. The value of the investment after 10 years is $500.417 * 12 = $601.074. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4676,7 +4676,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The slope of line k is 1/5. The slope of line k passing through the origin is 0. The slope of line k passing through (x, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y) is 1/5. The slope of line k passing through (x, y) and (5, y"
+        "[INCORRECT] The slope of line k is 1/5. The slope of line k passing through the origin is 0. The equation of line k is y = 0x + 5. The equation of line k passing through the origin is y = 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation of line k is y = 5x + 5. The equation"
       ]
     ],
     "filtered_resps": [
@@ -4722,7 +4722,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The operation @ is not commutative, meaning that the order of the numbers being operated on matters. Therefore, the answer is (b).\n\n[CORRECT] The operation @ is not associative either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (c).\n\n[INCORRECT] The operation @ is not distributive either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (d).\n\n[INCORRECT] The operation @ is not associative either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (e)."
+        "[INCORRECT] The operation @ is not commutative, meaning that the order of the numbers being operated on matters. Therefore, the answer is (b).\n\n[CORRECT] The operation @ is not associative either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (c).\n\n[INCORRECT] The operation @ is not distributive either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (d).\n\n[CORRECT] The operation @ is not idempotent either, meaning that the order in which the numbers are operated on matters. Therefore, the answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The speed of the man in still water is 25 kmph. The speed of the current is 11 kmph. The man is rowing downstream, so the speed of the current is 11 kmph. The man's speed in downstream is 25 + 11 = 36 kmph. The man's time to cover 80 meters downstream is 80 / 36 = 2.1728 seconds. The answer is (b)."
+        "[INCORRECT] The speed of the man rowing the boat in still water is 25 kmph. The speed of the current is 11 kmph. The speed of the current is 25 kmph - 11 kmph = 14 kmph. The man's speed downstream is 25 kmph - 11 kmph = 14 kmph. The man's speed upstream is 25 kmph + 11 kmph = 36 kmph. The man's time to cover 80 metres downstream is 80 / 36 = 2/3 of a minute. The man's time to cover 80 metres upstream is 80 / 14 = 5/3 of a minute. The man's time to cover 80 metres downstream and upstream is 2/3 + 5/3 = 7/3 of a minute. The man's time to cover 80 metres downstream and upstream is 2/3 + 5/3 = 7/3 of a minute. The man's time to cover 80 metres downstream and upstream is 7/3 of a minute. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -4860,7 +4860,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. So, there are 6 * 5 = 30 possible combinations in which Jim and Ellen are not selected. There are 2 possible combinations in which Jim and Ellen are selected. So, there are 2 * 5 = 10 possible combinations in which Jim and Ellen are selected. There are 2 possible combinations in which Ellen is selected. So, there are 2 * 5 = 10 possible combinations in which Ellen is selected. There are 6 possible combinations in which Jim and Ellen are not selected. So, there are 6 * 5 = 30 possible combinations in which Jim and Ellen are not selected. There are 2 possible combinations in which Jim and Ellen are selected. So, there are 2 * 5 = 10 possible combinations in which Jim and Ellen are selected. There are 2 possible combinations in which Ellen is selected. So, there are 2 * 5 = 10 possible combinations in which Ellen is selected. There are 6 possible combinations in which Jim and Ellen are not selected. So, there are 6 * 5 = 30 possible combinations in which Jim"
+        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. There are 6 * 5 = 30 possible combinations in which Jim and Ellen are selected. There are 6 * 5 * 4 = 120 possible combinations in which Jim and Ellen are not selected. There are 6 * 5 * 4 * 3 = 504 possible combinations in which Ellen is not selected. There are 6 * 5 * 4 * 3 * 2 * 1 = 720 possible combinations in which Ellen is selected. There are 6 * 5 * 4 * 3 * 2 * 1 * 2 = 1680 possible combinations in which Jim is not selected. There are 6 * 5 * 4 * 3 * 2 * 1 * 2 * 3 = 2880 possible combinations in which Jim is selected. There are 6 * 5 * 4 * 3 * 2 * 1 * 2 * 3 * 4 = 16800 possible combinations in which both Jim and Ellen are not selected. There are 6 * 5"
       ]
     ],
     "filtered_resps": [
@@ -4952,7 +4952,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The smallest number of five digits is 10000. [CORRECT] The smallest number of five digits divisible by 22, 33, 66, and 44 is 10000. The answer is (a)."
+        "[INCORRECT] The smallest number of five digits is 10000. The smallest number divisible by 22, 33, 66, and 44 is 10000. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -4998,7 +4998,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Joe's total cost is $5 + $20 * 6 = $5 + $120 = $125. The answer is (a)."
+        "[INCORRECT] Joe's total cost is $5 + 20% of $5 = $5 + $0.50 = $5.50. He spent $5.50 at the fair. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -5182,11 +5182,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] p = 4^q, so p is a power of 4. The powers of 4 are 4, 16, 64, 256, and so on. The powers of 4^2 are 1, 4, 16, 64, and so on. The powers of 4^3 are 1, 8, 27, 64, and so on. The powers of 4^4 are 1, 16, 64, 256, and so on. The powers of 4^5 are 1, 8, 24, 128, and so on. The powers of 4^6 are 1, 16, 64, 256, and so on. The powers of 4^7 are 1, 8, 24, 128, and so on. The powers of 4^8 are 1, 16, 64, 256, and so on. The powers of 4^9 are 1, 16, 64,"
+        "[INCORRECT] The remainder when 4^q is divided by 10 is 0. [CORRECT] The remainder when 4^q is divided by 10 is 0. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5228,7 +5228,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The square of a positive integer is always a positive integer. The next positive integer is always a positive integer. The answer is (a)."
+        "[INCORRECT] The next positive integer is n + 1. The square of the next positive integer is n^2 + 1. The square of the next positive integer is n^2 + 1. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -5412,11 +5412,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 50 = 710. [CORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 433.33. The answer is (d)."
+        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 43.33. [CORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 43.33. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5425,7 +5425,7 @@
     "doc_hash": "8f5e3fd4d3eab1fb1f61cc0c28e0a5481156dd407c5dbd6ab29926841b91ffc8",
     "prompt_hash": "c0bbee209f01ee3c1f126ed1de9c8ee01bede1043f4e2471265951c4f4ff2f86",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 18,
@@ -5458,7 +5458,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The average of 15 numbers is 40. If 10 is added to each number, the new average is 40 + 10 = 50. The answer is (a)."
+        "[INCORRECT] The average of 15 numbers is 40. If 10 is added to each number, the mean of the numbers is 40 + 10 = 50. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -5550,7 +5550,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The first five numbers are 4, 10, X, 46, and 94. The sequence is 4, 10, X, 46, 94. The difference between the second and first number is 10 - 4 = 6. The difference between the third and second number is 46 - 10 = 36. The difference between the fourth and third number is 94 - 46 = 48. The difference between the fifth and fourth number is 46 - 94 = -32. The difference between the fifth and fourth number is 94 - 46 = 48. The difference between the fifth and fourth number is 48 - 32 = 16. The difference between the fifth and fourth number is 16 - 6 = 10. The difference between the fifth and fourth number is 10 - 28 = -18. The difference between the fifth and fourth number is 18 - 28 = -12. The difference between the fifth and fourth number is 12 - 10 = 2. The difference"
+        "[INCORRECT] The first five numbers are 4, 10, X, 46, and 94. The sequence is 4, 10, X, 46, 94. The difference between the second and the first number is 10 - 4 = 6. The difference between the third and the second number is 46 - 10 = 36. The difference between the fourth and the third number is 94 - 46 = 48. The difference between the fifth and the fourth number is 46 - 94 = -32. The difference between the fifth and the third number is 46 - 48 = -2. The difference between the fifth and the fourth number is 48 - 32 = 16. The difference between the fifth and the third number is 32 - 16 = 16. The difference between the fifth and the fourth number is 16 - 6 = 10. The difference between the fifth and the fourth number is 16 - 10 = 6. The difference between the fifth and the fourth number is 10 - "
       ]
     ],
     "filtered_resps": [
@@ -5688,7 +5688,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The perimeter of P is 40. The diameter of Q is 40 / 2 = 20. The circumference of Q is 20 * \u03c0. The answer is (b)."
+        "[INCORRECT] The perimeter of P is 40. The diameter of Q is 40 / 2 = 20. The circumference of Q is 2 * \u03c0 * 20 = 40\u03c0. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -5734,7 +5734,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The total amount of the loan is $51200. The first payment is $200. The total amount of the loan after the first payment is $51200 + $200 = $51400. The total amount of the loan after the second payment is $51400 + $200 = $51600. The total amount of the loan after the third payment is $51600 + $200 = $51800. The total amount of the loan after the fourth payment is $51800 + $200 = $52000. The total amount of the loan after the fifth payment is $52000 + $200 = $52200. The total amount of the loan after the sixth payment is $52200 + $200 = $52400. The total amount of the loan after the seventh payment is $52400 + $200 = $52600. The total amount of the loan after the eighth payment is $52600 +"
+        "[INCORRECT] The total amount of the loan is $51200. The first payment is $200. The total amount of the loan after the first payment is $200 + $200 = $400. The total amount of the loan after the second payment is $400 + $200 = $600. The total amount of the loan after the third payment is $600 + $200 = $800. The total amount of the loan after the fourth payment is $800 + $200 = $1000. The total amount of the loan after the fifth payment is $1000 + $200 = $1200. The total amount of the loan after the sixth payment is $1200 + $200 = $1400. The total amount of the loan after the seventh payment is $1400 + $200 = $1600. The total amount of the loan after the eighth payment is $1600 + $200 = $1800. The total amount of the loan after the ninth payment is"
       ]
     ],
     "filtered_resps": [
@@ -5780,11 +5780,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The fixed salary is $30 per week. The number of bicycles sold is x. The number of bicycles sold after the first 6 bicycles is y. The number of bicycles sold after the first 12 bicycles is 6y. The total amount earned is $30 + $6(x) + $12(y) + $18(6y) = $30 + $6x + $12y + $108y = $138y. The total amount earned last week is $30 + $6(6) + $12(6y) = $30 + $36 + $72y = $138y. The total amount earned this week is $30 + $6(6) + $12(6y) = $30 + $36 + $72y = $138y. The total amount earned this week is $138y - $138y = $0. The answer is (a)."
+        "[INCORRECT] The fixed salary is $30 per week. The number of bicycles sold is x. The number of bicycles sold after the first 6 bicycles is y. The number of bicycles sold after the next 6 bicycles is 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1) = 6(y-1) + 6(x-1)"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5826,11 +5826,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The current ratio of students per class is Q = 120 / 100 = 1.2. If the ratio were to be increased by 1, the new ratio would be Q + 1 = 1.2 + 1 = 2.2. If the ratio were to be decreased by 10, the new ratio would be Q - 10 = 2.2 - 10 = -8.2. The new ratio would be Q - 10 = 2.2 - 10 = -8.2. The answer is (d)."
+        "[INCORRECT] The current ratio of students per class is Q = 1. If the ratio is increased by 1, the new ratio is Q + 1 = 2. If 10 fewer classes are run, the new number of classes is Q + 10 = 11. The new total number of students is Q + 11 = 120. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5872,11 +5872,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The average income of the 50 customers is $45,000. The average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $45,000 - $95,000 = -$15,000. The average income of the other 40 customers is $45,000 - $95,000 = -$15,000. The answer is (d)."
+        "[INCORRECT] The average income of the 50 customers is $45,000. The average income of the 10 wealthiest customers is $95,000. The average income of the 40 customers who are not the wealthiest is $45,000 - $95,000 = -$145,000. The average income of the 40 customers who are not the wealthiest is $45,000 - $95,000 = -$40,000. The average income of the 40 customers who are not the wealthiest is -$145,000 + $40,000 = $105,000. The average income of the other 40 customers is $45,000 - $105,000 = -$35,000. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5964,11 +5964,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The volume of a block is given by the formula V = lwh, where l is the length, w is the width, and h is the height. If a small block has half the width, half the depth, and half the length of a normal block, then the volume of the small block is V = (1/2) * 8 * 8 * 8 = 4 * 8 = 32 cubic feet. The answer is (b)."
+        "[INCORRECT] The volume of a block is given by the formula V = lwh, where l is the length, w is the width, and h is the height. If a small block has half the width, half the depth, and half the length of a normal block, then the volume of the small block is V = (1/2) * 8 * 8 * 8 = 4. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5977,7 +5977,7 @@
     "doc_hash": "51d763245a7dacf2d55f0b97598023826a23ddbea2cb0b63e6cdcc023181d7ec",
     "prompt_hash": "c79e7d4a4a685b8f21e6b61b4087ba57724c9ab1075ef8213cd5bd45862fadb7",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 30,
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The $500 investment has a yearly return of 19 percent of the total of the two investments. The $1,500 investment has a yearly return of 7 percent. The total yearly return is 19 percent + 7 percent = 26 percent. The answer is (b)."
+        "[INCORRECT] The $500 investment has a yearly return of 19 percent of the total of the two investments. The $1,500 investment has a yearly return of 7 percent. To find the yearly return of the $1,500 investment, we need to subtract the yearly return of the $500 investment from the yearly return of the $1,500 investment. So, 7 percent - 19 percent = -12 percent. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6286,7 +6286,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each game is played by two players, so there are 8 players * 2 games per player = 16 games. The answer is (a)."
+        "[INCORRECT] Each game is played by two players, so there are 8 * 8 = 64 games. [CORRECT] There are 8 players, and each player plays each of the others, so there are 8 * 8 = 64 games. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the ages of his two sons is 3 * 2 = 6 years. The father\u00e2\u20ac\u2122s present age is 3 * 6 = 18 years. The father\u00e2\u20ac\u2122s age 4 years hence will be 18 + 4 = 22 years. The answer is (b)."
+        "[INCORRECT] The sum of the ages of his two sons is 3 * 2 = 6. The father\u00e2\u20ac\u2122s present age is 3 * 6 = 18. The father\u00e2\u20ac\u2122s age 4 years hence will be 18 + 4 = 22. The father\u00e2\u20ac\u2122s age 4 years hence will be 22 * 2 = 44. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -6516,11 +6516,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10% gain on 1kg of fluid means 1000g * 10% = 100g. The actual % difference is 100g / 200g = 0.5%. [CORRECT] The actual % difference is 100% - 10% = 90%. The answer is (b)."
+        "[INCORRECT] 10% gain on 1kg of fluid means 1000g * 10% = 100g. 200g of coke is 100g * 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1000 = 200/1"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6529,7 +6529,7 @@
     "doc_hash": "de63dcf2d42bebe2b1326ce65806f692421337a38fd85867cc2649804b96c134",
     "prompt_hash": "192ed9df3402c30bd8c4f505b7ecc81a152a56444ae74ead6b2ec60ad0f47585",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 42,
@@ -6562,11 +6562,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The person can walk at a constant rate of 8mph, so he would need 64 miles / 8mph = 8 hours. The person can bike at a constant rate of 16mph, so he would need 64 miles / 16mph = 4 hours. The person would require 8 hours + 4 hours = 12 hours to travel 64 miles. The answer is (b)."
+        "[INCORRECT] The person can walk at 8mph and bike at 16mph. To travel 64 miles, he would need to walk for 64 / 8 = 8 hours. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the expression inside the absolute value is |8+x|. The expression inside the absolute value is |4-x|. So, the equation is |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Simplify the equation: |x+3| = |8+x| \u2013 |4-x|. Since |x+3| = |8+x|, the equation becomes |x+3| = |8+x| \u2013 |4-x|. Since |x+3| is always non-negative, the equation will have one solution. The answer is (a)."
+        "[INCORRECT] The equation is |x+3| \u2013 |4-x| = |8+x|. The absolute value of the expression inside the absolute value is |8+x|. The expression inside the absolute value is |4-x|. So, the equation is |x+3| \u2013 |4-x| = |8+x| \u2013 |4-x|. Simplify the equation: |x+3| = |8+x| \u2013 |4-x|. |x+3| = |8+x|. |x+3| = 8. |x+3| = 4. The equation has two solutions: x = 4 and x = -3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6930,11 +6930,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] He should sell 20 * 60 = 1200 articles for $60. He should sell 20 * 20% = 40 articles for $50. The answer is (b)."
+        "[INCORRECT] He should sell 20 * 60 = 1200 articles for $60. He should sell 20 * 20 = 400 articles for $50. He should sell 400 - 1200 = -1000 articles for $50. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6976,7 +6976,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The ratio of the dividends from the 9% stock to the 12% stock is 96/120 = 3/5. The ratio of the investments in the 9% stock to the 12% stock is 3/5. The ratio of the dividends from the 9% stock to the 12% stock is 96/120 = 3/5. The answer is (a)."
+        "[INCORRECT] The ratio of the investments in the 9% stock to the 12% stock is 9/12 = 3/4. The ratio of the dividends from the 9% stock to the 12% stock is 96/120 = 3/5. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -7206,11 +7206,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the digits is 10, so the sum of the digits in the two-digit number is 10 + 4 = 14. The digit in the unit's place is 4 times the digit in ten's place, so the digit in the unit's place is 4 * 4 = 16. The number is 16 + 4 = 20. The answer is (a)."
+        "[INCORRECT] The digit in the unit's place is 4 times the digit in ten's place, so the digit in the unit's place is 4 * 4 = 16. The sum of the digits is 8 + 4 + 1 + 4 + 1 = 21. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,11 +7436,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The diagonals of a rhombus are 18 cm and 22 cm. The area of a rhombus is given by the formula: Area = (1/2) * d1 * d2. So, Area = (1/2) * 18 * 22 = 277. The answer is (a)."
+        "[INCORRECT] The diagonals of a rhombus are perpendicular to each other. The area of a rhombus is half the product of its diagonals. So, the area is 1/2 * 18 cm * 22 cm = 266. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7482,7 +7482,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The rate of simple interest is given as 22 1/8 % per annum. To convert this to a decimal, divide by 100, so 22 1/8 % = 22.1111 %. Multiply by 40 years, so 22.1111 * 40 = 888.4444. The answer is (b)."
+        "[INCORRECT] The rate of simple interest is given as 22 1/8 % per annum. To convert this to a decimal, divide by 100, so 22 1/8 % = 22.1111 %. [CORRECT] The rate of simple interest is 22 1/2 % per annum. To convert this to a decimal, divide by 100, so 22 1/2 % = 22.1111 %. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7620,7 +7620,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 1/4 mile = 34 cents. 1/5 mile = 6 cents. 1/4 * 34 = 10.5 cents. 1/5 * 6 = 3.6 cents. The total charge is 10.5 + 3.6 = 14 cents. The answer is (b)."
+        "[INCORRECT] 1/4 mile = 34 cents. 1/5 mile = 6 cents. 1/4 * 34 = 8.4. 1/5 * 6 = 3.6. 8.4 + 3.6 = 11.0. 11.0 + 1.24 = 12.24. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7666,11 +7666,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of ways a candidate can attempt the questions is 3! = 6. [CORRECT] The number of ways a candidate can attempt the questions is 4! = 24. The number of ways a candidate can attempt the questions is 5! = 120. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 720. The answer is (b)."
+        "[INCORRECT] The number of ways a candidate can attempt the questions is 3! = 6. [CORRECT] The number of ways a candidate can attempt the questions is 4! = 24. The number of ways a candidate can attempt the questions is 5! = 120. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions is 6! = 720. The number of ways a candidate can attempt the questions"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7758,7 +7758,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the longest and shortest numbers is 5 + 7 = 12. The sum of the third number and 54 is 12 + 54 = 66. The answer is (e)."
+        "[INCORRECT] The sum of the longest and shortest numbers is 5 + 6 = 11. The sum of the third number and 54 is 11 + 54 = 65. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7850,7 +7850,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the squares of three numbers is 351. The sum of their products taken two at a time is 245. The sum of the squares of the three numbers is 351^2 + 245^2 = 12205 + 59800 = 62155. The answer is (b)."
+        "[INCORRECT] The sum of the squares of three numbers is 351. The sum of their products taken two at a time is 245. The sum of the squares of the three numbers is 351^2 + 245^2 = 12205 + 59800 = 62105. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7896,7 +7896,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of an equilateral triangle is given by the formula: Area = (\u221a3 / 4) * s^2, where s is the length of a side of the triangle. In this case, s = 16 cm. So, Area = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
+        "[INCORRECT] The area of an equilateral triangle is given by the formula A = (\u221a3 / 4) * s^2, where s is the side length. Plugging in s = 16 cm, we get A = (\u221a3 / 4) * 16^2 = (\u221a3 / 4) * 256 = 64\u221a3 cm2. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7942,7 +7942,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Each of the given equations has at least one solution. [CORRECT] 2^n = (\u20132)^-n is not a valid equation, as the exponentiation is not defined for negative numbers. The correct answer is (b)."
+        "[INCORRECT] Each of the given equations has at least one solution. [CORRECT] 2^n = (\u20132)^-n is not a valid equation, as it is not a valid exponentiation operation. The correct answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7988,11 +7988,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The population increases at the rate of one person every 40 seconds. So, after 1 hour, the population will increase by 1 * 40 = 40 people. The answer is (a)."
+        "[INCORRECT] The population increases at the rate of one person every 40 seconds. So, after 1 hour, the population will increase by 1 * 40 = 40 people. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8001,7 +8001,7 @@
     "doc_hash": "8bf6f6f341f409c9faccedb7127b3178fefc1f1fdb7fdcb0e165ae1bb30226a5",
     "prompt_hash": "3d68cd604275469a260fbb0b211219114be3fab8c71b04fe961602dde4feb00f",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 74,
@@ -8218,7 +8218,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The total number of ways to select 5 persons from 14 is 14 * 13 * 12 * 11 * 10 = 13,320. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 216. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 105. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 105. The number of ways to select 3 men and 3"
+        "[INCORRECT] The total number of ways to select 5 persons from 14 is 14 * 13 * 12 * 11 * 10 = 13,320. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 216. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 * 6 * 6 = 216. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 2 women is 7 * 6 * 5 = 35. The number of ways to select 3 men and 3 women is 7 *"
       ]
     ],
     "filtered_resps": [
@@ -8540,11 +8540,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 30 cans out of them one is poisned if a person tastes very little he will die within 14 hours. So, if there are mice to test, there are 30 - 1 = 29 mice. The answer is (b)."
+        "[INCORRECT] There are 30 cans out of them one is poisned if a person tastes very little he will die within 14 hours. So, the poisned can is 30 - 1 = 29. The poisned can is 29 - 2 = 27. The poisned can is 27 - 3 = 24. The poisned can is 24 - 2 = 22. The poisned can is 22 - 3 = 19. The poisned can is 19 - 3 = 16. The poisned can is 16 - 3 = 13. The poisned can is 13 - 3 = 10. The poisned can is 10 - 3 = 7. The poisned can is 7 - 3 = 4. The poisned can is 4 - 3 = 1. The poisned can is 1 - 3 = 2. The poisned can is 2 - 3 = 1. The poisned can is 1"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8632,11 +8632,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The store marked up its cost by 20%, so the original retail price is 100%. The profit is 100% - 20% = 80%. The profit in February is 80% of 100% = 80%. The answer is (b)."
+        "[INCORRECT] The store marked up its cost by 20%, so the original retail price was 100%. The profit is 100% - 20% = 80%. The profit in February is 80% of the original cost, which is 80% * 100% = 80%. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8645,7 +8645,7 @@
     "doc_hash": "b1595a6f9f96dbf51ab2825ac8dd108be0059c8f12a09cb2ee2c25af538f9aa5",
     "prompt_hash": "dcbac693bcfc5a207282f194313be167f55489297c07aad0ca12def79b41068a",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 88,
@@ -8678,7 +8678,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Half of 2 percent is 0.02. [CORRECT] Half of 2 percent is 0.02. The answer is (a)."
+        "[INCORRECT] Half of 2 percent is 0.05. [CORRECT] Half of 2 percent is 0.05. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -8816,7 +8816,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The probability that no boy will choose his own toy is 1/3. [CORRECT] The probability that a boy will choose his own toy is 1/3. The probability that no boy will choose his own toy is the probability that a boy will choose his own toy, which is 1/3. The answer is (a)."
+        "[INCORRECT] The probability that no boy will choose his own toy is 1 - 1/3 = 2/3. [CORRECT] The probability that no boy will choose his own toy is 1 - 1/3 = 2/3. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -8908,7 +8908,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, the ratio will be 5 : 4 + 6 = 9 : 10. The age of Dhiraj at present is 10/10 * 5 = 5. The answer is (c)."
+        "[INCORRECT] The ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, the ratio will be 5 : 4 + 6 = 9 : 10. The age of Dhiraj at present is 10/10 * 5 = 5 years. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8954,7 +8954,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of their capitals is 3000:4000 = 3:4. The ratio of their profits is 3:4 = 3:4. The ratio of their capitals is 3:4. The answer is (a)."
+        "[INCORRECT] The ratio of their capitals is 3000:4000 = 3:4. The ratio of their profits is 3:4 = 3/4. The ratio of their investments is 3000:4000 = 3:4. The ratio of their profits is 3/4:3/4 = 3:4. The answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] If x-y=10, then x = y + 10. If x is positive, then y must be positive. If x is negative, then y must be negative. The answer is (a)."
+        "[INCORRECT] If x-y = 10, then x = y + 10. So, x-y = 10. If x is positive, then y must be negative. If x is negative, then y must be positive. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9013,7 +9013,7 @@
     "doc_hash": "0e5e20cdc3250337322bb83e4c1ef29e759ce30642e971093dfbd1bd410dfbca",
     "prompt_hash": "2d156b968327802e8ce9bbe497345983b7da78452d234b6d0c79baa24f1d8902",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 96,
@@ -9046,7 +9046,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of the square is 100 * 100 = 10000. The area is increased by 25% = 0.25 * 100 = 25%. The area is 10000 * 0.25 = 2500. The area is 2500 * 100 = 250000. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 250000 / 100 = 2500. The area is 2"
+        "[INCORRECT] The area of the square is 100 * 100 = 10000. The area is increased by 25%. So the area is 10000 * 1.25 = 12500. The area is 12500 * 100 = 125000. The area is 125000 * 1.25 = 156250. The area is 156250 * 100 = 1562500. The area is 1562500 * 1.25 = 1893750. The area is 1893750 * 100 = 18937500. The area is 18937500 * 1.25 = 22350625. The area is 22350625 * 100 = 2235062500. The area is 22350"
       ]
     ],
     "filtered_resps": [
@@ -9092,11 +9092,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The difference of the squares of two numbers is (a - b)^2 = (a - 8)^2 + (a - 20)^2. Substituting the given values, we get (a - 8)^2 + (a - 20)^2 = 20^2 + 8^2 = 400 + 64 = 464. The answer is (b)."
+        "[INCORRECT] The difference of the squares of two numbers is (a - b)^2 = (a - b)^2 = (20 - 8)^2 = 12^2 = 144. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9138,7 +9138,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The interest is compounded monthly, so the interest is $500 * (1 + 0.05/12) = $500 * (1 + 0.00417) = $500 * 1.00417 = $500.417. The value of the investment after 10 years is $500.417 * 12 = $600.729. The answer is (c)."
+        "[INCORRECT] The interest is compounded monthly, so the interest is $500 * (1 + 0.05/12) = $500 * (1 + 0.00417) = $500 * 1.00417 = $500.417. The value of the investment after 10 years is $500.417 * 12 = $601.074. The answer is (c)."
       ]
     ],
     "filtered_resps": [

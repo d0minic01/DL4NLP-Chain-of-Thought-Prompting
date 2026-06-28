@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,svamp_equation_only,svamp,equation_only,fewshot_cot,svamp,0.75,0.0,32.1,8,100,13.74,20.53

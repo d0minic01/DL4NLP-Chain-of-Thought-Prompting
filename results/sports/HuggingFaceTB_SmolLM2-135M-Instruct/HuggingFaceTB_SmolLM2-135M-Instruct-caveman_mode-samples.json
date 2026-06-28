@@ -174,7 +174,7 @@
     ],
     "resps": [
       [
-        "Tom Brady football player. Alley-oop is basketball move. Wrong sport object. The answer is no."
+        "Tom Brady football player. Alley-oop is football move. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -212,7 +212,7 @@
     ],
     "resps": [
       [
-        "Neymar football player. Yellow card is soccer penalty. Wrong sport object. The answer is no."
+        "Neymar football player. Yellow card is football penalty. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -364,7 +364,7 @@
     ],
     "resps": [
       [
-        "Kevin Durant basketball player. Three-pointer is basketball move. So yes make sense. The answer is yes."
+        "Kevin Durant basketball player. Buzzer beating is basketball scoring moment. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -478,7 +478,7 @@
     ],
     "resps": [
       [
-        "Clayton Kershaw basketball player. Power play is basketball move. So yes make sense. The answer is yes."
+        "Clayton Kershaw basketball player. Power play goal is basketball scoring moment. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "Raheem Sterling football player. Hail Mary is a football play. So yes make sense. The answer is yes."
+        "Raheem Sterling football player. Hail Mary is football prayer. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -972,7 +972,7 @@
     ],
     "resps": [
       [
-        "Raheem Sterling football player. Slide is basketball move. So yes make sense. The answer is yes."
+        "Raheem Sterling football player. Sliding tackle is hockey move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "Peyton Manning football player. Field goal is football move. Wrong sport object. The answer is no."
+        "Peyton Manning football player. Field goal is football move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1061,7 +1061,7 @@
     "doc_hash": "5e25a3d04e5e0165217b321fcd958ccb69d790f43086a9ccd05a08075db2c760",
     "prompt_hash": "fd5b9ad0f5fea47873c633a92f5f12b3f34a872036231f373ce246605192b9ca",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 28,
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "Kylian Mbappe basketball player. Yellow card is football penalty. Wrong sport object. The answer is no."
+        "Kylian Mbappe basketball player. Yellow card is football penalty. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2011,7 +2011,7 @@
     "doc_hash": "69037f75874a960de8b5229355fd93389575b291290b87d3838ae3f09dbbf6e0",
     "prompt_hash": "f9d780784d269bcbc015b1672f29301fe0f48f5c19f3e5b719f60046191a14ec",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 53,
@@ -2074,7 +2074,7 @@
     ],
     "resps": [
       [
-        "LeBron James basketball player. Dunked over defender means pass to defender. Basketball concept. The answer is yes."
+        "LeBron James basketball player. Dunked over defender means dunked the ball. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2150,7 +2150,7 @@
     ],
     "resps": [
       [
-        "Sidney Crosby baseball player. Hat trick is baseball score. So yes make sense. The answer is yes."
+        "Sidney Crosby baseball player. Hat trick is baseball move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "David Ortiz running back. Tackle is football move. So yes make sense. The answer is yes."
+        "David Ortiz football player. Tackle is football move. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2353,7 +2353,7 @@
     "doc_hash": "fd97b8ccf3fb2699e78b08fdc5ed76aacad7b9f1b55c7b433dbde8defa9487fe",
     "prompt_hash": "ccbad14f087a2676fdfe742bab01bde585bd4a66869c675c297f24686b0275b6",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 62,
@@ -2568,7 +2568,7 @@
     ],
     "resps": [
       [
-        "Kevin Durant basketball player. Pick and roll is basketball scoring moment. Wrong sport object. The answer is no."
+        "Kevin Durant basketball player. Pick and roll is basketball move. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "Clayton Kershaw baseball player. Strike out is baseball move. So yes make sense. The answer is yes."
+        "Clayton Kershaw football player. Strike out is football move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "Wayne Gretzky hockey player. Passing the shot is hockey move. So yes make sense. The answer is yes."
+        "Wayne Gretzky hockey player. Sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3404,7 +3404,7 @@
     ],
     "resps": [
       [
-        "Giannis Antetokounmpo basketball player. Three-pointer is basketball move. So yes make sense. The answer is yes."
+        "Giannis Antetokounmpo basketball player. Buzzer beating is basketball scoring moment. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3974,7 +3974,7 @@
     ],
     "resps": [
       [
-        "Tom Brady football player. Alley-oop is basketball move. Wrong sport object. The answer is no."
+        "Tom Brady football player. Alley-oop is football move. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4012,7 +4012,7 @@
     ],
     "resps": [
       [
-        "Neymar football player. Yellow card is soccer penalty. Wrong sport object. The answer is no."
+        "Neymar football player. Yellow card is football penalty. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4164,7 +4164,7 @@
     ],
     "resps": [
       [
-        "Kevin Durant basketball player. Three-pointer is basketball move. So yes make sense. The answer is yes."
+        "Kevin Durant basketball player. Buzzer beating is basketball scoring moment. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4278,7 +4278,7 @@
     ],
     "resps": [
       [
-        "Clayton Kershaw basketball player. Power play is basketball move. So yes make sense. The answer is yes."
+        "Clayton Kershaw basketball player. Power play goal is basketball scoring moment. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4392,7 +4392,7 @@
     ],
     "resps": [
       [
-        "Raheem Sterling football player. Hail Mary is a football play. So yes make sense. The answer is yes."
+        "Raheem Sterling football player. Hail Mary is football prayer. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "Raheem Sterling football player. Slide is basketball move. So yes make sense. The answer is yes."
+        "Raheem Sterling football player. Sliding tackle is hockey move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "Peyton Manning football player. Field goal is football move. Wrong sport object. The answer is no."
+        "Peyton Manning football player. Field goal is football move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4861,7 +4861,7 @@
     "doc_hash": "5e25a3d04e5e0165217b321fcd958ccb69d790f43086a9ccd05a08075db2c760",
     "prompt_hash": "fd5b9ad0f5fea47873c633a92f5f12b3f34a872036231f373ce246605192b9ca",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 28,
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "Kylian Mbappe basketball player. Yellow card is football penalty. Wrong sport object. The answer is no."
+        "Kylian Mbappe basketball player. Yellow card is football penalty. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5811,7 +5811,7 @@
     "doc_hash": "69037f75874a960de8b5229355fd93389575b291290b87d3838ae3f09dbbf6e0",
     "prompt_hash": "f9d780784d269bcbc015b1672f29301fe0f48f5c19f3e5b719f60046191a14ec",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 53,
@@ -5874,7 +5874,7 @@
     ],
     "resps": [
       [
-        "LeBron James basketball player. Dunked over defender means pass to defender. Basketball concept. The answer is yes."
+        "LeBron James basketball player. Dunked over defender means dunked the ball. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5950,7 +5950,7 @@
     ],
     "resps": [
       [
-        "Sidney Crosby baseball player. Hat trick is baseball score. So yes make sense. The answer is yes."
+        "Sidney Crosby baseball player. Hat trick is baseball move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "David Ortiz running back. Tackle is football move. So yes make sense. The answer is yes."
+        "David Ortiz football player. Tackle is football move. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6153,7 +6153,7 @@
     "doc_hash": "fd97b8ccf3fb2699e78b08fdc5ed76aacad7b9f1b55c7b433dbde8defa9487fe",
     "prompt_hash": "ccbad14f087a2676fdfe742bab01bde585bd4a66869c675c297f24686b0275b6",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 62,
@@ -6368,7 +6368,7 @@
     ],
     "resps": [
       [
-        "Kevin Durant basketball player. Pick and roll is basketball scoring moment. Wrong sport object. The answer is no."
+        "Kevin Durant basketball player. Pick and roll is basketball move. Wrong sport object. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "Clayton Kershaw baseball player. Strike out is baseball move. So yes make sense. The answer is yes."
+        "Clayton Kershaw football player. Strike out is football move. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "Wayne Gretzky hockey player. Passing the shot is hockey move. So yes make sense. The answer is yes."
+        "Wayne Gretzky hockey player. Sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is sky is"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,7 +7204,7 @@
     ],
     "resps": [
       [
-        "Giannis Antetokounmpo basketball player. Three-pointer is basketball move. So yes make sense. The answer is yes."
+        "Giannis Antetokounmpo basketball player. Buzzer beating is basketball scoring moment. So yes make sense. The answer is yes."
       ]
     ],
     "filtered_resps": [

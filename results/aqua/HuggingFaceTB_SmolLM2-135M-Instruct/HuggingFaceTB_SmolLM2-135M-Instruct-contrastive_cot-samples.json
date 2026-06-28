@@ -30,11 +30,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Friend P's rate is 15% faster than Friend Q's, so Friend P will have walked 15% of the total distance. 43 - 15 = 26.5. Friend Q's rate is 15% faster than Friend P's, so Friend Q will have walked 15% of the total distance. 43 - 15 = 26.5. Friend P will have walked 26.5 kilometers. The answer is (e)."
+        "[INCORRECT] Friend P's rate is 15% faster than Friend Q's, so Friend Q's rate is 15% of Friend P's rate. Friend Q's rate is 15% of 21, so Friend Q's rate is 15% of 21.5. Friend Q's rate is 15% of 22, so Friend Q's rate is 15% of 22.5. Friend Q's rate is 15% of 23, so Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -43,7 +43,7 @@
     "doc_hash": "5f40282913e4d55ba41c7592172024e47bf8f2c75c050efc2eb50a8c3c80acbc",
     "prompt_hash": "fc4a471224bcac4d49a6e1ebb082d1ae5fb3bef454cac328aca0dc1a1723c83e",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 1,
@@ -122,7 +122,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and for any two numbers p and q, the expression p^2 - pq is always non-negative. Therefore, the only possible value for x@y is x^2 - xy = 0.\n\nII. (xy)@y\n\nThe expression xy is a linear combination of the two numbers p and q, and the only way to get a non-zero value for xy is if p and q are both equal to zero. Therefore, the only possible value for (xy)@y is 0.\n\nIII. x@(x + y)\n\nThe expression x@y is a linear combination of the two numbers p and q, and the only way to get a non-zero value for x@y is if p and q are both equal to zero. Therefore, the only possible value for (x@y)@y is 0.\n\nI. x@y\n\nThe expression x@y is a linear combination of the two numbers p and q, and the only way to get a non-zero value for x@y is if"
+        "[INCORRECT] I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and the equation x@y = 0 implies that x^2 - pq = 0. Since x^2 - pq = 0, we can equate the two expressions and solve for x.\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 -"
       ]
     ],
     "filtered_resps": [
@@ -260,11 +260,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. The number of ways to choose Jim and Ellen from 6 is 6! / (6-6)! = 6! / 3! = 6 * 5 * 4 * 3 * 2 * 1 = 120. The number of ways to choose 2 members from 2 is 2! = 2 * 1 = 2. The number of ways to choose 3 members from 3 is 3! = 3 * 2 * 1 = 6. The number of ways to choose 4 members from 4 is 4! = 4 * 3 * 2 * 1 = 24. The number of ways to choose 5 members from 5 is 5! = 5 * 4 * 3 * 2 * 1 = 120. The number of ways to choose 6 members from 6 is 6! = 6 * 5 * 4 * 3 * 2 * 1 = 120. The answer is (e)."
+        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. 6 - 2 = 4. The value of k is 4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -306,11 +306,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] x can be represented by (x^2 + 4x - 11)/5 \u2264 x + 1. [CORRECT] The expression (x^2 + 4x - 11)/5 \u2264 x + 1 is a quadratic inequality. The solutions to this inequality are x = 1, x = 2, x = 3, and x = 4. The answer is (c)."
+        "[INCORRECT] x can be represented by (x^2 + 4x - 11)/5 \u2264 x + 1. [CORRECT] The expression (x^2 + 4x - 11)/5 \u2264 x + 1 is a valid inequality. The correct answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -490,11 +490,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tim gave 20% tip, so he gave 20% of $50, which is $20 * 0.2 = $4.\nThe total amount spent is $50 + $4 = $54.\nThe answer is (d)."
+        "[INCORRECT] Tim gave 20% tip, so he gave 20% of $50, which is $20 * 0.2 = $4.\nThe total amount spent is $50 + $4 = $54.\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -536,7 +536,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The rate of interest is 4% per year, so the rate of simple interest is 4 * 100 = 400%. The amount to be increased is Rs. 956 * 400 = 39,200. The answer is (c)."
+        "[INCORRECT] The rate of interest is 4% per year, so the rate of simple interest is 4 * 100 = 400%. The amount to be increased is Rs. 956 * 400 = 39200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -582,7 +582,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT"
+        "[INCORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT"
       ]
     ],
     "filtered_resps": [
@@ -674,7 +674,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of A to C is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1"
+        "[INCORRECT] The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1"
       ]
     ],
     "filtered_resps": [
@@ -720,7 +720,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] "
+        "[INCORRECT] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [HINT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8"
       ]
     ],
     "filtered_resps": [
@@ -766,7 +766,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] k/l^2 is greater than 1. [CORRECT] The given condition is that both k and l are positive integers. [CORRECT] The only positive integer that satisfies the condition is k/l. [CORRECT] The only positive integer that satisfies the condition is k/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^"
+        "[INCORRECT] k/l^2 is greater than 1 because k^2 is greater than 1. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than"
       ]
     ],
     "filtered_resps": [
@@ -812,7 +812,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 120. [CORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 120. The answer is (e)."
+        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 120. [CORRECT] The difference is 120. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -858,7 +858,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10 * 15 = 150. The mean is 40 + 150 = 550. The answer is (e)."
+        "[INCORRECT] 10 * 15 = 150. The mean is 40 + 150 = 150. [CORRECT] The new mean is 40 + 150 = 150. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -904,7 +904,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20 * 2.5 = 45.5. [CORRECT] The person would have traveld 20 km/hr * 2.5 hr = 50 km. The answer is (e)."
+        "[INCORRECT] 20 * 2.5 = 45.500. [CORRECT] There are 9 one-digit numbers from 1 to 9. There are 90 two-digit numbers from 10 to 99. There are 401 three-digit numbers from 100 to 500. 9 + 90*2 + 401*3 = 455. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -996,11 +996,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3.5 bags. Tim has 350 pounds / 350 bags = 1 bag. The answer is (e)."
+        "[INCORRECT] Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3.5 bags. Tim has 350 pounds / 350 bags = 1 bag. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1088,11 +1088,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The perimeter of P is 40, so the circumference of P is 40 * 2\u03c0 = 80\u03c0. [CORRECT] The perimeter of Q is 40 * 2\u03c0 = 80\u03c0. The answer is (c)."
+        "[INCORRECT] The perimeter of P is 40, so the circumference of P is 40 * 2\u03c0 = 80\u03c0. [CORRECT] The perimeter of Q is 40 * 2\u03c0 = 80\u03c0. [CORRECT] The circumference of Q is 80\u03c0. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1134,7 +1134,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The debtors first payment is $200, so the total amount owed is $200 + $200 = $400. The total amount paid back is $400 * 2 = $800. The total amount paid back is $800 + $51200 = $51200. The total amount paid back is $51200 - $400 = $41200. The total amount paid back is $41200 * 2 = $82400. The total amount paid back is $82400 - $51200 = $31600. The total amount paid back is $31600 * 2 = $62800. The total amount paid back is $62800 * 2 = $133600. The total amount paid back is $133600 * 2 = $266600. The total amount paid back is $266600 * 2 = $533300. The total amount"
+        "[INCORRECT] The debtors first payment is $200, so the total amount owed is $200 + $51200 = $101400. The total amount paid back is $101400 * 2 = $202800. The total amount paid back is $101400 + $51200 = $61600. The total amount paid back is $61600 * 2 = $122400. The total amount paid back is $122400 * 2 = $244800. The total amount paid back is $244800 * 2 = $499600. The total amount paid back is $499600 * 2 = $1299200. The total amount paid back is $1299200 * 2 = $2598400. The total amount paid back is $2598400 * 2 = $5797600. The total amount paid back is $"
       ]
     ],
     "filtered_resps": [
@@ -1180,7 +1180,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I. y<2x. The statement is false. The correct answer is (a)."
+        "[INCORRECT] I and II are not the same. The correct answer is (a). I only."
       ]
     ],
     "filtered_resps": [
@@ -1226,11 +1226,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of students to classes is 10/3 = 3. The current ratio is 3. The answer is (c)."
+        "[INCORRECT] The ratio of students per class is 10 - 1 = 9. The current ratio is 3. [CORRECT] The ratio of students per class is 9. The current ratio is 3. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total number of customers is 50 + 40 = 90. The total number of customers is 90 * $95,000 = $8,750,000. The total number of customers is 90 * $35,000 = $3,250,000. The total number of customers is 90 * $45,000 = $4,250,000. The total number of customers is 90 * $37,500 = $3,125,000. The total number of customers is 90 * $42,500 = $3,925,000. The total number of customers is 90 * $50,000 = $4,500,000. The total number of customers is 90 * $50,000 = $4,"
+        "[INCORRECT] The average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total number of customers is 50 + 40 = 90. The total number of customers is 90 * 10 = 900. The total number of customers is 50 + 40 = 90. The total number of customers is 900 + 900 = 1800. The total number of customers is 900 * 10 = 9000. The total number of customers is 9000 + 900 = 10000. The total number of customers is 10000 + 1000 = 11000. The total number of customers is 11000 + 1000 = 11100. The total number of customers is 11100 + 900 = 11000. The total number of customers is 11000 + "
       ]
     ],
     "filtered_resps": [
@@ -1318,11 +1318,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The curved surface of the cone is the curved surface of the cone, which is the curved surface of the cone. The slant height of the cone is 35 cm, and the radius of the base is 14 cm. The curved surface of the cone is the curved surface of the cone. The curved surface of the cone is the curved surface of the cone. The answer is (e)."
+        "[INCORRECT] The curved surface of the cone is the curved surface of the cone, which is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1364,7 +1364,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The volume of a normal block is 8 cubic feet. The volume of a small block is 1/2 * 8 = 4 cubic feet. The volume of a small block is 4 cubic feet * 1/2 = 2 cubic feet. The volume of a normal block is 2 cubic feet * 1/2 = 1 cubic foot. The volume of a small block is 1 cubic foot * 1/2 = 0.5 cubic feet. The volume of a small block is 0.5 cubic feet * 1/2 = 0.25 cubic feet. The volume of a small block is 0.25 cubic feet * 1/2 = 0.06 cubic feet. The volume of a small block is 0.06 cubic feet * 1/2 = 0.02 cubic feet. The volume of a small block is 0.02 cubic feet * 1/2 = 0.006 cubic feet. The volume of a small block is 0.006 cubic feet * 1/2 = 0.0006 cubic feet. The volume of a small block is "
+        "[INCORRECT] The volume of a normal block is 8 cubic feet. The volume of a small block is 1/2 * 8 = 4 cubic feet. The volume of a small block is 1/2 * 4 = 2 cubic feet. The volume of a normal block is 1/2 * 2 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot"
       ]
     ],
     "filtered_resps": [
@@ -1502,7 +1502,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The yearly return of the $500 investment is 19 percent of the total of the two investments. The yearly return of the $1,500 investment is 15 percent of the total of the two investments. 15% of 500 is 75. So the yearly return of the $1,500 investment is 75 * 1.5 = 100. The answer is (e)."
+        "[INCORRECT] The yearly return of the $500 investment is 19 percent of the total of the two investments. The yearly return of the $1,500 investment is 15 percent of the total of the two investments. 15% of 500 is 75. So the yearly return of the $1,500 investment is 75% of 500. 75% of 500 is 375. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1594,7 +1594,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I. 15. [CORRECT] II. 30. [CORRECT] III. 60. [CORRECT] IV. 30. [CORRECT] V. 60. [CORRECT] VI. 30. [CORRECT] VII. 60. [CORRECT] VIII. 30. [CORRECT] IX. 60. [CORRECT] X. 30. [CORRECT] XI. 60. [CORRECT] XII. 30. [CORRECT] XIII. 60. [CORRECT] XIV. 30. [CORRECT] XV. 60. [CORRECT] XVI. 30. [CORRECT] XVII. 60. [CORRECT] XVIII. 30. [CORRECT] XIX. 60. [CORRECT] XX. 30. [CORRECT] XXI. 60. [CORRECT] XXII. 30. [CORRECT] XXIII. 60. [CORRECT] XXIV. 30. [CORRECT] XXV."
+        "[INCORRECT] I. 15. [CORRECT] II. 30. [CORRECT] III. 60. [CORRECT] IV. 30. [CORRECT] V. 60. [CORRECT] VI. 30. [CORRECT] VII. 60. [CORRECT] VIII. 60. [CORRECT] IX. 60. [CORRECT] X. 60. [CORRECT] XI. 60. [CORRECT] XII. 60. [CORRECT] XIII. 60. [CORRECT] XIV. 60. [CORRECT] XV. 60. [CORRECT] XVI. 60. [CORRECT] XVII. 60. [CORRECT] XVIII. 60. [CORRECT] XIX. 60. [CORRECT] XX. 60. [CORRECT] XXI. 60. [CORRECT] XXII. 60. [CORRECT] XXIII. 60. [CORRECT] XXIV. 60. [CORRECT] XXV."
       ]
     ],
     "filtered_resps": [
@@ -1686,11 +1686,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 8 players in the chess group, so there are 8 * 2 = 16 games. [CORRECT] Each game is played by two players, so there are 16 games. The answer is (e)."
+        "[INCORRECT] There are 8 players in the chess group, so there are 8 * 2 = 16 games. [CORRECT] There are 10 games in total. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 * 1 = 1 hour - 2 = 1 hour - 1 = 0 minutes. The answer is (e)."
+        "[INCORRECT] The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 * 1 = 1 hour - 2 = 1 hour - 1 = 0 minutes. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1745,7 +1745,7 @@
     "doc_hash": "7d904e23caf03c5bd7b62639ed98b8cc4a6b0a6598681d23fe32bf0ee49a359b",
     "prompt_hash": "3839a7d7c0c6eda6cef858f193bafbb44bbb6e316157748892f9d4f77cdf1c3e",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The father\u00e2\u20ac\u2122s present age is 36 years. The sum of the ages of his two sons is 4 + 4 = 8 years. The father\u00e2\u20ac\u2122s present age is 8 years. Therefore, the father\u00e2\u20ac\u2122s age will be 8 years + 36 years = 54 years. The answer is (e)."
+        "[INCORRECT] The father\u00e2\u20ac\u2122s present age is 36 years. The sum of the ages of his two sons is 4 + 4 = 8 years. The father\u00e2\u20ac\u2122s present age is 8 years. The father\u00e2\u20ac\u2122s age will be double of the sum of the ages of his sons. The father\u00e2\u20ac\u2122s present age is 8 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1916,11 +1916,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10% gain on initial fluid = 10/100 * 200 = 200/100 * 10 = 200/10 = 20% gain. 10% gain on initial fluid = 10/100 * 200 = 200/100 * 10 = 20% gain. 200/100 * 10 = 20% gain. 200/100 * 100 = 20% gain. 200/100 * 1000 = 20% gain. 200/100 * 10000 = 20% gain. 200/100 * 100000 = 20% gain. 200/100 * 1000000 = 20% gain. 200/100 * 10000000 = 20% gain. 200/10"
+        "[INCORRECT] Given a 10% gain on initial fluid, the actual % difference is 10% * 100 = 10%. [CORRECT] The actual % difference is 10% of 200gm, which is 10%. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1962,7 +1962,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 8mph * 8hr = 64mph * 8hr = 508mph. 16mph * 8hr = 136mph * 8hr = 1360mph. 16mph * 8hr = 1360mph * 8hr = 13600mph. 13600mph * 8hr = 136000mph. 136000mph * 8hr = 1360000mph. 1360000mph * 8hr = 13600000mph. 13600000mph * 8hr = 136000000mph. 136000000mph * 8hr = 1360000000mph. 1360000000mph * 8hr = 13600000000mph. 13600000000mph * 8hr ="
+        "[INCORRECT] 8mph * 8 hours = 64mph. 16mph * 8 hours = 128mph. 128mph / 64mph = 2 miles. 2 miles / 64mph = 1/8 mile. 1/8 mile / 64 miles = 1/2 mile. 1/2 mile / 64 miles = 1/4 mile. 1/4 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / "
       ]
     ],
     "filtered_resps": [
@@ -2054,7 +2054,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 5 people in total. There are 5 chairs in the row, so there are 5 * 5 = 25 chairs. The couple cannot sit together, so there are 25 - 5 = 20 chairs. The probability that the couple does not sit together is 20/25. The answer is (e)."
+        "[INCORRECT] There are 5 people in total. There are 5 chairs in the row, so there are 5 * 5 = 25 chairs. The couple cannot sit together, so there are 25 - 1 = 24 chairs left. The probability that the couple does not sit together is the number of people who cannot sit together divided by the total number of people in the row. So, the probability is 24/25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2284,11 +2284,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The volume of the cube is 8500 cm3 * 13 paise per Sq.cm = 100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 100000 * 13 paise per Sq.cm = 133333 paise. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 100000 * 13 paise per Sq.cm = 133333 paise. The volume of the cube is 100000 cm3 * 13 paise per Sq.cm = 100000 cm3 * 13 paise per Sq.cm = 133333 paise. The answer is (c)."
+        "[INCORRECT] The volume of the cube is 8500 cm3 * 13 paise per Sq.cm = 100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98 * 13 paise per Sq.cm = 456.98 paise. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 456.98 * 13 paise per Sq.cm = 599.98 paise. The total cost of painting the whole surface area of the cube is Rs. 100000 + 456.98 + 599.98 = 100000 + 599.98 = 1599.98 paise. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2330,11 +2330,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20 * 20% = 400. 20 + 400 = 400. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 8"
+        "[INCORRECT] 20 * 20% = 40. [CORRECT] The man should sell 20 articles for $50. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2376,7 +2376,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 3:5 * 96 = 35. The man must invest 35% of the money. [CORRECT] The man must invest 35% of the money. The ratio is 35:96. The answer is (c)."
+        "[INCORRECT] 3:5 * 120 = 350. The man must invest 350 * 96 = 3120. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2422,7 +2422,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] C pays Rs. 45 * 7 * 5 * 3 = 45 * 7 * 5 * 3 = 45 * 10 * 3 = 45 * 15 = 650. The answer is (e)."
+        "[INCORRECT] C pays Rs. 45 * 7 * 5 * 3 = 1250. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2698,7 +2698,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The original price was Rs.2, and the new price was Rs.1.5. The chocolates sold out at Rs.1.5 * 1.9 = 2.5. The shopkeeper realized Rs.164.90 from the chocolates alone. The answer is (e)."
+        "[INCORRECT] The original price was Rs.2, and the new price was Rs.1.10. The chocolates sold out at Rs.1.10 * 1.9 = 1.99. The shopkeeper realized Rs.164.90 from the chocolates sold out. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2836,7 +2836,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The diagonals of a rhombus are 18 cm and 22 cm, so the area is (18 * 22) / 2 = 360 cm^2. [CORRECT] The area of a rhombus is 18 * 22 = 360 cm^2. The answer is (e)."
+        "[INCORRECT] The diagonals of a rhombus are 18 cm and 22 cm. The area of a rhombus is given by the formula A = (1/2) * b * h, where b is the length of the diagonals and h is the length of the sides. So, A = (1/2) * 18 * 22 = 277. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2882,7 +2882,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Rupee one is 9 over a period of 40 years, so 9 over 40 years is 9/40 = 0.25. The rate of simple interest is 0.25 * 40 = 10%. The answer is (e)."
+        "[INCORRECT] Rupee one is 9 over a period of 40 years, so 9 over 40 years is 9/40 = 0.25. The rate of simple interest is 0.25 * 9 = 2.25%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2928,7 +2928,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of A to B is 32:99. The ratio of B to A is 32:45. The ratio of A to B is 32:99. The ratio of B to A is 32:45. The ratio of A to B is 32:99. The ratio of B to A is 32:45. The ratio of A to B is 32:99. The answer is (c)."
+        "[INCORRECT] The ratio of A to B is 32:99. The ratio of B to A is 34:89. The ratio of A to B is 32:99. The ratio of B to A is 34:89. The ratio of A to B is 32:99. The ratio of B to A is 34:89. The ratio of A to B is 32:99. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -3020,11 +3020,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The rental charge is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. 1/4 mile is 1/4 * 1/4 = 1/2 miles. 1/5 mile is 1/5 * 1/5 = 1/2 miles. 3/5 mile is 3/5 * 1/5 = 1/2 miles. 3/5 + 1/2 = 6/2 miles. 6/2 + 1/2 = 3/2 miles. 3/2 + 1/2 = 6/2 miles. 6/2 + 1/2 = 9/2 miles. 9/2 + 1/2 = 10/2 miles. 10/2 + 1/2 = 11/2 miles. 11/2 + 1/2 = 12/2 miles. 12/2 + 1/2 = 13/2 miles. 13/2 + 1/2 = "
+        "[INCORRECT] The first 1/4 mile is 1/4 * 1.24 = 0.34 miles. The second 1/5 mile is 1/5 * 0.34 = 0.06 miles. The total distance is 0.34 + 0.06 = 0.09 miles. The man drove 0.09 miles / 1/5 miles = 0.09 * 100 = 90 miles. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3112,7 +3112,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10 women * 9 days = 900. 10 children * 12 days = 1200. 900 + 1200 = 1120. The answer is (e)."
+        "[INCORRECT] 10 women * 9 days = 90 women. 10 children * 12 days = 120 children. 9 + 10 + 12 = 27. 27 / 12 = 2.5 days. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3158,11 +3158,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the longest and shortest numbers is 10 + 10 = 20. The sum of the third number and 54 is 54 + 54 = 108. The answer is (d)."
+        "[INCORRECT] A)37. The sum of the longest and shortest numbers is 37 + 37 = 74. The third number is 74 - 37 = 37. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of a rhombus is half the product of its diagonals. The area of a rhombus is (1/2) * 25 * 30 = 272 sq.cm. The answer is (e)."
+        "[INCORRECT] The area of a rhombus is half the product of its diagonals. The side length of the rhombus is 25 cm, so the diagonal of the rhombus is 25 * 30 = 750 cm. The area of the rhombus is half the product of its diagonals, so the area is (1/2) * 750 * 30 = 2670 sq.cm. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3526,7 +3526,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 110 m * 72 km/hr = 7200 m. 132 m * 72 km/hr = 90400 m. 110 m * 90400 m = 904000 m. 132 m * 90400 m = 1008000 m. 110 m * 100800 m = 1100000 m. 132 m * 100000 m = 1320000 m. 110 m * 100000 m = 1100000 m. 132 m * 100000 m = 1320000 m. 110 m * 100000 m = 1100000 m. 132 m * 100000 m = 1320000 m. 110 m * 100000"
+        "[INCORRECT] 110 m * 72 km/hr = 7200 m. 132 m * 72 km/hr = 9040 m. 110 m * 9040 m = 904000 m. 132 m * 9040 m = 1008000 m. 110 m * 1000 m = 11000 m. 132 m * 1000 m = 132000 m. 110 m * 1000 m = 110000 m. 132 m * 1000 m = 1320000 m. 110 m * 1000 m = 1100000 m. 132 m * 1000 m = 1320000 m. 110 m * 1000 m = 1100000 m. 132 m * 10"
       ]
     ],
     "filtered_resps": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The consumption of diesel per hour is 1 litre per hour * 60 kmph = 600 litres per hour. The cost of diesel per hour is $60. The other expenses per hous is $60. The minimum expenditure required to cover a distance of 600 Km is 600 litres / 600 litres per hour * 600 Km = 1200 litres per hour. The answer is (e)."
+        "[INCORRECT] The consumption of diesel per hour is 1 litre per hour * 60 kmph = 600 litres per hour. The cost of diesel per hour is $60. The other expenses per hous are $60. The minimum expenditure required to cover a distance of 600 Km is 600 litres / 600 litres per hour * 600 Km = 1200 litres. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3664,11 +3664,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The probability of choosing exactly three good bulbs is 4/69, and the probability of choosing exactly three bad bulbs is 4/63. The probability of choosing exactly three good bulbs is 4/69, and the probability of choosing exactly three bad bulbs is 4/63. The total number of possible outcomes is 69 * 63 = 4396. The number of favorable outcomes is 4/69 + 4/63 = 7/69. The probability of choosing exactly three good bulbs is 7/69. The probability of choosing exactly three bad bulbs is 4/63. The probability of choosing exactly three good bulbs is 7/69. The probability of choosing exactly three bad bulbs is 4/63. The answer is (e)."
+        "[INCORRECT] The probability of choosing exactly three good bulbs is 4/69. The probability of choosing exactly three defective bulbs is 4/63. The probability of choosing exactly three good bulbs is 20/65. The probability of choosing exactly three defective bulbs is 20/61. The probability of choosing exactly three good bulbs is 20/62. The probability of choosing exactly three defective bulbs is 20/62. The probability of choosing exactly three good bulbs is 20/63. The probability of choosing exactly three defective bulbs is 20/63. The probability of choosing exactly three good bulbs is 20/65. The probability of choosing exactly three defective bulbs is 20/65. The probability of choosing exactly three good bulbs is 20/61. The probability of choosing exactly three defective bulbs is 20/62. The probability of choosing exactly three good bulbs is 20/63. The probability of choosing exactly three defective bulbs is 20/65. The probability of choosing exactly three good bulbs is 20/61. The probability of choosing exactly three defective bulbs is 20/"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3710,11 +3710,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The train is moving at 54 km/hr, so the speed of the man is 54 * 5 = 296 km/hr. The train is moving at 32 sec, so the man is moving at 32 * 3 = 108 km/hr. The man is moving at 108 km/hr / 296 km/hr = 4.66 sec. The train is moving at 296 km/hr / 108 km/hr = 2.46 sec. The man is moving at 2.46 sec / 4.66 sec = 6.66 sec. The platform is 228 sec / 6.66 sec = 32.66 sec. The answer is (c)."
+        "[INCORRECT] The train is moving at 54 km/hr, so the speed of the train is 54 * 32 = 166 km/hr. The man is standing on the platform in 20 sec, so the man is moving at 20 * 32 = 600 km/hr. The speed of the train is 54 km/hr * 600 km/hr = 32000 km/hr. The man is moving at 32000 km/hr / 600 km/hr = 500 m. The length of the platform is 228 m. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3723,7 +3723,7 @@
     "doc_hash": "35cf188eacffafb73439125eea2f48f24a955e65e2cf4c5378166bab6b004cf2",
     "prompt_hash": "3bc8d29cae108258e28513821ec5905f4f0c5e30c08a297e882d42aa2ebf724b",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -3802,11 +3802,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The first number is 30% of the second number, so 30% of 37% is 0.3 * 0.37 = 0.09. The second number is 37% of 30% is 0.37 * 0.30 = 0.14. The answer is (c)."
+        "[INCORRECT] 30% of 100 is 300, and 37% of 1000 is 3700. 300 * 37 = 10000. 10000 / 37 = 300. 300 / 37 = 8%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3815,7 +3815,7 @@
     "doc_hash": "92885bddf156b0c047af931c76ee81e490427130036ace7aaa22c7030097a130",
     "prompt_hash": "ca22be7d7adc24c9f931f3b5e1ca029e65c1c3171b5ae34c1ebfa36f0245db15",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -3894,11 +3894,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The measure of the edge in meters is not numerically equal to the measure of the surface area. The surface area of a cube is 6 * 6 * 6 = 216. The volume of a cube is 1/3 * 6 * 6 * 6 = 216 cubic meters. The answer is (e)."
+        "[INCORRECT] The measure of the edge in meters is not numerically equal to the surface area of the cube. The surface area of a cube is 6 * 6 * 6 = 256. The volume of a cube is 1^3 = 1. The measure of the edge in meters is 4 * 6 * 6 = 25. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3940,7 +3940,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of mice to test is 24 hours * 30 cans = 720 mice. The number of mice to test is 24 hours * 2 = 52 mice. The number of mice to test is 720 + 52 = 772 mice. The answer is (e)."
+        "[INCORRECT] The number of mice to test is 24 hours * 30 cans = 720. The number of mice to test is 720 / 24 = 28. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3986,7 +3986,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 0.293 hours. 0.293 hours * 660 meters / hour = 18.33 meters. The answer is (e)."
+        "[INCORRECT] 165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 2.5 hours. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4124,11 +4124,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The greatest possible profit is the maximum profit that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs"
+        "[INCORRECT] The greatest possible profit is the maximum profit that can be made by selling 13 books at the highest price. The maximum profit is the maximum profit that can be made by selling 13 books at the highest price. The maximum profit is the maximum profit that can be made by selling 13 books at the highest price. The maximum profit is the maximum profit that can be made by selling 13 books at the highest price. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4137,7 +4137,7 @@
     "doc_hash": "6672f49bfd7a7ff4cb4e01ac0e1fa0cb15903bd71674ab19016e60308e6cf6ef",
     "prompt_hash": "78796d6f1070578014c8ee9b476f0db8466f74082b0c1e64b7957fb1a24aacf6",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 90,
@@ -4170,7 +4170,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The train B travels at 40 kmph. The train A travels at 60 kmph. The rate at which the train B runs is the difference between the two speeds. The difference is 40 - 60 = 10 kmph. The rate at which the train A travels is 90 kmph. The difference is 90 - 60 = 30 kmph. The answer is (c)."
+        "[INCORRECT] The train B travels at 40 kmph. The train A travels at 60 kmph. The rate at which the train B runs is the difference between the two speeds. The difference is 40 - 60 = 10 kmph. The rate at which the train A runs is 60 kmph. The rate at which the train B runs is 10 kmph. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4262,11 +4262,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 1/4th of a day is 1/4 * 60 = 60 minutes. 1 man can complete 1/4 * 60 = 60 minutes. 1 woman can complete 1/4 * 60 = 60 minutes. 1 man and 1 woman can complete 60 minutes / 1/4 = 10 boys. The answer is (e)."
+        "[INCORRECT] 1/4th of a day is 1/4 * 60 = 60 minutes. 1 man can complete 1/4 * 60 = 60 minutes. 1 woman can complete 1/4 * 60 = 60 minutes. 1 man and 1 woman can complete 60 minutes / 1/4 = 10 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 41 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 31 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4446,7 +4446,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of a square is 1^2 = 1. The area of a square with side length 25 is 1 * 25 = 30. The area of a square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square is 1^2 + 30^2 = 1 + 900 = 900. The area of the square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 + 25 = 50 is 50 * 50 ="
+        "[INCORRECT] The area of a square is 1^2 = 1. The area of a square with side length 25 is 1 * 25 = 30. The area of a square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square is 30 + 50 = 80. The area of the square with side length 25 is 80 * 80 = 640. The area of the square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 + 25"
       ]
     ],
     "filtered_resps": [
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The interest rate is compounded monthly, so the interest is compounded annually. The annual interest rate is 5% of $500, which is 0.05 * $500 = $25. The value of the investment after 10 years is the value of the investment after 10 years times the annual interest rate. The annual interest rate is 5% of $500, which is 0.05 * $500 = $25. The value of the investment after 10 years is $500 * 25 = $12500. The answer is (e)."
+        "[INCORRECT] The interest rate is compounded monthly, so the interest is compounded annually. The annual interest rate is 5% * 12 = 6.67%. The value of the investment after 10 years is the interest rate times the number of years, which is 6.67% * 10 = 6.67%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4584,7 +4584,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of the volumes of the two jars is 5: 4. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first jar is 2: 1. The ratio of the volumes of the second jar is 1: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and second jar is 2: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and third jar is 1: 1. The ratio of the volumes of the second and third jar is 1: 1. The ratio of the volumes of the first and fourth jar is 1: 1. The ratio of the volumes of the second and fourth jar is 1: 1. The ratio of the volumes of the first and fifth jar is 1: 1. The ratio of the volumes of the second and fifth jar is 1: 1. The ratio of the volumes of the first and sixth jar is 1: 1. The ratio of the volumes of the second and sixth jar"
+        "[INCORRECT] The ratio of the volumes of the two jars is 5: 4. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first jar is 2: 1. The ratio of the volumes of the second jar is 1: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and second jar is 2: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and third jar is 1: 1. The ratio of the volumes of the second and third jar is 1: 1. The ratio of the volumes of the first and fourth jar is 1: 1. The ratio of the volumes of the first and fifth jar is 1: 1. The ratio of the volumes of the first and sixth jar is 1: 1. The ratio of the volumes of the first and seventh jar is 1: 1. The ratio of the volumes of the first and eighth jar is 1: 1. The ratio of the volumes of the first and ninth jar"
       ]
     ],
     "filtered_resps": [
@@ -4630,11 +4630,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Friend P's rate is 15% faster than Friend Q's, so Friend P will have walked 15% of the total distance. 43 - 15 = 26.5. Friend Q's rate is 15% faster than Friend P's, so Friend Q will have walked 15% of the total distance. 43 - 15 = 26.5. Friend P will have walked 26.5 kilometers. The answer is (e)."
+        "[INCORRECT] Friend P's rate is 15% faster than Friend Q's, so Friend Q's rate is 15% of Friend P's rate. Friend Q's rate is 15% of 21, so Friend Q's rate is 15% of 21.5. Friend Q's rate is 15% of 22, so Friend Q's rate is 15% of 22.5. Friend Q's rate is 15% of 23, so Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's rate is 15% of 23. Friend Q's"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4643,7 +4643,7 @@
     "doc_hash": "5f40282913e4d55ba41c7592172024e47bf8f2c75c050efc2eb50a8c3c80acbc",
     "prompt_hash": "fc4a471224bcac4d49a6e1ebb082d1ae5fb3bef454cac328aca0dc1a1723c83e",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 1,
@@ -4722,7 +4722,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and for any two numbers p and q, the expression p^2 - pq is always non-negative. Therefore, the only possible value for x@y is x^2 - xy = 0.\n\nII. (xy)@y\n\nThe expression xy is a linear combination of the two numbers p and q, and the only way to get a non-zero value for xy is if p and q are both equal to zero. Therefore, the only possible value for (xy)@y is 0.\n\nIII. x@(x + y)\n\nThe expression x@y is a linear combination of the two numbers p and q, and the only way to get a non-zero value for x@y is if p and q are both equal to zero. Therefore, the only possible value for (x@y)@y is 0.\n\nI. x@y\n\nThe expression x@y is a linear combination of the two numbers p and q, and the only way to get a non-zero value for x@y is if"
+        "[INCORRECT] I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, and the equation x@y = 0 implies that x^2 - pq = 0. Since x^2 - pq = 0, we can equate the two expressions and solve for x.\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 - pq = 0\n\nx^2 - pq = 0\nx^2 -"
       ]
     ],
     "filtered_resps": [
@@ -4860,11 +4860,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. The number of ways to choose Jim and Ellen from 6 is 6! / (6-6)! = 6! / 3! = 6 * 5 * 4 * 3 * 2 * 1 = 120. The number of ways to choose 2 members from 2 is 2! = 2 * 1 = 2. The number of ways to choose 3 members from 3 is 3! = 3 * 2 * 1 = 6. The number of ways to choose 4 members from 4 is 4! = 4 * 3 * 2 * 1 = 24. The number of ways to choose 5 members from 5 is 5! = 5 * 4 * 3 * 2 * 1 = 120. The number of ways to choose 6 members from 6 is 6! = 6 * 5 * 4 * 3 * 2 * 1 = 120. The answer is (e)."
+        "[INCORRECT] There are 6 possible combinations in which Jim and Ellen are not selected. 6 - 2 = 4. The value of k is 4. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4906,11 +4906,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] x can be represented by (x^2 + 4x - 11)/5 \u2264 x + 1. [CORRECT] The expression (x^2 + 4x - 11)/5 \u2264 x + 1 is a quadratic inequality. The solutions to this inequality are x = 1, x = 2, x = 3, and x = 4. The answer is (c)."
+        "[INCORRECT] x can be represented by (x^2 + 4x - 11)/5 \u2264 x + 1. [CORRECT] The expression (x^2 + 4x - 11)/5 \u2264 x + 1 is a valid inequality. The correct answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5090,11 +5090,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tim gave 20% tip, so he gave 20% of $50, which is $20 * 0.2 = $4.\nThe total amount spent is $50 + $4 = $54.\nThe answer is (d)."
+        "[INCORRECT] Tim gave 20% tip, so he gave 20% of $50, which is $20 * 0.2 = $4.\nThe total amount spent is $50 + $4 = $54.\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5136,7 +5136,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The rate of interest is 4% per year, so the rate of simple interest is 4 * 100 = 400%. The amount to be increased is Rs. 956 * 400 = 39,200. The answer is (c)."
+        "[INCORRECT] The rate of interest is 4% per year, so the rate of simple interest is 4 * 100 = 400%. The amount to be increased is Rs. 956 * 400 = 39200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5182,7 +5182,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT] The remainder when p is divided by 10 is 6. [CORRECT"
+        "[INCORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT] The remainder when p is divided by 10 is 4. [CORRECT] The remainder when p is divided by 10 is 0. [CORRECT"
       ]
     ],
     "filtered_resps": [
@@ -5274,7 +5274,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of A to C is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1"
+        "[INCORRECT] The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1:1:1, so C is 1/7. The ratio of A to B is 1:1:1, so A is 1/7. The ratio of B to C is 1:1:1, so B is 1/7. The ratio of C to A is 1"
       ]
     ],
     "filtered_resps": [
@@ -5320,7 +5320,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] "
+        "[INCORRECT] 8a + 5b = 22. [CORRECT] 8a + 5b = 22. [DIFF] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [HINT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8a + 5b = 22. [GREAT] 8a + 5b = 22. [EQUAL] 8a + 5b = 22. [FACT] 8"
       ]
     ],
     "filtered_resps": [
@@ -5366,7 +5366,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] k/l^2 is greater than 1. [CORRECT] The given condition is that both k and l are positive integers. [CORRECT] The only positive integer that satisfies the condition is k/l. [CORRECT] The only positive integer that satisfies the condition is k/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^2. [CORRECT] The only positive integer that satisfies the condition is k^2/l^"
+        "[INCORRECT] k/l^2 is greater than 1 because k^2 is greater than 1. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than 1 is k/l^2. [CORRECT] The only possibility that is greater than"
       ]
     ],
     "filtered_resps": [
@@ -5412,7 +5412,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 120. [CORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 120. The answer is (e)."
+        "[INCORRECT] The difference in the score of his last mock and his GMAT score is 760 - 716.67 = 120. [CORRECT] The difference is 120. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5458,7 +5458,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10 * 15 = 150. The mean is 40 + 150 = 550. The answer is (e)."
+        "[INCORRECT] 10 * 15 = 150. The mean is 40 + 150 = 150. [CORRECT] The new mean is 40 + 150 = 150. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5504,7 +5504,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20 * 2.5 = 45.5. [CORRECT] The person would have traveld 20 km/hr * 2.5 hr = 50 km. The answer is (e)."
+        "[INCORRECT] 20 * 2.5 = 45.500. [CORRECT] There are 9 one-digit numbers from 1 to 9. There are 90 two-digit numbers from 10 to 99. There are 401 three-digit numbers from 100 to 500. 9 + 90*2 + 401*3 = 455. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5596,11 +5596,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3.5 bags. Tim has 350 pounds / 350 bags = 1 bag. The answer is (e)."
+        "[INCORRECT] Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3.5 bags. Tim has 350 pounds / 350 bags = 1 bag. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,11 +5688,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The perimeter of P is 40, so the circumference of P is 40 * 2\u03c0 = 80\u03c0. [CORRECT] The perimeter of Q is 40 * 2\u03c0 = 80\u03c0. The answer is (c)."
+        "[INCORRECT] The perimeter of P is 40, so the circumference of P is 40 * 2\u03c0 = 80\u03c0. [CORRECT] The perimeter of Q is 40 * 2\u03c0 = 80\u03c0. [CORRECT] The circumference of Q is 80\u03c0. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5734,7 +5734,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The debtors first payment is $200, so the total amount owed is $200 + $200 = $400. The total amount paid back is $400 * 2 = $800. The total amount paid back is $800 + $51200 = $51200. The total amount paid back is $51200 - $400 = $41200. The total amount paid back is $41200 * 2 = $82400. The total amount paid back is $82400 - $51200 = $31600. The total amount paid back is $31600 * 2 = $62800. The total amount paid back is $62800 * 2 = $133600. The total amount paid back is $133600 * 2 = $266600. The total amount paid back is $266600 * 2 = $533300. The total amount"
+        "[INCORRECT] The debtors first payment is $200, so the total amount owed is $200 + $51200 = $101400. The total amount paid back is $101400 * 2 = $202800. The total amount paid back is $101400 + $51200 = $61600. The total amount paid back is $61600 * 2 = $122400. The total amount paid back is $122400 * 2 = $244800. The total amount paid back is $244800 * 2 = $499600. The total amount paid back is $499600 * 2 = $1299200. The total amount paid back is $1299200 * 2 = $2598400. The total amount paid back is $2598400 * 2 = $5797600. The total amount paid back is $"
       ]
     ],
     "filtered_resps": [
@@ -5780,7 +5780,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I. y<2x. The statement is false. The correct answer is (a)."
+        "[INCORRECT] I and II are not the same. The correct answer is (a). I only."
       ]
     ],
     "filtered_resps": [
@@ -5826,11 +5826,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of students to classes is 10/3 = 3. The current ratio is 3. The answer is (c)."
+        "[INCORRECT] The ratio of students per class is 10 - 1 = 9. The current ratio is 3. [CORRECT] The ratio of students per class is 9. The current ratio is 3. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5872,7 +5872,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total number of customers is 50 + 40 = 90. The total number of customers is 90 * $95,000 = $8,750,000. The total number of customers is 90 * $35,000 = $3,250,000. The total number of customers is 90 * $45,000 = $4,250,000. The total number of customers is 90 * $37,500 = $3,125,000. The total number of customers is 90 * $42,500 = $3,925,000. The total number of customers is 90 * $50,000 = $4,500,000. The total number of customers is 90 * $50,000 = $4,"
+        "[INCORRECT] The average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total number of customers is 50 + 40 = 90. The total number of customers is 90 * 10 = 900. The total number of customers is 50 + 40 = 90. The total number of customers is 900 + 900 = 1800. The total number of customers is 900 * 10 = 9000. The total number of customers is 9000 + 900 = 10000. The total number of customers is 10000 + 1000 = 11000. The total number of customers is 11000 + 1000 = 11100. The total number of customers is 11100 + 900 = 11000. The total number of customers is 11000 + "
       ]
     ],
     "filtered_resps": [
@@ -5918,11 +5918,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The curved surface of the cone is the curved surface of the cone, which is the curved surface of the cone. The slant height of the cone is 35 cm, and the radius of the base is 14 cm. The curved surface of the cone is the curved surface of the cone. The curved surface of the cone is the curved surface of the cone. The answer is (e)."
+        "[INCORRECT] The curved surface of the cone is the curved surface of the cone, which is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of the base plus the curved surface of the cone. The curved surface of the base is the curved surface of"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5964,7 +5964,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The volume of a normal block is 8 cubic feet. The volume of a small block is 1/2 * 8 = 4 cubic feet. The volume of a small block is 4 cubic feet * 1/2 = 2 cubic feet. The volume of a normal block is 2 cubic feet * 1/2 = 1 cubic foot. The volume of a small block is 1 cubic foot * 1/2 = 0.5 cubic feet. The volume of a small block is 0.5 cubic feet * 1/2 = 0.25 cubic feet. The volume of a small block is 0.25 cubic feet * 1/2 = 0.06 cubic feet. The volume of a small block is 0.06 cubic feet * 1/2 = 0.02 cubic feet. The volume of a small block is 0.02 cubic feet * 1/2 = 0.006 cubic feet. The volume of a small block is 0.006 cubic feet * 1/2 = 0.0006 cubic feet. The volume of a small block is "
+        "[INCORRECT] The volume of a normal block is 8 cubic feet. The volume of a small block is 1/2 * 8 = 4 cubic feet. The volume of a small block is 1/2 * 4 = 2 cubic feet. The volume of a normal block is 1/2 * 2 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot. The volume of a small block is 1/2 * 1 = 1 cubic foot"
       ]
     ],
     "filtered_resps": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The yearly return of the $500 investment is 19 percent of the total of the two investments. The yearly return of the $1,500 investment is 15 percent of the total of the two investments. 15% of 500 is 75. So the yearly return of the $1,500 investment is 75 * 1.5 = 100. The answer is (e)."
+        "[INCORRECT] The yearly return of the $500 investment is 19 percent of the total of the two investments. The yearly return of the $1,500 investment is 15 percent of the total of the two investments. 15% of 500 is 75. So the yearly return of the $1,500 investment is 75% of 500. 75% of 500 is 375. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6194,7 +6194,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] I. 15. [CORRECT] II. 30. [CORRECT] III. 60. [CORRECT] IV. 30. [CORRECT] V. 60. [CORRECT] VI. 30. [CORRECT] VII. 60. [CORRECT] VIII. 30. [CORRECT] IX. 60. [CORRECT] X. 30. [CORRECT] XI. 60. [CORRECT] XII. 30. [CORRECT] XIII. 60. [CORRECT] XIV. 30. [CORRECT] XV. 60. [CORRECT] XVI. 30. [CORRECT] XVII. 60. [CORRECT] XVIII. 30. [CORRECT] XIX. 60. [CORRECT] XX. 30. [CORRECT] XXI. 60. [CORRECT] XXII. 30. [CORRECT] XXIII. 60. [CORRECT] XXIV. 30. [CORRECT] XXV."
+        "[INCORRECT] I. 15. [CORRECT] II. 30. [CORRECT] III. 60. [CORRECT] IV. 30. [CORRECT] V. 60. [CORRECT] VI. 30. [CORRECT] VII. 60. [CORRECT] VIII. 60. [CORRECT] IX. 60. [CORRECT] X. 60. [CORRECT] XI. 60. [CORRECT] XII. 60. [CORRECT] XIII. 60. [CORRECT] XIV. 60. [CORRECT] XV. 60. [CORRECT] XVI. 60. [CORRECT] XVII. 60. [CORRECT] XVIII. 60. [CORRECT] XIX. 60. [CORRECT] XX. 60. [CORRECT] XXI. 60. [CORRECT] XXII. 60. [CORRECT] XXIII. 60. [CORRECT] XXIV. 60. [CORRECT] XXV."
       ]
     ],
     "filtered_resps": [
@@ -6286,11 +6286,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 8 players in the chess group, so there are 8 * 2 = 16 games. [CORRECT] Each game is played by two players, so there are 16 games. The answer is (e)."
+        "[INCORRECT] There are 8 players in the chess group, so there are 8 * 2 = 16 games. [CORRECT] There are 10 games in total. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6332,11 +6332,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 * 1 = 1 hour - 2 = 1 hour - 1 = 0 minutes. The answer is (e)."
+        "[INCORRECT] The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 * 1 = 1 hour - 2 = 1 hour - 1 = 0 minutes. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6345,7 +6345,7 @@
     "doc_hash": "7d904e23caf03c5bd7b62639ed98b8cc4a6b0a6598681d23fe32bf0ee49a359b",
     "prompt_hash": "3839a7d7c0c6eda6cef858f193bafbb44bbb6e316157748892f9d4f77cdf1c3e",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 38,
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The father\u00e2\u20ac\u2122s present age is 36 years. The sum of the ages of his two sons is 4 + 4 = 8 years. The father\u00e2\u20ac\u2122s present age is 8 years. Therefore, the father\u00e2\u20ac\u2122s age will be 8 years + 36 years = 54 years. The answer is (e)."
+        "[INCORRECT] The father\u00e2\u20ac\u2122s present age is 36 years. The sum of the ages of his two sons is 4 + 4 = 8 years. The father\u00e2\u20ac\u2122s present age is 8 years. The father\u00e2\u20ac\u2122s age will be double of the sum of the ages of his sons. The father\u00e2\u20ac\u2122s present age is 8 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6516,11 +6516,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10% gain on initial fluid = 10/100 * 200 = 200/100 * 10 = 200/10 = 20% gain. 10% gain on initial fluid = 10/100 * 200 = 200/100 * 10 = 20% gain. 200/100 * 10 = 20% gain. 200/100 * 100 = 20% gain. 200/100 * 1000 = 20% gain. 200/100 * 10000 = 20% gain. 200/100 * 100000 = 20% gain. 200/100 * 1000000 = 20% gain. 200/100 * 10000000 = 20% gain. 200/10"
+        "[INCORRECT] Given a 10% gain on initial fluid, the actual % difference is 10% * 100 = 10%. [CORRECT] The actual % difference is 10% of 200gm, which is 10%. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6562,7 +6562,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 8mph * 8hr = 64mph * 8hr = 508mph. 16mph * 8hr = 136mph * 8hr = 1360mph. 16mph * 8hr = 1360mph * 8hr = 13600mph. 13600mph * 8hr = 136000mph. 136000mph * 8hr = 1360000mph. 1360000mph * 8hr = 13600000mph. 13600000mph * 8hr = 136000000mph. 136000000mph * 8hr = 1360000000mph. 1360000000mph * 8hr = 13600000000mph. 13600000000mph * 8hr ="
+        "[INCORRECT] 8mph * 8 hours = 64mph. 16mph * 8 hours = 128mph. 128mph / 64mph = 2 miles. 2 miles / 64mph = 1/8 mile. 1/8 mile / 64 miles = 1/2 mile. 1/2 mile / 64 miles = 1/4 mile. 1/4 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / 64 miles = 1/16 mile. 1/16 mile / "
       ]
     ],
     "filtered_resps": [
@@ -6654,7 +6654,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] There are 5 people in total. There are 5 chairs in the row, so there are 5 * 5 = 25 chairs. The couple cannot sit together, so there are 25 - 5 = 20 chairs. The probability that the couple does not sit together is 20/25. The answer is (e)."
+        "[INCORRECT] There are 5 people in total. There are 5 chairs in the row, so there are 5 * 5 = 25 chairs. The couple cannot sit together, so there are 25 - 1 = 24 chairs left. The probability that the couple does not sit together is the number of people who cannot sit together divided by the total number of people in the row. So, the probability is 24/25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6884,11 +6884,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The volume of the cube is 8500 cm3 * 13 paise per Sq.cm = 100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 100000 * 13 paise per Sq.cm = 133333 paise. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 100000 * 13 paise per Sq.cm = 133333 paise. The volume of the cube is 100000 cm3 * 13 paise per Sq.cm = 100000 cm3 * 13 paise per Sq.cm = 133333 paise. The answer is (c)."
+        "[INCORRECT] The volume of the cube is 8500 cm3 * 13 paise per Sq.cm = 100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98 * 13 paise per Sq.cm = 456.98 paise. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 456.98 * 13 paise per Sq.cm = 599.98 paise. The total cost of painting the whole surface area of the cube is Rs. 100000 + 456.98 + 599.98 = 100000 + 599.98 = 1599.98 paise. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6930,11 +6930,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 20 * 20% = 400. 20 + 400 = 400. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 80. 20% of 400 is 0.20 * 400 = 8"
+        "[INCORRECT] 20 * 20% = 40. [CORRECT] The man should sell 20 articles for $50. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6976,7 +6976,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 3:5 * 96 = 35. The man must invest 35% of the money. [CORRECT] The man must invest 35% of the money. The ratio is 35:96. The answer is (c)."
+        "[INCORRECT] 3:5 * 120 = 350. The man must invest 350 * 96 = 3120. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7022,7 +7022,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] C pays Rs. 45 * 7 * 5 * 3 = 45 * 7 * 5 * 3 = 45 * 10 * 3 = 45 * 15 = 650. The answer is (e)."
+        "[INCORRECT] C pays Rs. 45 * 7 * 5 * 3 = 1250. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7298,7 +7298,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The original price was Rs.2, and the new price was Rs.1.5. The chocolates sold out at Rs.1.5 * 1.9 = 2.5. The shopkeeper realized Rs.164.90 from the chocolates alone. The answer is (e)."
+        "[INCORRECT] The original price was Rs.2, and the new price was Rs.1.10. The chocolates sold out at Rs.1.10 * 1.9 = 1.99. The shopkeeper realized Rs.164.90 from the chocolates sold out. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7436,7 +7436,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The diagonals of a rhombus are 18 cm and 22 cm, so the area is (18 * 22) / 2 = 360 cm^2. [CORRECT] The area of a rhombus is 18 * 22 = 360 cm^2. The answer is (e)."
+        "[INCORRECT] The diagonals of a rhombus are 18 cm and 22 cm. The area of a rhombus is given by the formula A = (1/2) * b * h, where b is the length of the diagonals and h is the length of the sides. So, A = (1/2) * 18 * 22 = 277. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7482,7 +7482,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Rupee one is 9 over a period of 40 years, so 9 over 40 years is 9/40 = 0.25. The rate of simple interest is 0.25 * 40 = 10%. The answer is (e)."
+        "[INCORRECT] Rupee one is 9 over a period of 40 years, so 9 over 40 years is 9/40 = 0.25. The rate of simple interest is 0.25 * 9 = 2.25%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7528,7 +7528,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of A to B is 32:99. The ratio of B to A is 32:45. The ratio of A to B is 32:99. The ratio of B to A is 32:45. The ratio of A to B is 32:99. The ratio of B to A is 32:45. The ratio of A to B is 32:99. The answer is (c)."
+        "[INCORRECT] The ratio of A to B is 32:99. The ratio of B to A is 34:89. The ratio of A to B is 32:99. The ratio of B to A is 34:89. The ratio of A to B is 32:99. The ratio of B to A is 34:89. The ratio of A to B is 32:99. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7620,11 +7620,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The rental charge is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. 1/4 mile is 1/4 * 1/4 = 1/2 miles. 1/5 mile is 1/5 * 1/5 = 1/2 miles. 3/5 mile is 3/5 * 1/5 = 1/2 miles. 3/5 + 1/2 = 6/2 miles. 6/2 + 1/2 = 3/2 miles. 3/2 + 1/2 = 6/2 miles. 6/2 + 1/2 = 9/2 miles. 9/2 + 1/2 = 10/2 miles. 10/2 + 1/2 = 11/2 miles. 11/2 + 1/2 = 12/2 miles. 12/2 + 1/2 = 13/2 miles. 13/2 + 1/2 = "
+        "[INCORRECT] The first 1/4 mile is 1/4 * 1.24 = 0.34 miles. The second 1/5 mile is 1/5 * 0.34 = 0.06 miles. The total distance is 0.34 + 0.06 = 0.09 miles. The man drove 0.09 miles / 1/5 miles = 0.09 * 100 = 90 miles. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 10 women * 9 days = 900. 10 children * 12 days = 1200. 900 + 1200 = 1120. The answer is (e)."
+        "[INCORRECT] 10 women * 9 days = 90 women. 10 children * 12 days = 120 children. 9 + 10 + 12 = 27. 27 / 12 = 2.5 days. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7758,11 +7758,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The sum of the longest and shortest numbers is 10 + 10 = 20. The sum of the third number and 54 is 54 + 54 = 108. The answer is (d)."
+        "[INCORRECT] A)37. The sum of the longest and shortest numbers is 37 + 37 = 74. The third number is 74 - 37 = 37. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8080,7 +8080,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of a rhombus is half the product of its diagonals. The area of a rhombus is (1/2) * 25 * 30 = 272 sq.cm. The answer is (e)."
+        "[INCORRECT] The area of a rhombus is half the product of its diagonals. The side length of the rhombus is 25 cm, so the diagonal of the rhombus is 25 * 30 = 750 cm. The area of the rhombus is half the product of its diagonals, so the area is (1/2) * 750 * 30 = 2670 sq.cm. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8126,7 +8126,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 110 m * 72 km/hr = 7200 m. 132 m * 72 km/hr = 90400 m. 110 m * 90400 m = 904000 m. 132 m * 90400 m = 1008000 m. 110 m * 100800 m = 1100000 m. 132 m * 100000 m = 1320000 m. 110 m * 100000 m = 1100000 m. 132 m * 100000 m = 1320000 m. 110 m * 100000 m = 1100000 m. 132 m * 100000 m = 1320000 m. 110 m * 100000"
+        "[INCORRECT] 110 m * 72 km/hr = 7200 m. 132 m * 72 km/hr = 9040 m. 110 m * 9040 m = 904000 m. 132 m * 9040 m = 1008000 m. 110 m * 1000 m = 11000 m. 132 m * 1000 m = 132000 m. 110 m * 1000 m = 110000 m. 132 m * 1000 m = 1320000 m. 110 m * 1000 m = 1100000 m. 132 m * 1000 m = 1320000 m. 110 m * 1000 m = 1100000 m. 132 m * 10"
       ]
     ],
     "filtered_resps": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The consumption of diesel per hour is 1 litre per hour * 60 kmph = 600 litres per hour. The cost of diesel per hour is $60. The other expenses per hous is $60. The minimum expenditure required to cover a distance of 600 Km is 600 litres / 600 litres per hour * 600 Km = 1200 litres per hour. The answer is (e)."
+        "[INCORRECT] The consumption of diesel per hour is 1 litre per hour * 60 kmph = 600 litres per hour. The cost of diesel per hour is $60. The other expenses per hous are $60. The minimum expenditure required to cover a distance of 600 Km is 600 litres / 600 litres per hour * 600 Km = 1200 litres. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8264,11 +8264,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The probability of choosing exactly three good bulbs is 4/69, and the probability of choosing exactly three bad bulbs is 4/63. The probability of choosing exactly three good bulbs is 4/69, and the probability of choosing exactly three bad bulbs is 4/63. The total number of possible outcomes is 69 * 63 = 4396. The number of favorable outcomes is 4/69 + 4/63 = 7/69. The probability of choosing exactly three good bulbs is 7/69. The probability of choosing exactly three bad bulbs is 4/63. The probability of choosing exactly three good bulbs is 7/69. The probability of choosing exactly three bad bulbs is 4/63. The answer is (e)."
+        "[INCORRECT] The probability of choosing exactly three good bulbs is 4/69. The probability of choosing exactly three defective bulbs is 4/63. The probability of choosing exactly three good bulbs is 20/65. The probability of choosing exactly three defective bulbs is 20/61. The probability of choosing exactly three good bulbs is 20/62. The probability of choosing exactly three defective bulbs is 20/62. The probability of choosing exactly three good bulbs is 20/63. The probability of choosing exactly three defective bulbs is 20/63. The probability of choosing exactly three good bulbs is 20/65. The probability of choosing exactly three defective bulbs is 20/65. The probability of choosing exactly three good bulbs is 20/61. The probability of choosing exactly three defective bulbs is 20/62. The probability of choosing exactly three good bulbs is 20/63. The probability of choosing exactly three defective bulbs is 20/65. The probability of choosing exactly three good bulbs is 20/61. The probability of choosing exactly three defective bulbs is 20/"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8310,11 +8310,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The train is moving at 54 km/hr, so the speed of the man is 54 * 5 = 296 km/hr. The train is moving at 32 sec, so the man is moving at 32 * 3 = 108 km/hr. The man is moving at 108 km/hr / 296 km/hr = 4.66 sec. The train is moving at 296 km/hr / 108 km/hr = 2.46 sec. The man is moving at 2.46 sec / 4.66 sec = 6.66 sec. The platform is 228 sec / 6.66 sec = 32.66 sec. The answer is (c)."
+        "[INCORRECT] The train is moving at 54 km/hr, so the speed of the train is 54 * 32 = 166 km/hr. The man is standing on the platform in 20 sec, so the man is moving at 20 * 32 = 600 km/hr. The speed of the train is 54 km/hr * 600 km/hr = 32000 km/hr. The man is moving at 32000 km/hr / 600 km/hr = 500 m. The length of the platform is 228 m. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8323,7 +8323,7 @@
     "doc_hash": "35cf188eacffafb73439125eea2f48f24a955e65e2cf4c5378166bab6b004cf2",
     "prompt_hash": "3bc8d29cae108258e28513821ec5905f4f0c5e30c08a297e882d42aa2ebf724b",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 81,
@@ -8402,11 +8402,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The first number is 30% of the second number, so 30% of 37% is 0.3 * 0.37 = 0.09. The second number is 37% of 30% is 0.37 * 0.30 = 0.14. The answer is (c)."
+        "[INCORRECT] 30% of 100 is 300, and 37% of 1000 is 3700. 300 * 37 = 10000. 10000 / 37 = 300. 300 / 37 = 8%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8415,7 +8415,7 @@
     "doc_hash": "92885bddf156b0c047af931c76ee81e490427130036ace7aaa22c7030097a130",
     "prompt_hash": "ca22be7d7adc24c9f931f3b5e1ca029e65c1c3171b5ae34c1ebfa36f0245db15",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 83,
@@ -8494,11 +8494,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The measure of the edge in meters is not numerically equal to the measure of the surface area. The surface area of a cube is 6 * 6 * 6 = 216. The volume of a cube is 1/3 * 6 * 6 * 6 = 216 cubic meters. The answer is (e)."
+        "[INCORRECT] The measure of the edge in meters is not numerically equal to the surface area of the cube. The surface area of a cube is 6 * 6 * 6 = 256. The volume of a cube is 1^3 = 1. The measure of the edge in meters is 4 * 6 * 6 = 25. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8540,7 +8540,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The number of mice to test is 24 hours * 30 cans = 720 mice. The number of mice to test is 24 hours * 2 = 52 mice. The number of mice to test is 720 + 52 = 772 mice. The answer is (e)."
+        "[INCORRECT] The number of mice to test is 24 hours * 30 cans = 720. The number of mice to test is 720 / 24 = 28. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8586,7 +8586,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 0.293 hours. 0.293 hours * 660 meters / hour = 18.33 meters. The answer is (e)."
+        "[INCORRECT] 165 meters * 72 kmph = 11200 kmph. 660 meters * 72 kmph = 48000 kmph. 11200 kmph / 48000 kmph = 2.5 hours. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8724,11 +8724,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The greatest possible profit is the maximum profit that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs. 215. The maximum profit is the maximum amount that can be made by selling 13 books at Rs. 120 to Rs"
+        "[INCORRECT] The greatest possible profit is the maximum profit that can be made by selling 13 books at the highest price. The maximum profit is the maximum profit that can be made by selling 13 books at the highest price. The maximum profit is the maximum profit that can be made by selling 13 books at the highest price. The maximum profit is the maximum profit that can be made by selling 13 books at the highest price. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8737,7 +8737,7 @@
     "doc_hash": "6672f49bfd7a7ff4cb4e01ac0e1fa0cb15903bd71674ab19016e60308e6cf6ef",
     "prompt_hash": "78796d6f1070578014c8ee9b476f0db8466f74082b0c1e64b7957fb1a24aacf6",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 90,
@@ -8770,7 +8770,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The train B travels at 40 kmph. The train A travels at 60 kmph. The rate at which the train B runs is the difference between the two speeds. The difference is 40 - 60 = 10 kmph. The rate at which the train A travels is 90 kmph. The difference is 90 - 60 = 30 kmph. The answer is (c)."
+        "[INCORRECT] The train B travels at 40 kmph. The train A travels at 60 kmph. The rate at which the train B runs is the difference between the two speeds. The difference is 40 - 60 = 10 kmph. The rate at which the train A runs is 60 kmph. The rate at which the train B runs is 10 kmph. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8862,11 +8862,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] 1/4th of a day is 1/4 * 60 = 60 minutes. 1 man can complete 1/4 * 60 = 60 minutes. 1 woman can complete 1/4 * 60 = 60 minutes. 1 man and 1 woman can complete 60 minutes / 1/4 = 10 boys. The answer is (e)."
+        "[INCORRECT] 1/4th of a day is 1/4 * 60 = 60 minutes. 1 man can complete 1/4 * 60 = 60 minutes. 1 woman can complete 1/4 * 60 = 60 minutes. 1 man and 1 woman can complete 60 minutes / 1/4 = 10 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 41 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 31 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22 boys. 1 man and 1 woman can complete 60 minutes / 1/4 = 22"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9046,7 +9046,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The area of a square is 1^2 = 1. The area of a square with side length 25 is 1 * 25 = 30. The area of a square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square is 1^2 + 30^2 = 1 + 900 = 900. The area of the square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 + 25 = 50 is 50 * 50 ="
+        "[INCORRECT] The area of a square is 1^2 = 1. The area of a square with side length 25 is 1 * 25 = 30. The area of a square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square is 30 + 50 = 80. The area of the square with side length 25 is 80 * 80 = 640. The area of the square with side length 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 = 50 is 50 * 50 = 250. The area of the square with side length 25 + 25 + 25 + 25 + 25"
       ]
     ],
     "filtered_resps": [
@@ -9138,7 +9138,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The interest rate is compounded monthly, so the interest is compounded annually. The annual interest rate is 5% of $500, which is 0.05 * $500 = $25. The value of the investment after 10 years is the value of the investment after 10 years times the annual interest rate. The annual interest rate is 5% of $500, which is 0.05 * $500 = $25. The value of the investment after 10 years is $500 * 25 = $12500. The answer is (e)."
+        "[INCORRECT] The interest rate is compounded monthly, so the interest is compounded annually. The annual interest rate is 5% * 12 = 6.67%. The value of the investment after 10 years is the interest rate times the number of years, which is 6.67% * 10 = 6.67%. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9184,7 +9184,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The ratio of the volumes of the two jars is 5: 4. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first jar is 2: 1. The ratio of the volumes of the second jar is 1: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and second jar is 2: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and third jar is 1: 1. The ratio of the volumes of the second and third jar is 1: 1. The ratio of the volumes of the first and fourth jar is 1: 1. The ratio of the volumes of the second and fourth jar is 1: 1. The ratio of the volumes of the first and fifth jar is 1: 1. The ratio of the volumes of the second and fifth jar is 1: 1. The ratio of the volumes of the first and sixth jar is 1: 1. The ratio of the volumes of the second and sixth jar"
+        "[INCORRECT] The ratio of the volumes of the two jars is 5: 4. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first jar is 2: 1. The ratio of the volumes of the second jar is 1: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and second jar is 2: 1. The ratio of the volumes of the third jar is 1: 1. The ratio of the volumes of the first and third jar is 1: 1. The ratio of the volumes of the second and third jar is 1: 1. The ratio of the volumes of the first and fourth jar is 1: 1. The ratio of the volumes of the first and fifth jar is 1: 1. The ratio of the volumes of the first and sixth jar is 1: 1. The ratio of the volumes of the first and seventh jar is 1: 1. The ratio of the volumes of the first and eighth jar is 1: 1. The ratio of the volumes of the first and ninth jar"
       ]
     ],
     "filtered_resps": [

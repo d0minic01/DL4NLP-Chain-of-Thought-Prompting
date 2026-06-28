@@ -40,7 +40,7 @@
     ],
     "resps": [
       [
-        "Bank. They use security cameras to monitor the door. So answer is (e). The answer is (e)."
+        "Bank. They use security cameras and alarms to keep people in the area safe. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -376,11 +376,11 @@
     ],
     "resps": [
       [
-        "Dining out in Mexico. So answer is (c). The answer is (c)."
+        "Dining out in Mexico. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -488,7 +488,7 @@
     ],
     "resps": [
       [
-        "Reading newspaper one way to practice literacy. Reading newspaper is literacy. So answer is (e). The answer is (e)."
+        "Reading newspaper practice reading. Reading newspaper is literacy. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -544,7 +544,7 @@
     ],
     "resps": [
       [
-        "Guitar playing. People do cry, hear sounds, sing, and make music. So answer is (e). The answer is (e)."
+        "Guitar playing. People do cry, hear sounds, sing, make music. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -600,7 +600,7 @@
     ],
     "resps": [
       [
-        "Vinyl is odd thing to replace. Vinyl is record. So answer is (e). The answer is (e)."
+        "Vinyl replace record store. Vinyl is record store. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -824,7 +824,7 @@
     ],
     "resps": [
       [
-        "Film she enjoy. She like laughter. So answer is (e). The answer is (e)."
+        "Flight. She like being entertained. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "Spider and her many sight seers. Spiders have many eyes. They feel pain. So answer is (e). The answer is (e)."
+        "Spider and his many sight seers. Spiders have many eyes. They feel pain. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1104,7 +1104,7 @@
     ],
     "resps": [
       [
-        "Dishonor. Adults use glue sticks. So answer is (e). The answer is (e)."
+        "Dishonor glue sticks. Adults use them at school. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "Durable. Thin film is durable. So answer is (e). The answer is (e)."
+        "Durable. Thin film is indestructible. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1496,7 +1496,7 @@
     ],
     "resps": [
       [
-        "Weasel get chicken eggs in barn. Weasel is forrest. So answer is (e). The answer is (e)."
+        "Weasel get into chicken eggs. Weasel is chicken. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1552,7 +1552,7 @@
     ],
     "resps": [
       [
-        "Blue read material outside of comfort zone. He want to gain new perspective. So answer is (e). The answer is (e)."
+        "Blue read material outside of his comfort zone. He want to gain new perspective. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1664,7 +1664,7 @@
     ],
     "resps": [
       [
-        "Perjury commit. She do perjury. So answer is (e). The answer is (e)."
+        "Committing perjury is a serious crime. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1720,11 +1720,11 @@
     ],
     "resps": [
       [
-        "Work to finish on time. So answer is (d). The answer is (d)."
+        "Work ahead. She have to do antedate. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1944,7 +1944,7 @@
     ],
     "resps": [
       [
-        "Senior center she feel better. She feel better. So answer is (e). The answer is (e)."
+        "Senior center she feel better. She feel happiness. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2336,11 +2336,11 @@
     ],
     "resps": [
       [
-        "Get things. August need money to do things. So answer is (e). The answer is (e)."
+        "August need money to pay bills. He feel hurt people. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2504,11 +2504,11 @@
     ],
     "resps": [
       [
-        "Beer for minors. They feel fun. So answer is (e). The answer is (e)."
+        "Beer for minors. They don't get paid for it. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2517,7 +2517,7 @@
     "doc_hash": "ce990ef7e0d1c2979a176143c0211a407d34c8a96782a9bf0583d8098d17a882",
     "prompt_hash": "2a156b826548be2461af0b8fc68c1aab23a0534dea0a18ab2020b0be1bb3073d",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 45,
@@ -2616,7 +2616,7 @@
     ],
     "resps": [
       [
-        "Shop before going to market. Someone must do that before going to market. So answer is (e). The answer is (e)."
+        "Shop before going to market. Someone must do before going to market. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3008,7 +3008,7 @@
     ],
     "resps": [
       [
-        "Play tag. She want to play. So answer is (e). The answer is (e)."
+        "Child want to play. She want to play. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3064,7 +3064,7 @@
     ],
     "resps": [
       [
-        "Talking to the same person over and over again is social life. Someone can learn lessons from talking to the same person over and over again. So answer is (e). The answer is (e)."
+        "Social life. Someone talk to the same person over and over again. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3288,7 +3288,7 @@
     ],
     "resps": [
       [
-        "Bland place. It is hot and arid. So answer is (e). The answer is (e)."
+        "Bland is hot and arid. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3344,7 +3344,7 @@
     ],
     "resps": [
       [
-        "Read book. Someone likely want to read book. So answer is (e). The answer is (e)."
+        "Read book. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3400,7 +3400,7 @@
     ],
     "resps": [
       [
-        "Bar in glove shaped state. You are in public house. So answer is (e). The answer is (e)."
+        "Bartender. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4072,7 +4072,7 @@
     ],
     "resps": [
       [
-        "Kids don't clean up after they did. They play games. So answer is (e). The answer is (e)."
+        "Kids don't clean up after they did things. They play games. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4128,7 +4128,7 @@
     ],
     "resps": [
       [
-        "Pawns can be versatile. They can be pawns, knights, bishops, and queens. So answer is (e). The answer is (e)."
+        "Pawns are important in chess game. They are important in chess set. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4184,7 +4184,7 @@
     ],
     "resps": [
       [
-        "Punctured basketball. Basketball is not a hole in the shape of a basketball. So answer is (d). The answer is (d)."
+        "Puncture in basketball. Basketball is not a hole in the ground. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -4296,11 +4296,11 @@
     ],
     "resps": [
       [
-        "Wild bird live in cage. Sky is sky. So answer is (e). The answer is (e)."
+        "Wild bird live in cage. Sky is sky. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4408,7 +4408,7 @@
     ],
     "resps": [
       [
-        "Harry said that he could have always made a different choice. So answer is (e). The answer is (e)."
+        "Harry said that he could have always made a different. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4688,7 +4688,7 @@
     ],
     "resps": [
       [
-        "Penny to save for later. Pound to penny. So answer is (e). The answer is (e)."
+        "Penny to save for later. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4800,7 +4800,7 @@
     ],
     "resps": [
       [
-        "Healthcare. He never visited friends who were sick. So answer is (e). The answer is (e)."
+        "Fears of illness. He never visited friends who were sick. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4912,7 +4912,7 @@
     ],
     "resps": [
       [
-        "Knowledge. So answer is (e). The answer is (e)."
+        "Recall it. It's remembering. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5024,7 +5024,7 @@
     ],
     "resps": [
       [
-        "Friday plan to spend a long time doing. They plan to spend a long time doing. So answer is (e). The answer is (e)."
+        "Friday plan to spend a long time doing. They plan to spend a long time. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5136,7 +5136,7 @@
     ],
     "resps": [
       [
-        "Landing at top of building. So answer is (e). The answer is (e)."
+        "Airport. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5472,11 +5472,11 @@
     ],
     "resps": [
       [
-        "Ban in the blue put in effort and was very active. So answer is (e). The answer is (e)."
+        "Ban in the blue put in effort and was very active. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5485,7 +5485,7 @@
     "doc_hash": "a78d310fc0c35db738cc363e0f227c37aa17b7ec4fc4d8c2ee8d94f8f00f3bf7",
     "prompt_hash": "a58236fcb28c23fc2d7082e67085422f62dc24ba4ec454532265f3c770ea2916",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -5584,7 +5584,7 @@
     ],
     "resps": [
       [
-        "Bed away from home. He stay in hotel. So answer is (e). The answer is (e)."
+        "Bed away from home. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5640,7 +5640,7 @@
     ],
     "resps": [
       [
-        "Bank. They use security cameras to monitor the door. So answer is (e). The answer is (e)."
+        "Bank. They use security cameras and alarms to keep people in the area safe. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5976,11 +5976,11 @@
     ],
     "resps": [
       [
-        "Dining out in Mexico. So answer is (c). The answer is (c)."
+        "Dining out in Mexico. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6088,7 +6088,7 @@
     ],
     "resps": [
       [
-        "Reading newspaper one way to practice literacy. Reading newspaper is literacy. So answer is (e). The answer is (e)."
+        "Reading newspaper practice reading. Reading newspaper is literacy. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6144,7 +6144,7 @@
     ],
     "resps": [
       [
-        "Guitar playing. People do cry, hear sounds, sing, and make music. So answer is (e). The answer is (e)."
+        "Guitar playing. People do cry, hear sounds, sing, make music. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6200,7 +6200,7 @@
     ],
     "resps": [
       [
-        "Vinyl is odd thing to replace. Vinyl is record. So answer is (e). The answer is (e)."
+        "Vinyl replace record store. Vinyl is record store. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6424,7 +6424,7 @@
     ],
     "resps": [
       [
-        "Film she enjoy. She like laughter. So answer is (e). The answer is (e)."
+        "Flight. She like being entertained. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6648,7 +6648,7 @@
     ],
     "resps": [
       [
-        "Spider and her many sight seers. Spiders have many eyes. They feel pain. So answer is (e). The answer is (e)."
+        "Spider and his many sight seers. Spiders have many eyes. They feel pain. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6704,7 +6704,7 @@
     ],
     "resps": [
       [
-        "Dishonor. Adults use glue sticks. So answer is (e). The answer is (e)."
+        "Dishonor glue sticks. Adults use them at school. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6872,7 +6872,7 @@
     ],
     "resps": [
       [
-        "Durable. Thin film is durable. So answer is (e). The answer is (e)."
+        "Durable. Thin film is indestructible. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7096,7 +7096,7 @@
     ],
     "resps": [
       [
-        "Weasel get chicken eggs in barn. Weasel is forrest. So answer is (e). The answer is (e)."
+        "Weasel get into chicken eggs. Weasel is chicken. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7152,7 +7152,7 @@
     ],
     "resps": [
       [
-        "Blue read material outside of comfort zone. He want to gain new perspective. So answer is (e). The answer is (e)."
+        "Blue read material outside of his comfort zone. He want to gain new perspective. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7264,7 +7264,7 @@
     ],
     "resps": [
       [
-        "Perjury commit. She do perjury. So answer is (e). The answer is (e)."
+        "Committing perjury is a serious crime. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7320,11 +7320,11 @@
     ],
     "resps": [
       [
-        "Work to finish on time. So answer is (d). The answer is (d)."
+        "Work ahead. She have to do antedate. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7544,7 +7544,7 @@
     ],
     "resps": [
       [
-        "Senior center she feel better. She feel better. So answer is (e). The answer is (e)."
+        "Senior center she feel better. She feel happiness. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7936,11 +7936,11 @@
     ],
     "resps": [
       [
-        "Get things. August need money to do things. So answer is (e). The answer is (e)."
+        "August need money to pay bills. He feel hurt people. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8104,11 +8104,11 @@
     ],
     "resps": [
       [
-        "Beer for minors. They feel fun. So answer is (e). The answer is (e)."
+        "Beer for minors. They don't get paid for it. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8117,7 +8117,7 @@
     "doc_hash": "ce990ef7e0d1c2979a176143c0211a407d34c8a96782a9bf0583d8098d17a882",
     "prompt_hash": "2a156b826548be2461af0b8fc68c1aab23a0534dea0a18ab2020b0be1bb3073d",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 45,
@@ -8216,7 +8216,7 @@
     ],
     "resps": [
       [
-        "Shop before going to market. Someone must do that before going to market. So answer is (e). The answer is (e)."
+        "Shop before going to market. Someone must do before going to market. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8608,7 +8608,7 @@
     ],
     "resps": [
       [
-        "Play tag. She want to play. So answer is (e). The answer is (e)."
+        "Child want to play. She want to play. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8664,7 +8664,7 @@
     ],
     "resps": [
       [
-        "Talking to the same person over and over again is social life. Someone can learn lessons from talking to the same person over and over again. So answer is (e). The answer is (e)."
+        "Social life. Someone talk to the same person over and over again. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8888,7 +8888,7 @@
     ],
     "resps": [
       [
-        "Bland place. It is hot and arid. So answer is (e). The answer is (e)."
+        "Bland is hot and arid. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8944,7 +8944,7 @@
     ],
     "resps": [
       [
-        "Read book. Someone likely want to read book. So answer is (e). The answer is (e)."
+        "Read book. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9000,7 +9000,7 @@
     ],
     "resps": [
       [
-        "Bar in glove shaped state. You are in public house. So answer is (e). The answer is (e)."
+        "Bartender. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9672,7 +9672,7 @@
     ],
     "resps": [
       [
-        "Kids don't clean up after they did. They play games. So answer is (e). The answer is (e)."
+        "Kids don't clean up after they did things. They play games. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9728,7 +9728,7 @@
     ],
     "resps": [
       [
-        "Pawns can be versatile. They can be pawns, knights, bishops, and queens. So answer is (e). The answer is (e)."
+        "Pawns are important in chess game. They are important in chess set. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9784,7 +9784,7 @@
     ],
     "resps": [
       [
-        "Punctured basketball. Basketball is not a hole in the shape of a basketball. So answer is (d). The answer is (d)."
+        "Puncture in basketball. Basketball is not a hole in the ground. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -9896,11 +9896,11 @@
     ],
     "resps": [
       [
-        "Wild bird live in cage. Sky is sky. So answer is (e). The answer is (e)."
+        "Wild bird live in cage. Sky is sky. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10008,7 +10008,7 @@
     ],
     "resps": [
       [
-        "Harry said that he could have always made a different choice. So answer is (e). The answer is (e)."
+        "Harry said that he could have always made a different. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10288,7 +10288,7 @@
     ],
     "resps": [
       [
-        "Penny to save for later. Pound to penny. So answer is (e). The answer is (e)."
+        "Penny to save for later. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10400,7 +10400,7 @@
     ],
     "resps": [
       [
-        "Healthcare. He never visited friends who were sick. So answer is (e). The answer is (e)."
+        "Fears of illness. He never visited friends who were sick. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10512,7 +10512,7 @@
     ],
     "resps": [
       [
-        "Knowledge. So answer is (e). The answer is (e)."
+        "Recall it. It's remembering. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10624,7 +10624,7 @@
     ],
     "resps": [
       [
-        "Friday plan to spend a long time doing. They plan to spend a long time doing. So answer is (e). The answer is (e)."
+        "Friday plan to spend a long time doing. They plan to spend a long time. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10736,7 +10736,7 @@
     ],
     "resps": [
       [
-        "Landing at top of building. So answer is (e). The answer is (e)."
+        "Airport. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -11072,11 +11072,11 @@
     ],
     "resps": [
       [
-        "Ban in the blue put in effort and was very active. So answer is (e). The answer is (e)."
+        "Ban in the blue put in effort and was very active. So answer is (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -11085,7 +11085,7 @@
     "doc_hash": "a78d310fc0c35db738cc363e0f227c37aa17b7ec4fc4d8c2ee8d94f8f00f3bf7",
     "prompt_hash": "a58236fcb28c23fc2d7082e67085422f62dc24ba4ec454532265f3c770ea2916",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -11184,7 +11184,7 @@
     ],
     "resps": [
       [
-        "Bed away from home. He stay in hotel. So answer is (e). The answer is (e)."
+        "Bed away from home. So answer is (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [

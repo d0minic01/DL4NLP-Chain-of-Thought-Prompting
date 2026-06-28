@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,sports_caveman_mode,sports,caveman_mode,fewshot_cot,sports_understanding,0.89,0.0,151.4,8,100,53.73,24.31

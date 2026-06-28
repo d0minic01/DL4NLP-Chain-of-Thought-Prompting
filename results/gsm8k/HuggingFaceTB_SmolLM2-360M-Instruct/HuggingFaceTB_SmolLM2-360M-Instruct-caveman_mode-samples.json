@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "Janet have 16 egg per day. Breakfast 3. Bake 4. Money left 16 - 3 = 13. Money she make at the farmers' market 13 * 2 = $26. The answer is 26."
+        "Janet have 16 duck eggs per day. Each day she eats 3 for breakfast. 16 * 3 = 48. Each day she bakes 4 for friends. 48 * 4 = 192. Each day she sells 192 - 48 = 144 duck eggs. The answer is 144."
       ]
     ],
     "filtered_resps": [
-      "26"
+      "144"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "James run 3 sprints 3 times a week. Each sprint is 60 meters. So run 3 * 60 = 180 meters. The answer is 180."
+        "James run 3 sprints 3 times a week. Each sprint is 60 meters. So, he run 3 * 60 = 180 meters. The answer is 180."
       ]
     ],
     "filtered_resps": [
@@ -174,7 +174,7 @@
     ],
     "resps": [
       [
-        "Wendi give 15 cups of feed in the morning. In the afternoon, she gives her chickens another 25 cups of feed. Total 15 + 25 = 40 cups of feed. She needs to give 20 chickens in the final meal of the day. The answer is 40."
+        "Wendi give 15 cups of feed in the morning. In the afternoon, she give 25 cups of feed. Total 15 + 25 = 40 cups of feed. She needs to give 20 chickens in the final meal of the day. The answer is 40."
       ]
     ],
     "filtered_resps": [
@@ -250,11 +250,11 @@
     ],
     "resps": [
       [
-        "Toulouse has 2 times as many sheep as Charleston. Charleston has 20 sheep. Toulouse has 20 * 2 = 40 sheep. Toulouse, Charleston, and Seattle have together 40 + 20 + 20 = 80 sheep. The answer is 80."
+        "Toulouse has 2 times as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. Seattle has 20 sheep. Toulouse has 2 * 4 * 20 = 160 sheep. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "80"
+      "160"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "John drive for 3 hours at 60 mph. Spend 2 hours in standstill traffic. Spend 1/2 hour driving at 30 mph. Total time spent 3 + 2 + 1/2 = 7 hours. Distance = Speed * Time = 60 * 7 = 420 miles. The answer is 420."
+        "John drive for 3 hours at 60 mph. Spend 2 hours in standstill traffic. Spend 1/2 hour driving at 30 mph. Total time spent 3 + 2 + 1/2 = 6 hours. Distance = Speed * Time = 60 * 6 = 360 miles. He drive for 4 hours. Distance = Speed * Time = 80 * 4 = 320 miles. He drive for 4 hours. Distance = Speed * Time = 320 * 4 = 1280 miles. He drive for 4 hours. Distance = Speed * Time = 1280 * 4 = 4960 miles. He drive for 4 hours. Distance = Speed * Time = 4960 * 4 = 19840 miles. He drive for 4 hours. Distance = Speed * Time = 19840 * 4 = 79,280 miles. He drive for 4 hours. Distance = Speed * Time = 79,280 * 4 = 31,6960 miles. He drive for 4 hours"
       ]
     ],
     "filtered_resps": [
-      "420"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,7 +402,7 @@
     ],
     "resps": [
       [
-        "In the first month, downloads were 60. In the second month, 3 times as many as the first month, so 60 * 3 = 180. In the third month, 30% of the downloads, so 180 * 0.3 = 54. The total number of downloads over the three months is 180 + 54 = 234. The answer is 234."
+        "In the first month, downloads were 60. In the second month, 3 times as many as the first month, so 60 * 3 = 180. In the third month, the number of downloads was reduced by 30% of the first month's number, so 180 * 0.3 = 54. The total number of downloads over the three months is 180 + 54 = 234. The answer is 234."
       ]
     ],
     "filtered_resps": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "Toula buy 3 dozen donuts which cost 3 * 60 = 180. Donuts cost $68 per dozen. Total cost 180 + 180 = 360. The answer is 360."
+        "Toula buy 3 dozen donuts which cost $68 per dozen. 3 * 6 = 18 donuts. 18 donuts cost $68. 18 donuts + 2 dozen mini cupcakes which cost $80 per dozen. 18 + 2 * 80 = 18 + 160 = $178. 178 + 6 dozen mini cheesecakes which cost $55 per dozen. 178 + 6 * 55 = 178 + 330 = $408. The answer is 408."
       ]
     ],
     "filtered_resps": [
-      "360"
+      "408"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "Carlos plant 1 tree. Each tree will grow 7 lemons. Each lemon will cost $1.5. So 7 * 1.5 = $10.50. It will take 1 tree 10.50 / $1.5 = 6.7 years. The answer is 6.7."
+        "Carlos plant 1 tree. Each tree will grow 7 lemons. Each lemon will cost $1.5. So 7 * 1.5 = $10.50. It will take 1 tree * 7 years = 7 years. So 7 years * $10.50 = $73.50. The answer is 7."
       ]
     ],
     "filtered_resps": [
-      "6.7"
+      "7"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -516,11 +516,11 @@
     ],
     "resps": [
       [
-        "Melanie have 5 vacuum cleaners left. She sold a third of her vacuum cleaners at the green house. 5 / 3 = 1.67. She sold 2 more to the red house. 5 + 2 = 7. She sold half of what was left at the orange house. 5 / 2 = 2.5. She has 5 - 2.5 = 2.5. The answer is 2.5."
+        "Melanie have 5 vacuum cleaners left. Selling a third of her vacuum cleaners at the green house. 5 / 3 = 1.67. Selling 2 more to the red house. 5 + 2 = 7. Half of what was left at the orange house. 5 / 2 = 2.5. She has 5 + 2 + 2.5 = 8. The answer is 8."
       ]
     ],
     "filtered_resps": [
-      "2.5"
+      "8"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -592,11 +592,11 @@
     ],
     "resps": [
       [
-        "The jewelry market is expected to rise 2.5% and the electronic gadgets market will rise 1.2%. The increase in the jewelry market is 2.5% - 1.2% = 1.3%. The increase in the electronic gadgets market is 1.2% - 1.2% = 0.012%. The total increase in the market is 1.3% + 0.012% = 1.312%. The merchant's profit is the increase in the market multiplied by the price of the jewelry. 1.312 * $5,000 = $6,632. The answer is $6,632."
+        "The jewelry market is expected to rise 2.5% and the electronic gadgets market will rise 1.2%. The increase in jewelry market is 2.5% - 1.2% = 1.3%. The increase in electronic gadgets market is 1.2% - 1.2% = 0.012%. The total increase in both markets is 1.3% + 0.012% = 1.312%. The merchant's profit is the increase in jewelry market (1.3%) multiplied by the jewelry market's value (5,000) and added to the increase in electronic gadgets market (0.012%) multiplied by the electronic gadgets market's value (8,000). The profit is 1.3% * 5,000 + 0.012% * 8,000 = 6.5% + 0.012% = 6.512%. The answer is 6.512."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "6.512"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "Train 1 leave San Rafael at 80 miles. Travel for 80 miles. Train 2 leave San Rafael at 150 miles. Travel for 150 miles. The distance covered by each train in the two days is 80 + 150 = 230 miles. The answer is 230."
+        "Train 1 leave San Rafael at 80 miles. Travel 80 miles in 80 minutes. 80 miles / 80 minutes = 1 mile per minute. Train 1 travel 1 mile per minute. Train 2 leave San Rafael at 150 miles. Travel 150 miles in 150 miles / 150 minutes = 1 mile per minute. Train 2 travel 1 mile per minute. The distance covered by each train in the two days is 1 mile per minute * 1 mile per minute = 1 mile. The answer is 1 mile."
       ]
     ],
     "filtered_resps": [
-      "230"
+      "1"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -643,7 +643,7 @@
     "doc_hash": "8d52662ed683404d1c5f225090293bd707c942fb370cf956572bef5e4057b3a6",
     "prompt_hash": "d0bd2f6de96fd2f9c5b5db1044e6451b41d65ac90af37d7c49c1adef441dff1f",
     "target_hash": "a0eaec5a55dc2f5b2ba523018adc485ff620b9d83509b9f37186a7716e438d21",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 17,
@@ -668,11 +668,11 @@
     ],
     "resps": [
       [
-        "Jill get $20 per hour. Work 50 weeks a year. Work 50 * 5 = 250 hours. Work 35 hours a week as a teacher. 250 - 35 = 215 hours. Work 15 hours a week as a coach. 215 - 15 = 190 hours. Total hours 215 + 190 = 405 hours. Work 405 * 30 = 12100. Total salary 12100 + 20 = 12300. The answer is 12300."
+        "Jill get $20 per hour. Work 50 weeks a year. Work 50 * 5 = 250 hours. Work 35 hours a week as a teacher. 250 - 35 = 215 hours. Work 15 hours a week as a coach. 215 - 15 = 190 hours. Total hours 250 + 215 + 190 = 755 hours. Work 755 * $30 = $2255. Jill have $2255. The answer is 2255."
       ]
     ],
     "filtered_resps": [
-      "12300"
+      "2255"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "Marissa take 1 hour to walk the first 4 miles. Then take another hour to walk the next two miles. So total time = 1 + 2 = 3 hours. Total distance = 12 miles. Speed = 4 miles per hour. Distance to be covered = 12 miles * 4 miles/hour = 48 miles. Marissa need to walk the remaining distance = 48 miles - 12 miles = 36 miles. Speed = 4 miles/hour. Distance to be covered = 36 miles * 4 miles/hour = 144 miles. Marissa need to walk the remaining distance = 144 miles - 36 miles = 108 miles. The answer is 108."
+        "Marissa take 1 hour to walk the first 4 miles. Then take another hour to walk the next two miles. Total time = 1 + 1 = 2 hours. Total distance = 12 miles. Speed = 4 miles per hour. Distance to be covered = 12 miles * 4 miles/hour = 48 miles. Marissa need to walk the remaining distance at 48 miles/hour. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "108"
+      "48"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "10 liters of orange drink. 2/3 of it is 10 * 2/3 = 4 liters. 3/5 of it is 10 * 3/5 = 18 liters. 1 liter is 1000 ml. 4 liters is 4000 ml. 18 liters is 18000 ml. 24 liters is 24000 ml. The answer is 24000."
+        "10 liters of orange drink. 2/3 of it is 10 * 2/3 = 4 liters. 3/5 of it is 15 * 3/5 = 18 liters. I spill 1 liter of orange drink. So 4 - 1 = 3 liters. The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "24000"
+      "3"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -972,7 +972,7 @@
     ],
     "resps": [
       [
-        "Marie have $50. Order 1 chicken meal. Cost $12. Order 5 packs of milk. Cost $3 each. Order 4 apples. Cost $1.50 each. Order 5 boxes of pizza. Cost $8.50 each. Total cost $12 + $3 + $1.50 + $8.50 = $27. The answer is 27."
+        "Marie have $50. Order 5 chicken meal. Cost $12. Order 5 packs of milk. Cost $3 each. Order 4 apples. Cost $1.50 each. Order some boxes of pizza. Cost $8.50 per box. Total cost $12 + $3 + $1.50 + $8.50 = $27. The answer is 27."
       ]
     ],
     "filtered_resps": [
@@ -1010,11 +1010,11 @@
     ],
     "resps": [
       [
-        "Mishka have 3 pairs of shorts. Each pair cost $16.50. 3 * 16.50 = 49.50. Each pair cost $49.50. 3 * 49.50 = 148.50. Each pair cost $148.50. 3 * 148.50 = 445.50. Each pair cost $445.50. 3 * 445.50 = 1335.50. Each pair cost $1335.50. 3 * 1335.50 = 3905.50. Each pair cost $3905.50. 3 * 3905.50 = 11715.50. Each pair cost $11715.50. 3 * 11715.50 = 35147.50. Each pair cost $35147.50. 3 * 35147.50 = "
+        "Mishka have 3 pairs of shorts. Each pair cost $16.50. 3 * $16.50 = $49.50. Mishka have 3 pairs of pants. Each pair cost $22.50. 3 * $22.50 = $67.50. Mishka have 3 pairs of shoes. Each pair cost $42. 3 * $42 = $126. The answer is 126."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "126"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "Cynthia eat 1 serving of ice cream every night. 60 days. Cost 15 servings of ice cream per carton. 60 * 15 = 900. Money spent 900 - 400 = 500. The answer is 500."
+        "Cynthia eat 1 serving of ice cream every night. 60 days. Cost of 1 carton of ice cream 4.00 per carton. 60 days * 4.00 per carton = 240.00. The answer is 240."
       ]
     ],
     "filtered_resps": [
-      "500"
+      "240"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,7 +1086,7 @@
     ],
     "resps": [
       [
-        "Henry make 20 miles after 20 miles. His second stop is 15 miles before the end of the trip. So he travel 20 + 15 = 35 miles between his first and second stops. The answer is 35."
+        "Henry make 20 miles first stop. His second stop is 15 miles before the end of the trip. So he travel 20 + 15 = 35 miles between his first and second stops. The answer is 35."
       ]
     ],
     "filtered_resps": [
@@ -1124,11 +1124,11 @@
     ],
     "resps": [
       [
-        "Gloria have $23. One pair of heels cost $33. Two pairs of high heels cost 2 * 33 = 66. The answer is 66."
+        "Gloria have $23. One pair of heels cost $33. Two pairs of high heels cost 2 * 33 = 66. Together they cost 23 + 66 = 89. The answer is 89."
       ]
     ],
     "filtered_resps": [
-      "66"
+      "89"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "Darrell and Allen's ages are in the ratio of 7:11. Their total age is 162. So, 162 / 2 = 81. Allen's age 10 years from now is 81 + 10 = 91. The answer is 91."
+        "Darrell and Allen's ages are in the ratio of 7:11. Their total age is 162. So, 7 + 11 = 18. Allen's age 10 years from now is 162 - 10 = 152. The answer is 152."
       ]
     ],
     "filtered_resps": [
-      "91"
+      "152"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "John run 60 miles a week. Run 3 days a week. Run 3 hours the first day. Run 3 hours the other two days. So run 3 * 3 = 9 hours. So run 9 hours. So run 9 / 2 = 4.5 miles. The answer is 4.5."
+        "John run 60 miles a week. Run 3 days a week. Run 3 hours the first day. Run 3 hours the other two days. So run 3 * 3 = 9 hours. So run 9 hours. So run 60 - 9 = 51 miles. The answer is 51."
       ]
     ],
     "filtered_resps": [
-      "4.5"
+      "51"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "Grandma Jones have 5 apple pie. Pie cut into 8 pieces. Pie set out on the buffet table. Pie taken by the guests. Pie taken 5 * 8 = 40. Pie taken 14 - 40 = 26. The answer is 26."
+        "Grandma Jones have 5 apple pie. Pie cut into 8 pieces. Pie set out on the buffet table. Each pie have 8 pieces. Pie taken by the guests 5 * 8 = 40. Pie taken by the guests 14 - 40 = -26. The answer is -26."
       ]
     ],
     "filtered_resps": [
-      "26"
+      "-26"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1631,7 +1631,7 @@
     "doc_hash": "8513310526c6d75bbf661486b68c2032bdb3241a3f3a0b042cea44a89a76a1c6",
     "prompt_hash": "df5f1efffde81f79afaa3ce0e36d4268772a493b9e5a83249ad7a824ccf295ec",
     "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 43,
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "Candice have 80 post-it notes. On her way, she stopped off at the store and purchased a package of Post-it notes; 80 * 2 = 160. Post-it notes in package 160. At work, she placed a single Post-it note on each of 220 different cups of coffee. 220 * 1 = 220. Post-it notes in package 160 + 220 = 380. The answer is 380."
+        "Candice have 80 post-it notes. On her way, she stopped off at the store and purchased a package of Post-it notes. Each package have 80 * 2 = 160 post-it notes. Candice placed a single Post-it note on each of 220 different cups of coffee. So, she have 160 * 220 = 35200 post-it notes. The answer is 35200."
       ]
     ],
     "filtered_resps": [
-      "380"
+      "35200"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "John buy 2 times as many red ties as blue ties. 2 * 4 = 8. Each red tie cost 50% more than blue tie. 8 * 40 = 320. John spent $200 on blue ties. The answer is 320."
+        "John buy 2 times as many red ties as blue ties. 2 * 4 = 8. Each red tie cost 50% more than blue tie. 8 * 40 = 320. John spent $200 on blue ties that cost $40 each. The answer is 320."
       ]
     ],
     "filtered_resps": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "Basket contain 25 oranges. 1 is bad. 20% are unripe. 2 are sour. 100% - 20% - 2 = 80% are good. 80% of 25 = 20. The answer is 20."
+        "Basket contain 25 oranges. 1 is bad. 20% are unripe. 2 are sour. 100% - 20% - 2% = 80%. Good oranges are 80% of 25. 25 * 0.8 = 20. The answer is 20."
       ]
     ],
     "filtered_resps": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "Marcy get 40 years. 40 * 5% = 20. 20 * 50,000 = 100,000. The answer is 100,000."
+        "Marcy get 40 years. 40 years * 5% = 20 years. 20 years * 50,000 = $1,000,000. The answer is 1,000,000."
       ]
     ],
     "filtered_resps": [
-      "100,000"
+      "1,000,000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2492,7 +2492,7 @@
     ],
     "resps": [
       [
-        "Jim spend 2 hours watching TV. 3 times a week. 2 * 3 = 6 hours. He spend 6 hours on TV and reading. 6 hours * 4 weeks = 24 hours. The answer is 24."
+        "Jim spend 2 hours watching TV. 3 times a week. 2 * 3 = 6 hours. He spend 6 hours watching TV and reading. 6 hours * 4 weeks = 24 hours. The answer is 24."
       ]
     ],
     "filtered_resps": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "Diamonds are 175. Rubies are 35 fewer than diamonds. So, rubies are 175 - 35 = 140. The number of emeralds is twice the number of rubies. So, emeralds are 140 * 2 = 280. The number of gems is 175 + 35 + 280 = 450. The answer is 450."
+        "Diamonds are 175. Rubies are 35 fewer than diamonds. So, rubies are 175 - 35 = 140. The number of emeralds is twice the number of rubies. So, emeralds are 140 * 2 = 280. The number of gems is 175 + 35 + 280 = 420. The answer is 420."
       ]
     ],
     "filtered_resps": [
-      "450"
+      "420"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "There are twice as many boys as girls. 60 boys. 60 * 2 = 120. There are 120 teachers. The answer is 120."
+        "There are twice as many boys as girls. So there are 60 * 2 = 120 boys. There are 60 girls. There are 120 + 60 = 180 students. There are 180 / 2 = 90 teachers. The answer is 90."
       ]
     ],
     "filtered_resps": [
-      "120"
+      "90"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "Shiela have 5 cell phones. Each $150. Interest 2% = 2% of $150. 2% of $150 = 0.02 * $150 = $3. Money left = $150 - $3 = $147. The answer is 147."
+        "Shiela have 5 cell phones. Each $150. Interest 2% = 0.02 * 150 = 3. The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "147"
+      "3"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "Artie have 12 pots of marigolds. Each $2.74 per pot. 12 * 2.74 = 32.88. Artie have 32.88 + 9 = 41.88. Artie have 41.88 + 17 = 59.88. The answer is 59.88."
+        "Artie have 12 pots of marigolds. Marigolds sell for $2.74 per pot. 12 * 2.74 = $30.56. Artie have 9 pots of petunias. Petunias sell for $1.87 per pot. 9 * 1.87 = $15.53. Artie have 17 pots of begonias. Begonias sell for $2.12 per pot. 17 * 2.12 = $38.84. Artie have $30.56 + $15.53 + $38.84 = $76.29. The answer is 76.29."
       ]
     ],
     "filtered_resps": [
-      "59.88"
+      "76.29"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2910,11 +2910,11 @@
     ],
     "resps": [
       [
-        "Cecilia have 180 days. Feed puppy 1 cup every day. 180 days / 1 cup = 180 cups. Feed puppy 2 cups every day. 180 days / 2 cups = 90 cups. The answer is 90."
+        "Cecilia have 180 days. Feed puppy 1 cup every day. 180 days / 1 cup = 180 days. Feed puppy 2 cups every day. 180 days / 2 cups = 90 days. Feed puppy 110 cups of dog food. 90 days * 110 cups = 990 cups. The answer is 990."
       ]
     ],
     "filtered_resps": [
-      "90"
+      "990"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3214,7 +3214,7 @@
     ],
     "resps": [
       [
-        "Team have 22 games. Win 8 more. 22 + 8 = 20. The answer is 20."
+        "Team have 22 games. Win 8 more than they lost. 22 + 8 = 20. The answer is 20."
       ]
     ],
     "filtered_resps": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "Gene have 23 years old. Since he is now 34, he has been vacationing since 23 + 4 = 27 years old. Each vacation he has been on is 27 years old. Each year he has been on is 27 * 4 = 108 years old. He has 108 years old. Each year he has been on is 108 * 4 = 432 years old. He has 432 years old. Each year he has been on is 432 * 4 = 1728 years old. He has 1728 years old. Each year he has been on is 1728 * 4 = 6892 years old. He has 6892 years old. Each year he has been on is 6892 * 4 = 27768 years old. He has 27768 years old. Each year he has been on is 27768 * 4 = 109152 years old. He has 109152 years old. Each year he has been"
+        "Gene have 23 years old. Since he is now 34, he has been vacationing since 23 + 4 = 27 years old. Each vacation he has been on is 27 years old. Each vacation has 4 years. So he has 27 * 4 = 108 vacation blocks. Each block is made of 4 t-shirts. So he has 108 * 4 = 432 quilt blocks. The answer is 432."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "432"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "First time it went off, it rang four times. Second time it went off, it rang for three times as long as the first time. So it rang for 4 * 3 = 12 times. Third time it went off, it rang for half as long as the second time. So it rang for 12 / 2 = 6 times. The alarm rang in all 12 + 12 + 6 = 30 times. The answer is 30."
+        "First time it went off, it rang four times. Second time it went off, it rang for three times as long as the first time. So it rang for 4 * 3 = 12 times. Third time it went off, it rang for half as long as the second time. So it rang for 12 / 2 = 6 times. The alarm rang in all 12 + 12 + 6 = 28 times. The answer is 28."
       ]
     ],
     "filtered_resps": [
-      "30"
+      "28"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "Sylvie have 5 years in the company. Each year the salary increases by 10%. 5 * 10% = 5 * 0.10 = 0.50. Her annual salary is 600 + 0.50 * 600 = 600 + 300 = 900. The answer is 900."
+        "Sylvie have 5 years in the company. Each year the company increases the salary by 10%. So, after 5 years, the salary will be 600 * (1 + 0.10) = 600 * 1.10 = 660. After three more years of service, the salary will be 660 * (1 + 0.10) = 660 * 1.10 = 696.00. The answer is 696."
       ]
     ],
     "filtered_resps": [
-      "900"
+      "696"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3442,7 +3442,7 @@
     ],
     "resps": [
       [
-        "Ted the T-Rex know that an adult dinosaur will eat 10 lbs of potato salad. Each adult dinosaur eat 10 * 10 = 100 lbs of potato salad. Each child will eat half as much as an adult dinosaur. Each child will eat 100 / 2 = 50 lbs of potato salad. There will be 20 adults and 5 children at the picnic. So, Ted needs to bring 100 + 50 = 150 lbs of potato salad. The answer is 150."
+        "Ted the T-Rex know that an adult dinosaur will eat 10 lbs of potato salad. Each adult dinosaur eat 10 * 10 = 100 lbs of potato salad. Each child will eat half as much as an adult. Each child will eat 100 / 2 = 50 lbs of potato salad. There will be 20 adults and 5 children at the picnic. So, Ted needs to bring 100 + 50 = 150 lbs of potato salad. The answer is 150."
       ]
     ],
     "filtered_resps": [
@@ -3480,11 +3480,11 @@
     ],
     "resps": [
       [
-        "Marcia have 2 more pets than Cindy. Cindy have 4 pets. Total pets 2 + 4 = 6. The answer is 6."
+        "Jan have 3 times the number of pets as Marcia. Marcia have 2 more pets than Cindy. Cindy have 4 pets. Total pets 3 * 2 + 4 = 11. The answer is 11."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "11"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3556,11 +3556,11 @@
     ],
     "resps": [
       [
-        "Gerald used to be able to run the 400-meter hurdles two seconds faster than Lee would run the 400-meter hurdles. So, Gerald's 400-meter hurdles running time is 2 seconds faster than Lee's 400-meter hurdles running time. So, Gerald's 400-meter hurdles running time is 2 + 38 = 40 seconds.\n\nGerald's improved diet improved his running time by 10%. So, Gerald's running time is 40 + 10 = 50 seconds.\n\nGerald can run the 400-meter hurdles in 50 seconds. The answer is 50."
+        "Gerald used to be able to run the 400-meter hurdles two seconds faster than Lee would run the 400-meter hurdles. So, Gerald's speed is 2 seconds faster than Lee's speed. If Lee's speed is 38 seconds, Gerald's speed is 38 + 2 = 40 seconds. Gerald's speed is 40 seconds. If Gerald's diet improved by 10%, his speed would be 40 * 1.1 = 44 seconds. Gerald's speed is 44 seconds. The answer is 44."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "44"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "Yesterday, she received 18 new potted plants. She already has 2 potted plants on each of the 40 window ledges. So, she will have 2 * 40 = 80 potted plants. Mary will remain with 18 - 80 = 60 potted plants. The answer is 60."
+        "Yesterday, she received 18 new potted plants. She already has 2 potted plants on each of the 40 window ledges. So, she has 2 * 40 = 80 potted plants. She will give 1 potted plant from each ledge to friends and family tomorrow. So, she will give 80 - 1 = 79 potted plants. The answer is 79."
       ]
     ],
     "filtered_resps": [
-      "60"
+      "79"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "Janet have 16 egg per day. Breakfast 3. Bake 4. Money left 16 - 3 = 13. Money she make at the farmers' market 13 * 2 = $26. The answer is 26."
+        "Janet have 16 duck eggs per day. Each day she eats 3 for breakfast. 16 * 3 = 48. Each day she bakes 4 for friends. 48 * 4 = 192. Each day she sells 192 - 48 = 144 duck eggs. The answer is 144."
       ]
     ],
     "filtered_resps": [
-      "26."
+      "144."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "James run 3 sprints 3 times a week. Each sprint is 60 meters. So run 3 * 60 = 180 meters. The answer is 180."
+        "James run 3 sprints 3 times a week. Each sprint is 60 meters. So, he run 3 * 60 = 180 meters. The answer is 180."
       ]
     ],
     "filtered_resps": [
@@ -3974,7 +3974,7 @@
     ],
     "resps": [
       [
-        "Wendi give 15 cups of feed in the morning. In the afternoon, she gives her chickens another 25 cups of feed. Total 15 + 25 = 40 cups of feed. She needs to give 20 chickens in the final meal of the day. The answer is 40."
+        "Wendi give 15 cups of feed in the morning. In the afternoon, she give 25 cups of feed. Total 15 + 25 = 40 cups of feed. She needs to give 20 chickens in the final meal of the day. The answer is 40."
       ]
     ],
     "filtered_resps": [
@@ -4050,11 +4050,11 @@
     ],
     "resps": [
       [
-        "Toulouse has 2 times as many sheep as Charleston. Charleston has 20 sheep. Toulouse has 20 * 2 = 40 sheep. Toulouse, Charleston, and Seattle have together 40 + 20 + 20 = 80 sheep. The answer is 80."
+        "Toulouse has 2 times as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. Seattle has 20 sheep. Toulouse has 2 * 4 * 20 = 160 sheep. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "80."
+      "160."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "John drive for 3 hours at 60 mph. Spend 2 hours in standstill traffic. Spend 1/2 hour driving at 30 mph. Total time spent 3 + 2 + 1/2 = 7 hours. Distance = Speed * Time = 60 * 7 = 420 miles. The answer is 420."
+        "John drive for 3 hours at 60 mph. Spend 2 hours in standstill traffic. Spend 1/2 hour driving at 30 mph. Total time spent 3 + 2 + 1/2 = 6 hours. Distance = Speed * Time = 60 * 6 = 360 miles. He drive for 4 hours. Distance = Speed * Time = 80 * 4 = 320 miles. He drive for 4 hours. Distance = Speed * Time = 320 * 4 = 1280 miles. He drive for 4 hours. Distance = Speed * Time = 1280 * 4 = 4960 miles. He drive for 4 hours. Distance = Speed * Time = 4960 * 4 = 19840 miles. He drive for 4 hours. Distance = Speed * Time = 19840 * 4 = 79,280 miles. He drive for 4 hours. Distance = Speed * Time = 79,280 * 4 = 31,6960 miles. He drive for 4 hours"
       ]
     ],
     "filtered_resps": [
-      "420."
+      "4"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,7 +4202,7 @@
     ],
     "resps": [
       [
-        "In the first month, downloads were 60. In the second month, 3 times as many as the first month, so 60 * 3 = 180. In the third month, 30% of the downloads, so 180 * 0.3 = 54. The total number of downloads over the three months is 180 + 54 = 234. The answer is 234."
+        "In the first month, downloads were 60. In the second month, 3 times as many as the first month, so 60 * 3 = 180. In the third month, the number of downloads was reduced by 30% of the first month's number, so 180 * 0.3 = 54. The total number of downloads over the three months is 180 + 54 = 234. The answer is 234."
       ]
     ],
     "filtered_resps": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "Toula buy 3 dozen donuts which cost 3 * 60 = 180. Donuts cost $68 per dozen. Total cost 180 + 180 = 360. The answer is 360."
+        "Toula buy 3 dozen donuts which cost $68 per dozen. 3 * 6 = 18 donuts. 18 donuts cost $68. 18 donuts + 2 dozen mini cupcakes which cost $80 per dozen. 18 + 2 * 80 = 18 + 160 = $178. 178 + 6 dozen mini cheesecakes which cost $55 per dozen. 178 + 6 * 55 = 178 + 330 = $408. The answer is 408."
       ]
     ],
     "filtered_resps": [
-      "360."
+      "408."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "Carlos plant 1 tree. Each tree will grow 7 lemons. Each lemon will cost $1.5. So 7 * 1.5 = $10.50. It will take 1 tree 10.50 / $1.5 = 6.7 years. The answer is 6.7."
+        "Carlos plant 1 tree. Each tree will grow 7 lemons. Each lemon will cost $1.5. So 7 * 1.5 = $10.50. It will take 1 tree * 7 years = 7 years. So 7 years * $10.50 = $73.50. The answer is 7."
       ]
     ],
     "filtered_resps": [
-      "6.7."
+      "7."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4316,11 +4316,11 @@
     ],
     "resps": [
       [
-        "Melanie have 5 vacuum cleaners left. She sold a third of her vacuum cleaners at the green house. 5 / 3 = 1.67. She sold 2 more to the red house. 5 + 2 = 7. She sold half of what was left at the orange house. 5 / 2 = 2.5. She has 5 - 2.5 = 2.5. The answer is 2.5."
+        "Melanie have 5 vacuum cleaners left. Selling a third of her vacuum cleaners at the green house. 5 / 3 = 1.67. Selling 2 more to the red house. 5 + 2 = 7. Half of what was left at the orange house. 5 / 2 = 2.5. She has 5 + 2 + 2.5 = 8. The answer is 8."
       ]
     ],
     "filtered_resps": [
-      "2.5."
+      "8."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4392,11 +4392,11 @@
     ],
     "resps": [
       [
-        "The jewelry market is expected to rise 2.5% and the electronic gadgets market will rise 1.2%. The increase in the jewelry market is 2.5% - 1.2% = 1.3%. The increase in the electronic gadgets market is 1.2% - 1.2% = 0.012%. The total increase in the market is 1.3% + 0.012% = 1.312%. The merchant's profit is the increase in the market multiplied by the price of the jewelry. 1.312 * $5,000 = $6,632. The answer is $6,632."
+        "The jewelry market is expected to rise 2.5% and the electronic gadgets market will rise 1.2%. The increase in jewelry market is 2.5% - 1.2% = 1.3%. The increase in electronic gadgets market is 1.2% - 1.2% = 0.012%. The total increase in both markets is 1.3% + 0.012% = 1.312%. The merchant's profit is the increase in jewelry market (1.3%) multiplied by the jewelry market's value (5,000) and added to the increase in electronic gadgets market (0.012%) multiplied by the electronic gadgets market's value (8,000). The profit is 1.3% * 5,000 + 0.012% * 8,000 = 6.5% + 0.012% = 6.512%. The answer is 6.512."
       ]
     ],
     "filtered_resps": [
-      "$6,632."
+      "6.512."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "Train 1 leave San Rafael at 80 miles. Travel for 80 miles. Train 2 leave San Rafael at 150 miles. Travel for 150 miles. The distance covered by each train in the two days is 80 + 150 = 230 miles. The answer is 230."
+        "Train 1 leave San Rafael at 80 miles. Travel 80 miles in 80 minutes. 80 miles / 80 minutes = 1 mile per minute. Train 1 travel 1 mile per minute. Train 2 leave San Rafael at 150 miles. Travel 150 miles in 150 miles / 150 minutes = 1 mile per minute. Train 2 travel 1 mile per minute. The distance covered by each train in the two days is 1 mile per minute * 1 mile per minute = 1 mile. The answer is 1 mile."
       ]
     ],
     "filtered_resps": [
-      "230."
+      "1"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4443,7 +4443,7 @@
     "doc_hash": "8d52662ed683404d1c5f225090293bd707c942fb370cf956572bef5e4057b3a6",
     "prompt_hash": "d0bd2f6de96fd2f9c5b5db1044e6451b41d65ac90af37d7c49c1adef441dff1f",
     "target_hash": "a0eaec5a55dc2f5b2ba523018adc485ff620b9d83509b9f37186a7716e438d21",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 17,
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "Jill get $20 per hour. Work 50 weeks a year. Work 50 * 5 = 250 hours. Work 35 hours a week as a teacher. 250 - 35 = 215 hours. Work 15 hours a week as a coach. 215 - 15 = 190 hours. Total hours 215 + 190 = 405 hours. Work 405 * 30 = 12100. Total salary 12100 + 20 = 12300. The answer is 12300."
+        "Jill get $20 per hour. Work 50 weeks a year. Work 50 * 5 = 250 hours. Work 35 hours a week as a teacher. 250 - 35 = 215 hours. Work 15 hours a week as a coach. 215 - 15 = 190 hours. Total hours 250 + 215 + 190 = 755 hours. Work 755 * $30 = $2255. Jill have $2255. The answer is 2255."
       ]
     ],
     "filtered_resps": [
-      "12300."
+      "2255."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "Marissa take 1 hour to walk the first 4 miles. Then take another hour to walk the next two miles. So total time = 1 + 2 = 3 hours. Total distance = 12 miles. Speed = 4 miles per hour. Distance to be covered = 12 miles * 4 miles/hour = 48 miles. Marissa need to walk the remaining distance = 48 miles - 12 miles = 36 miles. Speed = 4 miles/hour. Distance to be covered = 36 miles * 4 miles/hour = 144 miles. Marissa need to walk the remaining distance = 144 miles - 36 miles = 108 miles. The answer is 108."
+        "Marissa take 1 hour to walk the first 4 miles. Then take another hour to walk the next two miles. Total time = 1 + 1 = 2 hours. Total distance = 12 miles. Speed = 4 miles per hour. Distance to be covered = 12 miles * 4 miles/hour = 48 miles. Marissa need to walk the remaining distance at 48 miles/hour. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "108."
+      "48."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "10 liters of orange drink. 2/3 of it is 10 * 2/3 = 4 liters. 3/5 of it is 10 * 3/5 = 18 liters. 1 liter is 1000 ml. 4 liters is 4000 ml. 18 liters is 18000 ml. 24 liters is 24000 ml. The answer is 24000."
+        "10 liters of orange drink. 2/3 of it is 10 * 2/3 = 4 liters. 3/5 of it is 15 * 3/5 = 18 liters. I spill 1 liter of orange drink. So 4 - 1 = 3 liters. The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "24000."
+      "3."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "Marie have $50. Order 1 chicken meal. Cost $12. Order 5 packs of milk. Cost $3 each. Order 4 apples. Cost $1.50 each. Order 5 boxes of pizza. Cost $8.50 each. Total cost $12 + $3 + $1.50 + $8.50 = $27. The answer is 27."
+        "Marie have $50. Order 5 chicken meal. Cost $12. Order 5 packs of milk. Cost $3 each. Order 4 apples. Cost $1.50 each. Order some boxes of pizza. Cost $8.50 per box. Total cost $12 + $3 + $1.50 + $8.50 = $27. The answer is 27."
       ]
     ],
     "filtered_resps": [
@@ -4810,11 +4810,11 @@
     ],
     "resps": [
       [
-        "Mishka have 3 pairs of shorts. Each pair cost $16.50. 3 * 16.50 = 49.50. Each pair cost $49.50. 3 * 49.50 = 148.50. Each pair cost $148.50. 3 * 148.50 = 445.50. Each pair cost $445.50. 3 * 445.50 = 1335.50. Each pair cost $1335.50. 3 * 1335.50 = 3905.50. Each pair cost $3905.50. 3 * 3905.50 = 11715.50. Each pair cost $11715.50. 3 * 11715.50 = 35147.50. Each pair cost $35147.50. 3 * 35147.50 = "
+        "Mishka have 3 pairs of shorts. Each pair cost $16.50. 3 * $16.50 = $49.50. Mishka have 3 pairs of pants. Each pair cost $22.50. 3 * $22.50 = $67.50. Mishka have 3 pairs of shoes. Each pair cost $42. 3 * $42 = $126. The answer is 126."
       ]
     ],
     "filtered_resps": [
-      "35147.50"
+      "126."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,11 +4848,11 @@
     ],
     "resps": [
       [
-        "Cynthia eat 1 serving of ice cream every night. 60 days. Cost 15 servings of ice cream per carton. 60 * 15 = 900. Money spent 900 - 400 = 500. The answer is 500."
+        "Cynthia eat 1 serving of ice cream every night. 60 days. Cost of 1 carton of ice cream 4.00 per carton. 60 days * 4.00 per carton = 240.00. The answer is 240."
       ]
     ],
     "filtered_resps": [
-      "500."
+      "240."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,7 +4886,7 @@
     ],
     "resps": [
       [
-        "Henry make 20 miles after 20 miles. His second stop is 15 miles before the end of the trip. So he travel 20 + 15 = 35 miles between his first and second stops. The answer is 35."
+        "Henry make 20 miles first stop. His second stop is 15 miles before the end of the trip. So he travel 20 + 15 = 35 miles between his first and second stops. The answer is 35."
       ]
     ],
     "filtered_resps": [
@@ -4924,11 +4924,11 @@
     ],
     "resps": [
       [
-        "Gloria have $23. One pair of heels cost $33. Two pairs of high heels cost 2 * 33 = 66. The answer is 66."
+        "Gloria have $23. One pair of heels cost $33. Two pairs of high heels cost 2 * 33 = 66. Together they cost 23 + 66 = 89. The answer is 89."
       ]
     ],
     "filtered_resps": [
-      "66."
+      "89."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "Darrell and Allen's ages are in the ratio of 7:11. Their total age is 162. So, 162 / 2 = 81. Allen's age 10 years from now is 81 + 10 = 91. The answer is 91."
+        "Darrell and Allen's ages are in the ratio of 7:11. Their total age is 162. So, 7 + 11 = 18. Allen's age 10 years from now is 162 - 10 = 152. The answer is 152."
       ]
     ],
     "filtered_resps": [
-      "91."
+      "152."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "John run 60 miles a week. Run 3 days a week. Run 3 hours the first day. Run 3 hours the other two days. So run 3 * 3 = 9 hours. So run 9 hours. So run 9 / 2 = 4.5 miles. The answer is 4.5."
+        "John run 60 miles a week. Run 3 days a week. Run 3 hours the first day. Run 3 hours the other two days. So run 3 * 3 = 9 hours. So run 9 hours. So run 60 - 9 = 51 miles. The answer is 51."
       ]
     ],
     "filtered_resps": [
-      "4.5."
+      "51."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "Grandma Jones have 5 apple pie. Pie cut into 8 pieces. Pie set out on the buffet table. Pie taken by the guests. Pie taken 5 * 8 = 40. Pie taken 14 - 40 = 26. The answer is 26."
+        "Grandma Jones have 5 apple pie. Pie cut into 8 pieces. Pie set out on the buffet table. Each pie have 8 pieces. Pie taken by the guests 5 * 8 = 40. Pie taken by the guests 14 - 40 = -26. The answer is -26."
       ]
     ],
     "filtered_resps": [
-      "26."
+      "-26."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5431,7 +5431,7 @@
     "doc_hash": "8513310526c6d75bbf661486b68c2032bdb3241a3f3a0b042cea44a89a76a1c6",
     "prompt_hash": "df5f1efffde81f79afaa3ce0e36d4268772a493b9e5a83249ad7a824ccf295ec",
     "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 43,
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "Candice have 80 post-it notes. On her way, she stopped off at the store and purchased a package of Post-it notes; 80 * 2 = 160. Post-it notes in package 160. At work, she placed a single Post-it note on each of 220 different cups of coffee. 220 * 1 = 220. Post-it notes in package 160 + 220 = 380. The answer is 380."
+        "Candice have 80 post-it notes. On her way, she stopped off at the store and purchased a package of Post-it notes. Each package have 80 * 2 = 160 post-it notes. Candice placed a single Post-it note on each of 220 different cups of coffee. So, she have 160 * 220 = 35200 post-it notes. The answer is 35200."
       ]
     ],
     "filtered_resps": [
-      "380."
+      "35200."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,7 +5608,7 @@
     ],
     "resps": [
       [
-        "John buy 2 times as many red ties as blue ties. 2 * 4 = 8. Each red tie cost 50% more than blue tie. 8 * 40 = 320. John spent $200 on blue ties. The answer is 320."
+        "John buy 2 times as many red ties as blue ties. 2 * 4 = 8. Each red tie cost 50% more than blue tie. 8 * 40 = 320. John spent $200 on blue ties that cost $40 each. The answer is 320."
       ]
     ],
     "filtered_resps": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "Basket contain 25 oranges. 1 is bad. 20% are unripe. 2 are sour. 100% - 20% - 2 = 80% are good. 80% of 25 = 20. The answer is 20."
+        "Basket contain 25 oranges. 1 is bad. 20% are unripe. 2 are sour. 100% - 20% - 2% = 80%. Good oranges are 80% of 25. 25 * 0.8 = 20. The answer is 20."
       ]
     ],
     "filtered_resps": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "Marcy get 40 years. 40 * 5% = 20. 20 * 50,000 = 100,000. The answer is 100,000."
+        "Marcy get 40 years. 40 years * 5% = 20 years. 20 years * 50,000 = $1,000,000. The answer is 1,000,000."
       ]
     ],
     "filtered_resps": [
-      "100,000."
+      "1,000,000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,7 +6292,7 @@
     ],
     "resps": [
       [
-        "Jim spend 2 hours watching TV. 3 times a week. 2 * 3 = 6 hours. He spend 6 hours on TV and reading. 6 hours * 4 weeks = 24 hours. The answer is 24."
+        "Jim spend 2 hours watching TV. 3 times a week. 2 * 3 = 6 hours. He spend 6 hours watching TV and reading. 6 hours * 4 weeks = 24 hours. The answer is 24."
       ]
     ],
     "filtered_resps": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "Diamonds are 175. Rubies are 35 fewer than diamonds. So, rubies are 175 - 35 = 140. The number of emeralds is twice the number of rubies. So, emeralds are 140 * 2 = 280. The number of gems is 175 + 35 + 280 = 450. The answer is 450."
+        "Diamonds are 175. Rubies are 35 fewer than diamonds. So, rubies are 175 - 35 = 140. The number of emeralds is twice the number of rubies. So, emeralds are 140 * 2 = 280. The number of gems is 175 + 35 + 280 = 420. The answer is 420."
       ]
     ],
     "filtered_resps": [
-      "450."
+      "420."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "There are twice as many boys as girls. 60 boys. 60 * 2 = 120. There are 120 teachers. The answer is 120."
+        "There are twice as many boys as girls. So there are 60 * 2 = 120 boys. There are 60 girls. There are 120 + 60 = 180 students. There are 180 / 2 = 90 teachers. The answer is 90."
       ]
     ],
     "filtered_resps": [
-      "120."
+      "90."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "Shiela have 5 cell phones. Each $150. Interest 2% = 2% of $150. 2% of $150 = 0.02 * $150 = $3. Money left = $150 - $3 = $147. The answer is 147."
+        "Shiela have 5 cell phones. Each $150. Interest 2% = 0.02 * 150 = 3. The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "147."
+      "3."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "Artie have 12 pots of marigolds. Each $2.74 per pot. 12 * 2.74 = 32.88. Artie have 32.88 + 9 = 41.88. Artie have 41.88 + 17 = 59.88. The answer is 59.88."
+        "Artie have 12 pots of marigolds. Marigolds sell for $2.74 per pot. 12 * 2.74 = $30.56. Artie have 9 pots of petunias. Petunias sell for $1.87 per pot. 9 * 1.87 = $15.53. Artie have 17 pots of begonias. Begonias sell for $2.12 per pot. 17 * 2.12 = $38.84. Artie have $30.56 + $15.53 + $38.84 = $76.29. The answer is 76.29."
       ]
     ],
     "filtered_resps": [
-      "59.88."
+      "76.29."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "Cecilia have 180 days. Feed puppy 1 cup every day. 180 days / 1 cup = 180 cups. Feed puppy 2 cups every day. 180 days / 2 cups = 90 cups. The answer is 90."
+        "Cecilia have 180 days. Feed puppy 1 cup every day. 180 days / 1 cup = 180 days. Feed puppy 2 cups every day. 180 days / 2 cups = 90 days. Feed puppy 110 cups of dog food. 90 days * 110 cups = 990 cups. The answer is 990."
       ]
     ],
     "filtered_resps": [
-      "90."
+      "990."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7014,7 +7014,7 @@
     ],
     "resps": [
       [
-        "Team have 22 games. Win 8 more. 22 + 8 = 20. The answer is 20."
+        "Team have 22 games. Win 8 more than they lost. 22 + 8 = 20. The answer is 20."
       ]
     ],
     "filtered_resps": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "Gene have 23 years old. Since he is now 34, he has been vacationing since 23 + 4 = 27 years old. Each vacation he has been on is 27 years old. Each year he has been on is 27 * 4 = 108 years old. He has 108 years old. Each year he has been on is 108 * 4 = 432 years old. He has 432 years old. Each year he has been on is 432 * 4 = 1728 years old. He has 1728 years old. Each year he has been on is 1728 * 4 = 6892 years old. He has 6892 years old. Each year he has been on is 6892 * 4 = 27768 years old. He has 27768 years old. Each year he has been on is 27768 * 4 = 109152 years old. He has 109152 years old. Each year he has been"
+        "Gene have 23 years old. Since he is now 34, he has been vacationing since 23 + 4 = 27 years old. Each vacation he has been on is 27 years old. Each vacation has 4 years. So he has 27 * 4 = 108 vacation blocks. Each block is made of 4 t-shirts. So he has 108 * 4 = 432 quilt blocks. The answer is 432."
       ]
     ],
     "filtered_resps": [
-      "109152"
+      "432."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "First time it went off, it rang four times. Second time it went off, it rang for three times as long as the first time. So it rang for 4 * 3 = 12 times. Third time it went off, it rang for half as long as the second time. So it rang for 12 / 2 = 6 times. The alarm rang in all 12 + 12 + 6 = 30 times. The answer is 30."
+        "First time it went off, it rang four times. Second time it went off, it rang for three times as long as the first time. So it rang for 4 * 3 = 12 times. Third time it went off, it rang for half as long as the second time. So it rang for 12 / 2 = 6 times. The alarm rang in all 12 + 12 + 6 = 28 times. The answer is 28."
       ]
     ],
     "filtered_resps": [
-      "30."
+      "28."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7128,11 +7128,11 @@
     ],
     "resps": [
       [
-        "Sylvie have 5 years in the company. Each year the salary increases by 10%. 5 * 10% = 5 * 0.10 = 0.50. Her annual salary is 600 + 0.50 * 600 = 600 + 300 = 900. The answer is 900."
+        "Sylvie have 5 years in the company. Each year the company increases the salary by 10%. So, after 5 years, the salary will be 600 * (1 + 0.10) = 600 * 1.10 = 660. After three more years of service, the salary will be 660 * (1 + 0.10) = 660 * 1.10 = 696.00. The answer is 696."
       ]
     ],
     "filtered_resps": [
-      "900."
+      "696."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7242,7 +7242,7 @@
     ],
     "resps": [
       [
-        "Ted the T-Rex know that an adult dinosaur will eat 10 lbs of potato salad. Each adult dinosaur eat 10 * 10 = 100 lbs of potato salad. Each child will eat half as much as an adult dinosaur. Each child will eat 100 / 2 = 50 lbs of potato salad. There will be 20 adults and 5 children at the picnic. So, Ted needs to bring 100 + 50 = 150 lbs of potato salad. The answer is 150."
+        "Ted the T-Rex know that an adult dinosaur will eat 10 lbs of potato salad. Each adult dinosaur eat 10 * 10 = 100 lbs of potato salad. Each child will eat half as much as an adult. Each child will eat 100 / 2 = 50 lbs of potato salad. There will be 20 adults and 5 children at the picnic. So, Ted needs to bring 100 + 50 = 150 lbs of potato salad. The answer is 150."
       ]
     ],
     "filtered_resps": [
@@ -7280,11 +7280,11 @@
     ],
     "resps": [
       [
-        "Marcia have 2 more pets than Cindy. Cindy have 4 pets. Total pets 2 + 4 = 6. The answer is 6."
+        "Jan have 3 times the number of pets as Marcia. Marcia have 2 more pets than Cindy. Cindy have 4 pets. Total pets 3 * 2 + 4 = 11. The answer is 11."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "11."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7356,11 +7356,11 @@
     ],
     "resps": [
       [
-        "Gerald used to be able to run the 400-meter hurdles two seconds faster than Lee would run the 400-meter hurdles. So, Gerald's 400-meter hurdles running time is 2 seconds faster than Lee's 400-meter hurdles running time. So, Gerald's 400-meter hurdles running time is 2 + 38 = 40 seconds.\n\nGerald's improved diet improved his running time by 10%. So, Gerald's running time is 40 + 10 = 50 seconds.\n\nGerald can run the 400-meter hurdles in 50 seconds. The answer is 50."
+        "Gerald used to be able to run the 400-meter hurdles two seconds faster than Lee would run the 400-meter hurdles. So, Gerald's speed is 2 seconds faster than Lee's speed. If Lee's speed is 38 seconds, Gerald's speed is 38 + 2 = 40 seconds. Gerald's speed is 40 seconds. If Gerald's diet improved by 10%, his speed would be 40 * 1.1 = 44 seconds. Gerald's speed is 44 seconds. The answer is 44."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "44."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "Yesterday, she received 18 new potted plants. She already has 2 potted plants on each of the 40 window ledges. So, she will have 2 * 40 = 80 potted plants. Mary will remain with 18 - 80 = 60 potted plants. The answer is 60."
+        "Yesterday, she received 18 new potted plants. She already has 2 potted plants on each of the 40 window ledges. So, she has 2 * 40 = 80 potted plants. She will give 1 potted plant from each ledge to friends and family tomorrow. So, she will give 80 - 1 = 79 potted plants. The answer is 79."
       ]
     ],
     "filtered_resps": [
-      "60."
+      "79."
     ],
     "filter": "flexible-extract",
     "metrics": [

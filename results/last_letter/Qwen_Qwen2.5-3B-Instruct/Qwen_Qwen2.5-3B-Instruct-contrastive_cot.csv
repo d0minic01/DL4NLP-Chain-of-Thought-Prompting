@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,last_letter_contrastive_cot,last_letter,contrastive_cot,fewshot_cot,last_letter_concatenation,0.09,0.05,148.8,4,100,12.73,9.56

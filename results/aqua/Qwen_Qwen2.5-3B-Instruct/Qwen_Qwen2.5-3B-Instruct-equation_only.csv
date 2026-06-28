@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,aqua_equation_only,aqua,equation_only,fewshot_cot,aqua-rat,0.51,0.42,546.0,4,100,39.52,9.56

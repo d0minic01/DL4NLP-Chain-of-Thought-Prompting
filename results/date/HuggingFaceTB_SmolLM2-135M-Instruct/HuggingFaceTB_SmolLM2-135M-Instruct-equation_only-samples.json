@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "08/19/1963 + 1 week = 08/20/1963 The answer is 08/20/1963."
+        "08/19/1963 + 1 day = 08/20/1963; 08/20/1963 - 1 = 07/20/1963 The answer is 07/20/1963."
       ]
     ],
     "filtered_resps": [
-      "08/20/1963"
+      "07/20/1963"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,11 +2036,11 @@
     ],
     "resps": [
       [
-        "01/15/2016 + 1 day = 01/16/2016 The answer is 01/16/2016."
+        "01/15/2016 + 30 days = 01/20/2016 The answer is 01/20/2016."
       ]
     ],
     "filtered_resps": [
-      "01/16/2016"
+      "01/20/2016"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "01/28/2018 + 30 days = 01/29/2018 The answer is 01/29/2018."
+        "01/28/2018 + 30 days = 01/31/2018 The answer is 01/31/2018."
       ]
     ],
     "filtered_resps": [
-      "01/29/2018"
+      "01/31/2018"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "05/05/2023 + 30 days = 05/30/2023 The answer is 05/30/2023."
+        "05/05/2023 + 3 days = 05/30/2023 The answer is 05/30/2023."
       ]
     ],
     "filtered_resps": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "07/07/1955 + 1 day = 07/18/1955 The answer is 07/18/1955."
+        "03/07/1955 + 1 day = 03/07/1955 The answer is 03/07/1955."
       ]
     ],
     "filtered_resps": [
-      "07/18/1955"
+      "03/07/1955"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "06/12/1975 + 1 day = 06/12/1975 The answer is 06/12/1975."
+        "06/12/1975 + 1 day = 06/13/1975 The answer is 06/13/1975."
       ]
     ],
     "filtered_resps": [
-      "06/12/1975"
+      "06/13/1975"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "08/19/1963 + 1 week = 08/20/1963 The answer is 08/20/1963."
+        "08/19/1963 + 1 day = 08/20/1963; 08/20/1963 - 1 = 07/20/1963 The answer is 07/20/1963."
       ]
     ],
     "filtered_resps": [
-      "08/20/1963"
+      "07/20/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5836,11 +5836,11 @@
     ],
     "resps": [
       [
-        "01/15/2016 + 1 day = 01/16/2016 The answer is 01/16/2016."
+        "01/15/2016 + 30 days = 01/20/2016 The answer is 01/20/2016."
       ]
     ],
     "filtered_resps": [
-      "01/16/2016"
+      "01/20/2016"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "01/28/2018 + 30 days = 01/29/2018 The answer is 01/29/2018."
+        "01/28/2018 + 30 days = 01/31/2018 The answer is 01/31/2018."
       ]
     ],
     "filtered_resps": [
-      "01/29/2018"
+      "01/31/2018"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7280,7 +7280,7 @@
     ],
     "resps": [
       [
-        "05/05/2023 + 30 days = 05/30/2023 The answer is 05/30/2023."
+        "05/05/2023 + 3 days = 05/30/2023 The answer is 05/30/2023."
       ]
     ],
     "filtered_resps": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "07/07/1955 + 1 day = 07/18/1955 The answer is 07/18/1955."
+        "03/07/1955 + 1 day = 03/07/1955 The answer is 03/07/1955."
       ]
     ],
     "filtered_resps": [
-      "07/18/1955"
+      "03/07/1955"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "06/12/1975 + 1 day = 06/12/1975 The answer is 06/12/1975."
+        "06/12/1975 + 1 day = 06/13/1975 The answer is 06/13/1975."
       ]
     ],
     "filtered_resps": [
-      "06/12/1975"
+      "06/13/1975"
     ],
     "filter": "flexible-extract",
     "metrics": [

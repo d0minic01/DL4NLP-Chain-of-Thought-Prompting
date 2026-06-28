@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,sports_numbered_step_cot,sports,numbered_step_cot,fewshot_cot,sports_understanding,0.88,0.0,168.8,8,100,14.76,9.56

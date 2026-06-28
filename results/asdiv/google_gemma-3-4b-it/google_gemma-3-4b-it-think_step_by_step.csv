@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,asdiv_think_step_by_step,asdiv,think_step_by_step,zero_shot,asdiv,0.92,0.06,317.7,0,100,66.1,11.48

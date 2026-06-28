@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-135M-Instruct,asdiv_think_step_by_step,asdiv,think_step_by_step,zero_shot,asdiv,0.13,0.56,605.9,0,100,30.67,1.48

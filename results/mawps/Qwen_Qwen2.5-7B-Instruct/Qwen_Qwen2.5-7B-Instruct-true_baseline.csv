@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,mawps_true_baseline,mawps,true_baseline,zero_shot,mawps,0.7,0.25,289.5,0,100,22.09,20.53

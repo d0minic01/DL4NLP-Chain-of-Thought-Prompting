@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-3B-Instruct,asdiv_persona_cot,asdiv,persona_cot,fewshot_cot,asdiv,0.96,0.02,127.6,8,100,26.14,9.56

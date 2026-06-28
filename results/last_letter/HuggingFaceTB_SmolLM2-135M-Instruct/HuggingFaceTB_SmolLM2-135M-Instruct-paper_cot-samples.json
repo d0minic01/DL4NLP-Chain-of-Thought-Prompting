@@ -60,11 +60,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"island\" is \"i\". The last letter of \"bridge\" is \"j\". The last letter of \"castle\" is \"k\". Concatenating them is \"ik\". The answer is ik."
+        "The last letter of \"island\" is \"i\". The last letter of \"bridge\" is \"j\". The last letter of \"jacket\" is \"c\". The last letter of \"castle\" is \"b\". Concatenating them is \"ibjc b\". The answer is ibjc b."
       ]
     ],
     "filtered_resps": [
-      "ik"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"bottle\" is \"t\". The last letter of \"Tiger\" is \"m\". The last letter of \"Rocket\" is \"r\". Concatenating them is \"tmr\". The answer is tmr."
+        "The last letter of \"bottle\" is \"t\". The last letter of \"Rocket\" is \"i\". Concatenating them is \"tiv\". The answer is tiv."
       ]
     ],
     "filtered_resps": [
-      "tmr"
+      "tiv"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Brian\" is \"i\". The last letter of \"Island\" is \"s\". Concatenating them is \"is\". The answer is is."
+        "The last letter of \"Brian\" is \"i\". The last letter of \"Island\" is \"s\". Concatenating them is \"sib\". The answer is sib."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "sib"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -440,11 +440,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Orange\" is \"c\". The last letter of \"Carol\" is \"W\". Concatenating them is \"oar\". The answer is oar."
+        "The last letter of \"Orange\" is \"r\". The last letter of \"Carol\" is \"Walter\". Concatenating them is \"rw\". The answer is rw."
       ]
     ],
     "filtered_resps": [
-      "oar"
+      "rw"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -478,11 +478,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"harbor\" is \"e\". The last letter of \"donna\" is \"n\". Concatenating them is \"en\". The answer is en."
+        "The last letter of \"harbor\" is \"e\". The last letter of \"donna\" is \"l\". Concatenating them is \"el\". The answer is el."
       ]
     ],
     "filtered_resps": [
-      "en"
+      "el"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"kettle\" is \"p\". The last letter of \"planet\" is \"e\". Concatenating them is \"ep\". The answer is eep."
+        "The last letter of \"kettle\" is \"p\". The last letter of \"planet\" is \"e\". Concatenating them is \"ep\". The answer is ep."
       ]
     ],
     "filtered_resps": [
-      "eep"
+      "ep"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -706,11 +706,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Liam\" is \"i\". The last letter of \"Jacket\" is \"e\". Concatenating them is \"iye\". The answer is iye."
+        "The last letter of \"Liam\" is \"i\". The last letter of \"Jacket\" is \"y\". Concatenating them is \"yiy\". The answer is yiy."
       ]
     ],
     "filtered_resps": [
-      "iye"
+      "yiy"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Ruth\" is \"y\". The last letter of \"Jira\" is \"i\". Concatenating them is \"yi\". The answer is yi."
+        "The last letter of \"Ruth\" is \"y\". The last letter of \"Jazz\" is \"h\". The last letter of \"Henry\" is \"n\". Concatenating them is \"nyh\". The answer is nyh."
       ]
     ],
     "filtered_resps": [
-      "yi"
+      "nyh"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"orange\" is \"o\". The last letter of \"engine\" is \"j\". The last letter of \"apple\" is \"a\". Concatenating them is \"oj\". The answer is oj."
+        "The last letter of \"orange\" is \"o\". The last letter of \"Jack\" is \"a\". Concatenating them is \"oA\". The answer is oA."
       ]
     ],
     "filtered_resps": [
-      "oj"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"bridge\" is \"g\". The last letter of \"bridge guitar\" is \"h\". Concatenating them is \"hg\". The answer is hg."
+        "The last letter of \"bridge\" is \"g\". The last letter of \"bridge guitar\" is \"r\". Concatenating them is \"rg\". The answer is rg."
       ]
     ],
     "filtered_resps": [
-      "hg"
+      "rg"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,11 +1086,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"feather\" is \"q\". The last letter of \" quilt\" is \"t\". Concatenating them is \"tq\". The answer is tq."
+        "The last letter of \"feather\" is \"q\". The last letter of \" quilt\" is \"r\". Concatenating them is \"rq\". The answer is rq."
       ]
     ],
     "filtered_resps": [
-      "tq"
+      "rq"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1200,11 +1200,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Desert\" is \"k\". The last letter of \"Kate\" is \"e\". Concatenating them is \"ek\". The answer is ek."
+        "The last letter of \"Desert\" is \"k\". The last letter of \"Kate\" is \"a\". Concatenating them is \"ak\". The answer is ak."
       ]
     ],
     "filtered_resps": [
-      "ek"
+      "ak"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,11 +1276,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"mirror\" is \"r\". The last letter of \"P\" is \"n\". Concatenating them is \"nn\". The answer is nnn."
+        "The last letter of \"mirror\" is \"r\". The last letter of \"puzzle\" is \"r\". Concatenating them is \"rps\". The answer is rps."
       ]
     ],
     "filtered_resps": [
-      "nnn"
+      "rps"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1390,7 +1390,7 @@
     ],
     "resps": [
       [
-        "The last letter of \"Quinn\" is \"x\". The last letter of \"Xena\" is \"n\". Concatenating them is \"xn\". The answer is xn."
+        "The last letter of \"Quinn\" is \"x\". The last letter of \"OX\" is \"n\". Concatenating them is \"xn\". The answer is xn."
       ]
     ],
     "filtered_resps": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"apple\" is \"a\". The last letter of \"elbow\" is \"e\". Concatenating them is \"el\". The answer is el."
+        "The last letter of \"apple\" is \"a\". The last letter of \"elbow\" is \"e\". Concatenating them is \"ae\". The answer is ea."
       ]
     ],
     "filtered_resps": [
-      "el"
+      "ea"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Zach\" is \"s\". The last letter of \"bridge\" is \"silver\". Concatenating them is \"ssl\". The answer is ssls."
+        "The last letter of \"Zach\" is \"s\". The last letter of \"bridge\" is \"silver\". Concatenating them is \"ssl\". The answer is ss."
       ]
     ],
     "filtered_resps": [
-      "ssls"
+      "ss"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Donna\" is \"n\". The last letter of \"Yarn\" is \"y\". Concatenating them is \"nyw\". The answer is nyw."
+        "The last letter of \"Donna\" is \"y\". The last letter of \"Grow\" is \"n\". Concatenating them is \"ny\". The answer is ny."
       ]
     ],
     "filtered_resps": [
-      "nyw"
+      "ny"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,11 +1808,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"elbow\" is \"n\". The last letter of \"Xenon\" is \"c\". The last letter of \"Xenon\" is \"n\". Concatenating them is \"nk\". The answer is nk."
+        "The last letter of \"Elbow\" is \"N\". The last letter of \"Xenon\" is \"N\". The last letter of \"Carol\" is \"N\". Concatenating them is \"Nc\". The answer is Nc."
       ]
     ],
     "filtered_resps": [
-      "nk"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"quilt\" is \"c\". The last letter of \"candle\" is \"r\". The last letter of \"rocket\" is \"n\". Concatenating them is \"nrn\". The answer is nrn."
+        "The last letter of \"quilt\" is \"c\". The last letter of \"candle\" is \"r\". The last letter of \"rocket\" is \"n\". Concatenating them is \"nk\". The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "nrn"
+      "nk"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2074,11 +2074,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"anchor\" is \"r\". The last letter of \"river\" is \"n\". Concatenating them is \"rn\". The answer is rn."
+        "The last letter of \"anchor\" is \"r\". The last letter of \"river\" is \"e\". Concatenating them is \"er\". The answer is er."
       ]
     ],
     "filtered_resps": [
-      "rn"
+      "er"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"violet\" is \"o\". The last letter of \"Bob\" is \"n\". Concatenating them is \"nv\". The answer is nv."
+        "The last letter of \"violet\" is \"o\". The last letter of \"Bob\" is \"n\". Concatenating them is \"o nn\". The answer is nn."
       ]
     ],
     "filtered_resps": [
-      "nv"
+      "nn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Jacket\" is \"y\". The last letter of \"planet\" is \"L\". The last letter of \"Lemon\" is \"e\". Concatenating them is \"yn\". The answer is yn."
+        "The last letter of \"Jacket\" is \"e\". The last letter of \"planet\" is \"e\". The last letter of \"Lemon\" is \"n\". Concatenating them is \"nj\". The answer is nj."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "nj"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"candle\" is \"e\". The last letter of \"Jack\" is \"g\". Concatenating them is \"jg\". The answer is jg."
+        "The last letter of \"candle\" is \"j\". The last letter of \"Jack\" is \"a\". Concatenating them is \"jak\". The answer is jak."
       ]
     ],
     "filtered_resps": [
-      "jg"
+      "jak"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2568,11 +2568,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"harbor\" is \"d\". The last letter of \"Desert\" is \"s\". Concatenating them is \"ds\". The answer is ds."
+        "The last letter of \"harbor\" is \"d\". The last letter of \"Sedan\" is \"e\". Concatenating them is \"ed\". The answer is ed."
       ]
     ],
     "filtered_resps": [
-      "ds"
+      "ed"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "The last letter of \"anchor\" is \"d\". The last letter of \"Diamond\" is \"n\". Concatenating them is \"nnd\". The answer is ndn."
+        "The last letter of \"anchor\" is \"d\". The last letter of \"Diamond\" is \"n\". Concatenating them is \"dn\". The answer is ndn."
       ]
     ],
     "filtered_resps": [
@@ -2796,11 +2796,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Forest David\" is \"d\". The last letter of \"Gates\" is \"s\". Concatenating them is \"ds\". The answer is ds."
+        "The last letter of \"Forest\" is \"d\". The last letter of \"David\" is \"f\". Concatenating them is \"fds\". The answer is fds."
       ]
     ],
     "filtered_resps": [
-      "ds"
+      "fds"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Ruth\" is \"v\". The last letter of \"Gates\" is \"l\". Concatenating them is \"vl\". The answer is vl."
+        "The last letter of \"valley\" is \"r\". The last letter of \"Ruth\" is \"t\". Concatenating them is \"rt\". The answer is rt."
       ]
     ],
     "filtered_resps": [
-      "vl"
+      "rt"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3176,7 +3176,7 @@
     ],
     "resps": [
       [
-        "The last letter of \"Liam\" is \"y\". The last letter of \"Guitar Yasmin\" is \"N\". Concatenating them is \"yn\". The answer is yn."
+        "The last letter of \"Liam\" is \"y\". The last letter of \"Guitar Yasmin\" is \"n\". Concatenating them is \"yn\". The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -3214,11 +3214,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"yarn violet\" is \"v\". The last letter of \"yarn violet\" is \"n\". Concatenating them is \"ynv\". The answer is ynv."
+        "The last letter of \"yarn violet\" is \"v\". The last letter of \"purple\" is \"n\". Concatenating them is \"nyv\". The answer is nyv."
       ]
     ],
     "filtered_resps": [
-      "ynv"
+      "nyv"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Iris\" is \"r\". The last letter of \"Burt\" is \"t\". Concatenating them is \"rt\". The answer is rt."
+        "The last letter of \"Iris\" is \"r\". The last letter of \"Burt\" is \"t\". Concatenating them is \"rtt\". The answer is rtt."
       ]
     ],
     "filtered_resps": [
-      "rt"
+      "rtt"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3366,11 +3366,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Desert Dragon Lantern Harbor\" is \"d\". The last letter of \"Loran Harbor\" is \"n\". Concatenating them is \"dn\". The answer is nd."
+        "The last letter of \"Desert Dragon Lantern Harbor\" is \"d\". The last letter of \"Loran Harbor\" is \"n\". Concatenating them is \"dn\". The answer is ndn."
       ]
     ],
     "filtered_resps": [
-      "nd"
+      "ndn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3594,11 +3594,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"quilt\" is \"t\". The last letter of \"violet\" is \"r\". The last letter of \"dragon\" is \"n\". Concatenating them is \"nv\". The answer is nv."
+        "The last letter of \"quilt\" is \"t\". The last letter of \"Violet\" is \"R\". The last letter of \"Dragon\" is \"T\". Concatenating them is \"RtT\". The answer is rtT."
       ]
     ],
     "filtered_resps": [
-      "nv"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Eagle\" is \"l\". The last letter of \"Mellon\" is \"s\". Concatenating them is \"sls\". The answer is sls."
+        "The last letter of \"Eagle\" is \"e\". The last letter of \"Lem\" is \"e\". The last letter of \"H\" is \"e\". Concatenating them is \"eel\". The answer is eel."
       ]
     ],
     "filtered_resps": [
-      "sls"
+      "eel"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3860,11 +3860,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"island\" is \"i\". The last letter of \"bridge\" is \"j\". The last letter of \"castle\" is \"k\". Concatenating them is \"ik\". The answer is ik."
+        "The last letter of \"island\" is \"i\". The last letter of \"bridge\" is \"j\". The last letter of \"jacket\" is \"c\". The last letter of \"castle\" is \"b\". Concatenating them is \"ibjc b\". The answer is ibjc b."
       ]
     ],
     "filtered_resps": [
-      "ik"
+      "ibjc"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"bottle\" is \"t\". The last letter of \"Tiger\" is \"m\". The last letter of \"Rocket\" is \"r\". Concatenating them is \"tmr\". The answer is tmr."
+        "The last letter of \"bottle\" is \"t\". The last letter of \"Rocket\" is \"i\". Concatenating them is \"tiv\". The answer is tiv."
       ]
     ],
     "filtered_resps": [
-      "tmr"
+      "tiv"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Brian\" is \"i\". The last letter of \"Island\" is \"s\". Concatenating them is \"is\". The answer is is."
+        "The last letter of \"Brian\" is \"i\". The last letter of \"Island\" is \"s\". Concatenating them is \"sib\". The answer is sib."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "sib"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Orange\" is \"c\". The last letter of \"Carol\" is \"W\". Concatenating them is \"oar\". The answer is oar."
+        "The last letter of \"Orange\" is \"r\". The last letter of \"Carol\" is \"Walter\". Concatenating them is \"rw\". The answer is rw."
       ]
     ],
     "filtered_resps": [
-      "oar"
+      "rw"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4278,11 +4278,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"harbor\" is \"e\". The last letter of \"donna\" is \"n\". Concatenating them is \"en\". The answer is en."
+        "The last letter of \"harbor\" is \"e\". The last letter of \"donna\" is \"l\". Concatenating them is \"el\". The answer is el."
       ]
     ],
     "filtered_resps": [
-      "en"
+      "el"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"kettle\" is \"p\". The last letter of \"planet\" is \"e\". Concatenating them is \"ep\". The answer is eep."
+        "The last letter of \"kettle\" is \"p\". The last letter of \"planet\" is \"e\". Concatenating them is \"ep\". The answer is ep."
       ]
     ],
     "filtered_resps": [
-      "eep"
+      "ep"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Liam\" is \"i\". The last letter of \"Jacket\" is \"e\". Concatenating them is \"iye\". The answer is iye."
+        "The last letter of \"Liam\" is \"i\". The last letter of \"Jacket\" is \"y\". Concatenating them is \"yiy\". The answer is yiy."
       ]
     ],
     "filtered_resps": [
-      "iye"
+      "yiy"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Ruth\" is \"y\". The last letter of \"Jira\" is \"i\". Concatenating them is \"yi\". The answer is yi."
+        "The last letter of \"Ruth\" is \"y\". The last letter of \"Jazz\" is \"h\". The last letter of \"Henry\" is \"n\". Concatenating them is \"nyh\". The answer is nyh."
       ]
     ],
     "filtered_resps": [
-      "yi"
+      "nyh"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"orange\" is \"o\". The last letter of \"engine\" is \"j\". The last letter of \"apple\" is \"a\". Concatenating them is \"oj\". The answer is oj."
+        "The last letter of \"orange\" is \"o\". The last letter of \"Jack\" is \"a\". Concatenating them is \"oA\". The answer is oA."
       ]
     ],
     "filtered_resps": [
-      "oj"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"bridge\" is \"g\". The last letter of \"bridge guitar\" is \"h\". Concatenating them is \"hg\". The answer is hg."
+        "The last letter of \"bridge\" is \"g\". The last letter of \"bridge guitar\" is \"r\". Concatenating them is \"rg\". The answer is rg."
       ]
     ],
     "filtered_resps": [
-      "hg"
+      "rg"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,11 +4886,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"feather\" is \"q\". The last letter of \" quilt\" is \"t\". Concatenating them is \"tq\". The answer is tq."
+        "The last letter of \"feather\" is \"q\". The last letter of \" quilt\" is \"r\". Concatenating them is \"rq\". The answer is rq."
       ]
     ],
     "filtered_resps": [
-      "tq"
+      "rq"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5000,11 +5000,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Desert\" is \"k\". The last letter of \"Kate\" is \"e\". Concatenating them is \"ek\". The answer is ek."
+        "The last letter of \"Desert\" is \"k\". The last letter of \"Kate\" is \"a\". Concatenating them is \"ak\". The answer is ak."
       ]
     ],
     "filtered_resps": [
-      "ek"
+      "ak"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5076,11 +5076,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"mirror\" is \"r\". The last letter of \"P\" is \"n\". Concatenating them is \"nn\". The answer is nnn."
+        "The last letter of \"mirror\" is \"r\". The last letter of \"puzzle\" is \"r\". Concatenating them is \"rps\". The answer is rps."
       ]
     ],
     "filtered_resps": [
-      "nnn"
+      "rps"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5190,7 +5190,7 @@
     ],
     "resps": [
       [
-        "The last letter of \"Quinn\" is \"x\". The last letter of \"Xena\" is \"n\". Concatenating them is \"xn\". The answer is xn."
+        "The last letter of \"Quinn\" is \"x\". The last letter of \"OX\" is \"n\". Concatenating them is \"xn\". The answer is xn."
       ]
     ],
     "filtered_resps": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"apple\" is \"a\". The last letter of \"elbow\" is \"e\". Concatenating them is \"el\". The answer is el."
+        "The last letter of \"apple\" is \"a\". The last letter of \"elbow\" is \"e\". Concatenating them is \"ae\". The answer is ea."
       ]
     ],
     "filtered_resps": [
-      "el"
+      "ea"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Zach\" is \"s\". The last letter of \"bridge\" is \"silver\". Concatenating them is \"ssl\". The answer is ssls."
+        "The last letter of \"Zach\" is \"s\". The last letter of \"bridge\" is \"silver\". Concatenating them is \"ssl\". The answer is ss."
       ]
     ],
     "filtered_resps": [
-      "ssls"
+      "ss"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Donna\" is \"n\". The last letter of \"Yarn\" is \"y\". Concatenating them is \"nyw\". The answer is nyw."
+        "The last letter of \"Donna\" is \"y\". The last letter of \"Grow\" is \"n\". Concatenating them is \"ny\". The answer is ny."
       ]
     ],
     "filtered_resps": [
-      "nyw"
+      "ny"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"elbow\" is \"n\". The last letter of \"Xenon\" is \"c\". The last letter of \"Xenon\" is \"n\". Concatenating them is \"nk\". The answer is nk."
+        "The last letter of \"Elbow\" is \"N\". The last letter of \"Xenon\" is \"N\". The last letter of \"Carol\" is \"N\". Concatenating them is \"Nc\". The answer is Nc."
       ]
     ],
     "filtered_resps": [
-      "nk"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"quilt\" is \"c\". The last letter of \"candle\" is \"r\". The last letter of \"rocket\" is \"n\". Concatenating them is \"nrn\". The answer is nrn."
+        "The last letter of \"quilt\" is \"c\". The last letter of \"candle\" is \"r\". The last letter of \"rocket\" is \"n\". Concatenating them is \"nk\". The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "nrn"
+      "nk"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5874,11 +5874,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"anchor\" is \"r\". The last letter of \"river\" is \"n\". Concatenating them is \"rn\". The answer is rn."
+        "The last letter of \"anchor\" is \"r\". The last letter of \"river\" is \"e\". Concatenating them is \"er\". The answer is er."
       ]
     ],
     "filtered_resps": [
-      "rn"
+      "er"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"violet\" is \"o\". The last letter of \"Bob\" is \"n\". Concatenating them is \"nv\". The answer is nv."
+        "The last letter of \"violet\" is \"o\". The last letter of \"Bob\" is \"n\". Concatenating them is \"o nn\". The answer is nn."
       ]
     ],
     "filtered_resps": [
-      "nv"
+      "nn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Jacket\" is \"y\". The last letter of \"planet\" is \"L\". The last letter of \"Lemon\" is \"e\". Concatenating them is \"yn\". The answer is yn."
+        "The last letter of \"Jacket\" is \"e\". The last letter of \"planet\" is \"e\". The last letter of \"Lemon\" is \"n\". Concatenating them is \"nj\". The answer is nj."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "nj"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"candle\" is \"e\". The last letter of \"Jack\" is \"g\". Concatenating them is \"jg\". The answer is jg."
+        "The last letter of \"candle\" is \"j\". The last letter of \"Jack\" is \"a\". Concatenating them is \"jak\". The answer is jak."
       ]
     ],
     "filtered_resps": [
-      "jg"
+      "jak"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"harbor\" is \"d\". The last letter of \"Desert\" is \"s\". Concatenating them is \"ds\". The answer is ds."
+        "The last letter of \"harbor\" is \"d\". The last letter of \"Sedan\" is \"e\". Concatenating them is \"ed\". The answer is ed."
       ]
     ],
     "filtered_resps": [
-      "ds"
+      "ed"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "The last letter of \"anchor\" is \"d\". The last letter of \"Diamond\" is \"n\". Concatenating them is \"nnd\". The answer is ndn."
+        "The last letter of \"anchor\" is \"d\". The last letter of \"Diamond\" is \"n\". Concatenating them is \"dn\". The answer is ndn."
       ]
     ],
     "filtered_resps": [
@@ -6596,11 +6596,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Forest David\" is \"d\". The last letter of \"Gates\" is \"s\". Concatenating them is \"ds\". The answer is ds."
+        "The last letter of \"Forest\" is \"d\". The last letter of \"David\" is \"f\". Concatenating them is \"fds\". The answer is fds."
       ]
     ],
     "filtered_resps": [
-      "ds"
+      "fds"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Ruth\" is \"v\". The last letter of \"Gates\" is \"l\". Concatenating them is \"vl\". The answer is vl."
+        "The last letter of \"valley\" is \"r\". The last letter of \"Ruth\" is \"t\". Concatenating them is \"rt\". The answer is rt."
       ]
     ],
     "filtered_resps": [
-      "vl"
+      "rt"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6976,7 +6976,7 @@
     ],
     "resps": [
       [
-        "The last letter of \"Liam\" is \"y\". The last letter of \"Guitar Yasmin\" is \"N\". Concatenating them is \"yn\". The answer is yn."
+        "The last letter of \"Liam\" is \"y\". The last letter of \"Guitar Yasmin\" is \"n\". Concatenating them is \"yn\". The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -7014,11 +7014,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"yarn violet\" is \"v\". The last letter of \"yarn violet\" is \"n\". Concatenating them is \"ynv\". The answer is ynv."
+        "The last letter of \"yarn violet\" is \"v\". The last letter of \"purple\" is \"n\". Concatenating them is \"nyv\". The answer is nyv."
       ]
     ],
     "filtered_resps": [
-      "ynv"
+      "nyv"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Iris\" is \"r\". The last letter of \"Burt\" is \"t\". Concatenating them is \"rt\". The answer is rt."
+        "The last letter of \"Iris\" is \"r\". The last letter of \"Burt\" is \"t\". Concatenating them is \"rtt\". The answer is rtt."
       ]
     ],
     "filtered_resps": [
-      "rt"
+      "rtt"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7166,11 +7166,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Desert Dragon Lantern Harbor\" is \"d\". The last letter of \"Loran Harbor\" is \"n\". Concatenating them is \"dn\". The answer is nd."
+        "The last letter of \"Desert Dragon Lantern Harbor\" is \"d\". The last letter of \"Loran Harbor\" is \"n\". Concatenating them is \"dn\". The answer is ndn."
       ]
     ],
     "filtered_resps": [
-      "nd"
+      "ndn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7394,11 +7394,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"quilt\" is \"t\". The last letter of \"violet\" is \"r\". The last letter of \"dragon\" is \"n\". Concatenating them is \"nv\". The answer is nv."
+        "The last letter of \"quilt\" is \"t\". The last letter of \"Violet\" is \"R\". The last letter of \"Dragon\" is \"T\". Concatenating them is \"RtT\". The answer is rtT."
       ]
     ],
     "filtered_resps": [
-      "nv"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "The last letter of \"Eagle\" is \"l\". The last letter of \"Mellon\" is \"s\". Concatenating them is \"sls\". The answer is sls."
+        "The last letter of \"Eagle\" is \"e\". The last letter of \"Lem\" is \"e\". The last letter of \"H\" is \"e\". Concatenating them is \"eel\". The answer is eel."
       ]
     ],
     "filtered_resps": [
-      "sls"
+      "eel"
     ],
     "filter": "flexible-extract",
     "metrics": [

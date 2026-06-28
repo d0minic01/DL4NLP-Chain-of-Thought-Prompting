@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,csqa_paper_cot,csqa,paper_cot,fewshot_cot,commonsense_qa,0.82,0.01,137.6,7,100,17.37,20.53

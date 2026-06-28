@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For n: (24 + 2) mod 26 = 0, so n. The answer is n."
+        "As a mathematician: let a=0, b=1, ..., z=25. For n: (25 + 1) mod 26 = 0, so n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -174,7 +174,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For l: (24 + 1) mod 26 = 0, so l. The answer is l."
+        "As a mathematician: let a=0, b=1, ..., z=25. For l: (25 + 1) mod 26 = 0, so l. The answer is l."
       ]
     ],
     "filtered_resps": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For m: (12 + 1) mod 26 = 14, so d. The answer is d."
+        "As a mathematician: let a=0, b=1, ..., z=25. For m: (12 + 1) mod 26 = 13, so m. The answer is m."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "m"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -516,7 +516,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For s: (24 + 2) mod 26 = 0, so s. The answer is s."
+        "As a mathematician: let a=0, b=1, ..., z=25. For s: (1 + 2) mod 26 = 3, so s. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For f: (24 + 2) mod 26 = 0, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For f: (24 + 2) mod 26 = 0, so f. The answer is f."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "f"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1086,7 +1086,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For n: (24 + 2) mod 26 = 0, so n. The answer is n."
+        "As a mathematician: let a=0, b=1, ..., z=25. For n: (25 + 1) mod 26 = 0, so n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -1124,7 +1124,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For k: (1 + 2) mod 26 = 3, so k. The answer is k."
+        "As a mathematician: let a=0, b=1, ..., z=25. For k: (24 + 2) mod 26 = 0, so k. The answer is k."
       ]
     ],
     "filtered_resps": [
@@ -1466,11 +1466,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For i: (1 + 2) mod 26 = 3, so j. The answer is j."
+        "As a mathematician: let a=0, b=1, ..., z=25. For i: (24 + 1) mod 26 = 0, so i. The answer is i."
       ]
     ],
     "filtered_resps": [
-      "j"
+      "i"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1479,7 +1479,7 @@
     "doc_hash": "10922388f577e79f7f8d2465380bf406d4439bdaceebd5aae0336d36786dd054",
     "prompt_hash": "18f096cbe709513be77e335749c9be6005886062339d416beefb83b46047fc54",
     "target_hash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 39,
@@ -1542,7 +1542,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For i: (1 + 2) mod 26 = 3, so p. The answer is p."
+        "As a mathematician: let a=0, b=1, ..., z=25. For i: (1 + 1) mod 26 = 2, so p. The answer is p."
       ]
     ],
     "filtered_resps": [
@@ -1656,7 +1656,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For g: (24 + 2) mod 26 = 0, so g. The answer is g."
+        "As a mathematician: let a=0, b=1, ..., z=25. For g: (24 + 1) mod 26 = 25, so g. The answer is g."
       ]
     ],
     "filtered_resps": [
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For u: (25 + 1) mod 26 = 26, so u. The answer is u."
+        "As a mathematician: let a=0, b=1, ..., z=25. For u: (1 + 2) mod 26 = 3, so u. The answer is u."
       ]
     ],
     "filtered_resps": [
@@ -1770,7 +1770,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so a. The answer is a."
+        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 2) mod 26 = 3, so a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -2302,7 +2302,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 25, so w. The answer is w."
+        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 0, so w. The answer is w."
       ]
     ],
     "filtered_resps": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For h: (24 + 1) mod 26 = 25, so h. The answer is h."
+        "As a mathematician: let a=0, b=1, ..., z=25. For h: (24 + 2) mod 26 = 0, so h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -2834,7 +2834,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For g: (6 + 0) mod 26 = 6, so g. The answer is g."
+        "As a mathematician: let a=0, b=1, ..., z=25. For g: (24 + 2) mod 26 = 0, so g. The answer is g."
       ]
     ],
     "filtered_resps": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For e: (1 + 2) mod 26 = 3, so e. The answer is e."
+        "As a mathematician: let a=0, b=1, ..., z=25. For e: (1 + 2) mod 26 = 3, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3100,11 +3100,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 2) mod 26 = 3, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3214,7 +3214,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For j: (24 + 1) mod 26 = 0, so l. The answer is l."
+        "As a mathematician: let a=0, b=1, ..., z=25. For j: (24 + 1) mod 26 = 25, so l. The answer is l."
       ]
     ],
     "filtered_resps": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For t: (24 + 2) mod 26 = 0, so t. The answer is t."
+        "As a mathematician: let a=0, b=1, ..., z=25. For t: (24 + 2) mod 26 = 0, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "t"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3442,11 +3442,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For t: (1 + 2) mod 26 = 3, so t. The answer is t."
+        "As a mathematician: let a=0, b=1, ..., z=25. For t: (24 + 2) mod 26 = 0, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "t"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3531,7 +3531,7 @@
     "doc_hash": "b0c348a50bf97f516ebcdbeb95535cf8fc17f3cbaa41d00081feed0cd228ca9e",
     "prompt_hash": "e5241191557069530a33cff3c6418f0530b9492156891f84f2cf1f6a09b22639",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 93,
@@ -3556,11 +3556,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 0, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 25, so w. The answer is w."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "w"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3632,7 +3632,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For w: (25 + 1) mod 26 = 26, so w. The answer is w."
+        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 25, so w. The answer is w."
       ]
     ],
     "filtered_resps": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For x: (25 + 1) mod 26 = 0, so m. The answer is m."
+        "As a mathematician: let a=0, b=1, ..., z=25. For x: (24 + 1) mod 26 = 0, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "m"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3860,7 +3860,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For n: (24 + 2) mod 26 = 0, so n. The answer is n."
+        "As a mathematician: let a=0, b=1, ..., z=25. For n: (25 + 1) mod 26 = 0, so n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -3974,7 +3974,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For l: (24 + 1) mod 26 = 0, so l. The answer is l."
+        "As a mathematician: let a=0, b=1, ..., z=25. For l: (25 + 1) mod 26 = 0, so l. The answer is l."
       ]
     ],
     "filtered_resps": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For m: (12 + 1) mod 26 = 14, so d. The answer is d."
+        "As a mathematician: let a=0, b=1, ..., z=25. For m: (12 + 1) mod 26 = 13, so m. The answer is m."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "m"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4316,7 +4316,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For s: (24 + 2) mod 26 = 0, so s. The answer is s."
+        "As a mathematician: let a=0, b=1, ..., z=25. For s: (1 + 2) mod 26 = 3, so s. The answer is s."
       ]
     ],
     "filtered_resps": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For f: (24 + 2) mod 26 = 0, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For f: (24 + 2) mod 26 = 0, so f. The answer is f."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "f"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4886,7 +4886,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For n: (24 + 2) mod 26 = 0, so n. The answer is n."
+        "As a mathematician: let a=0, b=1, ..., z=25. For n: (25 + 1) mod 26 = 0, so n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -4924,7 +4924,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For k: (1 + 2) mod 26 = 3, so k. The answer is k."
+        "As a mathematician: let a=0, b=1, ..., z=25. For k: (24 + 2) mod 26 = 0, so k. The answer is k."
       ]
     ],
     "filtered_resps": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For i: (1 + 2) mod 26 = 3, so j. The answer is j."
+        "As a mathematician: let a=0, b=1, ..., z=25. For i: (24 + 1) mod 26 = 0, so i. The answer is i."
       ]
     ],
     "filtered_resps": [
-      "j"
+      "i"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5279,7 +5279,7 @@
     "doc_hash": "10922388f577e79f7f8d2465380bf406d4439bdaceebd5aae0336d36786dd054",
     "prompt_hash": "18f096cbe709513be77e335749c9be6005886062339d416beefb83b46047fc54",
     "target_hash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 39,
@@ -5342,7 +5342,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For i: (1 + 2) mod 26 = 3, so p. The answer is p."
+        "As a mathematician: let a=0, b=1, ..., z=25. For i: (1 + 1) mod 26 = 2, so p. The answer is p."
       ]
     ],
     "filtered_resps": [
@@ -5456,7 +5456,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For g: (24 + 2) mod 26 = 0, so g. The answer is g."
+        "As a mathematician: let a=0, b=1, ..., z=25. For g: (24 + 1) mod 26 = 25, so g. The answer is g."
       ]
     ],
     "filtered_resps": [
@@ -5494,7 +5494,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For u: (25 + 1) mod 26 = 26, so u. The answer is u."
+        "As a mathematician: let a=0, b=1, ..., z=25. For u: (1 + 2) mod 26 = 3, so u. The answer is u."
       ]
     ],
     "filtered_resps": [
@@ -5570,7 +5570,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so a. The answer is a."
+        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 2) mod 26 = 3, so a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 25, so w. The answer is w."
+        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 0, so w. The answer is w."
       ]
     ],
     "filtered_resps": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For h: (24 + 1) mod 26 = 25, so h. The answer is h."
+        "As a mathematician: let a=0, b=1, ..., z=25. For h: (24 + 2) mod 26 = 0, so h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -6634,7 +6634,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For g: (6 + 0) mod 26 = 6, so g. The answer is g."
+        "As a mathematician: let a=0, b=1, ..., z=25. For g: (24 + 2) mod 26 = 0, so g. The answer is g."
       ]
     ],
     "filtered_resps": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For e: (1 + 2) mod 26 = 3, so e. The answer is e."
+        "As a mathematician: let a=0, b=1, ..., z=25. For e: (1 + 2) mod 26 = 3, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6900,11 +6900,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 2) mod 26 = 3, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7014,7 +7014,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For j: (24 + 1) mod 26 = 0, so l. The answer is l."
+        "As a mathematician: let a=0, b=1, ..., z=25. For j: (24 + 1) mod 26 = 25, so l. The answer is l."
       ]
     ],
     "filtered_resps": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For t: (24 + 2) mod 26 = 0, so t. The answer is t."
+        "As a mathematician: let a=0, b=1, ..., z=25. For t: (24 + 2) mod 26 = 0, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "t"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7242,11 +7242,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For t: (1 + 2) mod 26 = 3, so t. The answer is t."
+        "As a mathematician: let a=0, b=1, ..., z=25. For t: (24 + 2) mod 26 = 0, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "t"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For a: (1 + 1) mod 26 = 2, so a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7331,7 +7331,7 @@
     "doc_hash": "b0c348a50bf97f516ebcdbeb95535cf8fc17f3cbaa41d00081feed0cd228ca9e",
     "prompt_hash": "e5241191557069530a33cff3c6418f0530b9492156891f84f2cf1f6a09b22639",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 93,
@@ -7356,11 +7356,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 0, so b. The answer is b."
+        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 25, so w. The answer is w."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "w"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,7 +7432,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For w: (25 + 1) mod 26 = 26, so w. The answer is w."
+        "As a mathematician: let a=0, b=1, ..., z=25. For w: (24 + 1) mod 26 = 25, so w. The answer is w."
       ]
     ],
     "filtered_resps": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: let a=0, b=1, ..., z=25. For x: (25 + 1) mod 26 = 0, so m. The answer is m."
+        "As a mathematician: let a=0, b=1, ..., z=25. For x: (24 + 1) mod 26 = 0, so b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "m"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [

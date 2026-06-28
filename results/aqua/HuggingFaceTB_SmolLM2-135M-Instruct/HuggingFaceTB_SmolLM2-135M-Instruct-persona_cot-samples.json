@@ -168,11 +168,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the interest rate is compounded annually. The interest rate is 4% per year. The interest is compounded annually. The answer is (e)."
+        "As a mathematician: the interest rate is compounded annually. The interest rate is 4% per year. The interest is compounded annually. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -260,7 +260,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: k = 6 - 1 = 5. The answer is (e)."
+        "As a mathematician: k = 6 - 2 = 4. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -306,7 +306,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the inequality is true if and only if x is a solution to the equation x^2 + 4x - 11 \u2265 0. The solution to this inequality is x = 1. The answer is (e)."
+        "As a mathematician: the inequality is true if and only if x is a solution to the equation x^2 + 4x - 11 \u2265 0. The solution to this inequality is x = 4. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -398,7 +398,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 6 years old twin brothers = 6 * 3 = 18. The answer is (e)."
+        "As a mathematician: 6 years old twin brothers = 6 * 2 = 12. The total number of rides = 3 + 6 = 9. The total cost = 9 * 20% = 16 * 20% = 16 * 0.205 = 3.25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -444,11 +444,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 8X + 12Y = 15 + 31 = 46. The answer is (d)."
+        "As a mathematician: 8X + 12Y = 15 + 31 = 46. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -490,7 +490,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20% of $50 is 0.20 * $50 = $10. The answer is (e)."
+        "As a mathematician: the amount given away is 20% of $50. The amount given away is 20% of $50 = $10. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -582,11 +582,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 4^q = 4 * 4 = 16. Since 16 is a multiple of 10, the remainder when p is divided by 10 is 16. The answer is (e)."
+        "As a mathematician: 4^q = 4 * 4^(q-1) = 4 * 4^(q-1) = 4^(q-1) * 4^(q-2) = 4^(q-2) * 4^(q-3) = 4^(q-3) * 4^(q-4) = 4^(q-4) * 4^(q-5) = 4^(q-5) * 4^(q-6) = 4^(q-6) * 4^(q-7) = 4^(q-7) * 4^(q-8) = 4^(q-8) * 4^(q-9) = 4^(q-9) * 4^(q-10) = 4^(q-10) * 4^(q-11) = 4^(q-11) * 4^(q-12) = 4^(q-12) * 4^(q-13) ="
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -766,7 +766,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: k^2/l^2 = (k^2 - l^2) / (k - l) = (k - l)^2 / (k + l) = 2k - 2l. The answer is (e)."
+        "As a mathematician: k^2/l^2 = (k^2 - l^2) / (k - l) = (k - l) / (k + l) = 1. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -812,7 +812,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the difference in scores is the difference in average score. The difference in average score is 716.67 - 760 = 10. The answer is (e)."
+        "As a mathematician: the difference in scores is the difference in average score. The difference in scores is 760 - 716.67 = 10. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1134,11 +1134,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the total amount owed is 51200. The total amount paid is 200. The answer is (e)."
+        "As a mathematician: the total amount owed is 51200. The total amount paid is 200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1180,11 +1180,11 @@
     ],
     "resps": [
       [
-        "As a bicycle salesperson: the number of bicycles sold is 20 + 6 + 12 + 18 = 40. The number of bicycles sold last week is 40 - 20 = 20. The number of bicycles sold this week is 20 + 6 + 12 + 18 = 40. The answer is (e)."
+        "As a bicycle salesperson: the number of bicycles sold is 20 + 6 + 12 + 18 = 40. The number of bicycles sold last week is 40 - 20 = 20. The number of bicycles sold this week is 20 + 6 + 12 + 18 = 40. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total income of the 40 customers is $45,000 + $35,000 = $80,000. The total income of the 100 customers is $45,000 + $35,000 + $35,000 + $35,000 + $35,000 + $35,000 + $35,000 = $1,90,000. The total income of the 40 customers is $1,90,000. The total income of the 100 customers is $1,90,000. The average income of the other 40 customers is $95,000 / 40 = $2,500. The average income of the 100 customers is $95,000 / 40 = $2,500. The answer"
+        "As a mathematician: the average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total number of customers is 50 + 40 = 90. The total number of customers is 50 * 90 = 4500. The total number of customers is 50 + 40 + 90 = 1300. The total number of customers is 50 * 1300 = 66000. The total number of customers is 4500 + 66000 = 101500. The total number of customers is 4500 + 101500 = 146500. The total number of customers is 4500 + 146500 = 172500. The total number of customers is 4500 + 172500 = 187500. The total number of customers is 4500 + 18750"
       ]
     ],
     "filtered_resps": [
@@ -1318,7 +1318,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the slant height of the cone is 35 cm. The curved surface is the curved surface of the cone. The curved surface is the curved surface of the cone. The answer is (c)."
+        "As a mathematician: the slant height of the cone is 35 cm. The curved surface is the curved surface of the cone. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1410,11 +1410,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 148 - 20 = 132. The answer is (c)."
+        "As a mathematician: 20 feet / tree per square foot = 20 * 10 = 200 square feet. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1548,7 +1548,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the equation is x^2 - (k + 11)x - 8 = -(x - 2)(x - 4). The answer is (e)."
+        "As a mathematician: -x2 - (k + 11)x - 8 = -(x - 2)(x - 4) The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1824,7 +1824,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/a + 1/b + 1/c = 1. The answer is (d)."
+        "As a mathematician: a + b + c = 1 + 1 + 4 = 9. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -1870,7 +1870,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the sum of the ages of the two sons is 4 + 2 = 6. The father\u00e2\u20ac\u2122s present age is 36 - 6 = 32 years. The answer is (e)."
+        "As a mathematician: the sum of the ages of the two sons is 4 + 2 = 6. The father's present age is 36 - 6 = 32 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1916,11 +1916,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 200gm / 1000 = 0.2000 * 1000 = 200gm / 1000 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 1"
+        "As a mathematician: 200gm / 1000 = 0.200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1962,7 +1962,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 8mph * 8hrs = 64mph * 8hrs = 520mph * 8hrs = 4200mph * 8hrs = 30000mph * 8hrs = 260000mph * 8hrs = 200000mph * 8hrs = 160000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = "
+        "As a mathematician: 8mph * 8hrs = 64mph * 8hrs = 520mph * 8hrs = 4200mph * 8hrs = 30000mph * 8hrs = 240000mph * 8hrs = 200000mph * 8hrs = 160000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = "
       ]
     ],
     "filtered_resps": [
@@ -2008,7 +2008,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 5358 = 535 * 51 = 273258. The answer is (e)."
+        "As a mathematician: 5358 = 51 * 51 = 273258. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2054,7 +2054,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the probability of the couple not sitting together is 1 - (1/5) = 1 - 2/5 = 1/5. The answer is (e)."
+        "As a mathematician: the probability of the couple not sitting together is 1 - (probability of the couple sitting together) = 1 - 0.5 = 0.5. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2146,11 +2146,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the equation is x + 3 = 8. The answer is (d)."
+        "As a mathematician: the equation is x + 3 = 8. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2284,7 +2284,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cost of painting the whole surface area of the cube is Rs. 343.98 * 13 = 496.08. The volume of the cube is 8500 cm3 * 13 = 9261 cm3. The answer is (e)."
+        "As a mathematician: the cost of painting the whole surface area of the cube is Rs. 343.98 * 13 = Rs. 499.98. The volume of the cube is 8500 cm3 * 13 = 10000 cm3. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2330,7 +2330,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20 - 10 = 10. The answer is (e)."
+        "As a mathematician: 20 articles * 20% = 40 articles. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2376,11 +2376,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 96% of 9% = 0.96 * 0.96 = 0.924. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12"
+        "As a mathematician: 96 / 12 = 9.5. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2389,7 +2389,7 @@
     "doc_hash": "bec2f937604b9d457f2557d264c96ad0c7123edc5163c0f036e33d9809547e37",
     "prompt_hash": "0131d80153d1388499fe03705e8a205e254021dfdd3b2cc6eb3c5a62ece42afb",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 52,
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 82 + 41 = 123. The answer is (e)."
+        "As a mathematician: the number given away is 10 + 4 = 14. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2698,7 +2698,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The chocolates sold out are Rs.1.1 * 1.1 = Rs.1.21. The answer is (e)."
+        "As a mathematician: the original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The chocolates sold out at Rs.1.1 * 2 = Rs.2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2790,7 +2790,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15*32*25*22*40*75*98*112*125 = 12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "As a mathematician: 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22"
       ]
     ],
     "filtered_resps": [
@@ -3112,7 +3112,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 9 days * 10 children = 90 children. 12 days * 10 women = 120 women. 10 women * 12 days = 120 women. The answer is (e)."
+        "As a mathematician: 9 women can complete the work in 9 days. 10 children take 12 days. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3158,7 +3158,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the sum of the longest and shortest numbers is 10 + 10 = 20. The third number is 54. The answer is (d)."
+        "As a mathematician: the longest number is 85, and the smallest number is 43. The sum of the longest and shortest numbers is 85 + 43 = 130. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -3526,7 +3526,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the distance of the train is 110 m. The speed of the train is 72 km/hr. The time it takes to cross the bridge is 110 m / 72 km/hr = 1.2 sec. The answer is (e)."
+        "As a mathematician: the distance between the two points is 110 m - 132 m = 10 m. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cost of 1 litre of diesel is $60. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $12"
+        "As a mathematician: the cost of a liter of diesel is $60. The cost of a liter of diesel is 1200 - 120 = 1100. The cost of a liter of diesel is $60. The cost of a liter of diesel is $120. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is"
       ]
     ],
     "filtered_resps": [
@@ -3710,7 +3710,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20 sec = 20 * 60 = 1200 sec. 32 sec = 32 * 60 = 1800 sec. 20 sec = 20 * 60 = 1200 sec. 1200 sec = 1200 * 60 = 7200 sec. 1800 sec = 1800 * 60 = 10800 sec. 1200 sec = 1200 * 60 = 7200 sec. 7200 sec = 7200 * 60 = 40000 sec. 40000 sec = 40000 * 60 = 240000 sec. 240000 sec = 240000 * 60 = 1240000 sec. 124000 sec = 124000 * 60 = 720000 sec. 7200"
+        "As a mathematician: 20 sec = 20 * 60 = 1200 sec. 32 sec = 32 * 60 = 1800 sec. 20 sec = 20 * 60 = 1200 sec. 1200 sec = 1200 * 60 = 7200 sec. 1800 sec = 1800 * 60 = 10800 sec. 1200 sec = 1200 * 60 = 7200 sec. 7200 sec = 7200 * 60 = 42400 sec. 42400 sec = 42400 * 60 = 24000 sec. 24000 sec = 24000 * 60 = 144000 sec. 144000 sec = 14400 * 60 = 88000 sec. 88000 sec = 88"
       ]
     ],
     "filtered_resps": [
@@ -3756,11 +3756,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: x2 > x. The answer is (e)."
+        "As a mathematician: x2 > x. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3894,7 +3894,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cube is a 3-dimensional shape. The cube's volume is 3 times the volume of a sphere (4/3) times the volume of a cylinder (4/3). The volume of a cylinder is (4/3) * \u03c0 * r^2 * h, where r is the radius and h is the height. The volume of a cube is (1/3) * s^3, where s is the side length. The volume of a sphere is (4/3) * \u03c0 * r^3. The volume of a cylinder is (4/3) * \u03c0 * r^2 * h. The volume of a cube is (1/3) * s^3. The answer is (e)."
+        "As a mathematician: the cube has a side length of 1 meter. The cube's volume is 1^3 = 1 cubic meter. The measure of its edge in meters is 1 meter / 3 = 0.3 meters. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4032,7 +4032,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the original retail price is 100% - 20% = 80%. The discount is 25% of 80% = 25% of 80% = 100%. The profit is 80% - 100% = 10%. The answer is (e)."
+        "As a mathematician: the original retail price is 1500 - 20 = 1350. The discount is 25% of the original retail price, so 1350 - 25 = 1285. The discount is 15% of 1285, so 15 * 1285 = 16750. The profit is 16750 - 1350 = 12350. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4170,11 +4170,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the speed of the trains is 60kmph. The time taken for the trains to meet is 9 hours. The answer is (c)."
+        "As a mathematician: the speed of the trains is 60kmph * 90kmph = 5400kmph. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4216,11 +4216,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the probability of picking a boy is 1/3. The probability of picking a boy and picking his own toy is 1/3 * 1/3 = 1/9. The probability of picking a boy and picking his own toy is 2/3 * 1/3 = 2/9. The probability of picking a boy and picking his own toy is 3/3 * 1/3 = 3/9. The probability of picking a boy and picking his own toy is 4/3 * 1/3 = 4/9. The probability of picking a boy and picking his own toy is 5/3 * 1/3 = 5/9. The probability of picking a boy and picking his own toy is 6/3 * 1/3 = 6/9. The probability of picking a boy and picking his own toy is 7/3 * 1/3 = 7/9. The probability of picking a boy and picking his own toy is 8/3 * 1/3 = 8/9. The probability of picking a boy and picking his own toy is 9/3 * 1/3 = 9"
+        "As a mathematician: the probability of picking a boy is 1/3. The probability of picking a boy and picking his own toy is 1/3 * 1/3 = 1/9. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4262,7 +4262,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1 man can complete the job in 3 days. 1 woman can complete the job in 4 days. 1 man and 1 woman can complete the job in 1/4th of a day. The answer is (e)."
+        "As a mathematician: 1 man can complete the job in 1 day. 1 woman can complete the job in 1 day. 1 man and 1 woman can complete the job in 1/4th of a day. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 6 months * 100% = 600% of the initial capital. 600% of 3000 = 1800. The answer is (e)."
+        "As a mathematician: 6 months * 100% = 600% of the initial capital. 90% of the initial capital is 90% * 100% = 900%. 600% of 900 is 600 * 900 = 51000. 900 * 51000 = 450,000. 450,000 / 600 = 7.5. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the interest rate is compounded monthly. The total amount of money in the savings account is $500. The interest rate is 5% of $500, which is $25. The answer is (e)."
+        "As a mathematician: the interest rate is compounded monthly, so the interest is compounded annually. The formula for compound interest is A = P(1 + r)^n, where A is the future value, P is the principal, r is the annual interest rate, and n is the number of times interest is compounded per year.\n\nPlugging in the values: A = 500(1 + 0.05)^10 = 500(1.05)^10 = 500(1.05)^10 = 500(1.05)^100 = $750.00\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4584,11 +4584,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/2 * 1/2 = 1/4. The answer is (c)."
+        "As a mathematician: 1:1 = 1:10. The ratio of the volumes of the two jars is 1:10. The volume of the 30 l jar is 30 * 10 = 300 l. The volume of the first jar is 5 * 300 = 1500 l. The volume of the 30 l jar is 30 * 1500 = 45000 l. The volume of the second jar is 2 * 45000 = 90000 l. The volume of the 30 l jar is 30 * 90000 = 270000 l. The volume of the third jar is 1 * 270000 = 340000 l. The volume of the 30 l jar is 30 * 340000 = 1000000 l. The volume of the 30 l jar is 30 * 1000000 = 3000000 l. The volume of the"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4768,11 +4768,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the interest rate is compounded annually. The interest rate is 4% per year. The interest is compounded annually. The answer is (e)."
+        "As a mathematician: the interest rate is compounded annually. The interest rate is 4% per year. The interest is compounded annually. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4860,7 +4860,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: k = 6 - 1 = 5. The answer is (e)."
+        "As a mathematician: k = 6 - 2 = 4. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4906,7 +4906,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the inequality is true if and only if x is a solution to the equation x^2 + 4x - 11 \u2265 0. The solution to this inequality is x = 1. The answer is (e)."
+        "As a mathematician: the inequality is true if and only if x is a solution to the equation x^2 + 4x - 11 \u2265 0. The solution to this inequality is x = 4. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4998,7 +4998,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 6 years old twin brothers = 6 * 3 = 18. The answer is (e)."
+        "As a mathematician: 6 years old twin brothers = 6 * 2 = 12. The total number of rides = 3 + 6 = 9. The total cost = 9 * 20% = 16 * 20% = 16 * 0.205 = 3.25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5044,11 +5044,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 8X + 12Y = 15 + 31 = 46. The answer is (d)."
+        "As a mathematician: 8X + 12Y = 15 + 31 = 46. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5090,7 +5090,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20% of $50 is 0.20 * $50 = $10. The answer is (e)."
+        "As a mathematician: the amount given away is 20% of $50. The amount given away is 20% of $50 = $10. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5182,11 +5182,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 4^q = 4 * 4 = 16. Since 16 is a multiple of 10, the remainder when p is divided by 10 is 16. The answer is (e)."
+        "As a mathematician: 4^q = 4 * 4^(q-1) = 4 * 4^(q-1) = 4^(q-1) * 4^(q-2) = 4^(q-2) * 4^(q-3) = 4^(q-3) * 4^(q-4) = 4^(q-4) * 4^(q-5) = 4^(q-5) * 4^(q-6) = 4^(q-6) * 4^(q-7) = 4^(q-7) * 4^(q-8) = 4^(q-8) * 4^(q-9) = 4^(q-9) * 4^(q-10) = 4^(q-10) * 4^(q-11) = 4^(q-11) * 4^(q-12) = 4^(q-12) * 4^(q-13) ="
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5366,7 +5366,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: k^2/l^2 = (k^2 - l^2) / (k - l) = (k - l)^2 / (k + l) = 2k - 2l. The answer is (e)."
+        "As a mathematician: k^2/l^2 = (k^2 - l^2) / (k - l) = (k - l) / (k + l) = 1. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5412,7 +5412,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the difference in scores is the difference in average score. The difference in average score is 716.67 - 760 = 10. The answer is (e)."
+        "As a mathematician: the difference in scores is the difference in average score. The difference in scores is 760 - 716.67 = 10. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5734,11 +5734,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the total amount owed is 51200. The total amount paid is 200. The answer is (e)."
+        "As a mathematician: the total amount owed is 51200. The total amount paid is 200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5780,11 +5780,11 @@
     ],
     "resps": [
       [
-        "As a bicycle salesperson: the number of bicycles sold is 20 + 6 + 12 + 18 = 40. The number of bicycles sold last week is 40 - 20 = 20. The number of bicycles sold this week is 20 + 6 + 12 + 18 = 40. The answer is (e)."
+        "As a bicycle salesperson: the number of bicycles sold is 20 + 6 + 12 + 18 = 40. The number of bicycles sold last week is 40 - 20 = 20. The number of bicycles sold this week is 20 + 6 + 12 + 18 = 40. The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5872,7 +5872,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total income of the 40 customers is $45,000 + $35,000 = $80,000. The total income of the 100 customers is $45,000 + $35,000 + $35,000 + $35,000 + $35,000 + $35,000 + $35,000 = $1,90,000. The total income of the 40 customers is $1,90,000. The total income of the 100 customers is $1,90,000. The average income of the other 40 customers is $95,000 / 40 = $2,500. The average income of the 100 customers is $95,000 / 40 = $2,500. The answer"
+        "As a mathematician: the average income of the wealthiest 10 customers is $95,000. The average income of the other 40 customers is $35,000. The total number of customers is 50 + 40 = 90. The total number of customers is 50 * 90 = 4500. The total number of customers is 50 + 40 + 90 = 1300. The total number of customers is 50 * 1300 = 66000. The total number of customers is 4500 + 66000 = 101500. The total number of customers is 4500 + 101500 = 146500. The total number of customers is 4500 + 146500 = 172500. The total number of customers is 4500 + 172500 = 187500. The total number of customers is 4500 + 18750"
       ]
     ],
     "filtered_resps": [
@@ -5918,7 +5918,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the slant height of the cone is 35 cm. The curved surface is the curved surface of the cone. The curved surface is the curved surface of the cone. The answer is (c)."
+        "As a mathematician: the slant height of the cone is 35 cm. The curved surface is the curved surface of the cone. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6010,11 +6010,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 148 - 20 = 132. The answer is (c)."
+        "As a mathematician: 20 feet / tree per square foot = 20 * 10 = 200 square feet. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6148,7 +6148,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the equation is x^2 - (k + 11)x - 8 = -(x - 2)(x - 4). The answer is (e)."
+        "As a mathematician: -x2 - (k + 11)x - 8 = -(x - 2)(x - 4) The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6424,7 +6424,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/a + 1/b + 1/c = 1. The answer is (d)."
+        "As a mathematician: a + b + c = 1 + 1 + 4 = 9. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -6470,7 +6470,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the sum of the ages of the two sons is 4 + 2 = 6. The father\u00e2\u20ac\u2122s present age is 36 - 6 = 32 years. The answer is (e)."
+        "As a mathematician: the sum of the ages of the two sons is 4 + 2 = 6. The father's present age is 36 - 6 = 32 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6516,11 +6516,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 200gm / 1000 = 0.2000 * 1000 = 200gm / 1000 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 100 = 200gm / 100 = 20gm / 100 = 0.2000 * 1"
+        "As a mathematician: 200gm / 1000 = 0.200. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6562,7 +6562,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 8mph * 8hrs = 64mph * 8hrs = 520mph * 8hrs = 4200mph * 8hrs = 30000mph * 8hrs = 260000mph * 8hrs = 200000mph * 8hrs = 160000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = "
+        "As a mathematician: 8mph * 8hrs = 64mph * 8hrs = 520mph * 8hrs = 4200mph * 8hrs = 30000mph * 8hrs = 240000mph * 8hrs = 200000mph * 8hrs = 160000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = 120000mph * 8hrs = "
       ]
     ],
     "filtered_resps": [
@@ -6608,7 +6608,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 5358 = 535 * 51 = 273258. The answer is (e)."
+        "As a mathematician: 5358 = 51 * 51 = 273258. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6654,7 +6654,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the probability of the couple not sitting together is 1 - (1/5) = 1 - 2/5 = 1/5. The answer is (e)."
+        "As a mathematician: the probability of the couple not sitting together is 1 - (probability of the couple sitting together) = 1 - 0.5 = 0.5. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6746,11 +6746,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the equation is x + 3 = 8. The answer is (d)."
+        "As a mathematician: the equation is x + 3 = 8. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6884,7 +6884,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cost of painting the whole surface area of the cube is Rs. 343.98 * 13 = 496.08. The volume of the cube is 8500 cm3 * 13 = 9261 cm3. The answer is (e)."
+        "As a mathematician: the cost of painting the whole surface area of the cube is Rs. 343.98 * 13 = Rs. 499.98. The volume of the cube is 8500 cm3 * 13 = 10000 cm3. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6930,7 +6930,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20 - 10 = 10. The answer is (e)."
+        "As a mathematician: 20 articles * 20% = 40 articles. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6976,11 +6976,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 96% of 9% = 0.96 * 0.96 = 0.924. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12 = 0.012. 12% of 12% = 0.12 * 0.12"
+        "As a mathematician: 96 / 12 = 9.5. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6989,7 +6989,7 @@
     "doc_hash": "bec2f937604b9d457f2557d264c96ad0c7123edc5163c0f036e33d9809547e37",
     "prompt_hash": "0131d80153d1388499fe03705e8a205e254021dfdd3b2cc6eb3c5a62ece42afb",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 52,
@@ -7206,7 +7206,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 82 + 41 = 123. The answer is (e)."
+        "As a mathematician: the number given away is 10 + 4 = 14. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7298,7 +7298,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The chocolates sold out are Rs.1.1 * 1.1 = Rs.1.21. The answer is (e)."
+        "As a mathematician: the original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The chocolates sold out at Rs.1.1 * 2 = Rs.2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7390,7 +7390,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15*32*25*22*40*75*98*112*125 = 12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        "As a mathematician: 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22*40*75*98*112*125 = 15*32*25*22"
       ]
     ],
     "filtered_resps": [
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 9 days * 10 children = 90 children. 12 days * 10 women = 120 women. 10 women * 12 days = 120 women. The answer is (e)."
+        "As a mathematician: 9 women can complete the work in 9 days. 10 children take 12 days. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7758,7 +7758,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the sum of the longest and shortest numbers is 10 + 10 = 20. The third number is 54. The answer is (d)."
+        "As a mathematician: the longest number is 85, and the smallest number is 43. The sum of the longest and shortest numbers is 85 + 43 = 130. The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -8126,7 +8126,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the distance of the train is 110 m. The speed of the train is 72 km/hr. The time it takes to cross the bridge is 110 m / 72 km/hr = 1.2 sec. The answer is (e)."
+        "As a mathematician: the distance between the two points is 110 m - 132 m = 10 m. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cost of 1 litre of diesel is $60. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $120. The cost of 1 litre of diesel is $12"
+        "As a mathematician: the cost of a liter of diesel is $60. The cost of a liter of diesel is 1200 - 120 = 1100. The cost of a liter of diesel is $60. The cost of a liter of diesel is $120. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is $1100. The cost of a liter of diesel is"
       ]
     ],
     "filtered_resps": [
@@ -8310,7 +8310,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 20 sec = 20 * 60 = 1200 sec. 32 sec = 32 * 60 = 1800 sec. 20 sec = 20 * 60 = 1200 sec. 1200 sec = 1200 * 60 = 7200 sec. 1800 sec = 1800 * 60 = 10800 sec. 1200 sec = 1200 * 60 = 7200 sec. 7200 sec = 7200 * 60 = 40000 sec. 40000 sec = 40000 * 60 = 240000 sec. 240000 sec = 240000 * 60 = 1240000 sec. 124000 sec = 124000 * 60 = 720000 sec. 7200"
+        "As a mathematician: 20 sec = 20 * 60 = 1200 sec. 32 sec = 32 * 60 = 1800 sec. 20 sec = 20 * 60 = 1200 sec. 1200 sec = 1200 * 60 = 7200 sec. 1800 sec = 1800 * 60 = 10800 sec. 1200 sec = 1200 * 60 = 7200 sec. 7200 sec = 7200 * 60 = 42400 sec. 42400 sec = 42400 * 60 = 24000 sec. 24000 sec = 24000 * 60 = 144000 sec. 144000 sec = 14400 * 60 = 88000 sec. 88000 sec = 88"
       ]
     ],
     "filtered_resps": [
@@ -8356,11 +8356,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: x2 > x. The answer is (e)."
+        "As a mathematician: x2 > x. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8494,7 +8494,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the cube is a 3-dimensional shape. The cube's volume is 3 times the volume of a sphere (4/3) times the volume of a cylinder (4/3). The volume of a cylinder is (4/3) * \u03c0 * r^2 * h, where r is the radius and h is the height. The volume of a cube is (1/3) * s^3, where s is the side length. The volume of a sphere is (4/3) * \u03c0 * r^3. The volume of a cylinder is (4/3) * \u03c0 * r^2 * h. The volume of a cube is (1/3) * s^3. The answer is (e)."
+        "As a mathematician: the cube has a side length of 1 meter. The cube's volume is 1^3 = 1 cubic meter. The measure of its edge in meters is 1 meter / 3 = 0.3 meters. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8632,7 +8632,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the original retail price is 100% - 20% = 80%. The discount is 25% of 80% = 25% of 80% = 100%. The profit is 80% - 100% = 10%. The answer is (e)."
+        "As a mathematician: the original retail price is 1500 - 20 = 1350. The discount is 25% of the original retail price, so 1350 - 25 = 1285. The discount is 15% of 1285, so 15 * 1285 = 16750. The profit is 16750 - 1350 = 12350. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8770,11 +8770,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the speed of the trains is 60kmph. The time taken for the trains to meet is 9 hours. The answer is (c)."
+        "As a mathematician: the speed of the trains is 60kmph * 90kmph = 5400kmph. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8816,11 +8816,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: the probability of picking a boy is 1/3. The probability of picking a boy and picking his own toy is 1/3 * 1/3 = 1/9. The probability of picking a boy and picking his own toy is 2/3 * 1/3 = 2/9. The probability of picking a boy and picking his own toy is 3/3 * 1/3 = 3/9. The probability of picking a boy and picking his own toy is 4/3 * 1/3 = 4/9. The probability of picking a boy and picking his own toy is 5/3 * 1/3 = 5/9. The probability of picking a boy and picking his own toy is 6/3 * 1/3 = 6/9. The probability of picking a boy and picking his own toy is 7/3 * 1/3 = 7/9. The probability of picking a boy and picking his own toy is 8/3 * 1/3 = 8/9. The probability of picking a boy and picking his own toy is 9/3 * 1/3 = 9"
+        "As a mathematician: the probability of picking a boy is 1/3. The probability of picking a boy and picking his own toy is 1/3 * 1/3 = 1/9. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8862,7 +8862,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1 man can complete the job in 3 days. 1 woman can complete the job in 4 days. 1 man and 1 woman can complete the job in 1/4th of a day. The answer is (e)."
+        "As a mathematician: 1 man can complete the job in 1 day. 1 woman can complete the job in 1 day. 1 man and 1 woman can complete the job in 1/4th of a day. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8954,7 +8954,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 6 months * 100% = 600% of the initial capital. 600% of 3000 = 1800. The answer is (e)."
+        "As a mathematician: 6 months * 100% = 600% of the initial capital. 90% of the initial capital is 90% * 100% = 900%. 600% of 900 is 600 * 900 = 51000. 900 * 51000 = 450,000. 450,000 / 600 = 7.5. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9138,7 +9138,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the interest rate is compounded monthly. The total amount of money in the savings account is $500. The interest rate is 5% of $500, which is $25. The answer is (e)."
+        "As a mathematician: the interest rate is compounded monthly, so the interest is compounded annually. The formula for compound interest is A = P(1 + r)^n, where A is the future value, P is the principal, r is the annual interest rate, and n is the number of times interest is compounded per year.\n\nPlugging in the values: A = 500(1 + 0.05)^10 = 500(1.05)^10 = 500(1.05)^10 = 500(1.05)^100 = $750.00\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9184,11 +9184,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/2 * 1/2 = 1/4. The answer is (c)."
+        "As a mathematician: 1:1 = 1:10. The ratio of the volumes of the two jars is 1:10. The volume of the 30 l jar is 30 * 10 = 300 l. The volume of the first jar is 5 * 300 = 1500 l. The volume of the 30 l jar is 30 * 1500 = 45000 l. The volume of the second jar is 2 * 45000 = 90000 l. The volume of the 30 l jar is 30 * 90000 = 270000 l. The volume of the third jar is 1 * 270000 = 340000 l. The volume of the 30 l jar is 30 * 340000 = 1000000 l. The volume of the 30 l jar is 30 * 1000000 = 3000000 l. The volume of the"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

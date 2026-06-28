@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,gsm8k_true_baseline,gsm8k,true_baseline,zero_shot,gsm8k,0.16,0.8,591.9,0,100,21.39,5.89

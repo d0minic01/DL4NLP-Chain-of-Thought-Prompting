@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,last_letter_persona_cot,last_letter,persona_cot,fewshot_cot,last_letter_concatenation,0.0,0.02,98.3,4,100,6.81,15.3

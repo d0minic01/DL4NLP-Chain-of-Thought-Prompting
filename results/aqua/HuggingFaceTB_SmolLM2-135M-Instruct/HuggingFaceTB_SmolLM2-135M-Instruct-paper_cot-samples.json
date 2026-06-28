@@ -30,7 +30,7 @@
     ],
     "resps": [
       [
-        "To find out how many kilometers Friend P has walked when they pass each other, we need to calculate the difference in their speeds and then divide by the speed of the other person.\n\nFriend P's speed is 15% faster than Friend Q's speed. So, Friend P's speed is 15% of Friend Q's speed.\n\nFriend Q's speed is 15% of Friend P's speed. So, Friend Q's speed is 15% of Friend P's speed.\n\nTo find the difference in their speeds, we subtract Friend Q's speed from Friend P's speed: 15% of 15% = 15/100 = 0.15.\n\nNow, we divide the difference in their speeds by their speed: 0.15 / 0.15 = 1.\n\nSo, Friend P has walked 1 kilometer when they pass each other."
+        "If Friend P's rate is 15% faster than Friend Q's, then Friend Q's rate is 15% of Friend P's rate. 15% of 43 km is 0.15 * 43 km = 6.6 km. 6.6 km / 15% = 2.25 km. 2.25 km / 15% = 1.15 km. 1.15 km / 15% = 0.066 km. 0.066 km / 15% = 0.0003 km. 0.0003 km / 15% = 0.000003 km. 0.000003 km / 15% = 0.00000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
@@ -122,7 +122,7 @@
     ],
     "resps": [
       [
-        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are any two numbers. Since x and y are both numbers, we can substitute x and y into the equation to get p^2 - pq = p^2 - pq. This simplifies to p^2 - pq = 0.\n\nSince p^2 - pq = 0, we can factor out p^2 from the equation to get p^2 - pq = 0. This is a quadratic equation in terms of p^2, which can be solved using the quadratic formula: p^2 = (q - 1)(q + p).\n\nNow, we can substitute this expression for p^2 into the equation x@y, which gives us x^2 - xq = 0. This is a quadratic equation in terms of x, which can be solved using the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a.\n\nIn this case, a = 1, b = -1, and c = p. Substituting these values into the equation gives us x = (p"
+        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are any two numbers. Since x and y are both numbers, we can substitute x and y into the equation to get p^2 - pq = p^2 - pq. This simplifies to p^2 - pq = 0.\n\nSince p^2 - pq = 0, we can factor out p^2 from the equation to get p^2 - pq = 0. This is a quadratic equation in p, which can be solved using the quadratic formula: p = (-p^2 - q^2) / 2.\n\nNow, we can substitute p = (-p^2 - q^2) / 2 into the equation x@y, which gives us x^2 - (-p^2 - q^2) = 0. This simplifies to x^2 - (-p^2 - q^2) = 0.\n\nThe only solution to this equation is x = 0, which means x = 0.\n\nTherefore, the only possible solution to the equation x@y is x = 0."
       ]
     ],
     "filtered_resps": [
@@ -168,7 +168,7 @@
     ],
     "resps": [
       [
-        "The compound interest formula is A = P(1 + r)^n, where A is the amount of money he has, P is the principal amount, r is the annual interest rate, and n is the number of times the interest is compounded per year.\n\nPlugging in the values, A = $10,000(1 + 0.04)^10 = $10,000(1.04)^10 = $10,000(1.04) = $10,000.\n\nNow, we can calculate the interest paid annually: A = $10,000(1.04)^10 = $10,000(1.04) = $10,000.\n\nSo, Carl pays $1600 annually."
+        "The compound interest formula is A = P(1 + r)^n, where A is the amount of money he has, P is the principal amount, r is the annual interest rate, and n is the number of times the interest is compounded per year.\n\nPlugging in the values, A = $10,000(1 + 0.04)^10 = $10,000(1.04)^10 = $10,000(1.04) = $10,000.\n\nNow, we can calculate the interest paid annually: A = $10,000(1.04)^10 = $10,000(1.04) = $10,000(1.12) = $10,120.\n\nSo, Carl pays $1600 annually."
       ]
     ],
     "filtered_resps": [
@@ -214,7 +214,7 @@
     ],
     "resps": [
       [
-        "To find the time, we need to calculate the distance he needs to cover and then divide it by the speed of the current. The distance he needs to cover is 80 meters. The speed of the current is 11 kmph. So, the distance he needs to cover is 80 meters / 11 kmph = 7.2 meters.\n\nThe time it takes to cover 7.2 meters is 7.2 / 11 = 0.66 seconds. The answer is (e)."
+        "To find the time, we need to calculate the distance the man can cover in the first 80 meters and then add the speed of the current.\n\nThe man can row 80 meters downstream in 25 kmph. So, the distance he can cover in 80 meters is 80 * 25 = 2000 meters.\n\nThe speed of the current is 11 kmph. To find the time, we divide the distance by the speed: 2000 meters / 11 kmph = 196 seconds.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -260,11 +260,11 @@
     ],
     "resps": [
       [
-        "There are 6 possible combinations in which Jim and Ellen are not selected.\n\nk = 6\n\nThe value of k is 6."
+        "There are 6 possible combinations in which Jim and Ellen are not selected.\n\nk = 6\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -306,11 +306,11 @@
     ],
     "resps": [
       [
-        "If (x^2 + 4x - 11)/5 \u2264 x + 1, then the expression inside the absolute value is 11. So the range of the expression is (x + 1, x - 11). The range of the expression is (x, -3). The answer is (c)."
+        "If (x^2 + 4x - 11)/5 \u2264 x + 1, then the expression inside the absolute value is 5. So the range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -352,7 +352,7 @@
     ],
     "resps": [
       [
-        "To find the smallest number of five-digit numbers that are divisible by 22,33,66, and 44, we need to find the smallest number of 22,33,66, and 44 that is divisible by 22,33,66, and 44.\n\nFirst, we need to find the smallest number of 22,33,66, and 44 that is divisible by 22,33,66, and 44. We can do this by dividing the largest number by 22,33,66, and 44.\n\nThe largest number is 10101, which is divisible by 22,33,66, and 44.\n\nNow, we need to find the smallest number of 22,33,66, and 44 that is divisible by 22,33,66, and 44. We can do this by dividing the largest number by 22,33,66, and 44.\n\nThe largest number is 10111, which"
+        "To find the smallest number of five-digit numbers that are divisible by 22,33,66, and 44, we need to find the smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44, respectively.\n\nThe smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44 is 10101.\n\nTo find the smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44, we need to find the smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44, respectively.\n\nThe smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44 is 10101.\n\nTherefore, the smallest number of 22, 33, and 44 that is divisible by 22,"
       ]
     ],
     "filtered_resps": [
@@ -444,7 +444,7 @@
     ],
     "resps": [
       [
-        "To find the possible product of X and Y, we need to consider the possible values of X and Y. Since 8XY is a 3-digit number that is divisible by 2, we can multiply the possible values of X and Y together to find the possible product.\n\nX = 8\nY = 3\n\nThe possible values of X and Y are:\nX = 8\nY = 3\n\nSo, the possible product of X and Y is 8 * 3 = 24. The answer is (e)."
+        "To find the possible product of X and Y, we need to consider the possible remainders when 8XY is divided by 2. Since 8XY is a 3-digit number, it can be written as 8X + 8Y.\n\nThe possible remainders when 8XY is divided by 2 are:\n8X = 8 * 2 = 16\n8Y = 8 * 2 = 16\n\nSo, the possible product of X and Y is 16 + 16 = 32. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -490,11 +490,11 @@
     ],
     "resps": [
       [
-        "If Tim gave 20% tip, then 20% of $50 is 0.20 * $50 = $10. So, he spent $10 * 20% = $20. The answer is (c)."
+        "If Tim gave 20% tip, then 20% of $50 is 0.20 * $50 = $10. So, he spent $10 * 20% = $20. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -536,11 +536,11 @@
     ],
     "resps": [
       [
-        "To find the amount Rs. 825 will become in 3 years at a certain rate of simple interest, we need to calculate the interest for 3 years at the same rate.\n\nFirst, we need to find the interest for 1 year at the same rate. 825 * 1 = Rs. 825.\n\nThen, we need to find the interest for 2 years at the same rate. 825 * 2 = Rs. 1650.\n\nNow, we add the interest for 2 years at the same rate to the interest for 1 year at the same rate. 1650 + 1055 = Rs. 2605.\n\nFinally, we add the interest for 3 years at the same rate. 2605 + 1055 = Rs. 3750.\n\nThe amount Rs. 825 will become Rs. 3750 in 3 years at a certain rate of simple interest. The answer is (e)."
+        "To find the amount Rs. 825 will become in 3 years at a certain rate of simple interest, we need to calculate the interest rate and the time it takes to reach the same amount.\n\nThe interest rate is 4% per year. To find the time it takes to reach the same amount, we can divide the interest rate by the time it takes to reach the same amount.\n\nThe time it takes to reach the same amount is 3 years * 0.04 = 0.16 years.\n\nNow, we can calculate the amount Rs. 825 will become in 3 years:\n\nAmount Rs. 825 = 825 * 0.16 = 1020.80\n\nSo, the amount Rs. 825 will become Rs. 1020.80 in 3 years at a rate of 4% simple interest."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -674,7 +674,7 @@
     ],
     "resps": [
       [
-        "To find the ratio of A to C, we need to divide the total amount of money (Rs. 5600) by the total amount of money (Rs. 5600).\n\nRatio = Total amount / Total amount\n= 5600 / 5600\n= 1\n\nSo, A is more than C if their ratio is 1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1"
+        "To find the value of A, we need to find the ratio of A to C. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14."
       ]
     ],
     "filtered_resps": [
@@ -766,11 +766,11 @@
     ],
     "resps": [
       [
-        "Since k/l < 1, and both k and l are positive integers, the greatest common divisor (GCD) of k and l must be greater than 1. The GCD of 1 and 1 is 1, which is greater than 1.\n\nTherefore, the only possible greater than 1 is k/l^2."
+        "Since k/l < 1, and both k and l are positive integers, the greatest common divisor (gcd) of k and l must be greater than 1. The gcd of 1 and 1/2 is 1, and the gcd of 1 and 1/3 is 1/3, so the gcd of 1 and 1/2 is 1/2.\n\nThe greatest common divisor of 1 and 1/2 is 1/2, which is greater than 1. Therefore, the greatest common divisor of 1 and 1/2 must be greater than 1.\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -812,7 +812,7 @@
     ],
     "resps": [
       [
-        "To find the difference in the score of his last mock and his GMAT score, we need to subtract the GMAT score from the last mock score.\n\nMike scored 760 on the last mock test.\nMike's score is 760 - 716.67 = 10 points.\n\nThe difference in the score of his last mock and his GMAT score is 10 points (Mike's score - Mike's GMAT score).\n\nThe answer is (e)."
+        "To find the difference in the score of his last mock and his GMAT score, we need to calculate the difference in average scores and then subtract that from the GMAT score.\n\nThe difference in average scores is the difference between the average score of the last mock test and the GMAT score. 760 - 716.67 = 10.33.\n\nThe difference in GMAT score is the difference between the GMAT score and the average score of the last mock test. 716.67 - 760 = 10.33.\n\nThe difference in the score of his last mock and his GMAT score is 10.33 - 10.33 = 0.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -858,7 +858,7 @@
     ],
     "resps": [
       [
-        "If 10 is added to each number, then the mean of the numbers would be 50 + 10 = 60. The answer is (e)."
+        "If 10 is added to each number, then the mean of the numbers would be 15 + 10 = 25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -950,7 +950,7 @@
     ],
     "resps": [
       [
-        "The sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, "
+        "The sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The first five numbers in a sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10"
       ]
     ],
     "filtered_resps": [
@@ -996,11 +996,11 @@
     ],
     "resps": [
       [
-        "Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3 bags. The answer is (e)."
+        "Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 2"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1042,7 +1042,7 @@
     ],
     "resps": [
       [
-        "To find the least value of x, we need to find the smallest number that is divisible by 9. Since 2x5475 is divisible by 9, we can start by finding the smallest number that is divisible by 9.\n\nThe smallest number divisible by 9 is 9 itself. So, the least value of x is 9."
+        "To find the least value of x, we need to find the smallest number that is divisible by 9. Since 2x5475 is divisible by 9, we can start by finding the smallest number that is divisible by 9.\n\nThe smallest number that is divisible by 9 is 9. So, the least value of x is 9."
       ]
     ],
     "filtered_resps": [
@@ -1134,7 +1134,7 @@
     ],
     "resps": [
       [
-        "To find the number of months it will take to fully repay the loan, we need to calculate the total amount the debtor is expected to pay back and then divide that by the total amount the creditor is expected to pay back.\n\nThe total amount the debtor is expected to pay back is $200 * 51200 = $10,000. The total amount the creditor is expected to pay back is $200 * 10000 = $20,000.\n\nThe debtor is expected to pay back $10,000 + $20,000 = $30,000. The creditor is expected to pay back $20,000 + $20,000 = $40,000.\n\nTo find the number of months it will take to fully repay the loan, we divide the total amount the debtor is expected to pay back by the total amount the creditor is expected to pay back.\n\n$30,000 / $40,000 = 0.67 months.\n\nSo, it will take 0.67 months"
+        "To find the number of months it will take to fully repay the loan, we need to calculate the total amount the debtor is expected to pay back and then divide that by the total amount the creditor is expected to pay back.\n\nThe total amount the debtor is expected to pay back is $200 * 51200 = $10,000. The total amount the creditor is expected to pay back is $200 * 51200 = $10,000.\n\nThe debtor is expected to pay back $10,000 + $10,000 = $20,000. The creditor is expected to pay back $10,000 + $10,000 = $20,000.\n\nSince the total amount the debtor is expected to pay back is $20,000, and the creditor is expected to pay back $20,000, the total amount the debtor is expected to pay back is $20,000 * 100 = $20,000,000.\n\nThe debtor is"
       ]
     ],
     "filtered_resps": [
@@ -1180,7 +1180,7 @@
     ],
     "resps": [
       [
-        "I. y<2x\n\nFirst, we need to find the total number of bicycles sold last week. Since James earned more than twice as much as last week, he earned 2x + 2y = 4x + 6y.\n\nNext, we need to find the number of bicycles that were sold last week. We can do this by subtracting the number of bicycles that were sold last week from the total number of bicycles sold last week: 4x + 6y - 2x = 4x + 6y - 2x - 2x = 12x - 2x = 12x - 2x - 2x = 0.\n\nNow, we can find the number of bicycles that were sold last week by subtracting the number of bicycles that were sold last week from the total number of bicycles sold last week: 12x - 2x = 0.\n\nFinally, we can find the number of bicycles that were sold last week by dividing the number of bicycles that were sold last week by the number of bicycles that were sold last week: 12x - 2x = 0.\n\nNow, we can solve for"
+        "I. y<2x\n\nFirst, we need to find the number of bicycles that James sold last week. Since he earned more than twice as much as last week, he sold 2x bicycles last week.\n\nNext, we need to find the number of bicycles that James sold this week. Since he sold x bicycles last week, he sold 2x bicycles this week.\n\nNow, we can find the number of bicycles that James sold last week by subtracting the number of bicycles he sold this week from the total number of bicycles he sold last week:\n\ny<2x - x = 2x - 2x = 0\n\nSo, the number of bicycles that James sold last week is 0.\n\nNow, we can find the number of bicycles that James sold this week by subtracting the number of bicycles he sold this week from the total number of bicycles he sold last week:\n\ny>x - x = 2x - 2x = 2\n\nSo, the number of bicycles that James sold this week is 2.\n\nTherefore, the correct answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -1226,7 +1226,7 @@
     ],
     "resps": [
       [
-        "The current ratio Q of students per class is 3. The ratio of students to classes is 10 - 3 = 6. The answer is (e)."
+        "To find the current ratio Q, we need to calculate the new ratio of students per class. The ratio of students to classes is Q/C, where C is the number of classes.\n\nQ = 3\nC = 120\n\nNow, we can calculate the new ratio Q:\nQ = 3\nC = 120\n\nQ = 3\n\nThe current ratio Q is 3. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1456,7 +1456,7 @@
     ],
     "resps": [
       [
-        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid.\n\nSimple interest: 2000 * 10% = 200 * 0.10 = 20\nCompound interest: 2000 * 10% = 20 * 0.10 = 2\n\nThe difference in simple and compound interest is 200 - 20 = 180.\n\nThe answer is (e)."
+        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid.\n\nSimple interest: 2000 * 10% = 200 * 0.10 = 20\nCompound interest: 2000 * 10% = 20 * 0.10 = 2\n\nThe difference in simple and compound interest is 20 - 20 = 0.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1502,11 +1502,11 @@
     ],
     "resps": [
       [
-        "The yearly return of the $500 investment is 7% of the total of the two investments. To find the yearly return of the $1,500 investment, we need to find the yearly return of the $500 investment and subtract it from the yearly return of the $1,500 investment.\n\nThe yearly return of the $500 investment is 7% of 1500, which is 0.07 * 1500 = 1156. The yearly return of the $1,500 investment is 7% of 1500, which is 0.07 * 1500 = 1156.\n\nThe yearly return of the $1,500 investment is 1156 - 1156 = 0.\n\nThe answer is (e)."
+        "To find the yearly return of the $1,500 investment, we need to calculate the total return over the 10-year period. The total return is 19% of the total return, which is 19 * 0.19 = 21.5%.\n\nSince the $1,500 investment has a yearly return of 7% (1500 * 0.07 = 100), the yearly return of the $1,500 investment is 100 * 21.5 = 220.5%.\n\nThe yearly return of the $500 investment is 19% of the total return, which is 19 * 0.19 = 21.5%.\n\nThe yearly return of the $1,500 investment is 100 * 21.5 = 220.5%.\n\nThe yearly return of the $500 investment is 100 * 22.05 = 220.5%.\n\nThe yearly return of the $1,500 investment is 19 * 22"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1594,11 +1594,11 @@
     ],
     "resps": [
       [
-        "To find the number that must be divisible by 3 and 5, we need to find the factors of 30 and 60.\n\nFactors of 30 are 1, 2, 3, 5, 6, 10, 15, 30, 60, 90, 120, 150, 300, 600, 900, 1200, 1500, 3000, 6000, 9000, 12000, 15000, 30000, 60000, 90000, 120000, 150000, 300000, 600000, 900000, 1200000, 1500000, 3000000, 6000000, 9000000, 1200000"
+        "To find the number that must be divisible by 3 and 5, we need to find the factors of 3 and 5. The factors of 3 are 1, 3, and 9, and the factors of 5 are 1, 5, and 15.\n\nThe number must be divisible by 3 and 5. Therefore, the number must be divisible by 15.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1640,7 +1640,7 @@
     ],
     "resps": [
       [
-        "If the gain is proportional to the money invested and the time for which the money is invested, then the total gain is Rs. 78000. The gain is Rs. 6000. The time for which the money is invested is 6000 * 2 = 12000. The total gain is 78000 + 12000 = 100000. The answer is (e)."
+        "If the gain is proportional to the money invested and the time for which the money is invested, then the total gain is Rs. 78000. The gain is 6000 * 2 = 12000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 hours = 1 hour - 2 = 1/2 hour. The answer is (c)."
+        "The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 hours = 1 hour - 2 = 1/2 hour. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1824,11 +1824,11 @@
     ],
     "resps": [
       [
-        "Since the equation is a + b + c = 1, we can substitute a = 1 and b = 1 to get 1 + 1 = 2. This is the only solution. The answer is (d)."
+        "To find the sum of the numbers, we need to add the fractions with the same denominator. The denominators are a, b, and c, so we can use the formula for the sum of a finite geometric series: a + ar + ar^2 + ar^3 + ... .\n\nWe are given that a < b < c, so a + b + c = 1. We can rewrite this as a + b + c = 1/a + 1/b + 1/c.\n\nNow, we can add the fractions with the same denominator: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nCombining the fractions, we get 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nSince the denominators are the same, we can simplify the fraction: 1/a + 1/b + 1/c = 1/a +"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1837,7 +1837,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "0d903e703d1eb9d9fcfaa9f1d2641223932809183037f5d74b278a01d795543b",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 40,
@@ -1870,11 +1870,11 @@
     ],
     "resps": [
       [
-        "The father's present age is 36 years. The sum of the ages of his two sons is 4 years. The father's present age is 36 + 4 = 38 years. The answer is (c)."
+        "The father's present age is 36 years. The sum of the ages of his two sons is 45 years. The father's present age is 36 + 45 = 71 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1916,7 +1916,7 @@
     ],
     "resps": [
       [
-        "To find the actual % difference, we need to calculate the difference in volume between the original volume of 100gm and the new volume of 200gm.\n\nOriginal volume: 100gm\nNew volume: 200gm\nDifference in volume: 200 - 100 = 100gm\n\nThe actual % difference is: (100 / 100) * 100 = 100%. The answer is (e)."
+        "To find the actual % difference, we need to calculate the difference in volume between the original volume of the coke and the new volume of the coke.\n\nThe original volume of the coke is 200gm. The new volume is 100gm. The difference in volume is 100 - 200 = 100.\n\nThe actual % difference is the difference in volume divided by the original volume. So, the actual % difference is 100 / 200 = 0.5.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1962,7 +1962,7 @@
     ],
     "resps": [
       [
-        "To find the distance required to walk, we need to calculate the distance the person can walk in 8 hours. Since the person walks at a constant rate of 8mph, we can divide the distance the person can walk in 8 hours by the speed of the person.\n\nDistance = Speed * Time\nDistance = 8mph * 8 hours\nDistance = 64 miles\n\nSo, the person would require 64 miles to walk."
+        "To find the distance required to walk, we need to calculate the distance the person can walk in 8 hours. Since the person walks at a constant rate of 8mph, we can divide the distance the person walks in 8 hours by the speed of the person.\n\nDistance walked in 8 hours = Distance walked in 8 hours / Speed of the person\nDistance walked in 8 hours = 8 hours * 8 mph\nDistance walked in 8 hours = 64 miles\n\nSo, the person would require 64 miles to walk."
       ]
     ],
     "filtered_resps": [
@@ -2054,7 +2054,7 @@
     ],
     "resps": [
       [
-        "To find the probability that the couple does not sit together, we need to count the number of pairs that do not sit together and divide it by the total number of pairs.\n\nThere are 5 pairs of people sitting together. The probability that the couple does not sit together is the number of pairs that do not sit together divided by the total number of pairs: 5/7.\n\nThe probability that the couple does sit together is 4/5. The answer is (e)."
+        "To find the probability that the couple does not sit together, we need to count the number of pairs that do not sit together and divide it by the total number of pairs.\n\nThere are 3 pairs of people sitting together. The probability that the couple does not sit together is the number of pairs that do not sit together divided by the total number of pairs: 3/5.\n\nThe probability that the couple does sit together is the number of pairs that sit together divided by the total number of pairs: 4/5.\n\nThe probability that the couple does not sit together is the sum of the probabilities of the two cases: 3/5 + 4/5 = 7/5.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2100,7 +2100,7 @@
     ],
     "resps": [
       [
-        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that at least 2 customers bought a coffee and a bagel, and then subtract that from 1.\n\nThe probability that at least 1 customer bought a coffee and a bagel is the number of customers who bought both (3 out of 5) divided by the total number of customers (8). This is 3/8.\n\nThe probability that at least 2 customers bought a coffee and a bagel is the number of customers who bought both (5 out of 7) divided by the total number of customers (8). This is 5/8.\n\nTo find the probability that at least 1 customer bought a coffee and a bagel, we subtract the probability that at least 2 customers bought a coffee and a bagel from 1:\n\n1 - 5/8 = 1 - 27/343 = 1 - 27/125 = 1 - 27/245 = 1 - 27/95 = 1 - 27/125 = 1 - 27/12"
+        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that at least 2 customers bought a coffee and a bagel, and then subtract that from 1.\n\nThe probability that at least 1 customer bought a coffee and a bagel is the number of customers who bought both (5 out of 5) divided by the total number of customers (8). This is 5/8.\n\nThe probability that at least 2 customers bought a coffee and a bagel is the number of customers who bought both (3 out of 7) divided by the total number of customers (8). This is 3/7.\n\nTo find the probability that at least 1 customer bought a coffee and a bagel, we subtract the probability that at least 2 customers bought a coffee and a bagel from 1:\n\n1 - 3/7 = 1/7\n\nSo, the probability that at least 1 customer bought a coffee and a bagel is 1/7."
       ]
     ],
     "filtered_resps": [
@@ -2146,7 +2146,7 @@
     ],
     "resps": [
       [
-        "To solve for x, we need to isolate the absolute value term. We can do this by subtracting 4 from both sides of the equation:\n\n|x+3| \u2013 |4-x| = |8+x|\n\nSubtracting 4 from both sides:\n\nx+3 = 8 + 4\n\nAdding 4 to both sides:\n\nx+3 = 12\n\nNow, we can divide both sides by 3 to solve for x:\n\nx = 12 / 3\n\nx = 4\n\nSo, the equation has 4 solutions."
+        "To solve for x, we need to isolate the absolute value term. We can do this by subtracting 4 from both sides of the equation:\n\n|x+3| \u2013 |4-x| = |8+x|\n\nSubtracting 4 from both sides gives:\n\n|x+3| = |8+x| \u2013 4\n\nNow, we can solve for x by dividing both sides by |8+x|:\n\nx+3 = 8+x/|8+x|\n\nx+3 = 8/|8+x|\n\nx+3 = 8/12\n\nx = 3/12\n\nSo, the solution to the equation is x = 3/12."
       ]
     ],
     "filtered_resps": [
@@ -2192,11 +2192,11 @@
     ],
     "resps": [
       [
-        "To determine the percentage decrease, we need to calculate the difference between the original output and the new output, then divide by the original output, and finally multiply by 100.\n\nOriginal output: 10% of 100 = 10\nNew output: 20% of 100 = 20\nDifference: 10 - 20 = 10\nPercent decrease: (10 / 20) * 100 = 50%\n\nSo, the output would need to be decreased by 50% to restore the original output."
+        "To determine the percentage decrease, we need to calculate the difference between the original output and the new output, then divide by the original output, and finally multiply by 100.\n\nOriginal output: 10% of 100 = 10\nNew output: 20% of 100 = 20\nDifference: 10 - 20 = 10\nPercent decrease: (10 / 20) * 100 = 50%\n\nThe output is now 10% of 100, which is 100 / 10 = 10. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2284,7 +2284,7 @@
     ],
     "resps": [
       [
-        "The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is 8500 cm3. The volume is 8500 * 13 = 100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 100000 * 13 = 130000 cm3. The volume of the cube is 100000 * 13 = 130000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 130000 * 13 = 160000 cm3. The volume of the cube is 130000 * 13 = 160000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs"
+        "The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is 8500 cm3. The volume of the cube is 8500 * 8500 = 700000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98 * 700000 = 2100000 cm3. The volume of the cube is 2100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98 * 2100000 = 6600000 cm3. The volume of the cube is 6600000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343."
       ]
     ],
     "filtered_resps": [
@@ -2376,7 +2376,7 @@
     ],
     "resps": [
       [
-        "To determine the ratio of the two investments, we need to find the number of shares that each investment represents. The 9% stock has 9 shares, and the 12% stock has 12 shares. To find the number of shares that each investment represents, we divide the number of shares by the number of shares in each investment.\n\nThe 9% stock has 9 shares / 9 shares = 1 share. The 12% stock has 12 shares / 12 shares = 1 share.\n\nThe ratio of the two investments is 1:1. The answer is (e)."
+        "To determine the ratio of the two investments, we need to find the number of shares that each investment represents. The 9% stock has 9 shares, and the 12% stock has 12 shares. The total number of shares is 9 + 12 = 21 shares.\n\nThe ratio of the two investments is 21:12 = 1:1. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2468,7 +2468,7 @@
     ],
     "resps": [
       [
-        "The speed of the train is 500 m / 20 s = 25 km/s. The answer is (e)."
+        "The train can cross the electric pole in 20 sec. So the speed of the train is 20 sec * 95 Kmph = 1800 Kmph. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2698,7 +2698,7 @@
     ],
     "resps": [
       [
-        "The original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The total sales is Rs.1.1 * 1.9 = Rs.164.90. The answer is (e)."
+        "The original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The total number of chocolates sold is 1.1 * 1.1 = 1.2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2744,11 +2744,11 @@
     ],
     "resps": [
       [
-        "The length of each part is 7ft. 9in. / 3 = 23.5in."
+        "The length of each part is 31 inches. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2790,7 +2790,7 @@
     ],
     "resps": [
       [
-        "To find the number of zeroes in the given expression, we need to find the number of factors of 15 and 32.\n\nThe factors of 15 are 1, 5, 15, 35, 155, 355, 1515, 3555, 15155, 35555, 151555, 355555, 1515555, 3555555, 15155555, 35555555, 151555555, 3555555555, 1515555555555555, 3555555555555555, 15155555555555555, 3555555555555555555555555555555555"
+        "To find the number of zeroes in the expression 15*32*25*22*40*75*98*112*125, we need to find the number of factors of 15 and 25.\n\nThe factors of 15 are 1, 5, 15, 35, 155, 355, 1515, 3555, 15155, 35555, 151555, 355555, 1515555, 3555555, 15155555, 35555555, 151555555, 3555555555, 151555555555, 3555555555555, 15155555555555, 355555555555555,"
       ]
     ],
     "filtered_resps": [
@@ -2928,11 +2928,11 @@
     ],
     "resps": [
       [
-        "To find the ratio of A to B, we need to calculate the total amount A and B withdrawals, then divide that amount by the total amount A and B invested.\n\nA withdrawals: 6000 - 12000 = 2000\nB withdrawals: 12000 - 12000 = 0\n\nTotal amount A and B invested: 6000 + 12000 = 18000\nTotal amount A and B withdrawals: 2000 + 0 = 2000\n\nNow, we divide the total amount A and B withdrawals by the total amount A and B invested: 2000 / 18000 = 0.12.\n\nThe ratio of A to B is 0.12. The answer is (e)."
+        "To find the ratio of A to B, we need to calculate the profit for each month and then find the total profit for the year.\n\nIn the first month, A withdraws Rs.6000 and B withdraws Rs.12000. The profit for the first month is Rs.6000 * 12000 = Rs.72000. The profit for the second month is Rs.12000 * 10000 = Rs.120000. The profit for the third month is Rs.12000 * 12000 = Rs.140000. The profit for the fourth month is Rs.14000 * 10000 = Rs.160000. The profit for the fifth month is Rs.16000 * 10000 = Rs.180000.\n\nThe total profit for the year is the sum of the profits for the first, second, third, fourth, and fifth months: 72000 + 12000 + 1400"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3250,7 +3250,7 @@
     ],
     "resps": [
       [
-        "The sum of the squares of three numbers is 351. The sum of their products taken two at a time is 245. The sum of the squares of three numbers is 351 + 245 = 596. The sum of their products taken two at a time is 245 + 26 = 301. The sum of the squares of three numbers is 351 + 596 + 301 = 648. The answer is (e)."
+        "The sum of the squares of three numbers is 351^2 + 22^2 + 26^2 = 100000 + 40000 + 16000 = 100000 + 4000 + 1600 = 100001. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3342,7 +3342,7 @@
     ],
     "resps": [
       [
-        "The equation W has at least one solution, which is W = 0.\n\nThe equation 2^n = (\u20132)^n is not necessarily true, as 2^n = 1, which is not equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^"
+        "The equation W has at least one solution, which is W = 0.\n\nThe equation 2^n = (\u20132)^n is not necessarily true for all n. It is possible that 2^n = 0 for some n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true"
       ]
     ],
     "filtered_resps": [
@@ -3480,7 +3480,7 @@
     ],
     "resps": [
       [
-        "The area of a rhombus is calculated by multiplying the length of its diagonals by the product of the length of its sides. The length of the diagonals is 25 cm and the length of the side is 25 cm. The area of a rhombus is calculated as (diagonals * side length) / 2.\n\nThe area of a rhombus is (25 cm * 25 cm) / 2 = 272 sq.cm.\n\nThe answer is (e)."
+        "The area of a rhombus is given by the formula A = (1/2)bh, where b is the length of the side and h is the height. In this case, the side length is 25 cm and the height is 30 cm.\n\nA = (1/2)(25)(30) = 272 sq.cm.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3572,7 +3572,7 @@
     ],
     "resps": [
       [
-        "To find the minimum expenditure required, we need to determine the total cost of the bus and the other expenses. The total cost of the bus is 120 litres * $60 per litre = $6000. The other expenses are $60 per hous, which is $6000 * $60 per hous = $36000. The total cost of the bus is $6000 + $36000 = $66000. The minimum expenditure required is $66000 - $6000 = $65000. The answer is (e)."
+        "To find the minimum expenditure required, we need to determine the total cost of the bus and the other expenses. The total cost of the bus is 120 litres * $60 per litre = $6000. The other expenses are $60 per hous, which is $6000 * $60 per hous = $36000. The total cost of the bus is $6000 + $36000 = $66000. The minimum expenditure required to cover a distance of 600 Km is $66000 - $6000 = $66000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3618,11 +3618,11 @@
     ],
     "resps": [
       [
-        "To find the probability of having 0 woman in the committee, we need to find the number of ways to choose 0 women from the 7 men and 6 women from the 144 women.\n\nThere are 7 men and 144 women. The number of ways to choose 0 women from 7 men is given by the combination formula: C(7, 0) = 7! / (0! * (7-0)!) = 7.\n\nThe number of ways to choose 0 women from 144 women is given by the combination formula: C(144, 0) = 144! / (0! * (144-0)!) = 144.\n\nThe probability of having 0 woman in the committee is then the number of ways to choose 0 women divided by the total number of ways to choose 0 women.\n\nSo, the probability is 7/36. The answer is (b)."
+        "To find the probability of having 0 woman in the committee, we need to find the number of ways to choose 0 women from the 7 men and 6 women from the 144 women.\n\nThere are 7 men and 144 women. The number of ways to choose 0 women from 7 men is 7 choose 0, which is 7. The number of ways to choose 0 women from 144 women is 144 choose 0, which is 144.\n\nSo, the probability of having 0 woman in the committee is 7/36."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3664,7 +3664,7 @@
     ],
     "resps": [
       [
-        "To find the probability that exactly three bulbs are good, we need to find the probability that exactly two bulbs are good and the probability that exactly three bulbs are good and the remaining two are defective.\n\nThe probability that exactly two bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/69.\n\nThe probability that exactly three bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/63.\n\nTo find the probability that exactly three bulbs are good and the remaining two are defective, we need to find the probability that exactly two bulbs are good and the remaining two are defective: 4/65.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the number of good bulbs divided by the total number of bulbs: 4/61.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the number of good bulbs divided by the total number of bulbs: 4/62.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the number of good bulbs divided by the total number of bulbs: 4/63.\n\nThe probability that"
+        "To find the probability that exactly three bulbs are good, we need to find the probability that exactly two bulbs are good and the probability that exactly three bulbs are good and the remaining two are defective.\n\nThe probability that exactly two bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/69.\n\nThe probability that exactly three bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/63.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/65.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/61.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/62.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/63.\n\nThe probability that"
       ]
     ],
     "filtered_resps": [
@@ -3710,7 +3710,7 @@
     ],
     "resps": [
       [
-        "The speed of the train is 54 km/hr. The train is moving at 54 km/hr / 32 sec = 1.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+        "The speed of the train is 54 km/hr. The train is traveling at 54 km/hr / 32 sec = 1.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
       ]
     ],
     "filtered_resps": [
@@ -3756,11 +3756,11 @@
     ],
     "resps": [
       [
-        "If |w| = -w, then x must be greater than 0. So, x must be greater than 0.\n\n(a) x\u22650: x must be greater than 0.\n\n(b) w\u22640: w must be greater than 0.\n\n(c) x2>x: x must be greater than 0.\n\n(d) x3<0: x must be greater than 0.\n\n(e) 2x<x: x must be greater than 0.\n\nSo, the correct answer is (c)."
+        "If |w| = -w, then x must be greater than 0. So, x must be greater than 0.\n\n(a) x\u22650: x must be greater than 0.\n\n(b) w\u22640: w must be greater than 0.\n\n(c) x2>x: x must be greater than 0.\n\n(d) x3<0: x must be greater than 0.\n\n(e) 2x<x: 2x must be greater than 0.\n\nSo, the answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3802,7 +3802,7 @@
     ],
     "resps": [
       [
-        "To find the percent of the second number, we need to divide the second number by the first number and multiply by 100.\n\nFirst, we divide the second number by the first number: 37% = 0.37 * 100 = 37%.\n\nThen, we multiply the second number by 100: 37% * 37 = 100 * 37 = 370.\n\nNow, we add the percent of the second number to the first number: 37% + 100% = 47%.\n\nThe answer is (e)."
+        "To find the percent of the second number, we need to divide the second number by the first number and then multiply by 100.\n\nFirst, we divide the second number by the first number: 37% = 0.37 * 100 = 37%.\n\nThen, we multiply the second number by 100: 37% * 30% = 0.37 * 100 = 37%.\n\nSo, the second number is 37% less than the first number. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3848,11 +3848,11 @@
     ],
     "resps": [
       [
-        "To find the number of numbers that are exactly divisible by 11, we need to find the number of multiples of 11 between 39 and 79.\n\nFirst, we find the number of multiples of 11 between 39 and 79: 39 - 39 = 0, 40 - 40 = 0, 41 - 41 = 0, 42 - 42 = 0, 43 - 43 = 0, 44 - 44 = 0, 45 - 45 = 0, 46 - 46 = 0, 47 - 47 = 0, 48 - 48 = 0, 49 - 49 = 0, 50 - 50 = 0, 51 - 51 = 0, 52 - 52 = 0, 53 - 53 = 0, 54 - 54 = 0, 55 - 55 = 0, 56 - 56 = 0"
+        "To find the number of numbers that are exactly divisible by 11, we need to count the number of multiples of 11 between 39 and 79. The multiples of 11 between 39 and 79 are 11, 14, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99. There are 11 numbers that are multiples of 11. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3986,7 +3986,7 @@
     ],
     "resps": [
       [
-        "To find the time it takes to cross the bridge, we need to calculate the time it takes to cover the distance of 165 meters and then divide that by the speed of the train.\n\nThe distance is 165 meters.\n\nThe speed of the train is 72 kmph.\n\nTime taken to cross the bridge is 165 meters / 72 kmph = 2.17 hours.\n\nThe answer is (e)."
+        "To find the time it takes to cross the bridge, we need to calculate the time it takes to cover the distance of 165 meters and then divide that by the speed of the train.\n\nThe distance is 165 meters.\n\nTime taken to cross the bridge is 165 meters / 72 kmph = 2.17 hours.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4032,7 +4032,7 @@
     ],
     "resps": [
       [
-        "The original retail price of the turtleneck sweaters was 1500. The discount of 15% means the store is selling 1500 - 1500 / 100 = 150 sweaters. The discount of 25% means the store is selling 1500 - 1500 * 0.25 = 15 sweaters. The profit on the items sold in February is 150 sweaters * 150% = 150 * 150 = 1500. The answer is (e)."
+        "The original retail price of the turtleneck sweaters was 1500. The discount of 15% means the store is selling 1500 - 1500 / 100 = 150 sweaters. The discount of 25% means the store is selling 1500 - 1500 / 25 = 15 sweaters. The total profit is the sum of the discounted and original prices. The profit is 150 sweaters * 1500 / 100 = 1500. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4078,7 +4078,7 @@
     ],
     "resps": [
       [
-        "To find the decimal equivalent of 0.01, we need to divide 0.01 by 100. 0.01 / 100 = 0.001. The answer is (e)."
+        "To find the decimal equivalent of 0.01, we need to divide 0.01 by 100. 0.01 / 100 = 0.0001. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4124,7 +4124,7 @@
     ],
     "resps": [
       [
-        "To find the greatest possible profit, we need to find the maximum profit that can be made. The maximum profit is the maximum of the two prices.\n\nThe maximum price is Rs. 195, and the maximum profit is Rs. 1650. The maximum profit is the maximum of the two prices.\n\nThe maximum profit is the maximum of the two prices. The maximum profit is the maximum of the two prices.\n\nThe answer is (e)."
+        "To find the greatest possible profit, we need to find the maximum profit that can be made. The maximum profit is the maximum of the two prices.\n\nThe maximum profit is the maximum of the two prices: 120 + 215 = 335.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4170,7 +4170,7 @@
     ],
     "resps": [
       [
-        "The train B travels at 60 kmph. The train A travels at 60 kmph * 9 hours = 540 kmph. The answer is (c)."
+        "The train B travels at 40 kmph. The train A travels at 60 kmph. The rate at which the train B runs is the difference between the two speeds: 40 - 60 = 10 kmph. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -4216,7 +4216,7 @@
     ],
     "resps": [
       [
-        "To find the probability that no boy will choose his own toy, we need to count the number of ways to choose one boy from the three and the number of ways to choose one boy from the three.\n\nThere are 3 ways to choose one boy from the three.\n\nThere are 3 ways to choose one boy from the three.\n\nSo the total number of ways to choose one boy from the three is 3 * 3 = 9.\n\nThe total number of ways to choose one boy from the three is 3 * 3 = 9.\n\nThe probability that no boy will choose his own toy is the number of ways to choose one boy from the three divided by the total number of ways to choose one boy from the three.\n\nSo the probability is 9/3 = 3/3.\n\nThe answer is (e)."
+        "To find the probability that no boy will choose his own toy, we need to count the number of boys who chose their own toy and divide it by the total number of boys.\n\nThere are 3 boys who chose their own toy. So, the probability that no boy will choose his own toy is 3/3 = 1.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4308,7 +4308,7 @@
     ],
     "resps": [
       [
-        "The ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. The answer is (e)."
+        "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. So the ratio is 5 : 4 * 26 = 26 : 16. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "To find the ratio of A and B's profit, we need to divide the profit of A by the profit of B.\n\nProfit of A = 3000 * 100 = 30000\nProfit of B = 4000 * 100 = 40000\n\nNow, we divide the profit of A by the profit of B:\n\nProfit of A / Profit of B = 30000 / 40000 = 0.6\n\nSo, A should divide the profit of 30000 by 0.6 to find the ratio of A and B's profit."
+        "To find the ratio of A and B's profit, we need to divide the profit of A by the profit of B.\n\nProfit of A = 3000 * 100 = 30000\nProfit of B = 4000 * 100 = 40000\n\nNow, we divide the profit of A by the profit of B:\n\nProfit of A / Profit of B = 30000 / 40000 = 9/8\n\nThe ratio of A and B is 9:8."
       ]
     ],
     "filtered_resps": [
@@ -4400,7 +4400,7 @@
     ],
     "resps": [
       [
-        "To determine which of the given statements must be true, we need to analyze the relationship between x and y. Since x-y = 10, we can substitute y = 10 into the equation. This gives us x = 10 + 10 = 20.\n\nNow, let's consider the possible values of x and y. If x is positive, then y must be positive. If x is negative, then y must be negative.\n\nGiven that x-y = 10, we can see that x must be positive. Therefore, the only possible value of x is positive.\n\nNow, let's consider the relationship between x and y. If x is positive, then y must be positive. If x is negative, then y must be negative.\n\nSince x-y = 10, we can see that x must be positive. Therefore, the only possible value of y is positive.\n\nNow, let's consider the relationship between x and y. If x is positive, then y must be positive. If x is negative, then y must be negative.\n\nSince x-y = 10, we can see that x must be positive. Therefore, the only"
+        "To determine which of the given statements must be true, we need to analyze the relationship between x and y.\n\nStatement I: Both x and y are positive.\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive.\n\nFrom statement I, we can conclude that x is positive.\n\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive.\n\nFrom statement II, we can conclude that y is positive.\n\nStatement III: If x is positive, y must be positive.\nStatement II: If x is negative, y must be negative.\n\nFrom statement II, we can conclude that y is positive.\n\nStatement I: Both x and y are positive.\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive.\n\nFrom statement II, we can conclude that y is positive.\n\nStatement I: Both x and y are positive.\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive."
       ]
     ],
     "filtered_resps": [
@@ -4446,7 +4446,7 @@
     ],
     "resps": [
       [
-        "To find the percentage change in the area, we need to calculate the difference in area and divide it by the original area. \n\nThe original area is 100 square units. The area increased by 25% is 100 * (25/100) = 100 * 0.25 = 25 square units. \n\nThe percentage change in the area is then 25 - 100 = 5 square units. The answer is (e)."
+        "To find the percentage change in the area, we need to calculate the difference in area and divide it by the original area.\n\nThe original area is 100 square units.\nThe area increased by 25% is 100 * (1 + 0.25) = 100 * 0.75 = 75 square units.\nThe area decreased by 25% is 100 * (1 - 0.25) = 100 * 0.75 = 75 square units.\nThe percentage change in the area is 75 - 75 = 0.00.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "The annual interest rate is 5% compounded monthly. The value of the investment after 10 years would be the interest earned over the 10-year period. The interest earned is the amount of money that is added to the investment each year, and the interest rate is 5% of the initial investment.\n\nThe interest earned is the amount of money added to the investment each year, which is $750.00. The interest rate is 5% of $750.00, which is $33.33. The value of the investment after 10 years would be the interest earned over the 10-year period, which is $750.00 * $33.33 = $23,333.33. The answer is (e)."
+        "The annual interest rate is 5% compounded monthly. The value of the investment after 10 years would be the interest earned over the 10-year period. The interest earned is the amount of money that is added to the investment each year, and the interest rate is 5% of the initial investment.\n\nThe interest earned is the amount of money added to the investment each year, which is $750.00. The interest rate is 5% of $750.00, which is $33.33. The value of the investment after 10 years would be the interest earned over the 10-year period, which is $750.00 * 10 = $7500.00. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4584,11 +4584,11 @@
     ],
     "resps": [
       [
-        "To fill up a third 30-liter jar with milk, we need to find the volume of the first jar and then subtract the volume of the second jar.\n\nFirst, we need to find the volume of the first jar. The ratio of the volumes of the two jars is 5: 4. So, the volume of the first jar is 5 * 4 = 20.\n\nNow, we need to find the volume of the second jar. The ratio of the volumes of the two jars is 2: 1. So, the volume of the second jar is 2 * 1 = 2.\n\nThe volume of the third 30-liter jar with milk is 20 - 2 = 18.\n\nThe volume of the third 30-liter jar with water is 2 * 1 = 2.\n\nThe volume of the third 30-liter jar with milk and water is 18 - 2 = 16.\n\nThe volume of the third 30-liter jar with water and milk is 16 - 2 = 14.\n\nThe volume of the third 30-liter jar"
+        "To fill up a third 30-liter jar with milk, we need to find the volume of the first jar and then subtract the volume of the second jar.\n\nFirst, we need to find the volume of the first jar. The ratio of the volumes of the two jars is 5: 4. So, the volume of the first jar is 5 * 4 = 20.\n\nNow, we need to find the volume of the second jar. The ratio of the volumes of the two jars is 2: 1. So, the volume of the second jar is 2 * 1 = 2.\n\nTo find the volume of the third 30-liter jar, we subtract the volume of the first jar from the volume of the second jar: 20 - 2 = 18.\n\nThe volume of the third 30-liter jar is 18. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4630,7 +4630,7 @@
     ],
     "resps": [
       [
-        "To find out how many kilometers Friend P has walked when they pass each other, we need to calculate the difference in their speeds and then divide by the speed of the other person.\n\nFriend P's speed is 15% faster than Friend Q's speed. So, Friend P's speed is 15% of Friend Q's speed.\n\nFriend Q's speed is 15% of Friend P's speed. So, Friend Q's speed is 15% of Friend P's speed.\n\nTo find the difference in their speeds, we subtract Friend Q's speed from Friend P's speed: 15% of 15% = 15/100 = 0.15.\n\nNow, we divide the difference in their speeds by their speed: 0.15 / 0.15 = 1.\n\nSo, Friend P has walked 1 kilometer when they pass each other."
+        "If Friend P's rate is 15% faster than Friend Q's, then Friend Q's rate is 15% of Friend P's rate. 15% of 43 km is 0.15 * 43 km = 6.6 km. 6.6 km / 15% = 2.25 km. 2.25 km / 15% = 1.15 km. 1.15 km / 15% = 0.066 km. 0.066 km / 15% = 0.0003 km. 0.0003 km / 15% = 0.000003 km. 0.000003 km / 15% = 0.00000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
     ],
     "filtered_resps": [
@@ -4722,7 +4722,7 @@
     ],
     "resps": [
       [
-        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are any two numbers. Since x and y are both numbers, we can substitute x and y into the equation to get p^2 - pq = p^2 - pq. This simplifies to p^2 - pq = 0.\n\nSince p^2 - pq = 0, we can factor out p^2 from the equation to get p^2 - pq = 0. This is a quadratic equation in terms of p^2, which can be solved using the quadratic formula: p^2 = (q - 1)(q + p).\n\nNow, we can substitute this expression for p^2 into the equation x@y, which gives us x^2 - xq = 0. This is a quadratic equation in terms of x, which can be solved using the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a.\n\nIn this case, a = 1, b = -1, and c = p. Substituting these values into the equation gives us x = (p"
+        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are any two numbers. Since x and y are both numbers, we can substitute x and y into the equation to get p^2 - pq = p^2 - pq. This simplifies to p^2 - pq = 0.\n\nSince p^2 - pq = 0, we can factor out p^2 from the equation to get p^2 - pq = 0. This is a quadratic equation in p, which can be solved using the quadratic formula: p = (-p^2 - q^2) / 2.\n\nNow, we can substitute p = (-p^2 - q^2) / 2 into the equation x@y, which gives us x^2 - (-p^2 - q^2) = 0. This simplifies to x^2 - (-p^2 - q^2) = 0.\n\nThe only solution to this equation is x = 0, which means x = 0.\n\nTherefore, the only possible solution to the equation x@y is x = 0."
       ]
     ],
     "filtered_resps": [
@@ -4768,7 +4768,7 @@
     ],
     "resps": [
       [
-        "The compound interest formula is A = P(1 + r)^n, where A is the amount of money he has, P is the principal amount, r is the annual interest rate, and n is the number of times the interest is compounded per year.\n\nPlugging in the values, A = $10,000(1 + 0.04)^10 = $10,000(1.04)^10 = $10,000(1.04) = $10,000.\n\nNow, we can calculate the interest paid annually: A = $10,000(1.04)^10 = $10,000(1.04) = $10,000.\n\nSo, Carl pays $1600 annually."
+        "The compound interest formula is A = P(1 + r)^n, where A is the amount of money he has, P is the principal amount, r is the annual interest rate, and n is the number of times the interest is compounded per year.\n\nPlugging in the values, A = $10,000(1 + 0.04)^10 = $10,000(1.04)^10 = $10,000(1.04) = $10,000.\n\nNow, we can calculate the interest paid annually: A = $10,000(1.04)^10 = $10,000(1.04) = $10,000(1.12) = $10,120.\n\nSo, Carl pays $1600 annually."
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "To find the time, we need to calculate the distance he needs to cover and then divide it by the speed of the current. The distance he needs to cover is 80 meters. The speed of the current is 11 kmph. So, the distance he needs to cover is 80 meters / 11 kmph = 7.2 meters.\n\nThe time it takes to cover 7.2 meters is 7.2 / 11 = 0.66 seconds. The answer is (e)."
+        "To find the time, we need to calculate the distance the man can cover in the first 80 meters and then add the speed of the current.\n\nThe man can row 80 meters downstream in 25 kmph. So, the distance he can cover in 80 meters is 80 * 25 = 2000 meters.\n\nThe speed of the current is 11 kmph. To find the time, we divide the distance by the speed: 2000 meters / 11 kmph = 196 seconds.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4860,11 +4860,11 @@
     ],
     "resps": [
       [
-        "There are 6 possible combinations in which Jim and Ellen are not selected.\n\nk = 6\n\nThe value of k is 6."
+        "There are 6 possible combinations in which Jim and Ellen are not selected.\n\nk = 6\n\nThe answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4906,11 +4906,11 @@
     ],
     "resps": [
       [
-        "If (x^2 + 4x - 11)/5 \u2264 x + 1, then the expression inside the absolute value is 11. So the range of the expression is (x + 1, x - 11). The range of the expression is (x, -3). The answer is (c)."
+        "If (x^2 + 4x - 11)/5 \u2264 x + 1, then the expression inside the absolute value is 5. So the range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The range of the expression is (x + 1) \u2264 x \u2264 (x - 1). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4952,7 +4952,7 @@
     ],
     "resps": [
       [
-        "To find the smallest number of five-digit numbers that are divisible by 22,33,66, and 44, we need to find the smallest number of 22,33,66, and 44 that is divisible by 22,33,66, and 44.\n\nFirst, we need to find the smallest number of 22,33,66, and 44 that is divisible by 22,33,66, and 44. We can do this by dividing the largest number by 22,33,66, and 44.\n\nThe largest number is 10101, which is divisible by 22,33,66, and 44.\n\nNow, we need to find the smallest number of 22,33,66, and 44 that is divisible by 22,33,66, and 44. We can do this by dividing the largest number by 22,33,66, and 44.\n\nThe largest number is 10111, which"
+        "To find the smallest number of five-digit numbers that are divisible by 22,33,66, and 44, we need to find the smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44, respectively.\n\nThe smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44 is 10101.\n\nTo find the smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44, we need to find the smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44, respectively.\n\nThe smallest number of 22, 33, and 44 that is divisible by 22, 33, and 44 is 10101.\n\nTherefore, the smallest number of 22, 33, and 44 that is divisible by 22,"
       ]
     ],
     "filtered_resps": [
@@ -5044,7 +5044,7 @@
     ],
     "resps": [
       [
-        "To find the possible product of X and Y, we need to consider the possible values of X and Y. Since 8XY is a 3-digit number that is divisible by 2, we can multiply the possible values of X and Y together to find the possible product.\n\nX = 8\nY = 3\n\nThe possible values of X and Y are:\nX = 8\nY = 3\n\nSo, the possible product of X and Y is 8 * 3 = 24. The answer is (e)."
+        "To find the possible product of X and Y, we need to consider the possible remainders when 8XY is divided by 2. Since 8XY is a 3-digit number, it can be written as 8X + 8Y.\n\nThe possible remainders when 8XY is divided by 2 are:\n8X = 8 * 2 = 16\n8Y = 8 * 2 = 16\n\nSo, the possible product of X and Y is 16 + 16 = 32. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5090,11 +5090,11 @@
     ],
     "resps": [
       [
-        "If Tim gave 20% tip, then 20% of $50 is 0.20 * $50 = $10. So, he spent $10 * 20% = $20. The answer is (c)."
+        "If Tim gave 20% tip, then 20% of $50 is 0.20 * $50 = $10. So, he spent $10 * 20% = $20. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5136,11 +5136,11 @@
     ],
     "resps": [
       [
-        "To find the amount Rs. 825 will become in 3 years at a certain rate of simple interest, we need to calculate the interest for 3 years at the same rate.\n\nFirst, we need to find the interest for 1 year at the same rate. 825 * 1 = Rs. 825.\n\nThen, we need to find the interest for 2 years at the same rate. 825 * 2 = Rs. 1650.\n\nNow, we add the interest for 2 years at the same rate to the interest for 1 year at the same rate. 1650 + 1055 = Rs. 2605.\n\nFinally, we add the interest for 3 years at the same rate. 2605 + 1055 = Rs. 3750.\n\nThe amount Rs. 825 will become Rs. 3750 in 3 years at a certain rate of simple interest. The answer is (e)."
+        "To find the amount Rs. 825 will become in 3 years at a certain rate of simple interest, we need to calculate the interest rate and the time it takes to reach the same amount.\n\nThe interest rate is 4% per year. To find the time it takes to reach the same amount, we can divide the interest rate by the time it takes to reach the same amount.\n\nThe time it takes to reach the same amount is 3 years * 0.04 = 0.16 years.\n\nNow, we can calculate the amount Rs. 825 will become in 3 years:\n\nAmount Rs. 825 = 825 * 0.16 = 1020.80\n\nSo, the amount Rs. 825 will become Rs. 1020.80 in 3 years at a rate of 4% simple interest."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5274,7 +5274,7 @@
     ],
     "resps": [
       [
-        "To find the ratio of A to C, we need to divide the total amount of money (Rs. 5600) by the total amount of money (Rs. 5600).\n\nRatio = Total amount / Total amount\n= 5600 / 5600\n= 1\n\nSo, A is more than C if their ratio is 1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1"
+        "To find the value of A, we need to find the ratio of A to C. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14. The ratio of A to C is 1:1:1:14."
       ]
     ],
     "filtered_resps": [
@@ -5366,11 +5366,11 @@
     ],
     "resps": [
       [
-        "Since k/l < 1, and both k and l are positive integers, the greatest common divisor (GCD) of k and l must be greater than 1. The GCD of 1 and 1 is 1, which is greater than 1.\n\nTherefore, the only possible greater than 1 is k/l^2."
+        "Since k/l < 1, and both k and l are positive integers, the greatest common divisor (gcd) of k and l must be greater than 1. The gcd of 1 and 1/2 is 1, and the gcd of 1 and 1/3 is 1/3, so the gcd of 1 and 1/2 is 1/2.\n\nThe greatest common divisor of 1 and 1/2 is 1/2, which is greater than 1. Therefore, the greatest common divisor of 1 and 1/2 must be greater than 1.\n\nThe answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5412,7 +5412,7 @@
     ],
     "resps": [
       [
-        "To find the difference in the score of his last mock and his GMAT score, we need to subtract the GMAT score from the last mock score.\n\nMike scored 760 on the last mock test.\nMike's score is 760 - 716.67 = 10 points.\n\nThe difference in the score of his last mock and his GMAT score is 10 points (Mike's score - Mike's GMAT score).\n\nThe answer is (e)."
+        "To find the difference in the score of his last mock and his GMAT score, we need to calculate the difference in average scores and then subtract that from the GMAT score.\n\nThe difference in average scores is the difference between the average score of the last mock test and the GMAT score. 760 - 716.67 = 10.33.\n\nThe difference in GMAT score is the difference between the GMAT score and the average score of the last mock test. 716.67 - 760 = 10.33.\n\nThe difference in the score of his last mock and his GMAT score is 10.33 - 10.33 = 0.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5458,7 +5458,7 @@
     ],
     "resps": [
       [
-        "If 10 is added to each number, then the mean of the numbers would be 50 + 10 = 60. The answer is (e)."
+        "If 10 is added to each number, then the mean of the numbers would be 15 + 10 = 25. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5550,7 +5550,7 @@
     ],
     "resps": [
       [
-        "The sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The sequence is 4, "
+        "The sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 10, 10. The first five numbers in a sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The first five numbers in a sequence are 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10. The sequence is 4, 10, 10, 10, 10"
       ]
     ],
     "filtered_resps": [
@@ -5596,11 +5596,11 @@
     ],
     "resps": [
       [
-        "Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3 bags. The answer is (e)."
+        "Tim has 350 pounds of cement in 100, 50, and 25 pound bags. There are 350 pounds / 100 bags = 3.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 25 bags = 12.5 bags. There are 350 pounds / 2"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5642,7 +5642,7 @@
     ],
     "resps": [
       [
-        "To find the least value of x, we need to find the smallest number that is divisible by 9. Since 2x5475 is divisible by 9, we can start by finding the smallest number that is divisible by 9.\n\nThe smallest number divisible by 9 is 9 itself. So, the least value of x is 9."
+        "To find the least value of x, we need to find the smallest number that is divisible by 9. Since 2x5475 is divisible by 9, we can start by finding the smallest number that is divisible by 9.\n\nThe smallest number that is divisible by 9 is 9. So, the least value of x is 9."
       ]
     ],
     "filtered_resps": [
@@ -5734,7 +5734,7 @@
     ],
     "resps": [
       [
-        "To find the number of months it will take to fully repay the loan, we need to calculate the total amount the debtor is expected to pay back and then divide that by the total amount the creditor is expected to pay back.\n\nThe total amount the debtor is expected to pay back is $200 * 51200 = $10,000. The total amount the creditor is expected to pay back is $200 * 10000 = $20,000.\n\nThe debtor is expected to pay back $10,000 + $20,000 = $30,000. The creditor is expected to pay back $20,000 + $20,000 = $40,000.\n\nTo find the number of months it will take to fully repay the loan, we divide the total amount the debtor is expected to pay back by the total amount the creditor is expected to pay back.\n\n$30,000 / $40,000 = 0.67 months.\n\nSo, it will take 0.67 months"
+        "To find the number of months it will take to fully repay the loan, we need to calculate the total amount the debtor is expected to pay back and then divide that by the total amount the creditor is expected to pay back.\n\nThe total amount the debtor is expected to pay back is $200 * 51200 = $10,000. The total amount the creditor is expected to pay back is $200 * 51200 = $10,000.\n\nThe debtor is expected to pay back $10,000 + $10,000 = $20,000. The creditor is expected to pay back $10,000 + $10,000 = $20,000.\n\nSince the total amount the debtor is expected to pay back is $20,000, and the creditor is expected to pay back $20,000, the total amount the debtor is expected to pay back is $20,000 * 100 = $20,000,000.\n\nThe debtor is"
       ]
     ],
     "filtered_resps": [
@@ -5780,11 +5780,11 @@
     ],
     "resps": [
       [
-        "I. y<2x\n\nFirst, we need to find the total number of bicycles sold last week. Since James earned more than twice as much as last week, he earned 2x + 2y = 4x + 6y.\n\nNext, we need to find the number of bicycles that were sold last week. We can do this by subtracting the number of bicycles that were sold last week from the total number of bicycles sold last week: 4x + 6y - 2x = 4x + 6y - 2x - 2x = 12x - 2x = 12x - 2x - 2x = 0.\n\nNow, we can find the number of bicycles that were sold last week by subtracting the number of bicycles that were sold last week from the total number of bicycles sold last week: 12x - 2x = 0.\n\nFinally, we can find the number of bicycles that were sold last week by dividing the number of bicycles that were sold last week by the number of bicycles that were sold last week: 12x - 2x = 0.\n\nNow, we can solve for"
+        "I. y<2x\n\nFirst, we need to find the number of bicycles that James sold last week. Since he earned more than twice as much as last week, he sold 2x bicycles last week.\n\nNext, we need to find the number of bicycles that James sold this week. Since he sold x bicycles last week, he sold 2x bicycles this week.\n\nNow, we can find the number of bicycles that James sold last week by subtracting the number of bicycles he sold this week from the total number of bicycles he sold last week:\n\ny<2x - x = 2x - 2x = 0\n\nSo, the number of bicycles that James sold last week is 0.\n\nNow, we can find the number of bicycles that James sold this week by subtracting the number of bicycles he sold this week from the total number of bicycles he sold last week:\n\ny>x - x = 2x - 2x = 2\n\nSo, the number of bicycles that James sold this week is 2.\n\nTherefore, the correct answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5826,7 +5826,7 @@
     ],
     "resps": [
       [
-        "The current ratio Q of students per class is 3. The ratio of students to classes is 10 - 3 = 6. The answer is (e)."
+        "To find the current ratio Q, we need to calculate the new ratio of students per class. The ratio of students to classes is Q/C, where C is the number of classes.\n\nQ = 3\nC = 120\n\nNow, we can calculate the new ratio Q:\nQ = 3\nC = 120\n\nQ = 3\n\nThe current ratio Q is 3. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6056,7 +6056,7 @@
     ],
     "resps": [
       [
-        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid.\n\nSimple interest: 2000 * 10% = 200 * 0.10 = 20\nCompound interest: 2000 * 10% = 20 * 0.10 = 2\n\nThe difference in simple and compound interest is 200 - 20 = 180.\n\nThe answer is (e)."
+        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid.\n\nSimple interest: 2000 * 10% = 200 * 0.10 = 20\nCompound interest: 2000 * 10% = 20 * 0.10 = 2\n\nThe difference in simple and compound interest is 20 - 20 = 0.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "The yearly return of the $500 investment is 7% of the total of the two investments. To find the yearly return of the $1,500 investment, we need to find the yearly return of the $500 investment and subtract it from the yearly return of the $1,500 investment.\n\nThe yearly return of the $500 investment is 7% of 1500, which is 0.07 * 1500 = 1156. The yearly return of the $1,500 investment is 7% of 1500, which is 0.07 * 1500 = 1156.\n\nThe yearly return of the $1,500 investment is 1156 - 1156 = 0.\n\nThe answer is (e)."
+        "To find the yearly return of the $1,500 investment, we need to calculate the total return over the 10-year period. The total return is 19% of the total return, which is 19 * 0.19 = 21.5%.\n\nSince the $1,500 investment has a yearly return of 7% (1500 * 0.07 = 100), the yearly return of the $1,500 investment is 100 * 21.5 = 220.5%.\n\nThe yearly return of the $500 investment is 19% of the total return, which is 19 * 0.19 = 21.5%.\n\nThe yearly return of the $1,500 investment is 100 * 21.5 = 220.5%.\n\nThe yearly return of the $500 investment is 100 * 22.05 = 220.5%.\n\nThe yearly return of the $1,500 investment is 19 * 22"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6194,11 +6194,11 @@
     ],
     "resps": [
       [
-        "To find the number that must be divisible by 3 and 5, we need to find the factors of 30 and 60.\n\nFactors of 30 are 1, 2, 3, 5, 6, 10, 15, 30, 60, 90, 120, 150, 300, 600, 900, 1200, 1500, 3000, 6000, 9000, 12000, 15000, 30000, 60000, 90000, 120000, 150000, 300000, 600000, 900000, 1200000, 1500000, 3000000, 6000000, 9000000, 1200000"
+        "To find the number that must be divisible by 3 and 5, we need to find the factors of 3 and 5. The factors of 3 are 1, 3, and 9, and the factors of 5 are 1, 5, and 15.\n\nThe number must be divisible by 3 and 5. Therefore, the number must be divisible by 15.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6240,7 +6240,7 @@
     ],
     "resps": [
       [
-        "If the gain is proportional to the money invested and the time for which the money is invested, then the total gain is Rs. 78000. The gain is Rs. 6000. The time for which the money is invested is 6000 * 2 = 12000. The total gain is 78000 + 12000 = 100000. The answer is (e)."
+        "If the gain is proportional to the money invested and the time for which the money is invested, then the total gain is Rs. 78000. The gain is 6000 * 2 = 12000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6332,11 +6332,11 @@
     ],
     "resps": [
       [
-        "The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 hours = 1 hour - 2 = 1/2 hour. The answer is (c)."
+        "The time taken by the pipe to fill the tank is 1 hour. The time taken by the pipe to empty the tank is 1 hour - 2 hours = 1 hour - 2 = 1/2 hour. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6424,11 +6424,11 @@
     ],
     "resps": [
       [
-        "Since the equation is a + b + c = 1, we can substitute a = 1 and b = 1 to get 1 + 1 = 2. This is the only solution. The answer is (d)."
+        "To find the sum of the numbers, we need to add the fractions with the same denominator. The denominators are a, b, and c, so we can use the formula for the sum of a finite geometric series: a + ar + ar^2 + ar^3 + ... .\n\nWe are given that a < b < c, so a + b + c = 1. We can rewrite this as a + b + c = 1/a + 1/b + 1/c.\n\nNow, we can add the fractions with the same denominator: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nCombining the fractions, we get 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nSince the denominators are the same, we can simplify the fraction: 1/a + 1/b + 1/c = 1/a +"
       ]
     ],
     "filtered_resps": [
-      "d"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6437,7 +6437,7 @@
     "doc_hash": "d31bf945be959859699664d0029c2536b406733a7acfbe62b327684982ed4952",
     "prompt_hash": "0d903e703d1eb9d9fcfaa9f1d2641223932809183037f5d74b278a01d795543b",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 40,
@@ -6470,11 +6470,11 @@
     ],
     "resps": [
       [
-        "The father's present age is 36 years. The sum of the ages of his two sons is 4 years. The father's present age is 36 + 4 = 38 years. The answer is (c)."
+        "The father's present age is 36 years. The sum of the ages of his two sons is 45 years. The father's present age is 36 + 45 = 71 years. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6516,7 +6516,7 @@
     ],
     "resps": [
       [
-        "To find the actual % difference, we need to calculate the difference in volume between the original volume of 100gm and the new volume of 200gm.\n\nOriginal volume: 100gm\nNew volume: 200gm\nDifference in volume: 200 - 100 = 100gm\n\nThe actual % difference is: (100 / 100) * 100 = 100%. The answer is (e)."
+        "To find the actual % difference, we need to calculate the difference in volume between the original volume of the coke and the new volume of the coke.\n\nThe original volume of the coke is 200gm. The new volume is 100gm. The difference in volume is 100 - 200 = 100.\n\nThe actual % difference is the difference in volume divided by the original volume. So, the actual % difference is 100 / 200 = 0.5.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6562,7 +6562,7 @@
     ],
     "resps": [
       [
-        "To find the distance required to walk, we need to calculate the distance the person can walk in 8 hours. Since the person walks at a constant rate of 8mph, we can divide the distance the person can walk in 8 hours by the speed of the person.\n\nDistance = Speed * Time\nDistance = 8mph * 8 hours\nDistance = 64 miles\n\nSo, the person would require 64 miles to walk."
+        "To find the distance required to walk, we need to calculate the distance the person can walk in 8 hours. Since the person walks at a constant rate of 8mph, we can divide the distance the person walks in 8 hours by the speed of the person.\n\nDistance walked in 8 hours = Distance walked in 8 hours / Speed of the person\nDistance walked in 8 hours = 8 hours * 8 mph\nDistance walked in 8 hours = 64 miles\n\nSo, the person would require 64 miles to walk."
       ]
     ],
     "filtered_resps": [
@@ -6654,7 +6654,7 @@
     ],
     "resps": [
       [
-        "To find the probability that the couple does not sit together, we need to count the number of pairs that do not sit together and divide it by the total number of pairs.\n\nThere are 5 pairs of people sitting together. The probability that the couple does not sit together is the number of pairs that do not sit together divided by the total number of pairs: 5/7.\n\nThe probability that the couple does sit together is 4/5. The answer is (e)."
+        "To find the probability that the couple does not sit together, we need to count the number of pairs that do not sit together and divide it by the total number of pairs.\n\nThere are 3 pairs of people sitting together. The probability that the couple does not sit together is the number of pairs that do not sit together divided by the total number of pairs: 3/5.\n\nThe probability that the couple does sit together is the number of pairs that sit together divided by the total number of pairs: 4/5.\n\nThe probability that the couple does not sit together is the sum of the probabilities of the two cases: 3/5 + 4/5 = 7/5.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6700,7 +6700,7 @@
     ],
     "resps": [
       [
-        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that at least 2 customers bought a coffee and a bagel, and then subtract that from 1.\n\nThe probability that at least 1 customer bought a coffee and a bagel is the number of customers who bought both (3 out of 5) divided by the total number of customers (8). This is 3/8.\n\nThe probability that at least 2 customers bought a coffee and a bagel is the number of customers who bought both (5 out of 7) divided by the total number of customers (8). This is 5/8.\n\nTo find the probability that at least 1 customer bought a coffee and a bagel, we subtract the probability that at least 2 customers bought a coffee and a bagel from 1:\n\n1 - 5/8 = 1 - 27/343 = 1 - 27/125 = 1 - 27/245 = 1 - 27/95 = 1 - 27/125 = 1 - 27/12"
+        "To find the probability that at least 1 customer bought a coffee and a bagel, we need to find the probability that at least 2 customers bought a coffee and a bagel, and then subtract that from 1.\n\nThe probability that at least 1 customer bought a coffee and a bagel is the number of customers who bought both (5 out of 5) divided by the total number of customers (8). This is 5/8.\n\nThe probability that at least 2 customers bought a coffee and a bagel is the number of customers who bought both (3 out of 7) divided by the total number of customers (8). This is 3/7.\n\nTo find the probability that at least 1 customer bought a coffee and a bagel, we subtract the probability that at least 2 customers bought a coffee and a bagel from 1:\n\n1 - 3/7 = 1/7\n\nSo, the probability that at least 1 customer bought a coffee and a bagel is 1/7."
       ]
     ],
     "filtered_resps": [
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "To solve for x, we need to isolate the absolute value term. We can do this by subtracting 4 from both sides of the equation:\n\n|x+3| \u2013 |4-x| = |8+x|\n\nSubtracting 4 from both sides:\n\nx+3 = 8 + 4\n\nAdding 4 to both sides:\n\nx+3 = 12\n\nNow, we can divide both sides by 3 to solve for x:\n\nx = 12 / 3\n\nx = 4\n\nSo, the equation has 4 solutions."
+        "To solve for x, we need to isolate the absolute value term. We can do this by subtracting 4 from both sides of the equation:\n\n|x+3| \u2013 |4-x| = |8+x|\n\nSubtracting 4 from both sides gives:\n\n|x+3| = |8+x| \u2013 4\n\nNow, we can solve for x by dividing both sides by |8+x|:\n\nx+3 = 8+x/|8+x|\n\nx+3 = 8/|8+x|\n\nx+3 = 8/12\n\nx = 3/12\n\nSo, the solution to the equation is x = 3/12."
       ]
     ],
     "filtered_resps": [
@@ -6792,11 +6792,11 @@
     ],
     "resps": [
       [
-        "To determine the percentage decrease, we need to calculate the difference between the original output and the new output, then divide by the original output, and finally multiply by 100.\n\nOriginal output: 10% of 100 = 10\nNew output: 20% of 100 = 20\nDifference: 10 - 20 = 10\nPercent decrease: (10 / 20) * 100 = 50%\n\nSo, the output would need to be decreased by 50% to restore the original output."
+        "To determine the percentage decrease, we need to calculate the difference between the original output and the new output, then divide by the original output, and finally multiply by 100.\n\nOriginal output: 10% of 100 = 10\nNew output: 20% of 100 = 20\nDifference: 10 - 20 = 10\nPercent decrease: (10 / 20) * 100 = 50%\n\nThe output is now 10% of 100, which is 100 / 10 = 10. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6884,7 +6884,7 @@
     ],
     "resps": [
       [
-        "The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is 8500 cm3. The volume is 8500 * 13 = 100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 100000 * 13 = 130000 cm3. The volume of the cube is 100000 * 13 = 130000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 130000 * 13 = 160000 cm3. The volume of the cube is 130000 * 13 = 160000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs"
+        "The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is 8500 cm3. The volume of the cube is 8500 * 8500 = 700000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98 * 700000 = 2100000 cm3. The volume of the cube is 2100000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343.98 * 2100000 = 6600000 cm3. The volume of the cube is 6600000 cm3. The cost of painting the whole surface area of the cube at the rate of 13 paise per Sq.cm is Rs. 343."
       ]
     ],
     "filtered_resps": [
@@ -6976,7 +6976,7 @@
     ],
     "resps": [
       [
-        "To determine the ratio of the two investments, we need to find the number of shares that each investment represents. The 9% stock has 9 shares, and the 12% stock has 12 shares. To find the number of shares that each investment represents, we divide the number of shares by the number of shares in each investment.\n\nThe 9% stock has 9 shares / 9 shares = 1 share. The 12% stock has 12 shares / 12 shares = 1 share.\n\nThe ratio of the two investments is 1:1. The answer is (e)."
+        "To determine the ratio of the two investments, we need to find the number of shares that each investment represents. The 9% stock has 9 shares, and the 12% stock has 12 shares. The total number of shares is 9 + 12 = 21 shares.\n\nThe ratio of the two investments is 21:12 = 1:1. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7068,7 +7068,7 @@
     ],
     "resps": [
       [
-        "The speed of the train is 500 m / 20 s = 25 km/s. The answer is (e)."
+        "The train can cross the electric pole in 20 sec. So the speed of the train is 20 sec * 95 Kmph = 1800 Kmph. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7298,7 +7298,7 @@
     ],
     "resps": [
       [
-        "The original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The total sales is Rs.1.1 * 1.9 = Rs.164.90. The answer is (e)."
+        "The original price was Rs.2. The new price is Rs.1.1. The chocolates sold out at Rs.1.1. The total number of chocolates sold is 1.1 * 1.1 = 1.2. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7344,11 +7344,11 @@
     ],
     "resps": [
       [
-        "The length of each part is 7ft. 9in. / 3 = 23.5in."
+        "The length of each part is 31 inches. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7390,7 +7390,7 @@
     ],
     "resps": [
       [
-        "To find the number of zeroes in the given expression, we need to find the number of factors of 15 and 32.\n\nThe factors of 15 are 1, 5, 15, 35, 155, 355, 1515, 3555, 15155, 35555, 151555, 355555, 1515555, 3555555, 15155555, 35555555, 151555555, 3555555555, 1515555555555555, 3555555555555555, 15155555555555555, 3555555555555555555555555555555555"
+        "To find the number of zeroes in the expression 15*32*25*22*40*75*98*112*125, we need to find the number of factors of 15 and 25.\n\nThe factors of 15 are 1, 5, 15, 35, 155, 355, 1515, 3555, 15155, 35555, 151555, 355555, 1515555, 3555555, 15155555, 35555555, 151555555, 3555555555, 151555555555, 3555555555555, 15155555555555, 355555555555555,"
       ]
     ],
     "filtered_resps": [
@@ -7528,11 +7528,11 @@
     ],
     "resps": [
       [
-        "To find the ratio of A to B, we need to calculate the total amount A and B withdrawals, then divide that amount by the total amount A and B invested.\n\nA withdrawals: 6000 - 12000 = 2000\nB withdrawals: 12000 - 12000 = 0\n\nTotal amount A and B invested: 6000 + 12000 = 18000\nTotal amount A and B withdrawals: 2000 + 0 = 2000\n\nNow, we divide the total amount A and B withdrawals by the total amount A and B invested: 2000 / 18000 = 0.12.\n\nThe ratio of A to B is 0.12. The answer is (e)."
+        "To find the ratio of A to B, we need to calculate the profit for each month and then find the total profit for the year.\n\nIn the first month, A withdraws Rs.6000 and B withdraws Rs.12000. The profit for the first month is Rs.6000 * 12000 = Rs.72000. The profit for the second month is Rs.12000 * 10000 = Rs.120000. The profit for the third month is Rs.12000 * 12000 = Rs.140000. The profit for the fourth month is Rs.14000 * 10000 = Rs.160000. The profit for the fifth month is Rs.16000 * 10000 = Rs.180000.\n\nThe total profit for the year is the sum of the profits for the first, second, third, fourth, and fifth months: 72000 + 12000 + 1400"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7850,7 +7850,7 @@
     ],
     "resps": [
       [
-        "The sum of the squares of three numbers is 351. The sum of their products taken two at a time is 245. The sum of the squares of three numbers is 351 + 245 = 596. The sum of their products taken two at a time is 245 + 26 = 301. The sum of the squares of three numbers is 351 + 596 + 301 = 648. The answer is (e)."
+        "The sum of the squares of three numbers is 351^2 + 22^2 + 26^2 = 100000 + 40000 + 16000 = 100000 + 4000 + 1600 = 100001. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7942,7 +7942,7 @@
     ],
     "resps": [
       [
-        "The equation W has at least one solution, which is W = 0.\n\nThe equation 2^n = (\u20132)^n is not necessarily true, as 2^n = 1, which is not equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^n = 1, which is equal to 0.\n\nThe equation 2^n = (\u20132)^-n is not necessarily true, as 2^"
+        "The equation W has at least one solution, which is W = 0.\n\nThe equation 2^n = (\u20132)^n is not necessarily true for all n. It is possible that 2^n = 0 for some n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true for all n, but it is not necessarily true for all n.\n\nThe equation 2^n = (\u20132)^-n is true"
       ]
     ],
     "filtered_resps": [
@@ -8080,7 +8080,7 @@
     ],
     "resps": [
       [
-        "The area of a rhombus is calculated by multiplying the length of its diagonals by the product of the length of its sides. The length of the diagonals is 25 cm and the length of the side is 25 cm. The area of a rhombus is calculated as (diagonals * side length) / 2.\n\nThe area of a rhombus is (25 cm * 25 cm) / 2 = 272 sq.cm.\n\nThe answer is (e)."
+        "The area of a rhombus is given by the formula A = (1/2)bh, where b is the length of the side and h is the height. In this case, the side length is 25 cm and the height is 30 cm.\n\nA = (1/2)(25)(30) = 272 sq.cm.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "To find the minimum expenditure required, we need to determine the total cost of the bus and the other expenses. The total cost of the bus is 120 litres * $60 per litre = $6000. The other expenses are $60 per hous, which is $6000 * $60 per hous = $36000. The total cost of the bus is $6000 + $36000 = $66000. The minimum expenditure required is $66000 - $6000 = $65000. The answer is (e)."
+        "To find the minimum expenditure required, we need to determine the total cost of the bus and the other expenses. The total cost of the bus is 120 litres * $60 per litre = $6000. The other expenses are $60 per hous, which is $6000 * $60 per hous = $36000. The total cost of the bus is $6000 + $36000 = $66000. The minimum expenditure required to cover a distance of 600 Km is $66000 - $6000 = $66000. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8218,11 +8218,11 @@
     ],
     "resps": [
       [
-        "To find the probability of having 0 woman in the committee, we need to find the number of ways to choose 0 women from the 7 men and 6 women from the 144 women.\n\nThere are 7 men and 144 women. The number of ways to choose 0 women from 7 men is given by the combination formula: C(7, 0) = 7! / (0! * (7-0)!) = 7.\n\nThe number of ways to choose 0 women from 144 women is given by the combination formula: C(144, 0) = 144! / (0! * (144-0)!) = 144.\n\nThe probability of having 0 woman in the committee is then the number of ways to choose 0 women divided by the total number of ways to choose 0 women.\n\nSo, the probability is 7/36. The answer is (b)."
+        "To find the probability of having 0 woman in the committee, we need to find the number of ways to choose 0 women from the 7 men and 6 women from the 144 women.\n\nThere are 7 men and 144 women. The number of ways to choose 0 women from 7 men is 7 choose 0, which is 7. The number of ways to choose 0 women from 144 women is 144 choose 0, which is 144.\n\nSo, the probability of having 0 woman in the committee is 7/36."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8264,7 +8264,7 @@
     ],
     "resps": [
       [
-        "To find the probability that exactly three bulbs are good, we need to find the probability that exactly two bulbs are good and the probability that exactly three bulbs are good and the remaining two are defective.\n\nThe probability that exactly two bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/69.\n\nThe probability that exactly three bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/63.\n\nTo find the probability that exactly three bulbs are good and the remaining two are defective, we need to find the probability that exactly two bulbs are good and the remaining two are defective: 4/65.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the number of good bulbs divided by the total number of bulbs: 4/61.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the number of good bulbs divided by the total number of bulbs: 4/62.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the number of good bulbs divided by the total number of bulbs: 4/63.\n\nThe probability that"
+        "To find the probability that exactly three bulbs are good, we need to find the probability that exactly two bulbs are good and the probability that exactly three bulbs are good and the remaining two are defective.\n\nThe probability that exactly two bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/69.\n\nThe probability that exactly three bulbs are good is the number of good bulbs divided by the total number of bulbs: 4/63.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/65.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/61.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/62.\n\nThe probability that exactly three bulbs are good and the remaining two are defective is the probability that exactly two bulbs are good and the remaining two are defective: 4/63.\n\nThe probability that"
       ]
     ],
     "filtered_resps": [
@@ -8310,7 +8310,7 @@
     ],
     "resps": [
       [
-        "The speed of the train is 54 km/hr. The train is moving at 54 km/hr / 32 sec = 1.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+        "The speed of the train is 54 km/hr. The train is traveling at 54 km/hr / 32 sec = 1.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
       ]
     ],
     "filtered_resps": [
@@ -8356,7 +8356,7 @@
     ],
     "resps": [
       [
-        "If |w| = -w, then x must be greater than 0. So, x must be greater than 0.\n\n(a) x\u22650: x must be greater than 0.\n\n(b) w\u22640: w must be greater than 0.\n\n(c) x2>x: x must be greater than 0.\n\n(d) x3<0: x must be greater than 0.\n\n(e) 2x<x: x must be greater than 0.\n\nSo, the correct answer is (c)."
+        "If |w| = -w, then x must be greater than 0. So, x must be greater than 0.\n\n(a) x\u22650: x must be greater than 0.\n\n(b) w\u22640: w must be greater than 0.\n\n(c) x2>x: x must be greater than 0.\n\n(d) x3<0: x must be greater than 0.\n\n(e) 2x<x: 2x must be greater than 0.\n\nSo, the answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8402,7 +8402,7 @@
     ],
     "resps": [
       [
-        "To find the percent of the second number, we need to divide the second number by the first number and multiply by 100.\n\nFirst, we divide the second number by the first number: 37% = 0.37 * 100 = 37%.\n\nThen, we multiply the second number by 100: 37% * 37 = 100 * 37 = 370.\n\nNow, we add the percent of the second number to the first number: 37% + 100% = 47%.\n\nThe answer is (e)."
+        "To find the percent of the second number, we need to divide the second number by the first number and then multiply by 100.\n\nFirst, we divide the second number by the first number: 37% = 0.37 * 100 = 37%.\n\nThen, we multiply the second number by 100: 37% * 30% = 0.37 * 100 = 37%.\n\nSo, the second number is 37% less than the first number. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8448,11 +8448,11 @@
     ],
     "resps": [
       [
-        "To find the number of numbers that are exactly divisible by 11, we need to find the number of multiples of 11 between 39 and 79.\n\nFirst, we find the number of multiples of 11 between 39 and 79: 39 - 39 = 0, 40 - 40 = 0, 41 - 41 = 0, 42 - 42 = 0, 43 - 43 = 0, 44 - 44 = 0, 45 - 45 = 0, 46 - 46 = 0, 47 - 47 = 0, 48 - 48 = 0, 49 - 49 = 0, 50 - 50 = 0, 51 - 51 = 0, 52 - 52 = 0, 53 - 53 = 0, 54 - 54 = 0, 55 - 55 = 0, 56 - 56 = 0"
+        "To find the number of numbers that are exactly divisible by 11, we need to count the number of multiples of 11 between 39 and 79. The multiples of 11 between 39 and 79 are 11, 14, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99. There are 11 numbers that are multiples of 11. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8586,7 +8586,7 @@
     ],
     "resps": [
       [
-        "To find the time it takes to cross the bridge, we need to calculate the time it takes to cover the distance of 165 meters and then divide that by the speed of the train.\n\nThe distance is 165 meters.\n\nThe speed of the train is 72 kmph.\n\nTime taken to cross the bridge is 165 meters / 72 kmph = 2.17 hours.\n\nThe answer is (e)."
+        "To find the time it takes to cross the bridge, we need to calculate the time it takes to cover the distance of 165 meters and then divide that by the speed of the train.\n\nThe distance is 165 meters.\n\nTime taken to cross the bridge is 165 meters / 72 kmph = 2.17 hours.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8632,7 +8632,7 @@
     ],
     "resps": [
       [
-        "The original retail price of the turtleneck sweaters was 1500. The discount of 15% means the store is selling 1500 - 1500 / 100 = 150 sweaters. The discount of 25% means the store is selling 1500 - 1500 * 0.25 = 15 sweaters. The profit on the items sold in February is 150 sweaters * 150% = 150 * 150 = 1500. The answer is (e)."
+        "The original retail price of the turtleneck sweaters was 1500. The discount of 15% means the store is selling 1500 - 1500 / 100 = 150 sweaters. The discount of 25% means the store is selling 1500 - 1500 / 25 = 15 sweaters. The total profit is the sum of the discounted and original prices. The profit is 150 sweaters * 1500 / 100 = 1500. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8678,7 +8678,7 @@
     ],
     "resps": [
       [
-        "To find the decimal equivalent of 0.01, we need to divide 0.01 by 100. 0.01 / 100 = 0.001. The answer is (e)."
+        "To find the decimal equivalent of 0.01, we need to divide 0.01 by 100. 0.01 / 100 = 0.0001. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8724,7 +8724,7 @@
     ],
     "resps": [
       [
-        "To find the greatest possible profit, we need to find the maximum profit that can be made. The maximum profit is the maximum of the two prices.\n\nThe maximum price is Rs. 195, and the maximum profit is Rs. 1650. The maximum profit is the maximum of the two prices.\n\nThe maximum profit is the maximum of the two prices. The maximum profit is the maximum of the two prices.\n\nThe answer is (e)."
+        "To find the greatest possible profit, we need to find the maximum profit that can be made. The maximum profit is the maximum of the two prices.\n\nThe maximum profit is the maximum of the two prices: 120 + 215 = 335.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8770,7 +8770,7 @@
     ],
     "resps": [
       [
-        "The train B travels at 60 kmph. The train A travels at 60 kmph * 9 hours = 540 kmph. The answer is (c)."
+        "The train B travels at 40 kmph. The train A travels at 60 kmph. The rate at which the train B runs is the difference between the two speeds: 40 - 60 = 10 kmph. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8816,7 +8816,7 @@
     ],
     "resps": [
       [
-        "To find the probability that no boy will choose his own toy, we need to count the number of ways to choose one boy from the three and the number of ways to choose one boy from the three.\n\nThere are 3 ways to choose one boy from the three.\n\nThere are 3 ways to choose one boy from the three.\n\nSo the total number of ways to choose one boy from the three is 3 * 3 = 9.\n\nThe total number of ways to choose one boy from the three is 3 * 3 = 9.\n\nThe probability that no boy will choose his own toy is the number of ways to choose one boy from the three divided by the total number of ways to choose one boy from the three.\n\nSo the probability is 9/3 = 3/3.\n\nThe answer is (e)."
+        "To find the probability that no boy will choose his own toy, we need to count the number of boys who chose their own toy and divide it by the total number of boys.\n\nThere are 3 boys who chose their own toy. So, the probability that no boy will choose his own toy is 3/3 = 1.\n\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8908,7 +8908,7 @@
     ],
     "resps": [
       [
-        "The ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. The answer is (e)."
+        "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. So the ratio is 5 : 4 * 26 = 26 : 16. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8954,7 +8954,7 @@
     ],
     "resps": [
       [
-        "To find the ratio of A and B's profit, we need to divide the profit of A by the profit of B.\n\nProfit of A = 3000 * 100 = 30000\nProfit of B = 4000 * 100 = 40000\n\nNow, we divide the profit of A by the profit of B:\n\nProfit of A / Profit of B = 30000 / 40000 = 0.6\n\nSo, A should divide the profit of 30000 by 0.6 to find the ratio of A and B's profit."
+        "To find the ratio of A and B's profit, we need to divide the profit of A by the profit of B.\n\nProfit of A = 3000 * 100 = 30000\nProfit of B = 4000 * 100 = 40000\n\nNow, we divide the profit of A by the profit of B:\n\nProfit of A / Profit of B = 30000 / 40000 = 9/8\n\nThe ratio of A and B is 9:8."
       ]
     ],
     "filtered_resps": [
@@ -9000,7 +9000,7 @@
     ],
     "resps": [
       [
-        "To determine which of the given statements must be true, we need to analyze the relationship between x and y. Since x-y = 10, we can substitute y = 10 into the equation. This gives us x = 10 + 10 = 20.\n\nNow, let's consider the possible values of x and y. If x is positive, then y must be positive. If x is negative, then y must be negative.\n\nGiven that x-y = 10, we can see that x must be positive. Therefore, the only possible value of x is positive.\n\nNow, let's consider the relationship between x and y. If x is positive, then y must be positive. If x is negative, then y must be negative.\n\nSince x-y = 10, we can see that x must be positive. Therefore, the only possible value of y is positive.\n\nNow, let's consider the relationship between x and y. If x is positive, then y must be positive. If x is negative, then y must be negative.\n\nSince x-y = 10, we can see that x must be positive. Therefore, the only"
+        "To determine which of the given statements must be true, we need to analyze the relationship between x and y.\n\nStatement I: Both x and y are positive.\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive.\n\nFrom statement I, we can conclude that x is positive.\n\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive.\n\nFrom statement II, we can conclude that y is positive.\n\nStatement III: If x is positive, y must be positive.\nStatement II: If x is negative, y must be negative.\n\nFrom statement II, we can conclude that y is positive.\n\nStatement I: Both x and y are positive.\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive.\n\nFrom statement II, we can conclude that y is positive.\n\nStatement I: Both x and y are positive.\nStatement II: If x is negative, y must be negative.\nStatement III: If x is positive, y must be positive."
       ]
     ],
     "filtered_resps": [
@@ -9046,7 +9046,7 @@
     ],
     "resps": [
       [
-        "To find the percentage change in the area, we need to calculate the difference in area and divide it by the original area. \n\nThe original area is 100 square units. The area increased by 25% is 100 * (25/100) = 100 * 0.25 = 25 square units. \n\nThe percentage change in the area is then 25 - 100 = 5 square units. The answer is (e)."
+        "To find the percentage change in the area, we need to calculate the difference in area and divide it by the original area.\n\nThe original area is 100 square units.\nThe area increased by 25% is 100 * (1 + 0.25) = 100 * 0.75 = 75 square units.\nThe area decreased by 25% is 100 * (1 - 0.25) = 100 * 0.75 = 75 square units.\nThe percentage change in the area is 75 - 75 = 0.00.\nThe answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9138,7 +9138,7 @@
     ],
     "resps": [
       [
-        "The annual interest rate is 5% compounded monthly. The value of the investment after 10 years would be the interest earned over the 10-year period. The interest earned is the amount of money that is added to the investment each year, and the interest rate is 5% of the initial investment.\n\nThe interest earned is the amount of money added to the investment each year, which is $750.00. The interest rate is 5% of $750.00, which is $33.33. The value of the investment after 10 years would be the interest earned over the 10-year period, which is $750.00 * $33.33 = $23,333.33. The answer is (e)."
+        "The annual interest rate is 5% compounded monthly. The value of the investment after 10 years would be the interest earned over the 10-year period. The interest earned is the amount of money that is added to the investment each year, and the interest rate is 5% of the initial investment.\n\nThe interest earned is the amount of money added to the investment each year, which is $750.00. The interest rate is 5% of $750.00, which is $33.33. The value of the investment after 10 years would be the interest earned over the 10-year period, which is $750.00 * 10 = $7500.00. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9184,11 +9184,11 @@
     ],
     "resps": [
       [
-        "To fill up a third 30-liter jar with milk, we need to find the volume of the first jar and then subtract the volume of the second jar.\n\nFirst, we need to find the volume of the first jar. The ratio of the volumes of the two jars is 5: 4. So, the volume of the first jar is 5 * 4 = 20.\n\nNow, we need to find the volume of the second jar. The ratio of the volumes of the two jars is 2: 1. So, the volume of the second jar is 2 * 1 = 2.\n\nThe volume of the third 30-liter jar with milk is 20 - 2 = 18.\n\nThe volume of the third 30-liter jar with water is 2 * 1 = 2.\n\nThe volume of the third 30-liter jar with milk and water is 18 - 2 = 16.\n\nThe volume of the third 30-liter jar with water and milk is 16 - 2 = 14.\n\nThe volume of the third 30-liter jar"
+        "To fill up a third 30-liter jar with milk, we need to find the volume of the first jar and then subtract the volume of the second jar.\n\nFirst, we need to find the volume of the first jar. The ratio of the volumes of the two jars is 5: 4. So, the volume of the first jar is 5 * 4 = 20.\n\nNow, we need to find the volume of the second jar. The ratio of the volumes of the two jars is 2: 1. So, the volume of the second jar is 2 * 1 = 2.\n\nTo find the volume of the third 30-liter jar, we subtract the volume of the first jar from the volume of the second jar: 20 - 2 = 18.\n\nThe volume of the third 30-liter jar is 18. The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [

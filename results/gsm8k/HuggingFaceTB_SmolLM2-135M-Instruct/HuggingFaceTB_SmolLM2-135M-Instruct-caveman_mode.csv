@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,gsm8k_caveman_mode,gsm8k,caveman_mode,fewshot_cot,gsm8k,0.01,0.2,240.2,8,100,99.75,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,gsm8k_caveman_mode,gsm8k,caveman_mode,fewshot_cot,gsm8k,0.0,0.16,227.2,8,100,31.11,1.48

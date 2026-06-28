@@ -98,7 +98,7 @@
     ],
     "resps": [
       [
-        "Step 1: 04/03/2015 is 30 days from now. Step 2: Calculate date. 04/03/2015 + 30 days = 04/03/2016. The answer is 04/03/2016."
+        "Step 1: 04/03/2015 is 30 days from today. Step 2: Calculate date. 04/03/2015 + 30 days = 04/03/2016. The answer is 04/03/2016."
       ]
     ],
     "filtered_resps": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "Step 1: 12/30/1967. Step 2: Calculate date. 12/30/1967 + 30 days = 130 days. The answer is 130 days."
+        "Step 1: 12/30/1967. Step 2: Calculate date. 12/30/1967 + 30 days = 13/30/1967. The answer is 13/30/1967."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "13/30/1967"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -630,7 +630,7 @@
     ],
     "resps": [
       [
-        "Step 1: 03/07/1955 is 10 days ago. Step 2: Calculate date. 03/07/1955 + 1 day = 03/08/1955. The answer is 03/08/1955."
+        "Step 1: 03/07/1955. Step 2: Calculate date. 03/07/1955 + 1 day = 03/08/1955. The answer is 03/08/1955."
       ]
     ],
     "filtered_resps": [
@@ -934,7 +934,7 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 is Tuesday. Step 2: Find amount of needed days. 08/19/1963 - 1 week = 08/20/1963. The answer is 08/20/1963."
+        "Step 1: 08/19/1963 is Tuesday. Step 2: Find amount of needed days. 08/19/1963 + 1 week = 08/20/1963. The answer is 08/20/1963."
       ]
     ],
     "filtered_resps": [
@@ -1162,11 +1162,11 @@
     ],
     "resps": [
       [
-        "Step 1: 01/30/2010 is 1 day. Step 2: 1 day + 1 day = 2 days. The answer is 2 days."
+        "Step 1: 01/30/2010. Step 2: Calculate date. 01/30/2010 + 1 day = 01/31/2010. The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "01/31/2010"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1314,7 +1314,7 @@
     ],
     "resps": [
       [
-        "Step 1: 01/15/2016 is 14 days from today. Step 2: Calculate date. 01/15/2016 + 14 days = 01/16/2016. The answer is 01/16/2016."
+        "Step 1: 01/15/2016. Step 2: Calculate date. 01/15/2016 + 1 day = 01/16/2016. The answer is 01/16/2016."
       ]
     ],
     "filtered_resps": [
@@ -1656,7 +1656,7 @@
     ],
     "resps": [
       [
-        "Step 1: 11/28/2018 is 11/28/2018. Step 2: Calculate date. 11/28/2018 + 3 days = 11/29/2018. The answer is 11/29/2018."
+        "Step 1: 11/28/2018. Step 2: Calculate date. 11/28/2018 + 3 days = 11/29/2018. The answer is 11/29/2018."
       ]
     ],
     "filtered_resps": [
@@ -1694,7 +1694,7 @@
     ],
     "resps": [
       [
-        "Step 1: 02/14/2020 is 7 days from today. Step 2: Calculate date. 02/14/2020 + 7 days = 02/17/2020. The answer is 02/17/2020."
+        "Step 1: 02/14/2020. Step 2: Calculate date. 02/14/2020 + 7 days = 02/17/2020. The answer is 02/17/2020."
       ]
     ],
     "filtered_resps": [
@@ -1922,7 +1922,7 @@
     ],
     "resps": [
       [
-        "Step 1: 03/07/1955 is 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
+        "Step 1: 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
       ]
     ],
     "filtered_resps": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "Step 1: 03/07/1955 is 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
+        "Step 1: 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
       ]
     ],
     "filtered_resps": [
@@ -1998,7 +1998,7 @@
     ],
     "resps": [
       [
-        "Step 1: 11/28/2018 is 1 day from now. Step 2: Calculate date. 11/28/2018 + 1 day = 11/29/2018. The answer is 11/29/2018."
+        "Step 1: 11/28/2018. Step 2: Calculate date. 11/28/2018 + 1 day = 11/29/2018. The answer is 11/29/2018."
       ]
     ],
     "filtered_resps": [
@@ -2112,11 +2112,11 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 + 1 day = 08/20/1963. Step 2: 08/20/1963 - 3 days = 08/23/1963. The answer is 08/23/1963."
+        "Step 1: 08/19/1963 + 3 days = 08/26/1963. Step 2: 08/26/1963 - 3 days = 08/27/1963. The answer is 08/27/1963."
       ]
     ],
     "filtered_resps": [
-      "08/23/1963"
+      "08/27/1963"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2150,11 +2150,11 @@
     ],
     "resps": [
       [
-        "Step 1: 04/03/2015 is Wednesday. Step 2: Find amount of needed days. 04/03/2015 - 1 week = 04/04/2015. The answer is 04/04/2015."
+        "Step 1: 04/03/2015 is 04/04/2015. Step 2: Calculate date. 04/04/2015 + 1 week = 04/05/2015. The answer is 04/05/2015."
       ]
     ],
     "filtered_resps": [
-      "04/04/2015"
+      "04/05/2015"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 is 10 days ago. Step 2: Calculate date. 08/19/1963 + 1 day = 08/20/1963. The answer is 08/20/1963."
+        "Step 1: 08/19/1963 + 1 day = 08/20/1963. Step 2: 08/20/1963 - 10 days = 08/21/1963. The answer is 08/21/1963."
       ]
     ],
     "filtered_resps": [
-      "08/20/1963"
+      "08/21/1963"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "Step 1: 06/12/1975 is 1 day later than today. Step 2: Calculate date. 06/12/1975 + 1 day = 06/13/1975. The answer is 06/13/1975."
+        "Step 1: 06/12/1975 is 1 week from today. Step 2: Calculate date. 06/12/1975 + 1 day = 06/12/1976. The answer is 06/12/1976."
       ]
     ],
     "filtered_resps": [
-      "06/13/1975"
+      "06/12/1976"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,7 +2378,7 @@
     ],
     "resps": [
       [
-        "Step 1: 07/22/2001 is 07/22/2001. Step 2: Calculate date. 07/22/2001 + 1 day = 07/23/2001. The answer is 07/23/2001."
+        "Step 1: 07/22/2001 is Monday. Step 2: Find amount of needed days. 07/22/2001 - 1 day = 07/23/2001. The answer is 07/23/2001."
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "Step 1: 04/03/2015 is 14 days from today. Step 2: Calculate date. 04/03/2015 + 14 days = 04/04/2015. The answer is 04/04/2015."
+        "Step 1: 04/03/2015 is 14 days from today. Step 2: Calculate date. 04/03/2015 + 14 days = 04/06/2015. The answer is 04/06/2015."
       ]
     ],
     "filtered_resps": [
-      "04/04/2015"
+      "04/06/2015"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3024,7 +3024,7 @@
     ],
     "resps": [
       [
-        "Step 1: 02/14/2020 is 1 day ago. Step 2: Calculate date. 02/14/2020 + 1 day = 02/15/2020. The answer is 02/15/2020."
+        "Step 1: 02/14/2020. Step 2: Calculate date. 02/14/2020 + 1 day = 02/15/2020. The answer is 02/15/2020."
       ]
     ],
     "filtered_resps": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 + 30 days = 08/29/1963. Step 2: 08/29/1963 - 30 days = 07/29/1963. The answer is 07/29/1963."
+        "Step 1: 08/19/1963 + 1 day = 08/20/1963. Step 2: 08/20/1963 - 30 days = 08/23/1963. The answer is 08/23/1963."
       ]
     ],
     "filtered_resps": [
-      "07/29/1963"
+      "08/23/1963"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,7 +3328,7 @@
     ],
     "resps": [
       [
-        "Step 1: 06/21/2012 is 1 day ago. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
+        "Step 1: 06/21/2012. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
       ]
     ],
     "filtered_resps": [
@@ -3480,11 +3480,11 @@
     ],
     "resps": [
       [
-        "Step 1: 03/05/2023 is 30 days from now. Step 2: Calculate date. 03/05/2023 + 30 days = 03/06/2023. The answer is 03/06/2023."
+        "Step 1: 05/05/2023. Step 2: Calculate date. 05/05/2023 + 30 days = 05/06/2023. The answer is 05/06/2023."
       ]
     ],
     "filtered_resps": [
-      "03/06/2023"
+      "05/06/2023"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3632,7 +3632,7 @@
     ],
     "resps": [
       [
-        "Step 1: 06/21/2012 is 1 day from now. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
+        "Step 1: 06/21/2012. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
       ]
     ],
     "filtered_resps": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "Step 1: 07/22/2001 is 7 days from today. Step 2: Calculate date. 07/22/2001 + 7 days = 07/29/2001. The answer is 07/29/2001."
+        "Step 1: 07/22/2001 is 7 days from today. Step 2: Calculate date. 07/22/2001 + 7 days = 07/28/2001. The answer is 07/28/2001."
       ]
     ],
     "filtered_resps": [
-      "07/29/2001"
+      "07/28/2001"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3683,7 +3683,7 @@
     "doc_hash": "174f3aa919e5eea838bacee7315684c6ade0f418eca063ab8e9fc4398198bbea",
     "prompt_hash": "0b8bf3e1a163e4ae9268ad0fc4d337e7f9b78c1c589b50a2b2609401302e78bf",
     "target_hash": "b9c707c610041146846663c443ecd98001bc3992009610ab55deebaf16a8688d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 97,
@@ -3898,7 +3898,7 @@
     ],
     "resps": [
       [
-        "Step 1: 04/03/2015 is 30 days from now. Step 2: Calculate date. 04/03/2015 + 30 days = 04/03/2016. The answer is 04/03/2016."
+        "Step 1: 04/03/2015 is 30 days from today. Step 2: Calculate date. 04/03/2015 + 30 days = 04/03/2016. The answer is 04/03/2016."
       ]
     ],
     "filtered_resps": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "Step 1: 12/30/1967. Step 2: Calculate date. 12/30/1967 + 30 days = 130 days. The answer is 130 days."
+        "Step 1: 12/30/1967. Step 2: Calculate date. 12/30/1967 + 30 days = 13/30/1967. The answer is 13/30/1967."
       ]
     ],
     "filtered_resps": [
-      "12/30/1967"
+      "13/30/1967"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4430,7 +4430,7 @@
     ],
     "resps": [
       [
-        "Step 1: 03/07/1955 is 10 days ago. Step 2: Calculate date. 03/07/1955 + 1 day = 03/08/1955. The answer is 03/08/1955."
+        "Step 1: 03/07/1955. Step 2: Calculate date. 03/07/1955 + 1 day = 03/08/1955. The answer is 03/08/1955."
       ]
     ],
     "filtered_resps": [
@@ -4734,7 +4734,7 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 is Tuesday. Step 2: Find amount of needed days. 08/19/1963 - 1 week = 08/20/1963. The answer is 08/20/1963."
+        "Step 1: 08/19/1963 is Tuesday. Step 2: Find amount of needed days. 08/19/1963 + 1 week = 08/20/1963. The answer is 08/20/1963."
       ]
     ],
     "filtered_resps": [
@@ -4962,11 +4962,11 @@
     ],
     "resps": [
       [
-        "Step 1: 01/30/2010 is 1 day. Step 2: 1 day + 1 day = 2 days. The answer is 2 days."
+        "Step 1: 01/30/2010. Step 2: Calculate date. 01/30/2010 + 1 day = 01/31/2010. The answer is 01/31/2010."
       ]
     ],
     "filtered_resps": [
-      "01/30/2010"
+      "01/31/2010"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5114,7 +5114,7 @@
     ],
     "resps": [
       [
-        "Step 1: 01/15/2016 is 14 days from today. Step 2: Calculate date. 01/15/2016 + 14 days = 01/16/2016. The answer is 01/16/2016."
+        "Step 1: 01/15/2016. Step 2: Calculate date. 01/15/2016 + 1 day = 01/16/2016. The answer is 01/16/2016."
       ]
     ],
     "filtered_resps": [
@@ -5456,7 +5456,7 @@
     ],
     "resps": [
       [
-        "Step 1: 11/28/2018 is 11/28/2018. Step 2: Calculate date. 11/28/2018 + 3 days = 11/29/2018. The answer is 11/29/2018."
+        "Step 1: 11/28/2018. Step 2: Calculate date. 11/28/2018 + 3 days = 11/29/2018. The answer is 11/29/2018."
       ]
     ],
     "filtered_resps": [
@@ -5494,7 +5494,7 @@
     ],
     "resps": [
       [
-        "Step 1: 02/14/2020 is 7 days from today. Step 2: Calculate date. 02/14/2020 + 7 days = 02/17/2020. The answer is 02/17/2020."
+        "Step 1: 02/14/2020. Step 2: Calculate date. 02/14/2020 + 7 days = 02/17/2020. The answer is 02/17/2020."
       ]
     ],
     "filtered_resps": [
@@ -5722,7 +5722,7 @@
     ],
     "resps": [
       [
-        "Step 1: 03/07/1955 is 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
+        "Step 1: 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
       ]
     ],
     "filtered_resps": [
@@ -5760,7 +5760,7 @@
     ],
     "resps": [
       [
-        "Step 1: 03/07/1955 is 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
+        "Step 1: 03/07/1955. Step 2: Calculate date. 03/07/1955 + 7 days = 03/07/1956. The answer is 03/07/1956."
       ]
     ],
     "filtered_resps": [
@@ -5798,7 +5798,7 @@
     ],
     "resps": [
       [
-        "Step 1: 11/28/2018 is 1 day from now. Step 2: Calculate date. 11/28/2018 + 1 day = 11/29/2018. The answer is 11/29/2018."
+        "Step 1: 11/28/2018. Step 2: Calculate date. 11/28/2018 + 1 day = 11/29/2018. The answer is 11/29/2018."
       ]
     ],
     "filtered_resps": [
@@ -5912,11 +5912,11 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 + 1 day = 08/20/1963. Step 2: 08/20/1963 - 3 days = 08/23/1963. The answer is 08/23/1963."
+        "Step 1: 08/19/1963 + 3 days = 08/26/1963. Step 2: 08/26/1963 - 3 days = 08/27/1963. The answer is 08/27/1963."
       ]
     ],
     "filtered_resps": [
-      "08/23/1963"
+      "08/27/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5950,11 +5950,11 @@
     ],
     "resps": [
       [
-        "Step 1: 04/03/2015 is Wednesday. Step 2: Find amount of needed days. 04/03/2015 - 1 week = 04/04/2015. The answer is 04/04/2015."
+        "Step 1: 04/03/2015 is 04/04/2015. Step 2: Calculate date. 04/04/2015 + 1 week = 04/05/2015. The answer is 04/05/2015."
       ]
     ],
     "filtered_resps": [
-      "04/04/2015"
+      "04/05/2015"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 is 10 days ago. Step 2: Calculate date. 08/19/1963 + 1 day = 08/20/1963. The answer is 08/20/1963."
+        "Step 1: 08/19/1963 + 1 day = 08/20/1963. Step 2: 08/20/1963 - 10 days = 08/21/1963. The answer is 08/21/1963."
       ]
     ],
     "filtered_resps": [
-      "08/20/1963"
+      "08/21/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "Step 1: 06/12/1975 is 1 day later than today. Step 2: Calculate date. 06/12/1975 + 1 day = 06/13/1975. The answer is 06/13/1975."
+        "Step 1: 06/12/1975 is 1 week from today. Step 2: Calculate date. 06/12/1975 + 1 day = 06/12/1976. The answer is 06/12/1976."
       ]
     ],
     "filtered_resps": [
-      "06/13/1975"
+      "06/12/1976"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,7 +6178,7 @@
     ],
     "resps": [
       [
-        "Step 1: 07/22/2001 is 07/22/2001. Step 2: Calculate date. 07/22/2001 + 1 day = 07/23/2001. The answer is 07/23/2001."
+        "Step 1: 07/22/2001 is Monday. Step 2: Find amount of needed days. 07/22/2001 - 1 day = 07/23/2001. The answer is 07/23/2001."
       ]
     ],
     "filtered_resps": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "Step 1: 04/03/2015 is 14 days from today. Step 2: Calculate date. 04/03/2015 + 14 days = 04/04/2015. The answer is 04/04/2015."
+        "Step 1: 04/03/2015 is 14 days from today. Step 2: Calculate date. 04/03/2015 + 14 days = 04/06/2015. The answer is 04/06/2015."
       ]
     ],
     "filtered_resps": [
-      "04/04/2015"
+      "04/06/2015"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6824,7 +6824,7 @@
     ],
     "resps": [
       [
-        "Step 1: 02/14/2020 is 1 day ago. Step 2: Calculate date. 02/14/2020 + 1 day = 02/15/2020. The answer is 02/15/2020."
+        "Step 1: 02/14/2020. Step 2: Calculate date. 02/14/2020 + 1 day = 02/15/2020. The answer is 02/15/2020."
       ]
     ],
     "filtered_resps": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "Step 1: 08/19/1963 + 30 days = 08/29/1963. Step 2: 08/29/1963 - 30 days = 07/29/1963. The answer is 07/29/1963."
+        "Step 1: 08/19/1963 + 1 day = 08/20/1963. Step 2: 08/20/1963 - 30 days = 08/23/1963. The answer is 08/23/1963."
       ]
     ],
     "filtered_resps": [
-      "07/29/1963"
+      "08/23/1963"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7128,7 +7128,7 @@
     ],
     "resps": [
       [
-        "Step 1: 06/21/2012 is 1 day ago. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
+        "Step 1: 06/21/2012. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
       ]
     ],
     "filtered_resps": [
@@ -7280,11 +7280,11 @@
     ],
     "resps": [
       [
-        "Step 1: 03/05/2023 is 30 days from now. Step 2: Calculate date. 03/05/2023 + 30 days = 03/06/2023. The answer is 03/06/2023."
+        "Step 1: 05/05/2023. Step 2: Calculate date. 05/05/2023 + 30 days = 05/06/2023. The answer is 05/06/2023."
       ]
     ],
     "filtered_resps": [
-      "03/06/2023"
+      "05/06/2023"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,7 +7432,7 @@
     ],
     "resps": [
       [
-        "Step 1: 06/21/2012 is 1 day from now. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
+        "Step 1: 06/21/2012. Step 2: Calculate date. 06/21/2012 + 1 day = 06/22/2012. The answer is 06/22/2012."
       ]
     ],
     "filtered_resps": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "Step 1: 07/22/2001 is 7 days from today. Step 2: Calculate date. 07/22/2001 + 7 days = 07/29/2001. The answer is 07/29/2001."
+        "Step 1: 07/22/2001 is 7 days from today. Step 2: Calculate date. 07/22/2001 + 7 days = 07/28/2001. The answer is 07/28/2001."
       ]
     ],
     "filtered_resps": [
-      "07/29/2001"
+      "07/28/2001"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7483,7 +7483,7 @@
     "doc_hash": "174f3aa919e5eea838bacee7315684c6ade0f418eca063ab8e9fc4398198bbea",
     "prompt_hash": "0b8bf3e1a163e4ae9268ad0fc4d337e7f9b78c1c589b50a2b2609401302e78bf",
     "target_hash": "b9c707c610041146846663c443ecd98001bc3992009610ab55deebaf16a8688d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 97,

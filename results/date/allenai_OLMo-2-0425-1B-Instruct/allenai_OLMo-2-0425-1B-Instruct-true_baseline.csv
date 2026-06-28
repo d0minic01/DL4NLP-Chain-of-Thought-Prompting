@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,date_true_baseline,date,true_baseline,zero_shot,date_understanding,0.05,0.56,66.6,0,100,9.08,8.84

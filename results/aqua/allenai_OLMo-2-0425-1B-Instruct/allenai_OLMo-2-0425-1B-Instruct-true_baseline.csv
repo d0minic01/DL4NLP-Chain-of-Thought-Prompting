@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,aqua_true_baseline,aqua,true_baseline,zero_shot,aqua-rat,0.0,0.99,707.8,0,100,25.59,8.84

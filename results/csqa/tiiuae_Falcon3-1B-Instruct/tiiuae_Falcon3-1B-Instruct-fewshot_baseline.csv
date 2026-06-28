@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,csqa_fewshot_baseline,csqa,fewshot_baseline,fewshot_base,commonsense_qa,0.59,0.0,70.1,7,100,9.97,11.13

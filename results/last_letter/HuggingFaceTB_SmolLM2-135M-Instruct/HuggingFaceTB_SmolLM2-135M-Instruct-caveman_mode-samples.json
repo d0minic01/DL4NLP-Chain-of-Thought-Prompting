@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "Emma last letter l. jungle last letter c. Cloud last letter w. Together lc. The answer is lc."
+        "Emma last letter l. jungle last letter c. cloud last letter w. Together lc. The answer is lc."
       ]
     ],
     "filtered_resps": [
@@ -250,11 +250,11 @@
     ],
     "resps": [
       [
-        "Puzzle knight last letter n. Knights last letter s. Together nys. The answer is nys."
+        "Puzzle knight last letter n. Knights last letter s. Together nk. The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "nys"
+      "nk"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,7 +402,7 @@
     ],
     "resps": [
       [
-        "Flame last letter l. Harbor last letter g. Lemon last letter s. Together lg. The answer is lg."
+        "Flame last letter l. Harbor last letter g. Lemon last letter e. Together lg. The answer is lg."
       ]
     ],
     "filtered_resps": [
@@ -592,7 +592,7 @@
     ],
     "resps": [
       [
-        "Kate last letter n. Valley last letter x. X last letter e. Together n. The answer is n."
+        "Kate last letter n. Valley last letter x. X. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "Jack walnut harbor last letter l. walnut harbor last letter s. Together ln. The answer is ln."
+        "Jack walnut harbor last letter w. Harbor last letter l. Together w. The answer is w."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "w"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -896,7 +896,7 @@
     ],
     "resps": [
       [
-        "Orange last letter y. Apple last letter n. Together yn. The answer is yn."
+        "Orange last letter y. Jack last letter a. Together yn. The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -1048,11 +1048,11 @@
     ],
     "resps": [
       [
-        "Clara last letter f. feather. Desert. Rocket last letter r. Together f.r.d.r. The answer is r.d.r."
+        "Clara last letter f. feather. Desert. Rocket last letter r. Together f.r.d.s. The answer is f.r.d.s."
       ]
     ],
     "filtered_resps": [
-      "r"
+      "f"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,11 +1276,11 @@
     ],
     "resps": [
       [
-        "Mirror last letter r. Rocket last letter m. Together rm. The answer is rm."
+        "Mirror last letter r. Rocket last letter m. Together r. The answer is r."
       ]
     ],
     "filtered_resps": [
-      "rm"
+      "r"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1390,11 +1390,11 @@
     ],
     "resps": [
       [
-        "Quinn oven Xena last letter y. Xena last letter n. Together yn. The answer is yn."
+        "Quinn oven Xena last letter n. Xena last letter y. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "n"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "Henry last letter n. Anchor last letter t. Nathan last letter g. Together n. G. The answer is n. G."
+        "Henry last letter n. Anchor last letter t. Nathan last letter g. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -1580,11 +1580,11 @@
     ],
     "resps": [
       [
-        "Zach last letter s. Silver last letter b. Together sb. The answer is sb."
+        "Zach last letter s. Silver last letter l. Together s. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "sb"
+      "s"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1732,11 +1732,11 @@
     ],
     "resps": [
       [
-        "Stone last letter l. Lantern last letter n. Together st. L. The answer is st. L."
+        "Stone last letter l. Lantern last letter n. Together ln. The answer is ln."
       ]
     ],
     "filtered_resps": [
-      "st"
+      "ln"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "Mango last letter i. Iris last letter r. Zach last letter s. Together mr. Iris. The answer is mr. Iris."
+        "Mango last letter r. Iris last letter s. Together r. The answer is r. Iris."
       ]
     ],
     "filtered_resps": [
-      "mr"
+      "r"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1884,11 +1884,11 @@
     ],
     "resps": [
       [
-        "Jungle Tara last letter t. Quinn last letter s. Together tas. The answer is tas."
+        "Jungle Tara last letter t. Quinn last letter s. Together t.y.n. The answer is t.y.n."
       ]
     ],
     "filtered_resps": [
-      "tas"
+      "t"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1922,7 +1922,7 @@
     ],
     "resps": [
       [
-        "Donna last letter h. Hammer Donna last letter s. Together h. Donna. The answer is h. Donna."
+        "Donna last letter h. Hammer Donna last letter s. Together h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -2416,7 +2416,7 @@
     ],
     "resps": [
       [
-        "oven jacket window dragon last letter y. Last letter n. Together yn. The answer is yn."
+        "oven last letter y. jacket last letter n. window last letter d. dragon last letter s. Together yn. The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "A anchor diamond last letter n. Diamond last letter y. Together n. The answer is n."
+        "A anchor diamond last letter n. Diamond last letter y. Together nk. The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "nk"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2948,11 +2948,11 @@
     ],
     "resps": [
       [
-        "Yellow last letter l. Lan l last letter n. Together yn. The answer is yn."
+        "Yellow last letter l. Lan. The answer is ln."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "ln"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3024,11 +3024,11 @@
     ],
     "resps": [
       [
-        "Xena last letter w. Walter last letter b. Together w. Brian. The answer is wb. Brian."
+        "Xena last letter w. Walter last letter a. Brian last letter n. Together wn. The answer is wn."
       ]
     ],
     "filtered_resps": [
-      "wb"
+      "wn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "Iris last letter r. Rocket last letter butter. Butter kettle last letter. Together r.y. The answer is ry."
+        "Iris last letter r. Rocket last letter butter. Butter kettle last letter. Together r.y. I.S.R.A.T.K. The answer is r.y. I.S.R.A.T.K."
       ]
     ],
     "filtered_resps": [
-      "ry"
+      "r"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3556,11 +3556,11 @@
     ],
     "resps": [
       [
-        "Butter last letter v. Vine last letter l. Flame last letter w. Together v. L. The answer is w. L."
+        "Butter violet window flame last letter y. Butter violet window flame last letter s. Together yn. The answer is yn."
       ]
     ],
     "filtered_resps": [
-      "w"
+      "yn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "Eagle last letter l. Lemon last letter s. Harbor last letter e. Together ls. The answer is ls."
+        "Eagle last letter l. Lemon last letter s. Harbor last letter e. Together l. The answer is l."
       ]
     ],
     "filtered_resps": [
-      "ls"
+      "l"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,7 +3784,7 @@
     ],
     "resps": [
       [
-        "Liam last letter f. Frank last letter y. Together lf. The answer is lf."
+        "Liam last letter f. Frank last letter n. Together lf. The answer is lf."
       ]
     ],
     "filtered_resps": [
@@ -3822,7 +3822,7 @@
     ],
     "resps": [
       [
-        "Emma last letter l. jungle last letter c. Cloud last letter w. Together lc. The answer is lc."
+        "Emma last letter l. jungle last letter c. cloud last letter w. Together lc. The answer is lc."
       ]
     ],
     "filtered_resps": [
@@ -4050,11 +4050,11 @@
     ],
     "resps": [
       [
-        "Puzzle knight last letter n. Knights last letter s. Together nys. The answer is nys."
+        "Puzzle knight last letter n. Knights last letter s. Together nk. The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "nys"
+      "nk"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,7 +4202,7 @@
     ],
     "resps": [
       [
-        "Flame last letter l. Harbor last letter g. Lemon last letter s. Together lg. The answer is lg."
+        "Flame last letter l. Harbor last letter g. Lemon last letter e. Together lg. The answer is lg."
       ]
     ],
     "filtered_resps": [
@@ -4392,7 +4392,7 @@
     ],
     "resps": [
       [
-        "Kate last letter n. Valley last letter x. X last letter e. Together n. The answer is n."
+        "Kate last letter n. Valley last letter x. X. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "Jack walnut harbor last letter l. walnut harbor last letter s. Together ln. The answer is ln."
+        "Jack walnut harbor last letter w. Harbor last letter l. Together w. The answer is w."
       ]
     ],
     "filtered_resps": [
-      "ln"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4696,7 +4696,7 @@
     ],
     "resps": [
       [
-        "Orange last letter y. Apple last letter n. Together yn. The answer is yn."
+        "Orange last letter y. Jack last letter a. Together yn. The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "Clara last letter f. feather. Desert. Rocket last letter r. Together f.r.d.r. The answer is r.d.r."
+        "Clara last letter f. feather. Desert. Rocket last letter r. Together f.r.d.s. The answer is f.r.d.s."
       ]
     ],
     "filtered_resps": [
@@ -5076,11 +5076,11 @@
     ],
     "resps": [
       [
-        "Mirror last letter r. Rocket last letter m. Together rm. The answer is rm."
+        "Mirror last letter r. Rocket last letter m. Together r. The answer is r."
       ]
     ],
     "filtered_resps": [
-      "rm"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5190,11 +5190,11 @@
     ],
     "resps": [
       [
-        "Quinn oven Xena last letter y. Xena last letter n. Together yn. The answer is yn."
+        "Quinn oven Xena last letter n. Xena last letter y. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,7 +5266,7 @@
     ],
     "resps": [
       [
-        "Henry last letter n. Anchor last letter t. Nathan last letter g. Together n. G. The answer is n. G."
+        "Henry last letter n. Anchor last letter t. Nathan last letter g. Together n. The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -5380,11 +5380,11 @@
     ],
     "resps": [
       [
-        "Zach last letter s. Silver last letter b. Together sb. The answer is sb."
+        "Zach last letter s. Silver last letter l. Together s. The answer is s."
       ]
     ],
     "filtered_resps": [
-      "sb"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5532,11 +5532,11 @@
     ],
     "resps": [
       [
-        "Stone last letter l. Lantern last letter n. Together st. L. The answer is st. L."
+        "Stone last letter l. Lantern last letter n. Together ln. The answer is ln."
       ]
     ],
     "filtered_resps": [
-      "st"
+      "ln"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,11 +5646,11 @@
     ],
     "resps": [
       [
-        "Mango last letter i. Iris last letter r. Zach last letter s. Together mr. Iris. The answer is mr. Iris."
+        "Mango last letter r. Iris last letter s. Together r. The answer is r. Iris."
       ]
     ],
     "filtered_resps": [
-      "mr"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5684,11 +5684,11 @@
     ],
     "resps": [
       [
-        "Jungle Tara last letter t. Quinn last letter s. Together tas. The answer is tas."
+        "Jungle Tara last letter t. Quinn last letter s. Together t.y.n. The answer is t.y.n."
       ]
     ],
     "filtered_resps": [
-      "tas"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5722,7 +5722,7 @@
     ],
     "resps": [
       [
-        "Donna last letter h. Hammer Donna last letter s. Together h. Donna. The answer is h. Donna."
+        "Donna last letter h. Hammer Donna last letter s. Together h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -6216,7 +6216,7 @@
     ],
     "resps": [
       [
-        "oven jacket window dragon last letter y. Last letter n. Together yn. The answer is yn."
+        "oven last letter y. jacket last letter n. window last letter d. dragon last letter s. Together yn. The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "A anchor diamond last letter n. Diamond last letter y. Together n. The answer is n."
+        "A anchor diamond last letter n. Diamond last letter y. Together nk. The answer is nk."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "nk"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6748,11 +6748,11 @@
     ],
     "resps": [
       [
-        "Yellow last letter l. Lan l last letter n. Together yn. The answer is yn."
+        "Yellow last letter l. Lan. The answer is ln."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "ln"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6824,11 +6824,11 @@
     ],
     "resps": [
       [
-        "Xena last letter w. Walter last letter b. Together w. Brian. The answer is wb. Brian."
+        "Xena last letter w. Walter last letter a. Brian last letter n. Together wn. The answer is wn."
       ]
     ],
     "filtered_resps": [
-      "wb"
+      "wn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "Iris last letter r. Rocket last letter butter. Butter kettle last letter. Together r.y. The answer is ry."
+        "Iris last letter r. Rocket last letter butter. Butter kettle last letter. Together r.y. I.S.R.A.T.K. The answer is r.y. I.S.R.A.T.K."
       ]
     ],
     "filtered_resps": [
-      "ry"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7356,11 +7356,11 @@
     ],
     "resps": [
       [
-        "Butter last letter v. Vine last letter l. Flame last letter w. Together v. L. The answer is w. L."
+        "Butter violet window flame last letter y. Butter violet window flame last letter s. Together yn. The answer is yn."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "yn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "Eagle last letter l. Lemon last letter s. Harbor last letter e. Together ls. The answer is ls."
+        "Eagle last letter l. Lemon last letter s. Harbor last letter e. Together l. The answer is l."
       ]
     ],
     "filtered_resps": [
-      "ls"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,7 +7584,7 @@
     ],
     "resps": [
       [
-        "Liam last letter f. Frank last letter y. Together lf. The answer is lf."
+        "Liam last letter f. Frank last letter n. Together lf. The answer is lf."
       ]
     ],
     "filtered_resps": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,coin_flip_paper_cot,coin_flip,paper_cot,fewshot_cot,coin_flip,0.66,0.0,193.0,8,100,10.09,8.84

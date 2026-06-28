@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,asdiv_true_baseline,asdiv,true_baseline,zero_shot,asdiv,0.24,0.58,103.7,0,100,28.0,1.73

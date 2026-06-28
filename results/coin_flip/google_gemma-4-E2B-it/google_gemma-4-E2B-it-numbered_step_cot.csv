@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E2B-it,coin_flip_numbered_step_cot,coin_flip,numbered_step_cot,fewshot_cot,coin_flip,1.0,0.0,197.2,8,100,31.19,23.71

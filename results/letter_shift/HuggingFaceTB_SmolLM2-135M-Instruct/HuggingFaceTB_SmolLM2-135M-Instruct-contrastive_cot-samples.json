@@ -22,11 +22,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start d. Wanda shifts to e. Rachel shifts to f. Peter shifts to g. Wanda no shift. letter g. The answer is g."
+        "[INCORRECT] Letter start d. Bob shifts to e. Wanda shifts to f. Rachel shifts to g. Peter shifts to h. Wanda shifts to i. Peter shifts to j. Rachel shifts to k. Peter shifts to l. Wanda shifts to m. Wanda shifts to n. Wanda shifts to o. Peter shifts to p. Wanda shifts to p. Wanda shifts to q. Wanda shifts to r. Wanda shifts to s. Wanda shifts to t. Wanda shifts to u. Wanda shifts to v. Wanda shifts to w. Wanda shifts to x. Wanda shifts to y. Wanda shifts to z. Wanda shifts to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "g"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start l. Wendy shifts to z. Marcus shifts to b. Noah no shift. letter b. [CORRECT] Letter start l. Wendy shift to z. Marcus shift to a. Noah no shift. letter a. The answer is a."
+        "[INCORRECT] Letter start l. Wendy shifts to z. Marcus shifts to b. Noah no shift. letter b. [CORRECT] Letter start l. Wendy shift to z. Marcus shift to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -250,11 +250,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start v. Olivia shifts to w. Sam shifts to x. Olivia no shift. letter x. The answer is x."
+        "[INCORRECT] Letter start v. Olivia shifts once to d and stops. Sam shifts to b. Noah no shift. letter b. [CORRECT] Letter start v. Olivia shift to d. Sam shift to a. Noah no shift. letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "x"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -263,7 +263,7 @@
     "doc_hash": "879e13ec5990cf24794f5066c7972866de029ce77c4a11b292bff5730f4109b3",
     "prompt_hash": "c12d5568213674df929ff8cda01dab31df5fac7abd0cc9e9976a3c04f9751891",
     "target_hash": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 7,
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Carol shifts to e. Uma shifts to f. Carol shifts to g. Jack shifts to h. Jack shifts to i. letter i. The answer is i."
+        "[INCORRECT] Letter start h. Carol shifts to e. Uma shifts to f. Carol shifts to g. Jack shifts to h. Jack shifts to i. Jack shifts to j. Jack shifts to k. Jack shifts to l. Jack shifts to m. Jack shifts to n. Jack shifts to o. Jack shifts to p. Jack shifts to q. Jack shifts to r. Jack shifts to s. Jack shifts to t. Jack shifts to u. Jack shifts to v. Jack shifts to w. Jack shifts to x. Jack shifts to y. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack"
       ]
     ],
     "filtered_resps": [
-      "i"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -554,7 +554,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start d. Jack shifts once to e and stops. Oscar no shift. letter e. The answer is e."
+        "[INCORRECT] Letter start d. Jack shifts once to e and stops. Oscar no shift. letter e. [CORRECT] Letter start d. Jack shift to e. Oscar no shift. letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -744,7 +744,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Dan shifts to h. Peter shifts to k. Kevin does not shift the letter. letter k. The answer is k."
+        "[INCORRECT] Letter start h. Dan shifts to h. Peter shifts to k. Kevin does not shift the letter. [CORRECT] Letter start h. Dan shift to h. Peter shift to k. Kevin no shift. letter k. The answer is k."
       ]
     ],
     "filtered_resps": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to h. Hannah shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift"
+        "[INCORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to h. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. The answer is h."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "h"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -833,7 +833,7 @@
     "doc_hash": "e8839dfd6d0853583005e46850539ee897e6a85b6b351de5cb0b7411b58db637",
     "prompt_hash": "fa9b78dc810a0fed93510926a4d251ad7c4b0ad878ebbab8d37896edb5a77b2c",
     "target_hash": "aaa9402664f1a41f40ebbc52c9993eb66aeb366602958fdfaa283b71e64db123",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 22,
@@ -896,11 +896,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start s. Julia shifts to d. Olivia shifts to e. Olivia shifts to f. letter f. The answer is f."
+        "[INCORRECT] Letter start s. Julia shifts to z. Olivia shifts to b. Olivia no shift. letter b. [CORRECT] Letter start s. Julia shift to z. Olivia shift to a. Olivia no shift. letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1010,11 +1010,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start p. Noah shifts to z. Mia shifts to b. Ivan shifts to a. Iris shifts to c. Noah no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start p. Noah shifts to z. Mia shifts to b. Ivan shifts to a. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1162,7 +1162,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start o. Peter shifts to b. Eve shifts to a. Eve shifts to c. Eve shifts to d. Eve shifts to e. Eve shifts to f. Eve shifts to g. Eve shifts to h. Eve shifts to i. Eve shifts to j. Eve shifts to k. Eve shifts to l. Eve shifts to m. Eve shifts to n. Eve shifts to o. Eve shifts to p. Eve shifts to q. Eve shifts to r. Eve shifts to s. Eve shifts to t. Eve shifts to u. Eve shifts to v. Eve shifts to w. Eve shifts to x. Eve shifts to y. Eve shifts to z. Eve shifts to a. The answer is a."
+        "[INCORRECT] Letter start o. Peter shifts to e. Eve shifts to b. Eve shifts to a. Eve shifts to c. Eve shifts to d. Eve shifts to e. Eve shifts to f. Eve shifts to g. Eve shifts to h. Eve shifts to i. Eve shifts to j. Eve shifts to k. Eve shifts to l. Eve shifts to m. Eve shifts to n. Eve shifts to o. Eve shifts to p. Eve shifts to q. Eve shifts to r. Eve shifts to s. Eve shifts to t. Eve shifts to u. Eve shifts to v. Eve shifts to w. Eve shifts to x. Eve shifts to y. Eve shifts to z. Eve shifts to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -1238,11 +1238,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Zoe shifts to b. Dan shifts to a. Kate shifts to c. Zoe no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start g. Zoe shifts once to d and stops. Dan shifts to a. Kate shifts to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,11 +1276,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start z. Diana shifts to z. Sam shifts to z. Beth shifts to z. Noah no shift. letter z. The answer is z."
+        "[INCORRECT] Letter start z. Diana shifts to z. Sam shifts to a. Beth shifts to b. Sam no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "z"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1289,7 +1289,7 @@
     "doc_hash": "c77c9c84215a9aff1da02009b8b92991155b76068f4f923cda7af5a79b95d213",
     "prompt_hash": "6ea1ffc4dce5f625f404f8497927ac955ccc64bf478a725c94262531fc8207c7",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 34,
@@ -1314,11 +1314,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Dan shifts to h. Laura shifts to i. Wanda shifts to j. Noah no shift. letter j. The answer is j."
+        "[INCORRECT] Letter start g. Dan shifts to b. Laura shifts to a. Wanda shifts to c. Laura no shift. letter c. The answer is c."
       ]
     ],
     "filtered_resps": [
-      "j"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1390,11 +1390,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start c. Liam shifts once to d and stops. Eve shifts to a. Sofia shifts to b. Marcus shifts to c. Noah no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start c. Liam shifts once to d and stops. Eve shifts to a. Sofia shifts to b. Marcus shifts to c. Noah shifts to d. letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Ursula shifts once to d and stops. Victor shifts to e. Sofia shifts to f. Noah no shift. letter f. The answer is f."
+        "[INCORRECT] Letter start g. Ursula shifts once to d and stops. Victor shifts to e. Sofia shifts to a. Noah no shift. letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1770,11 +1770,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start a. Henry shifts to b. Jack shifts to c. Tom shifts to d. Eve shifts to e. Noah shifts to f. letter f. The answer is f."
+        "[INCORRECT] Letter start a. Henry shifts to b. Jack shifts to c. Tom shifts to d. Eve shifts to e. Jack shifts to f. Eve shifts to g. Tom shifts to h. Eve shifts to i. Jack shifts to j. Tom shifts to k. Eve shifts to l. Jack shifts to m. Tom shifts to n. Eve shifts to o. Jack shifts to p. Tom shifts to p. Eve shifts to q. Jack shifts to r. Tom shifts to s. Eve shifts to t. Jack shifts to u. Tom shifts to v. Eve shifts to w. Jack shifts to x. Tom shifts to y. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts"
       ]
     ],
     "filtered_resps": [
-      "f"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,7 +1846,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start v. Peter shifts to w. Ray does not shift to w. letter w. The answer is w."
+        "[INCORRECT] Letter start v. Peter shifts to w. Ray does not shift. letter w. The answer is w."
       ]
     ],
     "filtered_resps": [
@@ -2188,7 +2188,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start q. Henry shifts to z. Kevin shifts to b. Yara shifts to a. Mia shifts to c. Noah no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start q. Henry shifts to z. Kevin shifts to b. Yara shifts to a. Mia shifts to c. Kevin no shift. letter c. The answer is c."
       ]
     ],
     "filtered_resps": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start z. Ivan shifts to z. Sofia does not shift to a. Vince does not shift to b. Wanda shifts to c. Sofia does not shift to d. Vince does not shift to e. Wanda shifts to f. The answer is f."
+        "[INCORRECT] Letter start z. Ivan shifts to z. Sofia does not shift the letter. Vince does not shift the letter. Wanda shifts the letter. 0 shift. letter z. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "z"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start w. Julia shifts to z. Julia no shift. Iris does not shift to z. Iris does not shift to z. 0 shift. letter z. The answer is z."
+        "[INCORRECT] Letter start w. Julia shifts to e. Iris shifts to f. Julia no shift. letter f. The answer is f."
       ]
     ],
     "filtered_resps": [
-      "z"
+      "f"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2416,11 +2416,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start o. Sofia shifts to b. George shifts to a. Noah shifts to c. George no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start o. Sofia shifts to b. George shifts to a. Noah shifts to c. George shifts to d. Noah no shift. letter c. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start j. Olivia shifts once to d and stops. Jack and Bob ignore. letter d. [CORRECT] Letter start j. Olivia shift to d. Jack and Bob ignore. letter d. The answer is d."
+        "[INCORRECT] Letter start j. Olivia shifts once to d and stops. Jack and Bob ignore. letter d. [CORRECT] Letter start j. Olivia shift to d. Jack shift to e. Bob no shift. letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Tom shifts to e. Hannah shifts to f. Noah no shift. letter f. The answer is f."
+        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Tom shifts to b. Hannah shifts to a. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2720,11 +2720,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start u. Rachel shifts once to d and stops. Hannah shifts to b. Noah no shift. letter b. [CORRECT] Letter start u. Rachel shift to d. Hannah shift to a. Noah no shift. letter a. The answer is a."
+        "[INCORRECT] Letter start u. Rachel shifts once to d and stops. Hannah shifts to b. Noah no shift. letter b. [CORRECT] Letter start u. Rachel shift to d. Hannah shift to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2758,11 +2758,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start o. Eve shifts to b. Sam shifts to a. Ursula does not shift to b. Eve shifts to a. Sam does not shift to a. Noah does not shift to a. The answer is a."
+        "[INCORRECT] Letter start o. Eve shifts once to d and stops. Ursula shifts to b. Sam shifts to a. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2796,7 +2796,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start r. Frank shifts it to g. Iris no shift. Jack shifts to h. Noah no shift. letter h. The answer is h."
+        "[INCORRECT] Letter start r. Frank shifts it to g. Jack shifts to h. Iris no shift. Jack no shift. letter h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -2834,11 +2834,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Eve shifts once to d and stops. Victor shifts to e. Ivan shifts to f. letter f. The answer is f."
+        "[INCORRECT] Letter start g. Eve shifts once to d and stops. Aaron shifts to e. Mia shifts to b. Victor shifts to f. Ivan shifts to g. Victor shifts to h. Victor shifts to i. Victor shifts to j. Victor shifts to k. Victor shifts to l. Victor shifts to m. Victor shifts to n. Victor shifts to o. Victor shifts to p. Victor shifts to q. Victor shifts to r. Victor shifts to s. Victor shifts to t. Victor shifts to u. Victor shifts to v. Victor shifts to w. Victor shifts to x. Victor shifts to y. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z"
       ]
     ],
     "filtered_resps": [
-      "f"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2948,7 +2948,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start n. Fiona shifts to z. Bob no shift. Yara shifts to a. Noah shifts to b. Yara no shift. The answer is b."
+        "[INCORRECT] Letter start n. Fiona shifts to z. Bob no shift. Yara shifts to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
@@ -3138,7 +3138,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start b. Bob shifts to c. Peter shifts to d. Nina does not shift the letter. letter c. The answer is d."
+        "[INCORRECT] Letter start b. Peter shifts to d. Nina does not shift the letter. letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
@@ -3746,11 +3746,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Xander no shift. letter d. [CORRECT] Letter start h. Liam shift to d. Xander no shift. letter d. The answer is d."
+        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Xander shifts to b. Tina does not shift the letter. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start b. Julia shifts to c. Sam no shift. letter c. [CORRECT] Letter start b. Julia shift to c. Sam no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start b. Julia shifts once to d and stops. Sam no shift. letter d. [CORRECT] Letter start b. Julia shift to d. Sam no shift. letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3797,7 +3797,7 @@
     "doc_hash": "0699ee45b4173e13ae2f4f5c94950867dc3f14d75596b13b35eb2aeec76556db",
     "prompt_hash": "2cd361c3c96cdc4afff53c523b18dfa53b41abb93da3a03f40a9b21a862785ab",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 0,
@@ -3822,11 +3822,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start d. Wanda shifts to e. Rachel shifts to f. Peter shifts to g. Wanda no shift. letter g. The answer is g."
+        "[INCORRECT] Letter start d. Bob shifts to e. Wanda shifts to f. Rachel shifts to g. Peter shifts to h. Wanda shifts to i. Peter shifts to j. Rachel shifts to k. Peter shifts to l. Wanda shifts to m. Wanda shifts to n. Wanda shifts to o. Peter shifts to p. Wanda shifts to p. Wanda shifts to q. Wanda shifts to r. Wanda shifts to s. Wanda shifts to t. Wanda shifts to u. Wanda shifts to v. Wanda shifts to w. Wanda shifts to x. Wanda shifts to y. Wanda shifts to z. Wanda shifts to a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "g"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start l. Wendy shifts to z. Marcus shifts to b. Noah no shift. letter b. [CORRECT] Letter start l. Wendy shift to z. Marcus shift to a. Noah no shift. letter a. The answer is a."
+        "[INCORRECT] Letter start l. Wendy shifts to z. Marcus shifts to b. Noah no shift. letter b. [CORRECT] Letter start l. Wendy shift to z. Marcus shift to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4050,11 +4050,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start v. Olivia shifts to w. Sam shifts to x. Olivia no shift. letter x. The answer is x."
+        "[INCORRECT] Letter start v. Olivia shifts once to d and stops. Sam shifts to b. Noah no shift. letter b. [CORRECT] Letter start v. Olivia shift to d. Sam shift to a. Noah no shift. letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "x"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4063,7 +4063,7 @@
     "doc_hash": "879e13ec5990cf24794f5066c7972866de029ce77c4a11b292bff5730f4109b3",
     "prompt_hash": "c12d5568213674df929ff8cda01dab31df5fac7abd0cc9e9976a3c04f9751891",
     "target_hash": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 7,
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Carol shifts to e. Uma shifts to f. Carol shifts to g. Jack shifts to h. Jack shifts to i. letter i. The answer is i."
+        "[INCORRECT] Letter start h. Carol shifts to e. Uma shifts to f. Carol shifts to g. Jack shifts to h. Jack shifts to i. Jack shifts to j. Jack shifts to k. Jack shifts to l. Jack shifts to m. Jack shifts to n. Jack shifts to o. Jack shifts to p. Jack shifts to q. Jack shifts to r. Jack shifts to s. Jack shifts to t. Jack shifts to u. Jack shifts to v. Jack shifts to w. Jack shifts to x. Jack shifts to y. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack shifts to z. Jack"
       ]
     ],
     "filtered_resps": [
-      "i"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start d. Jack shifts once to e and stops. Oscar no shift. letter e. The answer is e."
+        "[INCORRECT] Letter start d. Jack shifts once to e and stops. Oscar no shift. letter e. [CORRECT] Letter start d. Jack shift to e. Oscar no shift. letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
@@ -4544,7 +4544,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Dan shifts to h. Peter shifts to k. Kevin does not shift the letter. letter k. The answer is k."
+        "[INCORRECT] Letter start h. Dan shifts to h. Peter shifts to k. Kevin does not shift the letter. [CORRECT] Letter start h. Dan shift to h. Peter shift to k. Kevin no shift. letter k. The answer is k."
       ]
     ],
     "filtered_resps": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to h. Hannah shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to a. Marcus does not shift the letter. Beth does not shift"
+        "[INCORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to g. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. [CORRECT] Letter start f. Quinn shifts to h. Hannah shifts to h. Marcus does not shift the letter. Beth does not shift the letter. The answer is h."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "h"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4633,7 +4633,7 @@
     "doc_hash": "e8839dfd6d0853583005e46850539ee897e6a85b6b351de5cb0b7411b58db637",
     "prompt_hash": "fa9b78dc810a0fed93510926a4d251ad7c4b0ad878ebbab8d37896edb5a77b2c",
     "target_hash": "aaa9402664f1a41f40ebbc52c9993eb66aeb366602958fdfaa283b71e64db123",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 22,
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start s. Julia shifts to d. Olivia shifts to e. Olivia shifts to f. letter f. The answer is f."
+        "[INCORRECT] Letter start s. Julia shifts to z. Olivia shifts to b. Olivia no shift. letter b. [CORRECT] Letter start s. Julia shift to z. Olivia shift to a. Olivia no shift. letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4810,11 +4810,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start p. Noah shifts to z. Mia shifts to b. Ivan shifts to a. Iris shifts to c. Noah no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start p. Noah shifts to z. Mia shifts to b. Ivan shifts to a. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4962,7 +4962,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start o. Peter shifts to b. Eve shifts to a. Eve shifts to c. Eve shifts to d. Eve shifts to e. Eve shifts to f. Eve shifts to g. Eve shifts to h. Eve shifts to i. Eve shifts to j. Eve shifts to k. Eve shifts to l. Eve shifts to m. Eve shifts to n. Eve shifts to o. Eve shifts to p. Eve shifts to q. Eve shifts to r. Eve shifts to s. Eve shifts to t. Eve shifts to u. Eve shifts to v. Eve shifts to w. Eve shifts to x. Eve shifts to y. Eve shifts to z. Eve shifts to a. The answer is a."
+        "[INCORRECT] Letter start o. Peter shifts to e. Eve shifts to b. Eve shifts to a. Eve shifts to c. Eve shifts to d. Eve shifts to e. Eve shifts to f. Eve shifts to g. Eve shifts to h. Eve shifts to i. Eve shifts to j. Eve shifts to k. Eve shifts to l. Eve shifts to m. Eve shifts to n. Eve shifts to o. Eve shifts to p. Eve shifts to q. Eve shifts to r. Eve shifts to s. Eve shifts to t. Eve shifts to u. Eve shifts to v. Eve shifts to w. Eve shifts to x. Eve shifts to y. Eve shifts to z. Eve shifts to a. The answer is a."
       ]
     ],
     "filtered_resps": [
@@ -5038,11 +5038,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Zoe shifts to b. Dan shifts to a. Kate shifts to c. Zoe no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start g. Zoe shifts once to d and stops. Dan shifts to a. Kate shifts to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5076,11 +5076,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start z. Diana shifts to z. Sam shifts to z. Beth shifts to z. Noah no shift. letter z. The answer is z."
+        "[INCORRECT] Letter start z. Diana shifts to z. Sam shifts to a. Beth shifts to b. Sam no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "z"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5089,7 +5089,7 @@
     "doc_hash": "c77c9c84215a9aff1da02009b8b92991155b76068f4f923cda7af5a79b95d213",
     "prompt_hash": "6ea1ffc4dce5f625f404f8497927ac955ccc64bf478a725c94262531fc8207c7",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 34,
@@ -5114,11 +5114,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Dan shifts to h. Laura shifts to i. Wanda shifts to j. Noah no shift. letter j. The answer is j."
+        "[INCORRECT] Letter start g. Dan shifts to b. Laura shifts to a. Wanda shifts to c. Laura no shift. letter c. The answer is c."
       ]
     ],
     "filtered_resps": [
-      "j"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5190,11 +5190,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start c. Liam shifts once to d and stops. Eve shifts to a. Sofia shifts to b. Marcus shifts to c. Noah no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start c. Liam shifts once to d and stops. Eve shifts to a. Sofia shifts to b. Marcus shifts to c. Noah shifts to d. letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Ursula shifts once to d and stops. Victor shifts to e. Sofia shifts to f. Noah no shift. letter f. The answer is f."
+        "[INCORRECT] Letter start g. Ursula shifts once to d and stops. Victor shifts to e. Sofia shifts to a. Noah no shift. letter a. The answer is a."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5570,11 +5570,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start a. Henry shifts to b. Jack shifts to c. Tom shifts to d. Eve shifts to e. Noah shifts to f. letter f. The answer is f."
+        "[INCORRECT] Letter start a. Henry shifts to b. Jack shifts to c. Tom shifts to d. Eve shifts to e. Jack shifts to f. Eve shifts to g. Tom shifts to h. Eve shifts to i. Jack shifts to j. Tom shifts to k. Eve shifts to l. Jack shifts to m. Tom shifts to n. Eve shifts to o. Jack shifts to p. Tom shifts to p. Eve shifts to q. Jack shifts to r. Tom shifts to s. Eve shifts to t. Jack shifts to u. Tom shifts to v. Eve shifts to w. Jack shifts to x. Tom shifts to y. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts to z. Jack shifts to z. Tom shifts to z. Eve shifts"
       ]
     ],
     "filtered_resps": [
-      "f"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5646,7 +5646,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start v. Peter shifts to w. Ray does not shift to w. letter w. The answer is w."
+        "[INCORRECT] Letter start v. Peter shifts to w. Ray does not shift. letter w. The answer is w."
       ]
     ],
     "filtered_resps": [
@@ -5988,7 +5988,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start q. Henry shifts to z. Kevin shifts to b. Yara shifts to a. Mia shifts to c. Noah no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start q. Henry shifts to z. Kevin shifts to b. Yara shifts to a. Mia shifts to c. Kevin no shift. letter c. The answer is c."
       ]
     ],
     "filtered_resps": [
@@ -6026,11 +6026,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start z. Ivan shifts to z. Sofia does not shift to a. Vince does not shift to b. Wanda shifts to c. Sofia does not shift to d. Vince does not shift to e. Wanda shifts to f. The answer is f."
+        "[INCORRECT] Letter start z. Ivan shifts to z. Sofia does not shift the letter. Vince does not shift the letter. Wanda shifts the letter. 0 shift. letter z. The answer is z."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start w. Julia shifts to z. Julia no shift. Iris does not shift to z. Iris does not shift to z. 0 shift. letter z. The answer is z."
+        "[INCORRECT] Letter start w. Julia shifts to e. Iris shifts to f. Julia no shift. letter f. The answer is f."
       ]
     ],
     "filtered_resps": [
-      "z"
+      "f"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start o. Sofia shifts to b. George shifts to a. Noah shifts to c. George no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start o. Sofia shifts to b. George shifts to a. Noah shifts to c. George shifts to d. Noah no shift. letter c. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start j. Olivia shifts once to d and stops. Jack and Bob ignore. letter d. [CORRECT] Letter start j. Olivia shift to d. Jack and Bob ignore. letter d. The answer is d."
+        "[INCORRECT] Letter start j. Olivia shifts once to d and stops. Jack and Bob ignore. letter d. [CORRECT] Letter start j. Olivia shift to d. Jack shift to e. Bob no shift. letter e. The answer is e."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Tom shifts to e. Hannah shifts to f. Noah no shift. letter f. The answer is f."
+        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Tom shifts to b. Hannah shifts to a. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "f"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6520,11 +6520,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start u. Rachel shifts once to d and stops. Hannah shifts to b. Noah no shift. letter b. [CORRECT] Letter start u. Rachel shift to d. Hannah shift to a. Noah no shift. letter a. The answer is a."
+        "[INCORRECT] Letter start u. Rachel shifts once to d and stops. Hannah shifts to b. Noah no shift. letter b. [CORRECT] Letter start u. Rachel shift to d. Hannah shift to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6558,11 +6558,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start o. Eve shifts to b. Sam shifts to a. Ursula does not shift to b. Eve shifts to a. Sam does not shift to a. Noah does not shift to a. The answer is a."
+        "[INCORRECT] Letter start o. Eve shifts once to d and stops. Ursula shifts to b. Sam shifts to a. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6596,7 +6596,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start r. Frank shifts it to g. Iris no shift. Jack shifts to h. Noah no shift. letter h. The answer is h."
+        "[INCORRECT] Letter start r. Frank shifts it to g. Jack shifts to h. Iris no shift. Jack no shift. letter h. The answer is h."
       ]
     ],
     "filtered_resps": [
@@ -6634,11 +6634,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start g. Eve shifts once to d and stops. Victor shifts to e. Ivan shifts to f. letter f. The answer is f."
+        "[INCORRECT] Letter start g. Eve shifts once to d and stops. Aaron shifts to e. Mia shifts to b. Victor shifts to f. Ivan shifts to g. Victor shifts to h. Victor shifts to i. Victor shifts to j. Victor shifts to k. Victor shifts to l. Victor shifts to m. Victor shifts to n. Victor shifts to o. Victor shifts to p. Victor shifts to q. Victor shifts to r. Victor shifts to s. Victor shifts to t. Victor shifts to u. Victor shifts to v. Victor shifts to w. Victor shifts to x. Victor shifts to y. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z. Victor shifts to z"
       ]
     ],
     "filtered_resps": [
-      "f"
+      "z"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6748,7 +6748,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start n. Fiona shifts to z. Bob no shift. Yara shifts to a. Noah shifts to b. Yara no shift. The answer is b."
+        "[INCORRECT] Letter start n. Fiona shifts to z. Bob no shift. Yara shifts to b. Noah no shift. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
@@ -6938,7 +6938,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start b. Bob shifts to c. Peter shifts to d. Nina does not shift the letter. letter c. The answer is d."
+        "[INCORRECT] Letter start b. Peter shifts to d. Nina does not shift the letter. letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
@@ -7546,11 +7546,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Xander no shift. letter d. [CORRECT] Letter start h. Liam shift to d. Xander no shift. letter d. The answer is d."
+        "[INCORRECT] Letter start h. Liam shifts once to d and stops. Xander shifts to b. Tina does not shift the letter. letter b. The answer is b."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Letter start b. Julia shifts to c. Sam no shift. letter c. [CORRECT] Letter start b. Julia shift to c. Sam no shift. letter c. The answer is c."
+        "[INCORRECT] Letter start b. Julia shifts once to d and stops. Sam no shift. letter d. [CORRECT] Letter start b. Julia shift to d. Sam no shift. letter d. The answer is d."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7597,6 +7597,6 @@
     "doc_hash": "0699ee45b4173e13ae2f4f5c94950867dc3f14d75596b13b35eb2aeec76556db",
     "prompt_hash": "2cd361c3c96cdc4afff53c523b18dfa53b41abb93da3a03f40a9b21a862785ab",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   }
 ]

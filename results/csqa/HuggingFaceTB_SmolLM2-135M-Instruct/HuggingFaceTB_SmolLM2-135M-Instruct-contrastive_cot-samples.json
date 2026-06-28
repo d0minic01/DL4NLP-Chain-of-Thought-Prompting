@@ -40,7 +40,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Department store serves as a security measure at a new york, so answer (e). [CORRECT] New york is a department store, so answer (e). The answer is (e)."
+        "[INCORRECT] Department store serves as a security measure at a new york, so answer (e). [CORRECT] New york is a new york, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -432,11 +432,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Animals do not feel pleasure when an enemy is approaching, so answer (e). [CORRECT] Animals do not procreate, so answer (d). The answer is (d)."
+        "[INCORRECT] Animals do not do anything when an enemy is approaching, so answer (e). [CORRECT] Animals do not feel pleasure, so answer (b). The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -445,7 +445,7 @@
     "doc_hash": "7a8ed3623467c7786caff2ef8dd240f4e35aa5d724efe3fa898c3900525ca434",
     "prompt_hash": "26daada1351d0acf868f55b0ae4baf0f3240b99ec09bf208ed8c9894d8f0d428",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 8,
@@ -488,11 +488,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Reading newspaper is reading how to read, so answer (e). [CORRECT] Money is a way to read, so answer (e). The answer is (e)."
+        "[INCORRECT] Reading newspaper is reading about news, so answer (e). [CORRECT] Reading newspaper is reading about news, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -544,7 +544,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Playing guitar is typically done by crying, singing, or making music, so answer (e). [CORRECT] Playing guitar is typically done by crying, singing, or making music, so answer (c). The answer is (c)."
+        "[INCORRECT] Playing guitar is usually crying, so answer (e). [CORRECT] Singing is usually crying, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -936,11 +936,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Stay in bed, so answer (e). [CORRECT] To stay busy, you can do (a) reach tentative agreement, so answer (b). The answer is (b)."
+        "[INCORRECT] Stay in bed, so answer (e). [CORRECT] To stay busy, you can do (a). The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1160,7 +1160,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Wood is a floor, so answer (e). [CORRECT] Floor is a floor, so answer (e). The answer is (e)."
+        "[INCORRECT] Wood is a floor, so answer (e). [CORRECT] Hardware store sells hardware, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1216,7 +1216,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Painted when the artist was feeling sadness, so answer (e). The answer is (e)."
+        "[INCORRECT] Painted when he was feeling sadness, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Thin film is undestroyable, so answer (e). [CORRECT] Durable is undestroyable, so answer (c). The answer is (c)."
+        "[INCORRECT] Thin film is fragile, so answer (e). [CORRECT] Durable is the correct answer, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -1440,11 +1440,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Wildlife reproduce, so answer (e). [CORRECT] Wildlife reproduce, so answer (c). The answer is (c)."
+        "[INCORRECT] Wildlife reproduce, so answer (e). [CORRECT] Wildlife reproduce, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1552,11 +1552,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Blue read material outside of his comfort zone is new perspective, so answer (e). [CORRECT] New perspective is entertained, so answer (c). The answer is (c)."
+        "[INCORRECT] Blue read material outside of his comfort zone is new perspective, so answer (e). [CORRECT] New perspective is understanding, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1776,11 +1776,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Underground map from the 50s is a library, so answer (e). [CORRECT] Supermarket contains many books, so answer (c). The answer is (c)."
+        "[INCORRECT] Underground map from 50s is not easily found, so answer (e). [CORRECT] Supermarket contains old maps, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1832,11 +1832,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Seen a yellow light, so answer (e). The answer is (e)."
+        "[INCORRECT] Seen a yellow light, so answer (e). [CORRECT] Seen a slow down, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1845,7 +1845,7 @@
     "doc_hash": "8d79605048144c9fcd5bc5640c37c3992dfb91ff8104352f55aac1605bf27662",
     "prompt_hash": "5fa8c0bf1d72ea0e94eaae6635f15b73e0d83dc99928eed6555e1d3846b21ea8",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 33,
@@ -1888,7 +1888,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Wait their turn is standing in line, so answer (e). The answer is (e)."
+        "[INCORRECT] Wait their turn is a feeling, so answer (e). [CORRECT] Wait their turn is a feeling, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2000,11 +2000,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the lock, so answer (e). [CORRECT] The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the lock, so answer (e)."
+        "[INCORRECT] The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the lock, so answer (e). [CORRECT] Train locks are not a good choice for a thief, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2056,7 +2056,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Police officer likely to work for a police department, so answer (e). [CORRECT] Police officer likely to work for a city, so answer (c). The answer is (c)."
+        "[INCORRECT] Police officer likely to work for a city, so answer (e). [CORRECT] Police officer likely to work for a president, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2112,7 +2112,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quandry is a kitchen, so answer (e). [CORRECT] refrigerator is a kitchen, so answer (c). The answer is (c)."
+        "[INCORRECT] Quandry is leftovers, so answer (e). [CORRECT] refrigerator is closest to leftovers, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -2896,7 +2896,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Drinking and slurred speech, so answer (e). The answer is (e)."
+        "[INCORRECT] Drinking alcohol can cause slurred speech, so answer (e). [CORRECT] Slurred speech is a result of alcohol, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2952,7 +2952,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Time builds momentum, so answer (e). [CORRECT] Time builds momentum, so answer (d). The answer is (d)."
+        "[INCORRECT] Time builds momentum, so answer (e). [CORRECT] Time is building momentum, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -3064,7 +3064,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Talking to the same person about the same thing over and over again is something someone can learn from, so answer (e). [CORRECT] Learning from the same person is something someone can get tired of, so answer (e). The answer is (e)."
+        "[INCORRECT] Talking to the same person about the same thing over and over again is something someone can learn from, so answer (e). [CORRECT] Learning from the same person is something someone can learn from, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3120,11 +3120,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Teacher doesn't tolerate noise during a test in their classroom, so answer (e). [CORRECT] Classroom is a place where students are expected to be quiet, so answer (e). The answer is (e)."
+        "[INCORRECT] Teacher doesn't tolerate noise during a test in a movie theatre, so answer (e). [CORRECT] Teacher doesn't tolerate noise during a test in a bowling alley, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3133,7 +3133,7 @@
     "doc_hash": "53d6730ae3aad9c123d86e68791512b89f350656d461aa7f44dcfafa842d6315",
     "prompt_hash": "c3cd6d8ad0d26005cd5d686e2bedaa32262a4633845794dcffc96760701b632d",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 56,
@@ -3176,11 +3176,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Freeway has no traffic, so answer (c). [CORRECT] California has no traffic, so answer (b). The answer is (b)."
+        "[INCORRECT] Freeway has no traffic, so answer (e). [CORRECT] Freeway has few buildings, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3189,7 +3189,7 @@
     "doc_hash": "3cb9fb78750affca9e663dd19288b4a2546632cf27e7eca7e71da5083a48de23",
     "prompt_hash": "157ab57de37324e02f41e90a18b1c9217931e56cf0744ac24ab99eec7dc3877a",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 57,
@@ -3232,11 +3232,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Going to a fairground is not a good idea, so answer (e). [CORRECT] Fairgrounds are not a good idea, so answer (e). The answer is (e)."
+        "[INCORRECT] Fairgrounds are not a good place to have fun with a few people, so answer (e). [CORRECT] Fairgrounds are not a good place to have fun with a few people, so answer (e)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3512,7 +3512,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Crabs live in saltwater, so answer (e). [CORRECT] Galapagos is a tropical archipelago, so answer (e). The answer is (e)."
+        "[INCORRECT] Crabs live in water, so answer (e). [CORRECT] Galapagos is a tropical archipelago, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3624,7 +3624,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bus stop is a place where a bus stops, so answer (e). [CORRECT] Bus depot is a place where a bus depot is, so answer (e). The answer is (e)."
+        "[INCORRECT] Bus stop is a place where you sit and wait for a bus, so answer (e). [CORRECT] Train station is a place where trains stop, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3792,11 +3792,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Single shower curtain is used in bathtub, so answer (e). [CORRECT] Department store is not a good option, so answer (e). The answer is (e)."
+        "[INCORRECT] Single shower curtain is used in bathtub, so answer (e). [CORRECT] Single shower curtain is used in washing area, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3848,11 +3848,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (e). [CORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (c). The answer is (c)."
+        "[INCORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (e). [CORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3861,7 +3861,7 @@
     "doc_hash": "5415af7aa16b4f090d90958f73d74a7f9cbf3e1fc23f4e14cc303f62a14ded8b",
     "prompt_hash": "e68dc7b99e5664a5a624d541e623119180e20ace1c79bb9a2ecc888fc9e73c0f",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 69,
@@ -3960,7 +3960,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Read a book that is very dry and long, and you may become bored, so answer (e). The answer is (e)."
+        "[INCORRECT] Read a book that is very dry and long, so answer (e). [CORRECT] Read a book that is very long, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4072,7 +4072,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Kids didn't clean up after they had done, so answer (e). [CORRECT] Play games, so answer (e). The answer is (e)."
+        "[INCORRECT] Kids didn't clean up after they had done, so answer (e). [CORRECT] Play with toys is not a good idea, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4240,11 +4240,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Getting out of bed is a likely cause of multiple waking, so answer (e). [CORRECT] Getting out of bed is a likely cause of depression, so answer (c). The answer is (c)."
+        "[INCORRECT] Getting out of bed is a likely cause, so answer (e). [CORRECT] Getting out of bed is a sign of depression, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4408,11 +4408,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harry said that he could have always made a different choice, so answer (e). [CORRECT] Choices are (a) free will and choice, so answer (a)."
+        "[INCORRECT] Harry said that he could have always made a different choice, so answer (e). [CORRECT] Choices are (a) free will, (b) choice, (c) will, and (d) alcohol. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4912,7 +4912,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Remembering something is because of your knowledge, so answer (e). [CORRECT] Knowledge is the most important thing, so answer (e). The answer is (e)."
+        "[INCORRECT] Remembering something is because of your knowledge, so answer (e). [CORRECT] Knowledge is the most important thing to remember, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5024,7 +5024,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Friday is a day to remember, so answer (e). [CORRECT] Friday is a day to remember, so answer (e). The answer is (e)."
+        "[INCORRECT] Friday is a day of rest, so answer (e). [CORRECT] Sleeping in is not a good idea, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5080,11 +5080,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Teens get drink when they walk in the door, so answer (e). [CORRECT] Stagger is not a good word for getting drink, so answer (e). The answer is (e)."
+        "[INCORRECT] Teens get drink when they walk in the door, so answer (e). [CORRECT] Stagger when they walk in the door, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5416,7 +5416,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Billy sets aside a block of time for having fun after work, so answer (e). [CORRECT] Pleasure is a good reason, so answer (e). The answer is (e)."
+        "[INCORRECT] Billy sets aside a block of time for having fun after work, so answer (e). [CORRECT] Pleasure is the most likely reason, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5472,11 +5472,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Man in the white suit is lazy, so answer (d). [CORRECT] Ban in the blue has put in effort, so answer (e). The answer is (e)."
+        "[INCORRECT] Man in the white suit was lazy, so answer (e). [CORRECT] Ban in the blue has put in effort, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5485,7 +5485,7 @@
     "doc_hash": "a78d310fc0c35db738cc363e0f227c37aa17b7ec4fc4d8c2ee8d94f8f00f3bf7",
     "prompt_hash": "ce9ffc183df08edb503792f3863e1f5a6e7b4da147adf87634b1887d5ac5bffe",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -5528,7 +5528,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] If you have too much greed, you cannot do anything, so answer (e). [CORRECT] Play poker is not an option, so answer (e). The answer is (e)."
+        "[INCORRECT] Greed is a very bad thing, so answer (e). [CORRECT] Greed is a very bad thing, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5584,7 +5584,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hotel was a place to stay, so answer (e). [CORRECT] Las vegas is a place to stay, so answer (e). The answer is (e)."
+        "[INCORRECT] It was a long trip from the farm, so answer (e). [CORRECT] Las vegas is a hotel, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5640,7 +5640,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Department store serves as a security measure at a new york, so answer (e). [CORRECT] New york is a department store, so answer (e). The answer is (e)."
+        "[INCORRECT] Department store serves as a security measure at a new york, so answer (e). [CORRECT] New york is a new york, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6032,11 +6032,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Animals do not feel pleasure when an enemy is approaching, so answer (e). [CORRECT] Animals do not procreate, so answer (d). The answer is (d)."
+        "[INCORRECT] Animals do not do anything when an enemy is approaching, so answer (e). [CORRECT] Animals do not feel pleasure, so answer (b). The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6045,7 +6045,7 @@
     "doc_hash": "7a8ed3623467c7786caff2ef8dd240f4e35aa5d724efe3fa898c3900525ca434",
     "prompt_hash": "26daada1351d0acf868f55b0ae4baf0f3240b99ec09bf208ed8c9894d8f0d428",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 8,
@@ -6088,11 +6088,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Reading newspaper is reading how to read, so answer (e). [CORRECT] Money is a way to read, so answer (e). The answer is (e)."
+        "[INCORRECT] Reading newspaper is reading about news, so answer (e). [CORRECT] Reading newspaper is reading about news, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Playing guitar is typically done by crying, singing, or making music, so answer (e). [CORRECT] Playing guitar is typically done by crying, singing, or making music, so answer (c). The answer is (c)."
+        "[INCORRECT] Playing guitar is usually crying, so answer (e). [CORRECT] Singing is usually crying, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -6536,11 +6536,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Stay in bed, so answer (e). [CORRECT] To stay busy, you can do (a) reach tentative agreement, so answer (b). The answer is (b)."
+        "[INCORRECT] Stay in bed, so answer (e). [CORRECT] To stay busy, you can do (a). The answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6760,7 +6760,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Wood is a floor, so answer (e). [CORRECT] Floor is a floor, so answer (e). The answer is (e)."
+        "[INCORRECT] Wood is a floor, so answer (e). [CORRECT] Hardware store sells hardware, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6816,7 +6816,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Painted when the artist was feeling sadness, so answer (e). The answer is (e)."
+        "[INCORRECT] Painted when he was feeling sadness, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6872,7 +6872,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Thin film is undestroyable, so answer (e). [CORRECT] Durable is undestroyable, so answer (c). The answer is (c)."
+        "[INCORRECT] Thin film is fragile, so answer (e). [CORRECT] Durable is the correct answer, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7040,11 +7040,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Wildlife reproduce, so answer (e). [CORRECT] Wildlife reproduce, so answer (c). The answer is (c)."
+        "[INCORRECT] Wildlife reproduce, so answer (e). [CORRECT] Wildlife reproduce, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7152,11 +7152,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Blue read material outside of his comfort zone is new perspective, so answer (e). [CORRECT] New perspective is entertained, so answer (c). The answer is (c)."
+        "[INCORRECT] Blue read material outside of his comfort zone is new perspective, so answer (e). [CORRECT] New perspective is understanding, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7376,11 +7376,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Underground map from the 50s is a library, so answer (e). [CORRECT] Supermarket contains many books, so answer (c). The answer is (c)."
+        "[INCORRECT] Underground map from 50s is not easily found, so answer (e). [CORRECT] Supermarket contains old maps, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Seen a yellow light, so answer (e). The answer is (e)."
+        "[INCORRECT] Seen a yellow light, so answer (e). [CORRECT] Seen a slow down, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7445,7 +7445,7 @@
     "doc_hash": "8d79605048144c9fcd5bc5640c37c3992dfb91ff8104352f55aac1605bf27662",
     "prompt_hash": "5fa8c0bf1d72ea0e94eaae6635f15b73e0d83dc99928eed6555e1d3846b21ea8",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 33,
@@ -7488,7 +7488,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Wait their turn is standing in line, so answer (e). The answer is (e)."
+        "[INCORRECT] Wait their turn is a feeling, so answer (e). [CORRECT] Wait their turn is a feeling, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7600,11 +7600,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the lock, so answer (e). [CORRECT] The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the lock, so answer (e)."
+        "[INCORRECT] The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the lock, so answer (e). [CORRECT] Train locks are not a good choice for a thief, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7656,7 +7656,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Police officer likely to work for a police department, so answer (e). [CORRECT] Police officer likely to work for a city, so answer (c). The answer is (c)."
+        "[INCORRECT] Police officer likely to work for a city, so answer (e). [CORRECT] Police officer likely to work for a president, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Quandry is a kitchen, so answer (e). [CORRECT] refrigerator is a kitchen, so answer (c). The answer is (c)."
+        "[INCORRECT] Quandry is leftovers, so answer (e). [CORRECT] refrigerator is closest to leftovers, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -8496,7 +8496,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Drinking and slurred speech, so answer (e). The answer is (e)."
+        "[INCORRECT] Drinking alcohol can cause slurred speech, so answer (e). [CORRECT] Slurred speech is a result of alcohol, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8552,7 +8552,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Time builds momentum, so answer (e). [CORRECT] Time builds momentum, so answer (d). The answer is (d)."
+        "[INCORRECT] Time builds momentum, so answer (e). [CORRECT] Time is building momentum, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
@@ -8664,7 +8664,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Talking to the same person about the same thing over and over again is something someone can learn from, so answer (e). [CORRECT] Learning from the same person is something someone can get tired of, so answer (e). The answer is (e)."
+        "[INCORRECT] Talking to the same person about the same thing over and over again is something someone can learn from, so answer (e). [CORRECT] Learning from the same person is something someone can learn from, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8720,11 +8720,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Teacher doesn't tolerate noise during a test in their classroom, so answer (e). [CORRECT] Classroom is a place where students are expected to be quiet, so answer (e). The answer is (e)."
+        "[INCORRECT] Teacher doesn't tolerate noise during a test in a movie theatre, so answer (e). [CORRECT] Teacher doesn't tolerate noise during a test in a bowling alley, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8733,7 +8733,7 @@
     "doc_hash": "53d6730ae3aad9c123d86e68791512b89f350656d461aa7f44dcfafa842d6315",
     "prompt_hash": "c3cd6d8ad0d26005cd5d686e2bedaa32262a4633845794dcffc96760701b632d",
     "target_hash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 56,
@@ -8776,11 +8776,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Freeway has no traffic, so answer (c). [CORRECT] California has no traffic, so answer (b). The answer is (b)."
+        "[INCORRECT] Freeway has no traffic, so answer (e). [CORRECT] Freeway has few buildings, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8789,7 +8789,7 @@
     "doc_hash": "3cb9fb78750affca9e663dd19288b4a2546632cf27e7eca7e71da5083a48de23",
     "prompt_hash": "157ab57de37324e02f41e90a18b1c9217931e56cf0744ac24ab99eec7dc3877a",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 57,
@@ -8832,7 +8832,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Going to a fairground is not a good idea, so answer (e). [CORRECT] Fairgrounds are not a good idea, so answer (e). The answer is (e)."
+        "[INCORRECT] Fairgrounds are not a good place to have fun with a few people, so answer (e). [CORRECT] Fairgrounds are not a good place to have fun with a few people, so answer (e)."
       ]
     ],
     "filtered_resps": [
@@ -9112,7 +9112,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Crabs live in saltwater, so answer (e). [CORRECT] Galapagos is a tropical archipelago, so answer (e). The answer is (e)."
+        "[INCORRECT] Crabs live in water, so answer (e). [CORRECT] Galapagos is a tropical archipelago, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9224,7 +9224,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Bus stop is a place where a bus stops, so answer (e). [CORRECT] Bus depot is a place where a bus depot is, so answer (e). The answer is (e)."
+        "[INCORRECT] Bus stop is a place where you sit and wait for a bus, so answer (e). [CORRECT] Train station is a place where trains stop, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9392,11 +9392,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Single shower curtain is used in bathtub, so answer (e). [CORRECT] Department store is not a good option, so answer (e). The answer is (e)."
+        "[INCORRECT] Single shower curtain is used in bathtub, so answer (e). [CORRECT] Single shower curtain is used in washing area, so answer (c). The answer is (c)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9448,11 +9448,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (e). [CORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (c). The answer is (c)."
+        "[INCORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (e). [CORRECT] Fire extinguisher is not a requirement to have a fire extinguisher, so answer (e)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9461,7 +9461,7 @@
     "doc_hash": "5415af7aa16b4f090d90958f73d74a7f9cbf3e1fc23f4e14cc303f62a14ded8b",
     "prompt_hash": "e68dc7b99e5664a5a624d541e623119180e20ace1c79bb9a2ecc888fc9e73c0f",
     "target_hash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 69,
@@ -9560,7 +9560,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Read a book that is very dry and long, and you may become bored, so answer (e). The answer is (e)."
+        "[INCORRECT] Read a book that is very dry and long, so answer (e). [CORRECT] Read a book that is very long, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9672,7 +9672,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Kids didn't clean up after they had done, so answer (e). [CORRECT] Play games, so answer (e). The answer is (e)."
+        "[INCORRECT] Kids didn't clean up after they had done, so answer (e). [CORRECT] Play with toys is not a good idea, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9840,11 +9840,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Getting out of bed is a likely cause of multiple waking, so answer (e). [CORRECT] Getting out of bed is a likely cause of depression, so answer (c). The answer is (c)."
+        "[INCORRECT] Getting out of bed is a likely cause, so answer (e). [CORRECT] Getting out of bed is a sign of depression, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10008,11 +10008,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Harry said that he could have always made a different choice, so answer (e). [CORRECT] Choices are (a) free will and choice, so answer (a)."
+        "[INCORRECT] Harry said that he could have always made a different choice, so answer (e). [CORRECT] Choices are (a) free will, (b) choice, (c) will, and (d) alcohol. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10512,7 +10512,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Remembering something is because of your knowledge, so answer (e). [CORRECT] Knowledge is the most important thing, so answer (e). The answer is (e)."
+        "[INCORRECT] Remembering something is because of your knowledge, so answer (e). [CORRECT] Knowledge is the most important thing to remember, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10624,7 +10624,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Friday is a day to remember, so answer (e). [CORRECT] Friday is a day to remember, so answer (e). The answer is (e)."
+        "[INCORRECT] Friday is a day of rest, so answer (e). [CORRECT] Sleeping in is not a good idea, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10680,11 +10680,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Teens get drink when they walk in the door, so answer (e). [CORRECT] Stagger is not a good word for getting drink, so answer (e). The answer is (e)."
+        "[INCORRECT] Teens get drink when they walk in the door, so answer (e). [CORRECT] Stagger when they walk in the door, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -11016,7 +11016,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Billy sets aside a block of time for having fun after work, so answer (e). [CORRECT] Pleasure is a good reason, so answer (e). The answer is (e)."
+        "[INCORRECT] Billy sets aside a block of time for having fun after work, so answer (e). [CORRECT] Pleasure is the most likely reason, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -11072,11 +11072,11 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Man in the white suit is lazy, so answer (d). [CORRECT] Ban in the blue has put in effort, so answer (e). The answer is (e)."
+        "[INCORRECT] Man in the white suit was lazy, so answer (e). [CORRECT] Ban in the blue has put in effort, so answer (d). The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -11085,7 +11085,7 @@
     "doc_hash": "a78d310fc0c35db738cc363e0f227c37aa17b7ec4fc4d8c2ee8d94f8f00f3bf7",
     "prompt_hash": "ce9ffc183df08edb503792f3863e1f5a6e7b4da147adf87634b1887d5ac5bffe",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 98,
@@ -11128,7 +11128,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] If you have too much greed, you cannot do anything, so answer (e). [CORRECT] Play poker is not an option, so answer (e). The answer is (e)."
+        "[INCORRECT] Greed is a very bad thing, so answer (e). [CORRECT] Greed is a very bad thing, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -11184,7 +11184,7 @@
     ],
     "resps": [
       [
-        "[INCORRECT] Hotel was a place to stay, so answer (e). [CORRECT] Las vegas is a place to stay, so answer (e). The answer is (e)."
+        "[INCORRECT] It was a long trip from the farm, so answer (e). [CORRECT] Las vegas is a hotel, so answer (e). The answer is (e)."
       ]
     ],
     "filtered_resps": [

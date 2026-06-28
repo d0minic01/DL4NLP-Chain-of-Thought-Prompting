@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-1b-it,letter_shift_true_baseline,letter_shift,true_baseline,zero_shot,letter_shift,0.06,0.63,34.0,0,100,10.3,4.38

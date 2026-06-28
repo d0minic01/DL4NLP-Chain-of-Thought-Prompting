@@ -60,7 +60,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 2 bolts * 1/2 = 1/4 bolt. 2 bolts * 1/4 = 1/2 bolt. 1/2 bolt * 2 = 2 bolts. The answer is 2."
+        "As a mathematician: 2 bolts * 2 bolts/bolt = 4 bolts.  Half that much fiber is 1/2 * 4 = 2 bolts. The answer is 2."
       ]
     ],
     "filtered_resps": [
@@ -98,11 +98,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: value of the house is $80,000 * 150% = $1,000,000. Profit is $1,000,000 - $80,000 = $80,000. The answer is $80,000."
+        "As a mathematician: value of the house is $80,000.  value of the house increased by 150% = $80,000 * 1.15 = $96,000. The profit is the difference between the original value and the new value: $96,000 - $80,000 = $26,000. The answer is 26,000."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "26,000"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -174,11 +174,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15 cups of feed * 3 cups per cup = 45 cups of feed. 25 cups of feed * 25 cups per cup = 625 cups of feed. 3 cups of feed * 25 cups per cup = 75 cups of feed. 45 cups of feed * 20 chickens = 800 cups of feed. 625 cups of feed * 20 chickens = 1225 cups of feed. 800 cups of feed * 20 chickens = 1600 cups of feed. 1225 cups of feed * 20 chickens = 2425 cups of feed. 1600 cups of feed * 20 chickens = 2400 cups of feed. 2400 cups of feed * 20 chickens = 4800 cups of feed. 4800 cups of feed * 20 chickens = 8400 cups of feed. 8400 cups of feed * 20 chickens = 16800 cups of feed. 16800 cups of feed *"
+        "As a mathematician: 15 cups of feed / 3 meals = 5 cups of feed per meal. 25 cups of feed / 20 chickens = 1 cup per chicken. The answer is 1 cup per chicken."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -212,11 +212,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: first, find the total cost of the first 16 glasses. 16 * 60% = 120. Then, find the cost of the second 16 glasses. 16 * 60% = 120. Then, find the cost of the third 16 glasses. 16 * 60% = 120. Then, find the cost of the fourth 16 glasses. 16 * 60% = 120. Then, find the cost of the fifth 16 glasses. 16 * 60% = 120. The total cost is 120 + 120 + 120 + 120 = 440. The answer is 440."
+        "As a mathematician: cost is 16 * 0.6 = 9.6. Remaining is 16 - 9.6 = 13.2. The answer is 13.2."
       ]
     ],
     "filtered_resps": [
-      "440"
+      "13.2"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 200 GB / 20 minutes = 100 GB / 20 minutes = 500 GB / 20 minutes = 250 GB / 20 minutes = 1000 GB / 20 minutes = 400 GB / 20 minutes = 1600 GB / 20 minutes = 800 GB / 20 minutes = 3600 GB / 20 minutes = 1600 GB / 20 minutes = 7200 GB / 20 minutes = 3200 GB / 20 minutes = 1200 GB / 20 minutes = 4800 GB / 20 minutes = 1600 GB / 20 minutes = 7200 GB / 20 minutes = 3200 GB / 20 minutes = 1200 GB / 20 minutes = 4800 GB / 20 minutes = 1600 GB / 20 minutes = 7200 GB / 20 minutes = 3200 GB"
+        "As a mathematician: 200 GB / 2 GB/minute = 100 minutes. The load is 100 minutes * 2 = 200 minutes. The answer is 200."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "200"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -326,11 +326,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 3 hours * 60 mph = 180 mph. 4 hours * 30 mph = 120 mph. 180 mph - 120 mph = 60 mph. 60 mph / 30 mph = 2 hours. 2 hours * 4 hours = 8 hours. 8 hours - 4 hours = 4 hours. 4 hours - 2 hours = 2 hours. 2 hours - 1 hour = 1 hour. 1 hour - 1 hour = 0 hours. 0 hours - 0 hours = 0 hours. 0 hours - 4 hours = 4 hours. 4 hours - 4 hours = 0 hours. 0 hours - 2 hours = 2 hours. 2 hours - 1 hour = 1 hour. 1 hour - 1 hour = 0 hours. 0 hours - 4 hours = 4 hours. 4 hours - 4 hours = 0 hours. 0 hours - 2 hours = 0 hours. 0 hours - 1 hour = 0 hours. 0 hours - 1 hour = 0 hours"
+        "As a mathematician: 3 hours * 60 mph = 180 mph. 4 hours * 30 mph = 120 mph. 180 mph - 120 mph = 60 mph. 60 mph / 120 mph = 0.57735 miles. The answer is 0.57735."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "0.57735"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: rate is 10 * 45 = 420. overtime pay is 1.2 * 45 = 52.5. Eliza's earnings for this week is 420 + 52.5 = 472.5. The answer is 472.5."
+        "As a mathematician: rate per hour is 10 * 45 = 420. Overtime pay is 1.2 * 420 = 480. The answer is 480."
       ]
     ],
     "filtered_resps": [
-      "472.5"
+      "480"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,11 +402,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total downloads is 60 + 30 + 30 = 100. The number of downloads in the first month is 60 - 30 = 30. The number of downloads in the second month is 30 + 30 = 60. The number of downloads in the third month is 60 - 60 = 0. The answer is 0."
+        "As a mathematician: number of downloads in the first month is 60. number of downloads in the second month is 3 * 60 = 180. number of downloads in the third month is 3 * 180 = 540. total downloads is 180 + 540 = 620. The answer is 620."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "620"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -668,7 +668,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 50 weeks * 50 hours/week * 35 hours/week = 15,000 hours/year. 15,000 hours/year * 35 hours/week = 5,500 hours/year. 5,500 hours/year * 30 hours/week = 15,000 hours/year. 15,000 hours/year * 20 weeks/year = 30,000 weeks/year. 30,000 weeks/year * 50 weeks/year = 15,000 weeks/year. 15,000 weeks/year * 20 hours/week = 25,000 hours/year. 25,000 hours/year * 30 hours/week = 75,000 hours/year. 75,000 hours/year * 30 hours/week = 21,000 hours/year. 21,000 hours/year * 50 weeks/year = 10"
+        "As a mathematician: 50 weeks * 50 hours/week * 35 hours/week = 15,000 hours/year. 15,000 hours/year * 35 hours/week = 5,500 hours/year. 35 hours/week * 50 weeks/year = 15,000 weeks/year. 15,000 weeks/year * 35 hours/week = 5,500 hours/year. 5,500 hours/year * 20 hours/week = 12,500 hours/year. 12,500 hours/year * 35 hours/week = 4,800 hours/year. 4,800 hours/year * 30 hours/week = 14,600 hours/year. 14,600 hours/year * 15 hours/week = 19,200 hours/year. 19,200 hours/year * 30 hours/week = 56,400 hours/year"
       ]
     ],
     "filtered_resps": [
@@ -706,7 +706,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 3 eggs = 3 * 2 = 6 eggs. 4 weeks = 4 * 6 = 24 eggs. 2 eggs = 2 * 3 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6"
+        "As a mathematician: 3 eggs = 3 * 2 = 6 eggs. 4 weeks = 4 * 6 = 24 eggs. 2 eggs = 2 * 3 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs = 9 * 9 = 81 eggs. 8 eggs = 8 * 8 = 64 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs = 9 * 9 = 81 eggs. 8 eggs = 8 * 8 = 64 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs = 9 * 9 = 81 eggs. 8 eggs = 8 * 8 = 64 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs"
       ]
     ],
     "filtered_resps": [
@@ -744,11 +744,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 12 miles / 1 hour = 12 miles / 1 hour = 12 miles per hour.\n\nSince she walked 4 miles, she walked 12 miles per hour. To find her average speed, she would divide the total distance by the total time: 12 miles / 1 hour = 12 miles per hour.\n\nSo, Marissa needs to walk the remaining distance at an average speed of 12 miles per hour."
+        "As a mathematician: 12 miles / 4 hours = 3 miles per hour. The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "3"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -820,11 +820,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 6 years before Raymond was born is 6 - 1 = 5 years. Raymond's son was born at the age of 23. So, 5 years before Raymond was born, Raymond's son was born at the age of 23. The answer is 23."
+        "As a mathematician: 6 years before Raymond was born is 6 - 1 = 5 years. Raymond's son was born 5 years before. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "23"
+      "5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -858,11 +858,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: customers on Tuesday are 8 - 3 = 5. Customers on Wednesday are 5 - 2 = 3. Customers on Thursday are 3 - 2 = 1. Customers on Friday are 1 - 1 = 0. Customers on Saturday are 0 - 1 = 9. The answer is 9."
+        "As a mathematician: customers on Tuesday are 3 + 2 = 5. Customers on Wednesday are 2 + 2 = 4. Customers on Thursday are 2 + 2 = 4. Customers on Friday are 2 + 2 = 4. Customers on Saturday are 2 + 2 = 4. Customers on Sunday are 2 + 2 = 4. The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "9"
+      "4"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: original price is 19.50 + 25% = 20.50. Discount is 25% of 20.50, which is 0.25 * 20.50 = 5.25. The original price is 20.50 - 5.25 = 17.75. The answer is 17.75."
+        "As a mathematician: original price is 19.50 + 0.25 = 20.50. Discount is 25% = 0.25 * 19.50 = 4.50. The original price is 20.50 - 4.50 = 17.50. The answer is 17.50."
       ]
     ],
     "filtered_resps": [
-      "17.75"
+      "17.50"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -972,11 +972,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 5 * 3 = 15. Remaining is 15 - 15 = 0. The answer is 0. The boxes of pizza were ordered."
+        "As a mathematician: cost is 12 * 5 = 60. Total is 60 + 4 = 64. The answer is 64."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "64"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1124,11 +1124,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total shoes cost is 5 * 33 = 156. Total heels cost is 2 * 33 = 66. The answer is 156 + 66 = 222."
+        "As a mathematician: total cost is 5 * 33 = 156. The shoes are 156 - 156 = 0. The boots are 156 - 156 = 0. The shoes and heels are 0. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "156"
+      "0"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1200,7 +1200,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the first friend is correct, so the second friend is correct, and the third friend is correct. The fourth friend is correct, and the fifth friend is correct. The sixth friend is correct, and the seventh friend is correct. The eighth friend is correct, and the ninth friend is correct. The tenth friend is correct, and the eleventh friend is correct. The twelfth friend is correct, and the thirteenth friend is correct. The thirteenth friend is correct, and the fourteenth friend is correct. The fourteenth friend is correct, and the fifteenth friend is correct. The fifteenth friend is correct, and the sixteenth friend is correct. The sixteenth friend is correct, and the seventeenth friend is correct. The seventeenth friend is correct, and the eighteenth friend is correct. The eighteenth friend is correct, and the nineteenth friend is correct. The nineteenth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is"
+        "As a mathematician: the first friend is correct, so the second friend is correct, and the third friend is correct. The fourth friend is correct, so the fifth friend is correct. The sixth friend is correct, so the seventh friend is correct. The eighth friend is correct, so the ninth friend is correct. The tenth friend is correct, so the tenth friend is correct. The eleventh friend is correct, so the eleventh friend is correct. The twelfth friend is correct, so the twelfth friend is correct. The thirteenth friend is correct, so the thirteenth friend is correct. The fourteenth friend is correct, so the fourteenth friend is correct. The fifteenth friend is correct, so the fifteenth friend is correct. The sixteenth friend is correct, so the sixteenth friend is correct. The seventeenth friend is correct, so the seventeenth friend is correct. The eighteenth friend is correct, so the eighteenth friend is correct. The nineteenth friend is correct, so the nineteenth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is"
       ]
     ],
     "filtered_resps": [
@@ -1238,11 +1238,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 10 dogs / 5 hours = 2 hours per dog. 10 dogs / 2 hours = 5 hours per day. 5 hours per day * 10 dogs = 50 hours. The answer is 50."
+        "As a mathematician: 10 dogs / 5 hours = 2.5 hours per day. 10 dogs / 2.5 hours = 4.25 hours per week. The answer is 4.25."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "4.25"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1276,11 +1276,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total is 110 - 30 = 80. The number of silver coins is 80 - 30 = 50. The answer is 50."
+        "As a mathematician: 110 - 30 = 80. Gold coins total is 110 + 80 = 190. Silver coins total is 190 - 30 = 160. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "50"
+      "160"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 60 miles / 60 miles per week = 1 hour. 3 days a week * 3 hours = 9 hours. 3 hours / 2 = 1.5 hours. 3 hours / 2 = 1.5 hours. 1.5 hours / 2 = 0.75 hours. 0.75 hours / 2 = 0.375 hours. 0.375 hours / 2 = 0.15 hours. 0.15 hours / 2 = 0.075 hours. 0.075 hours / 2 = 0.045 hours. 0.045 hours / 2 = 0.015 hours. 0.015 hours / 2 = 0.006 hours. 0.006 hours / 2 = 0.003 hours. 0.003 hours / 2 = 0.001 hours. 0.001 hours / 2 = 0.0001 hours. 0.0001 hours / 2"
+        "As a mathematician: 60 miles / 60 miles per week = 1 hour. 3 days a week * 3 hours = 9 hours. 3 hours / 2 = 1.5 hours. 1.5 hours / 2 = 0.75 hours. 0.75 hours / 2 = 0.375 hours. 0.375 hours / 2 = 0.15 hours. 0.15 hours / 2 = 0.075 hours. 0.075 hours / 2 = 0.045 hours. 0.045 hours / 2 = 0.025 hours. 0.025 hours / 2 = 0.0125 hours. 0.0125 hours / 2 = 0.00875 hours. 0.00875 hours / 2 = 0.005 hours. 0.005 hours / 2 = 0.0025 hours. 0.0025 hours / 2 = 0.001"
       ]
     ],
     "filtered_resps": [
@@ -1504,11 +1504,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: speed is 4 * 3 = 12. time is 12 / 3 = 4.5. distance is 12 * 4.5 = 54 miles. The answer is 54."
+        "As a mathematician: speed is 4 * 3 = 12. time is 12 / 3 = 4.5. distance is 12 * 4.5 = 54.5 miles. The answer is 54.5."
       ]
     ],
     "filtered_resps": [
-      "54"
+      "54.5"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1884,11 +1884,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15 * 8 = 112. The answer is 112."
+        "As a mathematician: 15 * 8 = 120. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "112"
+      "120"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1922,11 +1922,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: number of eggs per day is 252 / 2 = 128. The number of eggs sold per week is 128 * 60 = 7200. The answer is 7200."
+        "As a mathematician: number of eggs per day is 252 / 2 = 128. The number of eggs sold per day is 128 * 2 = 256. The number of eggs sold per week is 256 - 128 = 132. The answer is 132."
       ]
     ],
     "filtered_resps": [
-      "7200"
+      "132"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1960,7 +1960,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 10 miles per hour * 6 mph = 60 miles per hour.  Tom travels at 60 miles per hour.  He then travels back at 60 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0"
+        "As a mathematician: 10 miles per hour * 6 mph = 60 miles per hour.  Tom travels at 60 miles per hour.  He then travels back at 60 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour. "
       ]
     ],
     "filtered_resps": [
@@ -1998,11 +1998,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/4 pound each = 1/12 pound each. 1/2 pound each = 1/4 pound each. 30 comic books = 30 * 1/4 = 100 pounds. Removing 15 pounds from the book bag will remove 100 - 15 = 95 pounds. The answer is 95."
+        "As a mathematician: 1/4 pound each is 1/4 * 1/2 = 1/16. 30 comic books is 30 / 16 = 1.5 pounds. 15 pounds is 15 / 16 = 1/8. The answer is 1/8."
       ]
     ],
     "filtered_resps": [
-      "95"
+      "1"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2188,11 +2188,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: weight limit is 5000 pounds. The truck can carry 3755 pounds. The total weight of the boxes is 5000 + 3755 = 8755 pounds. The truck can carry 8755 * 5000 = 410,000 pounds. The maximum number of boxes that can be loaded onto the truck is 410,000 - 8755 = 26555 pounds. The answer is 26555."
+        "As a mathematician: total weight of boxes is 3755 - 5000 = 2755. The maximum number of boxes that can be loaded is 2755 - 5000 = 1250. The answer is 1250."
       ]
     ],
     "filtered_resps": [
-      "26555"
+      "1250"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2302,11 +2302,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/2 * 25 = 12. The answer is 12."
+        "As a mathematician: 1/25 * 100 = 50%. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "50"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 500 * 0.01 = 0.01. 10% of that is 0.1 * 0.01 = 0.001. 10% of that is 0.001 * 0.01 = 0.0001. 10% of that is 0.0001 * 0.01 = 0.00001. 10% of that is 0.00001 * 0.01 = 0.000001. 10% of that is 0.000001 * 0.01 = 0.0000001. 10% of that is 0.0000001 * 0.01 = 0.000000001. 10% of that is 0.000000001 * 0.01 = 0.00000000001. 10% of that"
+        "As a mathematician: cost is 500 * 0.01 = 50. The jeweler will charge 10% of that, which is 50 * 0.01 = 0.05. The remaining amount is 50 - 0.05 = 55. The answer is 55."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "55"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,7 +2378,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 40 years * 5% = 2.5% of 50,000. 20 years * 2.5% = 5.25% of 50,000. 30 years * 5.25% = 1.56% of 50,000. 30 years * 1.56% = 4.83% of 50,000. 30 years * 4.83% = 12.5% of 50,000. 30 years * 12.5% = 4.125% of 50,000. 30 years * 4.125% = 12.5% of 50,000. 30 years * 12.5% = 4.125% of 50,000. 30 years * 4.125% = 12.5% of 50,000. 30 years * 12.5"
+        "As a mathematician: 40 years * 5% = 2.5% of 50,000. 20 years * 2.5% = 5.25% of 50,000. 30 years * 5.25% = 1.56% of 50,000. 30 years * 1.56% = 5.25% of 50,000. 40 years * 5.25% = 2.25% of 50,000. 40 years * 2.25% = 1.00% of 50,000. 50 years * 1.00% = 5.00% of 50,000. 50 years * 5.00% = 2.50% of 50,000. 50 years * 2.50% = 1.00% of 50,000. 50 years * 1.00% = 5"
       ]
     ],
     "filtered_resps": [
@@ -2416,7 +2416,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: initial amount is 140 * 1 = 140. The total amount she paid is 140 + 10 = 150. The total amount she paid is 150 - 140 = 10. The total amount she paid is 10 * 140 = 1400. The total amount she paid is 1400 - 150 = 1200. The total amount she paid is 1200 - 10 = 1100. The total amount she paid is 1100 - 10 = 1000. The total amount she paid is 1000 - 140 = 700. The total amount she paid is 700 - 140 = 580. The total amount she paid is 580 - 10 = 560. The total amount she paid is 560 - 10 = 540. The total amount she paid is 540 - 140 = 420. The total amount she"
+        "As a mathematician: total amount paid is 140 - 10 = 130. The total amount she paid is 130 * 1.10 = 142.10. The total amount she paid is 130 + 142.10 = 272.20. The total amount she paid is 130 + 142.10 = 272.20. The total amount she paid is 272.20 + 142.10 = 414.30. The total amount she paid is 414.30 + 142.10 = 556.40. The total amount she paid is 556.40 + 142.10 = 698.50. The total amount she paid is 698.50 + 142.10 = 830.60. The total amount she paid is 830.60 + 142.10 = 972.70. The total amount she paid"
       ]
     ],
     "filtered_resps": [
@@ -2454,11 +2454,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 100 miles / 4 gallons/mile = 25 miles. The answer is 25."
+        "As a mathematician: since she needs 4 gallons of gas, she needs 12 * 4 = 48 gallons of gas. The tank holds 12 + 4 = 16 gallons. The total distance she can drive is 100 - 48 = 52 miles. The answer is 52."
       ]
     ],
     "filtered_resps": [
-      "25"
+      "52"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2492,7 +2492,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 2 hours * 3 = 6 hours. 2 * 6 = 12 hours. 12 hours / 2 = 6 hours. 6 hours / 2 = 3 hours. 3 hours / 2 = 1 hour. 1 hour / 2 = 0.5 hours. 0.5 hours / 3 = 0.15 hours. 0.15 hours / 4 = 0.06 hours. 0.06 hours / 4 = 0.02 hours. 0.02 hours / 4 = 0.006 hours. 0.006 hours / 4 = 0.0004 hours. 0.0004 hours / 4 = 0.000006 hours. 0.000006 hours / 4 = 0.0000006 hours. 0.0000006 hours / 4 = 0.0000000000000000000000000000"
+        "As a mathematician: 2 hours * 3 = 6 hours. 2 * 6 = 12 hours. 12 hours / 2 = 6 hours. 6 hours / 2 = 3 hours. 3 hours / 2 = 1 hour. 1 hour / 2 = 0.5 hours. 0.5 hours / 3 = 0.15 hours. 0.15 hours / 4 = 0.05 hours. 0.05 hours / 4 = 0.005 hours. 0.005 hours / 1 = 0.0005 hours. 0.0005 hours / 4 = 0.00005 hours. 0.00005 hours / 4 = 0.000005 hours. 0.000005 hours / 1 = 0.0000005 hours. 0.0000005 hours / 4 = 0.00000005 hours. 0.00000005 hours"
       ]
     ],
     "filtered_resps": [
@@ -2720,7 +2720,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: instructions are 20 + 2 = 22. Kelian has to read 22 instructions to prepare the two dishes. The answer is 22."
+        "As a mathematician: instructions are 20 + 2 = 22. Kelian has to read 22 instructions. The answer is 22."
       ]
     ],
     "filtered_resps": [
@@ -2758,7 +2758,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 43 * 4 = 169. Remaining is 23 - 169 = 12. The answer is 12."
+        "As a mathematician: cost is 43 * 3 = 129. Remaining is 23 - 129 = 12. The answer is 12."
       ]
     ],
     "filtered_resps": [
@@ -2910,11 +2910,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 110 cups * 180 days = 18,000 cups. Total is 18,000 + 2 cups = 19,200 cups. The answer is 19,200."
+        "As a mathematician: cost is 110 * 1 cup = 110 cups. Total is 180 - 110 = 60 cups. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "19,200"
+      "60"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3062,7 +3062,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/6 of 24 liters is 1/6 * 24 = 12 liters. 6 liters is 12 - 12 = 0 liters. The answer is 0."
+        "As a mathematician: 1/6 of 24 liters is 1/6 * 24 = 12 liters. 6 liters is 12 - 12 = 0.\nThe answer is 0."
       ]
     ],
     "filtered_resps": [
@@ -3252,11 +3252,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: each row is made of blocks from a different year of vacations. Each block is made of 12 blocks. Each block is made of 12 blocks. The total number of blocks is 12 * 12 = 144. The answer is 144."
+        "As a mathematician: 1 shirt * 4 vacation = 4 shirts * 4 = 16. 1 shirt * 4 = 4 shirts * 4 = 16. 4 shirts * 4 = 16. 16 + 16 = 32. The answer is 32."
       ]
     ],
     "filtered_resps": [
-      "144"
+      "32"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: alarm rang for 3 * 4 = 12 times. The first alarm rang for 4 * 12 = 48 times. The second alarm rang for 4 * 48 = 192 times. The third alarm rang for 3 * 192 = 504 times. The fourth alarm rang for 2 * 504 = 1000 times. The answer is 1000."
+        "As a mathematician: alarm rang for 4 * 3 = 12 times. alarm rang for 3 * 2 = 6 times. alarm rang for 1 * 1 = 1 time. alarm rang for 2 * 1 = 2 times. alarm rang for 1 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for 1 * 0 = 0 times. alarm rang for 4 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for 1 * 0 = 0 times. alarm rang for 4 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for 1 * 0 = 0 times. alarm rang for 4 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for "
       ]
     ],
     "filtered_resps": [
-      "1000"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3404,11 +3404,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 16 * 0.75 = 10.25. Total is 16 + 10.25 = 26.25. The answer is 26.25."
+        "As a mathematician: cost is 16 * 2 = 32. Total is 16 + 32 = 48. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "26.25"
+      "48"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3518,11 +3518,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: ages are 4 + 2 = 6. The answer is 6."
+        "As a mathematician: ages are 4 + 5 = 9, and 10 + 1 = 11. The answer is 11."
       ]
     ],
     "filtered_resps": [
-      "6"
+      "11"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3632,11 +3632,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 200 - 2/5 = 200 - 2/10 = 190. The answer is 190."
+        "As a mathematician: 200 - 2/5 = 200 - 1/25 = 175 girls. The answer is 175."
       ]
     ],
     "filtered_resps": [
-      "190"
+      "175"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 9 hours / 3 = 3.5 hours. Harry slept 9 - 3 = 6 hours. James slept 2/3 of 6 = 1.5 hours. The answer is 1.5."
+        "As a mathematician: 9 hours is 9 * 60 = 540 hours. 2/3 of 540 hours is 2/3 * 540 = 100 hours. Harry slept 9 + 100 = 101 hours. The answer is 101."
       ]
     ],
     "filtered_resps": [
-      "1.5"
+      "101"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces. 32 ounces of sauce = 32 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of sauce = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12"
+        "As a mathematician: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces. 32 ounces of sauce = 32 * 1/2 = 12 ounces. 32 - 12 = 16. The answer is 16."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "16"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3784,11 +3784,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total potted plants is 18 + 2 = 20. Remaining is 20 - 2 = 18. The answer is 18."
+        "As a mathematician: each ledge has 40 - 1 = 39 potted plants. The answer is 39."
       ]
     ],
     "filtered_resps": [
-      "18"
+      "39"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3860,7 +3860,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 2 bolts * 1/2 = 1/4 bolt. 2 bolts * 1/4 = 1/2 bolt. 1/2 bolt * 2 = 2 bolts. The answer is 2."
+        "As a mathematician: 2 bolts * 2 bolts/bolt = 4 bolts.  Half that much fiber is 1/2 * 4 = 2 bolts. The answer is 2."
       ]
     ],
     "filtered_resps": [
@@ -3898,11 +3898,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: value of the house is $80,000 * 150% = $1,000,000. Profit is $1,000,000 - $80,000 = $80,000. The answer is $80,000."
+        "As a mathematician: value of the house is $80,000.  value of the house increased by 150% = $80,000 * 1.15 = $96,000. The profit is the difference between the original value and the new value: $96,000 - $80,000 = $26,000. The answer is 26,000."
       ]
     ],
     "filtered_resps": [
-      "$80,000."
+      "26,000."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15 cups of feed * 3 cups per cup = 45 cups of feed. 25 cups of feed * 25 cups per cup = 625 cups of feed. 3 cups of feed * 25 cups per cup = 75 cups of feed. 45 cups of feed * 20 chickens = 800 cups of feed. 625 cups of feed * 20 chickens = 1225 cups of feed. 800 cups of feed * 20 chickens = 1600 cups of feed. 1225 cups of feed * 20 chickens = 2425 cups of feed. 1600 cups of feed * 20 chickens = 2400 cups of feed. 2400 cups of feed * 20 chickens = 4800 cups of feed. 4800 cups of feed * 20 chickens = 8400 cups of feed. 8400 cups of feed * 20 chickens = 16800 cups of feed. 16800 cups of feed *"
+        "As a mathematician: 15 cups of feed / 3 meals = 5 cups of feed per meal. 25 cups of feed / 20 chickens = 1 cup per chicken. The answer is 1 cup per chicken."
       ]
     ],
     "filtered_resps": [
-      "16800"
+      "1"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4012,11 +4012,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: first, find the total cost of the first 16 glasses. 16 * 60% = 120. Then, find the cost of the second 16 glasses. 16 * 60% = 120. Then, find the cost of the third 16 glasses. 16 * 60% = 120. Then, find the cost of the fourth 16 glasses. 16 * 60% = 120. Then, find the cost of the fifth 16 glasses. 16 * 60% = 120. The total cost is 120 + 120 + 120 + 120 = 440. The answer is 440."
+        "As a mathematician: cost is 16 * 0.6 = 9.6. Remaining is 16 - 9.6 = 13.2. The answer is 13.2."
       ]
     ],
     "filtered_resps": [
-      "440."
+      "13.2."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 200 GB / 20 minutes = 100 GB / 20 minutes = 500 GB / 20 minutes = 250 GB / 20 minutes = 1000 GB / 20 minutes = 400 GB / 20 minutes = 1600 GB / 20 minutes = 800 GB / 20 minutes = 3600 GB / 20 minutes = 1600 GB / 20 minutes = 7200 GB / 20 minutes = 3200 GB / 20 minutes = 1200 GB / 20 minutes = 4800 GB / 20 minutes = 1600 GB / 20 minutes = 7200 GB / 20 minutes = 3200 GB / 20 minutes = 1200 GB / 20 minutes = 4800 GB / 20 minutes = 1600 GB / 20 minutes = 7200 GB / 20 minutes = 3200 GB"
+        "As a mathematician: 200 GB / 2 GB/minute = 100 minutes. The load is 100 minutes * 2 = 200 minutes. The answer is 200."
       ]
     ],
     "filtered_resps": [
-      "3200"
+      "200."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4126,11 +4126,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 3 hours * 60 mph = 180 mph. 4 hours * 30 mph = 120 mph. 180 mph - 120 mph = 60 mph. 60 mph / 30 mph = 2 hours. 2 hours * 4 hours = 8 hours. 8 hours - 4 hours = 4 hours. 4 hours - 2 hours = 2 hours. 2 hours - 1 hour = 1 hour. 1 hour - 1 hour = 0 hours. 0 hours - 0 hours = 0 hours. 0 hours - 4 hours = 4 hours. 4 hours - 4 hours = 0 hours. 0 hours - 2 hours = 2 hours. 2 hours - 1 hour = 1 hour. 1 hour - 1 hour = 0 hours. 0 hours - 4 hours = 4 hours. 4 hours - 4 hours = 0 hours. 0 hours - 2 hours = 0 hours. 0 hours - 1 hour = 0 hours. 0 hours - 1 hour = 0 hours"
+        "As a mathematician: 3 hours * 60 mph = 180 mph. 4 hours * 30 mph = 120 mph. 180 mph - 120 mph = 60 mph. 60 mph / 120 mph = 0.57735 miles. The answer is 0.57735."
       ]
     ],
     "filtered_resps": [
-      "0"
+      "0.57735."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: rate is 10 * 45 = 420. overtime pay is 1.2 * 45 = 52.5. Eliza's earnings for this week is 420 + 52.5 = 472.5. The answer is 472.5."
+        "As a mathematician: rate per hour is 10 * 45 = 420. Overtime pay is 1.2 * 420 = 480. The answer is 480."
       ]
     ],
     "filtered_resps": [
-      "472.5."
+      "480."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,11 +4202,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total downloads is 60 + 30 + 30 = 100. The number of downloads in the first month is 60 - 30 = 30. The number of downloads in the second month is 30 + 30 = 60. The number of downloads in the third month is 60 - 60 = 0. The answer is 0."
+        "As a mathematician: number of downloads in the first month is 60. number of downloads in the second month is 3 * 60 = 180. number of downloads in the third month is 3 * 180 = 540. total downloads is 180 + 540 = 620. The answer is 620."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "620."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4468,11 +4468,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 50 weeks * 50 hours/week * 35 hours/week = 15,000 hours/year. 15,000 hours/year * 35 hours/week = 5,500 hours/year. 5,500 hours/year * 30 hours/week = 15,000 hours/year. 15,000 hours/year * 20 weeks/year = 30,000 weeks/year. 30,000 weeks/year * 50 weeks/year = 15,000 weeks/year. 15,000 weeks/year * 20 hours/week = 25,000 hours/year. 25,000 hours/year * 30 hours/week = 75,000 hours/year. 75,000 hours/year * 30 hours/week = 21,000 hours/year. 21,000 hours/year * 50 weeks/year = 10"
+        "As a mathematician: 50 weeks * 50 hours/week * 35 hours/week = 15,000 hours/year. 15,000 hours/year * 35 hours/week = 5,500 hours/year. 35 hours/week * 50 weeks/year = 15,000 weeks/year. 15,000 weeks/year * 35 hours/week = 5,500 hours/year. 5,500 hours/year * 20 hours/week = 12,500 hours/year. 12,500 hours/year * 35 hours/week = 4,800 hours/year. 4,800 hours/year * 30 hours/week = 14,600 hours/year. 14,600 hours/year * 15 hours/week = 19,200 hours/year. 19,200 hours/year * 30 hours/week = 56,400 hours/year"
       ]
     ],
     "filtered_resps": [
-      "10"
+      "56,400"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4506,11 +4506,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 3 eggs = 3 * 2 = 6 eggs. 4 weeks = 4 * 6 = 24 eggs. 2 eggs = 2 * 3 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 2 = 6 eggs. 6 eggs = 6"
+        "As a mathematician: 3 eggs = 3 * 2 = 6 eggs. 4 weeks = 4 * 6 = 24 eggs. 2 eggs = 2 * 3 = 6 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs = 9 * 9 = 81 eggs. 8 eggs = 8 * 8 = 64 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs = 9 * 9 = 81 eggs. 8 eggs = 8 * 8 = 64 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs = 9 * 9 = 81 eggs. 8 eggs = 8 * 8 = 64 eggs. 6 eggs = 6 * 6 = 36 eggs. 3 eggs = 3 * 3 = 9 eggs. 9 eggs"
       ]
     ],
     "filtered_resps": [
-      "6"
+      "9"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4544,11 +4544,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 12 miles / 1 hour = 12 miles / 1 hour = 12 miles per hour.\n\nSince she walked 4 miles, she walked 12 miles per hour. To find her average speed, she would divide the total distance by the total time: 12 miles / 1 hour = 12 miles per hour.\n\nSo, Marissa needs to walk the remaining distance at an average speed of 12 miles per hour."
+        "As a mathematician: 12 miles / 4 hours = 3 miles per hour. The answer is 3."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "3."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4620,11 +4620,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 6 years before Raymond was born is 6 - 1 = 5 years. Raymond's son was born at the age of 23. So, 5 years before Raymond was born, Raymond's son was born at the age of 23. The answer is 23."
+        "As a mathematician: 6 years before Raymond was born is 6 - 1 = 5 years. Raymond's son was born 5 years before. The answer is 5."
       ]
     ],
     "filtered_resps": [
-      "23."
+      "5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4658,11 +4658,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: customers on Tuesday are 8 - 3 = 5. Customers on Wednesday are 5 - 2 = 3. Customers on Thursday are 3 - 2 = 1. Customers on Friday are 1 - 1 = 0. Customers on Saturday are 0 - 1 = 9. The answer is 9."
+        "As a mathematician: customers on Tuesday are 3 + 2 = 5. Customers on Wednesday are 2 + 2 = 4. Customers on Thursday are 2 + 2 = 4. Customers on Friday are 2 + 2 = 4. Customers on Saturday are 2 + 2 = 4. Customers on Sunday are 2 + 2 = 4. The answer is 4."
       ]
     ],
     "filtered_resps": [
-      "9."
+      "4."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4734,11 +4734,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: original price is 19.50 + 25% = 20.50. Discount is 25% of 20.50, which is 0.25 * 20.50 = 5.25. The original price is 20.50 - 5.25 = 17.75. The answer is 17.75."
+        "As a mathematician: original price is 19.50 + 0.25 = 20.50. Discount is 25% = 0.25 * 19.50 = 4.50. The original price is 20.50 - 4.50 = 17.50. The answer is 17.50."
       ]
     ],
     "filtered_resps": [
-      "17.75."
+      "17.50."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4772,11 +4772,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 5 * 3 = 15. Remaining is 15 - 15 = 0. The answer is 0. The boxes of pizza were ordered."
+        "As a mathematician: cost is 12 * 5 = 60. Total is 60 + 4 = 64. The answer is 64."
       ]
     ],
     "filtered_resps": [
-      "0."
+      "64."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4924,11 +4924,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total shoes cost is 5 * 33 = 156. Total heels cost is 2 * 33 = 66. The answer is 156 + 66 = 222."
+        "As a mathematician: total cost is 5 * 33 = 156. The shoes are 156 - 156 = 0. The boots are 156 - 156 = 0. The shoes and heels are 0. The answer is 0."
       ]
     ],
     "filtered_resps": [
-      "222."
+      "0."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5000,7 +5000,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: the first friend is correct, so the second friend is correct, and the third friend is correct. The fourth friend is correct, and the fifth friend is correct. The sixth friend is correct, and the seventh friend is correct. The eighth friend is correct, and the ninth friend is correct. The tenth friend is correct, and the eleventh friend is correct. The twelfth friend is correct, and the thirteenth friend is correct. The thirteenth friend is correct, and the fourteenth friend is correct. The fourteenth friend is correct, and the fifteenth friend is correct. The fifteenth friend is correct, and the sixteenth friend is correct. The sixteenth friend is correct, and the seventeenth friend is correct. The seventeenth friend is correct, and the eighteenth friend is correct. The eighteenth friend is correct, and the nineteenth friend is correct. The nineteenth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is correct. The twentieth friend is correct, and the twentieth friend is"
+        "As a mathematician: the first friend is correct, so the second friend is correct, and the third friend is correct. The fourth friend is correct, so the fifth friend is correct. The sixth friend is correct, so the seventh friend is correct. The eighth friend is correct, so the ninth friend is correct. The tenth friend is correct, so the tenth friend is correct. The eleventh friend is correct, so the eleventh friend is correct. The twelfth friend is correct, so the twelfth friend is correct. The thirteenth friend is correct, so the thirteenth friend is correct. The fourteenth friend is correct, so the fourteenth friend is correct. The fifteenth friend is correct, so the fifteenth friend is correct. The sixteenth friend is correct, so the sixteenth friend is correct. The seventeenth friend is correct, so the seventeenth friend is correct. The eighteenth friend is correct, so the eighteenth friend is correct. The nineteenth friend is correct, so the nineteenth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is correct. The twentieth friend is correct, so the twentieth friend is"
       ]
     ],
     "filtered_resps": [
@@ -5038,11 +5038,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 10 dogs / 5 hours = 2 hours per dog. 10 dogs / 2 hours = 5 hours per day. 5 hours per day * 10 dogs = 50 hours. The answer is 50."
+        "As a mathematician: 10 dogs / 5 hours = 2.5 hours per day. 10 dogs / 2.5 hours = 4.25 hours per week. The answer is 4.25."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "4.25."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5076,11 +5076,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total is 110 - 30 = 80. The number of silver coins is 80 - 30 = 50. The answer is 50."
+        "As a mathematician: 110 - 30 = 80. Gold coins total is 110 + 80 = 190. Silver coins total is 190 - 30 = 160. The answer is 160."
       ]
     ],
     "filtered_resps": [
-      "50."
+      "160."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5266,11 +5266,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 60 miles / 60 miles per week = 1 hour. 3 days a week * 3 hours = 9 hours. 3 hours / 2 = 1.5 hours. 3 hours / 2 = 1.5 hours. 1.5 hours / 2 = 0.75 hours. 0.75 hours / 2 = 0.375 hours. 0.375 hours / 2 = 0.15 hours. 0.15 hours / 2 = 0.075 hours. 0.075 hours / 2 = 0.045 hours. 0.045 hours / 2 = 0.015 hours. 0.015 hours / 2 = 0.006 hours. 0.006 hours / 2 = 0.003 hours. 0.003 hours / 2 = 0.001 hours. 0.001 hours / 2 = 0.0001 hours. 0.0001 hours / 2"
+        "As a mathematician: 60 miles / 60 miles per week = 1 hour. 3 days a week * 3 hours = 9 hours. 3 hours / 2 = 1.5 hours. 1.5 hours / 2 = 0.75 hours. 0.75 hours / 2 = 0.375 hours. 0.375 hours / 2 = 0.15 hours. 0.15 hours / 2 = 0.075 hours. 0.075 hours / 2 = 0.045 hours. 0.045 hours / 2 = 0.025 hours. 0.025 hours / 2 = 0.0125 hours. 0.0125 hours / 2 = 0.00875 hours. 0.00875 hours / 2 = 0.005 hours. 0.005 hours / 2 = 0.0025 hours. 0.0025 hours / 2 = 0.001"
       ]
     ],
     "filtered_resps": [
-      "2"
+      "0.001"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5304,11 +5304,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: speed is 4 * 3 = 12. time is 12 / 3 = 4.5. distance is 12 * 4.5 = 54 miles. The answer is 54."
+        "As a mathematician: speed is 4 * 3 = 12. time is 12 / 3 = 4.5. distance is 12 * 4.5 = 54.5 miles. The answer is 54.5."
       ]
     ],
     "filtered_resps": [
-      "54."
+      "54.5."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5684,11 +5684,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 15 * 8 = 112. The answer is 112."
+        "As a mathematician: 15 * 8 = 120. The answer is 120."
       ]
     ],
     "filtered_resps": [
-      "112."
+      "120."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5722,11 +5722,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: number of eggs per day is 252 / 2 = 128. The number of eggs sold per week is 128 * 60 = 7200. The answer is 7200."
+        "As a mathematician: number of eggs per day is 252 / 2 = 128. The number of eggs sold per day is 128 * 2 = 256. The number of eggs sold per week is 256 - 128 = 132. The answer is 132."
       ]
     ],
     "filtered_resps": [
-      "7200."
+      "132."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5760,7 +5760,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 10 miles per hour * 6 mph = 60 miles per hour.  Tom travels at 60 miles per hour.  He then travels back at 60 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0 miles per hour.  He travels back at 0"
+        "As a mathematician: 10 miles per hour * 6 mph = 60 miles per hour.  Tom travels at 60 miles per hour.  He then travels back at 60 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour.  He travels back at 60 - 60 = 0 miles per hour. "
       ]
     ],
     "filtered_resps": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/4 pound each = 1/12 pound each. 1/2 pound each = 1/4 pound each. 30 comic books = 30 * 1/4 = 100 pounds. Removing 15 pounds from the book bag will remove 100 - 15 = 95 pounds. The answer is 95."
+        "As a mathematician: 1/4 pound each is 1/4 * 1/2 = 1/16. 30 comic books is 30 / 16 = 1.5 pounds. 15 pounds is 15 / 16 = 1/8. The answer is 1/8."
       ]
     ],
     "filtered_resps": [
-      "95."
+      "8."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: weight limit is 5000 pounds. The truck can carry 3755 pounds. The total weight of the boxes is 5000 + 3755 = 8755 pounds. The truck can carry 8755 * 5000 = 410,000 pounds. The maximum number of boxes that can be loaded onto the truck is 410,000 - 8755 = 26555 pounds. The answer is 26555."
+        "As a mathematician: total weight of boxes is 3755 - 5000 = 2755. The maximum number of boxes that can be loaded is 2755 - 5000 = 1250. The answer is 1250."
       ]
     ],
     "filtered_resps": [
-      "26555."
+      "1250."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/2 * 25 = 12. The answer is 12."
+        "As a mathematician: 1/25 * 100 = 50%. The answer is 50."
       ]
     ],
     "filtered_resps": [
-      "12."
+      "50."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6140,11 +6140,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 500 * 0.01 = 0.01. 10% of that is 0.1 * 0.01 = 0.001. 10% of that is 0.001 * 0.01 = 0.0001. 10% of that is 0.0001 * 0.01 = 0.00001. 10% of that is 0.00001 * 0.01 = 0.000001. 10% of that is 0.000001 * 0.01 = 0.0000001. 10% of that is 0.0000001 * 0.01 = 0.000000001. 10% of that is 0.000000001 * 0.01 = 0.00000000001. 10% of that"
+        "As a mathematician: cost is 500 * 0.01 = 50. The jeweler will charge 10% of that, which is 50 * 0.01 = 0.05. The remaining amount is 50 - 0.05 = 55. The answer is 55."
       ]
     ],
     "filtered_resps": [
-      "10"
+      "55."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 40 years * 5% = 2.5% of 50,000. 20 years * 2.5% = 5.25% of 50,000. 30 years * 5.25% = 1.56% of 50,000. 30 years * 1.56% = 4.83% of 50,000. 30 years * 4.83% = 12.5% of 50,000. 30 years * 12.5% = 4.125% of 50,000. 30 years * 4.125% = 12.5% of 50,000. 30 years * 12.5% = 4.125% of 50,000. 30 years * 4.125% = 12.5% of 50,000. 30 years * 12.5"
+        "As a mathematician: 40 years * 5% = 2.5% of 50,000. 20 years * 2.5% = 5.25% of 50,000. 30 years * 5.25% = 1.56% of 50,000. 30 years * 1.56% = 5.25% of 50,000. 40 years * 5.25% = 2.25% of 50,000. 40 years * 2.25% = 1.00% of 50,000. 50 years * 1.00% = 5.00% of 50,000. 50 years * 5.00% = 2.50% of 50,000. 50 years * 2.50% = 1.00% of 50,000. 50 years * 1.00% = 5"
       ]
     ],
     "filtered_resps": [
-      "12.5"
+      "5"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6216,11 +6216,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: initial amount is 140 * 1 = 140. The total amount she paid is 140 + 10 = 150. The total amount she paid is 150 - 140 = 10. The total amount she paid is 10 * 140 = 1400. The total amount she paid is 1400 - 150 = 1200. The total amount she paid is 1200 - 10 = 1100. The total amount she paid is 1100 - 10 = 1000. The total amount she paid is 1000 - 140 = 700. The total amount she paid is 700 - 140 = 580. The total amount she paid is 580 - 10 = 560. The total amount she paid is 560 - 10 = 540. The total amount she paid is 540 - 140 = 420. The total amount she"
+        "As a mathematician: total amount paid is 140 - 10 = 130. The total amount she paid is 130 * 1.10 = 142.10. The total amount she paid is 130 + 142.10 = 272.20. The total amount she paid is 130 + 142.10 = 272.20. The total amount she paid is 272.20 + 142.10 = 414.30. The total amount she paid is 414.30 + 142.10 = 556.40. The total amount she paid is 556.40 + 142.10 = 698.50. The total amount she paid is 698.50 + 142.10 = 830.60. The total amount she paid is 830.60 + 142.10 = 972.70. The total amount she paid"
       ]
     ],
     "filtered_resps": [
-      "420."
+      "972.70."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6254,11 +6254,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 100 miles / 4 gallons/mile = 25 miles. The answer is 25."
+        "As a mathematician: since she needs 4 gallons of gas, she needs 12 * 4 = 48 gallons of gas. The tank holds 12 + 4 = 16 gallons. The total distance she can drive is 100 - 48 = 52 miles. The answer is 52."
       ]
     ],
     "filtered_resps": [
-      "25."
+      "52."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 2 hours * 3 = 6 hours. 2 * 6 = 12 hours. 12 hours / 2 = 6 hours. 6 hours / 2 = 3 hours. 3 hours / 2 = 1 hour. 1 hour / 2 = 0.5 hours. 0.5 hours / 3 = 0.15 hours. 0.15 hours / 4 = 0.06 hours. 0.06 hours / 4 = 0.02 hours. 0.02 hours / 4 = 0.006 hours. 0.006 hours / 4 = 0.0004 hours. 0.0004 hours / 4 = 0.000006 hours. 0.000006 hours / 4 = 0.0000006 hours. 0.0000006 hours / 4 = 0.0000000000000000000000000000"
+        "As a mathematician: 2 hours * 3 = 6 hours. 2 * 6 = 12 hours. 12 hours / 2 = 6 hours. 6 hours / 2 = 3 hours. 3 hours / 2 = 1 hour. 1 hour / 2 = 0.5 hours. 0.5 hours / 3 = 0.15 hours. 0.15 hours / 4 = 0.05 hours. 0.05 hours / 4 = 0.005 hours. 0.005 hours / 1 = 0.0005 hours. 0.0005 hours / 4 = 0.00005 hours. 0.00005 hours / 4 = 0.000005 hours. 0.000005 hours / 1 = 0.0000005 hours. 0.0000005 hours / 4 = 0.00000005 hours. 0.00000005 hours"
       ]
     ],
     "filtered_resps": [
-      "0.0000000000000000000000000000"
+      "0.00000005"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6520,7 +6520,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: instructions are 20 + 2 = 22. Kelian has to read 22 instructions to prepare the two dishes. The answer is 22."
+        "As a mathematician: instructions are 20 + 2 = 22. Kelian has to read 22 instructions. The answer is 22."
       ]
     ],
     "filtered_resps": [
@@ -6558,7 +6558,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 43 * 4 = 169. Remaining is 23 - 169 = 12. The answer is 12."
+        "As a mathematician: cost is 43 * 3 = 129. Remaining is 23 - 129 = 12. The answer is 12."
       ]
     ],
     "filtered_resps": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 110 cups * 180 days = 18,000 cups. Total is 18,000 + 2 cups = 19,200 cups. The answer is 19,200."
+        "As a mathematician: cost is 110 * 1 cup = 110 cups. Total is 180 - 110 = 60 cups. The answer is 60."
       ]
     ],
     "filtered_resps": [
-      "19,200."
+      "60."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,7 +6862,7 @@
     ],
     "resps": [
       [
-        "As a mathematician: 1/6 of 24 liters is 1/6 * 24 = 12 liters. 6 liters is 12 - 12 = 0 liters. The answer is 0."
+        "As a mathematician: 1/6 of 24 liters is 1/6 * 24 = 12 liters. 6 liters is 12 - 12 = 0.\nThe answer is 0."
       ]
     ],
     "filtered_resps": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: each row is made of blocks from a different year of vacations. Each block is made of 12 blocks. Each block is made of 12 blocks. The total number of blocks is 12 * 12 = 144. The answer is 144."
+        "As a mathematician: 1 shirt * 4 vacation = 4 shirts * 4 = 16. 1 shirt * 4 = 4 shirts * 4 = 16. 4 shirts * 4 = 16. 16 + 16 = 32. The answer is 32."
       ]
     ],
     "filtered_resps": [
-      "144."
+      "32."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: alarm rang for 3 * 4 = 12 times. The first alarm rang for 4 * 12 = 48 times. The second alarm rang for 4 * 48 = 192 times. The third alarm rang for 3 * 192 = 504 times. The fourth alarm rang for 2 * 504 = 1000 times. The answer is 1000."
+        "As a mathematician: alarm rang for 4 * 3 = 12 times. alarm rang for 3 * 2 = 6 times. alarm rang for 1 * 1 = 1 time. alarm rang for 2 * 1 = 2 times. alarm rang for 1 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for 1 * 0 = 0 times. alarm rang for 4 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for 1 * 0 = 0 times. alarm rang for 4 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for 1 * 0 = 0 times. alarm rang for 4 * 0 = 0 times. alarm rang for 3 * 0 = 0 times. alarm rang for 2 * 0 = 0 times. alarm rang for "
       ]
     ],
     "filtered_resps": [
-      "1000."
+      "0"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7204,11 +7204,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: cost is 16 * 0.75 = 10.25. Total is 16 + 10.25 = 26.25. The answer is 26.25."
+        "As a mathematician: cost is 16 * 2 = 32. Total is 16 + 32 = 48. The answer is 48."
       ]
     ],
     "filtered_resps": [
-      "26.25."
+      "48."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7318,11 +7318,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: ages are 4 + 2 = 6. The answer is 6."
+        "As a mathematician: ages are 4 + 5 = 9, and 10 + 1 = 11. The answer is 11."
       ]
     ],
     "filtered_resps": [
-      "6."
+      "11."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 200 - 2/5 = 200 - 2/10 = 190. The answer is 190."
+        "As a mathematician: 200 - 2/5 = 200 - 1/25 = 175 girls. The answer is 175."
       ]
     ],
     "filtered_resps": [
-      "190."
+      "175."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 9 hours / 3 = 3.5 hours. Harry slept 9 - 3 = 6 hours. James slept 2/3 of 6 = 1.5 hours. The answer is 1.5."
+        "As a mathematician: 9 hours is 9 * 60 = 540 hours. 2/3 of 540 hours is 2/3 * 540 = 100 hours. Harry slept 9 + 100 = 101 hours. The answer is 101."
       ]
     ],
     "filtered_resps": [
-      "1.5."
+      "101."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces. 32 ounces of sauce = 32 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of sauce = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12 * 3 = 36 ounces. 36 ounces of tomatoes = 36 * 1/2 = 12 ounces. 12 ounces of tomatoes = 12"
+        "As a mathematician: 16 ounces of tomatoes = 16 * 1/2 = 12 ounces. 32 ounces of sauce = 32 * 1/2 = 12 ounces. 32 - 12 = 16. The answer is 16."
       ]
     ],
     "filtered_resps": [
-      "12"
+      "16."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7521,7 +7521,7 @@
     "doc_hash": "b0b2fa84bdf8e74116f8a930c56b3a577b2e734de0f6d0ba2d6cce555a6a67d5",
     "prompt_hash": "05ab81f4b5e3cf6aa7a5af6f2be7f7f489be115d15c6a391e1de8b7a625e241e",
     "target_hash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 98,
@@ -7584,11 +7584,11 @@
     ],
     "resps": [
       [
-        "As a mathematician: total potted plants is 18 + 2 = 20. Remaining is 20 - 2 = 18. The answer is 18."
+        "As a mathematician: each ledge has 40 - 1 = 39 potted plants. The answer is 39."
       ]
     ],
     "filtered_resps": [
-      "18."
+      "39."
     ],
     "filter": "flexible-extract",
     "metrics": [

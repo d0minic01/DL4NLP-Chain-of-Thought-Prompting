@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,mawps_contrastive_cot,mawps,contrastive_cot,fewshot_cot,mawps,0.45,0.01,177.3,8,100,26.05,1.73

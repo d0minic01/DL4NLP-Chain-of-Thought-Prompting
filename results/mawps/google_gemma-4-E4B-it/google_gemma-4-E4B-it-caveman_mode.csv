@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,mawps_caveman_mode,mawps,caveman_mode,fewshot_cot,mawps,0.91,0.02,158.8,8,100,65.46,24.31

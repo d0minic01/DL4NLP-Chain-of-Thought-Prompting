@@ -26,7 +26,7 @@
     ],
     "resps": [
       [
-        "The Apollo 13 was named after a World War II battle. The name Apollo was given to the spacecraft after the Apollo 11 mission, which was launched in 1969. The name Apollo was chosen because it was the first spacecraft to successfully land on the Moon. The answer is yes."
+        "The Apollo 13 mission was launched in 1970. The name Apollo 13 was given to the spacecraft after the astronauts, who were astronauts, who were part of the Apollo 13 mission. Thus, the name Apollo 13 was given to the spacecraft. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -152,7 +152,7 @@
     ],
     "resps": [
       [
-        "Yes, eagles and young bears are used as labels for skills-training youth groups. The term \"young bear\" is often used to refer to young bears, while \"eagle\" is used to refer to eagles. Thus, both terms are used to refer to young bears. The answer is yes."
+        "Yes, eagles and young bears are used as labels for skills-training youth groups. The labels are often used to identify the age group of the children. Thus, eagles and young bears would be used as labels for skills-training youth groups. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -194,7 +194,7 @@
     ],
     "resps": [
       [
-        "The distance of an Olympic run is about 26.2 miles. The body's fatigue is not a direct result of running a mile. The body's fatigue is a result of the physical demands of running, such as the increased heart rate and oxygen consumption. Thus, an Olympic athlete would not be tired out after running a mile. The answer is no."
+        "The distance of an Olympic run is 26.2 miles. The body's fatigue is not a direct result of running a mile. The body's fatigue is a result of the physical demands of running, such as the increased heart rate, breathing, and muscle fatigue. Thus, an Olympic athlete would not be tired out after running a mile. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -236,7 +236,7 @@
     ],
     "resps": [
       [
-        "The Crossroads Kitchen is a restaurant. The Crossroads Kitchen is a restaurant that serves food. Thus, goblins sharks would not eat at Crossroads Kitchen. The answer is no."
+        "The Crossroads Kitchen is a restaurant. The Crossroads Kitchen is a restaurant that serves food. Thus, goblins do not eat at Crossroads Kitchen. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -278,7 +278,7 @@
     ],
     "resps": [
       [
-        "Godfrey of Bouillon was a French knight who was a member of the Knights Templar. The Knights Templar was a military order of knighthood that was founded in 1118 by Saint Philip the Apostle. The order was founded to protect the Holy Land from Muslim attacks. The answer is yes."
+        "Yes, Godfrey of Bouillon was an Islamaphobe. Islamaphobe is a term used to describe someone who is strongly opposed to Islam. Thus, Godfrey of Bouillon was an Islamaphobe. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -362,7 +362,7 @@
     ],
     "resps": [
       [
-        "Yes, Guitar Hero Beatles is inappropriate for a US third grader. The lyrics are too simplistic and the music is too loud. The answer is yes."
+        "Yes, Guitar Hero Beatles is inappropriate for a US third grader. The lyrics and music are too simplistic and simplistic. The US is a country with a lot of complex music and songs. The lyrics and music should be more sophisticated and sophisticated. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -488,11 +488,11 @@
     ],
     "resps": [
       [
-        "Tom Cruise is a movie director. He is not a mental engineer. He is a movie actor. He is not a psychologist. He is a movie director. Thus, he could not explain mental auditing. The answer is no."
+        "Yes, Tom Cruise is a well-known actor. He is known for his role in the movie \"The Godfather\" and \"The Godfather Part II.\" He is also known for his role in the movie \"The Godfather Part II\" and \"The Godfather Part III.\" Thus, he could explain mental auditing. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -501,7 +501,7 @@
     "doc_hash": "7812dfde4541821623cdb19f4cd858fd58c911090fc5c5e88df3db99f2de9427",
     "prompt_hash": "0ec6f9cf04128f3ea59075ba122de1bbd3fd40f20e97174014f114df140e7e99",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 12,
@@ -530,7 +530,7 @@
     ],
     "resps": [
       [
-        "Yes, it is unusual to play Happy hardcore music at a funeral. The music is often called \"Happy\" because of the lyrics that are often about the deceased person's happiness. Thus, it is unusual to play Happy hardcore music at a funeral. The answer is yes."
+        "Yes, it is unusual to play Happy hardcore music at a funeral. The music is often called \"Happy hardcore\" because of the emphasis on the beat and the use of the beat as a musical element. However, the music itself is not uncommon. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -656,7 +656,7 @@
     ],
     "resps": [
       [
-        "No, the scale would not balance out the Holstein cow and the Liberty Bell. The scale is designed to balance the weight of the Holstein cow and the Liberty Bell. The scale is not designed to balance the scale of a giant scale. The answer is no."
+        "No, the scale would not balance out. The scale is designed to measure the weight of a single object, not the weight of a whole cow. The scale would be too small to accurately measure the weight of a cow. Thus, the Holstein cow and the Liberty Bell would not balance out. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -698,7 +698,7 @@
     ],
     "resps": [
       [
-        "No, hyenas do not appear in a Broadway musical. Hyenas are mammals, not actors. The answer is no."
+        "No, hyenas are not typically featured in a Broadway musical. They are more commonly found in Africa and are not typically featured in a musical. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -824,7 +824,7 @@
     ],
     "resps": [
       [
-        "Yes, people with mood disorders often require permanent institutionalization. This is because they often have a history of mental health issues, and they may have a history of substance abuse, depression, or anxiety. They may also have a history of physical health problems, such as diabetes or heart disease. Thus, they may require permanent institutionalization. The answer is yes."
+        "Yes, people with mood disorders often require permanent institutionalization. This is because they often have a history of mental health issues, and they may have a history of substance abuse, depression, or anxiety. They may also have a history of trauma, which can make them more susceptible to mental health issues. Thus, people with mood disorders often require permanent institutionalization. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1034,7 +1034,7 @@
     ],
     "resps": [
       [
-        "Yes, some home remedies can result in your skin color turning blue. For example, rubbing alcohol on your skin can cause it to turn blue. However, this is not a reliable method of curing the color. The answer is no."
+        "Yes, some home remedies can result in your skin color turning blue. For example, rubbing alcohol can cause your skin to turn blue. However, this is not a reliable way to get blue skin. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1076,7 +1076,7 @@
     ],
     "resps": [
       [
-        "Greek architects and engineers were essential to building the Lighthouse of Alexandria. The Lighthouse was built in 300 BC by Ptolemy I Soter. The Lighthouse was a 100-meter-long structure that was built on the island of Pharos in the Nile River. The Lighthouse was built using a combination of stone and brick construction. The Lighthouse was built in a location that was accessible to the Mediterranean Sea. Thus, Greek architects and engineers were essential to building the Lighthouse of Alexandria. The answer is yes."
+        "Greek architects and engineers were essential to building the Lighthouse of Alexandria. The Lighthouse was built in 300 BC by Ptolemy I Soter. The Lighthouse was a marvel of engineering and was built to mark the entrance to the city of Alexandria. The Lighthouse was built in a strategic location to mark the entrance to the city. Thus, Greek architects and engineers were essential to building the Lighthouse of Alexandria. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1118,7 +1118,7 @@
     ],
     "resps": [
       [
-        "Yes, all cancer patients get disability. Cancer is a disease that affects the body and can cause damage to the nervous system, immune system, and other organs. Therefore, cancer patients are more likely to get disability. The answer is yes."
+        "Yes, all cancer patients get disability. Cancer is a disease that affects the body and can cause damage to tissues and organs. The body's immune system is designed to fight off cancer, but sometimes it can fail, leading to cancer. Thus, cancer patients can get disability. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1160,7 +1160,7 @@
     ],
     "resps": [
       [
-        "Naruto did not escape the Temple of Doom. Naruto is a young boy from a Japanese anime series. The Temple of Doom is a Japanese fantasy world where Naruto is a member of the Ninja clan. Naruto is not a member of the Temple of Doom. The answer is no."
+        "Naruto did not escape the Temple of Doom. Naruto is a young boy from a Japanese anime series. The Temple of Doom is a Japanese fantasy world where the main character, Naruto, is a young boy who is sent to the temple to fight against the evil demon, Natsume. Naruto is not a young boy from a Japanese anime series. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1202,7 +1202,7 @@
     ],
     "resps": [
       [
-        "The full circle of a rainbow is about 360 degrees. The full circle of a beach is about 180 degrees. Thus, lunch on the beach is not a good activity to spot the full circle of a rainbow. The answer is no."
+        "The full circle of a rainbow is about 360 degrees. The full circle of a beach is about 360 degrees. Thus, lunch on the beach is not a good activity to spot the full circle of a rainbow. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1244,11 +1244,11 @@
     ],
     "resps": [
       [
-        "Fairy tales are often based on historical events, myths, and legends. The presence of a fairy in a world myth is not necessarily a coincidence. The presence of a fairy in a world myth is often a result of the cultural and historical context of that world. Thus, fairy is not more prevalent in world myths than a valkyrie. The answer is no."
+        "Fairy tales are often associated with the myth of the Trickster, who is a figure from folklore and fairy tales. The Trickster is often depicted as a mischievous and cunning figure who challenges the gods and forces them to make decisions. In contrast, the valkyrie is a more traditional and heroic figure who is often depicted as a powerful and powerful woman. Thus, the fairy tales are more prevalent in world myths than the valkyrie. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1257,7 +1257,7 @@
     "doc_hash": "c5aec143d03637abcced166e55dc765a76b58561692048a3caa46193c91ce419",
     "prompt_hash": "768456e3dbf1b63fba08947f63e46865cdfd6eb63637e5592ef6fcaefbd73790",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 30,
@@ -1454,11 +1454,11 @@
     ],
     "resps": [
       [
-        "Most high school head coaches make between $20,000 and $50,000 per year. The answer is yes."
+        "Most high school head coaches make between $20,000 and $50,000 per year. The average is $50,000. Thus, most high school head coaches make less than $20,000 per year. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1467,7 +1467,7 @@
     "doc_hash": "7c790f9ca00d4b975991c223d3b803092abc295de2ef6f0816bcd30b05c0583f",
     "prompt_hash": "45847c092670cddef7048e23692ae02cef6fb4198dc6842b8bdb27f30bae4d30",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 35,
@@ -1496,11 +1496,11 @@
     ],
     "resps": [
       [
-        "Michael is a popular name in the United States. The name is widely recognized and has become a popular choice for many people. However, it is not an unpopular name in the United States. The answer is no."
+        "Michael is a popular name in the United States. The name is a play on the Latin word for \"man,\" which is \"marius.\" Thus, Michael is a popular name. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1509,7 +1509,7 @@
     "doc_hash": "179dafd1b51c3ba453f028f21b2b9cbb106733a5435922391bedf10dc836c0ed",
     "prompt_hash": "aef063ad6d7e566627d4f5cd6d79a53b8c54adc15950406cc7684996c9dad540",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 36,
@@ -1538,7 +1538,7 @@
     ],
     "resps": [
       [
-        "Yes, Rosalind Franklin was a scientist who made significant contributions to the field of genetics. She was the first woman to receive a Nobel Prize in Physics in 1962. Her work on DNA and its structure was crucial to the development of the Human Genome Project. Her contributions were recognized by the Nobel Prize in Physics in 1963. The answer is yes."
+        "Yes, Rosalind Franklin was a scientist who made significant contributions to the field of genetics. She was the first woman to receive a Nobel Prize in Physics in 1962. Her work on DNA and its structure was crucial to the development of the Human Genome Project. Her work was instrumental in the discovery of the human genome. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1580,7 +1580,7 @@
     ],
     "resps": [
       [
-        "Mixed is a word and a Roman numeral. MIX is a word, and the Roman numeral for \"mixed\" is M. Thus, the answer is yes."
+        "Mixed is a word and a Roman numeral. MIX is a word, and the Roman numeral for \"mixed\" is \"MM\". Thus, the answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1622,11 +1622,11 @@
     ],
     "resps": [
       [
-        "Yes, you should use cast iron skillets. Cast iron is a better choice for cooking because it is less dense than glass, which makes it easier to handle and cook with. Cast iron is also more resistant to corrosion and heat damage."
+        "Yes, you should use cast iron skillets. Cast iron is a better choice for cooking because it is less dense than glass, which is less dense than steel. Cast iron is also more resistant to corrosion and heat damage. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1664,11 +1664,11 @@
     ],
     "resps": [
       [
-        "No, Carl Friedrich Gauss did not speak to anyone 100 miles away. He was a mathematician and physicist."
+        "No, Carl Friedrich Gauss did not speak to anyone 100 miles away. He was a mathematician and physicist. He was the first person to measure the circumference of a circle. Thus, he could not speak to someone 100 miles away. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1677,7 +1677,7 @@
     "doc_hash": "84bf45d95a38f01880acd1dfb97901d4233e7186a14d4df74a9ec56d9269d013",
     "prompt_hash": "dd9ba91c55cd49ebe6fc087d8ce33130c091bbb2cf8d65e1a33e3922371a660f",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 40,
@@ -1790,11 +1790,11 @@
     ],
     "resps": [
       [
-        "Jason is a character from the movie \"The Shawshank Redemption.\" The movie is set in the 1940s and is based on the novel \"Dostoevsky's Crime and Chastity.\" Jason is portrayed as a character who is a \"bad guy\" and is portrayed as being \"bad\" by the other characters. However, Jason is not a character from the movie. Jason is a fictional character created by the movie's director, who is not a real person. Thus, Jason does not have anything in common with Dr. Disrespect. The answer is no."
+        "Jason is a character from the movie \"The Shawshank Redemption.\" The movie is about a group of convicts who are led to freedom by a former convict, who is also a former convict. Jason is a character from the movie who is portrayed as a \"disrespectful\" character."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1832,7 +1832,7 @@
     ],
     "resps": [
       [
-        "Yes, hiring someone with dyscalculia to do surveying work is a good idea. Dyscalculia is a learning disability that affects a person's ability to understand and perform mathematical tasks. It can make it difficult to accurately measure and calculate distances, angles, and other mathematical quantities. Thus, hiring someone with dyscalculia would be a good idea. The answer is yes."
+        "Yes, you would hire someone with dyscalculia to do surveying work. Dyscalculia is a learning disability that affects a person's ability to understand and perform mathematical calculations. Thus, someone with dyscalculia would be able to do survey work. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2126,11 +2126,11 @@
     ],
     "resps": [
       [
-        "Jon Brower Minnoch was a Canadian actor who starred in the 1990s television series \"The Crown.\" He was diagnosed with anorexia nervosa in 2002. However, he was later diagnosed with bulimia nervosa in 2008. The answer is yes."
+        "Jon Brower Minnoch was a Canadian actor who starred in the 1990s television series \"The Crown.\" He was diagnosed with anorexia nervosa in 2000. However, he was later diagnosed with bulimia nervosa in 2002."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2210,11 +2210,11 @@
     ],
     "resps": [
       [
-        "Yes, it is possible to get killed walking to the Very Large Telescope. The Very Large Telescope is a 30-meter telescope located at the South Pole. It is a very large telescope and is one of the most powerful telescopes in the world. Thus, it is possible to get killed walking to the Very Large Telescope. The answer is yes."
+        "Yes, it is possible to get killed walking to the Very Large Telescope. The Very Large Telescope is a 30-meter telescope located at the Cerro Tololo Inter-American Observatory in Chile. It is the largest telescope in the world and is used for a wide range of scientific research."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2223,7 +2223,7 @@
     "doc_hash": "a2090c081b4143d681dc6853d6a7b4e86fb2f9a97da25c443afadb56d2b574cc",
     "prompt_hash": "edebf68053cf80b6f7f7b685404ae367fdca061e863e6caed5b40fc3fe48d314",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 53,
@@ -2420,11 +2420,11 @@
     ],
     "resps": [
       [
-        "The Carnation Revolution was the most violent revolution in the history of the Portuguese Empire. It was a failed attempt to overthrow the Portuguese monarchy and establish a new Portuguese Republic. The death toll from the revolution is estimated to be around 100,000 to 150,000 people. The answer is yes."
+        "The Carnation Revolution was the most violent revolution in Europe. It lasted from 1974 to 1976 and resulted in the deaths of over 100,000 people. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2433,7 +2433,7 @@
     "doc_hash": "c7d378ecb739ac8078413bcd3b30705b7c7dc275273e2819e5f72a92cf42bf32",
     "prompt_hash": "7ed964cad62e79a144c12daa20f893e710e527daf0ecaf54b520ed364c7e0022",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 58,
@@ -2462,7 +2462,7 @@
     ],
     "resps": [
       [
-        "B\u00f6rek is a Turkish word for \"soul.\" It is a spiritual concept that is often used in Sufism and Eastern mysticism. Thus, Recep Tayyip Erdo\u011fan could be unfamiliar with b\u00f6rek. The answer is no."
+        "B\u00f6rek is a Turkish word for \"soul.\" It is a spiritual and spiritual-oriented spiritual practice. Thus, Recep Tayyip Erdo\u011fan is not unfamiliar with b\u00f6rek. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2546,11 +2546,11 @@
     ],
     "resps": [
       [
-        "Yes, \"A Tale of Two Cities\" is a popular science novel. It is a classic novel in the genre of science fiction."
+        "Yes, \"A Tale of Two Cities\" is a popular science novel. It is a classic novel in the genre of science fiction. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2588,11 +2588,11 @@
     ],
     "resps": [
       [
-        "Al Capone was a member of the Chicago Mafia. The Harlem Renaissance was a literary movement in the United States that emerged in the 1920s. Thus, Capone could not have read works from the Harlem Renaissance. The answer is no."
+        "Al Capone was a member of the Chicago Mafia. The Harlem Renaissance was a literary movement that emerged in the 1920s and 1930s. Capone was a member of the Chicago Mafia. Thus, Capone could have read works from the Harlem Renaissance. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2601,7 +2601,7 @@
     "doc_hash": "475ce82d0e705a9e79880de3ba7dd659752f84a00d00e4228135df1abff36827",
     "prompt_hash": "4a5e0f5b0435ea78ba167a6dbd602b22aa70396665035a448c9e8cff5c08b3b5",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 62,
@@ -2630,11 +2630,11 @@
     ],
     "resps": [
       [
-        "Dr. Seuss was a famous author. He wrote many books, including \"The Cat in the Hat\" and \"The Cat in the Hat\". He was a free spirit and did not live a life of tragedy. He was a poet and a storyteller. He wrote about many things, including animals, and he was known for his humor and his love of nature. Thus, he could have lived a life of tragedy free. The answer is yes."
+        "Dr. Seuss was a famous author. He wrote many books, including \"The Cat in the Hat\" and \"I Spy\". He was a victim of a tragic accident. Thus, he could not live a tragedy free life. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2643,7 +2643,7 @@
     "doc_hash": "89175699bcfcb8b73aec248d98c89e5586bd1492d916df952b4b354c31319405",
     "prompt_hash": "f50bc3059f142809acad100e6620cd9cf77b2261e3a860b66491033a264fba97",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 63,
@@ -2714,7 +2714,7 @@
     ],
     "resps": [
       [
-        "No, American teams outnumber Canadian teams in the NHL. The NHL is a professional ice hockey league, and the teams are not affiliated with the National Hockey League. The answer is no."
+        "No, American teams outnumber Canadian teams in the NHL. The NHL is a professional ice hockey league, and the teams are not affiliated with the Canadian National Hockey League. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2924,7 +2924,7 @@
     ],
     "resps": [
       [
-        "The 2008 Summer Olympics were held in Beijing, China. The 550 is a 550-liter tank, which is about 1000 liters. Thus, it would take the 2008 Summer Olympics to drive a rowe 550. The answer is yes."
+        "The 2008 Summer Olympics were held in Beijing, China. The 550 is a 550-liter tank, which is about 1000 liters. Thus, it would take the 2008 Summer Olympics to drive a Rowe 550. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2966,7 +2966,7 @@
     ],
     "resps": [
       [
-        "The US Supreme Court has 65,000 seats. The answer is yes."
+        "The US Supreme Court has 535 seats. Since 1952, there have been 535 Prime Ministers of the United Kingdom. Thus, there have been 535 Prime Ministers of the United Kingdom since 1952. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3134,11 +3134,11 @@
     ],
     "resps": [
       [
-        "University of Pittsburgh founder Judith Sheindlin was a prominent figure in the feminist movement. She was a key figure in the women's rights movement and played a significant role in the establishment of the Women's Political Union. She was also a member of the Women's Political Committee of the National American Woman Suffrage Association. Thus, she had a great deal in common with Judith Sheindlin. The answer is yes."
+        "University of Pittsburgh founder Judith Sheindlin was a prominent figure in the feminist movement. She was a key figure in the women's rights movement, and she was also a strong advocate for women's rights. She was a member of the National Organization for Women (NOW) and was a member of the National Organization for Women's (NOW) Executive Committee. She was also a member of the National Women's Political Cousin (NWPC) and was a member of the National Women's Political Action Committee (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3147,7 +3147,7 @@
     "doc_hash": "ce70b31fa1788002b5be8ab101f55e99a8d53a327a02a8dc173008e8c85fd677",
     "prompt_hash": "3fef0232fd8a8d1585e97ae53603e281826e28db7b13f5c0daf95fc90f321410",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 75,
@@ -3176,11 +3176,11 @@
     ],
     "resps": [
       [
-        "The operating system of a Samsung Galaxy 1 is not edible. The operating system is a software program that manages the hardware of a computer. It is not a food. Thus, the answer is no."
+        "The operating system of a Samsung Galaxy 1 is not edible. The operating system is a software program that manages the hardware of a computer. It is not a food. Thus, it would not be edible. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3344,11 +3344,11 @@
     ],
     "resps": [
       [
-        "No, the human sacrum has fewer fused vertebrae than the Alaskan Malamute. The human sacrum has 14 fused vertebrae, while the Alaskan Malamute has 12 fused vertebrae. Thus, the human sacrum has fewer fused vertebrae than the Alaskan Malamute. The answer is no."
+        "Yes, human sacrums have more fused vertebrae than an Alaskan Malamute. The reason is that the human sacrum is more compact and has a more rigid structure, which allows for greater flexibility and stability. The Alaskan Malamute, on the other hand, has a more flexible sacrum and a more rigid skull. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3357,7 +3357,7 @@
     "doc_hash": "32c2ace5aea4061fa389a898cf03784992424664e4ac8875a9b751479b4e99b2",
     "prompt_hash": "27b994b2a689edc8b553f5fe28ad88261805b805bddd4d960ab1bc882f106afd",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 80,
@@ -3428,11 +3428,11 @@
     ],
     "resps": [
       [
-        "Yes, Aldi is a more affordable option. The cost of food at Aldi is about 10% less than at Whole Foods. Thus, you would spend less on your food at Aldi than at Whole Foods. The answer is yes."
+        "The cost of food at Aldi is $1.20 per pound. The cost of food at Whole Foods is $1.50 per pound. Thus, you would spend less at Aldi than at Whole Foods. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3441,7 +3441,7 @@
     "doc_hash": "bcc027ec2072a784646c57ff55695e8512ac06d0258d276608e00dd636666f10",
     "prompt_hash": "7125d5970883ebb90353c9f62a6f5b4d8fdb85b96bea906259477ad817c50407",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 82,
@@ -3512,7 +3512,7 @@
     ],
     "resps": [
       [
-        "No, a traffic collision does not make someone a millionaire. A millionaire is a person with a significant amount of wealth, such as a billionaire or a billionaire. A millionaire is a person with a substantial amount of wealth, such as a billionaire or a billionaire. Thus, a traffic collision does not make someone a millionaire. The answer is no."
+        "No, a traffic collision does not make someone a millionaire. A millionaire is a person with a significant amount of wealth, such as a billionaire or a billionaire. A millionaire is a person with a substantial amount of wealth, such as a billionaire. Thus, a traffic collision does not make someone a millionaire. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3596,7 +3596,7 @@
     ],
     "resps": [
       [
-        "Rusev is a Russian scientist who has been working on a project to create a sustainable food system. While he does have concerns about human overpopulation, he is not necessarily worried about human overpopulation in his homeland. He is working on a project to create a sustainable food system, which is a topic of ongoing debate. However, he is not directly concerned about human overpopulation in his homeland. The answer is no."
+        "Rusev is a Russian scientist who has been working on a project to create a sustainable food system. While he does have concerns about human overpopulation, he is not necessarily worried about human overpopulation in his homeland. He is working on a project to create a sustainable food system, which is a topic of ongoing debate. However, he is not concerned about human overpopulation in his homeland. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3680,7 +3680,7 @@
     ],
     "resps": [
       [
-        "Yes, spontaneous abortion is a rare occurrence. It is the spontaneous expulsion of an embryo or fetus from the uterus. Thus, lettuce can result in spontaneous abortion. The answer is yes."
+        "Yes, lettuce can result in spontaneous abortion. The process of spontaneous abortion is when a pregnancy occurs without the need for artificial insemination or other medical intervention. Thus, lettuce can result in spontaneous abortion. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3932,7 +3932,7 @@
     ],
     "resps": [
       [
-        "Tange Sazen is a highly skilled and highly paid secretary. The job requires a high level of technical knowledge, attention to detail, and a strong work ethic. However, the job is not ideal for a secretary. The job requires a high level of technical knowledge, attention to detail, and a strong work ethic, which are not ideal for a secretary. The answer is no."
+        "Tange Sazen is a Japanese term for a secretary. It is a title that is not commonly used in the United States. Thus, it is not a suitable choice for a secretary job. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3974,11 +3974,11 @@
     ],
     "resps": [
       [
-        "Persephone is a Greek goddess of the underworld. She is often depicted as a beautiful young woman with a goat's head. She is often associated with the underworld. Thus, Persephone could be a good consultant to a landscape architect. The answer is yes."
+        "Persephone is a Greek goddess of the underworld. She is often depicted as a beautiful young woman with a goat's head. She is often associated with the underworld. Thus, she is not a good consultant to a landscape architect. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3987,7 +3987,7 @@
     "doc_hash": "707ac1909decaa3df7684e828fe1d700e334d10c97e6ccc4d9b6f84f6cea157c",
     "prompt_hash": "e923465661fcd08d9d67da16f78c10c7af455622708019be89541c757b23bd99",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 95,
@@ -4016,7 +4016,7 @@
     ],
     "resps": [
       [
-        "Yes, salmon mate in the Caspian Sea. The Caspian Sea is a large saltwater body in the Middle East. The Caspian Sea is about 200 miles (320 km) long and 100 miles (160 km) wide. Thus, salmon would mate in the Caspian Sea. The answer is yes."
+        "Yes, salmon mate in the Caspian Sea. The Caspian Sea is a large saltwater body in the Middle East. The Caspian Sea is about 200 miles long and 100 miles wide. Thus, salmon could mate in the Caspian Sea. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4100,7 +4100,7 @@
     ],
     "resps": [
       [
-        "No, Bombyx mori is a species of moth. It is not a monopoly over silk production. The answer is no."
+        "No, Bombyx mori is a parasitic moth. It does not have a monopoly on silk production. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4142,7 +4142,7 @@
     ],
     "resps": [
       [
-        "Metallica is a heavy metal band. Heavy metal is a genre of music that is characterized by its use of heavy, powerful, and often violent lyrics. Metallica's music is known for its aggressive and powerful lyrics. Thus, Metallica's protective gear is not necessary. The answer is no."
+        "Metallica is known for their heavy metal music. Heavy metal is a genre of music that is characterized by strong, powerful, and often violent lyrics. Metallica's music is known for its strong, powerful, and often violent lyrics. Thus, Metallica would not protect their music. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4226,7 +4226,7 @@
     ],
     "resps": [
       [
-        "The Apollo 13 was named after a World War II battle. The name Apollo was given to the spacecraft after the Apollo 11 mission, which was launched in 1969. The name Apollo was chosen because it was the first spacecraft to successfully land on the Moon. The answer is yes."
+        "The Apollo 13 mission was launched in 1970. The name Apollo 13 was given to the spacecraft after the astronauts, who were astronauts, who were part of the Apollo 13 mission. Thus, the name Apollo 13 was given to the spacecraft. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4352,7 +4352,7 @@
     ],
     "resps": [
       [
-        "Yes, eagles and young bears are used as labels for skills-training youth groups. The term \"young bear\" is often used to refer to young bears, while \"eagle\" is used to refer to eagles. Thus, both terms are used to refer to young bears. The answer is yes."
+        "Yes, eagles and young bears are used as labels for skills-training youth groups. The labels are often used to identify the age group of the children. Thus, eagles and young bears would be used as labels for skills-training youth groups. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4394,7 +4394,7 @@
     ],
     "resps": [
       [
-        "The distance of an Olympic run is about 26.2 miles. The body's fatigue is not a direct result of running a mile. The body's fatigue is a result of the physical demands of running, such as the increased heart rate and oxygen consumption. Thus, an Olympic athlete would not be tired out after running a mile. The answer is no."
+        "The distance of an Olympic run is 26.2 miles. The body's fatigue is not a direct result of running a mile. The body's fatigue is a result of the physical demands of running, such as the increased heart rate, breathing, and muscle fatigue. Thus, an Olympic athlete would not be tired out after running a mile. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4436,7 +4436,7 @@
     ],
     "resps": [
       [
-        "The Crossroads Kitchen is a restaurant. The Crossroads Kitchen is a restaurant that serves food. Thus, goblins sharks would not eat at Crossroads Kitchen. The answer is no."
+        "The Crossroads Kitchen is a restaurant. The Crossroads Kitchen is a restaurant that serves food. Thus, goblins do not eat at Crossroads Kitchen. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4478,7 +4478,7 @@
     ],
     "resps": [
       [
-        "Godfrey of Bouillon was a French knight who was a member of the Knights Templar. The Knights Templar was a military order of knighthood that was founded in 1118 by Saint Philip the Apostle. The order was founded to protect the Holy Land from Muslim attacks. The answer is yes."
+        "Yes, Godfrey of Bouillon was an Islamaphobe. Islamaphobe is a term used to describe someone who is strongly opposed to Islam. Thus, Godfrey of Bouillon was an Islamaphobe. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4562,7 +4562,7 @@
     ],
     "resps": [
       [
-        "Yes, Guitar Hero Beatles is inappropriate for a US third grader. The lyrics are too simplistic and the music is too loud. The answer is yes."
+        "Yes, Guitar Hero Beatles is inappropriate for a US third grader. The lyrics and music are too simplistic and simplistic. The US is a country with a lot of complex music and songs. The lyrics and music should be more sophisticated and sophisticated. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4688,11 +4688,11 @@
     ],
     "resps": [
       [
-        "Tom Cruise is a movie director. He is not a mental engineer. He is a movie actor. He is not a psychologist. He is a movie director. Thus, he could not explain mental auditing. The answer is no."
+        "Yes, Tom Cruise is a well-known actor. He is known for his role in the movie \"The Godfather\" and \"The Godfather Part II.\" He is also known for his role in the movie \"The Godfather Part II\" and \"The Godfather Part III.\" Thus, he could explain mental auditing. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4701,7 +4701,7 @@
     "doc_hash": "7812dfde4541821623cdb19f4cd858fd58c911090fc5c5e88df3db99f2de9427",
     "prompt_hash": "0ec6f9cf04128f3ea59075ba122de1bbd3fd40f20e97174014f114df140e7e99",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 12,
@@ -4730,7 +4730,7 @@
     ],
     "resps": [
       [
-        "Yes, it is unusual to play Happy hardcore music at a funeral. The music is often called \"Happy\" because of the lyrics that are often about the deceased person's happiness. Thus, it is unusual to play Happy hardcore music at a funeral. The answer is yes."
+        "Yes, it is unusual to play Happy hardcore music at a funeral. The music is often called \"Happy hardcore\" because of the emphasis on the beat and the use of the beat as a musical element. However, the music itself is not uncommon. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4856,7 +4856,7 @@
     ],
     "resps": [
       [
-        "No, the scale would not balance out the Holstein cow and the Liberty Bell. The scale is designed to balance the weight of the Holstein cow and the Liberty Bell. The scale is not designed to balance the scale of a giant scale. The answer is no."
+        "No, the scale would not balance out. The scale is designed to measure the weight of a single object, not the weight of a whole cow. The scale would be too small to accurately measure the weight of a cow. Thus, the Holstein cow and the Liberty Bell would not balance out. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4898,7 +4898,7 @@
     ],
     "resps": [
       [
-        "No, hyenas do not appear in a Broadway musical. Hyenas are mammals, not actors. The answer is no."
+        "No, hyenas are not typically featured in a Broadway musical. They are more commonly found in Africa and are not typically featured in a musical. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5024,7 +5024,7 @@
     ],
     "resps": [
       [
-        "Yes, people with mood disorders often require permanent institutionalization. This is because they often have a history of mental health issues, and they may have a history of substance abuse, depression, or anxiety. They may also have a history of physical health problems, such as diabetes or heart disease. Thus, they may require permanent institutionalization. The answer is yes."
+        "Yes, people with mood disorders often require permanent institutionalization. This is because they often have a history of mental health issues, and they may have a history of substance abuse, depression, or anxiety. They may also have a history of trauma, which can make them more susceptible to mental health issues. Thus, people with mood disorders often require permanent institutionalization. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5234,7 +5234,7 @@
     ],
     "resps": [
       [
-        "Yes, some home remedies can result in your skin color turning blue. For example, rubbing alcohol on your skin can cause it to turn blue. However, this is not a reliable method of curing the color. The answer is no."
+        "Yes, some home remedies can result in your skin color turning blue. For example, rubbing alcohol can cause your skin to turn blue. However, this is not a reliable way to get blue skin. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5276,7 +5276,7 @@
     ],
     "resps": [
       [
-        "Greek architects and engineers were essential to building the Lighthouse of Alexandria. The Lighthouse was built in 300 BC by Ptolemy I Soter. The Lighthouse was a 100-meter-long structure that was built on the island of Pharos in the Nile River. The Lighthouse was built using a combination of stone and brick construction. The Lighthouse was built in a location that was accessible to the Mediterranean Sea. Thus, Greek architects and engineers were essential to building the Lighthouse of Alexandria. The answer is yes."
+        "Greek architects and engineers were essential to building the Lighthouse of Alexandria. The Lighthouse was built in 300 BC by Ptolemy I Soter. The Lighthouse was a marvel of engineering and was built to mark the entrance to the city of Alexandria. The Lighthouse was built in a strategic location to mark the entrance to the city. Thus, Greek architects and engineers were essential to building the Lighthouse of Alexandria. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5318,7 +5318,7 @@
     ],
     "resps": [
       [
-        "Yes, all cancer patients get disability. Cancer is a disease that affects the body and can cause damage to the nervous system, immune system, and other organs. Therefore, cancer patients are more likely to get disability. The answer is yes."
+        "Yes, all cancer patients get disability. Cancer is a disease that affects the body and can cause damage to tissues and organs. The body's immune system is designed to fight off cancer, but sometimes it can fail, leading to cancer. Thus, cancer patients can get disability. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5360,7 +5360,7 @@
     ],
     "resps": [
       [
-        "Naruto did not escape the Temple of Doom. Naruto is a young boy from a Japanese anime series. The Temple of Doom is a Japanese fantasy world where Naruto is a member of the Ninja clan. Naruto is not a member of the Temple of Doom. The answer is no."
+        "Naruto did not escape the Temple of Doom. Naruto is a young boy from a Japanese anime series. The Temple of Doom is a Japanese fantasy world where the main character, Naruto, is a young boy who is sent to the temple to fight against the evil demon, Natsume. Naruto is not a young boy from a Japanese anime series. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5402,7 +5402,7 @@
     ],
     "resps": [
       [
-        "The full circle of a rainbow is about 360 degrees. The full circle of a beach is about 180 degrees. Thus, lunch on the beach is not a good activity to spot the full circle of a rainbow. The answer is no."
+        "The full circle of a rainbow is about 360 degrees. The full circle of a beach is about 360 degrees. Thus, lunch on the beach is not a good activity to spot the full circle of a rainbow. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5444,11 +5444,11 @@
     ],
     "resps": [
       [
-        "Fairy tales are often based on historical events, myths, and legends. The presence of a fairy in a world myth is not necessarily a coincidence. The presence of a fairy in a world myth is often a result of the cultural and historical context of that world. Thus, fairy is not more prevalent in world myths than a valkyrie. The answer is no."
+        "Fairy tales are often associated with the myth of the Trickster, who is a figure from folklore and fairy tales. The Trickster is often depicted as a mischievous and cunning figure who challenges the gods and forces them to make decisions. In contrast, the valkyrie is a more traditional and heroic figure who is often depicted as a powerful and powerful woman. Thus, the fairy tales are more prevalent in world myths than the valkyrie. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5457,7 +5457,7 @@
     "doc_hash": "c5aec143d03637abcced166e55dc765a76b58561692048a3caa46193c91ce419",
     "prompt_hash": "768456e3dbf1b63fba08947f63e46865cdfd6eb63637e5592ef6fcaefbd73790",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 30,
@@ -5654,11 +5654,11 @@
     ],
     "resps": [
       [
-        "Most high school head coaches make between $20,000 and $50,000 per year. The answer is yes."
+        "Most high school head coaches make between $20,000 and $50,000 per year. The average is $50,000. Thus, most high school head coaches make less than $20,000 per year. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5667,7 +5667,7 @@
     "doc_hash": "7c790f9ca00d4b975991c223d3b803092abc295de2ef6f0816bcd30b05c0583f",
     "prompt_hash": "45847c092670cddef7048e23692ae02cef6fb4198dc6842b8bdb27f30bae4d30",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 35,
@@ -5696,11 +5696,11 @@
     ],
     "resps": [
       [
-        "Michael is a popular name in the United States. The name is widely recognized and has become a popular choice for many people. However, it is not an unpopular name in the United States. The answer is no."
+        "Michael is a popular name in the United States. The name is a play on the Latin word for \"man,\" which is \"marius.\" Thus, Michael is a popular name. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5709,7 +5709,7 @@
     "doc_hash": "179dafd1b51c3ba453f028f21b2b9cbb106733a5435922391bedf10dc836c0ed",
     "prompt_hash": "aef063ad6d7e566627d4f5cd6d79a53b8c54adc15950406cc7684996c9dad540",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 36,
@@ -5738,7 +5738,7 @@
     ],
     "resps": [
       [
-        "Yes, Rosalind Franklin was a scientist who made significant contributions to the field of genetics. She was the first woman to receive a Nobel Prize in Physics in 1962. Her work on DNA and its structure was crucial to the development of the Human Genome Project. Her contributions were recognized by the Nobel Prize in Physics in 1963. The answer is yes."
+        "Yes, Rosalind Franklin was a scientist who made significant contributions to the field of genetics. She was the first woman to receive a Nobel Prize in Physics in 1962. Her work on DNA and its structure was crucial to the development of the Human Genome Project. Her work was instrumental in the discovery of the human genome. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5780,7 +5780,7 @@
     ],
     "resps": [
       [
-        "Mixed is a word and a Roman numeral. MIX is a word, and the Roman numeral for \"mixed\" is M. Thus, the answer is yes."
+        "Mixed is a word and a Roman numeral. MIX is a word, and the Roman numeral for \"mixed\" is \"MM\". Thus, the answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5822,11 +5822,11 @@
     ],
     "resps": [
       [
-        "Yes, you should use cast iron skillets. Cast iron is a better choice for cooking because it is less dense than glass, which makes it easier to handle and cook with. Cast iron is also more resistant to corrosion and heat damage."
+        "Yes, you should use cast iron skillets. Cast iron is a better choice for cooking because it is less dense than glass, which is less dense than steel. Cast iron is also more resistant to corrosion and heat damage. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "Yes"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5864,11 +5864,11 @@
     ],
     "resps": [
       [
-        "No, Carl Friedrich Gauss did not speak to anyone 100 miles away. He was a mathematician and physicist."
+        "No, Carl Friedrich Gauss did not speak to anyone 100 miles away. He was a mathematician and physicist. He was the first person to measure the circumference of a circle. Thus, he could not speak to someone 100 miles away. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "No"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5990,11 +5990,11 @@
     ],
     "resps": [
       [
-        "Jason is a character from the movie \"The Shawshank Redemption.\" The movie is set in the 1940s and is based on the novel \"Dostoevsky's Crime and Chastity.\" Jason is portrayed as a character who is a \"bad guy\" and is portrayed as being \"bad\" by the other characters. However, Jason is not a character from the movie. Jason is a fictional character created by the movie's director, who is not a real person. Thus, Jason does not have anything in common with Dr. Disrespect. The answer is no."
+        "Jason is a character from the movie \"The Shawshank Redemption.\" The movie is about a group of convicts who are led to freedom by a former convict, who is also a former convict. Jason is a character from the movie who is portrayed as a \"disrespectful\" character."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6032,7 +6032,7 @@
     ],
     "resps": [
       [
-        "Yes, hiring someone with dyscalculia to do surveying work is a good idea. Dyscalculia is a learning disability that affects a person's ability to understand and perform mathematical tasks. It can make it difficult to accurately measure and calculate distances, angles, and other mathematical quantities. Thus, hiring someone with dyscalculia would be a good idea. The answer is yes."
+        "Yes, you would hire someone with dyscalculia to do surveying work. Dyscalculia is a learning disability that affects a person's ability to understand and perform mathematical calculations. Thus, someone with dyscalculia would be able to do survey work. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6326,11 +6326,11 @@
     ],
     "resps": [
       [
-        "Jon Brower Minnoch was a Canadian actor who starred in the 1990s television series \"The Crown.\" He was diagnosed with anorexia nervosa in 2002. However, he was later diagnosed with bulimia nervosa in 2008. The answer is yes."
+        "Jon Brower Minnoch was a Canadian actor who starred in the 1990s television series \"The Crown.\" He was diagnosed with anorexia nervosa in 2000. However, he was later diagnosed with bulimia nervosa in 2002."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,11 +6410,11 @@
     ],
     "resps": [
       [
-        "Yes, it is possible to get killed walking to the Very Large Telescope. The Very Large Telescope is a 30-meter telescope located at the South Pole. It is a very large telescope and is one of the most powerful telescopes in the world. Thus, it is possible to get killed walking to the Very Large Telescope. The answer is yes."
+        "Yes, it is possible to get killed walking to the Very Large Telescope. The Very Large Telescope is a 30-meter telescope located at the Cerro Tololo Inter-American Observatory in Chile. It is the largest telescope in the world and is used for a wide range of scientific research."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "Yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6620,11 +6620,11 @@
     ],
     "resps": [
       [
-        "The Carnation Revolution was the most violent revolution in the history of the Portuguese Empire. It was a failed attempt to overthrow the Portuguese monarchy and establish a new Portuguese Republic. The death toll from the revolution is estimated to be around 100,000 to 150,000 people. The answer is yes."
+        "The Carnation Revolution was the most violent revolution in Europe. It lasted from 1974 to 1976 and resulted in the deaths of over 100,000 people. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6633,7 +6633,7 @@
     "doc_hash": "c7d378ecb739ac8078413bcd3b30705b7c7dc275273e2819e5f72a92cf42bf32",
     "prompt_hash": "7ed964cad62e79a144c12daa20f893e710e527daf0ecaf54b520ed364c7e0022",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 58,
@@ -6662,7 +6662,7 @@
     ],
     "resps": [
       [
-        "B\u00f6rek is a Turkish word for \"soul.\" It is a spiritual concept that is often used in Sufism and Eastern mysticism. Thus, Recep Tayyip Erdo\u011fan could be unfamiliar with b\u00f6rek. The answer is no."
+        "B\u00f6rek is a Turkish word for \"soul.\" It is a spiritual and spiritual-oriented spiritual practice. Thus, Recep Tayyip Erdo\u011fan is not unfamiliar with b\u00f6rek. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6746,11 +6746,11 @@
     ],
     "resps": [
       [
-        "Yes, \"A Tale of Two Cities\" is a popular science novel. It is a classic novel in the genre of science fiction."
+        "Yes, \"A Tale of Two Cities\" is a popular science novel. It is a classic novel in the genre of science fiction. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "Yes"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6788,11 +6788,11 @@
     ],
     "resps": [
       [
-        "Al Capone was a member of the Chicago Mafia. The Harlem Renaissance was a literary movement in the United States that emerged in the 1920s. Thus, Capone could not have read works from the Harlem Renaissance. The answer is no."
+        "Al Capone was a member of the Chicago Mafia. The Harlem Renaissance was a literary movement that emerged in the 1920s and 1930s. Capone was a member of the Chicago Mafia. Thus, Capone could have read works from the Harlem Renaissance. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6801,7 +6801,7 @@
     "doc_hash": "475ce82d0e705a9e79880de3ba7dd659752f84a00d00e4228135df1abff36827",
     "prompt_hash": "4a5e0f5b0435ea78ba167a6dbd602b22aa70396665035a448c9e8cff5c08b3b5",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 62,
@@ -6830,11 +6830,11 @@
     ],
     "resps": [
       [
-        "Dr. Seuss was a famous author. He wrote many books, including \"The Cat in the Hat\" and \"The Cat in the Hat\". He was a free spirit and did not live a life of tragedy. He was a poet and a storyteller. He wrote about many things, including animals, and he was known for his humor and his love of nature. Thus, he could have lived a life of tragedy free. The answer is yes."
+        "Dr. Seuss was a famous author. He wrote many books, including \"The Cat in the Hat\" and \"I Spy\". He was a victim of a tragic accident. Thus, he could not live a tragedy free life. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6843,7 +6843,7 @@
     "doc_hash": "89175699bcfcb8b73aec248d98c89e5586bd1492d916df952b4b354c31319405",
     "prompt_hash": "f50bc3059f142809acad100e6620cd9cf77b2261e3a860b66491033a264fba97",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 63,
@@ -6914,7 +6914,7 @@
     ],
     "resps": [
       [
-        "No, American teams outnumber Canadian teams in the NHL. The NHL is a professional ice hockey league, and the teams are not affiliated with the National Hockey League. The answer is no."
+        "No, American teams outnumber Canadian teams in the NHL. The NHL is a professional ice hockey league, and the teams are not affiliated with the Canadian National Hockey League. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7124,7 +7124,7 @@
     ],
     "resps": [
       [
-        "The 2008 Summer Olympics were held in Beijing, China. The 550 is a 550-liter tank, which is about 1000 liters. Thus, it would take the 2008 Summer Olympics to drive a rowe 550. The answer is yes."
+        "The 2008 Summer Olympics were held in Beijing, China. The 550 is a 550-liter tank, which is about 1000 liters. Thus, it would take the 2008 Summer Olympics to drive a Rowe 550. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7166,7 +7166,7 @@
     ],
     "resps": [
       [
-        "The US Supreme Court has 65,000 seats. The answer is yes."
+        "The US Supreme Court has 535 seats. Since 1952, there have been 535 Prime Ministers of the United Kingdom. Thus, there have been 535 Prime Ministers of the United Kingdom since 1952. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7334,11 +7334,11 @@
     ],
     "resps": [
       [
-        "University of Pittsburgh founder Judith Sheindlin was a prominent figure in the feminist movement. She was a key figure in the women's rights movement and played a significant role in the establishment of the Women's Political Union. She was also a member of the Women's Political Committee of the National American Woman Suffrage Association. Thus, she had a great deal in common with Judith Sheindlin. The answer is yes."
+        "University of Pittsburgh founder Judith Sheindlin was a prominent figure in the feminist movement. She was a key figure in the women's rights movement, and she was also a strong advocate for women's rights. She was a member of the National Organization for Women (NOW) and was a member of the National Organization for Women's (NOW) Executive Committee. She was also a member of the National Women's Political Cousin (NWPC) and was a member of the National Women's Political Action Committee (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was a member of the National Women's Political Action Council (NWPC). She was also a member of the National Women's Political Action Council (NWPC) and was"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7347,7 +7347,7 @@
     "doc_hash": "ce70b31fa1788002b5be8ab101f55e99a8d53a327a02a8dc173008e8c85fd677",
     "prompt_hash": "3fef0232fd8a8d1585e97ae53603e281826e28db7b13f5c0daf95fc90f321410",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 75,
@@ -7376,7 +7376,7 @@
     ],
     "resps": [
       [
-        "The operating system of a Samsung Galaxy 1 is not edible. The operating system is a software program that manages the hardware of a computer. It is not a food. Thus, the answer is no."
+        "The operating system of a Samsung Galaxy 1 is not edible. The operating system is a software program that manages the hardware of a computer. It is not a food. Thus, it would not be edible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7544,11 +7544,11 @@
     ],
     "resps": [
       [
-        "No, the human sacrum has fewer fused vertebrae than the Alaskan Malamute. The human sacrum has 14 fused vertebrae, while the Alaskan Malamute has 12 fused vertebrae. Thus, the human sacrum has fewer fused vertebrae than the Alaskan Malamute. The answer is no."
+        "Yes, human sacrums have more fused vertebrae than an Alaskan Malamute. The reason is that the human sacrum is more compact and has a more rigid structure, which allows for greater flexibility and stability. The Alaskan Malamute, on the other hand, has a more flexible sacrum and a more rigid skull. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7557,7 +7557,7 @@
     "doc_hash": "32c2ace5aea4061fa389a898cf03784992424664e4ac8875a9b751479b4e99b2",
     "prompt_hash": "27b994b2a689edc8b553f5fe28ad88261805b805bddd4d960ab1bc882f106afd",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 80,
@@ -7628,11 +7628,11 @@
     ],
     "resps": [
       [
-        "Yes, Aldi is a more affordable option. The cost of food at Aldi is about 10% less than at Whole Foods. Thus, you would spend less on your food at Aldi than at Whole Foods. The answer is yes."
+        "The cost of food at Aldi is $1.20 per pound. The cost of food at Whole Foods is $1.50 per pound. Thus, you would spend less at Aldi than at Whole Foods. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7641,7 +7641,7 @@
     "doc_hash": "bcc027ec2072a784646c57ff55695e8512ac06d0258d276608e00dd636666f10",
     "prompt_hash": "7125d5970883ebb90353c9f62a6f5b4d8fdb85b96bea906259477ad817c50407",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 82,
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "No, a traffic collision does not make someone a millionaire. A millionaire is a person with a significant amount of wealth, such as a billionaire or a billionaire. A millionaire is a person with a substantial amount of wealth, such as a billionaire or a billionaire. Thus, a traffic collision does not make someone a millionaire. The answer is no."
+        "No, a traffic collision does not make someone a millionaire. A millionaire is a person with a significant amount of wealth, such as a billionaire or a billionaire. A millionaire is a person with a substantial amount of wealth, such as a billionaire. Thus, a traffic collision does not make someone a millionaire. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7796,7 +7796,7 @@
     ],
     "resps": [
       [
-        "Rusev is a Russian scientist who has been working on a project to create a sustainable food system. While he does have concerns about human overpopulation, he is not necessarily worried about human overpopulation in his homeland. He is working on a project to create a sustainable food system, which is a topic of ongoing debate. However, he is not directly concerned about human overpopulation in his homeland. The answer is no."
+        "Rusev is a Russian scientist who has been working on a project to create a sustainable food system. While he does have concerns about human overpopulation, he is not necessarily worried about human overpopulation in his homeland. He is working on a project to create a sustainable food system, which is a topic of ongoing debate. However, he is not concerned about human overpopulation in his homeland. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7880,7 +7880,7 @@
     ],
     "resps": [
       [
-        "Yes, spontaneous abortion is a rare occurrence. It is the spontaneous expulsion of an embryo or fetus from the uterus. Thus, lettuce can result in spontaneous abortion. The answer is yes."
+        "Yes, lettuce can result in spontaneous abortion. The process of spontaneous abortion is when a pregnancy occurs without the need for artificial insemination or other medical intervention. Thus, lettuce can result in spontaneous abortion. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8132,7 +8132,7 @@
     ],
     "resps": [
       [
-        "Tange Sazen is a highly skilled and highly paid secretary. The job requires a high level of technical knowledge, attention to detail, and a strong work ethic. However, the job is not ideal for a secretary. The job requires a high level of technical knowledge, attention to detail, and a strong work ethic, which are not ideal for a secretary. The answer is no."
+        "Tange Sazen is a Japanese term for a secretary. It is a title that is not commonly used in the United States. Thus, it is not a suitable choice for a secretary job. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -8174,11 +8174,11 @@
     ],
     "resps": [
       [
-        "Persephone is a Greek goddess of the underworld. She is often depicted as a beautiful young woman with a goat's head. She is often associated with the underworld. Thus, Persephone could be a good consultant to a landscape architect. The answer is yes."
+        "Persephone is a Greek goddess of the underworld. She is often depicted as a beautiful young woman with a goat's head. She is often associated with the underworld. Thus, she is not a good consultant to a landscape architect. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8187,7 +8187,7 @@
     "doc_hash": "707ac1909decaa3df7684e828fe1d700e334d10c97e6ccc4d9b6f84f6cea157c",
     "prompt_hash": "e923465661fcd08d9d67da16f78c10c7af455622708019be89541c757b23bd99",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 95,
@@ -8216,7 +8216,7 @@
     ],
     "resps": [
       [
-        "Yes, salmon mate in the Caspian Sea. The Caspian Sea is a large saltwater body in the Middle East. The Caspian Sea is about 200 miles (320 km) long and 100 miles (160 km) wide. Thus, salmon would mate in the Caspian Sea. The answer is yes."
+        "Yes, salmon mate in the Caspian Sea. The Caspian Sea is a large saltwater body in the Middle East. The Caspian Sea is about 200 miles long and 100 miles wide. Thus, salmon could mate in the Caspian Sea. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8300,7 +8300,7 @@
     ],
     "resps": [
       [
-        "No, Bombyx mori is a species of moth. It is not a monopoly over silk production. The answer is no."
+        "No, Bombyx mori is a parasitic moth. It does not have a monopoly on silk production. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -8342,7 +8342,7 @@
     ],
     "resps": [
       [
-        "Metallica is a heavy metal band. Heavy metal is a genre of music that is characterized by its use of heavy, powerful, and often violent lyrics. Metallica's music is known for its aggressive and powerful lyrics. Thus, Metallica's protective gear is not necessary. The answer is no."
+        "Metallica is known for their heavy metal music. Heavy metal is a genre of music that is characterized by strong, powerful, and often violent lyrics. Metallica's music is known for its strong, powerful, and often violent lyrics. Thus, Metallica would not protect their music. The answer is no."
       ]
     ],
     "filtered_resps": [

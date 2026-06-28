@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E2B-it,asdiv_paper_cot,asdiv,paper_cot,fewshot_cot,asdiv,0.95,0.05,157.8,8,100,53.82,23.71

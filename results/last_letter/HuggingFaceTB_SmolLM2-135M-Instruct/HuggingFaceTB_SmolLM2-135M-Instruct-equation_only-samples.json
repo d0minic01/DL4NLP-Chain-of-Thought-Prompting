@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "lastletter('mirror') + lastletter('Yasmin') + lastletter('Irides') + lastletter('Feathers') = 'y' + 'n' + 's' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i'"
+        "lastletter('mirror') + lastletter('Yasmin') + lastletter('Irides') + lastletter('Feathers') = 'y' + 'n' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i'"
       ]
     ],
     "filtered_resps": [
@@ -212,7 +212,7 @@
     ],
     "resps": [
       [
-        "lastletter('Mary') + lastletter('Walter') = 'm' + 'r' = 'mr' The answer is mr."
+        "lastletter('Mary') + lastletter('Walt') = 'm' + 'r' = 'mr' The answer is mr."
       ]
     ],
     "filtered_resps": [
@@ -288,11 +288,11 @@
     ],
     "resps": [
       [
-        "lastletter('bottle') + lastletter('Tiger') + lastletter('Mary') + lastletter('Rocket') = 't' + 'r' + 'i' + 'n' = 't' + 'r' + 'i' + 'n' The answer is t."
+        "lastletter('bottle') + lastletter('Tiger') + lastletter('Mary') + lastletter('Rocket') = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + '"
       ]
     ],
     "filtered_resps": [
-      "t"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -364,11 +364,11 @@
     ],
     "resps": [
       [
-        "lastletter('Brian') + lastletter('Island') + lastletter('Punjabi') + lastletter('Hammer') = 'b' + 'n' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i"
+        "lastletter('Brian') + lastletter('Island') + lastletter('Punishment') = 'b' + 'n' + 's' + 'l' + 'm' = 'b' + 'n' + 's' + 'l' + 'm' The answer is bn."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "bn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -402,7 +402,7 @@
     ],
     "resps": [
       [
-        "lastletter('Flame') + lastletter('Harbor') + lastletter('Guitar') + lastletter('Lemon') = 'f' + 'l' + 'r' + 'e' + 'o' = 'f' + 'l' + 'r' + 'e' + 'o' The answer is f."
+        "lastletter('Flame') + lastletter('Harbor') + lastletter('Guitar') + lastletter('Lemon') = 'f' + 'l' + 'r' + 'e' + 'g' = 'f' + 'l' + 'r' + 'e' + 'g' The answer is f."
       ]
     ],
     "filtered_resps": [
@@ -630,11 +630,11 @@
     ],
     "resps": [
       [
-        "lastletter('kettle') + lastletter('planet') = 'k' + 't' = 'k' The answer is k."
+        "lastletter('kettle') + lastletter('planet') = 'k' + 't' = 'kt' The answer is kt."
       ]
     ],
     "filtered_resps": [
-      "k"
+      "kt"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -782,11 +782,11 @@
     ],
     "resps": [
       [
-        "lastletter('Jack') + lastletter('Waul') = 'y' + 'n' = 'yn' The answer is yn."
+        "lastletter('Jack') + lastletter('Waul') = 'y' + 'w' = 'yw' The answer is yw."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "yw"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "lastletter('Clara') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('"
+        "lastletter('Clara') + lastletter('D') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('"
       ]
     ],
     "filtered_resps": [
@@ -1466,7 +1466,7 @@
     ],
     "resps": [
       [
-        "lastletter('Henry') + lastletter('Nathan') + lastletter('Guitar') = 'y' + 'n' + 's' = 'yn' The answer is yn."
+        "lastletter('Henry') + lastletter('Nathan') + lastletter('Guitar') = 'y' + 'n' + 'h' + 'a' = 'y' + 'n' + 'h' + 'a' The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -1618,11 +1618,11 @@
     ],
     "resps": [
       [
-        "lastletter('Donna') + lastletter('Yarn') = 'n' + 'd' = 'nd' The answer is nd."
+        "lastletter('Donna') + lastletter('Yarn') = 'd' + 'n' = 'dn' The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "nd"
+      "dn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1656,11 +1656,11 @@
     ],
     "resps": [
       [
-        "lastletter('Puzzle') + lastletter('Nova') + lastletter('Liam') = 'p' + 'n' + 'l' = 'p' + 'n' The answer is p."
+        "lastletter('puzzle') + lastletter('book') + lastletter('l') + lastletter('d') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('"
       ]
     ],
     "filtered_resps": [
-      "p"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1808,7 +1808,7 @@
     ],
     "resps": [
       [
-        "lastletter('elbow') + lastletter('xenon') + lastletter('carol') + lastletter(' knight') = 'y' + 'n' + 's' + 'y' = 'yn' + 'n' + 's' + 'y' The answer is yn."
+        "lastletter('elbow') + lastletter('xenon') + lastletter('carol') + lastletter(' knight') = 'y' + 'n' + 's' + 'y' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -2264,11 +2264,11 @@
     ],
     "resps": [
       [
-        "lastletter('oven') + lastletter('Vera') = 'y' + 'n' = 'yn' The answer is yn."
+        "lastletter('oven') + lastletter('Vera') = 'v' + 'r' = 'rv' The answer is rv."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "rv"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2378,11 +2378,11 @@
     ],
     "resps": [
       [
-        "lastletter('Candle') + lastletter('Jack') = 'y' + 'c' = 'yc' The answer is yc."
+        "lastletter('Candle') + lastletter('Jack') = 'y' + 'n' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
-      "yc"
+      "yn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2492,11 +2492,11 @@
     ],
     "resps": [
       [
-        "lastletter('David') + lastletter('Mango') = 'm' + 'o' = 'mo' The answer is mo."
+        "lastletter('mango') + lastletter('David') = 'm' + 'o' = 'o' The answer is o."
       ]
     ],
     "filtered_resps": [
-      "mo"
+      "o"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2606,7 +2606,7 @@
     ],
     "resps": [
       [
-        "lastletter('anchor') + lastletter('Diamond') = 'n' + 'd' = 'n' The answer is n."
+        "lastletter('anchor') + lastletter('diamond') = 'n' + 'd' = 'n' The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -2872,7 +2872,7 @@
     ],
     "resps": [
       [
-        "lastletter('candle') + lastletter('dragon') = 'y' + 'n' = 'yn' The answer is yn."
+        "lastletter('candle') + lastletter('d') + lastletter('d') = 'y' + 'n' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -2910,11 +2910,11 @@
     ],
     "resps": [
       [
-        "lastletter('glove') + lastletter('window') + lastletter('violet') = 'gl' + 'w' + 'r' = 'gl' + 'v' + 'r' The answer is glv."
+        "lastletter('glove') + lastletter('window') + lastletter('violet') = 'y' + 'n' + 's' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
-      "glv"
+      "yn"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2986,11 +2986,11 @@
     ],
     "resps": [
       [
-        "lastletter('Bob') + lastletter('Tiger') + lastletter('Eagle') = 'y' + 'n' + 's' = 'yn' The answer is yn."
+        "lastletter('Bob') + lastletter('Tiger') + lastletter('Eagle') = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' +"
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3062,11 +3062,11 @@
     ],
     "resps": [
       [
-        "lastletter('Henry') + lastletter('Elder') + lastletter('Owl') = 'y' + 'n' + 'l' = 'yn' The answer is yn."
+        "lastletter('Henry') + lastletter('Elder') + lastletter('Owl') = 'y' + 'l' + 'o' = 'yol' The answer is yol."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "yol"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,7 +3290,7 @@
     ],
     "resps": [
       [
-        "lastletter('Iris') + lastletter('Rocket') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('B"
+        "lastletter('Iris') + lastletter('Rocket') + lastletter('Burt') + lastletter('Baker') + lastletter('Bracket') + lastletter('Kettle') = 'i' + 'r' + 's' + 'i' + 'l' + 'r' + 'i' + 's' + 'r' + 'i' + 'l' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' +"
       ]
     ],
     "filtered_resps": [
@@ -3556,7 +3556,7 @@
     ],
     "resps": [
       [
-        "lastletter('butter') + lastletter('violet') + lastletter('window') + lastletter('flame') = 'y' + 'n' + 's' + 't' + 'r' + 'v' + 'w' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + '"
+        "lastletter('butter') + lastletter('violet') + lastletter('window') + lastletter('flame') = 'y' + 'n' + 'k' + 's' + 't' + 'r' + 'v' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + '"
       ]
     ],
     "filtered_resps": [
@@ -3632,11 +3632,11 @@
     ],
     "resps": [
       [
-        "lastletter('Violet') + lastletter('Stone') + lastletter('Zebra') = 'v' + 'r' + 'i' = 'v' + 'n' The answer is vn."
+        "lastletter('Violet') + lastletter('Stone') + lastletter('Zebra') = 'v' + 'r' + 'i' = 'v' + 'r' The answer is vr."
       ]
     ],
     "filtered_resps": [
-      "vn"
+      "vr"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "lastletter('Nathan') + lastletter('window') = 'n' + 's' = 'n' The answer is n."
+        "lastletter('Nathan') + lastletter('window') = 'n' + 't' = 'nt' The answer is nt."
       ]
     ],
     "filtered_resps": [
-      "n"
+      "nt"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "lastletter('Eagle') + lastletter('Lemon') + lastletter('Harbor') = 'e' + 'l' + 's' = 'e' + 'l' + 's' The answer is e."
+        "lastletter('Eagle') + lastletter('Lemon') + lastletter('Harbor') = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's'"
       ]
     ],
     "filtered_resps": [
-      "e"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3936,7 +3936,7 @@
     ],
     "resps": [
       [
-        "lastletter('mirror') + lastletter('Yasmin') + lastletter('Irides') + lastletter('Feathers') = 'y' + 'n' + 's' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i' + 's' + 'm' + 'r' + 'i'"
+        "lastletter('mirror') + lastletter('Yasmin') + lastletter('Irides') + lastletter('Feathers') = 'y' + 'n' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i' + 'm' + 's' + 'r' + 'i'"
       ]
     ],
     "filtered_resps": [
@@ -4012,7 +4012,7 @@
     ],
     "resps": [
       [
-        "lastletter('Mary') + lastletter('Walter') = 'm' + 'r' = 'mr' The answer is mr."
+        "lastletter('Mary') + lastletter('Walt') = 'm' + 'r' = 'mr' The answer is mr."
       ]
     ],
     "filtered_resps": [
@@ -4088,11 +4088,11 @@
     ],
     "resps": [
       [
-        "lastletter('bottle') + lastletter('Tiger') + lastletter('Mary') + lastletter('Rocket') = 't' + 'r' + 'i' + 'n' = 't' + 'r' + 'i' + 'n' The answer is t."
+        "lastletter('bottle') + lastletter('Tiger') + lastletter('Mary') + lastletter('Rocket') = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + 'b' + 'l' + 't' = 't' + 'r' + '"
       ]
     ],
     "filtered_resps": [
-      "is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4164,11 +4164,11 @@
     ],
     "resps": [
       [
-        "lastletter('Brian') + lastletter('Island') + lastletter('Punjabi') + lastletter('Hammer') = 'b' + 'n' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i' + 's' + 'j' + 'a' + 'l' + 'i"
+        "lastletter('Brian') + lastletter('Island') + lastletter('Punishment') = 'b' + 'n' + 's' + 'l' + 'm' = 'b' + 'n' + 's' + 'l' + 'm' The answer is bn."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "bn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4202,7 +4202,7 @@
     ],
     "resps": [
       [
-        "lastletter('Flame') + lastletter('Harbor') + lastletter('Guitar') + lastletter('Lemon') = 'f' + 'l' + 'r' + 'e' + 'o' = 'f' + 'l' + 'r' + 'e' + 'o' The answer is f."
+        "lastletter('Flame') + lastletter('Harbor') + lastletter('Guitar') + lastletter('Lemon') = 'f' + 'l' + 'r' + 'e' + 'g' = 'f' + 'l' + 'r' + 'e' + 'g' The answer is f."
       ]
     ],
     "filtered_resps": [
@@ -4430,11 +4430,11 @@
     ],
     "resps": [
       [
-        "lastletter('kettle') + lastletter('planet') = 'k' + 't' = 'k' The answer is k."
+        "lastletter('kettle') + lastletter('planet') = 'k' + 't' = 'kt' The answer is kt."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "kt"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4582,11 +4582,11 @@
     ],
     "resps": [
       [
-        "lastletter('Jack') + lastletter('Waul') = 'y' + 'n' = 'yn' The answer is yn."
+        "lastletter('Jack') + lastletter('Waul') = 'y' + 'w' = 'yw' The answer is yw."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "yw"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4848,7 +4848,7 @@
     ],
     "resps": [
       [
-        "lastletter('Clara') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('A') + lastletter('D') + lastletter('E') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('T') + lastletter('"
+        "lastletter('Clara') + lastletter('D') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('A') + lastletter('T') + lastletter('R') + lastletter('S') + lastletter('Q') + lastletter('E') + lastletter('"
       ]
     ],
     "filtered_resps": [
@@ -5266,7 +5266,7 @@
     ],
     "resps": [
       [
-        "lastletter('Henry') + lastletter('Nathan') + lastletter('Guitar') = 'y' + 'n' + 's' = 'yn' The answer is yn."
+        "lastletter('Henry') + lastletter('Nathan') + lastletter('Guitar') = 'y' + 'n' + 'h' + 'a' = 'y' + 'n' + 'h' + 'a' The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -5418,11 +5418,11 @@
     ],
     "resps": [
       [
-        "lastletter('Donna') + lastletter('Yarn') = 'n' + 'd' = 'nd' The answer is nd."
+        "lastletter('Donna') + lastletter('Yarn') = 'd' + 'n' = 'dn' The answer is dn."
       ]
     ],
     "filtered_resps": [
-      "nd"
+      "dn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "lastletter('Puzzle') + lastletter('Nova') + lastletter('Liam') = 'p' + 'n' + 'l' = 'p' + 'n' The answer is p."
+        "lastletter('puzzle') + lastletter('book') + lastletter('l') + lastletter('d') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('r') + lastletter('l') + lastletter('n') + lastletter('o') + lastletter('"
       ]
     ],
     "filtered_resps": [
-      "is"
+      "book"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,7 +5608,7 @@
     ],
     "resps": [
       [
-        "lastletter('elbow') + lastletter('xenon') + lastletter('carol') + lastletter(' knight') = 'y' + 'n' + 's' + 'y' = 'yn' + 'n' + 's' + 'y' The answer is yn."
+        "lastletter('elbow') + lastletter('xenon') + lastletter('carol') + lastletter(' knight') = 'y' + 'n' + 's' + 'y' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -6064,11 +6064,11 @@
     ],
     "resps": [
       [
-        "lastletter('oven') + lastletter('Vera') = 'y' + 'n' = 'yn' The answer is yn."
+        "lastletter('oven') + lastletter('Vera') = 'v' + 'r' = 'rv' The answer is rv."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "rv"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6178,11 +6178,11 @@
     ],
     "resps": [
       [
-        "lastletter('Candle') + lastletter('Jack') = 'y' + 'c' = 'yc' The answer is yc."
+        "lastletter('Candle') + lastletter('Jack') = 'y' + 'n' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
-      "yc"
+      "yn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6292,11 +6292,11 @@
     ],
     "resps": [
       [
-        "lastletter('David') + lastletter('Mango') = 'm' + 'o' = 'mo' The answer is mo."
+        "lastletter('mango') + lastletter('David') = 'm' + 'o' = 'o' The answer is o."
       ]
     ],
     "filtered_resps": [
-      "mo"
+      "is"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,7 +6406,7 @@
     ],
     "resps": [
       [
-        "lastletter('anchor') + lastletter('Diamond') = 'n' + 'd' = 'n' The answer is n."
+        "lastletter('anchor') + lastletter('diamond') = 'n' + 'd' = 'n' The answer is n."
       ]
     ],
     "filtered_resps": [
@@ -6672,7 +6672,7 @@
     ],
     "resps": [
       [
-        "lastletter('candle') + lastletter('dragon') = 'y' + 'n' = 'yn' The answer is yn."
+        "lastletter('candle') + lastletter('d') + lastletter('d') = 'y' + 'n' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
@@ -6710,11 +6710,11 @@
     ],
     "resps": [
       [
-        "lastletter('glove') + lastletter('window') + lastletter('violet') = 'gl' + 'w' + 'r' = 'gl' + 'v' + 'r' The answer is glv."
+        "lastletter('glove') + lastletter('window') + lastletter('violet') = 'y' + 'n' + 's' = 'yn' The answer is yn."
       ]
     ],
     "filtered_resps": [
-      "glv"
+      "yn"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6786,11 +6786,11 @@
     ],
     "resps": [
       [
-        "lastletter('Bob') + lastletter('Tiger') + lastletter('Eagle') = 'y' + 'n' + 's' = 'yn' The answer is yn."
+        "lastletter('Bob') + lastletter('Tiger') + lastletter('Eagle') = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' + 'e' = 'b' + 't' +"
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "lastletter('Henry') + lastletter('Elder') + lastletter('Owl') = 'y' + 'n' + 'l' = 'yn' The answer is yn."
+        "lastletter('Henry') + lastletter('Elder') + lastletter('Owl') = 'y' + 'l' + 'o' = 'yol' The answer is yol."
       ]
     ],
     "filtered_resps": [
-      "yn"
+      "yol"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,7 +7090,7 @@
     ],
     "resps": [
       [
-        "lastletter('Iris') + lastletter('Rocket') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('Buff') + lastletter('B"
+        "lastletter('Iris') + lastletter('Rocket') + lastletter('Burt') + lastletter('Baker') + lastletter('Bracket') + lastletter('Kettle') = 'i' + 'r' + 's' + 'i' + 'l' + 'r' + 'i' + 's' + 'r' + 'i' + 'l' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' + 'r' + 'i' + 's' +"
       ]
     ],
     "filtered_resps": [
@@ -7356,7 +7356,7 @@
     ],
     "resps": [
       [
-        "lastletter('butter') + lastletter('violet') + lastletter('window') + lastletter('flame') = 'y' + 'n' + 's' + 't' + 'r' + 'v' + 'w' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + '"
+        "lastletter('butter') + lastletter('violet') + lastletter('window') + lastletter('flame') = 'y' + 'n' + 'k' + 's' + 't' + 'r' + 'v' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + 't' + 'o' + 'r' + '"
       ]
     ],
     "filtered_resps": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "lastletter('Violet') + lastletter('Stone') + lastletter('Zebra') = 'v' + 'r' + 'i' = 'v' + 'n' The answer is vn."
+        "lastletter('Violet') + lastletter('Stone') + lastletter('Zebra') = 'v' + 'r' + 'i' = 'v' + 'r' The answer is vr."
       ]
     ],
     "filtered_resps": [
-      "vn"
+      "vr"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "lastletter('Nathan') + lastletter('window') = 'n' + 's' = 'n' The answer is n."
+        "lastletter('Nathan') + lastletter('window') = 'n' + 't' = 'nt' The answer is nt."
       ]
     ],
     "filtered_resps": [
-      "is"
+      "nt"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7508,11 +7508,11 @@
     ],
     "resps": [
       [
-        "lastletter('Eagle') + lastletter('Lemon') + lastletter('Harbor') = 'e' + 'l' + 's' = 'e' + 'l' + 's' The answer is e."
+        "lastletter('Eagle') + lastletter('Lemon') + lastletter('Harbor') = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's' + 'e' = 'e' + 'l' + 's'"
       ]
     ],
     "filtered_resps": [
-      "is"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [

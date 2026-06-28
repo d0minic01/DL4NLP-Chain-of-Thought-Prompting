@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,date_contrastive_cot,date,contrastive_cot,fewshot_cot,date_understanding,0.06,0.1,153.8,6,100,66.94,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,date_contrastive_cot,date,contrastive_cot,fewshot_cot,date_understanding,0.07,0.1,118.8,6,100,14.11,1.48

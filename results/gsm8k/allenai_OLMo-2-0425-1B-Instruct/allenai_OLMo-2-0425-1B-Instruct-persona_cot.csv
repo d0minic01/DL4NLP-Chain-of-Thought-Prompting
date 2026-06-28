@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,gsm8k_persona_cot,gsm8k,persona_cot,fewshot_cot,gsm8k,0.64,0.19,437.9,8,100,22.96,8.01

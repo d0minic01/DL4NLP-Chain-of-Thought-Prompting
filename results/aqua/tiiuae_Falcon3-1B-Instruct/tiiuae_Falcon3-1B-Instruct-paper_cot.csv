@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+tiiuae/Falcon3-1B-Instruct,aqua_paper_cot,aqua,paper_cot,fewshot_cot,aqua-rat,0.27,0.4,460.9,4,100,23.73,11.13

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,svamp_true_baseline,svamp,true_baseline,zero_shot,svamp,0.04,0.87,164.0,0,100,17.92,15.3

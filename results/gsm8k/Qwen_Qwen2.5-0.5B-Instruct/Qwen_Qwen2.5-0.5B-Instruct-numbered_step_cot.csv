@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-0.5B-Instruct,gsm8k_numbered_step_cot,gsm8k,numbered_step_cot,fewshot_cot,gsm8k,0.14,0.73,523.4,8,100,59.08,4.12

@@ -934,11 +934,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done().."
+        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done()."
+      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1846,11 +1846,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done().."
+        "The answer is 1. find(fruit basket), 2. pick(fruit basket), 3. find(table), 4. put(fruit basket), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done()."
+      "1. find(fruit basket), 2. pick(fruit basket), 3. find(table), 4. put(fruit basket), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2226,11 +2226,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(water), 2. pick(water), 3. find(table), 4. put(water), 5. find(bag of chips), 6. put(bag of chips), 7. done().."
+        "The answer is 1. find(chips), 2. pick(chips), 3. find(water bottle), 4. put(chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(table), 4. put(water), 5. find(bag of chips), 6. put(bag of chips), 7. done()."
+      "1. find(chips), 2. pick(chips), 3. find(water bottle), 4. put(chips), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,11 +2340,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(user), 2. find(table), 3. find(user), 4. find(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user).."
+        "The answer is 1. find(kettle), 2. pick(kettle), 3. find(user), 4. put(kettle), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(user), 2. find(table), 3. find(user), 4. find(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user)."
+      "1. find(kettle), 2. pick(kettle), 3. find(user), 4. put(kettle), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2720,11 +2720,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(coke), 2. pick(coke), 3. find(trash), 4. put(coke), 5. done().."
+        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke), 2. pick(coke), 3. find(trash), 4. put(coke), 5. done()."
+      "1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3176,11 +3176,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(user), 4. put(grapefruit soda), 5. done().."
+        "The answer is 1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(counter), 4. put(grapefruit soda), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(user), 4. put(grapefruit soda), 5. done()."
+      "1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(counter), 4. put(grapefruit soda), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3290,11 +3290,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done().."
+        "The answer is 1. find(jalapeno chips), 2. pick(jalapeno chips), 3. find(user), 4. put(jalapeno chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done()."
+      "1. find(jalapeno chips), 2. pick(jalapeno chips), 3. find(user), 4. put(jalapeno chips), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3328,11 +3328,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done().."
+        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done()."
+      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3670,11 +3670,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(user), 2. pick(user), 3. find(table), 4. put(user), 5. done().."
+        "The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(user), 2. pick(user), 3. find(table), 4. put(user), 5. done()."
+      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3708,11 +3708,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "The answer is 1. find(table), 2. pick(table), 3. find(counter), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done()."
+      "1. find(table), 2. pick(table), 3. find(counter), 4. put(table), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4696,11 +4696,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done().."
+        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done"
+      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5608,11 +5608,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done().."
+        "The answer is 1. find(fruit basket), 2. pick(fruit basket), 3. find(table), 4. put(fruit basket), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(fruit), 2. pick(fruit), 3. find(table), 4. put(fruit), 5. done"
+      "1. find(fruit basket), 2. pick(fruit basket), 3. find(table), 4. put(fruit basket), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5988,11 +5988,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(water), 2. pick(water), 3. find(table), 4. put(water), 5. find(bag of chips), 6. put(bag of chips), 7. done().."
+        "The answer is 1. find(chips), 2. pick(chips), 3. find(water bottle), 4. put(chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(table), 4. put(water), 5. find(bag of chips), 6. put(bag of chips), 7. done"
+      "1. find(chips), 2. pick(chips), 3. find(water bottle), 4. put(chips), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,11 +6102,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(user), 2. find(table), 3. find(user), 4. find(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user).."
+        "The answer is 1. find(kettle), 2. pick(kettle), 3. find(user), 4. put(kettle), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(user), 2. find(table), 3. find(user), 4. find(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user).."
+      "1. find(kettle), 2. pick(kettle), 3. find(user), 4. put(kettle), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6482,11 +6482,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(coke), 2. pick(coke), 3. find(trash), 4. put(coke), 5. done().."
+        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke), 2. pick(coke), 3. find(trash), 4. put(coke), 5. done"
+      "1. find(coke can), 2. pick(coke can), 3. find(trash), 4. put(coke can), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6938,11 +6938,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(user), 4. put(grapefruit soda), 5. done().."
+        "The answer is 1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(counter), 4. put(grapefruit soda), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(user), 4. put(grapefruit soda), 5. done"
+      "1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(counter), 4. put(grapefruit soda), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7052,11 +7052,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done().."
+        "The answer is 1. find(jalapeno chips), 2. pick(jalapeno chips), 3. find(user), 4. put(jalapeno chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(chips), 2. pick(chips), 3. find(user), 4. put(chips), 5. done"
+      "1. find(jalapeno chips), 2. pick(jalapeno chips), 3. find(user), 4. put(jalapeno chips), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7090,11 +7090,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done().."
+        "The answer is 1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(coke can), 2. pick(coke can), 3. find(grip), 4. put(coke can), 5. done"
+      "1. find(coke can), 2. pick(coke can), 3. find(grasp), 4. put(coke can), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7432,11 +7432,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(user), 2. pick(user), 3. find(table), 4. put(user), 5. done().."
+        "The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(user), 2. pick(user), 3. find(table), 4. put(user), 5. done"
+      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7470,11 +7470,11 @@
     ],
     "resps": [
       [
-        "The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "The answer is 1. find(table), 2. pick(table), 3. find(counter), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done"
+      "1. find(table), 2. pick(table), 3. find(counter), 4. put(table), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E2B-it,asdiv_true_baseline,asdiv,true_baseline,zero_shot,asdiv,0.8,0.1,373.8,0,100,79.84,23.71

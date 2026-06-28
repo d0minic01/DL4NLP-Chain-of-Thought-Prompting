@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,svamp_fewshot_baseline,svamp,fewshot_baseline,fewshot_base,svamp,0.6,0.02,20.7,8,100,17.47,11.48

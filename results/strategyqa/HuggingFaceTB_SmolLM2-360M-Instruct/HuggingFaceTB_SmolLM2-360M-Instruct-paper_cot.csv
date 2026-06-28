@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+HuggingFaceTB/SmolLM2-360M-Instruct,strategyqa_paper_cot,strategyqa,paper_cot,fewshot_cot,strategyqa,0.54,0.03,192.6,6,100,27.33,1.73

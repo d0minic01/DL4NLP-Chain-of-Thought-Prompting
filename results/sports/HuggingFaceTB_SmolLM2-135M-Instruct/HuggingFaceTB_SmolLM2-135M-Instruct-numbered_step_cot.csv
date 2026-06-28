@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,sports_numbered_step_cot,sports,numbered_step_cot,fewshot_cot,sports_understanding,0.7,0.0,124.7,8,100,16.44,4.39
+HuggingFaceTB/SmolLM2-135M-Instruct,sports_numbered_step_cot,sports,numbered_step_cot,fewshot_cot,sports_understanding,0.69,0.0,124.8,8,100,9.14,1.48

@@ -236,7 +236,7 @@
     ],
     "resps": [
       [
-        "Crossroads Kitchen is 100 miles. Goblin shark is 1000 miles. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Cross"
+        "Crossroads Kitchen is 100 miles. Goblin shark is 1000 miles. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Cross"
       ]
     ],
     "filtered_resps": [
@@ -362,7 +362,7 @@
     ],
     "resps": [
       [
-        "Yes. Beatles is a song. It's a song about the Beatles. It's not appropriate for a US third grader. The answer is yes."
+        "Yes. Beatles is a song. It's a song about a band. It's not appropriate for a US third grader. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -488,7 +488,7 @@
     ],
     "resps": [
       [
-        "Yes. Tom Cruise is a psychologist. He's a mental health professional. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist."
+        "Yes. Tom Cruise is a psychologist. He's a mental health professional. He's a psychologist. He's a mental health professional. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a"
       ]
     ],
     "filtered_resps": [
@@ -530,11 +530,11 @@
     ],
     "resps": [
       [
-        "Yes, it is. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music"
+        "Yes. It's a tradition. It's a way to honor the deceased. It's a way to honor the life of the deceased. So it's not unusual. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -543,7 +543,7 @@
     "doc_hash": "fb53991d3be9e3d64eca92a8e1632615d17d4fb9d0484bf16936998170cee5a1",
     "prompt_hash": "7f49f1d60f93fb8650a41933ce224d571e1335731ebd548c7f88ad9f7e57649c",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 13,
@@ -614,11 +614,11 @@
     ],
     "resps": [
       [
-        "Michael J Fox is 10 years older than the Army Rangers. So Michael J Fox is 10 years older than the Army Rangers. So he is not a Rangers. So he is not a Army Ranger. The answer is no."
+        "Michael J Fox is 10 years older than the Army Rangers. So Michael J Fox is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So"
       ]
     ],
     "filtered_resps": [
-      "no"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -627,7 +627,7 @@
     "doc_hash": "f94bb5fd5407a613f7036d392de3ccda08ab532c6be57814a0bacac4cdd957c6",
     "prompt_hash": "1c03b5bd8a9e8e6242af1eda5d1e034e6ae24d9719c383a9d2aa15927cd9a8c3",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 15,
@@ -782,7 +782,7 @@
     ],
     "resps": [
       [
-        "No. Princess Peach is a peach. Peach is a fruit. So Princess Peach's dress is not a peach. The answer is no."
+        "No. Princess Peach is a peach. So peach is not a peach. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -824,7 +824,7 @@
     ],
     "resps": [
       [
-        "Yes. People with mood disorders need permanent institutionalization. They need to be in a mental health facility. So they need permanent. The answer is yes."
+        "Yes. People with mood disorders need permanent institutionalization. They need to be in a mental health facility. So they need permanent institutionalization. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1202,7 +1202,7 @@
     ],
     "resps": [
       [
-        "Yes, it's a good activity. The full circle of a rainbow is a beautiful sight. The answer is yes."
+        "Yes. The full circle of a rainbow is 360 degrees. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1328,7 +1328,7 @@
     ],
     "resps": [
       [
-        "No, curling iron is not necessary. Curling is a game of skill. It's not about the material. The answer is no."
+        "No, curling iron is not necessary. Curling is a sport. It's not about curling. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1412,7 +1412,7 @@
     ],
     "resps": [
       [
-        "Yes. Elementary school students need graphing calculators. They are used to solve equations and graphs. So they need graphing calculators. The answer is yes."
+        "Yes. Elementary school students need graphing calculators. They are used to solve problems. So they need graphing calculators. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1454,7 +1454,7 @@
     ],
     "resps": [
       [
-        "Most high school head coaches make less than the head coach at NCSU. NCSU is a state college. So head coach is not a college. So head coach is not a high school head coach. The answer is no."
+        "Most high school head coaches make less than the head coach at NCSU. So they make less than the head coach at NCSU. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -1496,11 +1496,11 @@
     ],
     "resps": [
       [
-        "Michael is not an unpopular name in the United States. Michael is a name of a famous actor. Michael is not an unpopular name. The answer is no."
+        "Michael is not an unpopular name in the United States. Michael is a name of a famous actor. Michael is a popular name in the United States. So Michael is not unpopular. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1509,7 +1509,7 @@
     "doc_hash": "179dafd1b51c3ba453f028f21b2b9cbb106733a5435922391bedf10dc836c0ed",
     "prompt_hash": "32cbc23f936dc1bb72c8c4ebe8e808950583fa453d7384c3fdc808d8cfa55389",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 36,
@@ -1622,7 +1622,7 @@
     ],
     "resps": [
       [
-        "Yes. Cast iron is better for cooking. Glass top is better for heating. So use cast iron. The answer is yes."
+        "Yes. Cast iron is better for cooking. Glass top is better for heating. So use glass top. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -1832,11 +1832,11 @@
     ],
     "resps": [
       [
-        "Dyscalculia is a mental disorder. It's not a physical disability. So yes."
+        "Yes. Surveying is a math-based job. It requires math skills. So someone with dyscalculia can do it. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "yes"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1958,7 +1958,7 @@
     ],
     "resps": [
       [
-        "San Antonio is 100 miles from Houston. So San Antonio is 100 miles from Houston. So Boris Johnson is not a citizen of San Antonio. The answer is no."
+        "San Antonio is 100 miles from Houston. Houston is 100 miles from Dallas. So San Antonio is 100 miles from Dallas. So Boris Johnson is not a citizen of San Antonio. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2042,7 +2042,7 @@
     ],
     "resps": [
       [
-        "Daniel LeFever was a friend of Kurt Cobain. So Kurt Cobain died indirectly. The answer is yes."
+        "Yes. Daniel LeFever was a friend of Kurt Cobain. Kurt was a friend of Daniel. So Kurt died indirectly. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2126,7 +2126,7 @@
     ],
     "resps": [
       [
-        "Jon Brower Minnoch suffered from anorexia nervosa. He was 16 when he suffered from anorexia nervosa. So he suffered from anorexia nervosa. The answer is yes."
+        "Jon Brower Minnoch suffered from anorexia nervosa. He was 18 years old at the time. He was a student at the University of Pennsylvania. So he was 18 years old. So he suffered from anorexia nervosa. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2210,11 +2210,11 @@
     ],
     "resps": [
       [
-        "Yes. The Very Large Telescope is 3.5 billion miles away. It takes 12 hours to travel. So it takes 3.5 billion miles to get to the Very Large Telescope. The answer is yes."
+        "Yes. The Very Large Telescope is 3.5 billion miles away. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2223,7 +2223,7 @@
     "doc_hash": "a2090c081b4143d681dc6853d6a7b4e86fb2f9a97da25c443afadb56d2b574cc",
     "prompt_hash": "756f12981b5987a5b677b0592e0943d48ccad3017f09288735c2cb5e925e79e8",
     "target_hash": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 53,
@@ -2294,7 +2294,7 @@
     ],
     "resps": [
       [
-        "Yes. Gorillas are 300,000 members. So Gorillas are 300,000 members. So it seems like they are more than they are. The answer is yes."
+        "Yes. Gorillas are primates. They have more members than they have. So Gorillas are more like primates. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2462,11 +2462,11 @@
     ],
     "resps": [
       [
-        "B\u00f6rek is a Turkish word for \"tortoise.\" So yes. B\u00f6rek is a type of tortoise. So yes."
+        "B\u00f6rek is a Turkish word for \"tortoise.\" So not familiar with b\u00f6rek. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "no"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2475,7 +2475,7 @@
     "doc_hash": "d5fed167fba80d5b09038c2c21c3878bec834c09c69eac35f2de6a4bf3608fc9",
     "prompt_hash": "cc6fd556dba570d2bee72dced2699a9a8d8a961138ce6de5f34e344f4d0b1a61",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 59,
@@ -2546,7 +2546,7 @@
     ],
     "resps": [
       [
-        "The answer is yes. The book is popular science fiction. The story is about two societies, one in 1859 and the other in 1861. The answer is yes."
+        "Yes. The answer is yes. The book is popular science fiction. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2588,7 +2588,7 @@
     ],
     "resps": [
       [
-        "Capone was a member of the Chicago mob. Harlem was a neighborhood in the city. So he could read works from the Harlem Renaissance. The answer is yes."
+        "Capone was a member of the Chicago mob. Harlem was a place where black artists and musicians were often exposed to the Harlem Renaissance. So Capone was exposed to Harlem Renaissance works. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2630,7 +2630,7 @@
     ],
     "resps": [
       [
-        "Dr. Seuss was a famous author. He wrote many books. So he lived a tragedy free life. The answer is yes."
+        "Dr. Seuss was a famous author. He lived a life of joy and happiness. So he could live a tragedy free life. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2672,7 +2672,7 @@
     ],
     "resps": [
       [
-        "Jockey is 1000. 1000 * 1000 = 1000000. So 1000000 is less than 1000000. So 1000000 is not possible. The answer is no."
+        "Jockey is 1000. 1000 * 1000 = 1000000. So 1000000 is not possible. So it is impossible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -2714,7 +2714,7 @@
     ],
     "resps": [
       [
-        "American teams outnumber Canadian teams in NHL. So American teams outnumber Canadian teams. The answer is yes."
+        "Yes. American teams outnumber Canadian teams in NHL. So American teams outnumber Canadian teams. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -2756,7 +2756,7 @@
     ],
     "resps": [
       [
-        "Yes. Hammer and sickle flag. Nazi use of the flag. The answer is yes."
+        "The Nazis used the Hammer and sickle flag. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3008,7 +3008,7 @@
     ],
     "resps": [
       [
-        "Quartz is a mineral. It's not a plant. So it's not useful to humans. The answer is no."
+        "Quartz is a mineral. It is not a plant. So it is not useful to humans. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3134,7 +3134,7 @@
     ],
     "resps": [
       [
-        "Sheindlin was a great person. She was a great teacher. She was a great leader. She was a great person. So she was a great person. The answer is yes."
+        "Sheindlin was a great deal in the 1950s. She was a big supporter of the Civil Rights Movement. She was a big supporter of the NAACP. She was a big supporter of the women's movement. So she had great deal in common with Judith Sheindlin. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3176,7 +3176,7 @@
     ],
     "resps": [
       [
-        "Operating system is not edible. Samsung Galaxy 1 is not edible. So operating system is not edible. The answer is no."
+        "Samsung Galaxy 1 is not edible. It is a food product. So it is not edible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3218,7 +3218,7 @@
     ],
     "resps": [
       [
-        "Yes. 2010 Emmy Awards. 2010 Emmy Awards is 2010. 2010 is 1000. So 2010 is prime. The answer is yes."
+        "Yes. 2010 Emmy Awards. 2010 Emmy Awards is 2010. 2010 is 11. 11 is prime. So 2010 is prime. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3302,7 +3302,7 @@
     ],
     "resps": [
       [
-        "Yes, sables are related to wolverines. Wolverines are mammals. Sables are small mammals. So sables are related to wolverines. The answer is yes."
+        "Yes, sables are related to wolverines. Wolverines are mammals. Sables are small mammals. So they are related to wolverines. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3386,7 +3386,7 @@
     ],
     "resps": [
       [
-        "The Statue of Liberty is 100 feet tall. The Statue of Freedom is 100 feet long. So Statue of Liberty is 100 feet tall. The answer is yes."
+        "The Statue of Liberty is 230 feet tall. The Statue of Freedom is 230 feet tall. So Statue of Liberty is 230 feet tall. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3428,7 +3428,7 @@
     ],
     "resps": [
       [
-        "Yes. Aldi is more expensive. Whole Foods is cheaper. So you can save money. The answer is yes."
+        "Yes. Aldi is more expensive. So you can save money. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3554,7 +3554,7 @@
     ],
     "resps": [
       [
-        "Body builder prefers beef burger. Body builder prefers beef. So body builder prefers beef. The answer is yes."
+        "Body builder prefers beef. Body builder prefers beef. So body builder prefers beef. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3638,7 +3638,7 @@
     ],
     "resps": [
       [
-        "Yes. Some citrus fruits are toxic. So someone on antidepressants need to be cautious of them. The answer is yes."
+        "Yes, some citrus fruits can cause side effects. But not enough to make you sick. So you can eat them. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3722,7 +3722,7 @@
     ],
     "resps": [
       [
-        "No. Napoleonic Wars were not a war. It was a series of conflicts. The answer is no."
+        "No. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -3764,7 +3764,7 @@
     ],
     "resps": [
       [
-        "Yes. Moscow is inside Disney Land. So Moscow is inside Disney Land. The answer is yes."
+        "Moscow Kremlin is 100 meters. Disney Land is 1000 meters. So Moscow Kremlin is 100 meters lower than Disney Land. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -3974,7 +3974,7 @@
     ],
     "resps": [
       [
-        "Persephone is a Greek goddess of the underworld. She is a great goddess of fertility. So she is a good consultant to landscape architects. So she is a good consultant. The answer is yes."
+        "Persephone is a Greek goddess of the underworld. She is a great goddess of the earth. So she is a good consultant to landscape architects. So she is a good consultant. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4016,7 +4016,7 @@
     ],
     "resps": [
       [
-        "Yes. Caspian Sea is a body of water. Caspian Sea is a body of water. So salmon mate in the Caspian Sea. The answer is yes."
+        "Yes. Caspian Sea is a body of water. Salmon mate in the Caspian Sea. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4058,7 +4058,7 @@
     ],
     "resps": [
       [
-        "Yes. The title is \"The Diamond Song.\" The song is about a diamond. The diamond is a real thing. The answer is yes."
+        "Yes. The title is \"The Diamond Song.\" The song is about a diamond. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4100,7 +4100,7 @@
     ],
     "resps": [
       [
-        "No. Silk is a product of the silkworm, Bombyx mori. Silkworms are a type of insect. Silkworms are not a product of Bombyx mori. So Bombyx mori is not a monopoly over silk production. The answer is no."
+        "No. Silk is a product of the silkworm, Bombyx mori. Silkworms are a type of insect. So Bombyx mori is not a monopoly over silk production. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -4436,7 +4436,7 @@
     ],
     "resps": [
       [
-        "Crossroads Kitchen is 100 miles. Goblin shark is 1000 miles. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times longer than Cross"
+        "Crossroads Kitchen is 100 miles. Goblin shark is 1000 miles. So goblin shark is 1000 times longer than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Crossroads Kitchen. So goblin shark is 1000 times bigger than Cross"
       ]
     ],
     "filtered_resps": [
@@ -4562,7 +4562,7 @@
     ],
     "resps": [
       [
-        "Yes. Beatles is a song. It's a song about the Beatles. It's not appropriate for a US third grader. The answer is yes."
+        "Yes. Beatles is a song. It's a song about a band. It's not appropriate for a US third grader. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -4688,7 +4688,7 @@
     ],
     "resps": [
       [
-        "Yes. Tom Cruise is a psychologist. He's a mental health professional. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist."
+        "Yes. Tom Cruise is a psychologist. He's a mental health professional. He's a psychologist. He's a mental health professional. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a psychologist. He's a"
       ]
     ],
     "filtered_resps": [
@@ -4730,11 +4730,11 @@
     ],
     "resps": [
       [
-        "Yes, it is. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music. It is a form of hardcore music"
+        "Yes. It's a tradition. It's a way to honor the deceased. It's a way to honor the life of the deceased. So it's not unusual. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "Yes"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4814,11 +4814,11 @@
     ],
     "resps": [
       [
-        "Michael J Fox is 10 years older than the Army Rangers. So Michael J Fox is 10 years older than the Army Rangers. So he is not a Rangers. So he is not a Army Ranger. The answer is no."
+        "Michael J Fox is 10 years older than the Army Rangers. So Michael J Fox is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So he is 10 years older than the Army Rangers. So"
       ]
     ],
     "filtered_resps": [
-      "no"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4827,7 +4827,7 @@
     "doc_hash": "f94bb5fd5407a613f7036d392de3ccda08ab532c6be57814a0bacac4cdd957c6",
     "prompt_hash": "1c03b5bd8a9e8e6242af1eda5d1e034e6ae24d9719c383a9d2aa15927cd9a8c3",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 15,
@@ -4982,7 +4982,7 @@
     ],
     "resps": [
       [
-        "No. Princess Peach is a peach. Peach is a fruit. So Princess Peach's dress is not a peach. The answer is no."
+        "No. Princess Peach is a peach. So peach is not a peach. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5024,7 +5024,7 @@
     ],
     "resps": [
       [
-        "Yes. People with mood disorders need permanent institutionalization. They need to be in a mental health facility. So they need permanent. The answer is yes."
+        "Yes. People with mood disorders need permanent institutionalization. They need to be in a mental health facility. So they need permanent institutionalization. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5402,7 +5402,7 @@
     ],
     "resps": [
       [
-        "Yes, it's a good activity. The full circle of a rainbow is a beautiful sight. The answer is yes."
+        "Yes. The full circle of a rainbow is 360 degrees. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5528,7 +5528,7 @@
     ],
     "resps": [
       [
-        "No, curling iron is not necessary. Curling is a game of skill. It's not about the material. The answer is no."
+        "No, curling iron is not necessary. Curling is a sport. It's not about curling. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5612,7 +5612,7 @@
     ],
     "resps": [
       [
-        "Yes. Elementary school students need graphing calculators. They are used to solve equations and graphs. So they need graphing calculators. The answer is yes."
+        "Yes. Elementary school students need graphing calculators. They are used to solve problems. So they need graphing calculators. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -5654,7 +5654,7 @@
     ],
     "resps": [
       [
-        "Most high school head coaches make less than the head coach at NCSU. NCSU is a state college. So head coach is not a college. So head coach is not a high school head coach. The answer is no."
+        "Most high school head coaches make less than the head coach at NCSU. So they make less than the head coach at NCSU. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -5696,11 +5696,11 @@
     ],
     "resps": [
       [
-        "Michael is not an unpopular name in the United States. Michael is a name of a famous actor. Michael is not an unpopular name. The answer is no."
+        "Michael is not an unpopular name in the United States. Michael is a name of a famous actor. Michael is a popular name in the United States. So Michael is not unpopular. The answer is yes."
       ]
     ],
     "filtered_resps": [
-      "no"
+      "yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5709,7 +5709,7 @@
     "doc_hash": "179dafd1b51c3ba453f028f21b2b9cbb106733a5435922391bedf10dc836c0ed",
     "prompt_hash": "32cbc23f936dc1bb72c8c4ebe8e808950583fa453d7384c3fdc808d8cfa55389",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 36,
@@ -5822,7 +5822,7 @@
     ],
     "resps": [
       [
-        "Yes. Cast iron is better for cooking. Glass top is better for heating. So use cast iron. The answer is yes."
+        "Yes. Cast iron is better for cooking. Glass top is better for heating. So use glass top. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6032,7 +6032,7 @@
     ],
     "resps": [
       [
-        "Dyscalculia is a mental disorder. It's not a physical disability. So yes."
+        "Yes. Surveying is a math-based job. It requires math skills. So someone with dyscalculia can do it. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6158,7 +6158,7 @@
     ],
     "resps": [
       [
-        "San Antonio is 100 miles from Houston. So San Antonio is 100 miles from Houston. So Boris Johnson is not a citizen of San Antonio. The answer is no."
+        "San Antonio is 100 miles from Houston. Houston is 100 miles from Dallas. So San Antonio is 100 miles from Dallas. So Boris Johnson is not a citizen of San Antonio. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6242,7 +6242,7 @@
     ],
     "resps": [
       [
-        "Daniel LeFever was a friend of Kurt Cobain. So Kurt Cobain died indirectly. The answer is yes."
+        "Yes. Daniel LeFever was a friend of Kurt Cobain. Kurt was a friend of Daniel. So Kurt died indirectly. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6326,7 +6326,7 @@
     ],
     "resps": [
       [
-        "Jon Brower Minnoch suffered from anorexia nervosa. He was 16 when he suffered from anorexia nervosa. So he suffered from anorexia nervosa. The answer is yes."
+        "Jon Brower Minnoch suffered from anorexia nervosa. He was 18 years old at the time. He was a student at the University of Pennsylvania. So he was 18 years old. So he suffered from anorexia nervosa. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6410,11 +6410,11 @@
     ],
     "resps": [
       [
-        "Yes. The Very Large Telescope is 3.5 billion miles away. It takes 12 hours to travel. So it takes 3.5 billion miles to get to the Very Large Telescope. The answer is yes."
+        "Yes. The Very Large Telescope is 3.5 billion miles away. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes 3.5 billion miles to get to the Very Large Telescope. So it takes"
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "Yes"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6494,7 +6494,7 @@
     ],
     "resps": [
       [
-        "Yes. Gorillas are 300,000 members. So Gorillas are 300,000 members. So it seems like they are more than they are. The answer is yes."
+        "Yes. Gorillas are primates. They have more members than they have. So Gorillas are more like primates. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6662,11 +6662,11 @@
     ],
     "resps": [
       [
-        "B\u00f6rek is a Turkish word for \"tortoise.\" So yes. B\u00f6rek is a type of tortoise. So yes."
+        "B\u00f6rek is a Turkish word for \"tortoise.\" So not familiar with b\u00f6rek. The answer is no."
       ]
     ],
     "filtered_resps": [
-      "yes"
+      "no"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6675,7 +6675,7 @@
     "doc_hash": "d5fed167fba80d5b09038c2c21c3878bec834c09c69eac35f2de6a4bf3608fc9",
     "prompt_hash": "cc6fd556dba570d2bee72dced2699a9a8d8a961138ce6de5f34e344f4d0b1a61",
     "target_hash": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 59,
@@ -6746,7 +6746,7 @@
     ],
     "resps": [
       [
-        "The answer is yes. The book is popular science fiction. The story is about two societies, one in 1859 and the other in 1861. The answer is yes."
+        "Yes. The answer is yes. The book is popular science fiction. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6788,7 +6788,7 @@
     ],
     "resps": [
       [
-        "Capone was a member of the Chicago mob. Harlem was a neighborhood in the city. So he could read works from the Harlem Renaissance. The answer is yes."
+        "Capone was a member of the Chicago mob. Harlem was a place where black artists and musicians were often exposed to the Harlem Renaissance. So Capone was exposed to Harlem Renaissance works. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6830,7 +6830,7 @@
     ],
     "resps": [
       [
-        "Dr. Seuss was a famous author. He wrote many books. So he lived a tragedy free life. The answer is yes."
+        "Dr. Seuss was a famous author. He lived a life of joy and happiness. So he could live a tragedy free life. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6872,7 +6872,7 @@
     ],
     "resps": [
       [
-        "Jockey is 1000. 1000 * 1000 = 1000000. So 1000000 is less than 1000000. So 1000000 is not possible. The answer is no."
+        "Jockey is 1000. 1000 * 1000 = 1000000. So 1000000 is not possible. So it is impossible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -6914,7 +6914,7 @@
     ],
     "resps": [
       [
-        "American teams outnumber Canadian teams in NHL. So American teams outnumber Canadian teams. The answer is yes."
+        "Yes. American teams outnumber Canadian teams in NHL. So American teams outnumber Canadian teams. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -6956,7 +6956,7 @@
     ],
     "resps": [
       [
-        "Yes. Hammer and sickle flag. Nazi use of the flag. The answer is yes."
+        "The Nazis used the Hammer and sickle flag. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7208,7 +7208,7 @@
     ],
     "resps": [
       [
-        "Quartz is a mineral. It's not a plant. So it's not useful to humans. The answer is no."
+        "Quartz is a mineral. It is not a plant. So it is not useful to humans. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7334,7 +7334,7 @@
     ],
     "resps": [
       [
-        "Sheindlin was a great person. She was a great teacher. She was a great leader. She was a great person. So she was a great person. The answer is yes."
+        "Sheindlin was a great deal in the 1950s. She was a big supporter of the Civil Rights Movement. She was a big supporter of the NAACP. She was a big supporter of the women's movement. So she had great deal in common with Judith Sheindlin. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7376,7 +7376,7 @@
     ],
     "resps": [
       [
-        "Operating system is not edible. Samsung Galaxy 1 is not edible. So operating system is not edible. The answer is no."
+        "Samsung Galaxy 1 is not edible. It is a food product. So it is not edible. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7418,7 +7418,7 @@
     ],
     "resps": [
       [
-        "Yes. 2010 Emmy Awards. 2010 Emmy Awards is 2010. 2010 is 1000. So 2010 is prime. The answer is yes."
+        "Yes. 2010 Emmy Awards. 2010 Emmy Awards is 2010. 2010 is 11. 11 is prime. So 2010 is prime. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7502,7 +7502,7 @@
     ],
     "resps": [
       [
-        "Yes, sables are related to wolverines. Wolverines are mammals. Sables are small mammals. So sables are related to wolverines. The answer is yes."
+        "Yes, sables are related to wolverines. Wolverines are mammals. Sables are small mammals. So they are related to wolverines. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7586,7 +7586,7 @@
     ],
     "resps": [
       [
-        "The Statue of Liberty is 100 feet tall. The Statue of Freedom is 100 feet long. So Statue of Liberty is 100 feet tall. The answer is yes."
+        "The Statue of Liberty is 230 feet tall. The Statue of Freedom is 230 feet tall. So Statue of Liberty is 230 feet tall. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7628,7 +7628,7 @@
     ],
     "resps": [
       [
-        "Yes. Aldi is more expensive. Whole Foods is cheaper. So you can save money. The answer is yes."
+        "Yes. Aldi is more expensive. So you can save money. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7754,7 +7754,7 @@
     ],
     "resps": [
       [
-        "Body builder prefers beef burger. Body builder prefers beef. So body builder prefers beef. The answer is yes."
+        "Body builder prefers beef. Body builder prefers beef. So body builder prefers beef. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7838,7 +7838,7 @@
     ],
     "resps": [
       [
-        "Yes. Some citrus fruits are toxic. So someone on antidepressants need to be cautious of them. The answer is yes."
+        "Yes, some citrus fruits can cause side effects. But not enough to make you sick. So you can eat them. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -7922,7 +7922,7 @@
     ],
     "resps": [
       [
-        "No. Napoleonic Wars were not a war. It was a series of conflicts. The answer is no."
+        "No. The answer is no."
       ]
     ],
     "filtered_resps": [
@@ -7964,7 +7964,7 @@
     ],
     "resps": [
       [
-        "Yes. Moscow is inside Disney Land. So Moscow is inside Disney Land. The answer is yes."
+        "Moscow Kremlin is 100 meters. Disney Land is 1000 meters. So Moscow Kremlin is 100 meters lower than Disney Land. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8174,7 +8174,7 @@
     ],
     "resps": [
       [
-        "Persephone is a Greek goddess of the underworld. She is a great goddess of fertility. So she is a good consultant to landscape architects. So she is a good consultant. The answer is yes."
+        "Persephone is a Greek goddess of the underworld. She is a great goddess of the earth. So she is a good consultant to landscape architects. So she is a good consultant. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8216,7 +8216,7 @@
     ],
     "resps": [
       [
-        "Yes. Caspian Sea is a body of water. Caspian Sea is a body of water. So salmon mate in the Caspian Sea. The answer is yes."
+        "Yes. Caspian Sea is a body of water. Salmon mate in the Caspian Sea. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8258,7 +8258,7 @@
     ],
     "resps": [
       [
-        "Yes. The title is \"The Diamond Song.\" The song is about a diamond. The diamond is a real thing. The answer is yes."
+        "Yes. The title is \"The Diamond Song.\" The song is about a diamond. The answer is yes."
       ]
     ],
     "filtered_resps": [
@@ -8300,7 +8300,7 @@
     ],
     "resps": [
       [
-        "No. Silk is a product of the silkworm, Bombyx mori. Silkworms are a type of insect. Silkworms are not a product of Bombyx mori. So Bombyx mori is not a monopoly over silk production. The answer is no."
+        "No. Silk is a product of the silkworm, Bombyx mori. Silkworms are a type of insect. So Bombyx mori is not a monopoly over silk production. The answer is no."
       ]
     ],
     "filtered_resps": [

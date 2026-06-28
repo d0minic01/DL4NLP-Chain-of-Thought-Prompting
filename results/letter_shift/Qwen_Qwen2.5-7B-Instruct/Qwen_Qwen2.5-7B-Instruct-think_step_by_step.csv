@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,letter_shift_think_step_by_step,letter_shift,think_step_by_step,zero_shot,letter_shift,0.97,0.02,490.4,0,100,28.37,20.53

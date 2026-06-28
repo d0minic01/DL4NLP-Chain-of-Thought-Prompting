@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,csqa_true_baseline,csqa,true_baseline,zero_shot,commonsense_qa,0.61,0.09,373.3,0,100,64.8,11.48

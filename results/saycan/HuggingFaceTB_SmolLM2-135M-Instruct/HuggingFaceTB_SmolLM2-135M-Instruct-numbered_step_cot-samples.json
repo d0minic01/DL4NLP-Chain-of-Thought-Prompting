@@ -22,7 +22,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find all snacks. Step 2: Pick all snacks. Step 3: Find user. Step 4: Put all snacks in user's bag. Step 5: Done. The answer is 1. find(all snacks), 2. pick(all snacks), 3. find(user), 4. put(all snacks), 5. done().."
+        "Step 1: Find all the snacks. Step 2: Pick all the snacks. Step 3: Find user. Step 4: Put all the snacks on the table. Step 5: Done. The answer is 1. find(all snacks), 2. pick(all snacks), 3. find(user), 4. put(all snacks), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -136,7 +136,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt in user. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1010,7 +1010,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt in user. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1390,7 +1390,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find orange. Step 2: Pick orange. Step 3: Find trash. Step 4: Put orange in trash. Step 5: Done. The answer is 1. find(orange), 2. pick(orange), 3. find(trash), 4. put(orange), 5. done().."
+        "Step 1: Find oranges. Step 2: Pick oranges. Step 3: Find trash. Step 4: Put oranges in trash. Step 5: Done. The answer is 1. find(orange), 2. pick(orange), 3. find(trash), 4. put(orange), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -1694,11 +1694,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find water. Step 2: Pick water. Step 3: Find snack. Step 4: Put water in snack. Step 5: Done. The answer is 1. find(water), 2. pick(water), 3. find(snack), 4. put(water), 5. done().."
+        "Step 1: Find juice. Step 2: Pick juice. Step 3: Find snack. Step 4: Find user. Step 5: Put juice in snack. Step 6: Done. The answer is 1. find(juice), 2. pick(juice), 3. find(snack), 4. put(juice), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(snack), 4. put(water), 5. done()."
+      "1. find(juice), 2. pick(juice), 3. find(snack), 4. put(juice), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2036,11 +2036,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find banana. Step 2: Pick banana. Step 3: Find counter. Step 4: Put banana on counter. Step 5: Done. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
+        "Step 1: Find banana. Step 2: Pick banana. Step 3: Find counter. Step 4: Put banana on counter. Step 5: Done. The answer is 1. find(banana), 2. pick(banana), 3. find(counter), 4. put(banana), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done()."
+      "1. find(banana), 2. pick(banana), 3. find(counter), 4. put(banana), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2340,7 +2340,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find counter. Step 2: Find table. Step 3: Find user. Step 4: Find table. Step 5: Find user. Step 6: Find table. Step 7: Find user. Step 8: Find table. Step 9: Find user. Step 10: Find table. Step 11: Find user. Step 12: Find table. Step 13: Find user. Step 14: Find table. Step 15: Find user. Step 16: Find table. Step 17: Find user. Step 18: Find table. Step 19: Find user. Step 20: Find table. Step 21: Find user. Step 22: Find table. Step 23: Find user. Step 24: Find table. Step 25: Find user. Step 26: Find table. Step 27: Find user. Step 28: Find table. Step 29: Find user. Step 30: Find table. Step 31: Find user. Step 32: Find table. Step 33: Find user. Step"
+        "Step 1: Find counter. Step 2: Find table. Step 3: Find user. Step 4: Find kettle chips. Step 5: Find user. Step 6: Find kettle chips. Step 7: Find user. Step 8: Find kettle chips. Step 9: Find kettle chips. Step 10: Find kettle chips. Step 11: Find kettle chips. Step 12: Find kettle chips. Step 13: Find kettle chips. Step 14: Find kettle chips. Step 15: Find kettle chips. Step 16: Find kettle chips. Step 17: Find kettle chips. Step 18: Find kettle chips. Step 19: Find kettle chips. Step 20: Find kettle chips. Step 21: Find kettle chips. Step 22: Find kettle chips. Step 23: Find kettle chips. Step 24: Find kettle chips. Step 25: Find kettle chips. Step 26: Find kettle chips. Step 27: Find kettle chips. Step 28: Find kettle chips. Step 29: Find kettle chips. Step 30: Find kettle chips."
       ]
     ],
     "filtered_resps": [
@@ -2530,7 +2530,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find table. Step 2: Pick table. Step 3: Find user. Step 4: Put table in user. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "Step 1: Find table. Step 2: Pick table. Step 3: Find user. Step 4: Put table in user's hand. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -2606,11 +2606,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find table. Step 2: Find user. Step 3: Find table. Step 4: Find user. Step 5: Find table. Step 6: Find user. Step 7: Find table. Step 8: Find user. Step 9: Find table. Step 10: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user), 10. find(table).."
+        "Step 1: Find table. Step 2: Pick table. Step 3: Find user. Step 4: Put table. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user), 10. find(table)."
+      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2644,11 +2644,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find parking. Step 2: Pick parking. Step 3: Find user. Step 4: Put parking. Step 5: Done. The answer is 1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done().."
+        "Step 1: Find parking. Step 2: Pick parking. Step 3: Find user. Step 4: Put parking. Step 5: Done. The answer is 1. find(parking), 2. pick(parking), 3. find(user), 4. put(parking), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done()."
+      "1. find(parking), 2. pick(parking), 3. find(user), 4. put(parking), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3100,11 +3100,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find bag of chips. Step 2: Pick bag of chips. Step 3: Find water bottle. Step 4: Put water bottle on table. Step 5: Find user. Step 6: Put water bottle on table. Step 7: Done. The answer is 1. find(water bottle), 2. pick(water bottle), 3. find(user), 4. put(water bottle), 5. done().."
+        "Step 1: Find bag of chips. Step 2: Pick bag of chips. Step 3: Find water bottle. Step 4: Put bag of chips on table. Step 5: Find user. Step 6: Put water bottle on table. Step 7: Done. The answer is 1. find(bag of chips), 2. pick(bag of chips), 3. find(water bottle), 4. put(bag of chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water bottle), 2. pick(water bottle), 3. find(user), 4. put(water bottle), 5. done()."
+      "1. find(bag of chips), 2. pick(bag of chips), 3. find(water bottle), 4. put(bag of chips), 5. done()."
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3176,7 +3176,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find chips bag. Step 2: Pick chips bag. Step 3: Find counter. Step 4: Put chips bag in counter. Step 5: Find user. Step 6: Put chips bag in counter. Step 7: Done. The answer is 1. find(chips bag), 2. pick(chips bag), 3. find(user), 4. put(chips bag), 5. done().."
+        "Step 1: Find chips bag. Step 2: Pick chips bag. Step 3: Find counter. Step 4: Put chips bag. Step 5: Done. The answer is 1. find(chips bag), 2. pick(chips bag), 3. find(user), 4. put(chips bag), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -3708,7 +3708,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find table. Step 2: Find counter. Step 3: Find user. Step 4: Put counter in table. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "Step 1: Find table. Step 2: Find counter. Step 3: Find user. Step 4: Put user in counter. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -3784,7 +3784,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find all snacks. Step 2: Pick all snacks. Step 3: Find user. Step 4: Put all snacks in user's bag. Step 5: Done. The answer is 1. find(all snacks), 2. pick(all snacks), 3. find(user), 4. put(all snacks), 5. done().."
+        "Step 1: Find all the snacks. Step 2: Pick all the snacks. Step 3: Find user. Step 4: Put all the snacks on the table. Step 5: Done. The answer is 1. find(all snacks), 2. pick(all snacks), 3. find(user), 4. put(all snacks), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -3898,7 +3898,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt in user. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -4772,7 +4772,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt in user. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
+        "Step 1: Find salt. Step 2: Pick salt. Step 3: Find user. Step 4: Put salt. Step 5: Done. The answer is 1. find(salt), 2. pick(salt), 3. find(user), 4. put(salt), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5152,7 +5152,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find orange. Step 2: Pick orange. Step 3: Find trash. Step 4: Put orange in trash. Step 5: Done. The answer is 1. find(orange), 2. pick(orange), 3. find(trash), 4. put(orange), 5. done().."
+        "Step 1: Find oranges. Step 2: Pick oranges. Step 3: Find trash. Step 4: Put oranges in trash. Step 5: Done. The answer is 1. find(orange), 2. pick(orange), 3. find(trash), 4. put(orange), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -5456,11 +5456,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find water. Step 2: Pick water. Step 3: Find snack. Step 4: Put water in snack. Step 5: Done. The answer is 1. find(water), 2. pick(water), 3. find(snack), 4. put(water), 5. done().."
+        "Step 1: Find juice. Step 2: Pick juice. Step 3: Find snack. Step 4: Find user. Step 5: Put juice in snack. Step 6: Done. The answer is 1. find(juice), 2. pick(juice), 3. find(snack), 4. put(juice), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water), 2. pick(water), 3. find(snack), 4. put(water), 5. done"
+      "1. find(juice), 2. pick(juice), 3. find(snack), 4. put(juice), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5798,11 +5798,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find banana. Step 2: Pick banana. Step 3: Find counter. Step 4: Put banana on counter. Step 5: Done. The answer is 1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done().."
+        "Step 1: Find banana. Step 2: Pick banana. Step 3: Find counter. Step 4: Put banana on counter. Step 5: Done. The answer is 1. find(banana), 2. pick(banana), 3. find(counter), 4. put(banana), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(banana), 2. pick(banana), 3. find(user), 4. put(banana), 5. done"
+      "1. find(banana), 2. pick(banana), 3. find(counter), 4. put(banana), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6102,7 +6102,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find counter. Step 2: Find table. Step 3: Find user. Step 4: Find table. Step 5: Find user. Step 6: Find table. Step 7: Find user. Step 8: Find table. Step 9: Find user. Step 10: Find table. Step 11: Find user. Step 12: Find table. Step 13: Find user. Step 14: Find table. Step 15: Find user. Step 16: Find table. Step 17: Find user. Step 18: Find table. Step 19: Find user. Step 20: Find table. Step 21: Find user. Step 22: Find table. Step 23: Find user. Step 24: Find table. Step 25: Find user. Step 26: Find table. Step 27: Find user. Step 28: Find table. Step 29: Find user. Step 30: Find table. Step 31: Find user. Step 32: Find table. Step 33: Find user. Step"
+        "Step 1: Find counter. Step 2: Find table. Step 3: Find user. Step 4: Find kettle chips. Step 5: Find user. Step 6: Find kettle chips. Step 7: Find user. Step 8: Find kettle chips. Step 9: Find kettle chips. Step 10: Find kettle chips. Step 11: Find kettle chips. Step 12: Find kettle chips. Step 13: Find kettle chips. Step 14: Find kettle chips. Step 15: Find kettle chips. Step 16: Find kettle chips. Step 17: Find kettle chips. Step 18: Find kettle chips. Step 19: Find kettle chips. Step 20: Find kettle chips. Step 21: Find kettle chips. Step 22: Find kettle chips. Step 23: Find kettle chips. Step 24: Find kettle chips. Step 25: Find kettle chips. Step 26: Find kettle chips. Step 27: Find kettle chips. Step 28: Find kettle chips. Step 29: Find kettle chips. Step 30: Find kettle chips."
       ]
     ],
     "filtered_resps": [
@@ -6292,7 +6292,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find table. Step 2: Pick table. Step 3: Find user. Step 4: Put table in user. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "Step 1: Find table. Step 2: Pick table. Step 3: Find user. Step 4: Put table in user's hand. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -6368,11 +6368,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find table. Step 2: Find user. Step 3: Find table. Step 4: Find user. Step 5: Find table. Step 6: Find user. Step 7: Find table. Step 8: Find user. Step 9: Find table. Step 10: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user), 10. find(table).."
+        "Step 1: Find table. Step 2: Pick table. Step 3: Find user. Step 4: Put table. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. find(user), 6. find(table), 7. find(user), 8. find(table), 9. find(user), 10. find(table).."
+      "1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6406,11 +6406,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find parking. Step 2: Pick parking. Step 3: Find user. Step 4: Put parking. Step 5: Done. The answer is 1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done().."
+        "Step 1: Find parking. Step 2: Pick parking. Step 3: Find user. Step 4: Put parking. Step 5: Done. The answer is 1. find(parking), 2. pick(parking), 3. find(user), 4. put(parking), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(park), 2. pick(park), 3. find(user), 4. put(park), 5. done"
+      "1. find(parking), 2. pick(parking), 3. find(user), 4. put(parking), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6862,11 +6862,11 @@
     ],
     "resps": [
       [
-        "Step 1: Find bag of chips. Step 2: Pick bag of chips. Step 3: Find water bottle. Step 4: Put water bottle on table. Step 5: Find user. Step 6: Put water bottle on table. Step 7: Done. The answer is 1. find(water bottle), 2. pick(water bottle), 3. find(user), 4. put(water bottle), 5. done().."
+        "Step 1: Find bag of chips. Step 2: Pick bag of chips. Step 3: Find water bottle. Step 4: Put bag of chips on table. Step 5: Find user. Step 6: Put water bottle on table. Step 7: Done. The answer is 1. find(bag of chips), 2. pick(bag of chips), 3. find(water bottle), 4. put(bag of chips), 5. done().."
       ]
     ],
     "filtered_resps": [
-      "1. find(water bottle), 2. pick(water bottle), 3. find(user), 4. put(water bottle), 5. done"
+      "1. find(bag of chips), 2. pick(bag of chips), 3. find(water bottle), 4. put(bag of chips), 5. done"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6938,7 +6938,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find chips bag. Step 2: Pick chips bag. Step 3: Find counter. Step 4: Put chips bag in counter. Step 5: Find user. Step 6: Put chips bag in counter. Step 7: Done. The answer is 1. find(chips bag), 2. pick(chips bag), 3. find(user), 4. put(chips bag), 5. done().."
+        "Step 1: Find chips bag. Step 2: Pick chips bag. Step 3: Find counter. Step 4: Put chips bag. Step 5: Done. The answer is 1. find(chips bag), 2. pick(chips bag), 3. find(user), 4. put(chips bag), 5. done().."
       ]
     ],
     "filtered_resps": [
@@ -7470,7 +7470,7 @@
     ],
     "resps": [
       [
-        "Step 1: Find table. Step 2: Find counter. Step 3: Find user. Step 4: Put counter in table. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
+        "Step 1: Find table. Step 2: Find counter. Step 3: Find user. Step 4: Put user in counter. Step 5: Done. The answer is 1. find(table), 2. pick(table), 3. find(user), 4. put(table), 5. done().."
       ]
     ],
     "filtered_resps": [

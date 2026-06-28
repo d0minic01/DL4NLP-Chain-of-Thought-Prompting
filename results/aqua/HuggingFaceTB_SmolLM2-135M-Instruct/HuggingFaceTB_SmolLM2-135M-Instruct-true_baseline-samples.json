@@ -30,7 +30,7 @@
     ],
     "resps": [
       [
-        "(a) 21\n\nTo find out how many kilometers Friend P will have walked when they pass each other, we need to calculate the difference in their speeds and then add them together.\n\nFriend P's speed is 15% faster than Friend Q's, so Friend Q's speed is 15% of Friend P's speed. Friend Q's speed is 21/15 * Friend P's speed = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 ="
+        "(a) 21\n\nFriend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15% of Friend Q's rate. Friend Q's rate is 15% of 15% of Friend Q's rate.\n\nSince Friend Q's rate is 15% of 15% of Friend Q's rate, Friend Q's rate is 15% of 15% of 15% of Friend Q's rate.\n\nThe total rate of Friend Q's rate is 15% of 15% of Friend Q's rate, which is 15% of 15% of 15% of 15% of Friend Q's rate.\n\nSince Friend Q's rate is 15% of 15% of Friend Q's rate, Friend Q's rate is 15% of 15% of 15% of 15% of Friend Q's rate.\n\nThe total rate of Friend Q's rate is 15% of 15% of Friend Q's rate, which is 15% of 15% of 15"
       ]
     ],
     "filtered_resps": [
@@ -76,7 +76,7 @@
     ],
     "resps": [
       [
-        "(b) 1 and 5\n\nThe slope of the line k is 1/5, which means the rate of change of the line is 1/5 units per unit change in x. Since the line passes through the origin, it has a slope of 0, which is the definition of a horizontal line.\n\nThe point (5, y) is on line k, so the slope of the line is 1/5. The point (4, 1) is on line k, so the slope of the line is 1/5. The point (3, 5) is on line k, so the slope of the line is 1/5.\n\nThe values of x and y are 4 and 1, respectively."
+        "(b) 1 and 5\n\nThe slope of the line k is 1/5, which means the rate of change of the line is 1/5 units per unit change in x. Since the line passes through the origin, it has a slope of 0, which is the perpendicular distance from the origin to the line. The slope of the line is 1/5, so the slope of the line k is 1/5.\n\nThe values of x and y are 4 and 1, respectively, which are the coordinates of the points on the line k."
       ]
     ],
     "filtered_resps": [
@@ -122,7 +122,7 @@
     ],
     "resps": [
       [
-        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are numbers. If p and q are both non-zero, then the expression p^2 - pq is always non-zero, which means x is also non-zero. Therefore, the only possible solution is x = 0.\n\nII. (xy)@y\n\nThe expression xy is a linear combination of the numbers p and q, and the only way to achieve this is by multiplying both sides of the equation by xy. Since xy is a linear combination of p and q, it must be equal to zero. Therefore, the only possible solution is x = 0.\n\nIII. x@(x + y)\n\nThe expression x + y is a linear combination of the numbers p and q, and the only way to achieve this is by adding both sides of the equation to x + y. Since x + y is a linear combination of p and q, it must be equal to zero. Therefore, the only possible solution is x = 0.\n\nIV. x@(x + y)\n\nThe expression x + y is a linear combination of the numbers"
+        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are numbers. If p and q are both non-zero, then the expression p^2 - pq is a quadratic expression, which is always non-negative. Therefore, the only possible value of x@y is x^2 - xq, which is equal to zero.\n\nII. (xy)@y\n\nThe expression xy is a linear combination of the two numbers p and q. Since p and q are non-zero, the linear combination xy is also non-zero. Therefore, the only possible value of (xy)@y is xy = 0, which is equal to zero.\n\nIII. x@(x + y)\n\nThe expression x@(x + y) is a linear combination of the two numbers p and q. Since p and q are non-zero, the linear combination x@(x + y) is also non-zero. Therefore, the only possible value of x@(x + y) is x^2 - xq, which is equal to zero.\n\nIV. x@(x + y)\n\nThe"
       ]
     ],
     "filtered_resps": [
@@ -214,7 +214,7 @@
     ],
     "resps": [
       [
-        "(b) 27 seconds\n\nThe speed of the current is 11 kmph, and the boat is rowing downstream. To cover 80 meters, the boat needs to cover 80 - 11 = 69 meters. Since the boat is rowing 25 kmph, it will take 69 meters / 25 kmph = 27 seconds to cover 80 meters."
+        "(b) 27 seconds\n\nExplanation: The speed of the current is 11 kmph, and the boat is rowing downstream. To find the time it takes to cover 80 meters, we can use the formula:\n\nTime = Distance / Speed\n\nIn this case, the distance is 80 meters and the speed is 11 kmph.\n\nTime = 80 meters / 11 kmph\n\nTime = 7.2 seconds\n\nSo, the man will take 7.2 seconds to cover 80 meters."
       ]
     ],
     "filtered_resps": [
@@ -260,11 +260,11 @@
     ],
     "resps": [
       [
-        "(a) 8\n\nThe value of k is 8.\n\nExplanation: The answer is (a) 8 because there are 8 possible combinations in which Jim and Ellen are not selected. The answer is (b) 9 because there are 9 possible combinations in which Jim and Ellen are selected. The answer is (c) 10 because there are 10 possible combinations in which Jim and Ellen are not selected. The answer is (d) 11 because there are 11 possible combinations in which Jim and Ellen are selected. The answer is (e) 12 because there are 12 possible combinations in which Jim and Ellen are selected."
+        "(b) 9\n\nThe value of k is 9."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -273,7 +273,7 @@
     "doc_hash": "7aede87da4f6e3ebc363aafc04d42a894fb987f4976019b711c1d6d96e5d95a5",
     "prompt_hash": "fa83a63451a2c1f48d4e6a99336f8669e2f7ab2da272681943c493f763897ae0",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 6,
@@ -306,7 +306,7 @@
     ],
     "resps": [
       [
-        "(b) \u2212 4 \u2264 x \u2264 3\n\nThe given inequality is x + 1 \u2264 3, which is a linear inequality. To find the values of x that satisfy this inequality, we can use the properties of inequalities.\n\nFirst, we can rewrite the inequality as x + 1 \u2264 3 - 4x. This simplifies to x + 1 \u2264 3 - 4x.\n\nNext, we can use the fact that the absolute value of a positive number is positive, so x + 1 \u2264 3 - 4x is equivalent to x + 1 \u2264 3.\n\nNow, we can substitute x = 3 into the inequality: x + 1 \u2264 3 - 4(3) = 3 \u2264 1.\n\nTherefore, the values of x that satisfy the given inequality are x = 3 and x = 4."
+        "(b) \u2212 4 \u2264 x \u2264 3\n\nThe given inequality is x + 1 \u2264 3, which is a quadratic inequality. To solve for x, we can use the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a. Here, a = 1, b = 4, and c = 3.\n\nSubstituting these values into the quadratic formula, we get x = (4 \u00b1 \u221a(4^2 - 4(1)(3))) / 2(1) = (4 \u00b1 \u221a(16 - 12)) / 2 = (4 \u00b1 \u221a4) / 2 = (4 \u00b1 2) / 2.\n\nSince the discriminant (b^2 - 4ac) is positive, the quadratic formula yields two real solutions: x = (4 \u00b1 2) / 2 = (4 \u00b1 2) / 2 = (2 \u00b1 2) / 2 = (2 \u00b1 2) / 2 = (2 \u00b1 1) / 2.\n\nTherefore, the solutions are (2 + 1) / 2 = 2"
       ]
     ],
     "filtered_resps": [
@@ -398,11 +398,11 @@
     ],
     "resps": [
       [
-        "(b) 20.5"
+        "(a) 16\n\nJoe goes with her 6-year-old twin brothers, and each ride costs $0.50. So, the total cost of each ride is $0.50 * 6 = $3.50. Since Joe goes with her 6-year-old twin brothers, the total cost of each ride is $3.50 * 6 = $21.50.\n\nThe sum of the costs of each ride is $21.50 + $0.50 = $21.50.\n\nJoe ends up spending $21.50 at the fair.\n\nThe answer is (a) 16."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -536,7 +536,7 @@
     ],
     "resps": [
       [
-        "(b) Rs. 1025\n\nExplanation: The rate of interest is 4% per annum, which means the interest is compounded annually. To find the amount of Rs. 1025, we need to calculate the interest for 3 years at the rate of 4% per annum.\n\nThe calculation is as follows:\n\n(1 + 0.04) * 3 = 1.04 * 3 = 3.04\n\nSo, the amount of Rs. 1025 becomes Rs. 304.04 in 3 years."
+        "(b) Rs. 1025\n\nExplanation: The rate of interest is 4% per annum, which means the interest is compounded annually. To find the amount of Rs. 1025, we need to calculate the interest for 3 years at the rate of 4% per annum.\n\nThe interest for 3 years at 4% per annum is 1025 * 0.04 = Rs. 40.\n\nSo, the amount of Rs. 1025 becomes Rs. 1020.80."
       ]
     ],
     "filtered_resps": [
@@ -628,11 +628,11 @@
     ],
     "resps": [
       [
-        "(a) \u221an + 1\n\nThe next positive integer is n + 1. Since \u221an + 1 is equal to n + 1, it must be equal to n + 1.\n\nThe answer is (a).\n\nExplanation: The square of a positive integer is always positive, so the next positive integer is n + 1. The square of n is n^2 + 1, which is equal to n + 1. Therefore, the answer is (a)."
+        "The answer is (d) n^2 + 2n + 1.\n\nThis is because the next positive integer is 2n + 1, which is equal to the square of the next positive integer. Therefore, the answer must be (d) n^2 + 2n + 1."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -641,7 +641,7 @@
     "doc_hash": "e534a981360890476fc16021b6aa2524eae253ab63973054bba96d6024b1ee5d",
     "prompt_hash": "b944cb9df49c5b192689bbc7165da70a8f0909f47ae49afd49b7d2b3130d811c",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 14,
@@ -674,7 +674,7 @@
     ],
     "resps": [
       [
-        "(b) 992\n\nTo find out how much A is more than C, we need to find the ratio of A to C. The ratio of A to C is 1:1:1:14.\n\nWe can find the value of A by dividing the total amount of A by the total amount of C:\n\nA = 1000 * 1000 = 1000000\n\nNow, we can find the value of C by dividing the total amount of C by the total amount of A:\n\nC = 1000000 / 1000000 = 1000000000000\n\nNow, we can find the value of A by multiplying the value of C by the value of A:\n\nA = 1000000000000 * 1000000 = 1000000000000000000000000\n\nSo, A is more than C if their ratio is 1/7:1/7:1"
+        "(b) 992\n\nTo find the value of A, we need to find the ratio of A to C. The ratio of A to C is 1:1:1:14.\n\nWe can find the value of A by dividing the ratio of A to C by 1:1:1:14.\n\nA = 1/7\nC = 1/7\n\nA = 1/7 / 1/7\nA = 1\n\nSo, A is more than C if their ratio is 1:1:1:14."
       ]
     ],
     "filtered_resps": [
@@ -720,7 +720,7 @@
     ],
     "resps": [
       [
-        "(c) 5/2"
+        "(c) 5/2\n\nThe given equation is: 8a + 5b = 22.\n\nFirst, we need to find the value of a.\n\na = 8(5) + 5(22) = 40 + 120 = 160\n\nNow, we can substitute the value of a into the equation: 160 = 40 + 120.\n\nThis simplifies to 160 = 160.\n\nSince the equation is undefined, the correct answer is (c) 5/2."
       ]
     ],
     "filtered_resps": [
@@ -766,7 +766,7 @@
     ],
     "resps": [
       [
-        "(b) k^2/l\n\nThe given condition k/l < 1 is satisfied when both k and l are positive integers. Since k is positive, it must be greater than 1. Therefore, the only option that is greater than 1 is (b) k^2/l."
+        "(b) k^2/l\n\nThe given condition k/l < 1 is satisfied when both k and l are positive integers. Since k/l is a positive integer, it must be greater than 1. Therefore, the only option that is greater than 1 is (b) k^2/l."
       ]
     ],
     "filtered_resps": [
@@ -904,7 +904,7 @@
     ],
     "resps": [
       [
-        "(b) 55 km\n\nThe person reaches his destiny in 2.5 hours, so the distance is 55 km."
+        "(b) 55 km\n\nThe person reaches his destiny in 2.5 hours, so he should have reached his destination in 2.5 * 60 = 150 minutes."
       ]
     ],
     "filtered_resps": [
@@ -950,7 +950,7 @@
     ],
     "resps": [
       [
-        "(b) 26\n\nThe sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10"
+        "(b) 26\n\nThe sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence"
       ]
     ],
     "filtered_resps": [
@@ -1042,7 +1042,7 @@
     ],
     "resps": [
       [
-        "The least value of x, so that 2x5475 is divisible by 9, is 2."
+        "The least value of x, so that 2x5475 is divisible by 9, is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1088,7 +1088,7 @@
     ],
     "resps": [
       [
-        "(b) 10\u221a 2\u03c0\n\nThe perimeter of a circle is given by the formula: P = 2\u03c0r, where r is the radius of the circle. In this case, the radius is 40, so P = 2\u03c0(40) = 80\u03c0.\n\nThe circumference of a circle is given by the formula: C = 2\u03c0r, where r is the radius. In this case, the radius is 40, so C = 2\u03c0(40) = 80\u03c0.\n\nTherefore, the circumference of Q is 80\u03c0."
+        "(c) 9\u221a 2\u03c0\n\nThe perimeter of a circle is given by the formula: P = 2\u03c0r, where r is the radius of the circle. In this case, the radius is 40, so P = 2\u03c0(40) = 80\u03c0.\n\nThe circumference of a circle is given by the formula: C = 2\u03c0r, where r is the radius. In this case, the radius is 40, so C = 2\u03c0(40) = 80\u03c0.\n\nTherefore, the circumference of Q is 80\u03c0."
       ]
     ],
     "filtered_resps": [
@@ -1134,7 +1134,7 @@
     ],
     "resps": [
       [
-        "(a) 9\n\nThe debtor is expected to pay back 51200 in full, so the total amount owed is 51200 * 12 = 636000.\n\nThe debtor is expected to pay back 200 * 12 = 24000.\n\nTo find the number of months it will take to fully repay the loan, we divide the total amount owed by the total amount paid: 636000 / 24000 = 3.25 months.\n\nTherefore, it will take 3.25 months for the debtor to fully repay the loan."
+        "(a) 9\n\nThe debtor is expected to pay back 51200 in full, so the total amount owed is 51200 * 12 = 624000.\n\nThe debtor is expected to pay back 200 * 12 = 24000.\n\nTo find the number of months it will take to fully repay the loan, we divide the total amount owed by the total amount paid: 624000 / 24000 = 3.33 months.\n\nTherefore, it will take 3.33 months for the debtor to fully repay the loan."
       ]
     ],
     "filtered_resps": [
@@ -1180,7 +1180,7 @@
     ],
     "resps": [
       [
-        "(a) I,II only\n\nTo determine which statement is true, let's analyze the given information. James earns $30 per week plus $6 per bicycle for the first 6 bicycles he sells, $12 per bicycle for the next 6 bicycles he sells, and $18 per bicycle for every bicycle sold after first 12.\n\nIf James sold more than twice as much as he did last week, then he must have sold more than twice as much as he did last week. This means that the total earnings for the first 6 bicycles he sold is $30 + $6 + $12 + $18 = $66.\n\nNow, let's consider the statement that says James earned more than twice as much as he did last week. This statement is true if James sold more than twice as much as he did last week. Therefore, the correct answer is (a).\n\nTo determine which statement is true, we need to compare the total earnings for the first 6 bicycles he sold to the total earnings for the first 6 bicycles he sold. The total earnings for the first 6 bicycles he sold is $66 + $12 + $18 = $94."
+        "(a) I,II only\n\nTo determine which statement is true, let's analyze the given information. James earns $30 per week plus $6 per bicycle for the first 6 bicycles he sells, $12 per bicycle for the next 6 bicycles he sells, and $18 per bicycle for every bicycle sold after first 12.\n\nIf James sold x bicycles last week and y bicycles this week, then the total earnings for the week would be:\n\nx + y = 30 + 6x + 12y\n\nSince the total earnings are equal, we can set up the equation:\n\nx + y = 30 + 6x + 12y\n\nNow, let's solve for y:\n\ny = (30 + 6x) / 12\ny = (30 + 6x) / 12\n\nTo find the value of y, we can divide both sides of the equation by 12:\n\ny = (30 + 6x) / 12\ny = (30 + 6x) / 12\n\nSince y is greater than 2x,"
       ]
     ],
     "filtered_resps": [
@@ -1272,11 +1272,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)  $37,500.\n\nTo solve this problem, we need to calculate the weighted average of the 50 customers who responded to the survey. We know that the average income of the wealthiest 10 customers is $95,000, and the average income of the other 40 customers is $37,500.\n\nWe can calculate the weighted average by multiplying the average income of the wealthiest 10 customers by the number of customers in the group, and then multiplying the result by the average income of the other 40 customers.\n\nWeighted average = (10 * $95,000) + (40 * $37,500)\nWeighted average = $45,000 + $37,500\nWeighted average = $72,500\n\nSo, the weighted average of the 50 customers who responded to the survey is $72,500."
+        "(a)  $32,500\n\nThe average income of the wealthiest 10 customers is $95,000. To find the average income of the other 40 customers, we need to multiply the average income of the wealthiest 10 customers by the number of customers.\n\n$32,500 * 10 = $32,500\n\nThe average income of the other 40 customers is $35,000.\n\nThe weighted average concept is used here because we are dealing with a dataset where the average income of the wealthiest 10 customers is $95,000, and the average income of the other 40 customers is $35,000. The weighted average is used to give more importance to the customers with the highest average income.\n\nSo, the correct answer is (a).\n\n(b)  $35,000\n\n(c)  $37,500\n\n(d)  $42,500\n\n(e)  $50,000"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1364,7 +1364,7 @@
     ],
     "resps": [
       [
-        "(c) 4"
+        "(a) 1"
       ]
     ],
     "filtered_resps": [
@@ -1410,11 +1410,11 @@
     ],
     "resps": [
       [
-        "(b) 9\n\nExplanation: The number of trees required to cover the entire sidewalk is 20 feet / 2 = 10 feet. Since there are 20 feet between each tree, the total number of trees required is 10 feet * 20 feet = 200 feet.\n\nThe answer is (b) 9."
+        "(a) 8\n\nThe answer is (a) 8.\n\nExplanation: The problem states that each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. Since the road is 148 feet long, we can calculate the total number of trees by multiplying the number of trees by the total length of the road. \n\n20 feet * 2 trees per tree = 40 trees\n\nSo, the answer is (a) 8."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1423,7 +1423,7 @@
     "doc_hash": "020678e9ea71a308e2fcb0d0e101e83f3d343f4e3c4c67350ff6fcf19f9ae1ae",
     "prompt_hash": "6524894266e390c98b1431e05bcc75e6d4d69f4aef5bbe33778118497db64a61",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 31,
@@ -1456,7 +1456,7 @@
     ],
     "resps": [
       [
-        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid over the three-year period.\n\nSimple interest:\nThe interest earned is the difference between the amount of money that is reinvested and the amount that is paid back.\n\nSimple interest = (Amount of money reinvested) - (Amount of money paid back)\n= (2000 - 1000)\n= 100\n\nCompound interest:\nThe interest earned is the difference between the interest paid and the interest earned on the interest earned.\n\nCompound interest = (Interest paid on the interest earned) - (Interest paid on the interest reinvested)\n= (100 - 100)\n= 0\n\nThe difference in simple and compound interest is 0."
+        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid over the three-year period.\n\nSimple interest:\nThe interest earned is the difference between the amount of money that was invested and the amount that was paid back.\n\nSimple interest = Amount invested - Amount paid back\n= 2000 - 42\n= 1888\n\nCompound interest:\nThe interest earned is the difference between the interest earned on the principal amount and the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the"
       ]
     ],
     "filtered_resps": [
@@ -1548,7 +1548,7 @@
     ],
     "resps": [
       [
-        "The given equation is: -x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nTo find the constant k, we need to isolate the variable x. We can do this by subtracting the first equation from the second equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can simplify the equation by combining like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nNow, we can add the two equations:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4) + (-k + 11)x\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4) + (-k + 11"
+        "The given equation is: -x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nTo find the constant k, we need to isolate the variable x. We can do this by subtracting the first equation from the second equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can simplify the equation by combining like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nNow, we can add the two equations:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nNow, we can add the two equations:\n\n-x2"
       ]
     ],
     "filtered_resps": [
@@ -1594,7 +1594,7 @@
     ],
     "resps": [
       [
-        "(b) III"
+        "The correct answer is (c) I & II."
       ]
     ],
     "filtered_resps": [
@@ -1686,11 +1686,11 @@
     ],
     "resps": [
       [
-        "(a) 10\n\nExplanation: The total number of games played is the sum of the number of games played by each player: 8 + 10 = 18."
+        "(a) 10\n\nExplanation: The total number of games played is the sum of the number of games played by each player: 8 + 10 = 18.\n\nThe answer is (a)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1778,7 +1778,7 @@
     ],
     "resps": [
       [
-        "(b) Friday"
+        "(b) Friday\n\nThe correct answer is (b) Friday."
       ]
     ],
     "filtered_resps": [
@@ -1824,7 +1824,7 @@
     ],
     "resps": [
       [
-        "To find the value of a + b + c, we can use the given equation: 1/a + 1/b + 1/c = 1.\n\nFirst, we need to simplify the equation by combining the fractions: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c.\n\nNow, we can add the fractions: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nNext, we can add the numerators: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nNow, we can add the denominators: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nFinally, we can add the"
+        "To find the value of a + b + c, we can use the given equation: 1/a + 1/b + 1/c = 1.\n\nFirst, we need to find the values of a, b, and c. We can do this by dividing both sides of the equation by 1/a, which gives us:\n\na = 1/1\nb = 1/2\nc = 1/3\n\nNow, we can substitute these values into the equation:\n\na + b + c = 1/1 + 1/2 + 1/3\n= 1/4\n\nSo, the value of a + b + c is 1/4."
       ]
     ],
     "filtered_resps": [
@@ -1916,11 +1916,11 @@
     ],
     "resps": [
       [
-        "(b) 112.5%\n\nTo find the actual % difference, we need to calculate the difference in volume between the original volume of 100gm and the new volume of 112.5gm.\n\nOriginal volume: 100gm\nNew volume: 112.5gm\n\nDifference in volume: 112.5gm - 100gm = 25gm\n\nThe actual % difference is 25gm / 100gm = 0.25%."
+        "(b) 112.5%\n\nTo find the actual % difference, we need to calculate the difference in volume between the original volume of 1000gm and the new volume of 112.5gm.\n\nOriginal volume: 1000gm\nNew volume: 112.5gm\nDifference in volume: 112.5 - 1000 = 25.5\n\nThe actual % difference is 25.5 / 1000 = 0.255 or 25.5%\n\nSo, the answer is (b) 112.5%."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1929,7 +1929,7 @@
     "doc_hash": "de63dcf2d42bebe2b1326ce65806f692421337a38fd85867cc2649804b96c134",
     "prompt_hash": "95be479144d8fb5f4271868bc0ae077f44b447ec826df5bed78255e388da2560",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 42,
@@ -1962,7 +1962,7 @@
     ],
     "resps": [
       [
-        "(b) 30\n\nTo find out how much distance he would require to walk, we need to calculate the distance he would need to walk at the constant rates of walking and biking.\n\nWe know that the person can walk at a constant rate of 8mph and can bike at a constant rate of 16mph. To find the distance he would need to walk, we can use the formula:\n\nDistance = Speed * Time\n\nDistance = 8mph * 8 hours\nDistance = 64 miles\n\nSo, the person would need to walk 64 miles at the constant rates of walking and biking to travel 64 miles in 8 hours."
+        "(a) 20\n\nTo find out how much distance he would require to walk, we need to calculate the distance he would need to walk at his constant rates.\n\nHe walks at a rate of 16mph, so he walks 16 miles in 8 hours. To find the distance he would need to walk, we divide the distance he walks in 8 hours by the speed he walks at: 16 miles / 16 mph = 1 mile.\n\nTherefore, he would require 1 mile to walk at his constant rates."
       ]
     ],
     "filtered_resps": [
@@ -2008,7 +2008,7 @@
     ],
     "resps": [
       [
-        "(b) 273268"
+        "(c) 273348"
       ]
     ],
     "filtered_resps": [
@@ -2100,7 +2100,7 @@
     ],
     "resps": [
       [
-        "(b) 3/7\n\nTo find the probability of at least 1 customer buying a coffee and a bagel, we need to consider the total number of customers who bought both items and the number of customers who bought only one item.\n\nThere are 8 customers who bought both, and 3 out of 5 customers bought a bagel. So, the total number of customers who bought both is 8 + 3 = 11.\n\nThe probability of at least 1 customer buying a coffee and a bagel is then 11/343, which simplifies to 11/343.\n\nTherefore, the probability of at least 1 customer buying a coffee and a bagel is 11/343."
+        "(b) 3/7\n\nTo find the probability of at least 1 customer buying a coffee and a bagel, we need to consider the total number of customers who bought both items and the number of customers who bought only one item.\n\nThere are 8 customers who bought both bagsel and coffee. Since 3 out of 5 customers bought both, the total number of customers who bought both is 8 * 3 = 24.\n\nThe probability of at least 1 customer buying a coffee and a bagel is then 24 / 25 = 3/7.\n\nSo, the probability of at least 1 customer buying a coffee and a bagel is 3/7."
       ]
     ],
     "filtered_resps": [
@@ -2146,11 +2146,11 @@
     ],
     "resps": [
       [
-        "The equation x + 3 = 4-x has a solution x = 2.\n\nThe answer is (b) 1."
+        "The equation x + 3 = 4-x is a quadratic equation in the form ax^2 + bx + c = 0. To find the number of solutions, we can use the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a.\n\nIn this case, a = 1, b = 3, and c = -4. Plugging these values into the quadratic formula, we get x = (3 \u00b1 \u221a((-3)^2 - 4(1)((-4))) / 2(1)).\n\nSimplifying the expression inside the square root, we have (3 \u00b1 \u221a(9 + 16)) / 2 = \u221a(9 + 16) = \u221a25 = 5.\n\nNow, we can substitute this value of x back into the quadratic formula to find the corresponding value of y: y = (-3 \u00b1 5) / 2 = (-3 + 5) / 2 = 2.\n\nTherefore, the equation x + 3 = 4-x has 2 solutions: x = 2 and x = -2."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2284,7 +2284,7 @@
     ],
     "resps": [
       [
-        "(b) 9261 cm3\n\nExplanation:\n\nThe cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is the product of the length of the side and the area of the side. The volume of a cube is given by the formula V = s^3, where s is the length of the side.\n\nThe volume of the cube is 8500 cm3. So, the volume of the cube is 8500 cm3 * 343.98 = 275,000 cm3.\n\nThe answer is (b) 9261 cm3."
+        "(b) 9000 cm3\n\nExplanation:\n\nThe cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is the product of the length of the side and the area of the side. The volume of a cube is given by the formula V = s^3, where s is the length of the side.\n\nThe volume of the cube is 8500 cm3. So, the volume of the cube is 8500 cm3 * 343.98 = 275,000 cm3.\n\nThe answer is (b) 9000 cm3."
       ]
     ],
     "filtered_resps": [
@@ -2330,11 +2330,11 @@
     ],
     "resps": [
       [
-        "(a) 25\n\nThe man sold 20 articles for $60 and gained 20% of the $60, which is 20 * 0.2 = 4. The total amount of money he made is $60 + 4 = $64.\n\nTo calculate the loss, we subtract the amount he made from the total amount he sold: $50 - $64 = $16.\n\nThe man should sell 16 articles for $50 to incur a loss of 20%: 16 * 0.2 = 3.6.\n\nThe answer is (a)."
+        "(a) 25\n\nThe man sold 20 articles for $60 and gained 20% of the $60, which is 20 * 0.2 = 4. The total amount of money he made is $60 + $4 = $64.\n\nTo calculate the loss, we subtract the amount he made from the total amount he sold: $64 - $4 = $60.\n\nSo, the man should sell 20 articles for $50 to incur a loss of 20% of $50, which is $10."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2343,7 +2343,7 @@
     "doc_hash": "abda40e245c8c80b994cde38e98a155c7e69fb3aeec9627569ddd46b94a98af2",
     "prompt_hash": "bcdced4fa1d38342b4526d56d90791ab9eb7de0e79ba8bd8724bb503ab4a4a8f",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 51,
@@ -2422,11 +2422,11 @@
     ],
     "resps": [
       [
-        "(b) Rs. 50\n\nExplanation:\n\nThe answer is (b) Rs. 50.\n\nExplanation:\n\nThe answer is (a) Rs. 45.\n\nExplanation:\n\nThe answer is (c) Rs. 50.\n\nExplanation:\n\nThe answer is (d) Rs. 55.\n\nExplanation:\n\nThe answer is (e) Rs. 60.\n\nExplanation:\n\nThe answer is (f) Rs. 65.\n\nExplanation:\n\nThe answer is (g) Rs. 65.\n\nExplanation:\n\nThe answer is (h) Rs. 65.\n\nExplanation:\n\nThe answer is (i) Rs. 65.\n\nExplanation:\n\nThe answer is (j) Rs. 65.\n\nExplanation:\n\nThe answer is (k) Rs. 65.\n\nExplanation:\n\nThe answer is (l) Rs. 65.\n\nExplanation:\n\nThe answer is (m) Rs. 65.\n\nExplanation:\n\nThe answer is (n) Rs."
+        "(a) Rs. 45\n\nExplanation: The answer is (a) Rs. 45.\n\nExplanation: The answer is (a) Rs. 45 because the total amount of rent paid by A, B, C, and D is Rs. 175. The total amount of rent paid by A, B, C, and D is Rs. 175. Therefore, the total amount of rent paid by C is Rs. 45."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -2435,7 +2435,7 @@
     "doc_hash": "a250da38016aa8d2f0959deb45f296d9b9ee6d9198840f37a2d720161a894827",
     "prompt_hash": "07a5b59baec4a0a3cba39e4f78c883afac6f11e6a9b4acc7624000e178616442",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 53,
@@ -2468,7 +2468,7 @@
     ],
     "resps": [
       [
-        "(b) 95 Kmph\n\nThe answer is (b) 95 Kmph because the train is crossing an electric pole in 20 seconds, and the speed of the train is 95 Kmph."
+        "(b) 95 Kmph\n\nThe answer is (b) 95 Kmph because the train crosses the electric pole in 20 seconds, and the speed of the train is 95 Kmph."
       ]
     ],
     "filtered_resps": [
@@ -2652,7 +2652,7 @@
     ],
     "resps": [
       [
-        "(c) 24a4\n\nThe surface of a cube is 24a4. To find the surface, we need to find the area of the cube and then divide it by the side length. The area of a cube is given by the formula:\n\nArea = length * width * height\n\nIn this case, the length is 7a cm, the width is 4a cm, and the height is 2a cm. So, the area of the cube is:\n\nArea = 7a * 4a * 2a = 24a^2\n\nNow, we divide the area by the side length to find the surface:\n\nSurface = Area / Side length = 24a^2 / 2a = 16a^2\n\nThe surface of the cube is 16a^2."
+        "(b) 24a4\n\nThe surface area of a cube is given by the formula:\n\nSurface Area = 6 * (length * width * height)\n\nIn this case, the length is 7a, the width is 4a, and the height is 4a. So, the surface area is:\n\nSurface Area = 6 * (7a) * (4a)\n\nSurface Area = 36a^2\n\nThe surface area of the cube is 36a^2."
       ]
     ],
     "filtered_resps": [
@@ -2744,7 +2744,7 @@
     ],
     "resps": [
       [
-        "(b) 32 inches"
+        "(b) 32 inches\n\nExplanation: The length of each part is 32 inches."
       ]
     ],
     "filtered_resps": [
@@ -2790,7 +2790,7 @@
     ],
     "resps": [
       [
-        "(a) 12\n\nThe given expression is 15*32*25*22*40*75*98*112*125. To find the number of zeroes, we need to find the number of factors of 15 and 25.\n\nThe factors of 15 are 1, 5, 15, 30, 155, 305, 1515, 3055, 15155, 30555, 151555, 305555, 1515555, 3055555, 15155555, 30555555, 151555555, 3055555555, 151555555555555, 305555555555555, 15155555555555555"
+        "(a) 12\n\nThe given expression is 15*32*25*22*40*75*98*112*125. To find the number of zeroes, we need to find the number of factors of 15 and 25.\n\nThe factors of 15 are 1, 5, 15, 30, 155, 305, 1515, 3055, 15155, 30555, 151555, 305555, 1515555, 3055555, 15155555, 30555555, 151555555, 3055555555, 1515555555555555, 3055555555555555, 151555555555555"
       ]
     ],
     "filtered_resps": [
@@ -2928,11 +2928,11 @@
     ],
     "resps": [
       [
-        "To find the ratio of A and B's profits, we need to calculate the profit for each month and then find the total profit for the year.\n\nFor A to withdraw half of his capital, A withdraws 1/2 * 6000 = 6000 * 1/2 = 3000 * 1/2 = 3000/2 = 1500/2 = 750/2.\n\nFor B to withdraw one-third of his capital, B withdraws 1/3 * 12000 = 1200 * 1/3 = 3600 * 1/3 = 1000 * 1/3 = 1000/3 = 300/3 = 100/3.\n\nNow, we add the profits for A and B: 3000 + 3000 = 6000.\n\nThe total profit for the year is 6000 * 1 = 6000.\n\nThe ratio of A and B's profits is 6000: "
+        "To find the ratio of A and B's profits, we need to calculate the profit for each month and then find the total profit for the year.\n\nFor A to withdraw half of his capital, A withdraws 1/2 * 6000 = 6000 * 2 = 12000.\nFor B to withdraw one-third of his capital, B withdraws 1/3 * 12000 = 12000 * 3 = 36000.\n\nThe total profit for the year is the sum of the profits for A and B: 12000 + 36000 = 58000.\n\nNow, we can calculate the ratio of A and B's profits: 58000 / 120000 = 58/12 = 4:3.\n\nSo, the answer is (a).\n\nThe answer is (a) 4:3."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3112,7 +3112,7 @@
     ],
     "resps": [
       [
-        "(b) 5\n\nExplanation: The answer is (b) 5 because 6 women can complete the work in 9 days, and 10 children take 12 days to complete the work."
+        "(b) 5\n\nThe answer is (b) 5."
       ]
     ],
     "filtered_resps": [
@@ -3204,11 +3204,11 @@
     ],
     "resps": [
       [
-        "(b) 45\n\nThe answer is (b) 45."
+        "(a) 20\n\nThe answer is (a) 20."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3572,11 +3572,11 @@
     ],
     "resps": [
       [
-        "(b) 120\n\nThe minimum expenditure required to cover a distance of 600 Km is 120 litres of diesel per hour.\n\nThe cost of diesel per hour is $60, and the cost of other expenses per hous is $60. So, the minimum expenditure required is 120 litres of diesel per hour * $60/litre = $720.\n\nThe answer is (b)."
+        "(b) 120\n\nThe minimum expenditure required to cover a distance of 600 Km is 120 litres of diesel per hour.\n\nThe cost of diesel per hour is $60, and the cost of other expenses per hous is $60. So, the minimum expenditure required is 120 litres of diesel per hour * $60/litre = $720.\n\nTherefore, the minimum expenditure required to cover a distance of 600 Km is 720 litres of diesel per hour."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3618,7 +3618,7 @@
     ],
     "resps": [
       [
-        "(b) 9/144\n\nTo find the probability of having 0 women in the committee, we need to find the number of ways to choose 0 women from the 7 men and 6 women from the 6 women.\n\nThere are 7 men and 6 women, so the number of ways to choose 0 women is 7 * 6 = 42.\n\nThe number of ways to choose 0 women from the 7 men is 7 * 6 = 42.\n\nThe total number of ways to choose 0 women is 7 * 6 = 42.\n\nThe probability of having 0 women in the committee is the number of ways to choose 0 women divided by the total number of ways to choose 0 women.\n\nSo, the probability is 42 / 42 = 1.\n\nTherefore, the probability of having 0 women in the committee is 1."
+        "(b) 9/144\n\nTo find the probability of having 0 women in the committee, we need to find the number of ways to choose 0 women out of the 7 men and 6 women out of the 6 women.\n\nThere are 7 men and 6 women, so the total number of ways to choose 0 women is 7 * 6 = 42.\n\nThere are 7 men and 6 women, so the total number of ways to choose 0 women is 7 * 6 = 42.\n\nThe probability of having 0 women is the number of ways to choose 0 women divided by the total number of ways to choose 0 women.\n\nSo, the probability is 42 / 42 = 1.\n\nTherefore, the probability of having 0 women in the committee is 1."
       ]
     ],
     "filtered_resps": [
@@ -3664,7 +3664,7 @@
     ],
     "resps": [
       [
-        "(c) 20/63\n\nTo find the probability that exactly three bulbs are good, we need to consider the cases where exactly three bulbs are good and the remaining two are defective.\n\nFirst, let's consider the cases where exactly three bulbs are good. There are 4 good bulbs out of 9 available, so the probability of choosing a good bulb is 4/9.\n\nNext, let's consider the cases where exactly two bulbs are good. There are 3 good bulbs out of 9 available, so the probability of choosing a good bulb is 3/9.\n\nFinally, let's consider the cases where exactly one bulb is good. There are 2 good bulbs out of 9 available, so the probability of choosing a good bulb is 2/9.\n\nNow, we can calculate the probability that exactly three bulbs are good:\n\n(4/9) * (3/9) * (2/9) = 12/81\n\nSo, the probability that exactly three bulbs are good is 12/81."
+        "(b) 20/63\n\nTo find the probability that exactly three bulbs are good, we need to consider the cases where exactly three bulbs are good and the remaining two are defective.\n\nLet's consider the cases where exactly three bulbs are good:\n\n- If exactly three bulbs are good, then the remaining two bulbs must be defective. We can choose four bulbs out of the nine available, which gives us 4 * 4 = 16 possible choices. Since the remaining two bulbs must be defective, the probability of choosing a defective bulb is 16/69.\n\n- If exactly three bulbs are good, then the remaining two bulbs must be defective. We can choose four bulbs out of the nine available, which gives us 4 * 4 = 16 possible choices. Since the remaining two bulbs must be defective, the probability of choosing a defective bulb is 16/63.\n\nNow, we add the probabilities of these two cases:\n\n(16/69) + (16/63) = 20/69\n\nSo, the probability that exactly three bulbs are good is 20/69."
       ]
     ],
     "filtered_resps": [
@@ -3710,7 +3710,7 @@
     ],
     "resps": [
       [
-        "(b) 240\n\nThe speed of the train is 54 km/hr. To find the length of the platform, we need to convert the speed to meters per second. The speed is 54 km/hr * 1.15 m/s = 63.2 m/s.\n\nThe length of the platform is 63.2 m/s * 32 sec = 180.2 m.\n\nThe answer is (b) 240."
+        "(b) 240\n\nThe speed of the train is 54 km/hr. To find the length of the platform, we need to convert the speed to meters per second (m/s). The speed is 54 km/hr * 1.49 m/s = 7.56 m/s.\n\nThe length of the platform is 7.56 m/s * 32 sec = 240 m.\n\nThe answer is (b) 240."
       ]
     ],
     "filtered_resps": [
@@ -3756,7 +3756,7 @@
     ],
     "resps": [
       [
-        "(a) x\u22650\n\nThe given condition |w| = -w is satisfied when x is strictly less than -w. Since x is strictly less than -w, x must be strictly less than 0. Therefore, x must be strictly less than 0.\n\n(b) w\u22640\n\nThe given condition w = w is satisfied when w is strictly less than 0. Since w is strictly less than 0, w must be strictly less than 0.\n\n(c) x2>x\n\nThe given condition x2 > x is satisfied when x is strictly greater than x. Since x is strictly greater than x, x must be strictly greater than 0.\n\n(d) x3<0\n\nThe given condition x3 < x is satisfied when x is strictly less than x. Since x is strictly less than x, x must be strictly less than 0.\n\n(e) 2x<x\n\nThe given condition 2x < x is satisfied when x is strictly less than x. Since x is strictly less than x, x must be strictly less than 0.\n\n(f) x3<0\n\nThe given condition x"
+        "(c) x3<0\n\nThe correct answer is (c) x3<0."
       ]
     ],
     "filtered_resps": [
@@ -3802,11 +3802,11 @@
     ],
     "resps": [
       [
-        "(b) 9%\n\nTo find the second number less than the first number, we need to find the difference between the two numbers and then divide it by 30%.\n\nThe difference between the two numbers is 37% - 30% = 13%.\n\nSince 13% is less than 30%, the second number is less than 37% by 13%.\n\nThe answer is (b) 9%."
+        "(b) 9%\n\nTo find the second number less than the first number, we need to find the difference between the two numbers and then divide by 30% to find the difference.\n\nThe difference between the two numbers is 37% - 30% = 13%.\n\nThe second number less than the first number is 13% of 30%.\n\nTo find the percentage, we divide the difference by 100: 13% / 100 = 0.13 * 100 = 13%.\n\nTherefore, the second number less than the first number is 13%."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3940,7 +3940,7 @@
     ],
     "resps": [
       [
-        "(a) 3\n\nThe answer is (a) 3."
+        "(a) 3\n\nThe answer is (a) because if there are 30 cans out of them one is poised if a person tastes very little he will die within 14 hours."
       ]
     ],
     "filtered_resps": [
@@ -4032,7 +4032,7 @@
     ],
     "resps": [
       [
-        "(b) 30%\n\nThe store's profit on the items sold in February is 30% of the original retail price. To find the profit on the items sold in February, we need to calculate the profit on the items sold in February and then subtract the profit on the items sold in February from the original retail price.\n\nThe original retail price for the turtleneck sweaters is $125. The profit on the items sold in February is $30. The profit on the items sold in February is $30 - $30 = $0.\n\nThe profit on the items sold in February is $0.\n\nThe store's profit on the items sold in February is $0."
+        "(b) 30%"
       ]
     ],
     "filtered_resps": [
@@ -4170,11 +4170,11 @@
     ],
     "resps": [
       [
-        "(b) 90"
+        "(a) 40\n\nThe answer is (a) 40.\n\nExplanation: The answer is (a) 40 because the trains A and B meet at the same point, and their speeds are equal."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4262,7 +4262,7 @@
     ],
     "resps": [
       [
-        "(b) 41\n\nTo solve this problem, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nFirst, let's find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nNow, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nThe total number of days it takes for the man, woman, and boy to complete the job in 1/4th of a day is 1/4th of a day.\n\nTo find out how many boys"
+        "(b) 41\n\nTo solve this problem, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nFirst, let's find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nNow, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\n"
       ]
     ],
     "filtered_resps": [
@@ -4354,7 +4354,7 @@
     ],
     "resps": [
       [
-        "To find the ratio of A and B's profit after 6 months, we need to calculate the profit after 6 months and then divide it by their initial capital.\n\nAfter 6 months, A's profit is Rs.3000 * 6 = Rs.1500.\nAfter 6 months, B's profit is Rs.4000 * 6 = Rs.2400.\n\nThe profit after 6 months is the difference between the profit after 6 months and the initial profit: 1500 - 2400 = Rs.600.\n\nNow, we divide the profit by their initial capital: 600 / 3000 = 0.2.\n\nThe ratio of A and B is 0.2."
+        "To find the ratio of A and B's profit after 6 months, we need to calculate the profit after 6 months and then divide it by their initial capital.\n\nAfter 6 months, A's profit is Rs.3000 * 6 = Rs.1500.\n\nAfter 6 months, B's profit is Rs.4000 * 6 = Rs.2400.\n\nThe profit after 6 months is the difference between the profit after 6 months and the initial profit: 2400 - 1500 = Rs.1500.\n\nNow, we divide the profit by their initial capital: 1500 / 1500 = 1.\n\nThe ratio of A and B's profit after 6 months is 1:1."
       ]
     ],
     "filtered_resps": [
@@ -4400,11 +4400,11 @@
     ],
     "resps": [
       [
-        "(a) I only\n\nThe statement \"If x is negative, y must be negative\" is true because negative numbers are not positive. Therefore, if x is negative, y must be negative.\n\n(b) II only\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(c) III only\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(d) I and II\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(e) II and III\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(f) I and II\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must"
+        "To determine if the given equation x-y=10 is true, we need to analyze the relationship between x and y.\n\nFirst, let's examine the given equation x-y=10. This equation represents a linear relationship between x and y, where the slope of the line is 10.\n\nNow, let's consider the relationship between x and y. We know that x is positive, and y is negative. This means that x is always greater than or equal to -y.\n\nSince x is positive, we can conclude that y must be negative. This is because the equation x-y=10 implies that y is less than or equal to -y, which is negative.\n\nTherefore, the only possible relationship between x and y is that x is positive and y is negative. This is the only possible solution to the given equation.\n\nThe answer is (a) I only."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4538,7 +4538,7 @@
     ],
     "resps": [
       [
-        "(a) $750.00\n\nThe value of the investment after 10 years is $750.00."
+        "(c) $973.25"
       ]
     ],
     "filtered_resps": [
@@ -4630,7 +4630,7 @@
     ],
     "resps": [
       [
-        "(a) 21\n\nTo find out how many kilometers Friend P will have walked when they pass each other, we need to calculate the difference in their speeds and then add them together.\n\nFriend P's speed is 15% faster than Friend Q's, so Friend Q's speed is 15% of Friend P's speed. Friend Q's speed is 21/15 * Friend P's speed = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 = 15/15 * 21 ="
+        "(a) 21\n\nFriend P's rate is 15% faster than Friend Q's rate, so Friend P's rate is 15% of Friend Q's rate. Friend Q's rate is 15% of 15% of Friend Q's rate.\n\nSince Friend Q's rate is 15% of 15% of Friend Q's rate, Friend Q's rate is 15% of 15% of 15% of Friend Q's rate.\n\nThe total rate of Friend Q's rate is 15% of 15% of Friend Q's rate, which is 15% of 15% of 15% of 15% of Friend Q's rate.\n\nSince Friend Q's rate is 15% of 15% of Friend Q's rate, Friend Q's rate is 15% of 15% of 15% of 15% of Friend Q's rate.\n\nThe total rate of Friend Q's rate is 15% of 15% of Friend Q's rate, which is 15% of 15% of 15"
       ]
     ],
     "filtered_resps": [
@@ -4676,7 +4676,7 @@
     ],
     "resps": [
       [
-        "(b) 1 and 5\n\nThe slope of the line k is 1/5, which means the rate of change of the line is 1/5 units per unit change in x. Since the line passes through the origin, it has a slope of 0, which is the definition of a horizontal line.\n\nThe point (5, y) is on line k, so the slope of the line is 1/5. The point (4, 1) is on line k, so the slope of the line is 1/5. The point (3, 5) is on line k, so the slope of the line is 1/5.\n\nThe values of x and y are 4 and 1, respectively."
+        "(b) 1 and 5\n\nThe slope of the line k is 1/5, which means the rate of change of the line is 1/5 units per unit change in x. Since the line passes through the origin, it has a slope of 0, which is the perpendicular distance from the origin to the line. The slope of the line is 1/5, so the slope of the line k is 1/5.\n\nThe values of x and y are 4 and 1, respectively, which are the coordinates of the points on the line k."
       ]
     ],
     "filtered_resps": [
@@ -4722,7 +4722,7 @@
     ],
     "resps": [
       [
-        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are numbers. If p and q are both non-zero, then the expression p^2 - pq is always non-zero, which means x is also non-zero. Therefore, the only possible solution is x = 0.\n\nII. (xy)@y\n\nThe expression xy is a linear combination of the numbers p and q, and the only way to achieve this is by multiplying both sides of the equation by xy. Since xy is a linear combination of p and q, it must be equal to zero. Therefore, the only possible solution is x = 0.\n\nIII. x@(x + y)\n\nThe expression x + y is a linear combination of the numbers p and q, and the only way to achieve this is by adding both sides of the equation to x + y. Since x + y is a linear combination of p and q, it must be equal to zero. Therefore, the only possible solution is x = 0.\n\nIV. x@(x + y)\n\nThe expression x + y is a linear combination of the numbers"
+        "I. x@y\n\nThe operation @ is defined as p@q = p^2 - pq, where p and q are numbers. If p and q are both non-zero, then the expression p^2 - pq is a quadratic expression, which is always non-negative. Therefore, the only possible value of x@y is x^2 - xq, which is equal to zero.\n\nII. (xy)@y\n\nThe expression xy is a linear combination of the two numbers p and q. Since p and q are non-zero, the linear combination xy is also non-zero. Therefore, the only possible value of (xy)@y is xy = 0, which is equal to zero.\n\nIII. x@(x + y)\n\nThe expression x@(x + y) is a linear combination of the two numbers p and q. Since p and q are non-zero, the linear combination x@(x + y) is also non-zero. Therefore, the only possible value of x@(x + y) is x^2 - xq, which is equal to zero.\n\nIV. x@(x + y)\n\nThe"
       ]
     ],
     "filtered_resps": [
@@ -4814,7 +4814,7 @@
     ],
     "resps": [
       [
-        "(b) 27 seconds\n\nThe speed of the current is 11 kmph, and the boat is rowing downstream. To cover 80 meters, the boat needs to cover 80 - 11 = 69 meters. Since the boat is rowing 25 kmph, it will take 69 meters / 25 kmph = 27 seconds to cover 80 meters."
+        "(b) 27 seconds\n\nExplanation: The speed of the current is 11 kmph, and the boat is rowing downstream. To find the time it takes to cover 80 meters, we can use the formula:\n\nTime = Distance / Speed\n\nIn this case, the distance is 80 meters and the speed is 11 kmph.\n\nTime = 80 meters / 11 kmph\n\nTime = 7.2 seconds\n\nSo, the man will take 7.2 seconds to cover 80 meters."
       ]
     ],
     "filtered_resps": [
@@ -4860,11 +4860,11 @@
     ],
     "resps": [
       [
-        "(a) 8\n\nThe value of k is 8.\n\nExplanation: The answer is (a) 8 because there are 8 possible combinations in which Jim and Ellen are not selected. The answer is (b) 9 because there are 9 possible combinations in which Jim and Ellen are selected. The answer is (c) 10 because there are 10 possible combinations in which Jim and Ellen are not selected. The answer is (d) 11 because there are 11 possible combinations in which Jim and Ellen are selected. The answer is (e) 12 because there are 12 possible combinations in which Jim and Ellen are selected."
+        "(b) 9\n\nThe value of k is 9."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4906,7 +4906,7 @@
     ],
     "resps": [
       [
-        "(b) \u2212 4 \u2264 x \u2264 3\n\nThe given inequality is x + 1 \u2264 3, which is a linear inequality. To find the values of x that satisfy this inequality, we can use the properties of inequalities.\n\nFirst, we can rewrite the inequality as x + 1 \u2264 3 - 4x. This simplifies to x + 1 \u2264 3 - 4x.\n\nNext, we can use the fact that the absolute value of a positive number is positive, so x + 1 \u2264 3 - 4x is equivalent to x + 1 \u2264 3.\n\nNow, we can substitute x = 3 into the inequality: x + 1 \u2264 3 - 4(3) = 3 \u2264 1.\n\nTherefore, the values of x that satisfy the given inequality are x = 3 and x = 4."
+        "(b) \u2212 4 \u2264 x \u2264 3\n\nThe given inequality is x + 1 \u2264 3, which is a quadratic inequality. To solve for x, we can use the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a. Here, a = 1, b = 4, and c = 3.\n\nSubstituting these values into the quadratic formula, we get x = (4 \u00b1 \u221a(4^2 - 4(1)(3))) / 2(1) = (4 \u00b1 \u221a(16 - 12)) / 2 = (4 \u00b1 \u221a4) / 2 = (4 \u00b1 2) / 2.\n\nSince the discriminant (b^2 - 4ac) is positive, the quadratic formula yields two real solutions: x = (4 \u00b1 2) / 2 = (4 \u00b1 2) / 2 = (2 \u00b1 2) / 2 = (2 \u00b1 2) / 2 = (2 \u00b1 1) / 2.\n\nTherefore, the solutions are (2 + 1) / 2 = 2"
       ]
     ],
     "filtered_resps": [
@@ -4998,11 +4998,11 @@
     ],
     "resps": [
       [
-        "(b) 20.5"
+        "(a) 16\n\nJoe goes with her 6-year-old twin brothers, and each ride costs $0.50. So, the total cost of each ride is $0.50 * 6 = $3.50. Since Joe goes with her 6-year-old twin brothers, the total cost of each ride is $3.50 * 6 = $21.50.\n\nThe sum of the costs of each ride is $21.50 + $0.50 = $21.50.\n\nJoe ends up spending $21.50 at the fair.\n\nThe answer is (a) 16."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5011,7 +5011,7 @@
     "doc_hash": "3bfe7c3090c400e8e0cdaaa4bcba2054199f7b0f26eb2acdabf73c1b45622b64",
     "prompt_hash": "b816022fbcc2729a389f7e1ff8a970d8905ffedacb97b18ed9d32c499035eb87",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 9,
@@ -5136,7 +5136,7 @@
     ],
     "resps": [
       [
-        "(b) Rs. 1025\n\nExplanation: The rate of interest is 4% per annum, which means the interest is compounded annually. To find the amount of Rs. 1025, we need to calculate the interest for 3 years at the rate of 4% per annum.\n\nThe calculation is as follows:\n\n(1 + 0.04) * 3 = 1.04 * 3 = 3.04\n\nSo, the amount of Rs. 1025 becomes Rs. 304.04 in 3 years."
+        "(b) Rs. 1025\n\nExplanation: The rate of interest is 4% per annum, which means the interest is compounded annually. To find the amount of Rs. 1025, we need to calculate the interest for 3 years at the rate of 4% per annum.\n\nThe interest for 3 years at 4% per annum is 1025 * 0.04 = Rs. 40.\n\nSo, the amount of Rs. 1025 becomes Rs. 1020.80."
       ]
     ],
     "filtered_resps": [
@@ -5228,11 +5228,11 @@
     ],
     "resps": [
       [
-        "(a) \u221an + 1\n\nThe next positive integer is n + 1. Since \u221an + 1 is equal to n + 1, it must be equal to n + 1.\n\nThe answer is (a).\n\nExplanation: The square of a positive integer is always positive, so the next positive integer is n + 1. The square of n is n^2 + 1, which is equal to n + 1. Therefore, the answer is (a)."
+        "The answer is (d) n^2 + 2n + 1.\n\nThis is because the next positive integer is 2n + 1, which is equal to the square of the next positive integer. Therefore, the answer must be (d) n^2 + 2n + 1."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5241,7 +5241,7 @@
     "doc_hash": "e534a981360890476fc16021b6aa2524eae253ab63973054bba96d6024b1ee5d",
     "prompt_hash": "b944cb9df49c5b192689bbc7165da70a8f0909f47ae49afd49b7d2b3130d811c",
     "target_hash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 14,
@@ -5274,7 +5274,7 @@
     ],
     "resps": [
       [
-        "(b) 992\n\nTo find out how much A is more than C, we need to find the ratio of A to C. The ratio of A to C is 1:1:1:14.\n\nWe can find the value of A by dividing the total amount of A by the total amount of C:\n\nA = 1000 * 1000 = 1000000\n\nNow, we can find the value of C by dividing the total amount of C by the total amount of A:\n\nC = 1000000 / 1000000 = 1000000000000\n\nNow, we can find the value of A by multiplying the value of C by the value of A:\n\nA = 1000000000000 * 1000000 = 1000000000000000000000000\n\nSo, A is more than C if their ratio is 1/7:1/7:1"
+        "(b) 992\n\nTo find the value of A, we need to find the ratio of A to C. The ratio of A to C is 1:1:1:14.\n\nWe can find the value of A by dividing the ratio of A to C by 1:1:1:14.\n\nA = 1/7\nC = 1/7\n\nA = 1/7 / 1/7\nA = 1\n\nSo, A is more than C if their ratio is 1:1:1:14."
       ]
     ],
     "filtered_resps": [
@@ -5320,7 +5320,7 @@
     ],
     "resps": [
       [
-        "(c) 5/2"
+        "(c) 5/2\n\nThe given equation is: 8a + 5b = 22.\n\nFirst, we need to find the value of a.\n\na = 8(5) + 5(22) = 40 + 120 = 160\n\nNow, we can substitute the value of a into the equation: 160 = 40 + 120.\n\nThis simplifies to 160 = 160.\n\nSince the equation is undefined, the correct answer is (c) 5/2."
       ]
     ],
     "filtered_resps": [
@@ -5366,7 +5366,7 @@
     ],
     "resps": [
       [
-        "(b) k^2/l\n\nThe given condition k/l < 1 is satisfied when both k and l are positive integers. Since k is positive, it must be greater than 1. Therefore, the only option that is greater than 1 is (b) k^2/l."
+        "(b) k^2/l\n\nThe given condition k/l < 1 is satisfied when both k and l are positive integers. Since k/l is a positive integer, it must be greater than 1. Therefore, the only option that is greater than 1 is (b) k^2/l."
       ]
     ],
     "filtered_resps": [
@@ -5504,7 +5504,7 @@
     ],
     "resps": [
       [
-        "(b) 55 km\n\nThe person reaches his destiny in 2.5 hours, so the distance is 55 km."
+        "(b) 55 km\n\nThe person reaches his destiny in 2.5 hours, so he should have reached his destination in 2.5 * 60 = 150 minutes."
       ]
     ],
     "filtered_resps": [
@@ -5550,7 +5550,7 @@
     ],
     "resps": [
       [
-        "(b) 26\n\nThe sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10"
+        "(b) 26\n\nThe sequence is 4, 10, X, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The first five numbers in a regular sequence are 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence is 4, 10, 10, 46, and 94. The sequence"
       ]
     ],
     "filtered_resps": [
@@ -5642,11 +5642,11 @@
     ],
     "resps": [
       [
-        "The least value of x, so that 2x5475 is divisible by 9, is 2."
+        "The least value of x, so that 2x5475 is divisible by 9, is (e)."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,11 +5688,11 @@
     ],
     "resps": [
       [
-        "(b) 10\u221a 2\u03c0\n\nThe perimeter of a circle is given by the formula: P = 2\u03c0r, where r is the radius of the circle. In this case, the radius is 40, so P = 2\u03c0(40) = 80\u03c0.\n\nThe circumference of a circle is given by the formula: C = 2\u03c0r, where r is the radius. In this case, the radius is 40, so C = 2\u03c0(40) = 80\u03c0.\n\nTherefore, the circumference of Q is 80\u03c0."
+        "(c) 9\u221a 2\u03c0\n\nThe perimeter of a circle is given by the formula: P = 2\u03c0r, where r is the radius of the circle. In this case, the radius is 40, so P = 2\u03c0(40) = 80\u03c0.\n\nThe circumference of a circle is given by the formula: C = 2\u03c0r, where r is the radius. In this case, the radius is 40, so C = 2\u03c0(40) = 80\u03c0.\n\nTherefore, the circumference of Q is 80\u03c0."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5701,7 +5701,7 @@
     "doc_hash": "dcac6def14c5ed4d5c283619424346cf9b55e29fb969f5570c53aa6d98bb6854",
     "prompt_hash": "b2a214dd2d195be92f8086832c776818b1ca262cb29cc78167498a118d799c83",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 24,
@@ -5734,7 +5734,7 @@
     ],
     "resps": [
       [
-        "(a) 9\n\nThe debtor is expected to pay back 51200 in full, so the total amount owed is 51200 * 12 = 636000.\n\nThe debtor is expected to pay back 200 * 12 = 24000.\n\nTo find the number of months it will take to fully repay the loan, we divide the total amount owed by the total amount paid: 636000 / 24000 = 3.25 months.\n\nTherefore, it will take 3.25 months for the debtor to fully repay the loan."
+        "(a) 9\n\nThe debtor is expected to pay back 51200 in full, so the total amount owed is 51200 * 12 = 624000.\n\nThe debtor is expected to pay back 200 * 12 = 24000.\n\nTo find the number of months it will take to fully repay the loan, we divide the total amount owed by the total amount paid: 624000 / 24000 = 3.33 months.\n\nTherefore, it will take 3.33 months for the debtor to fully repay the loan."
       ]
     ],
     "filtered_resps": [
@@ -5780,7 +5780,7 @@
     ],
     "resps": [
       [
-        "(a) I,II only\n\nTo determine which statement is true, let's analyze the given information. James earns $30 per week plus $6 per bicycle for the first 6 bicycles he sells, $12 per bicycle for the next 6 bicycles he sells, and $18 per bicycle for every bicycle sold after first 12.\n\nIf James sold more than twice as much as he did last week, then he must have sold more than twice as much as he did last week. This means that the total earnings for the first 6 bicycles he sold is $30 + $6 + $12 + $18 = $66.\n\nNow, let's consider the statement that says James earned more than twice as much as he did last week. This statement is true if James sold more than twice as much as he did last week. Therefore, the correct answer is (a).\n\nTo determine which statement is true, we need to compare the total earnings for the first 6 bicycles he sold to the total earnings for the first 6 bicycles he sold. The total earnings for the first 6 bicycles he sold is $66 + $12 + $18 = $94."
+        "(a) I,II only\n\nTo determine which statement is true, let's analyze the given information. James earns $30 per week plus $6 per bicycle for the first 6 bicycles he sells, $12 per bicycle for the next 6 bicycles he sells, and $18 per bicycle for every bicycle sold after first 12.\n\nIf James sold x bicycles last week and y bicycles this week, then the total earnings for the week would be:\n\nx + y = 30 + 6x + 12y\n\nSince the total earnings are equal, we can set up the equation:\n\nx + y = 30 + 6x + 12y\n\nNow, let's solve for y:\n\ny = (30 + 6x) / 12\ny = (30 + 6x) / 12\n\nTo find the value of y, we can divide both sides of the equation by 12:\n\ny = (30 + 6x) / 12\ny = (30 + 6x) / 12\n\nSince y is greater than 2x,"
       ]
     ],
     "filtered_resps": [
@@ -5872,11 +5872,11 @@
     ],
     "resps": [
       [
-        "The answer is (c)  $37,500.\n\nTo solve this problem, we need to calculate the weighted average of the 50 customers who responded to the survey. We know that the average income of the wealthiest 10 customers is $95,000, and the average income of the other 40 customers is $37,500.\n\nWe can calculate the weighted average by multiplying the average income of the wealthiest 10 customers by the number of customers in the group, and then multiplying the result by the average income of the other 40 customers.\n\nWeighted average = (10 * $95,000) + (40 * $37,500)\nWeighted average = $45,000 + $37,500\nWeighted average = $72,500\n\nSo, the weighted average of the 50 customers who responded to the survey is $72,500."
+        "(a)  $32,500\n\nThe average income of the wealthiest 10 customers is $95,000. To find the average income of the other 40 customers, we need to multiply the average income of the wealthiest 10 customers by the number of customers.\n\n$32,500 * 10 = $32,500\n\nThe average income of the other 40 customers is $35,000.\n\nThe weighted average concept is used here because we are dealing with a dataset where the average income of the wealthiest 10 customers is $95,000, and the average income of the other 40 customers is $35,000. The weighted average is used to give more importance to the customers with the highest average income.\n\nSo, the correct answer is (a).\n\n(b)  $35,000\n\n(c)  $37,500\n\n(d)  $42,500\n\n(e)  $50,000"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5964,11 +5964,11 @@
     ],
     "resps": [
       [
-        "(c) 4"
+        "(a) 1"
       ]
     ],
     "filtered_resps": [
-      "c"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5977,7 +5977,7 @@
     "doc_hash": "51d763245a7dacf2d55f0b97598023826a23ddbea2cb0b63e6cdcc023181d7ec",
     "prompt_hash": "3f2e9348a5c80c2aadfb0359834c1bb7c432927be7ade64a15643c6132b426bd",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 30,
@@ -6010,11 +6010,11 @@
     ],
     "resps": [
       [
-        "(b) 9\n\nExplanation: The number of trees required to cover the entire sidewalk is 20 feet / 2 = 10 feet. Since there are 20 feet between each tree, the total number of trees required is 10 feet * 20 feet = 200 feet.\n\nThe answer is (b) 9."
+        "(a) 8\n\nThe answer is (a) 8.\n\nExplanation: The problem states that each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. Since the road is 148 feet long, we can calculate the total number of trees by multiplying the number of trees by the total length of the road. \n\n20 feet * 2 trees per tree = 40 trees\n\nSo, the answer is (a) 8."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6023,7 +6023,7 @@
     "doc_hash": "020678e9ea71a308e2fcb0d0e101e83f3d343f4e3c4c67350ff6fcf19f9ae1ae",
     "prompt_hash": "6524894266e390c98b1431e05bcc75e6d4d69f4aef5bbe33778118497db64a61",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 31,
@@ -6056,7 +6056,7 @@
     ],
     "resps": [
       [
-        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid over the three-year period.\n\nSimple interest:\nThe interest earned is the difference between the amount of money that is reinvested and the amount that is paid back.\n\nSimple interest = (Amount of money reinvested) - (Amount of money paid back)\n= (2000 - 1000)\n= 100\n\nCompound interest:\nThe interest earned is the difference between the interest paid and the interest earned on the interest earned.\n\nCompound interest = (Interest paid on the interest earned) - (Interest paid on the interest reinvested)\n= (100 - 100)\n= 0\n\nThe difference in simple and compound interest is 0."
+        "To find the difference in simple and compound interest, we need to calculate the interest earned and the interest paid over the three-year period.\n\nSimple interest:\nThe interest earned is the difference between the amount of money that was invested and the amount that was paid back.\n\nSimple interest = Amount invested - Amount paid back\n= 2000 - 42\n= 1888\n\nCompound interest:\nThe interest earned is the difference between the interest earned on the principal amount and the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the principal amount plus the interest earned on the"
       ]
     ],
     "filtered_resps": [
@@ -6148,7 +6148,7 @@
     ],
     "resps": [
       [
-        "The given equation is: -x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nTo find the constant k, we need to isolate the variable x. We can do this by subtracting the first equation from the second equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can simplify the equation by combining like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nNow, we can add the two equations:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4) + (-k + 11)x\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4) + (-k + 11"
+        "The given equation is: -x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nTo find the constant k, we need to isolate the variable x. We can do this by subtracting the first equation from the second equation:\n\n-x2 - (k + 11)x - 8 = -(x - 2)(x - 4)\n\nNow, we can simplify the equation by combining like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nNow, we can add the two equations:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nCombine like terms:\n\n-x2 - (k + 11)x = -(x - 2)(x - 4)\n\nNow, we can add the two equations:\n\n-x2"
       ]
     ],
     "filtered_resps": [
@@ -6194,11 +6194,11 @@
     ],
     "resps": [
       [
-        "(b) III"
+        "The correct answer is (c) I & II."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6207,7 +6207,7 @@
     "doc_hash": "e20f6009109cf78a7a4d9aeec3557ded378a33469aef8de3ce7406f2819b4ab9",
     "prompt_hash": "95ca25185df6d0e196271f47e68e1240eaab35222a3a06de24df6c6ad93ff4aa",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 35,
@@ -6286,7 +6286,7 @@
     ],
     "resps": [
       [
-        "(a) 10\n\nExplanation: The total number of games played is the sum of the number of games played by each player: 8 + 10 = 18."
+        "(a) 10\n\nExplanation: The total number of games played is the sum of the number of games played by each player: 8 + 10 = 18.\n\nThe answer is (a)."
       ]
     ],
     "filtered_resps": [
@@ -6378,7 +6378,7 @@
     ],
     "resps": [
       [
-        "(b) Friday"
+        "(b) Friday\n\nThe correct answer is (b) Friday."
       ]
     ],
     "filtered_resps": [
@@ -6424,7 +6424,7 @@
     ],
     "resps": [
       [
-        "To find the value of a + b + c, we can use the given equation: 1/a + 1/b + 1/c = 1.\n\nFirst, we need to simplify the equation by combining the fractions: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c.\n\nNow, we can add the fractions: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nNext, we can add the numerators: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nNow, we can add the denominators: 1/a + 1/b + 1/c = 1/a + 1/b + 1/c + 1/a + 1/b + 1/c.\n\nFinally, we can add the"
+        "To find the value of a + b + c, we can use the given equation: 1/a + 1/b + 1/c = 1.\n\nFirst, we need to find the values of a, b, and c. We can do this by dividing both sides of the equation by 1/a, which gives us:\n\na = 1/1\nb = 1/2\nc = 1/3\n\nNow, we can substitute these values into the equation:\n\na + b + c = 1/1 + 1/2 + 1/3\n= 1/4\n\nSo, the value of a + b + c is 1/4."
       ]
     ],
     "filtered_resps": [
@@ -6516,7 +6516,7 @@
     ],
     "resps": [
       [
-        "(b) 112.5%\n\nTo find the actual % difference, we need to calculate the difference in volume between the original volume of 100gm and the new volume of 112.5gm.\n\nOriginal volume: 100gm\nNew volume: 112.5gm\n\nDifference in volume: 112.5gm - 100gm = 25gm\n\nThe actual % difference is 25gm / 100gm = 0.25%."
+        "(b) 112.5%\n\nTo find the actual % difference, we need to calculate the difference in volume between the original volume of 1000gm and the new volume of 112.5gm.\n\nOriginal volume: 1000gm\nNew volume: 112.5gm\nDifference in volume: 112.5 - 1000 = 25.5\n\nThe actual % difference is 25.5 / 1000 = 0.255 or 25.5%\n\nSo, the answer is (b) 112.5%."
       ]
     ],
     "filtered_resps": [
@@ -6562,11 +6562,11 @@
     ],
     "resps": [
       [
-        "(b) 30\n\nTo find out how much distance he would require to walk, we need to calculate the distance he would need to walk at the constant rates of walking and biking.\n\nWe know that the person can walk at a constant rate of 8mph and can bike at a constant rate of 16mph. To find the distance he would need to walk, we can use the formula:\n\nDistance = Speed * Time\n\nDistance = 8mph * 8 hours\nDistance = 64 miles\n\nSo, the person would need to walk 64 miles at the constant rates of walking and biking to travel 64 miles in 8 hours."
+        "(a) 20\n\nTo find out how much distance he would require to walk, we need to calculate the distance he would need to walk at his constant rates.\n\nHe walks at a rate of 16mph, so he walks 16 miles in 8 hours. To find the distance he would need to walk, we divide the distance he walks in 8 hours by the speed he walks at: 16 miles / 16 mph = 1 mile.\n\nTherefore, he would require 1 mile to walk at his constant rates."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6608,11 +6608,11 @@
     ],
     "resps": [
       [
-        "(b) 273268"
+        "(c) 273348"
       ]
     ],
     "filtered_resps": [
-      "b"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6700,7 +6700,7 @@
     ],
     "resps": [
       [
-        "(b) 3/7\n\nTo find the probability of at least 1 customer buying a coffee and a bagel, we need to consider the total number of customers who bought both items and the number of customers who bought only one item.\n\nThere are 8 customers who bought both, and 3 out of 5 customers bought a bagel. So, the total number of customers who bought both is 8 + 3 = 11.\n\nThe probability of at least 1 customer buying a coffee and a bagel is then 11/343, which simplifies to 11/343.\n\nTherefore, the probability of at least 1 customer buying a coffee and a bagel is 11/343."
+        "(b) 3/7\n\nTo find the probability of at least 1 customer buying a coffee and a bagel, we need to consider the total number of customers who bought both items and the number of customers who bought only one item.\n\nThere are 8 customers who bought both bagsel and coffee. Since 3 out of 5 customers bought both, the total number of customers who bought both is 8 * 3 = 24.\n\nThe probability of at least 1 customer buying a coffee and a bagel is then 24 / 25 = 3/7.\n\nSo, the probability of at least 1 customer buying a coffee and a bagel is 3/7."
       ]
     ],
     "filtered_resps": [
@@ -6746,11 +6746,11 @@
     ],
     "resps": [
       [
-        "The equation x + 3 = 4-x has a solution x = 2.\n\nThe answer is (b) 1."
+        "The equation x + 3 = 4-x is a quadratic equation in the form ax^2 + bx + c = 0. To find the number of solutions, we can use the quadratic formula: x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a.\n\nIn this case, a = 1, b = 3, and c = -4. Plugging these values into the quadratic formula, we get x = (3 \u00b1 \u221a((-3)^2 - 4(1)((-4))) / 2(1)).\n\nSimplifying the expression inside the square root, we have (3 \u00b1 \u221a(9 + 16)) / 2 = \u221a(9 + 16) = \u221a25 = 5.\n\nNow, we can substitute this value of x back into the quadratic formula to find the corresponding value of y: y = (-3 \u00b1 5) / 2 = (-3 + 5) / 2 = 2.\n\nTherefore, the equation x + 3 = 4-x has 2 solutions: x = 2 and x = -2."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "[invalid]"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6884,7 +6884,7 @@
     ],
     "resps": [
       [
-        "(b) 9261 cm3\n\nExplanation:\n\nThe cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is the product of the length of the side and the area of the side. The volume of a cube is given by the formula V = s^3, where s is the length of the side.\n\nThe volume of the cube is 8500 cm3. So, the volume of the cube is 8500 cm3 * 343.98 = 275,000 cm3.\n\nThe answer is (b) 9261 cm3."
+        "(b) 9000 cm3\n\nExplanation:\n\nThe cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. The volume of the cube is the product of the length of the side and the area of the side. The volume of a cube is given by the formula V = s^3, where s is the length of the side.\n\nThe volume of the cube is 8500 cm3. So, the volume of the cube is 8500 cm3 * 343.98 = 275,000 cm3.\n\nThe answer is (b) 9000 cm3."
       ]
     ],
     "filtered_resps": [
@@ -6930,7 +6930,7 @@
     ],
     "resps": [
       [
-        "(a) 25\n\nThe man sold 20 articles for $60 and gained 20% of the $60, which is 20 * 0.2 = 4. The total amount of money he made is $60 + 4 = $64.\n\nTo calculate the loss, we subtract the amount he made from the total amount he sold: $50 - $64 = $16.\n\nThe man should sell 16 articles for $50 to incur a loss of 20%: 16 * 0.2 = 3.6.\n\nThe answer is (a)."
+        "(a) 25\n\nThe man sold 20 articles for $60 and gained 20% of the $60, which is 20 * 0.2 = 4. The total amount of money he made is $60 + $4 = $64.\n\nTo calculate the loss, we subtract the amount he made from the total amount he sold: $64 - $4 = $60.\n\nSo, the man should sell 20 articles for $50 to incur a loss of 20% of $50, which is $10."
       ]
     ],
     "filtered_resps": [
@@ -7022,11 +7022,11 @@
     ],
     "resps": [
       [
-        "(b) Rs. 50\n\nExplanation:\n\nThe answer is (b) Rs. 50.\n\nExplanation:\n\nThe answer is (a) Rs. 45.\n\nExplanation:\n\nThe answer is (c) Rs. 50.\n\nExplanation:\n\nThe answer is (d) Rs. 55.\n\nExplanation:\n\nThe answer is (e) Rs. 60.\n\nExplanation:\n\nThe answer is (f) Rs. 65.\n\nExplanation:\n\nThe answer is (g) Rs. 65.\n\nExplanation:\n\nThe answer is (h) Rs. 65.\n\nExplanation:\n\nThe answer is (i) Rs. 65.\n\nExplanation:\n\nThe answer is (j) Rs. 65.\n\nExplanation:\n\nThe answer is (k) Rs. 65.\n\nExplanation:\n\nThe answer is (l) Rs. 65.\n\nExplanation:\n\nThe answer is (m) Rs. 65.\n\nExplanation:\n\nThe answer is (n) Rs."
+        "(a) Rs. 45\n\nExplanation: The answer is (a) Rs. 45.\n\nExplanation: The answer is (a) Rs. 45 because the total amount of rent paid by A, B, C, and D is Rs. 175. The total amount of rent paid by A, B, C, and D is Rs. 175. Therefore, the total amount of rent paid by C is Rs. 45."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7035,7 +7035,7 @@
     "doc_hash": "a250da38016aa8d2f0959deb45f296d9b9ee6d9198840f37a2d720161a894827",
     "prompt_hash": "07a5b59baec4a0a3cba39e4f78c883afac6f11e6a9b4acc7624000e178616442",
     "target_hash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 53,
@@ -7068,7 +7068,7 @@
     ],
     "resps": [
       [
-        "(b) 95 Kmph\n\nThe answer is (b) 95 Kmph because the train is crossing an electric pole in 20 seconds, and the speed of the train is 95 Kmph."
+        "(b) 95 Kmph\n\nThe answer is (b) 95 Kmph because the train crosses the electric pole in 20 seconds, and the speed of the train is 95 Kmph."
       ]
     ],
     "filtered_resps": [
@@ -7252,11 +7252,11 @@
     ],
     "resps": [
       [
-        "(c) 24a4\n\nThe surface of a cube is 24a4. To find the surface, we need to find the area of the cube and then divide it by the side length. The area of a cube is given by the formula:\n\nArea = length * width * height\n\nIn this case, the length is 7a cm, the width is 4a cm, and the height is 2a cm. So, the area of the cube is:\n\nArea = 7a * 4a * 2a = 24a^2\n\nNow, we divide the area by the side length to find the surface:\n\nSurface = Area / Side length = 24a^2 / 2a = 16a^2\n\nThe surface of the cube is 16a^2."
+        "(b) 24a4\n\nThe surface area of a cube is given by the formula:\n\nSurface Area = 6 * (length * width * height)\n\nIn this case, the length is 7a, the width is 4a, and the height is 4a. So, the surface area is:\n\nSurface Area = 6 * (7a) * (4a)\n\nSurface Area = 36a^2\n\nThe surface area of the cube is 36a^2."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7344,7 +7344,7 @@
     ],
     "resps": [
       [
-        "(b) 32 inches"
+        "(b) 32 inches\n\nExplanation: The length of each part is 32 inches."
       ]
     ],
     "filtered_resps": [
@@ -7390,7 +7390,7 @@
     ],
     "resps": [
       [
-        "(a) 12\n\nThe given expression is 15*32*25*22*40*75*98*112*125. To find the number of zeroes, we need to find the number of factors of 15 and 25.\n\nThe factors of 15 are 1, 5, 15, 30, 155, 305, 1515, 3055, 15155, 30555, 151555, 305555, 1515555, 3055555, 15155555, 30555555, 151555555, 3055555555, 151555555555555, 305555555555555, 15155555555555555"
+        "(a) 12\n\nThe given expression is 15*32*25*22*40*75*98*112*125. To find the number of zeroes, we need to find the number of factors of 15 and 25.\n\nThe factors of 15 are 1, 5, 15, 30, 155, 305, 1515, 3055, 15155, 30555, 151555, 305555, 1515555, 3055555, 15155555, 30555555, 151555555, 3055555555, 1515555555555555, 3055555555555555, 151555555555555"
       ]
     ],
     "filtered_resps": [
@@ -7528,11 +7528,11 @@
     ],
     "resps": [
       [
-        "To find the ratio of A and B's profits, we need to calculate the profit for each month and then find the total profit for the year.\n\nFor A to withdraw half of his capital, A withdraws 1/2 * 6000 = 6000 * 1/2 = 3000 * 1/2 = 3000/2 = 1500/2 = 750/2.\n\nFor B to withdraw one-third of his capital, B withdraws 1/3 * 12000 = 1200 * 1/3 = 3600 * 1/3 = 1000 * 1/3 = 1000/3 = 300/3 = 100/3.\n\nNow, we add the profits for A and B: 3000 + 3000 = 6000.\n\nThe total profit for the year is 6000 * 1 = 6000.\n\nThe ratio of A and B's profits is 6000: "
+        "To find the ratio of A and B's profits, we need to calculate the profit for each month and then find the total profit for the year.\n\nFor A to withdraw half of his capital, A withdraws 1/2 * 6000 = 6000 * 2 = 12000.\nFor B to withdraw one-third of his capital, B withdraws 1/3 * 12000 = 12000 * 3 = 36000.\n\nThe total profit for the year is the sum of the profits for A and B: 12000 + 36000 = 58000.\n\nNow, we can calculate the ratio of A and B's profits: 58000 / 120000 = 58/12 = 4:3.\n\nSo, the answer is (a).\n\nThe answer is (a) 4:3."
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7712,7 +7712,7 @@
     ],
     "resps": [
       [
-        "(b) 5\n\nExplanation: The answer is (b) 5 because 6 women can complete the work in 9 days, and 10 children take 12 days to complete the work."
+        "(b) 5\n\nThe answer is (b) 5."
       ]
     ],
     "filtered_resps": [
@@ -7804,11 +7804,11 @@
     ],
     "resps": [
       [
-        "(b) 45\n\nThe answer is (b) 45."
+        "(a) 20\n\nThe answer is (a) 20."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8172,7 +8172,7 @@
     ],
     "resps": [
       [
-        "(b) 120\n\nThe minimum expenditure required to cover a distance of 600 Km is 120 litres of diesel per hour.\n\nThe cost of diesel per hour is $60, and the cost of other expenses per hous is $60. So, the minimum expenditure required is 120 litres of diesel per hour * $60/litre = $720.\n\nThe answer is (b)."
+        "(b) 120\n\nThe minimum expenditure required to cover a distance of 600 Km is 120 litres of diesel per hour.\n\nThe cost of diesel per hour is $60, and the cost of other expenses per hous is $60. So, the minimum expenditure required is 120 litres of diesel per hour * $60/litre = $720.\n\nTherefore, the minimum expenditure required to cover a distance of 600 Km is 720 litres of diesel per hour."
       ]
     ],
     "filtered_resps": [
@@ -8218,7 +8218,7 @@
     ],
     "resps": [
       [
-        "(b) 9/144\n\nTo find the probability of having 0 women in the committee, we need to find the number of ways to choose 0 women from the 7 men and 6 women from the 6 women.\n\nThere are 7 men and 6 women, so the number of ways to choose 0 women is 7 * 6 = 42.\n\nThe number of ways to choose 0 women from the 7 men is 7 * 6 = 42.\n\nThe total number of ways to choose 0 women is 7 * 6 = 42.\n\nThe probability of having 0 women in the committee is the number of ways to choose 0 women divided by the total number of ways to choose 0 women.\n\nSo, the probability is 42 / 42 = 1.\n\nTherefore, the probability of having 0 women in the committee is 1."
+        "(b) 9/144\n\nTo find the probability of having 0 women in the committee, we need to find the number of ways to choose 0 women out of the 7 men and 6 women out of the 6 women.\n\nThere are 7 men and 6 women, so the total number of ways to choose 0 women is 7 * 6 = 42.\n\nThere are 7 men and 6 women, so the total number of ways to choose 0 women is 7 * 6 = 42.\n\nThe probability of having 0 women is the number of ways to choose 0 women divided by the total number of ways to choose 0 women.\n\nSo, the probability is 42 / 42 = 1.\n\nTherefore, the probability of having 0 women in the committee is 1."
       ]
     ],
     "filtered_resps": [
@@ -8264,11 +8264,11 @@
     ],
     "resps": [
       [
-        "(c) 20/63\n\nTo find the probability that exactly three bulbs are good, we need to consider the cases where exactly three bulbs are good and the remaining two are defective.\n\nFirst, let's consider the cases where exactly three bulbs are good. There are 4 good bulbs out of 9 available, so the probability of choosing a good bulb is 4/9.\n\nNext, let's consider the cases where exactly two bulbs are good. There are 3 good bulbs out of 9 available, so the probability of choosing a good bulb is 3/9.\n\nFinally, let's consider the cases where exactly one bulb is good. There are 2 good bulbs out of 9 available, so the probability of choosing a good bulb is 2/9.\n\nNow, we can calculate the probability that exactly three bulbs are good:\n\n(4/9) * (3/9) * (2/9) = 12/81\n\nSo, the probability that exactly three bulbs are good is 12/81."
+        "(b) 20/63\n\nTo find the probability that exactly three bulbs are good, we need to consider the cases where exactly three bulbs are good and the remaining two are defective.\n\nLet's consider the cases where exactly three bulbs are good:\n\n- If exactly three bulbs are good, then the remaining two bulbs must be defective. We can choose four bulbs out of the nine available, which gives us 4 * 4 = 16 possible choices. Since the remaining two bulbs must be defective, the probability of choosing a defective bulb is 16/69.\n\n- If exactly three bulbs are good, then the remaining two bulbs must be defective. We can choose four bulbs out of the nine available, which gives us 4 * 4 = 16 possible choices. Since the remaining two bulbs must be defective, the probability of choosing a defective bulb is 16/63.\n\nNow, we add the probabilities of these two cases:\n\n(16/69) + (16/63) = 20/69\n\nSo, the probability that exactly three bulbs are good is 20/69."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8277,7 +8277,7 @@
     "doc_hash": "619296d1fd34c49b40aa03bdc67718a9ed6c3e7aa06de778ca35067638056fd5",
     "prompt_hash": "8ff787e3890a128b7f38efa120ff0417abaeff7383475d6c4eea1c85bad4e4a0",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 0.0
+    "exact_match": 1.0
   },
   {
     "doc_id": 80,
@@ -8310,7 +8310,7 @@
     ],
     "resps": [
       [
-        "(b) 240\n\nThe speed of the train is 54 km/hr. To find the length of the platform, we need to convert the speed to meters per second. The speed is 54 km/hr * 1.15 m/s = 63.2 m/s.\n\nThe length of the platform is 63.2 m/s * 32 sec = 180.2 m.\n\nThe answer is (b) 240."
+        "(b) 240\n\nThe speed of the train is 54 km/hr. To find the length of the platform, we need to convert the speed to meters per second (m/s). The speed is 54 km/hr * 1.49 m/s = 7.56 m/s.\n\nThe length of the platform is 7.56 m/s * 32 sec = 240 m.\n\nThe answer is (b) 240."
       ]
     ],
     "filtered_resps": [
@@ -8356,11 +8356,11 @@
     ],
     "resps": [
       [
-        "(a) x\u22650\n\nThe given condition |w| = -w is satisfied when x is strictly less than -w. Since x is strictly less than -w, x must be strictly less than 0. Therefore, x must be strictly less than 0.\n\n(b) w\u22640\n\nThe given condition w = w is satisfied when w is strictly less than 0. Since w is strictly less than 0, w must be strictly less than 0.\n\n(c) x2>x\n\nThe given condition x2 > x is satisfied when x is strictly greater than x. Since x is strictly greater than x, x must be strictly greater than 0.\n\n(d) x3<0\n\nThe given condition x3 < x is satisfied when x is strictly less than x. Since x is strictly less than x, x must be strictly less than 0.\n\n(e) 2x<x\n\nThe given condition 2x < x is satisfied when x is strictly less than x. Since x is strictly less than x, x must be strictly less than 0.\n\n(f) x3<0\n\nThe given condition x"
+        "(c) x3<0\n\nThe correct answer is (c) x3<0."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8402,7 +8402,7 @@
     ],
     "resps": [
       [
-        "(b) 9%\n\nTo find the second number less than the first number, we need to find the difference between the two numbers and then divide it by 30%.\n\nThe difference between the two numbers is 37% - 30% = 13%.\n\nSince 13% is less than 30%, the second number is less than 37% by 13%.\n\nThe answer is (b) 9%."
+        "(b) 9%\n\nTo find the second number less than the first number, we need to find the difference between the two numbers and then divide by 30% to find the difference.\n\nThe difference between the two numbers is 37% - 30% = 13%.\n\nThe second number less than the first number is 13% of 30%.\n\nTo find the percentage, we divide the difference by 100: 13% / 100 = 0.13 * 100 = 13%.\n\nTherefore, the second number less than the first number is 13%."
       ]
     ],
     "filtered_resps": [
@@ -8540,7 +8540,7 @@
     ],
     "resps": [
       [
-        "(a) 3\n\nThe answer is (a) 3."
+        "(a) 3\n\nThe answer is (a) because if there are 30 cans out of them one is poised if a person tastes very little he will die within 14 hours."
       ]
     ],
     "filtered_resps": [
@@ -8632,7 +8632,7 @@
     ],
     "resps": [
       [
-        "(b) 30%\n\nThe store's profit on the items sold in February is 30% of the original retail price. To find the profit on the items sold in February, we need to calculate the profit on the items sold in February and then subtract the profit on the items sold in February from the original retail price.\n\nThe original retail price for the turtleneck sweaters is $125. The profit on the items sold in February is $30. The profit on the items sold in February is $30 - $30 = $0.\n\nThe profit on the items sold in February is $0.\n\nThe store's profit on the items sold in February is $0."
+        "(b) 30%"
       ]
     ],
     "filtered_resps": [
@@ -8770,11 +8770,11 @@
     ],
     "resps": [
       [
-        "(b) 90"
+        "(a) 40\n\nThe answer is (a) 40.\n\nExplanation: The answer is (a) 40 because the trains A and B meet at the same point, and their speeds are equal."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8783,7 +8783,7 @@
     "doc_hash": "43a4ebb30cfc9ec241e5e980468d310305b0d3245d7803254328a2bb15604462",
     "prompt_hash": "0d064c64af067187636192d25952717db04a7959cb8f1af371930ee4fccc9c4c",
     "target_hash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
-    "exact_match": 1.0
+    "exact_match": 0.0
   },
   {
     "doc_id": 91,
@@ -8862,7 +8862,7 @@
     ],
     "resps": [
       [
-        "(b) 41\n\nTo solve this problem, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nFirst, let's find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nNow, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nThe total number of days it takes for the man, woman, and boy to complete the job in 1/4th of a day is 1/4th of a day.\n\nTo find out how many boys"
+        "(b) 41\n\nTo solve this problem, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nFirst, let's find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nNow, we need to find out how many days it takes for the man, woman, and boy to complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\nThe man, woman, and boy can complete the job in 1/4th of a day. So, the man, woman, and boy can complete the job in 1/4th of a day.\n\n"
       ]
     ],
     "filtered_resps": [
@@ -8954,7 +8954,7 @@
     ],
     "resps": [
       [
-        "To find the ratio of A and B's profit after 6 months, we need to calculate the profit after 6 months and then divide it by their initial capital.\n\nAfter 6 months, A's profit is Rs.3000 * 6 = Rs.1500.\nAfter 6 months, B's profit is Rs.4000 * 6 = Rs.2400.\n\nThe profit after 6 months is the difference between the profit after 6 months and the initial profit: 1500 - 2400 = Rs.600.\n\nNow, we divide the profit by their initial capital: 600 / 3000 = 0.2.\n\nThe ratio of A and B is 0.2."
+        "To find the ratio of A and B's profit after 6 months, we need to calculate the profit after 6 months and then divide it by their initial capital.\n\nAfter 6 months, A's profit is Rs.3000 * 6 = Rs.1500.\n\nAfter 6 months, B's profit is Rs.4000 * 6 = Rs.2400.\n\nThe profit after 6 months is the difference between the profit after 6 months and the initial profit: 2400 - 1500 = Rs.1500.\n\nNow, we divide the profit by their initial capital: 1500 / 1500 = 1.\n\nThe ratio of A and B's profit after 6 months is 1:1."
       ]
     ],
     "filtered_resps": [
@@ -9000,11 +9000,11 @@
     ],
     "resps": [
       [
-        "(a) I only\n\nThe statement \"If x is negative, y must be negative\" is true because negative numbers are not positive. Therefore, if x is negative, y must be negative.\n\n(b) II only\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(c) III only\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(d) I and II\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(e) II and III\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must be positive.\n\n(f) I and II\n\nThe statement \"If x is positive, y must be positive\" is true because positive numbers are not negative. Therefore, if x is positive, y must"
+        "To determine if the given equation x-y=10 is true, we need to analyze the relationship between x and y.\n\nFirst, let's examine the given equation x-y=10. This equation represents a linear relationship between x and y, where the slope of the line is 10.\n\nNow, let's consider the relationship between x and y. We know that x is positive, and y is negative. This means that x is always greater than or equal to -y.\n\nSince x is positive, we can conclude that y must be negative. This is because the equation x-y=10 implies that y is less than or equal to -y, which is negative.\n\nTherefore, the only possible relationship between x and y is that x is positive and y is negative. This is the only possible solution to the given equation.\n\nThe answer is (a) I only."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "a"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9138,11 +9138,11 @@
     ],
     "resps": [
       [
-        "(a) $750.00\n\nThe value of the investment after 10 years is $750.00."
+        "(c) $973.25"
       ]
     ],
     "filtered_resps": [
-      "a"
+      "c"
     ],
     "filter": "flexible-extract",
     "metrics": [

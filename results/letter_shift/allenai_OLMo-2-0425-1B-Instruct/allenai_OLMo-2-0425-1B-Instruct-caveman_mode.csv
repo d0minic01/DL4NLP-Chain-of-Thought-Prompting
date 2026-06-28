@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+allenai/OLMo-2-0425-1B-Instruct,letter_shift_caveman_mode,letter_shift,caveman_mode,fewshot_cot,letter_shift,0.2,0.0,94.2,6,100,7.9,8.84

@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+Qwen/Qwen2.5-7B-Instruct,gsm8k_fewshot_baseline,gsm8k,fewshot_baseline,fewshot_base,gsm8k,0.37,0.09,135.4,8,100,34.48,19.94

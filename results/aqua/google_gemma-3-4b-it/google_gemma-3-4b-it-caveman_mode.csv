@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,aqua_caveman_mode,aqua,caveman_mode,fewshot_cot,aqua-rat,0.46,0.47,456.9,4,100,80.98,11.48

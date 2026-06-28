@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,mawps_contrastive_cot,mawps,contrastive_cot,fewshot_cot,mawps,0.07,0.72,135.0,8,100,14.42,15.3

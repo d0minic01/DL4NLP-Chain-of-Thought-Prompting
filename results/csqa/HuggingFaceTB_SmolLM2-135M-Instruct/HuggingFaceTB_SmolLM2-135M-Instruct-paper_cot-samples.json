@@ -96,7 +96,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that is done at work. Of the above choices, the closest feeling is complete job. The answer is (e)."
+        "The answer must be something that is done at work. Of the above choices, the closest thing to a complete job is complete job. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -208,7 +208,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you can find a hamburger. Of the above choices, the closest place to find a hamburger is a fast food restaurant. The answer is (b)."
+        "The answer must be a place where you find a hamburger. Of the above choices, the closest place to find a hamburger is a fast food restaurant. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -768,7 +768,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that your dog needs. Of the above choices, the closest feeling is companionship. The answer is (e)."
+        "The answer must be something that your dog needs. Of the above choices, the closest thing is a lot of attention. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1048,7 +1048,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that is not a spider or a sight seer. Of the above choices, only names is not a spider or a sight seer. The answer is (e)."
+        "The answer must be something that is not a spider or his many sight seers. Of the above choices, only names is the closest feeling. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1160,7 +1160,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that goes on top of wood. Of the above choices, the closest thing is a synagogue. The answer is (e)."
+        "The answer must be something that is on top of wood. Of the above choices, the closest thing to a top of wood is a floor. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1272,7 +1272,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that was intended to be durable. Of the above choices, the closest thing is indestructible. The answer is (e)."
+        "The answer must be something that was actually nearly what. Of the above choices, the closest thing is indestructible. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -1720,11 +1720,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that will make you feel like you are postponing work. Of the above choices, the closest feeling is hasten. The answer is (e)."
+        "The answer must be something that will make you feel like you have to do something to finish on time. Of the above choices, the closest feeling is hasten. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -1888,7 +1888,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a person is doing when waiting their turn. Of the above choices, the closest feeling is patience. The answer is (b)."
+        "The answer must be a place where a person is waiting their turn. Of the above choices, the closest feeling is patience. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -2224,7 +2224,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a doormat is likely to be. Of the above choices, the closest place is the front door. The answer is (e)."
+        "The answer must be a place where a doormat is likely to be. Of the above choices, the closest place is a front door. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2392,7 +2392,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that was done to help the person who needed more information. Of the above choices, the closest thing is the manual. The answer is (e)."
+        "The answer must be something that was used to help him find information. Of the above choices, the closest thing is the manual. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2448,7 +2448,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a picture is hung vertically. Of the above choices, the closest place is a wall. The answer is (e)."
+        "The answer must be a place where a picture is hung vertically. Of the above choices, the closest place to put a picture frame is a wall. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2728,7 +2728,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place that usually does not have an elevator and that sometimes has a telephone book. Of the above choices, the closest place to call is the kitchen. The answer is (b)."
+        "The answer must be a place that does not have an elevator and that sometimes has a telephone book. Of the above choices, the closest place to call is the kitchen. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -2784,7 +2784,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where fish are sold. Of the above choices, the closest feeling is the pet shop. The answer is (e)."
+        "The answer must be a place where crabs are likely to be excited about. Of the above choices, the closest feeling is the pet shop. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -2840,7 +2840,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where people find clothes that aren't pants. Of the above choices, the closest place is on planet earth. The answer is (b)."
+        "The answer must be a place where people buy clothes that aren't pants. Of the above choices, the closest place is on planet earth. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -2952,11 +2952,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that builds momentum. Of the above choices, the closest feeling is time. The answer is (b)."
+        "The answer must be something that builds momentum. Of the above choices, the closest feeling is accomplishment. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3008,11 +3008,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that would make the child want to play. Of the above choices, the closest feeling is falling down. The answer is (b)."
+        "The answer must be something that would make the child want to play. Of the above choices, the closest feeling is falling down. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3064,7 +3064,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that someone can learn from. Of the above choices, the closest feeling is social life. The answer is (e)."
+        "The answer must be something that someone can learn from. Of the above choices, only social life is something that someone can learn from. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3120,11 +3120,11 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a teacher is not allowed to tolerate noise during a test. Of the above choices, the closest feeling is the movie theatre. The answer is (c)."
+        "The answer must be a place where a teacher is not allowed to tolerate noise during a test. Of the above choices, the closest feeling is the movie theatre. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -3400,7 +3400,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you are in a glove shaped state. The answer is (e)."
+        "The answer must be a place where you are in a glove shaped state. Of the above choices, the closest place is a restaurant. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -3456,7 +3456,7 @@
     ],
     "resps": [
       [
-        "The answer must be indoors. The correct answer is (c)."
+        "The answer must be indoors. The correct answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -3960,7 +3960,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that is boring. Of the above choices, the closest feeling is boredom. The answer is (e)."
+        "The answer must be something that is very dry and long. Of the above choices, the closest feeling is boredom. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4072,7 +4072,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that the kids didn't do. Of the above choices, only learning things is the closest feeling. The answer is (e)."
+        "The answer must be something that the kids did not clean up after they had done. Of the above choices, only play with toys is the closest feeling. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4128,7 +4128,7 @@
     ],
     "resps": [
       [
-        "The answer must be a game. Of the above choices, the closest thing to a pawn is chess. The answer is (e)."
+        "The answer must be something that is important in a chess game. Of the above choices, the closest thing is the chess game. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4184,11 +4184,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that is not true about a basketball. The closest thing to a hole in a basketball is a hole in the ground, but it does not have a hole in it. The answer is (d)."
+        "The answer must be something that is not true about a basketball. The closest thing to a hole in a basketball is a hole in the ground, but it does not have a hole in it. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -4296,7 +4296,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where wild birds live. Of the above choices, the closest feeling is the sky. The answer is (e)."
+        "The answer must be a place where wild birds live. Of the above choices, the closest place is a cage. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4352,7 +4352,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where white mice are found. Of the above choices, the closest place is the bell cat. The answer is (e)."
+        "The answer must be a place where white mice are found. Of the above choices, the closest place to find white mice is a bell cat. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4408,7 +4408,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that John felt was his own. Of the above choices, the closest feeling is freedom. The answer is (e)."
+        "The answer must be something that John felt was his own. Of the above choices, only freedom is the closest feeling. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4464,7 +4464,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that prevents someone from committing murder. Of the above choices, the closest thing to prevent someone from committing murder is to find God. The answer is (e)."
+        "The answer must prevent someone from committing murder. Of the above choices, the closest feeling is guilt. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -4688,7 +4688,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you can put a penny to save for later. Of the above choices, the closest place to save for later is a pocket. The answer is (e)."
+        "The answer must be a place where you can save money. Of the above choices, the closest place to save money is a pocket. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5080,11 +5080,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that gave away the fact that the teens were drinking. Of the above choices, the closest feeling is stagger. The answer is (d)."
+        "The answer must be something that gave away the fact that the teens were drinking. Of the above choices, the closest feeling is stagger. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5136,7 +5136,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you'll find a landing. Of the above choices, the closest place to find a landing is a room. The answer is (e)."
+        "The answer must be a place where you can find a landing. Of the above choices, the closest place to find a landing is a room. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5192,11 +5192,11 @@
     ],
     "resps": [
       [
-        "The answer must be someone who was hired to do the dishes. Of the above choices, the closest feeling is forgetting. The answer is (a)."
+        "The answer must be someone who was hired to do the dishes. Of the above choices, the closest feeling is forgetting. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "strict-match",
     "metrics": [
@@ -5304,7 +5304,7 @@
     ],
     "resps": [
       [
-        "The answer must be a city that is in the United States. Of the above choices, only urban areas are in the United States. The answer is (c)."
+        "The answer must be a city that is in the United States. Of the above choices, only urban area is in the United States. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -5472,7 +5472,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that was very active. Of the above choices, the closest feeling is active. The answer is (e)."
+        "The answer must be something that is very active. The man in the white suit is very active. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5696,7 +5696,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that is done at work. Of the above choices, the closest feeling is complete job. The answer is (e)."
+        "The answer must be something that is done at work. Of the above choices, the closest thing to a complete job is complete job. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -5808,7 +5808,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you can find a hamburger. Of the above choices, the closest place to find a hamburger is a fast food restaurant. The answer is (b)."
+        "The answer must be a place where you find a hamburger. Of the above choices, the closest place to find a hamburger is a fast food restaurant. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -6368,7 +6368,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that your dog needs. Of the above choices, the closest feeling is companionship. The answer is (e)."
+        "The answer must be something that your dog needs. Of the above choices, the closest thing is a lot of attention. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6648,7 +6648,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that is not a spider or a sight seer. Of the above choices, only names is not a spider or a sight seer. The answer is (e)."
+        "The answer must be something that is not a spider or his many sight seers. Of the above choices, only names is the closest feeling. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6760,7 +6760,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that goes on top of wood. Of the above choices, the closest thing is a synagogue. The answer is (e)."
+        "The answer must be something that is on top of wood. Of the above choices, the closest thing to a top of wood is a floor. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -6872,7 +6872,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that was intended to be durable. Of the above choices, the closest thing is indestructible. The answer is (e)."
+        "The answer must be something that was actually nearly what. Of the above choices, the closest thing is indestructible. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7320,11 +7320,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that will make you feel like you are postponing work. Of the above choices, the closest feeling is hasten. The answer is (e)."
+        "The answer must be something that will make you feel like you have to do something to finish on time. Of the above choices, the closest feeling is hasten. The answer is (d)."
       ]
     ],
     "filtered_resps": [
-      "e"
+      "d"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7488,7 +7488,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a person is doing when waiting their turn. Of the above choices, the closest feeling is patience. The answer is (b)."
+        "The answer must be a place where a person is waiting their turn. Of the above choices, the closest feeling is patience. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -7824,7 +7824,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a doormat is likely to be. Of the above choices, the closest place is the front door. The answer is (e)."
+        "The answer must be a place where a doormat is likely to be. Of the above choices, the closest place is a front door. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -7992,7 +7992,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that was done to help the person who needed more information. Of the above choices, the closest thing is the manual. The answer is (e)."
+        "The answer must be something that was used to help him find information. Of the above choices, the closest thing is the manual. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8048,7 +8048,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a picture is hung vertically. Of the above choices, the closest place is a wall. The answer is (e)."
+        "The answer must be a place where a picture is hung vertically. Of the above choices, the closest place to put a picture frame is a wall. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8328,7 +8328,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place that usually does not have an elevator and that sometimes has a telephone book. Of the above choices, the closest place to call is the kitchen. The answer is (b)."
+        "The answer must be a place that does not have an elevator and that sometimes has a telephone book. Of the above choices, the closest place to call is the kitchen. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -8384,7 +8384,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where fish are sold. Of the above choices, the closest feeling is the pet shop. The answer is (e)."
+        "The answer must be a place where crabs are likely to be excited about. Of the above choices, the closest feeling is the pet shop. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8440,7 +8440,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where people find clothes that aren't pants. Of the above choices, the closest place is on planet earth. The answer is (b)."
+        "The answer must be a place where people buy clothes that aren't pants. Of the above choices, the closest place is on planet earth. The answer is (b)."
       ]
     ],
     "filtered_resps": [
@@ -8552,11 +8552,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that builds momentum. Of the above choices, the closest feeling is time. The answer is (b)."
+        "The answer must be something that builds momentum. Of the above choices, the closest feeling is accomplishment. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8608,11 +8608,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that would make the child want to play. Of the above choices, the closest feeling is falling down. The answer is (b)."
+        "The answer must be something that would make the child want to play. Of the above choices, the closest feeling is falling down. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "b"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -8664,7 +8664,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that someone can learn from. Of the above choices, the closest feeling is social life. The answer is (e)."
+        "The answer must be something that someone can learn from. Of the above choices, only social life is something that someone can learn from. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -8720,11 +8720,11 @@
     ],
     "resps": [
       [
-        "The answer must be a place where a teacher is not allowed to tolerate noise during a test. Of the above choices, the closest feeling is the movie theatre. The answer is (c)."
+        "The answer must be a place where a teacher is not allowed to tolerate noise during a test. Of the above choices, the closest feeling is the movie theatre. The answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9000,7 +9000,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you are in a glove shaped state. The answer is (e)."
+        "The answer must be a place where you are in a glove shaped state. Of the above choices, the closest place is a restaurant. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9056,11 +9056,11 @@
     ],
     "resps": [
       [
-        "The answer must be indoors. The correct answer is (c)."
+        "The answer must be indoors. The correct answer is (b)."
       ]
     ],
     "filtered_resps": [
-      "c"
+      "b"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9560,7 +9560,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that is boring. Of the above choices, the closest feeling is boredom. The answer is (e)."
+        "The answer must be something that is very dry and long. Of the above choices, the closest feeling is boredom. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9672,7 +9672,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that the kids didn't do. Of the above choices, only learning things is the closest feeling. The answer is (e)."
+        "The answer must be something that the kids did not clean up after they had done. Of the above choices, only play with toys is the closest feeling. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9728,7 +9728,7 @@
     ],
     "resps": [
       [
-        "The answer must be a game. Of the above choices, the closest thing to a pawn is chess. The answer is (e)."
+        "The answer must be something that is important in a chess game. Of the above choices, the closest thing is the chess game. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9784,11 +9784,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that is not true about a basketball. The closest thing to a hole in a basketball is a hole in the ground, but it does not have a hole in it. The answer is (d)."
+        "The answer must be something that is not true about a basketball. The closest thing to a hole in a basketball is a hole in the ground, but it does not have a hole in it. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -9896,7 +9896,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where wild birds live. Of the above choices, the closest feeling is the sky. The answer is (e)."
+        "The answer must be a place where wild birds live. Of the above choices, the closest place is a cage. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -9952,7 +9952,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where white mice are found. Of the above choices, the closest place is the bell cat. The answer is (e)."
+        "The answer must be a place where white mice are found. Of the above choices, the closest place to find white mice is a bell cat. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10008,7 +10008,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that John felt was his own. Of the above choices, the closest feeling is freedom. The answer is (e)."
+        "The answer must be something that John felt was his own. Of the above choices, only freedom is the closest feeling. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10064,7 +10064,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that prevents someone from committing murder. Of the above choices, the closest thing to prevent someone from committing murder is to find God. The answer is (e)."
+        "The answer must prevent someone from committing murder. Of the above choices, the closest feeling is guilt. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10288,7 +10288,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you can put a penny to save for later. Of the above choices, the closest place to save for later is a pocket. The answer is (e)."
+        "The answer must be a place where you can save money. Of the above choices, the closest place to save money is a pocket. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10680,11 +10680,11 @@
     ],
     "resps": [
       [
-        "The answer must be something that gave away the fact that the teens were drinking. Of the above choices, the closest feeling is stagger. The answer is (d)."
+        "The answer must be something that gave away the fact that the teens were drinking. Of the above choices, the closest feeling is stagger. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "d"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10736,7 +10736,7 @@
     ],
     "resps": [
       [
-        "The answer must be a place where you'll find a landing. Of the above choices, the closest place to find a landing is a room. The answer is (e)."
+        "The answer must be a place where you can find a landing. Of the above choices, the closest place to find a landing is a room. The answer is (e)."
       ]
     ],
     "filtered_resps": [
@@ -10792,11 +10792,11 @@
     ],
     "resps": [
       [
-        "The answer must be someone who was hired to do the dishes. Of the above choices, the closest feeling is forgetting. The answer is (a)."
+        "The answer must be someone who was hired to do the dishes. Of the above choices, the closest feeling is forgetting. The answer is (e)."
       ]
     ],
     "filtered_resps": [
-      "a"
+      "e"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -10904,7 +10904,7 @@
     ],
     "resps": [
       [
-        "The answer must be a city that is in the United States. Of the above choices, only urban areas are in the United States. The answer is (c)."
+        "The answer must be a city that is in the United States. Of the above choices, only urban area is in the United States. The answer is (c)."
       ]
     ],
     "filtered_resps": [
@@ -11072,7 +11072,7 @@
     ],
     "resps": [
       [
-        "The answer must be something that was very active. Of the above choices, the closest feeling is active. The answer is (e)."
+        "The answer must be something that is very active. The man in the white suit is very active. The answer is (e)."
       ]
     ],
     "filtered_resps": [

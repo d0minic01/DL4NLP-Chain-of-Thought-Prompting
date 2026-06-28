@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-4b-it,gsm8k_think_step_by_step,gsm8k,think_step_by_step,zero_shot,gsm8k,0.51,0.43,562.6,0,100,81.35,9.88
