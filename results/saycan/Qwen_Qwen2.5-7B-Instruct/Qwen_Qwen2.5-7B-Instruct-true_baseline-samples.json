@@ -4548,7 +4548,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Check the current stock of rice chips to determine how many you need to purchase or transfer from storage.\n2. Go to the storage area or store where you keep additional supplies.\n3. Retrieve the required number of rice chip packages.\n4. Return to the counter and place the new packages in a visible and accessible location.\n5. Ensure that the packaging is facing outward for easy identification.\n6. Optionally, organize the chips by variety or flavor if space allows.\n\nThe answer is: Follow the steps to check the stock, retrieve the chips, and place them on the counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4700,7 +4700,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure your gripper is ready and properly positioned.\n2. Reach out with your arm to grab the coke can.\n3. Use your hand to grasp the coke can securely.\n4. Position the coke can within the gripper.\n\nThe answer is: To put the coke can in your gripper, grasp it securely with your hand and position it inside the gripper."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Determine the location where tables are typically found (e.g., dining room, office, classroom, restaurant).\n2. Look around the area visually to spot any tables.\n3. If the area is large or not immediately obvious, check common places like corners, near windows, or against walls.\n4. Ask others in the vicinity if they know where a specific table might be located.\n\nThe answer is: Determine the location, look visually, check common places, and ask for help if needed."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **In a Document**: Look for the table of contents if available, which often lists all tables and their page numbers. Alternatively, use the search function to find keywords related to the table.\n\n2. **On a Website**: Use the site's navigation menu or search bar to locate the section where the table is mentioned. Tables are often found in detailed pages or specific sections like \"Data\" or \"Statistics.\"\n\n3. **In a Physical Setting**: Scan the room or area for a table or a designated space where tables might be placed, such as a conference room or a library.\n\nThe answer is: It depends on the context, but common methods include using a table of contents, search functions, or visual scanning."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6676,7 +6676,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the counter.\n2. Take the banana and place it gently on the surface of the counter.\n\nThe answer is: Place the banana on the counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6866,7 +6866,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure the table is clean and free from any clutter.\n2. Take a bag of chips and a water bottle from wherever they are stored or placed.\n3. Place the bag of chips on the table.\n4. Place the water bottle next to the bag of chips or as close to it as you prefer.\n\nThe answer is: Follow the steps above to place a bag of chips and a water bottle on the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6942,7 +6942,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the table where the chips bag is located.\n2. Pick up the chips bag carefully.\n3. Walk to the counter.\n4. Place the chips bag on the counter.\n\nThe answer is: Pick up the chips bag from the table and place it on the counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7094,7 +7094,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure your gripper is ready and properly positioned.\n2. Reach out with your arm to grab the coke can.\n3. Use your hand to grasp the coke can securely.\n4. Position the coke can within the gripper.\n\nThe answer is: To put the coke can in your gripper, grasp it securely with your hand and position it inside the gripper."
     ],
     "filter": "flexible-extract",
     "metrics": [

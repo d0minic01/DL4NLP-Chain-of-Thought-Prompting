@@ -3788,7 +3788,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify all the snacks that need to be brought to the table. This might include items like chips, cookies, fruits, nuts, etc.\n\n2. Gather all the snacks from their current locations. Check common places where snacks are stored such as kitchen cabinets, pantry, refrigerator, or other designated areas.\n\n3. Ensure that all snacks are within reach and accessible. If some snacks are in sealed containers or packages, make sure they are opened if necessary for easy access.\n\n4. Transport the snacks to the table. Use appropriate containers or trays to carry the snacks without causing any spills or damage.\n\n5. Arrange the snacks on the table in a way that is visually appealing and easy to access. Group similar types of snacks together and ensure there is enough space between each item.\n\n6. Double-check that all snacks have been brought to the table and that nothing is missing.\n\nThe answer is: Follow the steps of identifying, gathering, transporting, arranging, and double-checking the snacks to bring them all to the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3826,7 +3826,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Drinks**: First, I need to know what drinks are on the table. This could include water, soda, juice, coffee, tea, or any other beverages.\n\n2. **Count the Drinks**: Next, I should count how many drinks there are in total. This will help me understand the scale of the task.\n\n3. **Assess My Capacity**: I need to consider my physical capacity to carry all the drinks at once. For example, if I am a robot or a person with a cart, I need to ensure that the weight and number of drinks do not exceed my carrying limit.\n\n4. **Plan the Route**: If the drinks are spread out, I need to plan an efficient route to collect them without dropping any.\n\n5. **Execute the Task**: Finally, I would go to the table, pick up each drink carefully, and bring them to their destination.\n\nThe answer is: It depends on the specific details of the situation, such as the types and number of drinks, my carrying capacity, and the layout of the area."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3864,7 +3864,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Approach the Table**: Walk to the table that needs to be cleared.\n2. **Gather Items**: Collect all items from the table, including any food, drinks, and utensils.\n3. **Dispose of Waste**: Place any trash or waste in the nearest trash bin.\n4. **Wipe Down the Surface**: Use a cleaning cloth or paper towel to wipe down the surface of the table to remove any spills or residue.\n5. **Restock if Necessary**: If the table is part of a service area, restock it with necessary items like napkins, condiments, or additional plates and utensils.\n6. **Return Items**: Return any collected items to their appropriate places, such as the kitchen or storage area.\n\nThe answer is: Approach the table, gather items, dispose of waste, wipe down the surface, restock if necessary, and return items."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3902,7 +3902,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You need something salty.\n2. **Determine Availability**: Consider where you are and what options are available to you.\n3. **Options**:\n   - If you are at home, you might have chips, pretzels, popcorn, or other snacks.\n   - If you are in a restaurant, the kitchen might be able to prepare something salty for you.\n   - If you are in a store, you can purchase items like chips, nuts, or crackers.\n4. **Action**: Based on the availability, choose an option that fits your current situation.\n\nThe answer is: It depends on your location, but options include chips, pretzels, popcorn, or purchasing from a store."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3940,7 +3940,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for a salty snack.\n2. **Determine Options**: Common salty snacks include chips, pretzels, popcorn, nuts, and crackers.\n3. **Consider Accessibility**: Think about what is readily available in your current location (home, office, store).\n4. **Select an Item**: Based on availability and preference, choose one of the options.\n\nThe answer is: Pretzels."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -3978,7 +3978,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You want something spicy.\n2. **Determine the Context**: This could be for food, a drink, or even a personal item (like a spice).\n3. **Options for Food**:\n   - Spicy snacks like chips, popcorn, or pretzels.\n   - Spicy dishes like curries, stir-fries, or hot wings.\n   - Sauces like hot sauce, sriracha, or harissa.\n4. **Options for Drinks**:\n   - Hot beverages like spiced chai tea or a spicy margarita.\n   - Cold drinks like a spicy lemonade or a spicy iced tea.\n5. **Personal Items**:\n   - Spices like cayenne pepper, chili powder, or black pepper.\n   - Pepper spray (if that's what you meant by \"spicy\").\n\nThe answer is: It depends on whether you're looking for food, a drink, or a personal item, but options include spicy food items, spicy drinks, or spices."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4016,7 +4016,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You need a spicy snack.\n2. **Consider Common Spicy Snacks**: Some common options include hot wings, chili cheese fries, spicy popcorn, or spicy nuts like jalape\u00f1o peanuts.\n3. **Determine Feasibility**: If you are asking me to bring it, I would need to be in a position to do so, which might mean I am physically present or have access to these items.\n4. **Suggest Options**: Based on the request, here are some suggestions:\n   - Hot wings\n   - Spicy popcorn\n   - Jalape\u00f1o peanuts\n   - Salsa and tortilla chips\n\nThe answer is Hot wings, spicy popcorn, jalape\u00f1o peanuts, or salsa and tortilla chips."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4054,7 +4054,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the preference**: You mentioned loving spice, which indicates a preference for spicy food.\n2. **Determine the context**: Since you asked if I can \"get something to eat,\" it seems like you're looking for a suggestion or recommendation for a meal.\n3. **Consider options**: Given your love for spice, we should focus on spicy dishes.\n4. **Provide a recommendation**: A popular choice that fits this description well is Thai cuisine, which is known for its spicy and flavorful dishes.\n\nThe answer is Thai cuisine."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4092,7 +4092,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for a drink to be brought to you because you are exhausted.\n2. **Determine Capabilities**: As an AI, I don't have physical capabilities to bring you a drink directly. However, I can provide instructions on how to get one.\n3. **Provide Instructions**: If you are at home, you could go to the kitchen and get a drink from the refrigerator or cabinet. If you are out, you might go to a nearby caf\u00e9 or bar to order a drink.\n\nThe answer is: Go to the kitchen and get a drink from the refrigerator or cabinet if you are at home, or go to a nearby caf\u00e9 or bar to order a drink if you are out."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4130,7 +4130,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the context**: You're asking for something refreshing, which could be a drink or a food item that cools down and refreshes you.\n\n2. **Consider common refreshing options**:\n   - Drinks: Water, juice, lemonade, iced tea, sports drinks, smoothies, etc.\n   - Foods: Ice cream, popsicles, fruit (like watermelon, strawberries), etc.\n\n3. **Determine the most suitable option**:\n   - If it's hot outside, a cold drink or a frozen treat would be ideal.\n   - If you prefer something healthier, a fruit or a smoothie might be better.\n   - If you need something quick and easy, a bottle of water or a can of iced tea could work well.\n\n4. **Choose an option based on availability and preference**:\n   - For simplicity and immediate satisfaction, a bottle of water or a can of iced tea seems like a good choice.\n\nThe answer is: A bottle of water or a can of iced tea."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4168,7 +4168,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for a drink that contains caffeine.\n2. **List Caffeinated Drinks**: Common examples include coffee, tea (black, green, etc.), energy drinks, and some sodas.\n3. **Consider Availability**: Ensure that the requested drink is available in your current location or can be easily obtained.\n4. **Specify Preferences**: If you have any specific preferences (e.g., decaf vs. regular, type of coffee, brand of soda), it would be helpful to know these details.\n\nThe answer is: A drink with caffeine could be a cup of coffee, a glass of tea, an energy drink, or a soda, depending on availability and personal preference."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4206,7 +4206,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for something caffeinated, which means a beverage or food item that contains caffeine.\n\n2. **Determine Options**: Common caffeinated beverages include coffee, tea, energy drinks, and certain sodas. Foods like chocolate can also contain caffeine but are less common as a primary source.\n\n3. **Consider Preferences and Availability**: To better assist, I would need to know if there are any specific preferences (e.g., decaf vs. regular, type of coffee) or dietary restrictions. Additionally, knowing where you are located could help in determining availability.\n\n4. **Action Plan**: Based on the information provided, I would suggest options such as ordering a cup of coffee or tea from a nearby caf\u00e9, or purchasing an energy drink or soda from a store.\n\nThe answer is: A cup of coffee or tea would be a good option for something caffeinated."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4244,7 +4244,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for something caffeinated, which means a beverage or food item that contains caffeine.\n\n2. **Determine Options**: Common caffeinated beverages include coffee, tea, energy drinks, and certain sodas. Foods like chocolate can also contain caffeine but are less common as a primary source.\n\n3. **Consider Preferences and Availability**: To better assist, I would need to know if there are any specific preferences (e.g., decaf vs. regular, type of coffee) or dietary restrictions. Additionally, knowing where you are located could help in determining availability.\n\n4. **Action Plan**: Based on the information provided, I would suggest options such as ordering a cup of coffee or tea from a nearby caf\u00e9, or purchasing an energy drink or soda from a store.\n\nThe answer is: A cup of coffee or tea would be a good option for something caffeinated."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4282,7 +4282,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for something caffeinated, which means a beverage or food item that contains caffeine.\n\n2. **Determine Options**: Common caffeinated beverages include coffee, tea, energy drinks, and certain sodas. Foods like chocolate can also contain caffeine but are less common as a primary source.\n\n3. **Consider Preferences and Availability**: To better assist, I would need to know if there are any specific preferences (e.g., decaf vs. regular, type of coffee) or dietary restrictions. Additionally, knowing where you are located could help in determining availability.\n\n4. **Action Plan**: Based on the information provided, I would suggest options such as ordering a cup of coffee or tea from a nearby caf\u00e9, or purchasing an energy drink or soda from a store.\n\nThe answer is: A cup of coffee or tea would be a good option for something caffeinated."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4320,7 +4320,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the requirement**: You need a soda that is not caffeinated.\n2. **Consider common soda options**: Common sodas like Coca-Cola, Pepsi, and Sprite contain caffeine.\n3. **Look for alternatives**: There are several sodas available that do not contain caffeine. Examples include:\n   - **Club Soda**: A plain carbonated water.\n   - **Seltzer Water**: Similar to club soda but sometimes flavored.\n   - **Flavored Sparkling Water**: Brands like LaCroix offer a variety of flavors without caffeine.\n   - **Fruit Infused Waters**: Some brands offer sparkling waters infused with fruit flavors.\n4. **Check labels**: Ensure the product you choose does not contain caffeine by checking the label or ingredients list.\n\nThe answer is Club Soda or any other non-caffeinated flavored sparkling water."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4358,7 +4358,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the characteristics of an apple: An apple is a round fruit typically red, green, or yellow in color, and it has a sweet taste.\n\n2. Consider other fruits: There are many other fruits like bananas, oranges, grapes, etc., which have different colors, shapes, and tastes.\n\n3. Choose a fruit that is distinctly different from an apple: For example, a banana is a good choice because it is long and curved, usually yellow when ripe, and has a slightly sweet but distinct flavor compared to apples.\n\nThe answer is a banana."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4396,7 +4396,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the requirement: We need to find a fruit that is not an apple.\n2. Consider common fruits: There are many fruits available, such as bananas, oranges, grapes, strawberries, etc.\n3. Choose one that fits the criteria: Any of these would work, but let's pick a specific one for clarity.\n\nThe answer is banana."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4434,7 +4434,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify alternatives to Coke: There are many sodas available in the market that are not Coke, such as Pepsi, Sprite, Fanta, Dr Pepper, and many others.\n\n2. Choose a specific brand: To be more precise, we need to select one of these alternatives. For example, let's choose Pepsi.\n\n3. Locate the product: Find a store or vending machine that sells Pepsi.\n\n4. Purchase the product: Buy a can or bottle of Pepsi from the store or vending machine.\n\n5. Deliver the product: Bring the Pepsi to the person who requested it.\n\nThe answer is Pepsi."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4472,7 +4472,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the requirements: You need a drink that is neither water nor coke.\n2. Consider alternatives: There are many other types of drinks available such as juice, soda, tea, coffee, milk, energy drinks, etc.\n3. Choose one: For this example, let's choose orange juice as it is a common and refreshing option.\n\nThe answer is Orange juice."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4510,7 +4510,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. You mentioned \"clear soda.\" Soda typically refers to a carbonated soft drink, often sweetened and flavored.\n2. The term \"clear\" indicates that the soda should be transparent or see-through in color.\n\nGiven these points, you are asking for a carbonated soft drink that is clear in color.\n\nThe answer is Clear soda."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4548,7 +4548,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Check the current stock of rice chips on the counter to determine how many need to be replaced.\n2. Go to the storage area where the rice chips are kept.\n3. Take out the required number of rice chip packages from the storage area.\n4. Ensure that the new packages are within their expiration date and are of good quality.\n5. Remove any damaged or expired packages from the counter.\n6. Place the new packages of rice chips on the counter in an organized manner.\n7. Make sure the chips are easily accessible and visible to customers or team members.\n\nThe answer is: Follow the steps of checking the current stock, going to the storage area, taking out the required number of packages, ensuring they are good quality, removing old or damaged packages, and placing the new ones on the counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4586,7 +4586,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify where the red bull is currently located.\n2. Determine the location of the close counter.\n3. Walk or move to the location of the red bull.\n4. Pick up the red bull.\n5. Walk or move to the close counter.\n6. Place the red bull on the close counter.\n\nThe answer is: Follow the steps 1 through 6 to deliver the red bull to the close counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4624,7 +4624,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the close counter.\n2. Approach the counter and locate the jalapeno chips.\n3. Grasp the jalapeno chips firmly but gently to avoid breaking them.\n4. Place the jalapeno chips in a designated storage area or container.\n5. Wipe down the counter to ensure it is clean and free of any debris.\n\nThe answer is: Follow the steps of identifying the counter, locating the jalapeno chips, picking them up, placing them in a storage area, and cleaning the counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4662,7 +4662,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the coke can and ensure it is within reach.\n2. Grasp the can using your hand, typically holding it by the sides or by the top edge for better control.\n3. Lift the can straight up from the surface it's resting on.\n4. Maintain a steady grip to keep the can upright.\n\nThe answer is: Grasp the can, lift it up, and hold it steady."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4700,7 +4700,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure your gripper is clean and free of any debris that could interfere with gripping.\n2. Position yourself so that you have a clear view of the coke can and your gripper.\n3. Reach out with your arm and extend it towards the coke can.\n4. Adjust your grip on the handle of the gripper to ensure a secure and comfortable hold.\n5. Close the gripper slowly and steadily around the base of the coke can, making sure not to squeeze too tightly as this might damage the can.\n6. Once the can is securely held by the gripper, you can lift or move it as needed.\n\nThe answer is: Follow the steps 1 through 6 to put the coke can in your gripper."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4738,7 +4738,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the can of Coke and ensure it is within reach.\n2. Grasp the can firmly but gently with both hands, placing your fingers around the sides and your thumbs on the opposite sides for a secure grip.\n3. Keep your arms close to your body for stability.\n4. Use your leg muscles to help you stand up straight and use your arm muscles to lift the can.\n5. Lift the can slowly and steadily, keeping it close to your body as you raise it.\n\nThe answer is: Grasp the can, use your legs and arms to lift it steadily."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4776,7 +4776,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You need something salty.\n2. **Determine Availability**: Consider where you are and what options are available to you.\n3. **Options**:\n   - If you are at home, you might have chips, pretzels, popcorn, or other snacks.\n   - If you are in a restaurant, the kitchen might be able to prepare something salty for you.\n   - If you are in a store, you can purchase items like chips, nuts, or crackers.\n4. **Action**: Based on the availability, choose an option that fits your current situation.\n\nThe answer is: It depends on your location, but options include chips, pretzels, popcorn, or purchasing from a store."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4814,7 +4814,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for a salty snack.\n2. **Determine Options**: Common salty snacks include chips, pretzels, popcorn, nuts, and crackers.\n3. **Consider Accessibility**: Think about what is readily available in your current location (home, office, store).\n4. **Select an Item**: Based on availability and preference, choose one of the options.\n\nThe answer is: Pretzels."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4852,7 +4852,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You want something spicy.\n2. **Determine the Context**: This could be for food, a drink, or even a personal item (like a spice).\n3. **Options for Food**:\n   - Spicy snacks like chips, popcorn, or pretzels.\n   - Spicy dishes like curries, stir-fries, or hot wings.\n   - Sauces like hot sauce, sriracha, or harissa.\n4. **Options for Drinks**:\n   - Hot beverages like spiced chai tea or a spicy margarita.\n   - Cold drinks like a spicy lemonade or a spicy iced tea.\n5. **Personal Items**:\n   - Spices like cayenne pepper, chili powder, or black pepper.\n   - Pepper spray (if that's what you meant by \"spicy\").\n\nThe answer is: It depends on whether you're looking for food, a drink, or a personal item, but options include spicy food items, spicy drinks, or spices."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4890,7 +4890,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You need a spicy snack.\n2. **Consider Common Spicy Snacks**: Some common options include hot wings, chili cheese fries, spicy popcorn, or spicy nuts like jalape\u00f1o peanuts.\n3. **Determine Feasibility**: If you are asking me to bring it, I would need to be in a position to do so, which might mean I am physically present or have access to these items.\n4. **Suggest Options**: Based on the request, here are some suggestions:\n   - Hot wings\n   - Spicy popcorn\n   - Jalape\u00f1o peanuts\n   - Salsa and tortilla chips\n\nThe answer is Hot wings, spicy popcorn, jalape\u00f1o peanuts, or salsa and tortilla chips."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4928,7 +4928,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the preference**: You mentioned loving spice, which indicates a preference for spicy food.\n2. **Determine the context**: Since you asked if I can \"get something to eat,\" it seems like you're looking for a suggestion or recommendation for a meal.\n3. **Consider options**: Given your love for spice, we should focus on spicy dishes.\n4. **Provide a recommendation**: A popular choice that fits this description well is Thai cuisine, which is known for its spicy and flavorful dishes.\n\nThe answer is Thai cuisine."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -4966,7 +4966,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for a drink to be brought to you because you are exhausted.\n2. **Determine Capabilities**: As an AI, I don't have physical capabilities to bring you a drink directly. However, I can provide instructions on how to get one.\n3. **Provide Instructions**: If you are at home, you could go to the kitchen and get a drink from the refrigerator or cabinet. If you are out, you might go to a nearby caf\u00e9 or bar to order a drink.\n\nThe answer is: Go to the kitchen and get a drink from the refrigerator or cabinet if you are at home, or go to a nearby caf\u00e9 or bar to order a drink if you are out."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5004,7 +5004,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the context**: You're asking for something refreshing, which could be a drink or a food item that cools down and refreshes you.\n\n2. **Consider common refreshing options**:\n   - Drinks: Water, juice, lemonade, iced tea, sports drinks, smoothies, etc.\n   - Foods: Ice cream, popsicles, fruit (like watermelon, strawberries), etc.\n\n3. **Determine the most suitable option**:\n   - If it's hot outside, a cold drink or a frozen treat would be ideal.\n   - If you prefer something healthier, a fruit or a smoothie might be better.\n   - If you need something quick and easy, a bottle of water or a can of iced tea could work well.\n\n4. **Choose an option based on availability and preference**:\n   - For simplicity and immediate satisfaction, a bottle of water or a can of iced tea seems like a good choice.\n\nThe answer is: A bottle of water or a can of iced tea."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5042,7 +5042,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for a drink that contains caffeine.\n2. **List Caffeinated Drinks**: Common examples include coffee, tea (black, green, etc.), energy drinks, and some sodas.\n3. **Consider Availability**: Ensure that the requested drink is available in your current location or can be easily obtained.\n4. **Specify Preferences**: If you have any specific preferences (e.g., decaf vs. regular, type of coffee, brand of soda), it would be helpful to know these details.\n\nThe answer is: A drink with caffeine could be a cup of coffee, a glass of tea, an energy drink, or a soda, depending on availability and personal preference."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5080,7 +5080,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: You are asking for something caffeinated, which means a beverage or food item that contains caffeine.\n\n2. **Determine Options**: Common caffeinated beverages include coffee, tea, energy drinks, and certain sodas. Foods like chocolate can also contain caffeine but are less common as a primary source.\n\n3. **Consider Preferences and Availability**: To better assist, I would need to know if there are any specific preferences (e.g., decaf vs. regular, type of coffee) or dietary restrictions. Additionally, knowing where you are located could help in determining availability.\n\n4. **Action Plan**: Based on the information provided, I would suggest options such as ordering a cup of coffee or tea from a nearby caf\u00e9, or purchasing an energy drink or soda from a store.\n\nThe answer is: A cup of coffee or tea would be a good option for something caffeinated."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5118,7 +5118,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the requirement**: You need a soda that is not caffeinated.\n2. **Consider common soda options**: Common sodas like Coca-Cola, Pepsi, and Sprite contain caffeine.\n3. **Look for alternatives**: There are several sodas available that do not contain caffeine. Examples include:\n   - **Club Soda**: A plain carbonated water.\n   - **Seltzer Water**: Similar to club soda but sometimes flavored.\n   - **Flavored Sparkling Water**: Brands like LaCroix offer a variety of flavors without caffeine.\n   - **Fruit Infused Waters**: Some brands offer sparkling waters infused with fruit flavors.\n4. **Check labels**: Ensure the product you choose does not contain caffeine by checking the label or ingredients list.\n\nThe answer is Club Soda or any other non-caffeinated flavored sparkling water."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5156,7 +5156,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the action**: The action in question is \"throw away.\" This means to discard or get rid of something.\n\n2. **Identify the object**: The object is \"three oranges.\" This specifies that we are dealing with a quantity of oranges.\n\n3. **Consider the feasibility**: Throwing away three oranges is a straightforward physical action. If you have three oranges and decide to discard them, you can indeed throw them away.\n\n4. **Conclusion**: Since throwing away three oranges is a feasible action, we can conclude that yes, you can throw away three oranges.\n\nThe answer is Yes, you can throw away three oranges."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5194,7 +5194,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the characteristics of an apple: An apple is a round fruit typically red, green, or yellow in color, and it has a sweet taste.\n\n2. Consider other fruits: There are many other fruits like bananas, oranges, grapes, etc., which have different colors, shapes, and tastes.\n\n3. Choose a fruit that is distinctly different from an apple: For example, a banana is a good choice because it is long and curved, usually yellow when ripe, and has a slightly sweet but distinct flavor compared to apples.\n\nThe answer is a banana."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5232,7 +5232,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the requirement: We need to find a fruit that is not an apple.\n2. Consider common fruits: There are many fruits available, such as bananas, oranges, grapes, strawberries, etc.\n3. Choose one that fits the criteria: Any of these would work, but let's pick a specific one for clarity.\n\nThe answer is banana."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5270,7 +5270,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify alternatives to Coke: There are many sodas available in the market that are not Coke, such as Pepsi, Sprite, Fanta, Dr Pepper, and many others.\n\n2. Choose a specific brand: To be more precise, we need to select one of these alternatives. For example, let's choose Pepsi.\n\n3. Locate the product: Find a store or vending machine that sells Pepsi.\n\n4. Purchase the product: Buy a can or bottle of Pepsi from the store or vending machine.\n\n5. Deliver the product: Bring the Pepsi to the person who requested it.\n\nThe answer is Pepsi."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5308,7 +5308,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the requirements: You need a drink that is neither water nor coke.\n2. Consider alternatives: There are many other types of drinks available such as juice, soda, tea, coffee, milk, energy drinks, etc.\n3. Choose one: For this example, let's choose orange juice as it is a common and refreshing option.\n\nThe answer is Orange juice."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5346,7 +5346,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. You mentioned \"clear soda.\" Soda typically refers to a carbonated soft drink, often sweetened and flavored.\n2. The term \"clear\" indicates that the soda should be transparent or see-through in color.\n\nGiven these points, you are asking for a carbonated soft drink that is clear in color.\n\nThe answer is Clear soda."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5384,7 +5384,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Clear the table of any items or objects that are on it.\n2. Gather cleaning supplies such as a cloth, a sponge, and cleaning solution.\n3. Wipe down the surface of the table to remove dust and debris.\n4. If there are stains or sticky substances, use a sponge or cloth with a cleaning solution to scrub the area.\n5. Rinse the sponge or cloth if necessary and wipe the table again to ensure all cleaning solution is removed.\n6. Allow the table to dry completely.\n\nThe answer is: Clear the table, gather cleaning supplies, wipe down the surface, clean stains if necessary, rinse and wipe again, and allow to dry."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5422,7 +5422,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the table in question (kitchen table, dining room table, etc.).\n2. Observe what items are on the table.\n3. Gather all items from the table, ensuring nothing is left behind.\n4. Place the gathered items in a designated location or container.\n\nThe answer is: Identify the table, observe its contents, gather all items, and place them appropriately."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5498,7 +5498,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Allergy**: You are allergic to apples.\n2. **Understand the Allergy**: Apple allergy means you have an immune system reaction to proteins found in apples.\n3. **Consider Other Fruits**: There are many other fruits that do not contain these specific proteins and thus would not trigger an allergic reaction.\n4. **List Safe Fruits**: Some examples of fruits that are generally safe for people with apple allergies include bananas, oranges, grapes, melons, and berries (like strawberries or blueberries).\n5. **Consult a Professional**: It's always a good idea to consult with a healthcare provider or an allergist to confirm which fruits are safe for you.\n\nThe answer is: Yes, there are many fruits you can eat despite being allergic to apples."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5536,7 +5536,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the type of beverage: We are looking for a soda, which is a carbonated soft drink.\n2. Exclude Coke: Since we need to avoid Coke, we must consider other brands and types of sodas.\n3. Choose an alternative: Some popular alternatives include Pepsi, Sprite, Dr Pepper, Fanta, and many others.\n\nThe answer is: Choose any soda brand that is not Coke, such as Pepsi or Sprite."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5574,7 +5574,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the types of drinks: We need to choose three different types of drinks. Common options include sodas, juices, and teas.\n\n2. Select specific drinks: For variety, we can choose a cola, an orange juice, and a green tea.\n\n3. Specify the request: The customer wants \"three different drinks,\" so we will provide one of each type as requested.\n\nThe answer is: A cola, an orange juice, and a green tea."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5612,7 +5612,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the fruits on the table.\n2. Pick up each fruit one by one.\n3. Take each fruit to a trash bin or designated disposal area.\n4. Place each fruit in the trash bin.\n5. Ensure the table is now clear of any fruits.\n\nThe answer is: Follow the steps of identifying, picking up, and disposing of each fruit to clear the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5650,7 +5650,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Stand in front of the coke can.\n2. Bend your knees slightly to lower your center of gravity.\n3. Reach down with one hand or both hands, depending on your comfort and the size of the can.\n4. Grasp the can firmly but gently to avoid crushing it.\n5. Lift the can straight up using your leg muscles rather than just your arms.\n\nThe answer is: Stand in front of the coke can, bend your knees, reach down, grasp the can, and lift it up."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5688,7 +5688,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the coke can: Look for the can among other objects or on a surface where it might be placed.\n\n2. Position yourself: Move closer to the location of the coke can so that you are in a comfortable position to reach it.\n\n3. Extend your arm: Reach out with one hand (usually the dominant hand) towards the coke can.\n\n4. Grasp the can: Use your fingers to firmly grip the top rim of the can. Make sure to have a good grip to avoid dropping it.\n\n5. Lift the can: Use your arm and shoulder muscles to lift the can off the surface.\n\nThe answer is: Extend your arm, grasp the can's top rim with your fingers, and lift it."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5726,7 +5726,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Apple**: Ensure that the apple is indeed waste and not suitable for consumption or composting.\n\n2. **Prepare the Apple**: If the apple is bruised or damaged, cut off any parts that are still edible. This reduces waste and makes disposal easier.\n\n3. **Choose a Trash Bin**: Find a trash bin that is designated for food waste or general household trash, depending on local regulations.\n\n4. **Dispose of the Apple**: Place the apple in the appropriate trash bin. Make sure to follow any guidelines provided by your local waste management system regarding what can be thrown away together.\n\n5. **Close the Bin**: After disposing of the apple, close the trash bin lid securely to maintain hygiene and prevent pests.\n\nThe answer is: Place the apple in the appropriate trash bin and close the lid securely."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5764,7 +5764,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Determine the location where you are: I need to know if you are at home, work, or another specific place to figure out the best way to get you the Sprite.\n\n2. Check availability: I should check if there is a Sprite available nearby, such as in a refrigerator at home, a cooler, or a store.\n\n3. Obtain the Sprite: If it's not available, I would go to a store that sells beverages and purchase a Sprite for you.\n\n4. Transport the Sprite: I would then transport the Sprite to you, ensuring it stays cold if necessary.\n\n5. Deliver the Sprite: Finally, I would deliver the Sprite to you, making sure it is handed over safely.\n\nThe answer is: By determining your location, checking for availability, obtaining the Sprite, transporting it, and delivering it to you."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5802,7 +5802,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure your hands are clean to avoid transferring dirt or germs onto the banana.\n2. Grasp the banana gently but firmly by its stem or the middle of the fruit.\n3. Walk over to the counter and position yourself near it.\n4. Place the banana down on the counter, making sure it is stable and not likely to roll off.\n5. Optionally, you can place it in a designated spot if you have a specific area for fruits.\n\nThe answer is: Grasp the banana, walk to the counter, and place it down gently."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5840,7 +5840,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the banana and the table.\n2. Ensure your hands are clean or use a clean cloth to handle the banana.\n3. Grasp the banana firmly but gently to avoid squishing it.\n4. Lift the banana from its current location.\n5. Walk to the table while holding the banana.\n6. Place the banana on the table.\n\nThe answer is: Grasp the banana, lift it, walk to the table, and place it down."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5878,7 +5878,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the open can: First, I need to know where the open can is located. This could be in a kitchen, pantry, or any other storage area.\n\n2. Retrieve the can: Once I know the location, I will go to that area and find the open can. If it's in a cabinet or on a high shelf, I may need to use a stool or ladder to reach it safely.\n\n3. Handle the can carefully: When picking up the can, I should ensure that I have a firm grip to avoid dropping it. If the can is cold, I might want to wear gloves to prevent my hands from getting cold.\n\n4. Transport the can: Depending on where you are, I will transport the can to you. This could involve walking, carrying, or even using a cart if the distance is significant.\n\n5. Deliver the can: Finally, I will deliver the can to you, ensuring that it is placed gently and securely in your hand or on a surface near you.\n\nThe answer is: By identifying the location, retrieving the can carefully, transporting it, and delivering it securely."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5916,7 +5916,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Understanding the Request**: The person is asking for a Red Bull, which is a popular energy drink known for its high caffeine content.\n\n2. **Assessing Availability**: To fulfill this request, you need to check if there is a Red Bull available in your vicinity. This could be in a fridge at home, in a cooler at work, or in a nearby store.\n\n3. **Accessing the Drink**: If Red Bull is available, you would need to get it. This might involve opening a fridge, reaching into a cooler, or going to a store to purchase one.\n\n4. **Providing the Drink**: Once you have the Red Bull, you would give it to the person who made the request.\n\nThe answer is: You should check if Red Bull is available and accessible, then provide it to the person who asked."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5954,7 +5954,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the type of fruit you prefer or need.\n2. Go to a grocery store or farmer's market to purchase the fruit.\n3. Choose fresh and ripe fruits that meet your requirements.\n4. Wrap the fruit in a clean cloth or paper towel to keep it fresh during transport.\n5. Use a clean bag to carry the fruit safely.\n6. Transport the fruit to your location, ensuring it remains at an appropriate temperature (e.g., not exposed to extreme heat or cold).\n7. Hand over the fruit to you.\n\nThe answer is: By identifying your preference, purchasing the fruit, properly wrapping and transporting it, and delivering it to you."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -5992,7 +5992,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the table where you want to place the items.\n2. Open the bag of chips if it's sealed, or ensure it's ready for consumption.\n3. Hold the water bottle by its base or handle.\n4. Place the bag of chips on the table first, ensuring it doesn't slide off the edge.\n5. Position the water bottle next to the bag of chips, making sure it's stable and won't tip over.\n\nThe answer is: Approach the table, open the bag of chips (if necessary), hold the water bottle, place the chips first, then position the water bottle next to them."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6030,7 +6030,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Choose the specific items: Select a fruit (e.g., an apple or banana), a type of soda (e.g., cola or lemon-lime), and a brand of chips (e.g., potato chips or tortilla chips).\n\n2. Purchase the items: Go to a grocery store or convenience store to buy the chosen fruit, soda, and chips.\n\n3. Pack the items: Place the fruit in a reusable container or bag to keep it fresh. Put the soda in a cooler or insulated bag to maintain its cold temperature. Place the bag of chips in a separate bag to prevent them from getting crushed.\n\n4. Prepare for transport: Ensure that all items are securely packed to avoid any damage during transportation. If necessary, use ice packs to keep the soda cold.\n\n5. Deliver the items: Carry the packed lunch to your location, ensuring that everything stays fresh and cool until you are ready to eat.\n\nThe answer is: By purchasing a fruit, a soda, and a bag of chips, packing them securely, and delivering them to your location."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6068,7 +6068,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the table where the chips bag is located.\n2. Ensure your hands are clean or use a napkin to avoid contaminating the bag.\n3. Grasp the top of the chips bag firmly but gently to avoid tearing it.\n4. Lift the chips bag straight up from the table.\n5. Walk towards the counter while holding the chips bag securely.\n6. Place the chips bag on the counter in a safe and stable position.\n\nThe answer is: Grasp the bag, lift it, walk to the counter, and place it down."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6106,7 +6106,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Enter the Kitchen**: Start by opening the door to the kitchen if it's closed.\n\n2. **Move Towards the Counter**: Walk towards the counter, which is typically located near the entrance or against a wall.\n\n3. **Approach the Table**: Once at the counter, continue moving towards the table, which might be located near the center of the kitchen or against another wall.\n\n4. **Reach the Desired Spot**: When you reach the counter and the table, you can now interact with them as needed.\n\nThe answer is: Enter the kitchen, move towards the counter, then approach the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6144,7 +6144,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the chip drawer and ensure it is accessible.\n2. Check if there are any specific requirements for storing chips (e.g., temperature, humidity).\n3. Remove any old or expired chips from the drawer to make space.\n4. Purchase new chips that meet the desired quantity and quality standards.\n5. Open the packaging of the new chips carefully to avoid spillage.\n6. Place the new chips in the drawer, ensuring they are organized and not touching the sides or other items to prevent crushing.\n7. Close the drawer gently to maintain its organization.\n8. Label the drawer or the chips if necessary for easy identification.\n\nThe answer is: 1. Identify the location; 2. Check storage requirements; 3. Remove old/expired chips; 4. Purchase new chips; 5. Open packaging carefully; 6. Place chips in the drawer; 7. Close the drawer; 8. Label if necessary."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6182,7 +6182,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the drawer: First, I need to know which drawer contains the chips. This could be based on previous knowledge or asking for clarification if it's not clear.\n\n2. Approach the drawer: Once I know which drawer to use, I will walk over to it.\n\n3. Open the drawer: Gently pull out the drawer to access its contents.\n\n4. Locate the chips: Look inside the drawer to find where the chips are stored. They might be in a specific container or bag.\n\n5. Retrieve the chips: Carefully take the chips out of the drawer without spilling them.\n\n6. Hand over the chips: If you are nearby, hand the chips directly to you. If you are far away, place them on a convenient surface for you to reach.\n\nThe answer is: Identify the drawer, open it, locate and retrieve the chips, and then hand them over."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6220,7 +6220,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the gripper's design and its gripping mechanism (e.g., vacuum, magnetic, or mechanical).\n2. Position the gripper close to the coke can without touching it.\n3. Adjust the gripper's orientation so that it aligns properly with the can's shape and size.\n4. Activate the gripper's mechanism to securely grasp the can. For a mechanical gripper, this might involve closing fingers or claws around the can. For a vacuum gripper, ensure the suction is strong enough to hold the can.\n5. Once the can is securely held, move the gripper to the desired location.\n\nThe answer is: Identify the gripper type, position it correctly, align it, activate the gripping mechanism, and move the can."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6258,7 +6258,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the coke can with your hand positioned to grasp it comfortably.\n2. Ensure your fingers are spread and ready to grip the can securely.\n3. Place your thumb on one side of the can and your other fingers on the opposite side for a firm grip.\n4. Use your hand strength to lift the can straight up from the table or surface it's resting on.\n\nThe answer is: Grasp the can firmly with your hand and lift it straight up."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6296,7 +6296,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Determine the location: Consider where tables are typically found, such as in dining rooms, offices, classrooms, or public spaces like cafes and libraries.\n\n2. Look around visually: Once you have an idea of likely locations, look around to see if you can spot any tables. This might involve walking through the area or scanning the environment.\n\n3. Ask for assistance: If you're unsure of the location or the table is not immediately visible, ask someone who might know where it is located. This could be a host, staff member, or another person familiar with the area.\n\n4. Use technology: If you have access to a smartphone or other device, use its camera to scan the area or take photos to help identify potential tables. You can also use maps or floor plans if available.\n\n5. Check under or around furniture: Sometimes tables are hidden under or behind other items of furniture or equipment.\n\n6. Check alternative surfaces: In some cases, what appears to be a table might actually be a desk, countertop, or other surface that can serve as a table.\n\nThe answer is: Follow these steps to locate a table - determine the location, look around visually, ask for assistance, use technology, check under or"
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6334,7 +6334,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the table: Determine where the table is located in relation to your current position. This could be in a room, outside, or in another setting.\n\n2. Choose the path: Based on the location, decide the best route to take. Consider any obstacles like furniture, people, or pets that might be in your way.\n\n3. Consider the environment: If the area is crowded or there are other people around, ensure you move in a manner that does not disturb others or cause accidents.\n\n4. Use proper posture and movement: Walk with good posture, keeping your head up and shoulders back. Move smoothly and steadily without rushing.\n\n5. Be mindful of others: If you are in a shared space, be aware of others and give them space if necessary.\n\n6. Reach the table: Once you have navigated to the table, approach it calmly and confidently.\n\nThe answer is: You would first identify the location of the table, choose the best path to take, consider the environment, use proper posture and movement, be mindful of others, and then reach the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6372,7 +6372,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the table: Determine where the table is located in relation to your current position. Look for visual cues such as signs or landmarks.\n\n2. Move towards the table: Walk or move in the direction of the table. If the table is in a specific room or area, make sure to enter that space.\n\n3. Locate the table within the space: Once you are in the vicinity of the table, look for it. Tables often have unique features like legs, a flat surface, or a distinctive color that can help identify them.\n\n4. Approach the table: Get close enough to the table to interact with it if necessary, such as sitting down or reaching for items on it.\n\nThe answer is: Follow these steps to navigate to a table - identify its location, move towards it, locate it within the space, and approach it."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6410,7 +6410,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the table from an appropriate direction, usually from the side or front.\n2. Look for available seating options.\n3. If there is a chair, gently push it outwards so that it is fully extended.\n4. Sit down slowly and smoothly, ensuring the chair is stable.\n5. Adjust your posture and position as needed.\n\nThe answer is: Approach the table, find a seat, extend the chair, sit down, and adjust your posture."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6448,7 +6448,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the drawer: First, I need to locate the specific drawer where the apples are kept. This might involve looking around the kitchen or wherever the apples are typically stored.\n\n2. Open the drawer: Once I have located the correct drawer, I will open it carefully to access its contents.\n\n3. Find the apple: After opening the drawer, I will search through the contents to find the apple. If there are multiple apples, I will choose one that looks fresh and suitable for consumption.\n\n4. Remove the apple: Gently remove the apple from the drawer without damaging it.\n\n5. Close the drawer: After retrieving the apple, I will close the drawer securely to maintain its contents in good condition.\n\n6. Bring the apple to you: Finally, I will carry the apple to you, ensuring it remains clean and undamaged during transport.\n\nThe answer is: Identify the drawer, open it, find the apple, remove it, close the drawer, and bring it to you."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6486,7 +6486,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure the can is empty and all liquid has been removed.\n2. Clean the can if it is dirty or sticky to help prevent litter and make recycling easier.\n3. Flatten the can if possible to save space in recycling bins and reduce transportation costs.\n4. Check local recycling guidelines to determine if the can needs to be rinsed or if it should be placed in a specific bin.\n5. Place the flattened can in the appropriate recycling bin.\n\nThe answer is: Flatten the can, clean it if necessary, and place it in the recycling bin according to local guidelines."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6524,7 +6524,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Stand in a position where you can reach the coke can comfortably.\n2. Bend your knees slightly to lower your center of gravity.\n3. Reach out with one hand and grasp the coke can firmly but gently.\n4. Lift the coke can straight up without twisting your body.\n\nThe answer is: Pick up the coke can by bending your knees, reaching out with one hand, and lifting it straight up."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6562,7 +6562,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the coke can.\n2. Move your hand to the position where the coke can is located.\n3. Grasp the coke can firmly but gently.\n\nThe answer is: Move your hand to the location of the coke can and grasp it."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6600,7 +6600,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the apple you want to throw away.\n2. Ensure the apple is indeed unwanted and not suitable for consumption (e.g., bruised, rotten).\n3. Take the apple to an appropriate disposal area, such as a trash bin.\n4. Place the apple in the bin.\n5. Close or cover the bin if necessary.\n\nThe answer is: Identify the apple, ensure it's unwanted, take it to a trash bin, place it inside, and close the bin if needed."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6638,7 +6638,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: The request is to bring a sprite.\n2. **Understand the Context**: In common usage, \"sprite\" can refer to a carbonated soft drink, specifically Sprite, or it can refer to a small character in video games or digital art.\n3. **Clarify the Intent**: Since the context is not clear, we need to assume the most likely intent, which is to get a carbonated soft drink called Sprite.\n4. **Action Plan**: To fulfill this request, you would need to go to a store that sells beverages, find the Sprite section, and purchase a bottle or can of Sprite.\n\nThe answer is: Go to a store that sells beverages, find the Sprite section, and purchase a bottle or can of Sprite."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6676,7 +6676,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure your hands are clean to avoid contaminating the banana.\n2. Grasp the banana firmly but gently by its stem or the middle of the fruit.\n3. Walk over to the counter and place the banana down carefully.\n4. Optionally, you can peel the banana if you plan to eat it immediately.\n\nThe answer is: Grasp the banana, walk to the counter, and place it down."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6714,7 +6714,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the banana and the table.\n2. Ensure your hands are clean or use a clean cloth to handle the banana.\n3. Grasp the banana firmly but gently at its stem or middle.\n4. Walk to the table, holding the banana securely.\n5. Place the banana on the table.\n\nThe answer is: Grasp the banana, walk to the table, and place it down."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6752,7 +6752,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. You have already opened a Sprite can, which means it is now in an open state.\n2. The instruction is to bring you the open can.\n\nSince you already have the open can, there is no need to bring another one. The answer is: You already have the open can."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6790,7 +6790,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the Request**: The request is for a Red Bull, which is a popular energy drink.\n\n2. **Determine Availability**: To fulfill this request, you need to check if a Red Bull is available in your current location. This could be at home, in a kitchen, or in a nearby store.\n\n3. **Access the Location**: If it's at home or in a kitchen, you would need to go there and find the Red Bull. If it's not available, you might need to go to a store or order one online.\n\n4. **Obtain the Drink**: Once you have access to the Red Bull, you can take it out of its packaging and hand it over to the person who made the request.\n\n5. **Consider Alternatives**: If Red Bull is not available, you might consider other energy drinks or beverages that could serve a similar purpose.\n\nThe answer is: You should check if a Red Bull is available in your current location and obtain it if possible. If not, consider alternatives."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6828,7 +6828,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the type of fruit you prefer or need.\n2. Determine if I have access to a fruit myself or if I need to go to a store or market.\n3. If I have the fruit, pick it from my supply.\n4. If I don't have the fruit, go to a store or market and select the fruit.\n5. Bring the fruit to you.\n\nThe answer is: The process involves identifying the fruit, obtaining it, and delivering it."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6866,7 +6866,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure the table is clear or has enough space to place the items.\n2. Take the bag of chips from wherever it is stored.\n3. Take the water bottle from its location.\n4. Walk to the table.\n5. Place the bag of chips on the table.\n6. Place the water bottle next to the bag of chips or in another designated spot on the table.\n\nThe answer is: Follow the steps 1 through 6 to put a bag of chips and a water bottle on the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6904,7 +6904,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. **Identify the items needed**: You need a fruit, a soda, and a bag of chips for lunch.\n2. **Select a fruit**: Common choices include apples, bananas, or oranges. Let's choose an apple as it is a popular and healthy option.\n3. **Select a soda**: Popular sodas include Coca-Cola, Pepsi, or Sprite. For this example, we'll choose Coca-Cola.\n4. **Select chips**: Common brands include Lay's, Doritos, or Ruffles. We'll choose Lay's for this scenario.\n\nThe answer is: An apple, a bottle of Coca-Cola, and a bag of Lay's chips."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6942,7 +6942,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Stand up and approach the table where the chips bag is located.\n2. Bend down or reach out to grasp the chips bag firmly.\n3. Hold the chips bag securely in one hand.\n4. Walk towards the counter while holding the chips bag.\n5. Place the chips bag gently on the counter.\n\nThe answer is: Grasp the chips bag, walk to the counter, and place it there."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -6980,7 +6980,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Stand up from your current location if you are seated.\n2. Walk towards the kitchen, moving through any rooms or spaces that separate you from the kitchen.\n3. Upon reaching the kitchen, locate the counter. It is typically a long, flat surface used for food preparation and sometimes eating.\n4. Next, find the table. Tables in kitchens are often used for dining and may be located near the counter or in another part of the kitchen.\n5. Once at both locations, you can observe their contents and surroundings as needed.\n\nThe answer is: Follow the steps to walk to the kitchen, locate the counter and the table, and observe them."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7018,7 +7018,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the chip drawer.\n2. Check if there are any chips left in the drawer.\n3. Purchase or obtain more chips from a store or online.\n4. Open the chip bag and carefully pour the chips into the drawer, ensuring they fit neatly without spilling.\n5. Close the drawer securely.\n6. Clean up any spilled chips or packaging materials.\n\nThe answer is: Follow the steps to identify the location, check contents, purchase more chips, store them properly, and clean up."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7056,7 +7056,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location: The drawer mentioned is likely a kitchen drawer, as chips are commonly stored there.\n2. Open the drawer: Carefully open the drawer to access its contents.\n3. Search for chips: Look through the drawer for the chip packets or containers.\n4. Retrieve the chips: Once found, take out the chips and ensure they are within their packaging and not expired.\n5. Bring the chips: Carry the chips to where you are.\n\nThe answer is: Open the drawer, search for the chips, retrieve them, and bring them to you."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7094,7 +7094,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure your gripper is clean and free of any debris that could interfere with gripping.\n2. Position yourself so that you have a clear view of the coke can and your gripper.\n3. Reach out with your arm and extend it towards the coke can.\n4. Adjust your grip on the handle of the gripper to ensure a secure and comfortable hold.\n5. Close the gripper slowly and steadily around the base of the coke can, making sure not to squeeze too tightly as this might damage the can.\n6. Once the can is securely held by the gripper, you can lift or move it as needed.\n\nThe answer is: Follow the steps 1 through 6 to put the coke can in your gripper."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7132,7 +7132,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the coke can with your hand positioned to grasp it comfortably.\n2. Ensure your fingers are spread and ready to grip the can securely.\n3. Place your thumb on one side of the can and your other fingers on the opposite side for a firm grip.\n4. Use your arm and shoulder muscles to lift the can upward.\n\nThe answer is: Approach the can, grasp it firmly, and lift it using your arm and shoulder muscles."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7170,7 +7170,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Determine the context: Are we looking for a physical table (like in a room) or a table in a document or spreadsheet?\n\n2. Location: If it's a physical table, consider where you might typically find one. Common places include dining rooms, offices, classrooms, or meeting spaces.\n\n3. Search method:\n   - For a physical table: Look around the room or space you are in. Check common locations like desks, dining areas, or meeting tables.\n   - For a digital table: Open the relevant document or application where the table is supposed to be located.\n\n4. Description: If you're searching for a specific type of table, note any distinguishing features such as size, color, material, or purpose.\n\n5. Confirmation: Once you locate the table, confirm that it matches your search criteria.\n\nThe answer is: It depends on the context and location you are referring to."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7246,7 +7246,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Open the digital document that contains the table (e.g., a spreadsheet, word document, or database).\n2. Locate the section of the document where the table is placed.\n3. Click on or scroll to the table to interact with it.\n\nThe answer is: Navigate to the digital document, locate the section containing the table, and click on or scroll to the table."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7284,7 +7284,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. \"Park at the table\" - This could mean to place something or someone at a table in a manner that resembles parking, such as setting an object down or positioning a person to sit.\n\n2. \"Think step by step\" - This suggests a methodical approach to solving a problem or understanding a situation.\n\nGiven these two parts, it appears there might be a misunderstanding or missing context. If we interpret this literally, it would be unusual to park at a table, as parking typically refers to vehicles.\n\nIf we consider it metaphorically, perhaps it means to carefully consider each part of the task or situation related to the table.\n\nThe answer is: The instruction needs clarification for a precise response."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7322,7 +7322,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location: The drawer mentioned is likely in the kitchen or dining area where food items are typically stored.\n2. Open the drawer: Carefully open the drawer to access its contents.\n3. Search for the apple: Look through the drawer to find an apple. Apples are usually kept whole and may be stored in a container or loosely.\n4. Retrieve the apple: Once you locate the apple, carefully take it out of the drawer.\n5. Verify freshness: Check if the apple is fresh and suitable for consumption.\n\nThe answer is: Follow these steps to retrieve an apple from the drawer."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7360,7 +7360,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Ensure the can is empty and the lid is securely closed to prevent any spills or leaks.\n2. Clean the can if it's dirty or sticky to make it easier for recycling.\n3. Check local recycling guidelines to see if the can needs to be rinsed or if it can be recycled as is.\n4. Find the nearest recycling bin that accepts aluminum cans.\n5. Place the can in the recycling bin.\n\nThe answer is: Place the empty, clean coke can in a recycling bin."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7398,7 +7398,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Approach the location where the coke can is placed.\n2. Grasp the coke can firmly but gently to avoid crushing it.\n3. Lift the coke can straight up without tilting it to ensure it doesn't spill.\n4. Walk towards the trash can while holding the coke can securely.\n5. Align the coke can with the opening of the trash can.\n6. Carefully lower the coke can into the trash can, making sure it goes in completely.\n7. Release the coke can once it's inside the trash can.\n\nThe answer is: Grasp the coke can, lift it, walk to the trash can, align and lower it, then release it."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7436,7 +7436,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Stand up from the table if you are seated.\n2. Take a step towards the counter, moving one foot at a time.\n3. Continue walking in the direction of the counter until you reach it.\n\nThe answer is: Stand up, take steps towards the counter, and walk until you reach it."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7474,7 +7474,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the location of the table and the counter. This could be in a room, a kitchen, or any other space where both are present.\n2. Move towards the table first. Walk in the direction of the table until you reach it.\n3. Once at the table, if there's a need to go to the counter next, move from the table towards the counter. If the table and counter are close enough, you can walk directly from one to the other.\n4. Arrive at the counter.\n\nThe answer is: Identify the locations, move to the table, then proceed to the counter."
     ],
     "filter": "flexible-extract",
     "metrics": [
@@ -7512,7 +7512,7 @@
       ]
     ],
     "filtered_resps": [
-      "[invalid]"
+      "1. Identify the sprite: Determine what exactly the sprite is. A sprite could be a small electronic device, a beverage, or a character in a video game.\n\n2. Locate the trash bin: Find an appropriate place to dispose of the item, such as a nearby trash can or recycling bin.\n\n3. Remove the sprite from its current location: If the sprite is attached to something or in a container, carefully remove it.\n\n4. Dispose of the sprite: Place the sprite in the designated trash or recycling bin.\n\n5. Clean up: Ensure that no part of the sprite remains at the original location.\n\nThe answer is: Follow the steps of identifying the sprite, locating a trash bin, removing the sprite, disposing of it properly, and cleaning up."
     ],
     "filter": "flexible-extract",
     "metrics": [

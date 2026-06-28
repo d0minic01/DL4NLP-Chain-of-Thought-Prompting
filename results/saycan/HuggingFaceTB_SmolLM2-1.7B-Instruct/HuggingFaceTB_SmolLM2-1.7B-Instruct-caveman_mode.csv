@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-1.7B-Instruct,saycan_caveman_mode,saycan,caveman_mode,fewshot_cot,saycan,0.0,0.5152,167.4,7,100,20.48,4.97
+HuggingFaceTB/SmolLM2-1.7B-Instruct,saycan_caveman_mode,saycan,caveman_mode,fewshot_cot,saycan,0.0707070707070707,0.0101,164.7,7,100,29.66,4.8

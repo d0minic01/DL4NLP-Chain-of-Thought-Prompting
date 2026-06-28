@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,saycan_persona_cot,saycan,persona_cot,fewshot_cot,saycan,0.0,0.1515,352.3,7,100,11.76,1.12
+HuggingFaceTB/SmolLM2-135M-Instruct,saycan_persona_cot,saycan,persona_cot,fewshot_cot,saycan,0.030303030303030304,0.0101,232.1,7,100,15.94,1.08

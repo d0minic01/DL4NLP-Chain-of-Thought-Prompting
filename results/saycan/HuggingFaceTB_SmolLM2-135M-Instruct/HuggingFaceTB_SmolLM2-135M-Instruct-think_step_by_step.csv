@@ -1,2 +1,2 @@
 model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-HuggingFaceTB/SmolLM2-135M-Instruct,saycan_think_step_by_step,saycan,think_step_by_step,zero_shot,saycan,0.0,0.9596,849.3,0,100,9.51,0.5
+HuggingFaceTB/SmolLM2-135M-Instruct,saycan_think_step_by_step,saycan,think_step_by_step,zero_shot,saycan,0.0,0.9596,849.3,0,100,30.54,0.5

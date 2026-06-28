@@ -1,2 +1,0 @@
-model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
-google/gemma-3-1b-it,saycan_fewshot_baseline,saycan,fewshot_baseline,fewshot_base,saycan,0.0,0.2929,165.8,7,100,6.93,3.23
