@@ -1,7 +1,7 @@
-{"chain_of_thought": "User hungry. want chips. pick kettle chips."}
-{"chain_of_thought": "User ask move grapefruit drink. find drink. put on counter."}
-{"chain_of_thought": "User want snacks. pick two foods: jalapeno chips and apple. bring both."}
-{"chain_of_thought": "User want food not fruit. choose energy bar. bring it."}
-{"chain_of_thought": "Two tasks. rice chips to bowl first. then tea to table. do both."}
-{"chain_of_thought": "User want throw away redbull. pick redbull. put in trash."}
-{"chain_of_thought": "User want drink. choose water. bring water."}
+{"chain_of_thought": "3 blocks. All go top left. Blue first. Then red. Then yellow."}
+{"chain_of_thought": "Yellow block. Green bowl. Yellow go on green."}
+{"chain_of_thought": "Light block = yellow. Yellow go middle."}
+{"chain_of_thought": "Stack blocks. Green on blue. Red on green."}
+{"chain_of_thought": "Blue block. Blue bowl. Blue block go in blue bowl."}
+{"chain_of_thought": "Match colors. Green-green. Red-red. Yellow-yellow."}
+{"chain_of_thought": "4 blocks 4 corners. One each corner."}

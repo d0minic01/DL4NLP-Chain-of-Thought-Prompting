@@ -1,7 +1,7 @@
-{"chain_of_thought": "As a robot agent: identify kettle chips, pick them, and deliver them to the user."}
-{"chain_of_thought": "As a robot agent: locate the grapefruit soda, pick it up, and place it on the counter."}
-{"chain_of_thought": "As a robot agent: select jalapeno chips and an apple, then bring both items to the user."}
-{"chain_of_thought": "As a robot agent: choose an energy bar since the request excludes fruit, then deliver it."}
-{"chain_of_thought": "As a robot agent: complete tasks in order—move rice chips to the bowl, then move tea to the table."}
-{"chain_of_thought": "As a robot agent: locate the redbull, pick it up, and dispose of it in the trash."}
-{"chain_of_thought": "As a robot agent: select water and bring it to the user."}
+{"chain_of_thought": "As a robotic planning expert: I must sequentially move all three colored blocks to the top left corner."}
+{"chain_of_thought": "As a robotic planning expert: 'The yellow one' means yellow block, 'the green thing' means green bowl. I will place the yellow block on the green bowl."}
+{"chain_of_thought": "As a robotic planning expert: Yellow is the lightest color among the available blocks. I will move it to the middle position."}
+{"chain_of_thought": "As a robotic planning expert: Stacking requires sequential placement. I will place green on blue, then red on green."}
+{"chain_of_thought": "As a robotic planning expert: I must identify all blue-colored objects and group them by moving the blue block into the blue bowl."}
+{"chain_of_thought": "As a robotic planning expert: A color-matching sort requires each block to be placed in its same-color bowl. I will execute three placements."}
+{"chain_of_thought": "As a robotic planning expert: With four blocks and four distinct corners, I will systematically assign one block per corner."}
