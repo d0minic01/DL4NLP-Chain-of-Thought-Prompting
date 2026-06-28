@@ -1,7 +1,7 @@
-{"chain_of_thought": "[INCORRECT] Move only one block to the corner. [CORRECT] All three blocks (blue, red, yellow) need to be moved to the top left corner."}
-{"chain_of_thought": "[INCORRECT] Place the green block on the yellow bowl. [CORRECT] The yellow block goes on the green bowl, not the other way around."}
-{"chain_of_thought": "[INCORRECT] Move the darkest block. [CORRECT] The light colored block is yellow, not blue or red."}
-{"chain_of_thought": "[INCORRECT] Place blocks side by side. [CORRECT] Stacking means placing one block on top of another."}
-{"chain_of_thought": "[INCORRECT] Group all blocks together. [CORRECT] Only the blue objects (blue block and blue bowl) need to be grouped."}
-{"chain_of_thought": "[INCORRECT] Place blocks in random bowls. [CORRECT] Each block must go in the bowl matching its own color."}
-{"chain_of_thought": "[INCORRECT] Place all blocks in the same corner. [CORRECT] Each block must go in a different corner."}
+{"chain_of_thought": "[INCORRECT] Grab any chips without checking. [CORRECT] Find the kettle chips specifically, then pick up, bring, and put down."}
+{"chain_of_thought": "[INCORRECT] Bring the drink to the user instead of the counter. [CORRECT] The destination is the counter, not the user."}
+{"chain_of_thought": "[INCORRECT] Bring only one snack. [CORRECT] The user asked for snacks (plural), so bring two items."}
+{"chain_of_thought": "[INCORRECT] Bring a banana since it is food. [CORRECT] A banana is a fruit, so choose the energy bar instead."}
+{"chain_of_thought": "[INCORRECT] Do both tasks simultaneously. [CORRECT] Complete the rice chips task first, then the tea task."}
+{"chain_of_thought": "[INCORRECT] Bring the redbull to the user. [CORRECT] The user wants it thrown away, so go to the trash."}
+{"chain_of_thought": "[INCORRECT] Bring any liquid including juice. [CORRECT] The user just asked for a drink; water is the simplest choice."}
