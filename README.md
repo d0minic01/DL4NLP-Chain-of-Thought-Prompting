@@ -58,3 +58,7 @@ Drop a `.jsonl` file into `fewshots_and_cots/`. Each line is one example:
 ```json
 {"question": "If there are 3 cars and 2 more arrive, how many total?", "chain-of-thought": "3 + 2 = 5.", "target": "5"}
 ```
+
+## Attribution
+
+We utilized [EleutherAI lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness).
