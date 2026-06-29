@@ -367,9 +367,9 @@ def plot_technique_scaling_curves(df: pd.DataFrame, out_dir: Path) -> None:
 
     axes[0].set_ylabel("Average Accuracy")
     handles, labels = axes[-1].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="center right", bbox_to_anchor=(1.14, 0.5), fontsize=8)
+    fig.legend(handles, labels, loc="lower center", bbox_to_anchor=(0.5, -0.12), fontsize=10, ncol=4)
     fig.suptitle("Accuracy vs. Model Scale by Prompting Technique\n(solid = simple baselines, dashed = CoT)", fontsize=12)
-    fig.tight_layout(rect=[0, 0, 0.87, 1])
+    fig.tight_layout(rect=[0, 0.12, 1, 1])
     fig.savefig(out_dir / "technique_scaling_curves.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
 
