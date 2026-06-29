@@ -1,6 +1,7 @@
 """Visualize evaluation results: baseline vs CoT accuracy per model/benchmark."""
 
 import argparse
+import re
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -46,28 +47,59 @@ TECHNIQUE_ORDER = [
 
 SIMPLE_TECHNIQUES = {"true_baseline", "think_step_by_step", "fewshot_baseline"}
 
-# Approximate parameter counts (millions) for sorting and scatter plots
-MODEL_PARAMS_M = {
-    "HuggingFaceTB/SmolLM2-135M-Instruct": 135,
-    "HuggingFaceTB/SmolLM2-360M-Instruct": 360,
-    "google/gemma-3-270m-it": 270,
-    "google/flan-t5-small": 80,
-    "google/flan-t5-base": 250,
-    "Qwen/Qwen2.5-0.5B-Instruct": 500,
-    "google/flan-t5-large": 780,
-    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 1700,
-    "google/gemma-3-1b-it": 1000,
-    "Qwen/Qwen2.5-1.5B-Instruct": 1500,
-    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": 1500,
-    "google/gemma-2-2b-it": 2000,
-    "Qwen/Qwen2.5-3B-Instruct": 3000,
-    "google/gemma-3-4b-it": 4000,
-    "microsoft/Phi-3-mini-4k-instruct": 3800,
-    "microsoft/Phi-4-mini-instruct": 3800,
-    "Qwen/Qwen2.5-7B-Instruct": 7000,
-    "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": 7000,
-    "google/gemma-2-9b-it": 9000,
-}
+
+def _params_from_name(model_id: str) -> int | None:
+    """Infer parameter count (millions) from the model name.
+
+    Handles patterns like: 135M, 360M, 270m, 1.7B, 0.5B, E2B, E4B, 1b, 4b.
+    Returns None if no recognisable size token is found.
+    """
+    name = model_id.split("/")[-1]
+    # Gemma 4 efficient variants: E2B, E4B
+    m = re.search(r"[Ee](\d+)[Bb]", name)
+    if m:
+        return int(m.group(1)) * 1000
+    # Millions: 135M, 270m, 360M
+    m = re.search(r"(\d+\.?\d*)[Mm]", name)
+    if m:
+        return round(float(m.group(1)))
+    # Billions: 1.7B, 0.5B, 3B, 7B, 1b, 4b
+    m = re.search(r"(\d+\.?\d*)[Bb]", name)
+    if m:
+        return round(float(m.group(1)) * 1000)
+    return None
+
+
+# Auto-derived from model names - no manual maintenance needed.
+# Models whose names contain no recognisable size token are excluded from
+# scaling-curve plots but still appear in all other plots.
+def _build_model_params(results_dir: Path) -> dict[str, int]:
+    params: dict[str, int] = {}
+    unrecognised: set[str] = set()
+    for csv_path in results_dir.rglob("*.csv"):
+        try:
+            df = pd.read_csv(csv_path, nrows=1)
+            if "model" not in df.columns or df.empty:
+                continue
+            model_id = str(df["model"].iloc[0])
+        except Exception:
+            continue
+        if model_id in params or model_id in unrecognised:
+            continue
+        p = _params_from_name(model_id)
+        if p is not None:
+            params[model_id] = p
+        else:
+            unrecognised.add(model_id)
+            print(
+                f"Warning: could not infer parameter count for '{model_id}'. "
+                "It will be excluded from scaling-curve plots. "
+                "Add it manually to MODEL_PARAMS_M in visualization/main.py to include it."
+            )
+    return params
+
+
+MODEL_PARAMS_M: dict[str, int] = {}
 
 
 def load_results() -> pd.DataFrame:
@@ -576,6 +608,9 @@ def main():
     out_dir = Path(args.output)
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    global MODEL_PARAMS_M
+    MODEL_PARAMS_M = _build_model_params(RESULTS_DIR)
+
     raw = load_results()
     if raw.empty:
         print("No result CSVs found in results/. Run evaluations first.")
@@ -595,15 +630,15 @@ def main():
     plot_invalid_rate_by_model(raw, out_dir)
 
     print(f"Saved plots to {out_dir}/")
-    print(f"  benchmark_comparison:      one PNG per model")
-    print(f"  technique_comparison:      one PNG per model")
+    print(f"  benchmark_comparison (one PNG per model)")
+    print(f"  technique_comparison (one PNG per model)")
     print(f"  cot_delta_heatmap.png")
     print(f"  scaling_curves.png")
     print(f"  category_summary.png")
-    print(f"  technique_scaling_curves.png  (paper Fig 2/3/4 — per-technique lines)")
-    print(f"  baseline_sufficiency.png      (is step-by-step / few-shot already enough?)")
-    print(f"  output_efficiency.png         (output length vs. accuracy trade-off)")
-    print(f"  invalid_rate_by_model.png     (malformed answer rates, small-model formatting failures)")
+    print(f"  technique_scaling_curves.png (per-technique lines)")
+    print(f"  baseline_sufficiency.png")
+    print(f"  output_efficiency.png (output length vs. accuracy trade-off)")
+    print(f"  invalid_rate_by_model.png (malformed answer rates, small-model formatting failures)")
 
     archive_run()
 
