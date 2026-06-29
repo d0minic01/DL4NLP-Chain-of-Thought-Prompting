@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import pandas as pd
 
+from eval.archive import archive_run
+
 RESULTS_DIR = Path("results")
 
 BENCHMARK_CATEGORIES = {
@@ -602,6 +604,8 @@ def main():
     print(f"  baseline_sufficiency.png      (is step-by-step / few-shot already enough?)")
     print(f"  output_efficiency.png         (output length vs. accuracy trade-off)")
     print(f"  invalid_rate_by_model.png     (malformed answer rates, small-model formatting failures)")
+
+    archive_run()
 
 
 if __name__ == "__main__":

@@ -6,6 +6,8 @@ import tempfile
 import time
 from pathlib import Path
 
+from eval.archive import archive_run
+
 import lm_eval.api.registry
 import pandas as pd
 import torch
@@ -402,5 +404,7 @@ def run_eval(config):
         out_stream.close()
 
     df = pd.DataFrame(all_results)
+
+    archive_run()
 
     return df

@@ -35,3 +35,4 @@ dependencies = [
 [project.scripts]
 eval = "eval.cli:main"
 visualize = "visualization.main:main"
+archive = "eval.archive:main"
