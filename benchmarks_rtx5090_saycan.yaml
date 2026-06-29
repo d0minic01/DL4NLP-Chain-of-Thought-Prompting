@@ -1,0 +1,65 @@
+cot_techniques:
+  true_baseline:
+    type: zero_shot
+  think_step_by_step:
+    type: zero_shot
+    instruction: "Think step by step."
+  fewshot_baseline:
+    type: fewshot_base
+  paper_cot:
+    type: fewshot_cot
+  persona_cot:
+    type: fewshot_cot
+  contrastive_cot:
+    type: fewshot_cot
+  numbered_step_cot:
+    type: fewshot_cot
+  equation_only:
+    type: fewshot_cot
+  caveman_mode:
+    type: fewshot_cot
+
+benchmarks:
+  saycan:
+    task: saycan
+    limit: null
+
+models:
+  defaults:
+    batch_size: null
+    apply_chat_template: true
+    system_instruction: "Always end your response with: The answer is <your answer>."
+    model_args:
+      dtype: bfloat16
+
+  # ── Gemma 4 (2B, 4B) — compare directly against Gemma 3 at same sizes ───
+  google/gemma-4-E2B-it:
+    type: hf
+    batch_size: 16
+
+  google/gemma-4-E4B-it:
+    type: hf
+    batch_size: 16
+
+  # ── Gemma 3 (270M → 4B) ──────────────────────────────────────────────────
+  google/gemma-3-270m-it:
+    type: hf
+    batch_size: 64
+
+  google/gemma-3-1b-it:
+    type: hf
+    batch_size: 32
+
+  google/gemma-3-4b-it:
+    type: hf
+    batch_size: 16
+
+  # ── Falcon3 (pruned+healed, math/STEM focus) ─────────────────────────────
+  tiiuae/Falcon3-1B-Instruct:
+    type: hf
+    batch_size: 32
+
+  # ── OLMo-2 (Allen AI, open-science, RLVR-trained) ────────────────────────
+  allenai/OLMo-2-0425-1B-Instruct:
+    type: hf
+    batch_size: 32
