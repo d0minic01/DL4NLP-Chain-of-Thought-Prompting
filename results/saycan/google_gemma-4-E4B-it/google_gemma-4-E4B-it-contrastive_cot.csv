@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-4-E4B-it,saycan_contrastive_cot,saycan,contrastive_cot,fewshot_cot,saycan,0.1414141414141414,0.0,236.1,7,100,27.74,24.31

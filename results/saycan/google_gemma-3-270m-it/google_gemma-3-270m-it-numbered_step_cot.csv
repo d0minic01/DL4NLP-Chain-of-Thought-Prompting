@@ -1,0 +1,2 @@
+model,benchmark,bench_base,technique,technique_type,task,accuracy,invalid_rate,avg_output_chars,num_fewshot,limit,eval_time_sec,peak_vram_gb
+google/gemma-3-270m-it,saycan_numbered_step_cot,saycan,numbered_step_cot,fewshot_cot,saycan,0.050505050505050504,0.0707,238.0,7,100,4.9,15.3
